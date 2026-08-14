@@ -48,6 +48,8 @@ import { getRelatedNagoyaAreaGuides } from '../../data/nagoyaAreaGuides';
 import { getRelatedHiroshimaAreaGuides } from '../../data/hiroshimaAreaGuides';
 import { getRelatedKobeAreaGuides } from '../../data/kobeAreaGuides';
 import { getRelatedYokohamaAreaGuides } from '../../data/yokohamaAreaGuides';
+import { getRelatedChibaAreaGuides } from '../../data/chibaAreaGuides';
+import { getChibaSearchIntent } from '../../data/chibaSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -109,12 +111,14 @@ const relatedNagoyaAreaGuides = hotel.slug.startsWith('nagoya-') ? getRelatedNag
 const relatedHiroshimaAreaGuides = hotel.slug.startsWith('hiroshima-') ? getRelatedHiroshimaAreaGuides(hotel) : [];
 const relatedKobeAreaGuides = hotel.slug.startsWith('kobe-') ? getRelatedKobeAreaGuides(hotel) : [];
 const relatedYokohamaAreaGuides = hotel.slug.startsWith('yokohama-') ? getRelatedYokohamaAreaGuides(hotel) : [];
+const relatedChibaAreaGuides = hotel.slug.startsWith('chiba-') ? getRelatedChibaAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('chiba-')) return getChibaSearchIntent(hotel);
   if (hotel.slug.startsWith('gyeongbuk-')) return getGyeongbukSearchIntent(hotel);
   if (hotel.slug.startsWith('jeju-')) return getJejuSearchIntent(hotel);
   if (hotel.slug.startsWith('busan-')) return getBusanSearchIntent(hotel);
@@ -363,6 +367,7 @@ function addRegionScore(scores: Map<string, number>, region: string, score: numb
 }
 
 function extractRegion(value = '') {
+  if (/지바|치바|chiba|나리타|narita|우라야스|urayasu|마이하마|maihama|마쿠하리|makuhari/i.test(value)) return '지바·나리타';
   if (/고베|kobe|아리마|arima/i.test(value)) return '고베';
   if (/히로시마|hiroshima|미야지마|miyajima/i.test(value)) return '히로시마';
   if (/나고야|nagoya/i.test(value)) return '나고야';
@@ -397,6 +402,17 @@ function normalizeRegionLabel(value = '') {
 }
 
 function pickLocalKeyword(text: string, region: string) {
+  if (region === '지바·나리타') {
+    const rules = [
+      { keyword: '나리타공항', patterns: ['나리타', 'narita', 'tokko', '공항', 'airport'] },
+      { keyword: '디즈니·우라야스', patterns: ['디즈니', 'disney', '마이하마', 'maihama', '우라야스', 'urayasu'] },
+      { keyword: '마쿠하리', patterns: ['마쿠하리', 'makuhari', 'hibino', 'mihama'] },
+      { keyword: '보소반도', patterns: ['가모가와', 'kamogawa', '다테야마', 'tateyama', '기사라즈', 'kisarazu', '온주쿠', 'onjuku'] },
+      { keyword: '지바역', patterns: ['지바역', '치바역', 'chiba station', 'chiba ekimae', 'chuo-ku'] }
+    ];
+    return rules.find((rule) => rule.patterns.some((pattern) => text.includes(pattern)))?.keyword || '지바';
+  }
+
   if (region === '고베') {
     const rules = [
       { keyword: '아리마온천', patterns: ['아리마', 'arima', '온천', 'onsen'] },
@@ -1233,6 +1249,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>YOKOHAMA GUIDE</span><h2>예약 전에 함께 보면 좋은 요코하마 호텔 가이드</h2><p>요코하마역, 미나토미라이, 사쿠라기초와 차이나타운은 이동 목적과 숙소 선택 기준이 다릅니다.</p></div>
         <div class="related-guide-grid">{relatedYokohamaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedChibaAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>CHIBA GUIDE</span><h2>예약 전에 함께 보면 좋은 지바·나리타 호텔 가이드</h2><p>나리타공항, 디즈니·우라야스, 마쿠하리와 보소반도는 이동 목적과 숙소 선택 기준이 다릅니다.</p></div>
+        <div class="related-guide-grid">{relatedChibaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

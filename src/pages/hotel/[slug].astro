@@ -56,6 +56,8 @@ import { getRelatedHakoneAreaGuides } from '../../data/hakoneAreaGuides';
 import { getHakoneSearchIntent } from '../../data/hakoneSearchIntents';
 import { getRelatedIshikawaAreaGuides } from '../../data/ishikawaAreaGuides';
 import { getIshikawaSearchIntent } from '../../data/ishikawaSearchIntents';
+import { getRelatedToyamaAreaGuides } from '../../data/toyamaAreaGuides';
+import { getToyamaSearchIntent } from '../../data/toyamaSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -121,12 +123,14 @@ const relatedChibaAreaGuides = hotel.slug.startsWith('chiba-') ? getRelatedChiba
 const relatedMiyagiAreaGuides = hotel.slug.startsWith('miyagi-') ? getRelatedMiyagiAreaGuides(hotel) : [];
 const relatedHakoneAreaGuides = hotel.slug.startsWith('hakone-') ? getRelatedHakoneAreaGuides(hotel) : [];
 const relatedIshikawaAreaGuides = hotel.slug.startsWith('ishikawa-') ? getRelatedIshikawaAreaGuides(hotel) : [];
+const relatedToyamaAreaGuides = hotel.slug.startsWith('toyama-') ? getRelatedToyamaAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('toyama-')) return getToyamaSearchIntent(hotel);
   if (hotel.slug.startsWith('ishikawa-')) return getIshikawaSearchIntent(hotel);
   if (hotel.slug.startsWith('hakone-')) return getHakoneSearchIntent(hotel);
   if (hotel.slug.startsWith('miyagi-')) return getMiyagiSearchIntent(hotel);
@@ -379,6 +383,7 @@ function addRegionScore(scores: Map<string, number>, region: string, score: numb
 }
 
 function extractRegion(value = '') {
+  if (/도야마|toyama|다카오카|takaoka|구로베|kurobe|우나즈키|unazuki|다테야마|tateyama|히미|himi/i.test(value)) return '도야마';
   if (/이시카와|ishikawa|가나자와|kanazawa|가가|kaga|고마쓰|komatsu|와쿠라|wakura|노토|noto|나나오|nanao|와지마|wajima/i.test(value)) return '가나자와·이시카와';
   if (/하코네|hakone|오다와라|odawara|유가와라|yugawara|마나즈루|manazuru/i.test(value)) return '하코네·오다와라';
   if (/미야기|miyagi|센다이|sendai|마쓰시마|matsushima|아키우|akiu|나루코|naruko/i.test(value)) return '센다이·미야기';
@@ -1288,6 +1293,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>ISHIKAWA GUIDE</span><h2>예약 전에 함께 보면 좋은 가나자와·이시카와 호텔 가이드</h2><p>가나자와역과 도심, 가가온천, 와쿠라·노토는 이동 목적과 숙소 선택 기준이 다릅니다.</p></div>
         <div class="related-guide-grid">{relatedIshikawaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedToyamaAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>TOYAMA GUIDE</span><h2>예약 전에 함께 보면 좋은 도야마 호텔 가이드</h2><p>도야마역, 다카오카, 우나즈키·구로베와 다테야마는 이동 목적과 숙소 선택 기준이 다릅니다.</p></div>
+        <div class="related-guide-grid">{relatedToyamaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

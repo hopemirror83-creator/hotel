@@ -50,6 +50,8 @@ import { getRelatedKobeAreaGuides } from '../../data/kobeAreaGuides';
 import { getRelatedYokohamaAreaGuides } from '../../data/yokohamaAreaGuides';
 import { getRelatedChibaAreaGuides } from '../../data/chibaAreaGuides';
 import { getChibaSearchIntent } from '../../data/chibaSearchIntents';
+import { getRelatedMiyagiAreaGuides } from '../../data/miyagiAreaGuides';
+import { getMiyagiSearchIntent } from '../../data/miyagiSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -112,12 +114,14 @@ const relatedHiroshimaAreaGuides = hotel.slug.startsWith('hiroshima-') ? getRela
 const relatedKobeAreaGuides = hotel.slug.startsWith('kobe-') ? getRelatedKobeAreaGuides(hotel) : [];
 const relatedYokohamaAreaGuides = hotel.slug.startsWith('yokohama-') ? getRelatedYokohamaAreaGuides(hotel) : [];
 const relatedChibaAreaGuides = hotel.slug.startsWith('chiba-') ? getRelatedChibaAreaGuides(hotel) : [];
+const relatedMiyagiAreaGuides = hotel.slug.startsWith('miyagi-') ? getRelatedMiyagiAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('miyagi-')) return getMiyagiSearchIntent(hotel);
   if (hotel.slug.startsWith('chiba-')) return getChibaSearchIntent(hotel);
   if (hotel.slug.startsWith('gyeongbuk-')) return getGyeongbukSearchIntent(hotel);
   if (hotel.slug.startsWith('jeju-')) return getJejuSearchIntent(hotel);
@@ -367,6 +371,7 @@ function addRegionScore(scores: Map<string, number>, region: string, score: numb
 }
 
 function extractRegion(value = '') {
+  if (/미야기|miyagi|센다이|sendai|마쓰시마|matsushima|아키우|akiu|나루코|naruko/i.test(value)) return '센다이·미야기';
   if (/지바|치바|chiba|나리타|narita|우라야스|urayasu|마이하마|maihama|마쿠하리|makuhari/i.test(value)) return '지바·나리타';
   if (/고베|kobe|아리마|arima/i.test(value)) return '고베';
   if (/히로시마|hiroshima|미야지마|miyajima/i.test(value)) return '히로시마';
@@ -1255,6 +1260,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>CHIBA GUIDE</span><h2>예약 전에 함께 보면 좋은 지바·나리타 호텔 가이드</h2><p>나리타공항, 디즈니·우라야스, 마쿠하리와 보소반도는 이동 목적과 숙소 선택 기준이 다릅니다.</p></div>
         <div class="related-guide-grid">{relatedChibaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedMiyagiAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>MIYAGI GUIDE</span><h2>예약 전에 함께 보면 좋은 센다이·미야기 호텔 가이드</h2><p>센다이역, 마쓰시마, 아키우·나루코 온천과 미야기 해안은 이동 목적과 숙소 선택 기준이 다릅니다.</p></div>
+        <div class="related-guide-grid">{relatedMiyagiAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

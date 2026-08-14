@@ -28,6 +28,7 @@ import { hiroshimaAreaGuides } from '../data/hiroshimaAreaGuides';
 import { kobeAreaGuides } from '../data/kobeAreaGuides';
 import { yokohamaAreaGuides } from '../data/yokohamaAreaGuides';
 import { chibaAreaGuides } from '../data/chibaAreaGuides';
+import { miyagiAreaGuides } from '../data/miyagiAreaGuides';
 import { multilingualHotels } from '../data/multilingualHotels';
 import { multilingualRegions } from '../data/multilingualRegions';
 
@@ -65,6 +66,7 @@ export const GET: APIRoute = ({ site }) => {
     ...kobeAreaGuides.map((guide) => guide.path),
     ...yokohamaAreaGuides.map((guide) => guide.path),
     ...chibaAreaGuides.map((guide) => guide.path),
+    ...miyagiAreaGuides.map((guide) => guide.path),
     ...gyeongbukAreaGuides.map((guide) => guide.path),
     ...gyeongnamAreaGuides.map((guide) => guide.path),
     ...hotels.map((hotel) => `/hotel/${hotel.slug}/`),

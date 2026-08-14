@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "seoul-788681",
+    "hotelName": "밀리오레 호텔 서울 명동",
+    "region": "서울",
+    "address": "서울특별시 중구 퇴계로 115",
+    "reviewScore": 7.8,
+    "reviewCount": 34018,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-1810284",
+    "hotelName": "나인트리 바이 파르나스 서울 명동 2",
+    "region": "서울",
+    "address": "서울특별시 중구 마른내로 28",
+    "reviewScore": 8.8,
+    "reviewCount": 25310,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-108250",
+    "hotelName": "호텔 피제이 명동",
+    "region": "서울",
+    "address": "서울특별시 중구 마른내로 71 호텔피제이",
+    "reviewScore": 8.5,
+    "reviewCount": 20854,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-1110738",
+    "hotelName": "소테츠 호텔 더 스프라지르 서울 명동",
+    "region": "서울",
+    "address": "서울특별시 중구 남대문로5길 15",
+    "reviewScore": 8.5,
+    "reviewCount": 20118,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-399361",
+    "hotelName": "호텔 스카이파크 센트럴 명동점",
+    "region": "서울",
+    "address": "서울특별시 중구 명동9길 16",
+    "reviewScore": 8.5,
+    "reviewCount": 19762,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-908128",
+    "hotelName": "솔라리아 니시테츠 호텔 서울 명동",
+    "region": "서울",
+    "address": "서울특별시 중구 명동8길 27 엠 플라자",
+    "reviewScore": 9,
+    "reviewCount": 16069,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-407482",
+    "hotelName": "나인트리 바이 파르나스 서울 명동 1",
+    "region": "서울",
+    "address": "서울특별시 중구 명동10길 51",
+    "reviewScore": 8.7,
+    "reviewCount": 15984,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-29283814",
+    "hotelName": "스탠포드 호텔 명동",
+    "region": "서울",
+    "address": "서울특별시 중구 남대문로 84 9층",
+    "reviewScore": 8.9,
+    "reviewCount": 14037,
+    "imageCount": 7,
+    "referenceCount": 5
+  }
+]

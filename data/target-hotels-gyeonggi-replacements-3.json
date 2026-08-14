@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "gyeonggi-11302864",
+    "hotelName": "포천 이뉴풀빌라",
+    "region": "경기",
+    "searchName": "포천 이뉴풀빌라",
+    "naverName": "포천 이뉴풀빌라",
+    "agodaHotelId": 11302864,
+    "fallbackAddress": "1070, Tapsin-ro, Sinbuk-myeon, Pocheon-si, Gyeonggi-do 포천",
+    "latitude": 37.941635,
+    "longitude": 127.133667,
+    "reviewScore": 8.8,
+    "reviewCount": 25,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=11302864"
+  },
+  {
+    "slug": "gyeonggi-21755254",
+    "hotelName": "가평 청풍명월 펜션",
+    "region": "경기",
+    "searchName": "가평 청풍명월 펜션",
+    "naverName": "가평 청풍명월 펜션",
+    "agodaHotelId": 21755254,
+    "fallbackAddress": "Gapyeong-gun, Gyeonggi-do 2429, Yumyeong-ro 가평",
+    "latitude": 37.714622,
+    "longitude": 127.440651,
+    "starRating": 4.5,
+    "reviewScore": 8.7,
+    "reviewCount": 25,
+    "imageUrl": "http://pix4.agoda.net/hotelimages/21755254/0/7504d17b337500bc967d233b9349a46e.jpg?s=312x&ce=0",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=21755254"
+  },
+  {
+    "slug": "gyeonggi-10581636",
+    "hotelName": "산본 호텔 인 카페",
+    "region": "경기",
+    "searchName": "산본 호텔 인 카페",
+    "naverName": "산본 호텔 인 카페",
+    "agodaHotelId": 10581636,
+    "fallbackAddress": "515, Beonyeong-ro, Gunpo-si, Gyeonggi-do 군포",
+    "latitude": 37.359055,
+    "longitude": 126.933678,
+    "reviewScore": 7.7,
+    "reviewCount": 28,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=10581636"
+  }
+]

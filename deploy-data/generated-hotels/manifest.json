@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-08-14T02:13:07.430Z",
+  "total": 12341,
+  "chunkSize": 500,
+  "files": [
+    {
+      "filename": "hotels-001.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-002.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-003.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-004.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-005.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-006.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-007.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-008.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-009.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-010.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-011.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-012.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-013.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-014.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-015.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-016.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-017.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-018.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-019.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-020.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-021.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-022.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-023.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-024.json",
+      "count": 500
+    },
+    {
+      "filename": "hotels-025.json",
+      "count": 341
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "daejeon-76263514",
+    "hotelName": "대전 중리 프로포즈",
+    "region": "대전",
+    "searchName": "대전 중리 프로포즈",
+    "naverName": "대전 중리 프로포즈",
+    "agodaHotelId": 76263514,
+    "fallbackAddress": "18 Jungni-ro 7beon-gil, Daedeok-gu, Daejeon 대전",
+    "latitude": 36.359825,
+    "longitude": 127.424309,
+    "reviewScore": 8.3,
+    "reviewCount": 7,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=76263514"
+  },
+  {
+    "slug": "daejeon-10578125",
+    "hotelName": "대전 중리 캐슬",
+    "region": "대전",
+    "searchName": "대전 중리 캐슬",
+    "naverName": "대전 중리 캐슬",
+    "agodaHotelId": 10578125,
+    "fallbackAddress": "51, Jungninam-ro, Daedeok-gu, Daejeon 대전",
+    "latitude": 36.360729,
+    "longitude": 127.425903,
+    "reviewScore": 7.9,
+    "reviewCount": 7,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=10578125"
+  },
+  {
+    "slug": "daejeon-34411987",
+    "hotelName": "대전 시에스타펜션",
+    "region": "대전",
+    "searchName": "대전 시에스타펜션",
+    "naverName": "대전 시에스타펜션",
+    "agodaHotelId": 34411987,
+    "fallbackAddress": "115, Anteo-gil, Seo-gu, Daejeon 대전",
+    "latitude": 36.233448,
+    "longitude": 127.339081,
+    "reviewScore": 9.1,
+    "reviewCount": 6,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=34411987"
+  }
+]

@@ -1,0 +1,58 @@
+---
+import type { Hotel } from '../data/hotels';
+
+interface Props {
+  hotel: Hotel;
+}
+
+const { hotel } = Astro.props;
+const mapClientId = import.meta.env.PUBLIC_NAVER_MAP_CLIENT_ID || 'w90ehbsu50';
+const latitude = hotel.latitude;
+const longitude = hotel.longitude;
+const hasMap = Boolean(mapClientId && latitude && longitude);
+---
+
+<section class="section map-section">
+  <div class="section-title">
+    <span>LOCATION</span>
+    <h2>주변 위치/지도 정보</h2>
+  </div>
+  {hasMap ? (
+    <>
+      <div
+        id="hotel-map"
+        class="hotel-map"
+        data-name={hotel.hotelName}
+        data-address={hotel.address}
+        data-latitude={latitude}
+        data-longitude={longitude}
+      />
+      <script src={`https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=${mapClientId}`}></script>
+      <script is:inline>
+        const mapEl = document.querySelector('#hotel-map');
+        if (mapEl && window.naver?.maps) {
+          const latitude = Number(mapEl.dataset.latitude);
+          const longitude = Number(mapEl.dataset.longitude);
+          const position = new window.naver.maps.LatLng(latitude, longitude);
+          const map = new window.naver.maps.Map(mapEl, {
+            center: position,
+            zoom: 15,
+            scaleControl: false,
+            logoControl: true,
+            mapDataControl: false,
+            zoomControl: true,
+            zoomControlOptions: {
+              position: window.naver.maps.Position.TOP_RIGHT
+            }
+          });
+          new window.naver.maps.Marker({ position, map, title: mapEl.dataset.name });
+        }
+      </script>
+    </>
+  ) : (
+    <div class="map-placeholder">
+      <strong>지도 매칭 대기</strong>
+      <p>네이버 지도 API 매칭 후 주소와 좌표를 연결합니다. 실패 시 관리자 화면에서 수동 보정합니다.</p>
+    </div>
+  )}
+</section>

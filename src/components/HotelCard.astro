@@ -1,0 +1,77 @@
+---
+import type { Hotel } from '../data/hotels';
+import HotelImage from './HotelImage.astro';
+
+interface Props {
+  hotel: Hotel;
+}
+
+const { hotel } = Astro.props;
+const displayRegion = pickDisplayRegion(hotel);
+const searchText = [
+  hotel.hotelName,
+  hotel.region,
+  hotel.address,
+  hotel.analysis.summary,
+  ...hotel.analysis.pros,
+  ...hotel.analysis.cons,
+  ...hotel.analysis.recommendedFor,
+  ...hotel.analysis.checkPoints
+].join(' ');
+
+function pickDisplayRegion(hotel: Hotel) {
+  const scores = new Map<string, number>();
+  addRegionScore(scores, extractRegion(hotel.region), 2);
+  addRegionScore(scores, extractRegion(hotel.address), 2);
+  addRegionScore(scores, extractRegion([
+    hotel.analysis.seoTitle,
+    hotel.analysis.metaDescription,
+    hotel.analysis.summary
+  ].join(' ')), 4);
+
+  return [...scores.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || extractRegion(hotel.region) || hotel.region || '전국';
+}
+
+function addRegionScore(scores: Map<string, number>, region: string, score: number) {
+  if (!region) return;
+  scores.set(region, (scores.get(region) || 0) + score);
+}
+
+function extractRegion(value = '') {
+  if (/서울|seoul/i.test(value)) return '서울';
+  if (/부산|busan/i.test(value)) return '부산';
+  if (/제주|jeju/i.test(value)) return '제주';
+  if (/강원|gangwon/i.test(value)) return '강원';
+  if (/경기|gyeonggi/i.test(value)) return '경기';
+  if (/인천|incheon/i.test(value)) return '인천';
+  if (/대구|daegu/i.test(value)) return '대구';
+  if (/대전|daejeon/i.test(value)) return '대전';
+  if (/광주|gwangju/i.test(value)) return '광주';
+  if (/울산|ulsan/i.test(value)) return '울산';
+  if (/세종|sejong/i.test(value)) return '세종';
+  if (/충북|충청북도|chungbuk/i.test(value)) return '충북';
+  if (/충남|충청남도|chungnam/i.test(value)) return '충남';
+  if (/전북|전라북도|jeonbuk/i.test(value)) return '전북';
+  if (/전남|전라남도|jeonnam/i.test(value)) return '전남';
+  if (/경북|경상북도|gyeongbuk/i.test(value)) return '경북';
+  if (/경남|경상남도|gyeongnam/i.test(value)) return '경남';
+  return '';
+}
+---
+
+<a class="hotel-card" href={`/hotel/${hotel.slug}/`} data-search={searchText}>
+  <HotelImage
+    hotel={hotel}
+    alt={`${hotel.hotelName} 대표 이미지`}
+    pendingLabel="아고다 이미지 수집 대기"
+  />
+  <div class="hotel-card-body">
+    <span class="region">{displayRegion}</span>
+    <h3>{hotel.hotelName}</h3>
+    <p>{hotel.analysis.summary}</p>
+    <div class="metric-row">
+      <span>{hotel.reviewScore ? `평점 ${hotel.reviewScore}` : '평점 수집 대기'}</span>
+      <span>{hotel.dailyRate ? `${hotel.dailyRate.toLocaleString('ko-KR')}원~` : '가격 수집 대기'}</span>
+    </div>
+  </div>
+</a>

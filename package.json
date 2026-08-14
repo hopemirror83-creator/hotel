@@ -1,0 +1,32 @@
+{
+  "name": "hotellog",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "prebuild": "node scripts/prepare-deploy-hotel-data.mjs",
+    "dev": "node scripts/run-astro.mjs dev",
+    "build": "node scripts/run-astro.mjs build",
+    "preview": "node scripts/run-astro.mjs preview",
+    "check": "node scripts/run-astro.mjs check",
+    "deploy": "npx wrangler pages deploy ./dist --project-name=hotellog --branch=main",
+    "d1:migrate:local": "npx wrangler d1 migrations apply hotellog --local",
+    "d1:migrate:remote": "npx wrangler d1 migrations apply hotellog --remote",
+    "collect:hotels": "node scripts/collect-hotels.mjs",
+    "generate:hotel-content": "node scripts/generate-hotel-content.mjs",
+    "enrich:hotel-images": "node scripts/enrich-hotel-images.mjs",
+    "enrich:average-prices": "node scripts/enrich-average-prices.mjs",
+    "data:split-for-git": "node scripts/split-deploy-hotel-data.mjs"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "astro": "^5.18.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "node": "^22.23.0"
+  }
+}

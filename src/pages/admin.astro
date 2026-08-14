@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { activeHotels as hotels, site } from '../data/hotels';
+---
+
+<BaseLayout
+  title={`${site.name} 관리자 설계`}
+  description="호텔로그 호텔 데이터 수집, AI 콘텐츠 생성, 미리보기, 수동 수정, 발행 상태를 관리하는 운영 화면 초안입니다."
+  canonicalPath="/admin/"
+>
+  <section class="admin-shell">
+    <div class="section-title">
+      <span>ADMIN DRAFT</span>
+      <h1>호텔로그 관리자 흐름</h1>
+      <p>실제 버튼 동작은 API 연결 단계에서 Worker/D1 액션으로 붙입니다.</p>
+    </div>
+
+    <div class="admin-actions">
+      <button>호텔 데이터 수집</button>
+      <button>AI 콘텐츠 생성</button>
+      <button>생성 결과 미리보기</button>
+      <button>수동 수정 후 발행</button>
+    </div>
+
+    <div class="admin-table">
+      <div class="admin-row head">
+        <span>호텔명</span>
+        <span>상태</span>
+        <span>검색 결과</span>
+        <span>갱신일</span>
+      </div>
+      {hotels.map((hotel) => (
+        <a class="admin-row" href={`/hotel/${hotel.slug}/`}>
+          <span>{hotel.hotelName}</span>
+          <span>초안</span>
+          <span>{hotel.searchResultCount ?? 0}개</span>
+          <span>{hotel.lastUpdated ?? '수집 전'}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

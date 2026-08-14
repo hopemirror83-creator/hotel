@@ -1,0 +1,390 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdSenseSlot from '../../components/AdSenseSlot.astro';
+import InArticleAd from '../../components/InArticleAd.astro';
+import {
+  chungnamAreaGuides,
+  chungnamHotels,
+  getChungnamAreaGuideHotels
+} from '../../data/chungnamAreaGuides';
+import type { ChungnamAreaGuide, ChungnamAreaGuideHotel } from '../../data/chungnamAreaGuides';
+
+export function getStaticPaths() {
+  return chungnamAreaGuides.map((guide) => ({
+    params: { slug: guide.slug },
+    props: { guide }
+  }));
+}
+
+const { guide } = Astro.props as { guide: ChungnamAreaGuide };
+const guideHotels: ChungnamAreaGuideHotel[] = getChungnamAreaGuideHotels(
+  guide,
+  guide.slug === 'chungnam-hotel-comparison' ? 40 : 20
+);
+const totalHotelCount = chungnamHotels.length;
+const today = new Date().toISOString().slice(0, 10);
+const hasEnoughHotels = guideHotels.length >= 8;
+const canonicalPath = `/chungnam/${guide.slug}/`;
+
+function priceText(item: ChungnamAreaGuideHotel) {
+  const price = item.hotel.averageNightlyRate ?? item.hotel.dailyRate;
+  return price ? `${price.toLocaleString('ko-KR')}원~` : '가격 확인';
+}
+
+function reviewText(item: ChungnamAreaGuideHotel) {
+  if (!item.hotel.reviewCount || item.hotel.reviewCount < 20) return '후기 데이터 부족';
+  return `${item.hotel.reviewCount.toLocaleString('ko-KR')}건 분석`;
+}
+---
+
+<BaseLayout title={`${guide.title} | 후기 기반 충남 호텔 선택 가이드`} description={guide.metaDescription} canonicalPath={canonicalPath}>
+  <article class="decision-guide">
+    <section class="decision-hero">
+      <span class="eyebrow">{guide.eyebrow}</span>
+      <h1>{guide.title}</h1>
+      <p>{guide.intro}</p>
+      <div class="guide-meta-grid">
+        <div>
+          <span>지역</span>
+          <strong>충남</strong>
+        </div>
+        <div>
+          <span>분석 호텔 수</span>
+          <strong>{totalHotelCount.toLocaleString('ko-KR')}개</strong>
+        </div>
+        <div>
+          <span>페이지 포함</span>
+          <strong>{guideHotels.length.toLocaleString('ko-KR')}개</strong>
+        </div>
+        <div>
+          <span>마지막 업데이트</span>
+          <strong>{today}</strong>
+        </div>
+      </div>
+    </section>
+
+    <AdSenseSlot placement="top" />
+
+    <section class="section guide-question-section">
+      <div class="section-title">
+        <span>DECISION QUESTION</span>
+        <h2>{guide.intentQuestion}</h2>
+        <p>{guide.purpose}</p>
+      </div>
+      <div class="criteria-list">
+        {guide.criteria.map((criterion) => <span>{criterion}</span>)}
+      </div>
+      {!hasEnoughHotels && (
+        <p class="data-warning">현재 이 조건에 맞는 호텔이 8개 미만입니다. 억지로 채우지 않고 후기 데이터 부족으로 표시합니다.</p>
+      )}
+    </section>
+
+    <InArticleAd />
+
+    <section class="section">
+      <div class="section-title">
+        <span>TOP LIST</span>
+        <h2>추천 후보</h2>
+        <p>후기 수, 평점, 위치 신호, 가격 정보를 함께 보고 정렬했습니다. 충남 숙소는 지역 간 거리가 넓어 실제 방문지를 먼저 맞춘 뒤 비교하는 것이 좋습니다.</p>
+      </div>
+      <div class="guide-card-list">
+        {guideHotels.map((item, index) => (
+          <article class="guide-hotel-card">
+            <a class="guide-hotel-image" href={`/hotel/${item.hotel.slug}/`}>
+              {item.hotel.imageUrl ? (
+                <img src={item.hotel.imageUrl} alt={`${item.hotel.hotelName} 대표 이미지`} loading="lazy" />
+              ) : (
+                <span>IMAGE</span>
+              )}
+            </a>
+            <div class="guide-hotel-body">
+              <div class="guide-rank-line">
+                <span>#{index + 1}</span>
+                <b>{reviewText(item)}</b>
+              </div>
+              <h3>{item.hotel.hotelName}</h3>
+              <p class="guide-address">{item.hotel.address}</p>
+              <div class="guide-metrics">
+                <span>평점 {item.hotel.reviewScore ?? '확인 필요'}</span>
+                <span>{priceText(item)}</span>
+              </div>
+              <ul class="guide-reasons">
+                {item.reasons.map((reason) => <li>{reason}</li>)}
+              </ul>
+              <p class="guide-caution"><strong>주의할 점 </strong>{item.caution}</p>
+              <div class="guide-tags">
+                {item.tags.map((tag) => <span>{tag}</span>)}
+              </div>
+              <a class="text-link" href={`/hotel/${item.hotel.slug}/`}>개별 후기 페이지 보기</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <span>COMPARISON</span>
+        <h2>비교표</h2>
+        <p>이 표는 {guide.title} 검색 의도에 맞춰 비교 기준을 다르게 적용했습니다.</p>
+      </div>
+      <div class="guide-table-wrap">
+        <table class="guide-table">
+          <thead>
+            <tr>
+              <th>호텔명</th>
+              {guide.tableColumns.map((column) => <th>{column}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {guideHotels.map((item) => (
+              <tr>
+                <th><a href={`/hotel/${item.hotel.slug}/`}>{item.hotel.hotelName}</a></th>
+                {item.tableCells.map((cell) => <td>{cell}</td>)}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section related-guide-section">
+      <div class="section-title">
+        <span>RELATED GUIDE</span>
+        <h2>충남의 다른 호텔 선택 기준</h2>
+      </div>
+      <div class="related-guide-grid">
+        {chungnamAreaGuides.filter((item) => item.slug !== guide.slug).slice(0, 10).map((item) => (
+          <a href={item.path}>
+            <span>{item.eyebrow}</span>
+            <strong>{item.title}</strong>
+          </a>
+        ))}
+      </div>
+    </section>
+    <AdSenseSlot placement="bottom" />
+  </article>
+</BaseLayout>
+
+<style>
+  .decision-guide {
+    background: #f3f6fb;
+    color: #111827;
+  }
+
+  .decision-hero,
+  .section {
+    background: #fff;
+    border-bottom: 1px solid #dbe3ef;
+    padding: clamp(32px, 5vw, 72px) clamp(18px, 5vw, 64px);
+  }
+
+  .eyebrow,
+  .section-title span {
+    color: #2563eb;
+    display: block;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    letter-spacing: 0;
+  }
+
+  h1 {
+    font-size: clamp(38px, 8vw, 76px);
+    line-height: 1.04;
+    margin: 0 0 20px;
+    max-width: 980px;
+  }
+
+  .decision-hero p,
+  .section-title p {
+    color: #55647a;
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 980px;
+  }
+
+  .guide-meta-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 32px;
+  }
+
+  .guide-meta-grid div,
+  .guide-hotel-card,
+  .guide-table-wrap,
+  .data-warning {
+    border: 1px solid #dbe3ef;
+    border-radius: 8px;
+    background: #f8fbff;
+  }
+
+  .guide-meta-grid div {
+    padding: 18px;
+  }
+
+  .guide-meta-grid span,
+  .guide-rank-line,
+  .guide-address,
+  .guide-metrics,
+  .guide-caution {
+    color: #55647a;
+  }
+
+  .guide-meta-grid strong {
+    display: block;
+    font-size: 24px;
+    margin-top: 8px;
+  }
+
+  .criteria-list,
+  .guide-tags,
+  .guide-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .criteria-list span,
+  .guide-tags span,
+  .guide-metrics span {
+    background: #edf4ff;
+    border-radius: 999px;
+    color: #1d4ed8;
+    font-weight: 800;
+    padding: 8px 12px;
+  }
+
+  .data-warning {
+    margin-top: 22px;
+    padding: 18px;
+  }
+
+  .guide-card-list {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .guide-hotel-card {
+    display: block;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .guide-hotel-image {
+    background: #e5edf7;
+    display: block;
+    aspect-ratio: 16 / 10;
+    min-height: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .guide-hotel-image img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .guide-hotel-body {
+    padding: 20px;
+  }
+
+  .guide-rank-line {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+  }
+
+  .guide-hotel-body h3 {
+    font-size: 26px;
+    line-height: 1.25;
+    margin: 12px 0;
+  }
+
+  .guide-address {
+    line-height: 1.6;
+  }
+
+  .guide-reasons {
+    line-height: 1.7;
+    padding-left: 20px;
+  }
+
+  .text-link {
+    color: #064e3b;
+    display: inline-block;
+    font-weight: 900;
+    margin-top: 12px;
+  }
+
+  .guide-table-wrap {
+    overflow-x: auto;
+  }
+
+  .guide-table {
+    border-collapse: collapse;
+    min-width: 760px;
+    width: 100%;
+  }
+
+  .guide-table th,
+  .guide-table td {
+    border-bottom: 1px solid #dbe3ef;
+    padding: 16px;
+    text-align: left;
+  }
+
+  .guide-table a {
+    color: #111827;
+    font-weight: 900;
+  }
+
+  .related-guide-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .related-guide-grid a {
+    background: #f8fbff;
+    border: 1px solid #dbe3ef;
+    border-radius: 8px;
+    color: #111827;
+    padding: 18px;
+    text-decoration: none;
+  }
+
+  .related-guide-grid span {
+    color: #2563eb;
+    display: block;
+    font-size: 12px;
+    font-weight: 900;
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 720px) {
+    .guide-card-list {
+      grid-template-columns: 1fr;
+    }
+
+    .guide-meta-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .decision-hero p,
+    .section-title p {
+      font-size: 17px;
+    }
+  }
+</style>

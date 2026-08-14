@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "seoul-10582734",
+    "hotelName": "도봉 M",
+    "region": "서울",
+    "searchName": "도봉 M",
+    "naverName": "도봉 M",
+    "agodaHotelId": 10582734,
+    "fallbackAddress": "777, Dobong-ro, Dobong-gu, Seoul 서울",
+    "latitude": 37.673901,
+    "longitude": 127.043961,
+    "reviewScore": 8,
+    "reviewCount": 5,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=10582734"
+  },
+  {
+    "slug": "seoul-10587882",
+    "hotelName": "중랑 발리",
+    "region": "서울",
+    "searchName": "중랑 발리",
+    "naverName": "중랑 발리",
+    "agodaHotelId": 10587882,
+    "fallbackAddress": "10, Mangu-ro 25-gil, Jungnang-gu, Seoul 서울",
+    "latitude": 37.593403,
+    "longitude": 127.071632,
+    "reviewScore": 8.2,
+    "reviewCount": 4,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=10587882"
+  },
+  {
+    "slug": "seoul-337413",
+    "hotelName": "더월 호텔",
+    "region": "서울",
+    "searchName": "더월 호텔",
+    "naverName": "더월 호텔",
+    "agodaHotelId": 337413,
+    "fallbackAddress": "81-2, Dongseon-dong, Seongbuk-gu 서울 Seoul",
+    "latitude": 37.593891,
+    "longitude": 127.01709,
+    "starRating": 2.5,
+    "reviewScore": 8,
+    "reviewCount": 4,
+    "imageUrl": "http://pix4.agoda.net/hotelimages/337/337413/337413_14101009080022662044.jpg?s=312x&ca=3&ce=1",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=337413"
+  }
+]

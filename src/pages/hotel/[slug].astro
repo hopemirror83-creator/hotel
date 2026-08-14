@@ -1,0 +1,1267 @@
+---
+import HotelMap from '../../components/HotelMap.astro';
+import AdSenseSlot from '../../components/AdSenseSlot.astro';
+import InArticleAd from '../../components/InArticleAd.astro';
+import HotelImage from '../../components/HotelImage.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { activeHotels as hotels } from '../../data/hotels';
+import { isYeongjongHotel, yeongjongGuides } from '../../data/decisionGuides';
+import { getHotelSearchIntent } from '../../data/searchIntentGuides';
+import { getBusanSearchIntent } from '../../data/busanSearchIntents';
+import { getRelatedBusanAreaGuides } from '../../data/busanAreaGuides';
+import { getJejuSearchIntent } from '../../data/jejuSearchIntents';
+import { getRelatedJejuAreaGuides } from '../../data/jejuAreaGuides';
+import { getGyeonggiSearchIntent } from '../../data/gyeonggiSearchIntents';
+import { getRelatedGyeonggiAreaGuides } from '../../data/gyeonggiAreaGuides';
+import { getSeoulSearchIntent } from '../../data/seoulSearchIntents';
+import { getRelatedSeoulAreaGuides } from '../../data/seoulAreaGuides';
+import { getIncheonSearchIntent } from '../../data/incheonSearchIntents';
+import { getRelatedIncheonAreaGuides } from '../../data/incheonAreaGuides';
+import { getGangwonSearchIntent } from '../../data/gangwonSearchIntents';
+import { getRelatedGangwonAreaGuides } from '../../data/gangwonAreaGuides';
+import { getJeonnamSearchIntent } from '../../data/jeonnamSearchIntents';
+import { getRelatedJeonnamAreaGuides } from '../../data/jeonnamAreaGuides';
+import { getGyeongbukSearchIntent } from '../../data/gyeongbukSearchIntents';
+import { getRelatedGyeongbukAreaGuides } from '../../data/gyeongbukAreaGuides';
+import { getGyeongnamSearchIntent } from '../../data/gyeongnamSearchIntents';
+import { getRelatedGyeongnamAreaGuides } from '../../data/gyeongnamAreaGuides';
+import { getJeonbukSearchIntent } from '../../data/jeonbukSearchIntents';
+import { getRelatedJeonbukAreaGuides } from '../../data/jeonbukAreaGuides';
+import { getChungbukSearchIntent } from '../../data/chungbukSearchIntents';
+import { getRelatedChungbukAreaGuides } from '../../data/chungbukAreaGuides';
+import { getDaeguSearchIntent } from '../../data/daeguSearchIntents';
+import { getRelatedDaeguAreaGuides } from '../../data/daeguAreaGuides';
+import { getDaejeonSearchIntent } from '../../data/daejeonSearchIntents';
+import { getRelatedDaejeonAreaGuides } from '../../data/daejeonAreaGuides';
+import { getChungnamSearchIntent } from '../../data/chungnamSearchIntents';
+import { getRelatedChungnamAreaGuides } from '../../data/chungnamAreaGuides';
+import { getGwangjuSearchIntent } from '../../data/gwangjuSearchIntents';
+import { getUlsanSearchIntent } from '../../data/ulsanSearchIntents';
+import { getRelatedUlsanAreaGuides } from '../../data/ulsanAreaGuides';
+import { getRelatedOsakaAreaGuides } from '../../data/osakaAreaGuides';
+import { getRelatedTokyoAreaGuides } from '../../data/tokyoAreaGuides';
+import { getRelatedFukuokaAreaGuides } from '../../data/fukuokaAreaGuides';
+import { getRelatedKyotoAreaGuides } from '../../data/kyotoAreaGuides';
+import { getRelatedSapporoAreaGuides } from '../../data/sapporoAreaGuides';
+import { getRelatedOkinawaAreaGuides } from '../../data/okinawaAreaGuides';
+import { getRelatedNagoyaAreaGuides } from '../../data/nagoyaAreaGuides';
+import { getRelatedHiroshimaAreaGuides } from '../../data/hiroshimaAreaGuides';
+import { getRelatedKobeAreaGuides } from '../../data/kobeAreaGuides';
+import { getRelatedYokohamaAreaGuides } from '../../data/yokohamaAreaGuides';
+import { multilingualHotels } from '../../data/multilingualHotels';
+import type { Hotel, HotelAnalysis } from '../../data/hotels';
+
+export function getStaticPaths() {
+  return hotels.map((hotel) => ({
+    params: { slug: hotel.slug },
+    props: { hotel }
+  }));
+}
+
+const { hotel } = Astro.props;
+const localizedVersions = (multilingualHotels as Record<string, Record<string, unknown>>)[hotel.slug];
+const languageAlternates = localizedVersions ? [
+  { lang: 'ko', path: `/hotel/${hotel.slug}/` },
+  ...(localizedVersions.en ? [{ lang: 'en', path: `/en/hotel/${hotel.slug}/` }] : []),
+  ...(localizedVersions.ja ? [{ lang: 'ja', path: `/ja/hotel/${hotel.slug}/` }] : []),
+  { lang: 'x-default', path: `/hotel/${hotel.slug}/` }
+] : [];
+const analysis = hotel.analysis;
+const blogReview = analysis.blogReview;
+const searchIntent = getHotelSearchIntent(hotel.slug) ?? getRegionalSearchIntent(hotel);
+const baseLongtailHeading = buildLongtailHeading(hotel, analysis);
+const rawLongtailHeading = searchIntent?.title ?? baseLongtailHeading;
+const longtailHeading = enrichLongtailHeading(hotel, analysis, rawLongtailHeading, searchIntent);
+const longtailSeoTitle = buildLongtailSeoTitle(searchIntent?.seoTitle, searchIntent?.title, longtailHeading);
+const metaDescription = searchIntent?.metaDescription ?? analysis.metaDescription;
+const displayRegion = pickDisplayRegion(hotel, analysis);
+const displayRate = hotel.averageNightlyRate ?? hotel.dailyRate;
+const averagePriceText = displayRate ? `${displayRate.toLocaleString('ko-KR')}원~` : '';
+const reviewSignals = buildReviewSignals(hotel, analysis);
+const reliability = buildReliability(hotel);
+const choiceReviewNotes = buildChoiceReviewNotes(hotel, analysis);
+const relatedYeongjongGuides = isYeongjongHotel(hotel) ? yeongjongGuides.slice(1) : [];
+const isRegionHotel = (prefix: string, labels: string[]) => (
+  hotel.slug.startsWith(`${prefix}-`) || labels.includes(String(hotel.region || '').trim())
+);
+const relatedBusanAreaGuides = isRegionHotel('busan', ['부산', '부산광역시']) ? getRelatedBusanAreaGuides(hotel) : [];
+const relatedJejuAreaGuides = isRegionHotel('jeju', ['제주', '제주특별자치도']) ? getRelatedJejuAreaGuides(hotel) : [];
+const relatedGyeonggiAreaGuides = isRegionHotel('gyeonggi', ['경기', '경기도']) ? getRelatedGyeonggiAreaGuides(hotel) : [];
+const relatedSeoulAreaGuides = isRegionHotel('seoul', ['서울', '서울특별시']) ? getRelatedSeoulAreaGuides(hotel) : [];
+const relatedIncheonAreaGuides = isRegionHotel('incheon', ['인천', '인천광역시']) ? getRelatedIncheonAreaGuides(hotel) : [];
+const relatedGangwonAreaGuides = isRegionHotel('gangwon', ['강원', '강원도', '강원특별자치도']) ? getRelatedGangwonAreaGuides(hotel) : [];
+const relatedJeonnamAreaGuides = isRegionHotel('jeonnam', ['전남', '전라남도']) ? getRelatedJeonnamAreaGuides(hotel) : [];
+const relatedJeonbukAreaGuides = isRegionHotel('jeonbuk', ['전북', '전라북도', '전북특별자치도']) ? getRelatedJeonbukAreaGuides(hotel) : [];
+const relatedChungbukAreaGuides = isRegionHotel('chungbuk', ['충북', '충청북도']) ? getRelatedChungbukAreaGuides(hotel) : [];
+const relatedDaeguAreaGuides = isRegionHotel('daegu', ['대구', '대구광역시']) ? getRelatedDaeguAreaGuides(hotel) : [];
+const relatedDaejeonAreaGuides = isRegionHotel('daejeon', ['대전', '대전광역시']) ? getRelatedDaejeonAreaGuides(hotel) : [];
+const relatedChungnamAreaGuides = isRegionHotel('chungnam', ['충남', '충청남도']) ? getRelatedChungnamAreaGuides(hotel) : [];
+const relatedGyeongbukAreaGuides = isRegionHotel('gyeongbuk', ['경북', '경상북도']) ? getRelatedGyeongbukAreaGuides(hotel) : [];
+const relatedGyeongnamAreaGuides = isRegionHotel('gyeongnam', ['경남', '경상남도']) ? getRelatedGyeongnamAreaGuides(hotel) : [];
+const relatedUlsanAreaGuides = isRegionHotel('ulsan', ['울산', '울산광역시']) ? getRelatedUlsanAreaGuides(hotel) : [];
+const relatedOsakaAreaGuides = hotel.slug.startsWith('osaka-') ? getRelatedOsakaAreaGuides(hotel) : [];
+const relatedTokyoAreaGuides = hotel.slug.startsWith('tokyo-') ? getRelatedTokyoAreaGuides(hotel) : [];
+const relatedFukuokaAreaGuides = hotel.slug.startsWith('fukuoka-') ? getRelatedFukuokaAreaGuides(hotel) : [];
+const relatedKyotoAreaGuides = hotel.slug.startsWith('kyoto-') ? getRelatedKyotoAreaGuides(hotel) : [];
+const relatedSapporoAreaGuides = hotel.slug.startsWith('sapporo-') ? getRelatedSapporoAreaGuides(hotel) : [];
+const relatedOkinawaAreaGuides = hotel.slug.startsWith('okinawa-') ? getRelatedOkinawaAreaGuides(hotel) : [];
+const relatedNagoyaAreaGuides = hotel.slug.startsWith('nagoya-') ? getRelatedNagoyaAreaGuides(hotel) : [];
+const relatedHiroshimaAreaGuides = hotel.slug.startsWith('hiroshima-') ? getRelatedHiroshimaAreaGuides(hotel) : [];
+const relatedKobeAreaGuides = hotel.slug.startsWith('kobe-') ? getRelatedKobeAreaGuides(hotel) : [];
+const relatedYokohamaAreaGuides = hotel.slug.startsWith('yokohama-') ? getRelatedYokohamaAreaGuides(hotel) : [];
+const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
+const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
+
+function getRegionalSearchIntent(hotel: Hotel) {
+  // The slug is the canonical region signal. Address fragments such as
+  // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('gyeongbuk-')) return getGyeongbukSearchIntent(hotel);
+  if (hotel.slug.startsWith('jeju-')) return getJejuSearchIntent(hotel);
+  if (hotel.slug.startsWith('busan-')) return getBusanSearchIntent(hotel);
+  if (hotel.slug.startsWith('seoul-')) return getSeoulSearchIntent(hotel);
+  if (hotel.slug.startsWith('incheon-')) return getIncheonSearchIntent(hotel);
+  if (hotel.slug.startsWith('gangwon-')) return getGangwonSearchIntent(hotel);
+  if (hotel.slug.startsWith('gyeonggi-')) return getGyeonggiSearchIntent(hotel);
+  if (hotel.slug.startsWith('jeonnam-')) return getJeonnamSearchIntent(hotel);
+  if (hotel.slug.startsWith('jeonbuk-')) return getJeonbukSearchIntent(hotel);
+  if (hotel.slug.startsWith('chungbuk-')) return getChungbukSearchIntent(hotel);
+  if (hotel.slug.startsWith('chungnam-')) return getChungnamSearchIntent(hotel);
+  if (hotel.slug.startsWith('daegu-')) return getDaeguSearchIntent(hotel);
+  if (hotel.slug.startsWith('daejeon-')) return getDaejeonSearchIntent(hotel);
+  if (hotel.slug.startsWith('gwangju-')) return getGwangjuSearchIntent(hotel);
+  if (hotel.slug.startsWith('ulsan-')) return getUlsanSearchIntent(hotel);
+  if (hotel.slug.startsWith('gyeongnam-')) return getGyeongnamSearchIntent(hotel);
+
+  if (/^gyeongbuk-|경북|경상북도|Gyeongbuk|Gyeongsangbuk/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getGyeongbukSearchIntent(hotel);
+  }
+  if (/^jeju-|제주|Jeju/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getJejuSearchIntent(hotel);
+  }
+  if (/^busan-|부산|Busan/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getBusanSearchIntent(hotel);
+  }
+  if (/^seoul-|서울|Seoul/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getSeoulSearchIntent(hotel);
+  }
+  if (/^incheon-|인천|Incheon/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getIncheonSearchIntent(hotel);
+  }
+  if (/^gangwon-|강원|Gangwon/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getGangwonSearchIntent(hotel);
+  }
+  if (/^gyeonggi-|경기|Gyeonggi/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getGyeonggiSearchIntent(hotel);
+  }
+  if (/^jeonnam-|전남|전라남도|Jeonnam|Jeolla/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getJeonnamSearchIntent(hotel);
+  }
+  if (/^jeonbuk-|전북|전라북도|Jeonbuk/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getJeonbukSearchIntent(hotel);
+  }
+  if (/^chungbuk-|충북|Chungbuk/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getChungbukSearchIntent(hotel);
+  }
+  if (/^chungnam-|충남|Chungnam/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getChungnamSearchIntent(hotel);
+  }
+  if (/^daegu-|대구|Daegu/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getDaeguSearchIntent(hotel);
+  }
+  if (/^daejeon-|대전|Daejeon/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getDaejeonSearchIntent(hotel);
+  }
+  if (/^gwangju-|광주|Gwangju/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getGwangjuSearchIntent(hotel);
+  }
+  if (/^ulsan-|울산|Ulsan/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getUlsanSearchIntent(hotel);
+  }
+  if (/^gyeongnam-|경남|경상남도|Gyeongnam/i.test([hotel.slug, hotel.region, hotel.address].join(' '))) {
+    return getGyeongnamSearchIntent(hotel);
+  }
+  return (
+    getBusanSearchIntent(hotel) ??
+    getJejuSearchIntent(hotel) ??
+    getGyeonggiSearchIntent(hotel) ??
+    getSeoulSearchIntent(hotel) ??
+    getGangwonSearchIntent(hotel) ??
+    getGwangjuSearchIntent(hotel) ??
+    getJeonnamSearchIntent(hotel) ??
+    getJeonbukSearchIntent(hotel) ??
+    getChungbukSearchIntent(hotel) ??
+    getDaeguSearchIntent(hotel) ??
+    getDaejeonSearchIntent(hotel) ??
+    getChungnamSearchIntent(hotel) ??
+    getUlsanSearchIntent(hotel) ??
+    getGyeongbukSearchIntent(hotel) ??
+    getGyeongnamSearchIntent(hotel) ??
+    getIncheonSearchIntent(hotel)
+  );
+}
+
+function buildLongtailHeading(hotel: Hotel, analysis: HotelAnalysis) {
+  const location = pickSearchLocation(hotel, analysis);
+  return `${hotel.hotelName} ${location} 후기 모음`;
+}
+
+function enrichLongtailHeading(
+  hotel: Hotel,
+  analysis: HotelAnalysis,
+  heading: string,
+  searchIntent?: {
+    title?: string;
+    intentChips?: string[];
+    faqs?: Array<{ category?: string; question?: string }>;
+  }
+) {
+  if (hasEnoughLongtailTerms(heading)) return heading;
+
+  const picked = pickLongtailTitleTerms(hotel, analysis, searchIntent)
+    .filter((term) => !normalizeSearchText(heading).includes(normalizeSearchText(term)))
+    .slice(0, 4);
+
+  if (picked.length === 0) return heading;
+  return appendAfterReviewSuffix(heading, picked.join(' '));
+}
+
+function buildLongtailSeoTitle(rawSeoTitle: string | undefined, rawTitle: string | undefined, heading: string) {
+  if (rawSeoTitle && rawTitle && rawSeoTitle.includes(rawTitle)) {
+    return rawSeoTitle.replace(rawTitle, heading);
+  }
+  return `${heading}｜예약 전 FAQ`;
+}
+
+function hasEnoughLongtailTerms(text: string) {
+  const normalized = normalizeSearchText(text);
+  if (text.includes('·')) return true;
+  return getLongtailTitleTerms().filter((term) => normalized.includes(normalizeSearchText(term))).length >= 2;
+}
+
+function appendAfterReviewSuffix(heading: string, terms: string) {
+  if (/후기\s*모음$/.test(heading)) {
+    return heading.replace(/\s*후기\s*모음$/, ` 후기 모음 ${terms}`);
+  }
+  return `${heading} ${terms}`;
+}
+
+function pickLongtailTitleTerms(
+  hotel: Hotel,
+  analysis: HotelAnalysis,
+  searchIntent?: {
+    intentChips?: string[];
+    faqs?: Array<{ category?: string; question?: string }>;
+  }
+) {
+  const sourceText = normalizeSearchText(
+    [
+      hotel.hotelName,
+      hotel.region,
+      hotel.address,
+      analysis.summary,
+      analysis.seoTitle,
+      analysis.metaDescription,
+      analysis.pros.join(' '),
+      analysis.cons.join(' '),
+      analysis.recommendedFor.join(' '),
+      analysis.notRecommendedFor.join(' '),
+      analysis.checkPoints.join(' '),
+      searchIntent?.intentChips?.join(' '),
+      searchIntent?.faqs?.map((faq) => `${faq.category ?? ''} ${faq.question ?? ''}`).join(' ')
+    ]
+      .filter(Boolean)
+      .join(' ')
+  );
+
+  const directTerms = getLongtailTitleTerms().filter((term) => sourceText.includes(normalizeSearchText(term)));
+  return uniqueStrings([...pickDefaultTitleTerms(hotel, analysis), ...directTerms]);
+}
+
+function pickDefaultTitleTerms(hotel: Hotel, analysis: HotelAnalysis) {
+  const text = normalizeSearchText(
+    [hotel.hotelName, hotel.region, hotel.address, analysis.seoTitle, analysis.metaDescription, analysis.summary].join(' ')
+  );
+
+  if (/송도|센트럴파크|컨벤시아|업무지구/.test(text)) return ['출장', '체크인', '주차', '조식'];
+  if (/운서|인천공항|공항/.test(text)) return ['공항근처', '셔틀', '체크인', '주차'];
+  if (/부평|구월|청라|서구|월미|차이나타운/.test(text)) return ['위치', '주차', '체크인', '가성비'];
+  if (/강화|석모|동막|펜션/.test(text)) return ['가족', '주차', '객실', '가성비'];
+  if (/명동|동대문|종로|인사동|홍대|마포|서울역|용산/.test(text)) return ['위치', '교통', '체크인', '조식'];
+  if (/강남|서초|여의도|영등포|잠실|송파|판교|분당|성남|동탄|수원/.test(text)) return ['출장', '주차', '체크인', '조식'];
+  if (/해운대|광안리|송도|기장|오시리아|강릉|속초|양양|고성|제주|서귀포|중문|애월|함덕|성산/.test(text)) {
+    return ['오션뷰', '주차', '체크인', '가성비'];
+  }
+  if (/부산역|서면|남포|자갈치|춘천|원주|평창|홍천|김포|일산|고양|용인/.test(text)) {
+    return ['위치', '주차', '체크인', '가성비'];
+  }
+  return ['위치', '체크인', '주차', '조식'];
+}
+
+function uniqueStrings(values: string[]) {
+  return [...new Set(values.filter(Boolean))];
+}
+
+function getLongtailTitleTerms() {
+  return [
+    '위치',
+    '교통',
+    '체크인',
+    '주차',
+    '조식',
+    '가성비',
+    '가족',
+    '가족동반',
+    '커플',
+    '오션뷰',
+    '수영장',
+    '호캉스',
+    '셔틀',
+    '공항근처',
+    '짐보관',
+    '객실',
+    '출장',
+    '리조트',
+    '펜션',
+    '해변',
+    '역근처'
+  ];
+}
+
+function pickSearchLocation(hotel: Hotel, analysis: HotelAnalysis) {
+  const region = pickDisplayRegion(hotel, analysis);
+  const text = normalizeSearchText([
+    hotel.hotelName,
+    hotel.address,
+    analysis.seoTitle,
+    analysis.metaDescription
+  ].join(' '));
+  const local = pickLocalKeyword(text, region);
+  const hotelNameText = normalizeSearchText(hotel.hotelName);
+
+  const parts = [];
+  if (local && local !== region && !hotelNameText.includes(normalizeSearchText(local))) {
+    parts.push(local);
+  }
+  if (region && !hotelNameText.includes(normalizeSearchText(region))) {
+    parts.push(region);
+  }
+  return parts.length > 0 ? parts.join(' ') : region;
+}
+
+function pickDisplayRegion(hotel: Hotel, analysis: HotelAnalysis) {
+  const scores = new Map<string, number>();
+  addRegionScore(scores, extractRegion(hotel.region), 2);
+  addRegionScore(scores, extractRegion(hotel.address), 2);
+  addRegionScore(scores, extractRegion([analysis.seoTitle, analysis.metaDescription, analysis.summary].join(' ')), 4);
+
+  return [...scores.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || normalizeRegionLabel(hotel.region) || '전국';
+}
+
+function addRegionScore(scores: Map<string, number>, region: string, score: number) {
+  if (!region) return;
+  scores.set(region, (scores.get(region) || 0) + score);
+}
+
+function extractRegion(value = '') {
+  if (/고베|kobe|아리마|arima/i.test(value)) return '고베';
+  if (/히로시마|hiroshima|미야지마|miyajima/i.test(value)) return '히로시마';
+  if (/나고야|nagoya/i.test(value)) return '나고야';
+  if (/오키나와|okinawa|나하|naha/i.test(value)) return '오키나와';
+  if (/삿포로|sapporo/i.test(value)) return '삿포로';
+  if (/교토|kyoto/i.test(value)) return '교토';
+  if (/후쿠오카|fukuoka/i.test(value)) return '후쿠오카';
+  if (/도쿄|동경|tokyo/i.test(value)) return '도쿄';
+  if (/오사카|osaka/i.test(value)) return '오사카';
+  if (/서울|seoul/i.test(value)) return '서울';
+  if (/부산|busan/i.test(value)) return '부산';
+  if (/제주|jeju/i.test(value)) return '제주';
+  if (/강원|gangwon/i.test(value)) return '강원';
+  if (/경기|gyeonggi/i.test(value)) return '경기';
+  if (/인천|incheon/i.test(value)) return '인천';
+  if (/대구|daegu/i.test(value)) return '대구';
+  if (/대전|daejeon/i.test(value)) return '대전';
+  if (/광주|gwangju/i.test(value)) return '광주';
+  if (/울산|ulsan/i.test(value)) return '울산';
+  if (/세종|sejong/i.test(value)) return '세종';
+  if (/충북|충청북도|chungbuk/i.test(value)) return '충북';
+  if (/충남|충청남도|chungnam/i.test(value)) return '충남';
+  if (/전북|전라북도|jeonbuk/i.test(value)) return '전북';
+  if (/전남|전라남도|jeonnam/i.test(value)) return '전남';
+  if (/경북|경상북도|gyeongbuk/i.test(value)) return '경북';
+  if (/경남|경상남도|gyeongnam/i.test(value)) return '경남';
+  return '';
+}
+
+function normalizeRegionLabel(value = '') {
+  return extractRegion(value) || value.replace(/\s+/g, ' ').trim();
+}
+
+function pickLocalKeyword(text: string, region: string) {
+  if (region === '고베') {
+    const rules = [
+      { keyword: '아리마온천', patterns: ['아리마', 'arima', '온천', 'onsen'] },
+      { keyword: '롯코', patterns: ['롯코', 'rokko', '세이신', 'seishin'] },
+      { keyword: '하버랜드', patterns: ['하버랜드', 'harborland', '메리켄', 'meriken', '고베항', 'kobe port'] },
+      { keyword: '고베역', patterns: ['고베역', 'kobe station', '히가시카와사키', 'higashikawasaki'] },
+      { keyword: '산노미야', patterns: ['산노미야', 'sannomiya', '이소가미', 'isogami'] }
+    ];
+    return rules.find((rule) => rule.patterns.some((pattern) => text.includes(pattern)))?.keyword || '고베';
+  }
+
+  if (region === '히로시마') {
+    const rules = [
+      { keyword: '미야지마', patterns: ['미야지마', 'miyajima', '이쓰쿠시마', 'itsukushima', '하츠카이치', 'hatsukaichi', '미야하마', 'miyahama'] },
+      { keyword: '평화기념공원', patterns: ['평화기념공원', 'peace park', 'peace memorial', '원폭돔', 'atomic bomb dome', '오테마치', 'otemachi', '나카지마초', 'nakajimacho'] },
+      { keyword: '핫초보리·혼도리', patterns: ['핫초보리', 'hatchobori', '혼도리', 'hondori', '노보리초', 'noboricho', '신텐치', 'shintenchi', '나가레카와', 'nagarekawa'] },
+      { keyword: '히로시마역', patterns: ['히로시마역', 'hiroshima station', '히로시마에키마에', 'hiroshima-ekimae', '신칸센구치', '미나미구', 'minami-ku'] }
+    ];
+    return rules.find((rule) => rule.patterns.some((pattern) => text.includes(pattern)))?.keyword || '히로시마';
+  }
+
+  if (region === '나고야') {
+    const rules = [
+      { keyword: '가나야마', patterns: ['가나야마', 'kanayama', '아츠타', 'atsuta'] },
+      { keyword: '나고야성·마루노우치', patterns: ['나고야성', 'nagoya castle', '마루노우치', 'marunouchi', '후시미', 'fushimi'] },
+      { keyword: '사카에', patterns: ['사카에', 'sakae', '니시키', 'nishiki', '나카구', 'naka-ku'] },
+      { keyword: '나고야역', patterns: ['나고야역', 'nagoya station', '메이에키', 'meieki', '나카무라', 'nakamura'] }
+    ];
+    return rules.find((rule) => rule.patterns.some((pattern) => text.includes(pattern)))?.keyword || '나고야';
+  }
+
+  if (region === '오키나와') {
+    const rules = [
+      { keyword: '모토부·츄라우미', patterns: ['모토부','motobu','츄라우미','churaumi','세소코','sesoko','나고','nago'] },
+      { keyword: '온나손', patterns: ['온나','onna','세라가키','seragaki','만자','manza','탄차','tancha'] },
+      { keyword: '차탄·아메리칸빌리지', patterns: ['차탄','chatan','미하마','mihama','아메리칸빌리지','american village'] },
+      { keyword: '나하 국제거리', patterns: ['나하','naha','국제거리','고쿠사이','kokusai','마키시','makishi'] }
+    ];
+    return rules.find((rule) => rule.patterns.some((pattern) => text.includes(pattern)))?.keyword || '오키나와';
+  }
+
+  if (region === '삿포로') {
+    const rules = [
+      { keyword: '조잔케이 온천', patterns: ['조잔케이', 'jozankei'] },
+      { keyword: '나카지마공원', patterns: ['나카지마', 'nakajima'] },
+      { keyword: '스스키노', patterns: ['스스키노', 'susukino'] },
+      { keyword: '오도리', patterns: ['오도리', 'odori', '다누키', 'tanuki'] },
+      { keyword: '삿포로역', patterns: ['삿포로역', 'sapporo station', '에키마에', 'ekimae'] }
+    ];
+    return rules.find((rule) => rule.patterns.some((pattern) => text.includes(pattern)))?.keyword || '삿포로';
+  }
+
+  if (region === '교토') {
+    const kyotoRules = [
+      { keyword: '아라시야마', patterns: ['아라시야마', 'arashiyama', '사가', 'saga', '도게츠', 'togetsu', '란잔', 'ranzan'] },
+      { keyword: '기온·가와라마치', patterns: ['기온', 'gion', '가와라마치', 'kawaramachi', '히가시야마', 'higashiyama', '폰토초', 'pontocho'] },
+      { keyword: '시조카라스마', patterns: ['시조', 'shijo', '카라스마', 'karasuma', '오미야', 'omiya', '고조', 'gojo'] },
+      { keyword: '교토역', patterns: ['교토역', 'kyoto station', '에키마에', 'ekimae', '하치조', 'hachijo', '시치조', 'shichijo'] }
+    ];
+
+    return kyotoRules.find((rule) => rule.patterns.some((pattern) => text.includes(pattern)))?.keyword || '교토';
+  }
+
+  if (region === '후쿠오카') {
+    const fukuokaRules = [
+      { keyword: '후쿠오카 공항 근처', patterns: ['후쿠오카 공항', 'fukuoka airport', '히가시히에', 'higashihie'] },
+      { keyword: '오호리공원·모모치', patterns: ['오호리', 'ohori', '모모치', 'momochi', '시호크', 'sea hawk', 'paypay'] },
+      { keyword: '텐진', patterns: ['텐진', 'tenjin', '약인', 'yakuin', '니시나카스', 'nishinakasu'] },
+      { keyword: '나카스·카와바타', patterns: ['나카스', 'nakasu', '카와바타', 'kawabata', '하루요시', 'haruyoshi'] },
+      { keyword: '하카타역', patterns: ['하카타', 'hakata', '스미요시', 'sumiyoshi'] }
+    ];
+
+    return fukuokaRules.find((rule) => rule.patterns.some((pattern) => text.includes(pattern)))?.keyword || '후쿠오카';
+  }
+
+  if (region === '도쿄') {
+    const tokyoRules = [
+      { keyword: '하네다공항 근처', patterns: ['하네다', 'haneda', '오타구', 'ota ward', '가마타', 'kamata'] },
+      { keyword: '신주쿠', patterns: ['신주쿠', 'shinjuku', '가부키초', 'kabukicho', '니시신주쿠', 'nishishinjuku'] },
+      { keyword: '시부야', patterns: ['시부야', 'shibuya', '하라주쿠', 'harajuku', '에비스', 'ebisu'] },
+      { keyword: '긴자·도쿄역', patterns: ['긴자', 'ginza', '도쿄역', 'tokyo station', '마루노우치', 'marunouchi', '교바시', 'kyobashi'] },
+      { keyword: '아사쿠사·우에노', patterns: ['아사쿠사', 'asakusa', '우에노', 'ueno', '센소지', 'sensoji', '스카이트리', 'skytree'] },
+      { keyword: '이케부쿠로', patterns: ['이케부쿠로', 'ikebukuro', '도시마', 'toshima', '오츠카', 'otsuka'] }
+    ];
+
+    return tokyoRules.find((rule) => rule.patterns.some((pattern) => text.includes(pattern)))?.keyword || '도쿄';
+  }
+
+  if (region === '오사카') {
+    const osakaRules = [
+      { keyword: '간사이공항 근처', patterns: ['간사이공항', '간사이 에어포트', 'kansai airport', '린쿠', 'rinkū', 'rinku', '이즈미사노', 'izumisano'] },
+      { keyword: 'USJ', patterns: ['유니버설 스튜디오', '유니버셜 스튜디오', 'universal studios', 'universal studio', 'usj', '사쿠라지마', 'sakurajima'] },
+      { keyword: '신오사카역', patterns: ['신오사카', '신 오사카', 'shin-osaka', 'shin osaka'] },
+      { keyword: '난바', patterns: ['난바', '남바', '도톤보리', '닛폰바시', 'namba', 'dontonbori', 'dotonbori', 'nipponbashi'] },
+      { keyword: '신사이바시', patterns: ['신사이바시', 'shinsaibashi'] },
+      { keyword: '우메다', patterns: ['우메다', '오사카역', 'osaka station', 'umeda'] }
+    ];
+
+    return osakaRules.find((rule) => rule.patterns.some((pattern) => text.includes(pattern)))?.keyword || '오사카';
+  }
+
+  const commonRules = [
+    { keyword: '서울역', patterns: ['서울역', 'seoul station'] },
+    { keyword: '명동', patterns: ['명동', 'myeongdong'] },
+    { keyword: '건대입구역', patterns: ['건대입구', '능동로', '광진구'] },
+    { keyword: '강남', patterns: ['강남', '역삼', '삼성', '선릉', '코엑스', 'gangnam', 'yeoksam', 'samseong', 'coex'] },
+    { keyword: '홍대', patterns: ['홍대', '합정', '마포', 'hongdae', 'hapjeong', 'mapo'] },
+    { keyword: '광화문', patterns: ['광화문', '시청', 'gwanghwamun', 'city hall'] },
+    { keyword: '종로', patterns: ['종로', '인사동', 'jongno', 'insadong'] },
+    { keyword: '동대문', patterns: ['동대문', 'ddp', 'dongdaemun'] },
+    { keyword: '잠실', patterns: ['잠실', '송파', '롯데월드', 'jamsil', 'songpa', 'lotte world'] },
+    { keyword: '해운대', patterns: ['해운대', 'haeundae'] },
+    { keyword: '광안리', patterns: ['광안리', '수영구', 'gwangan'] },
+    { keyword: '서면', patterns: ['서면', '부전', 'seomyeon'] },
+    { keyword: '부산역', patterns: ['부산역', '초량', 'busan station'] },
+    { keyword: '남포동', patterns: ['남포', '자갈치', 'nampo', 'jagalchi'] },
+    { keyword: '기장', patterns: ['기장', 'gijang'] },
+    { keyword: '제주공항 근처', patterns: ['제주공항', 'jeju airport'] },
+    { keyword: '제주시', patterns: ['제주시', '연동', '노형', 'jeju-si'] },
+    { keyword: '서귀포', patterns: ['서귀포', 'seogwipo'] },
+    { keyword: '중문', patterns: ['중문', 'jungmun'] },
+    { keyword: '애월', patterns: ['애월', 'aewol'] },
+    { keyword: '성산', patterns: ['성산', 'seongsan'] },
+    { keyword: '함덕', patterns: ['함덕', 'hamdeok'] },
+    { keyword: '협재', patterns: ['협재', 'hyeopjae'] },
+    { keyword: '속초', patterns: ['속초', '대포항', 'sokcho', 'daepo'] },
+    { keyword: '강릉', patterns: ['강릉', 'gangneung'] },
+    { keyword: '고성', patterns: ['고성', 'goseong'] },
+    { keyword: '양양', patterns: ['양양', 'yangyang'] },
+    { keyword: '춘천', patterns: ['춘천', 'chuncheon'] },
+    { keyword: '원주', patterns: ['원주', 'wonju'] },
+    { keyword: '평창', patterns: ['평창', 'pyeongchang'] },
+    { keyword: '홍천', patterns: ['홍천', 'hongcheon'] },
+    { keyword: '인제', patterns: ['인제', 'inje'] },
+    { keyword: '운서역', patterns: ['운서역', '운서동', 'unseo', '흰바위로', '신도시남로'] },
+    { keyword: '송도', patterns: ['송도', '연수구', '컨벤시아', '센트럴파크', '테크노파크', '달빛축제'] },
+    { keyword: '을왕리', patterns: ['을왕리', '선녀바위', '용유'] },
+    { keyword: '월미도', patterns: ['월미도', '월미'] },
+    { keyword: '차이나타운', patterns: ['차이나타운', '인천역', '개항로'] },
+    { keyword: '소래포구', patterns: ['소래포구', '소래'] },
+    { keyword: '부평역', patterns: ['부평역', '부평'] },
+    { keyword: '구월동', patterns: ['구월동', '구월'] },
+    { keyword: '청라', patterns: ['청라'] },
+    { keyword: '인천공항 근처', patterns: ['인천공항', '인천 에어포트', '에어포트', '공항로', '제2터미널', '터미널', '공항셔틀'] },
+    { keyword: '영종도', patterns: ['영종도', '영종구', '영종', '구읍뱃터', '은하수로', '하늘도시'] }
+  ];
+
+  return commonRules.find((rule) => rule.patterns.some((pattern) => text.includes(pattern)))?.keyword || region;
+}
+
+function normalizeSearchText(value: string) {
+  return value.toLowerCase().replace(/\s+/g, ' ');
+}
+
+function buildReviewSignals(hotel: Hotel, analysis: HotelAnalysis) {
+  const text = [
+    analysis.summary,
+    ...analysis.pros,
+    ...analysis.cons,
+    ...analysis.recommendedFor,
+    ...analysis.notRecommendedFor,
+    ...analysis.checkPoints
+  ].join(' ');
+
+  const baseSignals = [
+    { label: '위치', score: text.includes('공항') || text.includes('위치') || text.includes('역') ? 5 : 4 },
+    { label: '청결', score: text.includes('청결') || text.includes('깨끗') || text.includes('쾌적') ? 5 : 4 },
+    { label: '객실', score: text.includes('넓') || text.includes('객실') || text.includes('룸') ? 4 : 3 },
+    { label: '조식', score: text.includes('조식') || text.includes('레스토랑') ? 4 : 3 },
+    { label: '커플추천', score: analysis.recommendedFor.some((item: string) => item.includes('커플')) ? 5 : 4 },
+    { label: '가족', score: analysis.recommendedFor.some((item: string) => item.includes('가족') || item.includes('아이')) ? 5 : 3 },
+    { label: '조용함', score: text.includes('조용') || text.includes('휴식') ? 4 : 3 },
+    { label: '공항접근', score: hotel.region.includes('영종') || text.includes('공항') ? 5 : 4 }
+  ];
+
+  return baseSignals
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 4)
+    .map((item) => ({ ...item, stars: toStars(item.score) }));
+}
+
+function buildReliability(hotel: Hotel) {
+  const count = hotel.reviewCount ?? hotel.searchResultCount ?? 0;
+  const score = count >= 3000 ? 5 : count >= 1000 ? 4 : count >= 300 ? 3 : 2;
+  return {
+    count,
+    stars: toStars(score),
+    label: score >= 5 ? '신뢰도 높음' : score >= 4 ? '신뢰도 양호' : '참고용'
+  };
+}
+
+function buildChoiceReviewNotes(hotel: Hotel, analysis: HotelAnalysis) {
+  const baseScore = Math.max(3, Math.min(5, Math.round((hotel.reviewScore ?? 8) / 2)));
+  const items = [
+    analysis.pros[0],
+    analysis.pros[1] || analysis.recommendedFor[0],
+    analysis.pros[2] || analysis.checkPoints[0]
+  ].filter(Boolean);
+
+  return items.slice(0, 3).map((item, index) => ({
+    stars: toStars(Math.max(3, baseScore - (index === 1 ? 1 : 0))),
+    text: toReviewStyleSentence(item)
+  }));
+}
+
+function toReviewStyleSentence(value: string) {
+  const text = value.replace(/[.。]+$/g, '').trim();
+  if (!text) return '예약 전에 확인할 만한 장점으로 자주 언급됩니다.';
+  return `${text} 점이 선택 이유로 자주 언급됩니다.`;
+}
+
+function toStars(score: number) {
+  return `${'★'.repeat(score)}${'☆'.repeat(5 - score)}`;
+}
+
+function buildVisibleBlogParagraphs(sectionHeading: string, paragraphs: string[]) {
+  const seen = new Set<string>();
+
+  return paragraphs
+    .map((paragraph) => rewriteStaleRegionalComparison(sectionHeading, paragraph))
+    .filter((paragraph) => {
+      if (seen.has(paragraph)) return false;
+      seen.add(paragraph);
+      return true;
+    });
+}
+
+function rewriteStaleRegionalComparison(sectionHeading: string, paragraph: string) {
+  if (displayRegion === '인천') return paragraph;
+  if (sectionHeading !== '경쟁 제품과 비교') return paragraph;
+  if (!/영종도|공항권|인천공항|인천 공항|공항 근처|공항 환승|공항 접근성/.test(paragraph)) return paragraph;
+
+  const location = pickSearchLocation(hotel, analysis);
+
+  return `${hotel.hotelName}은 ${location} 일정에 맞춰 비교하는 편이 자연스럽습니다. 다른 지역의 숙소와 단순 비교하기보다, 같은 지역의 숙소와 위치, 주차, 객실 컨디션, 가격을 함께 보는 것이 좋습니다.`;
+}
+const priceText = hotel.dailyRate ? `${hotel.dailyRate.toLocaleString('ko-KR')}원~` : '수집 대기';
+const formattedReviewCount = hotel.reviewCount?.toLocaleString('ko-KR');
+const bookingNameObjectParticle = hasKoreanBatchim(hotel.hotelName) ? '을' : '를';
+const topBookingHook = hotel.landingUrl
+  ? formattedReviewCount
+    ? `${hotel.hotelName}의 아고다 후기 ${formattedReviewCount}건과 최신 객실 요금을 확인하세요.`
+    : '현재 예약 가능 여부와 최신 요금을 확인하세요.'
+  : '아고다 후기와 객실 조건 연결을 준비하고 있습니다.';
+const bottomBookingHook = hotel.landingUrl
+  ? formattedReviewCount
+    ? `${hotel.hotelName}${bookingNameObjectParticle} 예약하기 전에 아고다 후기 ${formattedReviewCount}건을 더 확인해보세요.`
+    : '아고다 후기와 객실 조건을 더 확인해보세요.'
+  : '아고다 후기와 예약 조건 연결을 준비하고 있습니다.';
+
+function hasKoreanBatchim(value = '') {
+  const lastCharacter = [...value.trim()].at(-1) ?? '';
+  const codePoint = lastCharacter.charCodeAt(0);
+  return codePoint >= 0xac00 && codePoint <= 0xd7a3 && (codePoint - 0xac00) % 28 !== 0;
+}
+---
+
+<BaseLayout title={longtailSeoTitle} description={metaDescription} canonicalPath={`/hotel/${hotel.slug}/`} alternates={languageAlternates}>
+  <article class="hotel-detail">
+    <section class="detail-hero">
+      <HotelImage
+        hotel={hotel}
+        alt={`${hotel.hotelName} 대표 이미지`}
+        loading="eager"
+        pendingClass="detail-image-pending"
+      />
+      <div class="detail-hero-copy">
+        {localizedVersions && (
+          <div class="language-switch" aria-label="언어별 페이지">
+            <a class="active" href={`/hotel/${hotel.slug}/`}>한국어</a>
+            {localizedVersions.en && <a href={`/en/hotel/${hotel.slug}/`}>English</a>}
+            {localizedVersions.ja && <a href={`/ja/hotel/${hotel.slug}/`}>日本語</a>}
+          </div>
+        )}
+        <span class="eyebrow">{displayRegion}</span>
+        <h1>{longtailHeading}</h1>
+        <p>{hotel.address}</p>
+        <div class="booking-strip">
+          <div>
+            <span>아고다 평점</span>
+            <strong>{hotel.reviewScore ?? '대기'}</strong>
+          </div>
+          <div>
+            <span>후기 개수</span>
+            <strong>{hotel.reviewCount ? hotel.reviewCount.toLocaleString('ko-KR') : '대기'}</strong>
+          </div>
+          <div>
+            <span>예상 가격</span>
+            <strong>{averagePriceText || priceText}</strong>
+          </div>
+        </div>
+        <div class="booking-hook">
+          <strong>{topBookingHook}</strong>
+          <span>객실별 할인 적용 여부는 예약 화면에서 확인할 수 있습니다.</span>
+        </div>
+        {hotel.landingUrl ? (
+          <a class="primary-button full" href={hotel.landingUrl} rel="nofollow sponsored">객실·예약 가능 여부 확인</a>
+        ) : (
+          <button class="primary-button full" disabled>아고다 예약 버튼 연결 대기</button>
+        )}
+      </div>
+    </section>
+
+    <AdSenseSlot placement="top" />
+
+    <section class="section summary-section">
+      <div class="section-title">
+        <span>REVIEW SUMMARY</span>
+        <h2>후기 요약</h2>
+      </div>
+      <p class="summary-text">{analysis.summary}</p>
+      <div class="meta-line">
+        <span>마지막 갱신: {hotel.lastUpdated ?? '수집 전'}</span>
+        <span>분석 검색 결과: {hotel.searchResultCount ?? 0}개</span>
+      </div>
+    </section>
+
+    <section class="analysis-grid">
+      <div class="analysis-box positive">
+        <h2>많이 언급된 장점</h2>
+        <ul>{analysis.pros.map((item) => <li>{item}</li>)}</ul>
+      </div>
+      <div class="analysis-box caution">
+        <h2>반복적으로 언급된 단점</h2>
+        <ul>{analysis.cons.map((item) => <li>{item}</li>)}</ul>
+      </div>
+      <div class="analysis-box">
+        <h2>추천 여행자 유형</h2>
+        <ul>{recommendedFor.map((item) => <li>{item}</li>)}</ul>
+      </div>
+      <div class="analysis-box">
+        <h2>비추천/주의 여행자 유형</h2>
+        <ul>{notRecommendedFor.map((item) => <li>{item}</li>)}</ul>
+      </div>
+    </section>
+
+    <section class="section check-section">
+      <div class="section-title">
+        <span>BEFORE BOOKING</span>
+        <h2>예약 전 체크포인트</h2>
+      </div>
+      <ol>
+        {analysis.checkPoints.map((item) => <li>{item}</li>)}
+      </ol>
+    </section>
+
+    <HotelMap hotel={hotel} />
+
+    {blogReview && (
+      <section class="section blog-review-section">
+        <div class="section-title">
+          <span>HOTEL REVIEW</span>
+          <h2>{hotel.hotelName} 후기글</h2>
+        </div>
+        <div class="blog-intro">
+          {blogReview.intro.slice(0, 2).map((paragraph) => <p>{paragraph}</p>)}
+        </div>
+        <InArticleAd />
+        {blogReview.intro.length > 2 && (
+          <div class="blog-intro blog-intro-continuation">
+            {blogReview.intro.slice(2).map((paragraph) => <p>{paragraph}</p>)}
+          </div>
+        )}
+        <div class="blog-review-body">
+          {blogReview.sections.map((section) => (
+            <section class="blog-review-block">
+              <h3>{section.heading}</h3>
+              {section.heading === '이 호텔 선택 이유' && (
+                <div class="choice-review-quotes">
+                  {choiceReviewNotes.map((note) => (
+                    <div class="choice-review-quote">
+                      <strong>{note.stars}</strong>
+                      <p>"{note.text}"</p>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {section.image && (
+                <figure class="blog-section-image">
+                  <img src={section.image.url} alt={section.image.alt} loading="lazy" referrerpolicy="no-referrer" />
+                </figure>
+              )}
+              {buildVisibleBlogParagraphs(section.heading, section.paragraphs).map((paragraph) => <p>{paragraph}</p>)}
+              {section.heading === '이런 분들 추천해요' && (
+                <div class="review-signal-panel">
+                  <div class="review-signal-list">
+                    {reviewSignals.map((signal) => (
+                      <div class="review-signal-item">
+                        <span>{signal.label}</span>
+                        <strong>{signal.stars}</strong>
+                      </div>
+                    ))}
+                  </div>
+                  <div class="review-reliability">
+                    <span>분석 후기</span>
+                    <strong>{reliability.count.toLocaleString('ko-KR')}건</strong>
+                    <em>{reliability.stars}</em>
+                    <b>{reliability.label}</b>
+                  </div>
+                </div>
+              )}
+            </section>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {searchIntent && (
+      <section class="section faq-section">
+        <div class="section-title">
+          <span>FAQ</span>
+          <h2>{hotel.hotelName} 예약 전 FAQ</h2>
+        </div>
+        <div class="faq-list">
+          {searchIntent.faqs.map((faq) => (
+            <article class="faq-item">
+              <span>{faq.category}</span>
+              <h3>{faq.question}</h3>
+              <p>{faq.answer}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {hotel.referenceLinks && hotel.referenceLinks.length > 0 && (
+      <section class="section reference-link-section">
+        <div class="section-title">
+          <span>참고 링크</span>
+          <h2>네이버 블로그 후기</h2>
+        </div>
+        <ul class="reference-link-list">
+          {hotel.referenceLinks.map((link) => (
+            <li>
+              <a href={link.url} target="_blank" rel="noopener noreferrer nofollow">{link.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {relatedYeongjongGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>RELATED GUIDE</span>
+          <h2>이 호텔과 함께 많이 비교되는 영종도 호텔</h2>
+          <p>예약 목적이 가족 여행인지, 공항 이동인지, 오션뷰인지에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedYeongjongGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedBusanAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>BUSAN GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 부산 호텔 가이드</h2>
+          <p>부산 호텔은 해운대, 서면, 부산역, 광안리, 남포동, 기장처럼 실제 목적지에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedBusanAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedJejuAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>JEJU GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 제주 호텔 가이드</h2>
+          <p>제주 호텔은 공항, 제주시, 서귀포, 중문, 애월, 함덕, 성산처럼 실제 여행 동선에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedJejuAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedGyeonggiAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>GYEONGGI GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 경기 호텔 가이드</h2>
+          <p>경기 호텔은 수원, 일산, 분당, 김포, 양평처럼 목적지와 차량 이동 조건에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedGyeonggiAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedSeoulAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>SEOUL GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 서울 호텔 가이드</h2>
+          <p>같은 서울 호텔이라도 강남, 명동, 홍대, 잠실처럼 목적지에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedSeoulAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedIncheonAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>INCHEON GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 인천 호텔 가이드</h2>
+          <p>같은 인천 호텔이라도 공항, 송도, 부평, 월미도처럼 목적지에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedIncheonAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedGangwonAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>GANGWON GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 강원 호텔 가이드</h2>
+          <p>강원 호텔은 속초, 강릉, 고성, 양양, 춘천, 원주, 평창처럼 목적지와 차량 이동 조건에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedGangwonAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedJeonnamAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>JEONNAM GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 전남 호텔 가이드</h2>
+          <p>전남 호텔은 여수, 목포, 순천, 담양, 완도·신안처럼 목적지와 이동 방식에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedJeonnamAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedJeonbukAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>JEONBUK GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 전북 호텔 가이드</h2>
+          <p>전북 호텔은 전주, 군산, 부안, 남원, 무주처럼 목적지와 이동 방식에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedJeonbukAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedChungnamAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>CHUNGNAM GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 충남 호텔 가이드</h2>
+          <p>충남 호텔은 천안·아산, 대천, 태안·안면도, 공주·부여처럼 목적지와 이동 방식에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedChungnamAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedChungbukAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>CHUNGBUK GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 충북 호텔 가이드</h2>
+          <p>충북 호텔은 청주·오송, 충주, 제천·청풍, 단양, 속리산처럼 목적지와 이동 방식에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedChungbukAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedDaeguAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>DAEGU GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 대구 호텔 가이드</h2>
+          <p>대구 호텔은 동성로, 동대구역, 수성못, 엑스코, 성서처럼 목적지와 이동 방식에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedDaeguAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedDaejeonAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>DAEJEON GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 대전 호텔 가이드</h2>
+          <p>대전 호텔은 유성온천, 둔산, 대전역, 엑스포, 신탄진처럼 목적지와 이동 방식에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedDaejeonAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedGyeongbukAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>GYEONGBUK GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 경북 호텔 가이드</h2>
+          <p>경북 호텔은 경주, 포항, 안동, 구미, 문경·영주, 동해안처럼 목적지와 이동 방식에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedGyeongbukAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedGyeongnamAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>GYEONGNAM GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 경남 호텔 가이드</h2>
+          <p>경남 호텔은 통영, 거제, 창원, 진주, 김해·양산, 남해·하동처럼 목적지와 이동 방식에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedGyeongnamAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedUlsanAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>ULSAN GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 울산 호텔 가이드</h2>
+          <p>울산 호텔은 삼산동, 일산해수욕장, KTX역, 간절곶, 영남알프스처럼 목적지에 따라 비교 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedUlsanAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedOsakaAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>OSAKA GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 오사카 호텔 가이드</h2>
+          <p>난바, 우메다, 신사이바시, USJ, 신오사카와 간사이공항은 이동 목적에 따라 숙소 선택 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedOsakaAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedTokyoAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>TOKYO GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 도쿄 호텔 가이드</h2>
+          <p>신주쿠, 시부야, 긴자·도쿄역, 아사쿠사·우에노, 이케부쿠로와 하네다공항은 이동 목적에 따라 숙소 선택 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedTokyoAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedFukuokaAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>FUKUOKA GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 후쿠오카 호텔 가이드</h2>
+          <p>하카타역, 텐진, 나카스, 후쿠오카 공항과 모모치는 이동 목적에 따라 숙소 선택 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedFukuokaAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedKyotoAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title">
+          <span>KYOTO GUIDE</span>
+          <h2>예약 전에 함께 보면 좋은 교토 호텔 가이드</h2>
+          <p>교토역, 시조카라스마, 기온·가와라마치와 아라시야마는 관광 동선과 숙소 선택 기준이 달라집니다.</p>
+        </div>
+        <div class="related-guide-grid">
+          {relatedKyotoAreaGuides.map((guide) => (
+            <a href={guide.path}>
+              <span>{guide.eyebrow}</span>
+              <strong>{guide.title}</strong>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {relatedSapporoAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>SAPPORO GUIDE</span><h2>예약 전에 함께 보면 좋은 삿포로 호텔 가이드</h2><p>삿포로역, 오도리, 스스키노와 조잔케이는 이동 방식과 숙소 선택 기준이 다릅니다.</p></div>
+        <div class="related-guide-grid">{relatedSapporoAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+
+    {relatedOkinawaAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>OKINAWA GUIDE</span><h2>예약 전에 함께 보면 좋은 오키나와 호텔 가이드</h2><p>나하, 차탄, 온나손과 모토부는 렌터카 동선과 숙소 선택 기준이 다릅니다.</p></div>
+        <div class="related-guide-grid">{relatedOkinawaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedNagoyaAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>NAGOYA GUIDE</span><h2>예약 전에 함께 보면 좋은 나고야 호텔 가이드</h2><p>나고야역, 사카에, 가나야마와 나고야성 주변은 이동 목적과 숙소 선택 기준이 다릅니다.</p></div>
+        <div class="related-guide-grid">{relatedNagoyaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedHiroshimaAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>HIROSHIMA GUIDE</span><h2>예약 전에 함께 보면 좋은 히로시마 호텔 가이드</h2><p>히로시마역, 평화기념공원, 핫초보리와 미야지마는 이동 목적과 숙소 선택 기준이 다릅니다.</p></div>
+        <div class="related-guide-grid">{relatedHiroshimaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedKobeAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>KOBE GUIDE</span><h2>예약 전에 함께 보면 좋은 고베 호텔 가이드</h2><p>산노미야, 고베역, 하버랜드와 아리마온천은 이동 목적과 숙소 선택 기준이 다릅니다.</p></div>
+        <div class="related-guide-grid">{relatedKobeAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedYokohamaAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>YOKOHAMA GUIDE</span><h2>예약 전에 함께 보면 좋은 요코하마 호텔 가이드</h2><p>요코하마역, 미나토미라이, 사쿠라기초와 차이나타운은 이동 목적과 숙소 선택 기준이 다릅니다.</p></div>
+        <div class="related-guide-grid">{relatedYokohamaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+
+    <section class="section bottom-booking-section" aria-label="아고다 예약 확인">
+      <div class="booking-strip">
+        <div>
+          <span>아고다 평점</span>
+          <strong>{hotel.reviewScore ?? '대기'}</strong>
+        </div>
+        <div>
+          <span>후기 개수</span>
+          <strong>{hotel.reviewCount ? hotel.reviewCount.toLocaleString('ko-KR') : '대기'}</strong>
+        </div>
+        <div>
+          <span>예상 가격</span>
+          <strong>{averagePriceText || priceText}</strong>
+        </div>
+      </div>
+      <div class="booking-hook booking-hook-bottom">
+        <strong>{bottomBookingHook}</strong>
+        <span>조식 포함·무료 취소 조건은 객실별로 다를 수 있으니 함께 확인하세요.</span>
+      </div>
+      {hotel.landingUrl ? (
+        <a class="primary-button full" href={hotel.landingUrl} rel="nofollow sponsored">아고다에서 예약 조건 확인</a>
+      ) : (
+        <button class="primary-button full" disabled>아고다 예약 버튼 연결 대기</button>
+      )}
+    </section>
+
+    <AdSenseSlot placement="bottom" />
+  </article>
+</BaseLayout>

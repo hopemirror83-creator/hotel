@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "gyeonggi-21125534",
+    "hotelName": "엘시아 펜션",
+    "region": "경기",
+    "searchName": "엘시아 펜션",
+    "naverName": "엘시아 펜션",
+    "agodaHotelId": 21125534,
+    "fallbackAddress": "590, Unakcheonggye-ro, Jojong-myeon, Gapyeong-gun, Gyeonggi-do, Korea 가평",
+    "latitude": 37.864098,
+    "longitude": 127.344559,
+    "starRating": 4,
+    "reviewScore": 8.9,
+    "reviewCount": 3,
+    "imageUrl": "http://pix3.agoda.net/hotelimages/211/21125534/21125534_20121408370093636675.jpg?s=312x&ca=16&ce=1",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=21125534"
+  },
+  {
+    "slug": "gyeonggi-10583828",
+    "hotelName": "가평 핀란드캠핑성펜션&글램핑",
+    "region": "경기",
+    "searchName": "가평 핀란드캠핑성펜션&글램핑",
+    "naverName": "가평 핀란드캠핑성펜션&글램핑",
+    "agodaHotelId": 10583828,
+    "fallbackAddress": "102, Mulgol-gil, Sang-myeon, Gapyeong-gun, Gyeonggi-do 가평",
+    "latitude": 37.836414,
+    "longitude": 127.316277,
+    "reviewScore": 8.8,
+    "reviewCount": 3,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=10583828"
+  },
+  {
+    "slug": "gyeonggi-26900598",
+    "hotelName": "여주 한가로이펜션",
+    "region": "경기",
+    "searchName": "여주 한가로이펜션",
+    "naverName": "여주 한가로이펜션",
+    "agodaHotelId": 26900598,
+    "fallbackAddress": "47, Silleuk 1-gil, Yeoju-si, Gyeonggi-do 여주시",
+    "latitude": 37.305016,
+    "longitude": 127.655785,
+    "reviewScore": 8.8,
+    "reviewCount": 3,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=26900598"
+  }
+]

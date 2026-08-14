@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "seoul-1620721",
+    "hotelName": "도미인 서울 강남",
+    "region": "서울",
+    "address": "서울특별시 강남구 봉은사로 134",
+    "reviewScore": 9,
+    "reviewCount": 22332,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-764629",
+    "hotelName": "오클라우드호텔 강남",
+    "region": "서울",
+    "address": "서울특별시 서초구 사평대로58길 12",
+    "reviewScore": 8.6,
+    "reviewCount": 12129,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-4969637",
+    "hotelName": "토요코 인 강남 서울",
+    "region": "서울",
+    "address": "서울특별시 서초구 강남대로 323",
+    "reviewScore": 8.8,
+    "reviewCount": 8496,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-1974802",
+    "hotelName": "신라스테이 서초 강남역",
+    "region": "서울",
+    "address": "서울특별시 서초구 효령로 427",
+    "reviewScore": 8.5,
+    "reviewCount": 8627,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-2961984",
+    "hotelName": "L7 강남 바이 롯데호텔",
+    "region": "서울",
+    "address": "서울특별시 강남구 테헤란로 415",
+    "reviewScore": 8.8,
+    "reviewCount": 6987,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-1198189",
+    "hotelName": "스테이 호텔 강남",
+    "region": "서울",
+    "address": "서울특별시 강남구 논현로87길 15-4",
+    "reviewScore": 8.3,
+    "reviewCount": 6810,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-12448894",
+    "hotelName": "신라스테이 삼성 코엑스센터",
+    "region": "서울",
+    "address": "506, Yeongdong-daero 서울 Seoul Special City",
+    "reviewScore": 8.5,
+    "reviewCount": 6073,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-699258",
+    "hotelName": "신라스테이 강남 역삼",
+    "region": "서울",
+    "address": "서울특별시 강남구 언주로 517",
+    "reviewScore": 8.4,
+    "reviewCount": 6152,
+    "imageCount": 7,
+    "referenceCount": 5
+  }
+]

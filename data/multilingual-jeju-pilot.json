@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "jeju-567545",
+    "hotelName": "롯데시티호텔 제주공항",
+    "region": "제주",
+    "address": "제주특별자치도 제주시 도령로 83",
+    "reviewScore": 8.8,
+    "reviewCount": 13580,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "jeju-18209350",
+    "hotelName": "그랜드 하얏트 제주",
+    "region": "제주",
+    "address": "제주특별자치도 제주시 노연로 12 그랜드 하얏트 제주 제주 드림타워 복합리조트",
+    "reviewScore": 8.9,
+    "reviewCount": 6484,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "jeju-31451473",
+    "hotelName": "파르나스 호텔 제주",
+    "region": "제주",
+    "address": "제주특별자치도 서귀포시 중문관광로72번길 100 파르나스 호텔 제주 East동 3층",
+    "reviewScore": 9.2,
+    "reviewCount": 12836,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "jeju-42957",
+    "hotelName": "롯데 호텔 제주",
+    "region": "제주",
+    "address": "제주특별자치도 서귀포시 중문관광로72번길 35 롯데호텔 제주",
+    "reviewScore": 9.1,
+    "reviewCount": 9294,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "jeju-18875336",
+    "hotelName": "그랜드 조선 제주",
+    "region": "제주",
+    "address": "제주특별자치도 서귀포시 중문관광로72번길 60 본관 1층 라운지앤바",
+    "reviewScore": 9.1,
+    "reviewCount": 7510,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "jeju-1199068",
+    "hotelName": "히든 클리프 호텔 앤 네이처",
+    "region": "제주",
+    "address": "제주특별자치도 서귀포시 예래해안로 542",
+    "reviewScore": 8.7,
+    "reviewCount": 8904,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "jeju-178625",
+    "hotelName": "해비치 호텔 앤 리조트 제주",
+    "region": "제주",
+    "address": "제주특별자치도 서귀포시 표선면 민속해안로 537 해비치 호텔&리조트 제주",
+    "reviewScore": 8.9,
+    "reviewCount": 9502,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "jeju-302120",
+    "hotelName": "휘닉스 아일랜드",
+    "region": "제주",
+    "address": "제주특별자치도 서귀포시 성산읍 섭지코지로 107 휘닉스 아일랜드 B동 1층",
+    "reviewScore": 8.4,
+    "reviewCount": 5744,
+    "imageCount": 7,
+    "referenceCount": 5
+  }
+]

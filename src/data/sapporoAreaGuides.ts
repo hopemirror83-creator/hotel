@@ -1,0 +1,25 @@
+import { activeHotels as hotels } from './hotels';
+import type { Hotel } from './hotels';
+
+export type SapporoAreaGuide = { slug: string; path: string; title: string; eyebrow: string; intro: string; purpose: string; intentQuestion: string; metaDescription: string; criteria: string[]; keywords: string[] };
+
+const raw = [
+  ['sapporo-station-hotels','SAPPORO STATION GUIDE','삿포로역 호텔 후기 모음 교통·조식·체크인·짐보관 비교','JR과 지하철, 공항 이동이 편한 삿포로역 숙소를 실제 이동 동선과 객실 조건 중심으로 비교합니다.','공항과 근교 이동이 많은 여행자를 위한 교통 중심 가이드','삿포로역 호텔은 역과의 거리 외에 무엇을 비교해야 할까요?',['삿포로역 접근','공항 이동','짐 보관','조식','객실 크기'],['삿포로역','Sapporo Station','에키마에','Ekimae','키타구치']],
+  ['odori-hotels','ODORI GUIDE','삿포로 오도리 호텔 후기 모음 관광·쇼핑·교통 비교','오도리공원과 다누키코지, 삿포로역 사이의 도보 동선이 좋은 숙소를 비교합니다.','관광과 쇼핑을 걸어서 즐기려는 여행자를 위한 가이드','오도리 호텔은 공원 접근과 쇼핑 동선 중 무엇을 먼저 봐야 할까요?',['오도리공원','다누키코지','지하도','쇼핑','조식'],['오도리','Odori','다누키','Tanuki','니시']],
+  ['susukino-hotels','SUSUKINO GUIDE','삿포로 스스키노 호텔 후기 모음 맛집·교통·소음 비교','스스키노 숙소는 식당 접근성이 좋지만 야간 소음과 역 출구, 귀가 동선을 함께 봐야 합니다.','저녁 식사와 야간 이동 편의를 중시하는 여행자를 위한 가이드','스스키노 호텔은 위치와 조용함을 어떻게 함께 비교할까요?',['스스키노역','맛집 접근','야간 소음','대욕장','가성비'],['스스키노','Susukino','호스이','Hosui']],
+  ['nakajima-park-hotels','NAKAJIMA PARK GUIDE','삿포로 나카지마공원 호텔 후기 모음 조용함·교통·객실 비교','나카지마공원 주변은 도심 접근과 비교적 조용한 환경을 함께 기대할 수 있는 권역입니다.','도심과 휴식의 균형을 원하는 여행자를 위한 가이드','나카지마공원 호텔은 스스키노 숙소와 무엇이 다를까요?',['공원 접근','조용함','지하철','객실 전망','조식'],['나카지마','Nakajima','호헤이칸']],
+  ['jozankei-onsen-hotels','JOZANKEI ONSEN GUIDE','삿포로 조잔케이 온천 호텔·료칸 후기 모음 식사·대욕장·교통 비교','조잔케이 숙소는 온천뿐 아니라 송영버스, 석식 포함 여부와 체크인 마감을 함께 확인해야 합니다.','온천과 료칸 휴식을 계획하는 여행자를 위한 가이드','조잔케이 온천 호텔은 식사와 교통 조건을 어떻게 골라야 할까요?',['온천·대욕장','석식·조식','송영버스','객실 전망','체크인'],['조잔케이','Jozankei','스이잔테이','모미지','Shogetsu']],
+  ['sapporo-family-hotels','SAPPORO FAMILY GUIDE','삿포로 가족호텔 후기 모음 넓은 객실·조식·교통 비교','가족 숙소는 침대 구성과 객실 면적, 아이 조식과 세탁 시설을 함께 확인해야 합니다.','아이 또는 부모님과 여행하는 가족을 위한 가이드','삿포로 가족호텔은 객실과 이동 편의 중 무엇을 먼저 봐야 할까요?',['가족 객실','침대 구성','아이 조식','세탁','교통'],['가족','패밀리','Family','트리플','스위트','리조트']],
+  ['sapporo-value-hotels','SAPPORO VALUE GUIDE','삿포로 가성비 호텔 후기 모음 위치·객실·조식·대욕장 비교','낮은 요금만 보지 않고 교통비와 객실 크기, 무료 서비스까지 함께 비교합니다.','숙박비와 위치 만족도를 함께 보는 여행자를 위한 가이드','삿포로 가성비 호텔은 가격 외에 무엇을 확인해야 할까요?',['가격대','역 접근','객실 크기','무료 서비스','대욕장'],['APA','KOKO','스마일','Smile','토요코','Toyoko','인','Inn']],
+  ['sapporo-hotel-comparison','SAPPORO COMPARISON','삿포로 호텔 비교 후기 모음 삿포로역·오도리·스스키노·조잔케이','삿포로 주요 숙박 권역을 이동 방식과 여행 목적에 맞춰 비교합니다.','삿포로 전체 숙소 권역을 한눈에 비교하는 가이드','삿포로 호텔은 어느 지역부터 비교하는 것이 좋을까요?',['숙박 권역','평점','후기 수','가격대','추천 대상'],['삿포로','Sapporo']]
+] as const;
+
+export const sapporoAreaGuides: SapporoAreaGuide[] = raw.map(([slug,eyebrow,title,intro,purpose,intentQuestion,criteria,keywords]) => ({ slug, eyebrow, title, intro, purpose, intentQuestion, criteria:[...criteria], keywords:[...keywords], path:`/sapporo/${slug}/`, metaDescription:`${title}. ${criteria.join(', ')} 기준으로 예약 전 확인할 내용을 정리했습니다.` }));
+export const sapporoHotels = hotels.filter(h => h.slug.startsWith('sapporo-')).sort((a,b)=>popularity(b)-popularity(a));
+
+export function getSapporoAreaGuideHotels(guide:SapporoAreaGuide, limit=20) { return sapporoHotels.map(h=>build(h,guide)).filter(x=>x.guideScore>0).sort((a,b)=>b.guideScore-a.guideScore).slice(0,limit); }
+export function getRelatedSapporoAreaGuides(hotel:Hotel) { if(!hotel.slug.startsWith('sapporo-')) return []; const text=hotelText(hotel).toLowerCase(); return sapporoAreaGuides.map(guide=>({guide,score:guide.slug==='sapporo-hotel-comparison'?1:guide.keywords.filter(k=>text.includes(k.toLowerCase())).length})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,4).map(x=>x.guide); }
+function build(hotel:Hotel,guide:SapporoAreaGuide){ const text=hotelText(hotel); const area=pickArea(text); const matches=guide.slug==='sapporo-hotel-comparison'?1:guide.keywords.filter(k=>text.toLowerCase().includes(k.toLowerCase())).length; const price=hotel.averageNightlyRate??hotel.dailyRate; const target=guide.slug.includes('family')?'가족여행':guide.slug.includes('jozankei')?'온천여행':`${area} 일정`; return {hotel,guideScore:matches?matches*10000+popularity(hotel):0,reasons:[`${area} 일정에서 이동 동선을 줄이기 좋은 후보입니다.`,hotel.reviewCount&&hotel.reviewCount>=1000?'후기 수가 충분해 반복되는 장점과 주의점을 비교하기 좋습니다.':'객실 조건과 위치 후기를 함께 확인하는 편이 좋습니다.',hotel.reviewScore&&hotel.reviewScore>=8.8?'아고다 평점이 높은 편이라 우선 비교 후보로 보기 좋습니다.':'가격과 객실 크기를 함께 비교하면 선택이 쉬워집니다.'],caution:'객실 크기와 조식·취소 조건은 예약 날짜와 객실 유형에 따라 달라질 수 있으니 최종 화면에서 확인하세요.',target,tags:[area,...guide.criteria.slice(0,3)],tableCells:[area,String(hotel.reviewScore??'확인 필요'),hotel.reviewCount?`${hotel.reviewCount.toLocaleString('ko-KR')}건`:'후기 부족',price?`${price.toLocaleString('ko-KR')}원~`:'가격 확인',target]}; }
+function hotelText(h:Hotel){return [h.hotelName,h.address,h.region,h.analysis?.summary,h.analysis?.pros?.join(' ')].filter(Boolean).join(' ')}
+function pickArea(t:string){if(/Jozankei|조잔케이/i.test(t))return'조잔케이';if(/Nakajima|나카지마/i.test(t))return'나카지마공원';if(/Susukino|스스키노/i.test(t))return'스스키노';if(/Odori|오도리|Tanuki|다누키/i.test(t))return'오도리';if(/Sapporo Station|삿포로역|Ekimae|에키마에/i.test(t))return'삿포로역';return'삿포로'}
+function popularity(h:Hotel){return(h.reviewScore||0)*1000+Math.min(h.reviewCount||0,50000)/10}

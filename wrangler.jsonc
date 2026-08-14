@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hotellog",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-06-26",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "hotellog",
+      "database_id": "6d53d159-9e0e-45f3-ae68-b75547a549ee",
+      "migrations_dir": "./migrations"
+    }
+  ]
+}

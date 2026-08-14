@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "nest-hotel-incheon",
+    "hotelName": "네스트 호텔 인천",
+    "region": "전국",
+    "address": "인천광역시 중구 영종해안남로 19-5",
+    "imageCount": 6,
+    "referenceCount": 1
+  },
+  {
+    "slug": "incheon-2070028",
+    "hotelName": "파라다이스 시티",
+    "region": "인천",
+    "address": "인천광역시 영종구 영종해안남로321번길 186",
+    "reviewScore": 9.3,
+    "reviewCount": 9060,
+    "imageCount": 1,
+    "referenceCount": 5
+  },
+  {
+    "slug": "incheon-3155645",
+    "hotelName": "데이즈 호텔 앤 스위트 인천공항",
+    "region": "인천",
+    "address": "인천광역시 영종구 신도시남로142번길 6",
+    "reviewScore": 8.4,
+    "reviewCount": 16207,
+    "imageCount": 1,
+    "referenceCount": 5
+  },
+  {
+    "slug": "incheon-49124",
+    "hotelName": "베스트웨스턴 프리미어 인천 에어포트",
+    "region": "인천",
+    "address": "인천광역시 영종구 공항로424번길 48-27 베스트웨스턴 프리미어 인천 에어포트 호텔",
+    "reviewScore": 8.1,
+    "reviewCount": 12663,
+    "imageCount": 1,
+    "referenceCount": 5
+  },
+  {
+    "slug": "incheon-50405896",
+    "hotelName": "골든튤립 인천공항 호텔 앤 스위트",
+    "region": "인천",
+    "address": "인천광역시 영종구 흰바위로59번길 8 골든튤립호텔 인천공항 호텔&스위트",
+    "reviewScore": 8.5,
+    "reviewCount": 7021,
+    "imageCount": 1,
+    "referenceCount": 5
+  },
+  {
+    "slug": "incheon-1194169",
+    "hotelName": "호텔 오라 인천",
+    "region": "인천",
+    "address": "인천광역시 영종구 공항서로 345",
+    "reviewScore": 8.5,
+    "reviewCount": 6127,
+    "imageCount": 1,
+    "referenceCount": 5
+  },
+  {
+    "slug": "incheon-35614450",
+    "hotelName": "이비스 스타일 앰배서더 인천 에어포트 T2",
+    "region": "인천",
+    "address": "인천광역시 영종구 제2터미널대로 340",
+    "reviewScore": 8.7,
+    "reviewCount": 6599,
+    "imageCount": 1,
+    "referenceCount": 5
+  },
+  {
+    "slug": "incheon-74232024",
+    "hotelName": "인스파이어 엔터테인먼트 리조트",
+    "region": "인천",
+    "address": "인천광역시 영종구 공항문화로 127",
+    "reviewScore": 8.5,
+    "reviewCount": 1873,
+    "imageCount": 1,
+    "referenceCount": 5
+  }
+]

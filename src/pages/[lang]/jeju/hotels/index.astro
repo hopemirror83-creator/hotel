@@ -1,0 +1,6 @@
+---
+import LocalizedMyeongdongIndex from '../../../../components/LocalizedMyeongdongIndex.astro';
+export function getStaticPaths() { return ['en', 'ja'].map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: 'en' | 'ja' };
+---
+<LocalizedMyeongdongIndex lang={lang} regionKey="jeju" />

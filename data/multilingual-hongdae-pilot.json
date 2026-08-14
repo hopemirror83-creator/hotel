@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "seoul-3743390",
+    "hotelName": "L7 홍대 바이 롯데호텔",
+    "region": "서울",
+    "address": "서울특별시 마포구 양화로 141",
+    "reviewScore": 8.9,
+    "reviewCount": 18014,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-5056661",
+    "hotelName": "홀리데이 인 익스프레스 서울 홍대 바이 IHG",
+    "region": "서울",
+    "address": "188, Yanghwa-ro, Mapo-gu 서울 Seoul",
+    "reviewScore": 8.9,
+    "reviewCount": 12772,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-1403676",
+    "hotelName": "나비 호스텔 홍대",
+    "region": "서울",
+    "address": "서울특별시 마포구 양화로 177-1",
+    "reviewScore": 8.9,
+    "reviewCount": 5989,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-6179956",
+    "hotelName": "보보 호텔 홍대",
+    "region": "서울",
+    "address": "서울특별시 마포구 양화로 94",
+    "reviewScore": 8.3,
+    "reviewCount": 4761,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-35154502",
+    "hotelName": "주니비노 호텔 홍대",
+    "region": "서울",
+    "address": "서울특별시 마포구 양화진2길 31 주니비노호텔",
+    "reviewScore": 8.2,
+    "reviewCount": 4851,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-292286",
+    "hotelName": "피터캣 호텔 신촌(홍대)",
+    "region": "서울",
+    "address": "21 Baekbeom-ro 2-gil, Mapo-gu, Seoul 서울 Seoul",
+    "reviewScore": 8,
+    "reviewCount": 4302,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-15285321",
+    "hotelName": "위고인 호스텔",
+    "region": "서울",
+    "address": "서울특별시 서대문구 신촌로 141 위고인호스텔빌딩 1F(Reception)",
+    "reviewScore": 8.8,
+    "reviewCount": 7649,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "seoul-570453",
+    "hotelName": "신촌 에버8 서비스 레지던스",
+    "region": "서울",
+    "address": "서울특별시 서대문구 신촌역로 7 푸르지오시티 에버에잇",
+    "reviewScore": 8.2,
+    "reviewCount": 7241,
+    "imageCount": 7,
+    "referenceCount": 5
+  }
+]

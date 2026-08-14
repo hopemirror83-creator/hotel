@@ -1,0 +1,87 @@
+---
+import type { Hotel } from '../data/hotels';
+
+interface Props {
+  hotel: Hotel;
+  alt: string;
+  loading?: 'eager' | 'lazy';
+  pendingLabel?: string;
+  pendingClass?: string;
+}
+
+const {
+  hotel,
+  alt,
+  loading = 'lazy',
+  pendingLabel = '아고다 대표 이미지 연결 대기',
+  pendingClass = 'image-pending'
+} = Astro.props;
+
+const candidates = [
+  hotel.imageUrl,
+  ...(hotel.analysis.blogReview?.sections ?? []).map((section) => section.image?.url)
+]
+  .map((url) => String(url ?? '').trim())
+  .filter((url, index, urls) => /^https?:\/\//i.test(url) && urls.indexOf(url) === index);
+---
+
+{candidates.length > 0 ? (
+  <>
+    <img
+      src={candidates[0]}
+      alt={alt}
+      loading={loading}
+      referrerpolicy="no-referrer"
+      data-hotel-image-candidates={JSON.stringify(candidates)}
+    />
+    <div class={pendingClass} data-hotel-image-pending hidden>
+      <span>IMAGE PENDING</span>
+      <strong>{pendingLabel}</strong>
+    </div>
+  </>
+) : (
+  <div class={pendingClass}>
+    <span>IMAGE PENDING</span>
+    <strong>{pendingLabel}</strong>
+  </div>
+)}
+
+<script>
+  function handleHotelImageError(image: HTMLImageElement) {
+    const candidates = JSON.parse(image.dataset.hotelImageCandidates || '[]') as string[];
+    const currentIndex = Number(image.dataset.hotelImageIndex || '0');
+    const nextIndex = currentIndex + 1;
+
+    if (nextIndex < candidates.length) {
+      image.dataset.hotelImageIndex = String(nextIndex);
+      image.src = candidates[nextIndex];
+      return;
+    }
+
+    image.hidden = true;
+    const pending = image.nextElementSibling;
+    if (pending instanceof HTMLElement && pending.hasAttribute('data-hotel-image-pending')) {
+      pending.hidden = false;
+    }
+  }
+
+  document.querySelectorAll<HTMLImageElement>('[data-hotel-image-candidates]').forEach((image) => {
+    if (image.dataset.hotelImageReady === 'true') return;
+    image.dataset.hotelImageReady = 'true';
+
+    image.addEventListener('error', () => handleHotelImageError(image));
+    image.addEventListener('load', () => {
+      image.hidden = false;
+      const pending = image.nextElementSibling;
+      if (pending instanceof HTMLElement && pending.hasAttribute('data-hotel-image-pending')) {
+        pending.hidden = true;
+      }
+    });
+  });
+</script>
+
+<style>
+  [data-hotel-image-pending][hidden] {
+    display: none !important;
+  }
+</style>

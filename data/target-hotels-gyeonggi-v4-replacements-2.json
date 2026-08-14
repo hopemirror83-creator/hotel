@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "gyeonggi-10574955",
+    "hotelName": "연천 스텔라토 풀빌라 & 카라반풀램핑",
+    "region": "경기",
+    "searchName": "연천 스텔라토 풀빌라 & 카라반풀램핑",
+    "naverName": "연천 스텔라토 풀빌라 & 카라반풀램핑",
+    "agodaHotelId": 10574955,
+    "fallbackAddress": "203-1, Seonsa-ro, Jeongok-eup, Yeoncheon-gun, Gyeonggi-do 연천",
+    "latitude": 38.009899,
+    "longitude": 127.069321,
+    "reviewScore": 8.9,
+    "reviewCount": 9,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=10574955"
+  },
+  {
+    "slug": "gyeonggi-10591238",
+    "hotelName": "파주 반지 무인텔",
+    "region": "경기",
+    "searchName": "파주 반지 무인텔",
+    "naverName": "파주 반지 무인텔",
+    "agodaHotelId": 10591238,
+    "fallbackAddress": "487-31, Pilseung-ro, Tanhyeon-myeon, Paju-si, Gyeonggi-do 파주",
+    "latitude": 37.784142,
+    "longitude": 126.686829,
+    "reviewScore": 8.9,
+    "reviewCount": 9,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=10591238"
+  }
+]

@@ -1,0 +1,174 @@
+---
+import AdSenseSlot from '../../../components/AdSenseSlot.astro';
+import InArticleAd from '../../../components/InArticleAd.astro';
+import HotelImage from '../../../components/HotelImage.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { activeHotels } from '../../../data/hotels';
+import { multilingualHotels } from '../../../data/multilingualHotels';
+import type { Hotel } from '../../../data/hotels';
+
+type LocalizedSection = { heading: string; paragraphs: string[] };
+type LocalizedFaq = { category: string; question: string; answer: string };
+type LocalizedContent = {
+  hotelName: string; regionLabel: string; address: string; title: string; seoTitle: string; metaDescription: string;
+  summary: string; pros: string[]; cons: string[]; recommendedFor: string[]; notRecommendedFor: string[];
+  checkPoints: string[]; intro: string[]; sections: LocalizedSection[]; faqs: LocalizedFaq[];
+  topHook: string; topButton: string; bottomHook: string; bottomButton: string;
+};
+
+export function getStaticPaths() {
+  const localizedData = multilingualHotels as Record<string, Record<'en' | 'ja', any>>;
+  const hotelBySlug = new Map(activeHotels.map((hotel) => [hotel.slug, hotel]));
+  const paths = [];
+  for (const [slug, languages] of Object.entries(localizedData)) {
+    const hotel = hotelBySlug.get(slug);
+    if (!hotel) continue;
+    for (const lang of ['en', 'ja'] as const) {
+      if (languages[lang]) paths.push({ params: { lang, slug }, props: { hotel, content: languages[lang], lang } });
+    }
+  }
+  return paths;
+}
+
+const { hotel, content, lang } = Astro.props as { hotel: Hotel; content: LocalizedContent; lang: 'en' | 'ja' };
+if (!hotel || !content) throw new Error('Localized hotel source is missing.');
+const isEnglish = lang === 'en';
+const labels = isEnglish ? {
+  summary: 'Review summary', pros: 'Commonly mentioned strengths', cons: 'Points to consider',
+  recommended: 'Who this hotel may suit', caution: 'Who should compare carefully', checks: 'Before you book',
+  review: 'Hotel review guide', faq: 'Frequently asked questions', references: 'Korean review sources',
+  referenceNote: 'These links open Korean-language Naver blog posts used as public reference signals.',
+  location: 'Location and map', googleMap: 'Open in Google Maps', naverMap: 'Open in Naver Map',
+  score: 'Agoda score', reviews: 'Reviews', price: 'Estimated rate', updated: 'Last updated',
+  sourceCount: 'Search signals analyzed', breakfast: 'Breakfast and cancellation terms vary by room. Confirm the latest conditions before booking.'
+} : {
+  summary: '口コミ要約', pros: 'よく挙げられる良い点', cons: '予約前に確認したい点',
+  recommended: 'このホテルが向いている方', caution: '比較をおすすめする方', checks: '予約前チェックポイント',
+  review: 'ホテル宿泊ガイド', faq: '予約前によくある質問', references: '韓国語の口コミ参考リンク',
+  referenceNote: '公開情報の参考にした韓国語のNAVERブログが開きます。',
+  location: '位置と地図', googleMap: 'Googleマップで見る', naverMap: 'NAVERマップで見る',
+  score: 'Agoda評価', reviews: '口コミ数', price: '予想料金', updated: '最終更新',
+  sourceCount: '分析した検索情報', breakfast: '朝食・キャンセル条件は客室プランにより異なります。予約画面で最新条件をご確認ください。'
+};
+const rate = hotel.averageNightlyRate ?? hotel.dailyRate;
+const priceText = rate ? `KRW ${Math.round(rate).toLocaleString('en-US')}+` : (isEnglish ? 'Check current rates' : '最新料金を確認');
+const reviewCount = hotel.reviewCount ? hotel.reviewCount.toLocaleString(isEnglish ? 'en-US' : 'ja-JP') : '—';
+const mapQuery = hotel.latitude && hotel.longitude ? `${hotel.latitude},${hotel.longitude}` : hotel.address;
+const googleMapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapQuery)}`;
+const naverMapUrl = `https://map.naver.com/p/search/${encodeURIComponent(hotel.hotelName)}`;
+const canonicalPath = `/${lang}/hotel/${hotel.slug}/`;
+const alternates = [
+  { lang: 'ko', path: `/hotel/${hotel.slug}/` },
+  { lang: 'en', path: `/en/hotel/${hotel.slug}/` },
+  { lang: 'ja', path: `/ja/hotel/${hotel.slug}/` },
+  { lang: 'x-default', path: `/hotel/${hotel.slug}/` }
+];
+const imageSections = hotel.analysis.blogReview?.sections || [];
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Hotel',
+  name: content.hotelName,
+  address: content.address,
+  image: [hotel.imageUrl, ...imageSections.map((section) => section.image?.url).filter(Boolean)],
+  aggregateRating: hotel.reviewScore && hotel.reviewCount ? {
+    '@type': 'AggregateRating', ratingValue: hotel.reviewScore, ratingCount: hotel.reviewCount, bestRating: 10
+  } : undefined,
+  url: new URL(canonicalPath, Astro.site).toString()
+};
+---
+
+<BaseLayout title={content.seoTitle} description={content.metaDescription} canonicalPath={canonicalPath} lang={lang} alternates={alternates}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+  <article class="hotel-detail localized-hotel-detail">
+    <section class="detail-hero">
+      <HotelImage hotel={hotel} alt={`${content.hotelName} hotel`} loading="eager" pendingLabel={isEnglish ? 'Hotel image unavailable' : 'ホテル画像準備中'} pendingClass="detail-image-pending" />
+      <div class="detail-hero-copy">
+        <div class="language-switch" aria-label="Language versions">
+          <a href={`/hotel/${hotel.slug}/`}>한국어</a><a class={lang === 'en' ? 'active' : ''} href={`/en/hotel/${hotel.slug}/`}>English</a><a class={lang === 'ja' ? 'active' : ''} href={`/ja/hotel/${hotel.slug}/`}>日本語</a>
+        </div>
+        <span class="eyebrow">{content.regionLabel}</span>
+        <h1>{content.title}</h1>
+        <p>{content.address}</p>
+        <div class="booking-strip">
+          <div><span>{labels.score}</span><strong>{hotel.reviewScore ?? '—'}</strong></div>
+          <div><span>{labels.reviews}</span><strong>{reviewCount}</strong></div>
+          <div><span>{labels.price}</span><strong>{priceText}</strong></div>
+        </div>
+        <div class="booking-hook"><strong>{content.topHook}</strong><span>{labels.breakfast}</span></div>
+        {hotel.landingUrl && <a class="primary-button full" href={hotel.landingUrl} rel="nofollow sponsored">{content.topButton}</a>}
+      </div>
+    </section>
+
+    <AdSenseSlot placement="top" />
+
+    <section class="section summary-section">
+      <div class="section-title"><span>REVIEW SUMMARY</span><h2>{labels.summary}</h2></div>
+      <p class="summary-text">{content.summary}</p>
+      <div class="meta-line"><span>{labels.updated}: {hotel.lastUpdated || '—'}</span><span>{labels.sourceCount}: {hotel.searchResultCount || 0}</span></div>
+    </section>
+
+    <section class="analysis-grid">
+      <div class="analysis-box positive"><h2>{labels.pros}</h2><ul>{content.pros.map((item) => <li>{item}</li>)}</ul></div>
+      <div class="analysis-box caution"><h2>{labels.cons}</h2><ul>{content.cons.map((item) => <li>{item}</li>)}</ul></div>
+      <div class="analysis-box"><h2>{labels.recommended}</h2><ul>{content.recommendedFor.map((item) => <li>{item}</li>)}</ul></div>
+      <div class="analysis-box"><h2>{labels.caution}</h2><ul>{content.notRecommendedFor.map((item) => <li>{item}</li>)}</ul></div>
+    </section>
+
+    <section class="section check-section">
+      <div class="section-title"><span>BEFORE BOOKING</span><h2>{labels.checks}</h2></div>
+      <ol>{content.checkPoints.map((item) => <li>{item}</li>)}</ol>
+    </section>
+
+    <section class="section location-section">
+      <div class="section-title"><span>MAP</span><h2>{labels.location}</h2></div>
+      <p>{content.address}</p>
+      <div class="map-link-row"><a href={googleMapUrl} target="_blank" rel="noopener noreferrer">{labels.googleMap}</a><a href={naverMapUrl} target="_blank" rel="noopener noreferrer nofollow">{labels.naverMap}</a></div>
+    </section>
+
+    <section class="section blog-review-section">
+      <div class="section-title"><span>HOTEL REVIEW</span><h2>{content.hotelName} {labels.review}</h2></div>
+      <div class="blog-intro">{content.intro.map((paragraph) => <p>{paragraph}</p>)}</div>
+      <InArticleAd />
+      <div class="blog-review-body">
+        {content.sections.map((section, index) => (
+          <section class="blog-review-block">
+            <h3>{section.heading}</h3>
+            {imageSections[index]?.image && <figure class="blog-section-image"><img src={imageSections[index].image.url} alt={`${content.hotelName} - ${section.heading}`} loading="lazy" referrerpolicy="no-referrer" /></figure>}
+            {section.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+          </section>
+        ))}
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="section-title"><span>FAQ</span><h2>{content.hotelName} {labels.faq}</h2></div>
+      <div class="faq-list">{content.faqs.map((faq) => <article class="faq-item"><span>{faq.category}</span><h3>{faq.question}</h3><p>{faq.answer}</p></article>)}</div>
+    </section>
+
+    {(hotel.referenceLinks?.length || 0) > 0 && (
+      <section class="section reference-link-section">
+        <div class="section-title"><span>REFERENCES</span><h2>{labels.references}</h2><p>{labels.referenceNote}</p></div>
+        <ul class="reference-link-list">{(hotel.referenceLinks || []).map((link) => <li><a href={link.url} target="_blank" rel="noopener noreferrer nofollow">{link.title}</a></li>)}</ul>
+      </section>
+    )}
+
+    <section class="section bottom-booking-section">
+      <div class="booking-hook booking-hook-bottom"><strong>{content.bottomHook}</strong><span>{labels.breakfast}</span></div>
+      {hotel.landingUrl && <a class="primary-button full" href={hotel.landingUrl} rel="nofollow sponsored">{content.bottomButton}</a>}
+    </section>
+    <AdSenseSlot placement="bottom" />
+  </article>
+</BaseLayout>
+
+<style>
+  .language-switch { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:18px; }
+  .language-switch a { padding:7px 10px; border:1px solid var(--line); border-radius:6px; color:var(--muted); font-size:13px; font-weight:700; }
+  .language-switch a.active { color:#fff; background:var(--blue); border-color:var(--blue); }
+  .map-link-row { display:flex; gap:10px; flex-wrap:wrap; margin-top:18px; }
+  .map-link-row a { padding:12px 16px; border-radius:6px; background:var(--surface-soft); color:var(--blue); font-weight:800; }
+  .localized-hotel-detail :global(.detail-hero-copy h1) { overflow-wrap:anywhere; }
+  @media (max-width:760px) {
+    .localized-hotel-detail { width:min(100% - 22px, 1120px); }
+    .localized-hotel-detail :global(.detail-hero-copy h1) { font-size:clamp(29px, 8vw, 40px); line-height:1.2; }
+  }
+</style>

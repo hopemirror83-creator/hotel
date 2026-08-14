@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "busan-13870752",
+    "hotelName": "시그니엘 부산",
+    "region": "부산",
+    "address": "부산광역시 해운대구 달맞이길 30 시그니엘 부산 5층",
+    "reviewScore": 9.2,
+    "reviewCount": 6261,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "busan-65460",
+    "hotelName": "파라다이스 호텔 부산",
+    "region": "부산",
+    "address": "부산광역시 해운대구 해운대해변로 296",
+    "reviewScore": 9,
+    "reviewCount": 11828,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "busan-16933389",
+    "hotelName": "그랜드 조선 부산",
+    "region": "부산",
+    "address": "부산광역시 해운대구 해운대해변로 292",
+    "reviewScore": 9.1,
+    "reviewCount": 8497,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "busan-1974844",
+    "hotelName": "신라스테이 부산 해운대",
+    "region": "부산",
+    "address": "부산광역시 해운대구 해운대로570번길 46",
+    "reviewScore": 8.7,
+    "reviewCount": 16746,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "busan-52027642",
+    "hotelName": "L7 해운대 바이 롯데호텔",
+    "region": "부산",
+    "address": "부산광역시 해운대구 해운대로570번길 55",
+    "reviewScore": 9,
+    "reviewCount": 4206,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "busan-42958",
+    "hotelName": "롯데 호텔 부산",
+    "region": "부산",
+    "address": "부산광역시 부산진구 가야대로 772",
+    "reviewScore": 9,
+    "reviewCount": 13693,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "busan-9079659",
+    "hotelName": "라마다 앙코르 바이 윈덤 부산역",
+    "region": "부산",
+    "address": "부산광역시 동구 중앙대로196번길 10 라마다 앙코르 부산역 호텔",
+    "reviewScore": 8.8,
+    "reviewCount": 10150,
+    "imageCount": 7,
+    "referenceCount": 5
+  },
+  {
+    "slug": "busan-4576021",
+    "hotelName": "토요코 인 부산역 1",
+    "region": "부산",
+    "address": "부산광역시 동구 중앙대로196번길 12",
+    "reviewScore": 9.1,
+    "reviewCount": 9183,
+    "imageCount": 7,
+    "referenceCount": 5
+  }
+]

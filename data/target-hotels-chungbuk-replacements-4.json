@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "chungbuk-21672326",
+    "hotelName": "제천 달빛 풍경",
+    "region": "충북",
+    "searchName": "제천 달빛 풍경",
+    "naverName": "제천 달빛 풍경",
+    "agodaHotelId": 21672326,
+    "fallbackAddress": "49, Mireuksonggye-ro 3-gil, Hansu-myeon, Jecheon-si, Chungcheongbuk-do, Korea 제천",
+    "latitude": 36.877087,
+    "longitude": 128.079498,
+    "starRating": 4,
+    "reviewScore": 10,
+    "reviewCount": 1,
+    "imageUrl": "http://pix5.agoda.net/hotelimages/216/21672326/21672326_20122407210093822928.jpg?s=312x&ca=16&ce=1",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=21672326"
+  },
+  {
+    "slug": "chungbuk-25968610",
+    "hotelName": "단양 하루한옥스테이",
+    "region": "충북",
+    "searchName": "단양 하루한옥스테이",
+    "naverName": "단양 하루한옥스테이",
+    "agodaHotelId": 25968610,
+    "fallbackAddress": "31, Daedaehanok-gil, Gagok-myeon, Danyang-gun, Chungcheongbuk-do 단양",
+    "latitude": 37.003376,
+    "longitude": 128.408493,
+    "reviewScore": 10,
+    "reviewCount": 1,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=25968610"
+  },
+  {
+    "slug": "chungbuk-32320005",
+    "hotelName": "괴산 라피네커플펜션",
+    "region": "충북",
+    "searchName": "괴산 라피네커플펜션",
+    "naverName": "괴산 라피네커플펜션",
+    "agodaHotelId": 32320005,
+    "fallbackAddress": "29-6, Geumpyeongjindeung 2-gil, Cheongcheon-myeon, Goesan-gun, Chungcheongbuk-do 괴산",
+    "latitude": 36.675507,
+    "longitude": 127.763527,
+    "reviewScore": 10,
+    "reviewCount": 1,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=32320005"
+  },
+  {
+    "slug": "chungbuk-35425274",
+    "hotelName": "단양 노엘의다락방펜션",
+    "region": "충북",
+    "searchName": "단양 노엘의다락방펜션",
+    "naverName": "단양 노엘의다락방펜션",
+    "agodaHotelId": 35425274,
+    "fallbackAddress": "50, Mukseok 5-gil, Jeokseong-myeon, Danyang-gun, Chungcheongbuk-do 단양",
+    "latitude": 36.968018,
+    "longitude": 128.274887,
+    "reviewScore": 10,
+    "reviewCount": 1,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=35425274"
+  }
+]

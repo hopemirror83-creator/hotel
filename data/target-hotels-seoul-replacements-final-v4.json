@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "seoul-10579586",
+    "hotelName": "금천(시흥동) 영빈",
+    "region": "서울",
+    "searchName": "금천(시흥동) 영빈",
+    "naverName": "금천(시흥동) 영빈",
+    "agodaHotelId": 10579586,
+    "fallbackAddress": "38, Siheung-daero 61-gil, Geumcheon-gu, Seoul 서울",
+    "latitude": 37.453678,
+    "longitude": 126.898521,
+    "reviewScore": 7.8,
+    "reviewCount": 4,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=10579586"
+  },
+  {
+    "slug": "seoul-10578667",
+    "hotelName": "장안 JW",
+    "region": "서울",
+    "searchName": "장안 JW",
+    "naverName": "장안 JW",
+    "agodaHotelId": 10578667,
+    "fallbackAddress": "58, Hancheon-ro 14-gil, Dongdaemun-gu, Seoul 서울",
+    "latitude": 37.566498,
+    "longitude": 127.065781,
+    "reviewScore": 7.6,
+    "reviewCount": 4,
+    "imageUrl": "",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=10578667"
+  }
+]

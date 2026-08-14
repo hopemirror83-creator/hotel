@@ -1,0 +1,112 @@
+﻿---
+import '../styles/global.css';
+import { site } from '../data/hotels';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  lang?: 'ko' | 'en' | 'ja';
+  alternates?: Array<{ lang: string; path: string }>;
+}
+
+const { title, description, canonicalPath = Astro.url.pathname, lang = 'ko', alternates = [] } = Astro.props;
+const canonicalUrl = new URL(canonicalPath, Astro.site);
+const isEnglish = lang === 'en';
+const isJapanese = lang === 'ja';
+const homePath = isEnglish ? '/en/' : isJapanese ? '/ja/' : '/';
+const footerText = isEnglish
+  ? 'HotelLog organizes hotel information and public review signals to help travelers compare stays before booking.'
+  : isJapanese
+    ? 'HotelLogは、予約前の比較に役立つホテル情報と公開レビューの傾向を整理する情報サイトです。'
+    : '호텔로그는 예약 전 판단에 필요한 호텔 정보와 공개 검색 신호를 정리하는 후기 분석형 정보 사이트입니다.';
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="bLNkE5R1A2WDcIu22lXsObPTeMIBOGa7tVmQXGTZvZg" />
+    <meta name="naver-site-verification" content="f0a2ff22ee496118a7a35f585f61d0de131a00ef" />
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#2563EB" />
+    <link rel="canonical" href={canonicalUrl} />
+    {alternates.map((alternate) => (
+      <link rel="alternate" hreflang={alternate.lang} href={new URL(alternate.path, Astro.site)} />
+    ))}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={`${site.name} (${site.englishName})`} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <title>{title}</title>
+    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2849585811939559" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href={homePath}>
+        <span>HotelLog</span>
+        <strong>{isEnglish ? 'Hotel Reviews' : isJapanese ? 'ホテルレビュー' : '호텔로그'}</strong>
+      </a>
+      <nav aria-label={isEnglish ? 'Main navigation' : isJapanese ? 'メインメニュー' : '주요 메뉴'}>
+        {lang === 'ko' ? (
+          <>
+            <a href="/#city-seoul">서울</a><a href="/#city-busan">부산</a><a href="/#city-jeju">제주</a>
+            <a href="/#city-incheon">인천</a><a href="/#city-gangwon">강원</a><a href="/#city-jeonnam">전남</a>
+            <a href="/#city-jeonbuk">전북</a><a href="/#city-chungbuk">충북</a><a href="/#city-chungnam">충남</a>
+            <a href="/#city-daegu">대구</a><a href="/#city-daejeon">대전</a><a href="/#city-gyeongbuk">경북</a><a href="/#city-gyeongnam">경남</a>
+          </>
+        ) : (
+          <>
+            <a href={`/${lang}/seoul/myeongdong-hotels/`}>{isEnglish ? 'Myeongdong Hotels' : '明洞ホテル'}</a>
+            <a href="/">한국어</a>
+            {lang !== 'en' && <a href="/en/">English</a>}
+            {lang !== 'ja' && <a href="/ja/">日本語</a>}
+          </>
+        )}
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p class="footer-summary">{footerText}</p>
+      <div class="footer-meta" aria-label="사이트 운영 정보">
+        <span>HotelLog</span>
+        <span>{isEnglish ? 'Operator: StoryN' : isJapanese ? '運営者: StoryN' : '운영자: 스토리앤'}</span>
+        <span>{isEnglish ? 'Contact' : isJapanese ? 'お問い合わせ' : '문의'}: <a href="mailto:storyuman@gmail.com">storyuman@gmail.com</a></span>
+        <span>{isEnglish ? 'Business registration: 409-58-00440' : isJapanese ? '事業者登録番号: 409-58-00440' : '사업자등록번호: 409-58-00440'}</span>
+        <a href="/about/">{isEnglish ? 'About' : isJapanese ? '運営者情報' : '운영자 안내'}</a>
+        <a href="/privacy/">{isEnglish ? 'Privacy' : isJapanese ? 'プライバシー' : '개인정보처리방침'}</a>
+        <a href="/correction/">{isEnglish ? 'Corrections' : isJapanese ? '情報訂正' : '정보 정정 요청'}</a>
+      </div>
+    </footer>
+    <script is:inline>
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('owner') === '1') {
+        localStorage.setItem('hotellog_admin', '1');
+      }
+      if (localStorage.getItem('hotellog_admin') === '1') {
+        const nav = document.querySelector('.site-header nav');
+        const adminLink = document.createElement('a');
+        adminLink.href = '/admin/';
+        adminLink.textContent = '관리자';
+        nav?.append(adminLink);
+      }
+    </script>
+    <script is:inline type="text/javascript" src="//wcs.pstatic.net/wcslog.js"></script>
+    <script is:inline type="text/javascript">
+      if (!wcs_add) var wcs_add = {};
+      wcs_add["wa"] = "19947409c033f90";
+      if (window.wcs) {
+        wcs_do();
+      }
+    </script>
+  </body>
+</html>
+

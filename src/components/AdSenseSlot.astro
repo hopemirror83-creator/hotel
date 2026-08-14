@@ -1,0 +1,36 @@
+---
+interface Props {
+  placement: 'top' | 'middle' | 'bottom';
+}
+
+const { placement } = Astro.props;
+const isMultiplex = placement === 'bottom';
+const isInArticle = placement === 'middle';
+const slot = isMultiplex ? '8304886068' : isInArticle ? '7903344628' : '5476608409';
+const format = isMultiplex ? 'autorelaxed' : isInArticle ? 'fluid' : 'auto';
+const label = placement === 'top' ? '상단 광고' : placement === 'middle' ? '본문 광고' : '하단 추천 광고';
+const shellClass = isMultiplex
+  ? 'ad-shell ad-shell-bottom'
+  : isInArticle
+    ? 'ad-shell ad-shell-in-article'
+    : 'ad-shell';
+---
+
+<aside class={`ad-section ad-section-${placement} ${shellClass}`} aria-label={label}>
+  <ins
+    class="adsbygoogle"
+    style={isInArticle ? 'display:block; text-align:center;' : 'display:block'}
+    data-ad-client="ca-pub-2849585811939559"
+    data-ad-slot={slot}
+    data-ad-format={format}
+    data-ad-layout={isInArticle ? 'in-article' : undefined}
+    data-full-width-responsive={isMultiplex || isInArticle ? undefined : 'true'}
+  />
+  <script is:inline>
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (error) {
+      console.warn('AdSense slot could not be initialized.', error);
+    }
+  </script>
+</aside>

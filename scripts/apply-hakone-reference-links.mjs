@@ -1,0 +1,64 @@
+import { readFile, writeFile } from 'node:fs/promises';
+
+const publicPath = 'src/data/generatedHotels.ts';
+const collectedPath = 'data/generated/hotels.collected.json';
+const publicText = await readFile(publicPath, 'utf8');
+const match = publicText.match(/export const generatedHotels(?:\s*:\s*any\[\])?\s*=\s*([\s\S]*);\s*$/);
+if (!match) throw new Error('Could not parse generatedHotels.ts');
+const hotels = JSON.parse(match[1]);
+const collected = JSON.parse(await readFile(collectedPath, 'utf8'));
+const bySlug = new Map((collected.hotels || []).map((hotel) => [hotel.slug, hotel]));
+let linkedHotels = 0;
+let totalLinks = 0;
+
+for (const hotel of hotels) {
+  if (!hotel.slug?.startsWith('hakone-')) continue;
+  const links = buildReferenceLinks(hotel.hotelName, bySlug.get(hotel.slug)?.sourceSignals || []);
+  if (links.length) {
+    hotel.referenceLinks = links;
+    linkedHotels += 1;
+    totalLinks += links.length;
+  } else delete hotel.referenceLinks;
+}
+
+await writeFile(publicPath, `// @ts-nocheck\nexport const generatedHotels: any[] = ${JSON.stringify(hotels, null, 2)};\n`, 'utf8');
+console.log(JSON.stringify({ linkedHotels, totalLinks }, null, 2));
+
+function buildReferenceLinks(hotelName, sourceSignals) {
+  const seen = new Set();
+  const links = [];
+  for (const signal of sourceSignals) {
+    for (const item of signal.items || []) {
+      const url = normalizeNaverBlogUrl(item.link);
+      const title = clean(item.title);
+      if (!url || !title || seen.has(url) || !isRelevantTitle(hotelName, title)) continue;
+      seen.add(url);
+      links.push({ title, url, query: signal.query, source: 'naver_blog' });
+      if (links.length >= 5) return links;
+    }
+  }
+  return links;
+}
+
+function isRelevantTitle(hotelName, title) {
+  const ignored = new Set(['호텔', '리조트', '료칸', '하코네', '오다와라', '온천', '일본', '숙소', '후기', '더', '앤', '인']);
+  const tokens = clean(hotelName).toLowerCase().split(/[^0-9a-z가-힣]+/).filter((token) => token.length >= 2 && !ignored.has(token));
+  const normalizedTitle = clean(title).toLowerCase().replace(/\s+/g, '');
+  const unique = [...new Set(tokens)];
+  const matched = unique.filter((token) => normalizedTitle.includes(token.replace(/\s+/g, ''))).length;
+  return unique.length > 0 && matched >= Math.min(2, unique.length);
+}
+
+function normalizeNaverBlogUrl(value) {
+  try {
+    const url = new URL(String(value || ''));
+    if (!['blog.naver.com', 'm.blog.naver.com'].includes(url.hostname.toLowerCase())) return '';
+    url.protocol = 'https:';
+    url.hostname = 'blog.naver.com';
+    return url.toString();
+  } catch { return ''; }
+}
+
+function clean(value) {
+  return String(value || '').replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/\s+/g, ' ').trim();
+}

@@ -32,6 +32,7 @@ import { miyagiAreaGuides } from '../data/miyagiAreaGuides';
 import { hakoneAreaGuides } from '../data/hakoneAreaGuides';
 import { ishikawaAreaGuides } from '../data/ishikawaAreaGuides';
 import { toyamaAreaGuides } from '../data/toyamaAreaGuides';
+import { fukuiAreaGuides } from '../data/fukuiAreaGuides';
 import { multilingualHotels } from '../data/multilingualHotels';
 import { multilingualRegions } from '../data/multilingualRegions';
 
@@ -73,6 +74,7 @@ export const GET: APIRoute = ({ site }) => {
     ...hakoneAreaGuides.map((guide) => guide.path),
     ...ishikawaAreaGuides.map((guide) => guide.path),
     ...toyamaAreaGuides.map((guide) => guide.path),
+    ...fukuiAreaGuides.map((guide) => guide.path),
     ...gyeongbukAreaGuides.map((guide) => guide.path),
     ...gyeongnamAreaGuides.map((guide) => guide.path),
     ...hotels.map((hotel) => `/hotel/${hotel.slug}/`),

@@ -37,6 +37,7 @@ import { niigataAreaGuides } from '../data/niigataAreaGuides';
 import { naganoAreaGuides } from '../data/naganoAreaGuides';
 import { gifuAreaGuides } from '../data/gifuAreaGuides';
 import { shizuokaAreaGuides } from '../data/shizuokaAreaGuides';
+import { yamanashiAreaGuides } from '../data/yamanashiAreaGuides';
 import { multilingualHotels } from '../data/multilingualHotels';
 import { multilingualRegions } from '../data/multilingualRegions';
 
@@ -83,6 +84,7 @@ export const GET: APIRoute = ({ site }) => {
     ...naganoAreaGuides.map((guide) => guide.path),
     ...gifuAreaGuides.map((guide) => guide.path),
     ...shizuokaAreaGuides.map((guide) => guide.path),
+    ...yamanashiAreaGuides.map((guide) => guide.path),
     ...gyeongbukAreaGuides.map((guide) => guide.path),
     ...gyeongnamAreaGuides.map((guide) => guide.path),
     ...hotels.map((hotel) => `/hotel/${hotel.slug}/`),

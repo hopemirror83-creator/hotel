@@ -35,6 +35,7 @@ import { toyamaAreaGuides } from '../data/toyamaAreaGuides';
 import { fukuiAreaGuides } from '../data/fukuiAreaGuides';
 import { niigataAreaGuides } from '../data/niigataAreaGuides';
 import { naganoAreaGuides } from '../data/naganoAreaGuides';
+import { gifuAreaGuides } from '../data/gifuAreaGuides';
 import { multilingualHotels } from '../data/multilingualHotels';
 import { multilingualRegions } from '../data/multilingualRegions';
 
@@ -79,6 +80,7 @@ export const GET: APIRoute = ({ site }) => {
     ...fukuiAreaGuides.map((guide) => guide.path),
     ...niigataAreaGuides.map((guide) => guide.path),
     ...naganoAreaGuides.map((guide) => guide.path),
+    ...gifuAreaGuides.map((guide) => guide.path),
     ...gyeongbukAreaGuides.map((guide) => guide.path),
     ...gyeongnamAreaGuides.map((guide) => guide.path),
     ...hotels.map((hotel) => `/hotel/${hotel.slug}/`),

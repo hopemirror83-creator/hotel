@@ -64,6 +64,8 @@ import { getRelatedNiigataAreaGuides } from '../../data/niigataAreaGuides';
 import { getNiigataSearchIntent } from '../../data/niigataSearchIntents';
 import { getRelatedNaganoAreaGuides } from '../../data/naganoAreaGuides';
 import { getNaganoSearchIntent } from '../../data/naganoSearchIntents';
+import { getRelatedGifuAreaGuides } from '../../data/gifuAreaGuides';
+import { getGifuSearchIntent } from '../../data/gifuSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -133,12 +135,14 @@ const relatedToyamaAreaGuides = hotel.slug.startsWith('toyama-') ? getRelatedToy
 const relatedFukuiAreaGuides = hotel.slug.startsWith('fukui-') ? getRelatedFukuiAreaGuides(hotel) : [];
 const relatedNiigataAreaGuides = hotel.slug.startsWith('niigata-') ? getRelatedNiigataAreaGuides(hotel) : [];
 const relatedNaganoAreaGuides = hotel.slug.startsWith('nagano-') ? getRelatedNaganoAreaGuides(hotel) : [];
+const relatedGifuAreaGuides = hotel.slug.startsWith('gifu-') ? getRelatedGifuAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('gifu-')) return getGifuSearchIntent(hotel);
   if (hotel.slug.startsWith('nagano-')) return getNaganoSearchIntent(hotel);
   if (hotel.slug.startsWith('niigata-')) return getNiigataSearchIntent(hotel);
   if (hotel.slug.startsWith('fukui-')) return getFukuiSearchIntent(hotel);
@@ -395,6 +399,7 @@ function addRegionScore(scores: Map<string, number>, region: string, score: numb
 }
 
 function extractRegion(value = '') {
+  if (/기후|gifu|다카야마|takayama|히다|hida|시라카와|shirakawa|게로|gero|오쿠히다|okuhida|히라유|hirayu|신호타카|hotaka|마고메|magome|나카쓰가와|nakatsugawa/i.test(value)) return '기후';
   if (/나가노|nagano|하쿠바|hakuba|가루이자와|karuizawa|마쓰모토|matsumoto|노자와|nozawa|시가고원|shiga.?kogen|스와|suwa/i.test(value)) return '나가노';
   if (/니가타|niigata|반다이|bandai|유자와|yuzawa|나에바|naeba|묘코|myoko|아카쿠라|akakura|나가오카|nagaoka|사도|sado/i.test(value)) return '니가타';
   if (/후쿠이|fukui|아와라|awara|에치젠|echizen|사바에|sabae|쓰루가|tsuruga|미쿠니|mikuni/i.test(value)) return '후쿠이';
@@ -1332,6 +1337,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>NAGANO GUIDE</span><h2>이 호텔과 함께 비교하기 좋은 나가노 호텔</h2></div>
         <div class="related-guide-grid">{relatedNaganoAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedGifuAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>GIFU GUIDE</span><h2>이 호텔과 함께 비교하기 좋은 기후 호텔</h2></div>
+        <div class="related-guide-grid">{relatedGifuAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

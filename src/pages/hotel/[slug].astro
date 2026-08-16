@@ -70,6 +70,8 @@ import { getRelatedShizuokaAreaGuides } from '../../data/shizuokaAreaGuides';
 import { getShizuokaSearchIntent } from '../../data/shizuokaSearchIntents';
 import { getRelatedYamanashiAreaGuides } from '../../data/yamanashiAreaGuides';
 import { getYamanashiSearchIntent } from '../../data/yamanashiSearchIntents';
+import { getRelatedGunmaAreaGuides } from '../../data/gunmaAreaGuides';
+import { getGunmaSearchIntent } from '../../data/gunmaSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -142,12 +144,14 @@ const relatedNaganoAreaGuides = hotel.slug.startsWith('nagano-') ? getRelatedNag
 const relatedGifuAreaGuides = hotel.slug.startsWith('gifu-') ? getRelatedGifuAreaGuides(hotel) : [];
 const relatedShizuokaAreaGuides = hotel.slug.startsWith('shizuoka-') ? getRelatedShizuokaAreaGuides(hotel) : [];
 const relatedYamanashiAreaGuides = hotel.slug.startsWith('yamanashi-') ? getRelatedYamanashiAreaGuides(hotel) : [];
+const relatedGunmaAreaGuides = hotel.slug.startsWith('gunma-') ? getRelatedGunmaAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('gunma-')) return getGunmaSearchIntent(hotel);
   if (hotel.slug.startsWith('shizuoka-')) return getShizuokaSearchIntent(hotel);
   if (hotel.slug.startsWith('yamanashi-')) return getYamanashiSearchIntent(hotel);
   if (hotel.slug.startsWith('gifu-')) return getGifuSearchIntent(hotel);
@@ -407,6 +411,7 @@ function addRegionScore(scores: Map<string, number>, region: string, score: numb
 }
 
 function extractRegion(value = '') {
+  if (/군마|gunma|구사쓰|kusatsu|이카호|ikaho|미나카미|minakami|시마온천|shima.?onsen|다카사키|takasaki|마에바시|maebashi/i.test(value)) return '군마';
   if (/야마나시|yamanashi|가와구치코|kawaguchiko|야마나카코|yamanakako|후지요시다|fujiyoshida|고후|kofu|이사와|isawa|기요사토|kiyosato|호쿠토|hokuto/i.test(value)) return '야마나시';
   if (/시즈오카|shizuoka|하마마쓰|hamamatsu|아타미|atami|이즈|izu|이토|ito|시모다|shimoda|가와즈|kawazu|고텐바|gotemba|후지노미야|fujinomiya/i.test(value)) return '시즈오카';
   if (/기후|gifu|다카야마|takayama|히다|hida|시라카와|shirakawa|게로|gero|오쿠히다|okuhida|히라유|hirayu|신호타카|hotaka|마고메|magome|나카쓰가와|nakatsugawa/i.test(value)) return '기후';
@@ -1365,6 +1370,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 야마나시 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedYamanashiAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedGunmaAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 군마 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedGunmaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

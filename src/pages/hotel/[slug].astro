@@ -74,6 +74,8 @@ import { getRelatedGunmaAreaGuides } from '../../data/gunmaAreaGuides';
 import { getGunmaSearchIntent } from '../../data/gunmaSearchIntents';
 import { getRelatedTochigiAreaGuides } from '../../data/tochigiAreaGuides';
 import { getTochigiSearchIntent } from '../../data/tochigiSearchIntents';
+import { getRelatedIbarakiAreaGuides } from '../../data/ibarakiAreaGuides';
+import { getIbarakiSearchIntent } from '../../data/ibarakiSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -148,12 +150,14 @@ const relatedShizuokaAreaGuides = hotel.slug.startsWith('shizuoka-') ? getRelate
 const relatedYamanashiAreaGuides = hotel.slug.startsWith('yamanashi-') ? getRelatedYamanashiAreaGuides(hotel) : [];
 const relatedGunmaAreaGuides = hotel.slug.startsWith('gunma-') ? getRelatedGunmaAreaGuides(hotel) : [];
 const relatedTochigiAreaGuides = hotel.slug.startsWith('tochigi-') ? getRelatedTochigiAreaGuides(hotel) : [];
+const relatedIbarakiAreaGuides = hotel.slug.startsWith('ibaraki-') ? getRelatedIbarakiAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('ibaraki-')) return getIbarakiSearchIntent(hotel);
   if (hotel.slug.startsWith('tochigi-')) return getTochigiSearchIntent(hotel);
   if (hotel.slug.startsWith('gunma-')) return getGunmaSearchIntent(hotel);
   if (hotel.slug.startsWith('shizuoka-')) return getShizuokaSearchIntent(hotel);
@@ -415,6 +419,7 @@ function addRegionScore(scores: Map<string, number>, region: string, score: numb
 }
 
 function extractRegion(value = '') {
+  if (/이바라키|ibaraki|미토|mito|쓰쿠바|츠쿠바|tsukuba|오아라이|oarai|히타치|hitachi|가시마|kashima|가미스|kamisu/i.test(value)) return '이바라키';
   if (/도치기|tochigi|닛코|nikko|기누가와|kinugawa|나스|nasu|시오바라|shiobara|우쓰노미야|우츠노미야|utsunomiya|오야마|oyama/i.test(value)) return '도치기';
   if (/군마|gunma|구사쓰|kusatsu|이카호|ikaho|미나카미|minakami|시마온천|shima.?onsen|다카사키|takasaki|마에바시|maebashi/i.test(value)) return '군마';
   if (/야마나시|yamanashi|가와구치코|kawaguchiko|야마나카코|yamanakako|후지요시다|fujiyoshida|고후|kofu|이사와|isawa|기요사토|kiyosato|호쿠토|hokuto/i.test(value)) return '야마나시';
@@ -1387,6 +1392,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 도치기 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedTochigiAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedIbarakiAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 이바라키 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedIbarakiAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

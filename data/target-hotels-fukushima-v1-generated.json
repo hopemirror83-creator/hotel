@@ -115,12 +115,12 @@
             ],
             "image": {
               "heading": "경쟁 제품과 비교",
-              "url": "https://pix8.agoda.net/hotelImages/5780637/0/901289f6293188d5eafa73c540274869.jpeg?ce=2&s=1024x768",
-              "alt": "호텔 산쿄 후쿠시마 경쟁 제품과 비교 이미지",
+              "url": "https://pix8.agoda.net/hotelImages/5780637/-1/694b13459c52c91a1c9551216a5d53a2.jpg?ca=9&ce=1&s=1024x768",
+              "alt": "호텔 산쿄 후쿠시마 조식당과 공용 시설 이미지",
               "source": "agoda_secondary_api",
-              "query": "호텔 산쿄 후쿠시마 공용 시설/로비",
+              "query": "호텔 산쿄 후쿠시마 조식당 공용 시설",
               "score": 150,
-              "reason": "keyword:lobby"
+              "reason": "manual-safe-replacement-no-people"
             }
           },
           {

@@ -1,0 +1,10 @@
+import { readFile, writeFile } from 'node:fs/promises';
+const text = await readFile('src/data/generatedHotels.ts', 'utf8');
+const match = text.match(/export const generatedHotels(?:\s*:\s*any\[\])?\s*=\s*([\s\S]*);\s*$/);
+if (!match) throw new Error('Could not parse generatedHotels.ts');
+const hotels = JSON.parse(match[1]).filter((hotel) => String(hotel.slug || '').startsWith('saitama-'));
+const failures = []; const imageShortfalls = [];
+for (const hotel of hotels) { const sections = hotel.analysis?.blogReview?.sections || []; const images = sections.filter((section) => /^https?:\/\//i.test(String(section.image?.url || section.imageUrl || ''))).length; const bodyLength = sections.reduce((sum, section) => sum + (section.paragraphs || []).reduce((total, paragraph) => total + String(paragraph || '').length, 0), 0); if (sections.length < 6) failures.push({ slug: hotel.slug, issue: `sections:${sections.length}` }); if (images < 6) imageShortfalls.push({ slug: hotel.slug, images }); if (images < 3) failures.push({ slug: hotel.slug, issue: `images:${images}` }); if (bodyLength < 700) failures.push({ slug: hotel.slug, issue: `body:${bodyLength}` }); if (!/^https?:\/\//i.test(String(hotel.imageUrl || ''))) failures.push({ slug: hotel.slug, issue: 'hero_image' }); if (/Tokyo|Chiba|Gunma|Tochigi|Ibaraki|Yamanashi|도쿄|치바|군마|도치기|이바라키|야마나시/i.test([hotel.hotelName, hotel.address].join(' '))) failures.push({ slug: hotel.slug, issue: 'region_outlier' }); }
+await writeFile('data/target-hotels-saitama-v1-generated.json', `${JSON.stringify(hotels, null, 2)}\n`, 'utf8');
+const summary = { count: hotels.length, withSixSections: hotels.filter((hotel) => (hotel.analysis?.blogReview?.sections || []).length >= 6).length, withSixImages: hotels.filter((hotel) => (hotel.analysis?.blogReview?.sections || []).filter((section) => /^https?:\/\//i.test(String(section.image?.url || section.imageUrl || ''))).length >= 6).length, withReferenceLinks: hotels.filter((hotel) => (hotel.referenceLinks || []).length > 0).length, imageShortfalls, failures };
+console.log(JSON.stringify(summary, null, 2)); if (failures.length) process.exitCode = 1;

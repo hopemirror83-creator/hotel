@@ -45,6 +45,7 @@ import { saitamaAreaGuides } from '../data/saitamaAreaGuides';
 import { fukushimaAreaGuides } from '../data/fukushimaAreaGuides';
 import { yamagataAreaGuides } from '../data/yamagataAreaGuides';
 import { akitaAreaGuides } from '../data/akitaAreaGuides';
+import { iwateAreaGuides } from '../data/iwateAreaGuides';
 import { multilingualHotels } from '../data/multilingualHotels';
 import { multilingualRegions } from '../data/multilingualRegions';
 
@@ -99,6 +100,7 @@ export const GET: APIRoute = ({ site }) => {
     ...fukushimaAreaGuides.map((guide) => guide.path),
     ...yamagataAreaGuides.map((guide) => guide.path),
     ...akitaAreaGuides.map((guide) => guide.path),
+    ...iwateAreaGuides.map((guide) => guide.path),
     ...gyeongbukAreaGuides.map((guide) => guide.path),
     ...gyeongnamAreaGuides.map((guide) => guide.path),
     ...hotels.map((hotel) => `/hotel/${hotel.slug}/`),

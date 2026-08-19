@@ -84,6 +84,8 @@ import { getRelatedYamagataAreaGuides } from '../../data/yamagataAreaGuides';
 import { getYamagataSearchIntent } from '../../data/yamagataSearchIntents';
 import { getRelatedAkitaAreaGuides } from '../../data/akitaAreaGuides';
 import { getAkitaSearchIntent } from '../../data/akitaSearchIntents';
+import { getRelatedIwateAreaGuides } from '../../data/iwateAreaGuides';
+import { getIwateSearchIntent } from '../../data/iwateSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -163,12 +165,14 @@ const relatedSaitamaAreaGuides = hotel.slug.startsWith('saitama-') ? getRelatedS
 const relatedFukushimaAreaGuides = hotel.slug.startsWith('fukushima-') ? getRelatedFukushimaAreaGuides(hotel) : [];
 const relatedYamagataAreaGuides = hotel.slug.startsWith('yamagata-') ? getRelatedYamagataAreaGuides(hotel) : [];
 const relatedAkitaAreaGuides = hotel.slug.startsWith('akita-') ? getRelatedAkitaAreaGuides(hotel) : [];
+const relatedIwateAreaGuides = hotel.slug.startsWith('iwate-') ? getRelatedIwateAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('iwate-')) return getIwateSearchIntent(hotel);
   if (hotel.slug.startsWith('akita-')) return getAkitaSearchIntent(hotel);
   if (hotel.slug.startsWith('yamagata-')) return getYamagataSearchIntent(hotel);
   if (hotel.slug.startsWith('fukushima-')) return getFukushimaSearchIntent(hotel);
@@ -1440,6 +1444,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 아키타 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedAkitaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedIwateAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 이와테 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedIwateAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

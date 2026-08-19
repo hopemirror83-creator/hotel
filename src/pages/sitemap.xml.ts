@@ -52,6 +52,7 @@ import { okayamaAreaGuides } from '../data/okayamaAreaGuides';
 import { tottoriAreaGuides } from '../data/tottoriAreaGuides';
 import { shimaneAreaGuides } from '../data/shimaneAreaGuides';
 import { yamaguchiAreaGuides } from '../data/yamaguchiAreaGuides';
+import { kagawaAreaGuides } from '../data/kagawaAreaGuides';
 import { multilingualHotels } from '../data/multilingualHotels';
 import { multilingualRegions } from '../data/multilingualRegions';
 
@@ -113,6 +114,7 @@ export const GET: APIRoute = ({ site }) => {
     ...tottoriAreaGuides.map((guide) => guide.path),
     ...shimaneAreaGuides.map((guide) => guide.path),
     ...yamaguchiAreaGuides.map((guide) => guide.path),
+    ...kagawaAreaGuides.map((guide) => guide.path),
     ...gyeongbukAreaGuides.map((guide) => guide.path),
     ...gyeongnamAreaGuides.map((guide) => guide.path),
     ...hotels.map((hotel) => `/hotel/${hotel.slug}/`),

@@ -92,6 +92,8 @@ import { getRelatedHokkaidoAreaGuides } from '../../data/hokkaidoAreaGuides';
 import { getHokkaidoSearchIntent } from '../../data/hokkaidoSearchIntents';
 import { getRelatedOkayamaAreaGuides } from '../../data/okayamaAreaGuides';
 import { getOkayamaSearchIntent } from '../../data/okayamaSearchIntents';
+import { getRelatedTottoriAreaGuides } from '../../data/tottoriAreaGuides';
+import { getTottoriSearchIntent } from '../../data/tottoriSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -175,12 +177,14 @@ const relatedIwateAreaGuides = hotel.slug.startsWith('iwate-') ? getRelatedIwate
 const relatedAomoriAreaGuides = hotel.slug.startsWith('aomori-') ? getRelatedAomoriAreaGuides(hotel) : [];
 const relatedHokkaidoAreaGuides = hotel.slug.startsWith('hokkaido-') ? getRelatedHokkaidoAreaGuides(hotel) : [];
 const relatedOkayamaAreaGuides = hotel.slug.startsWith('okayama-') ? getRelatedOkayamaAreaGuides(hotel) : [];
+const relatedTottoriAreaGuides = hotel.slug.startsWith('tottori-') ? getRelatedTottoriAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('tottori-')) return getTottoriSearchIntent(hotel);
   if (hotel.slug.startsWith('okayama-')) return getOkayamaSearchIntent(hotel);
   if (hotel.slug.startsWith('hokkaido-')) return getHokkaidoSearchIntent(hotel);
   if (hotel.slug.startsWith('aomori-')) return getAomoriSearchIntent(hotel);
@@ -1480,6 +1484,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 오카야마 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedOkayamaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedTottoriAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 돗토리 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedTottoriAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

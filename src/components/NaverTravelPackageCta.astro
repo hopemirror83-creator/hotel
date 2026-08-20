@@ -1,0 +1,25 @@
+---
+interface Props { href: string; context?: 'guide' | 'hotel'; }
+const { href, context = 'guide' } = Astro.props;
+const isHotel = context === 'hotel';
+---
+
+<aside class:list={['naver-package-cta', { 'naver-package-cta-hotel': isHotel }]} aria-label="홋카이도 패키지 상품 안내">
+  <span class="naver-package-label">NAVER TRAVEL CONNECT · 제휴 링크</span>
+  <h2>{isHotel ? '호텔 예약과 다른 여행 방법도 있어요' : '홋카이도 여행, 패키지도 함께 비교해보세요'}</h2>
+  <p>{isHotel ? '항공과 숙박을 따로 준비하는 것이 번거롭다면, 홋카이도 패키지의 일정과 포함 조건도 함께 비교해보세요.' : '항공과 숙박이 포함된 홋카이도 패키지의 일정, 출발일과 현재 예약 조건을 확인해보세요.'}</p>
+  <a href={href} target="_blank" rel="nofollow sponsored noopener">홋카이도 패키지 상품 확인</a>
+  <small>상품 가격과 출발일, 포함 조건은 연결되는 판매 페이지에서 확인할 수 있습니다.</small>
+</aside>
+
+<style>
+  .naver-package-cta { margin-top: 38px; padding: 24px; border: 1px solid #dbe5f2; border-radius: 8px; background: #f7faff; }
+  .naver-package-cta-hotel { background: #fafbfc; }
+  .naver-package-label { display: block; margin-bottom: 9px; color: #496783; font-size: 11px; font-weight: 700; }
+  h2 { margin: 0; color: #172b4d; font-size: 21px; line-height: 1.38; }
+  p { margin: 10px 0 18px; color: #526172; font-size: 15px; line-height: 1.7; word-break: keep-all; }
+  a { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; padding: 11px 18px; border-radius: 8px; background: #1f5f99; color: #fff; font-size: 15px; font-weight: 700; text-decoration: none; }
+  a:hover { background: #194f80; }
+  small { display: block; margin-top: 11px; color: #7b8794; font-size: 11px; line-height: 1.55; }
+  @media (max-width: 760px) { .naver-package-cta { margin-top: 30px; padding: 18px 16px; } h2 { font-size: 19px; } p { font-size: 15px; } a { width: 100%; } }
+</style>

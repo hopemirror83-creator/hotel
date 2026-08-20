@@ -2,6 +2,8 @@
 import HotelMap from '../../components/HotelMap.astro';
 import AdSenseSlot from '../../components/AdSenseSlot.astro';
 import InArticleAd from '../../components/InArticleAd.astro';
+import NaverTravelDisclosure from '../../components/NaverTravelDisclosure.astro';
+import NaverTravelPackageCta from '../../components/NaverTravelPackageCta.astro';
 import HotelImage from '../../components/HotelImage.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { activeHotels as hotels } from '../../data/hotels';
@@ -119,6 +121,8 @@ export function getStaticPaths() {
 }
 
 const { hotel } = Astro.props;
+const showNaverTravelPackage = hotel.slug === 'hokkaido-400220';
+const naverTravelPackageUrl = 'https://naver.me/GXFYnCfG';
 const localizedVersions = (multilingualHotels as Record<string, Record<string, unknown>>)[hotel.slug];
 const languageAlternates = localizedVersions ? [
   { lang: 'ko', path: `/hotel/${hotel.slug}/` },
@@ -847,6 +851,7 @@ function hasKoreanBatchim(value = '') {
       </div>
     </section>
 
+    {showNaverTravelPackage && <NaverTravelDisclosure />}
     <AdSenseSlot placement="top" />
 
     <section class="section summary-section">
@@ -1590,5 +1595,6 @@ function hasKoreanBatchim(value = '') {
     </section>
 
     <AdSenseSlot placement="bottom" />
+    {showNaverTravelPackage && <NaverTravelPackageCta href={naverTravelPackageUrl} context="hotel" />}
   </article>
 </BaseLayout>

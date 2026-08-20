@@ -1,0 +1,24 @@
+import { activeHotels as hotels } from './hotels';
+import type { Hotel } from './hotels';
+
+export type EhimeAreaGuide = { slug:string; path:string; title:string; eyebrow:string; intro:string; purpose:string; intentQuestion:string; metaDescription:string; criteria:string[]; keywords:string[] };
+const make=(slug:string,eyebrow:string,title:string,intro:string,purpose:string,q:string,criteria:string[],keywords:string[]):EhimeAreaGuide=>({slug,path:`/ehime/${slug}/`,eyebrow,title,intro,purpose,intentQuestion:q,criteria,keywords,metaDescription:`${title} 예약 전 위치, 교통, 온천과 객실 조건을 비교합니다.`});
+
+export const ehimeAreaGuides=[
+  make('matsuyama-hotels','MATSUYAMA GUIDE','마쓰야마 호텔 후기 모음 역근처·오카이도·조식·주차 비교','마쓰야마 숙소는 JR역과 오카이도, 마쓰야마성·도고온천 이동 및 조식·주차 조건을 함께 봐야 합니다.','마쓰야마 시내 여행과 출장자를 위한 가이드입니다.','마쓰야마에서는 어느 호텔이 이동하기 편할까요?',['역 접근성','오카이도','마쓰야마성','조식','주차'],['마쓰야마','마츠야마','Matsuyama','松山']),
+  make('dogo-onsen-hotels','DOGO ONSEN','도고온천 료칸 호텔 후기 모음 대욕장·석식·주차 비교','도고온천은 본관 접근성과 대욕장, 가이세키 석식·주차 및 객실 욕실 조건을 확인해야 합니다.','온천과 료칸 숙박을 찾는 여행자를 위한 가이드입니다.','도고온천 숙소 예약 전 무엇을 비교할까요?',['온천 접근성','대욕장','석식','객실 욕실','주차'],['도고','Dogo','道後','온천','Onsen','温泉']),
+  make('imabari-shimanami-hotels','IMABARI SHIMANAMI','이마바리 시마나미카이도 호텔 후기 모음 자전거·주차·조식 비교','이마바리는 시마나미카이도와 항구·역 이동, 자전거 보관과 조식·주차 조건이 중요합니다.','시마나미카이도와 세토내해 여행자를 위한 가이드입니다.','이마바리 여행에는 어느 숙소가 편할까요?',['시마나미카이도','자전거 보관','역·항구','조식','주차'],['이마바리','Imabari','今治','시마나미','Shimanami','しまなみ']),
+  make('uwajima-hotels','UWAJIMA GUIDE','우와지마 호텔 후기 모음 역근처·렌터카·조식·주차 비교','우와지마는 JR역과 성·항구 이동, 렌터카와 조식·주차 조건을 먼저 확인해야 합니다.','에히메 남부 여행과 출장자를 위한 가이드입니다.','우와지마에서는 어느 호텔이 편할까요?',['역 접근성','우와지마성','렌터카','조식','주차'],['우와지마','Uwajima','宇和島','아이난','Ainan','愛南']),
+  make('niihama-saijo-hotels','NIIHAMA SAIJO','니이하마 사이조 호텔 후기 모음 출장·역근처·조식·주차 비교','니이하마와 사이조는 출장 동선, 역 접근성과 무료 주차·조식 조건을 함께 봐야 합니다.','에히메 동부 출장과 소도시 여행자를 위한 가이드입니다.','니이하마·사이조에서는 어느 호텔이 편할까요?',['출장','역 접근성','무료 주차','조식','체크인'],['니이하마','Niihama','新居浜','사이조','Saijo','西条','시코쿠추오','Shikokuchuo','四国中央']),
+  make('ozu-uchiko-hotels','OZU UCHIKO','오즈 우치코 숙소 후기 모음 성하마을·료칸·주차 비교','오즈와 우치코는 보존 거리와 성하마을 이동, 렌터카·주차 및 식사 제공 여부가 중요합니다.','에히메 역사 마을 여행자를 위한 가이드입니다.','오즈·우치코 숙소는 무엇을 확인해야 할까요?',['성하마을','보존 거리','렌터카','식사','주차'],['오즈','Ozu','大洲','우치코','Uchiko','内子','이요','Iyo','伊予']),
+  make('ehime-seaside-hotels','EHIME SEASIDE','에히메 세토내해 숙소 후기 모음 오션뷰·섬여행·주차 비교','에히메 해안과 섬 숙소는 전망 방향, 항구 이동과 렌터카·식사·주차 조건을 확인해야 합니다.','세토내해 전망과 섬 여행자를 위한 가이드입니다.','에히메 오션뷰 숙소는 무엇을 비교할까요?',['오션뷰','항구 접근성','섬 여행','식사','주차'],['세토우치','Setouchi','瀬戸内','오션','Ocean','해변','시마나미','Shimanami']),
+  make('ehime-hotel-comparison','EHIME COMPARISON','에히메 호텔 비교 후기 모음 마쓰야마·도고온천·이마바리·우와지마','에히메는 마쓰야마 도심, 도고온천, 시마나미카이도와 남부 소도시의 교통·식사 조건이 다릅니다.','에히메 주요 권역을 일정과 예산에 맞게 비교하는 페이지입니다.','에히메 숙소는 어느 지역부터 비교해야 할까요?',['숙박 지역','평점','후기 수','가격대','추천 대상'],['에히메','Ehime','마쓰야마','도고','이마바리','우와지마'])
+] as EhimeAreaGuide[];
+
+export const ehimeHotels=hotels.filter(h=>h.slug.startsWith('ehime-')).sort((a,b)=>pop(b)-pop(a));
+export function getEhimeAreaGuideHotels(g:EhimeAreaGuide,limit=20){return ehimeHotels.map(h=>item(h,g)).filter(x=>x.guideScore>0).sort((a,b)=>b.guideScore-a.guideScore).slice(0,limit)}
+export function getRelatedEhimeAreaGuides(h:Hotel){if(!h.slug.startsWith('ehime-'))return[];const t=text(h).toLowerCase();return ehimeAreaGuides.map(guide=>({guide,score:guide.slug==='ehime-hotel-comparison'?1:guide.keywords.filter(k=>t.includes(k.toLowerCase())).length})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,4).map(x=>x.guide)}
+function item(h:Hotel,g:EhimeAreaGuide){const area=pick(text(h)),matches=g.slug==='ehime-hotel-comparison'?1:g.keywords.filter(k=>text(h).toLowerCase().includes(k.toLowerCase())).length,price=h.averageNightlyRate??h.dailyRate,target=`${area} 일정`;return{hotel:h,guideScore:matches?matches*10000+pop(h):0,reasons:[`${area} 일정에서 이동 동선을 비교하기 좋은 후보입니다.`,h.reviewCount&&h.reviewCount>=1000?'후기 수가 충분해 반복되는 장단점을 비교하기 좋습니다.':'객실과 식사·교통 조건을 함께 확인하는 편이 좋습니다.',h.reviewScore&&h.reviewScore>=8.8?'아고다 평점이 높은 편이어서 우선 비교 후보로 보기 좋습니다.':'가격과 객실 조건을 함께 비교하세요.'],caution:'온천·식사·주차·교통·취소 조건은 날짜와 객실에 따라 다를 수 있습니다.',target,tags:[area,...g.criteria.slice(0,3)],tableCells:[area,String(h.reviewScore??'확인 필요'),h.reviewCount?`${h.reviewCount.toLocaleString('ko-KR')}건`:'후기 부족',price?`${price.toLocaleString('ko-KR')}원~`:'가격 확인',target]}}
+function text(h:Hotel){return[h.hotelName,h.address,h.region,h.analysis?.summary,h.analysis?.pros?.join(' ')].filter(Boolean).join(' ')}
+function pick(t:string){if(/도고|Dogo|道後/i.test(t))return'도고온천';if(/이마바리|Imabari|今治|시마나미|Shimanami/i.test(t))return'이마바리·시마나미';if(/우와지마|Uwajima|宇和島|아이난|Ainan/i.test(t))return'우와지마·남부';if(/니이하마|Niihama|新居浜|사이조|Saijo|西条|시코쿠추오/i.test(t))return'니이하마·사이조';if(/오즈|Ozu|大洲|우치코|Uchiko|内子/i.test(t))return'오즈·우치코';return'마쓰야마'}
+function pop(h:Hotel){return(h.reviewScore||0)*1000+Math.min(h.reviewCount||0,50000)/10}

@@ -125,6 +125,8 @@ export function getStaticPaths() {
 const { hotel } = Astro.props;
 const naverTravelPackage = hotel.slug.startsWith('hokkaido-')
   ? { destination: 'hokkaido' as const, url: 'https://naver.me/GXFYnCfG' }
+  : hotel.slug.startsWith('fukuoka-')
+    ? { destination: 'fukuoka' as const, url: 'https://naver.me/5Qs5bPC5' }
   : hotel.slug.startsWith('tsushima-')
     ? { destination: 'tsushima' as const, url: 'https://naver.me/5RAFVThi' }
     : null;

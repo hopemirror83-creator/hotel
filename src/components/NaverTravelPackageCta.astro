@@ -1,9 +1,22 @@
 ---
-interface Props { href: string; destination?: 'hokkaido' | 'tsushima'; context?: 'guide' | 'hotel'; placement?: 'top' | 'bottom' | 'middle'; }
+interface Props { href: string; destination?: 'hokkaido' | 'tsushima' | 'fukuoka'; context?: 'guide' | 'hotel'; placement?: 'top' | 'bottom' | 'middle'; }
 const { href, destination = 'hokkaido', context = 'guide', placement = 'bottom' } = Astro.props;
 const isHotel = context === 'hotel';
 const isGuideTop = !isHotel && placement === 'top';
-const copy = destination === 'tsushima'
+const copy = destination === 'fukuoka'
+  ? {
+      hotelHeading: '후쿠오카 자유여행과 풀패키지를 함께 비교해보세요',
+      topHeading: '온천 1박과 힐튼 1박, 후쿠오카 2박 3일 풀코스',
+      bottomHeading: '유후인·다자이후·나카스까지 한 번에 둘러볼까요?',
+      hotelDescription: '왕복 항공과 숙박, 전용차량, 주요 관광 일정이 포함된 후쿠오카 패키지 조건을 자유여행과 비교할 수 있습니다.',
+      topDescription: '온천호텔 1박과 힐튼 후쿠오카 1박, 유후인·다자이후·나카스 크루즈 일정이 포함된 상품입니다.',
+      bottomDescription: '항공과 호텔을 따로 예약하기 전에 교통·식사·관광 일정이 포함된 풀패키지 조건도 함께 살펴보세요.',
+      hotelButton: '후쿠오카 패키지 일정 보기',
+      topButton: '후쿠오카 2박 3일 일정 확인',
+      bottomButton: '후쿠오카 패키지 조건 비교하기',
+      aria: '후쿠오카 패키지 상품 안내'
+    }
+  : destination === 'tsushima'
   ? {
       hotelHeading: '대마도 여행이라면 패키지도 확인해보세요',
       topHeading: '부산에서 가까운 대마도 여행, 준비는 간단하게',

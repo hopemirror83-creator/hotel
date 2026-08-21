@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AdSenseSlot from '../../components/AdSenseSlot.astro';
-import InArticleAd from '../../components/InArticleAd.astro';
+import NaverTravelDisclosure from '../../components/NaverTravelDisclosure.astro';
+import NaverTravelPackageCta from '../../components/NaverTravelPackageCta.astro';
 import { osakaAreaGuides, osakaHotels, getOsakaAreaGuideHotels } from '../../data/osakaAreaGuides';
 import type { OsakaAreaGuide, OsakaAreaGuideHotel } from '../../data/osakaAreaGuides';
 
@@ -12,10 +13,12 @@ export function getStaticPaths() {
 const { guide } = Astro.props as { guide: OsakaAreaGuide };
 const guideHotels: OsakaAreaGuideHotel[] = getOsakaAreaGuideHotels(guide, guide.slug === 'osaka-hotel-comparison' ? 40 : 20);
 const today = new Date().toISOString().slice(0, 10);
+const packageUrl = 'https://naver.me/G1pWN69s';
 ---
 
 <BaseLayout title={`${guide.title} | 후기 기반 오사카 호텔 선택 가이드`} description={guide.metaDescription} canonicalPath={guide.path}>
   <article class="decision-guide">
+    <NaverTravelDisclosure />
     <section class="decision-hero">
       <span class="eyebrow">{guide.eyebrow}</span>
       <h1>{guide.title}</h1>
@@ -28,6 +31,8 @@ const today = new Date().toISOString().slice(0, 10);
       </div>
     </section>
 
+    <NaverTravelPackageCta href={packageUrl} destination="osaka" context="guide" placement="top" />
+
     <AdSenseSlot placement="top" />
 
     <section class="section guide-question-section">
@@ -38,8 +43,6 @@ const today = new Date().toISOString().slice(0, 10);
       </div>
       <div class="criteria-list">{guide.criteria.map((criterion) => <span>{criterion}</span>)}</div>
     </section>
-
-    <InArticleAd />
 
     <section class="section">
       <div class="section-title">
@@ -83,6 +86,7 @@ const today = new Date().toISOString().slice(0, 10);
       <div class="related-guide-grid">{osakaAreaGuides.filter((item) => item.slug !== guide.slug).map((item) => <a href={item.path}><span>{item.eyebrow}</span><strong>{item.title}</strong></a>)}</div>
     </section>
 
+    <NaverTravelPackageCta href={packageUrl} destination="osaka" context="guide" placement="bottom" />
     <AdSenseSlot placement="bottom" />
   </article>
 </BaseLayout>

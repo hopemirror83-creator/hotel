@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AdSenseSlot from '../../components/AdSenseSlot.astro';
-import InArticleAd from '../../components/InArticleAd.astro';
+import NaverTravelDisclosure from '../../components/NaverTravelDisclosure.astro';
+import NaverTravelPackageCta from '../../components/NaverTravelPackageCta.astro';
 import { tokyoAreaGuides, tokyoHotels, getTokyoAreaGuideHotels } from '../../data/tokyoAreaGuides';
 import type { TokyoAreaGuide, TokyoAreaGuideHotel } from '../../data/tokyoAreaGuides';
 
@@ -12,10 +13,12 @@ export function getStaticPaths() {
 const { guide } = Astro.props as { guide: TokyoAreaGuide };
 const guideHotels: TokyoAreaGuideHotel[] = getTokyoAreaGuideHotels(guide, guide.slug === 'tokyo-hotel-comparison' ? 40 : 20);
 const today = new Date().toISOString().slice(0, 10);
+const packageUrl = 'https://naver.me/xF45zMWv';
 ---
 
 <BaseLayout title={`${guide.title} | 후기 기반 도쿄 호텔 선택 가이드`} description={guide.metaDescription} canonicalPath={guide.path}>
   <article class="decision-guide">
+    <NaverTravelDisclosure />
     <section class="decision-hero">
       <span class="eyebrow">{guide.eyebrow}</span>
       <h1>{guide.title}</h1>
@@ -27,12 +30,12 @@ const today = new Date().toISOString().slice(0, 10);
         <div><span>마지막 업데이트</span><strong>{today}</strong></div>
       </div>
     </section>
+    <NaverTravelPackageCta href={packageUrl} destination="tokyo" context="guide" placement="top" />
     <AdSenseSlot placement="top" />
     <section class="section guide-question-section">
       <div class="section-title"><span>DECISION QUESTION</span><h2>{guide.intentQuestion}</h2><p>{guide.purpose}</p></div>
       <div class="criteria-list">{guide.criteria.map((criterion) => <span>{criterion}</span>)}</div>
     </section>
-    <InArticleAd />
     <section class="section">
       <div class="section-title"><span>TOP LIST</span><h2>추천 후보</h2><p>아고다 평점과 후기 수, 위치와 공개 후기 단서를 함께 비교했습니다. 요금과 객실 조건은 예약 날짜에 따라 달라질 수 있습니다.</p></div>
       <div class="guide-card-list">
@@ -62,6 +65,7 @@ const today = new Date().toISOString().slice(0, 10);
       <div class="section-title"><span>RELATED GUIDE</span><h2>다른 도쿄 호텔 선택 기준</h2></div>
       <div class="related-guide-grid">{tokyoAreaGuides.filter((item) => item.slug !== guide.slug).map((item) => <a href={item.path}><span>{item.eyebrow}</span><strong>{item.title}</strong></a>)}</div>
     </section>
+    <NaverTravelPackageCta href={packageUrl} destination="tokyo" context="guide" placement="bottom" />
     <AdSenseSlot placement="bottom" />
   </article>
 </BaseLayout>

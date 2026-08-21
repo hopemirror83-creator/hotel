@@ -906,7 +906,9 @@ function hasKoreanBatchim(value = '') {
         <div class="blog-intro">
           {blogReview.intro.slice(0, 2).map((paragraph) => <p>{paragraph}</p>)}
         </div>
-        <InArticleAd />
+        {showNaverTravelPackage
+          ? <NaverTravelPackageCta href={naverTravelPackageUrl} context="hotel" placement="middle" />
+          : <InArticleAd />}
         {blogReview.intro.length > 2 && (
           <div class="blog-intro blog-intro-continuation">
             {blogReview.intro.slice(2).map((paragraph) => <p>{paragraph}</p>)}
@@ -1595,6 +1597,5 @@ function hasKoreanBatchim(value = '') {
     </section>
 
     <AdSenseSlot placement="bottom" />
-    {showNaverTravelPackage && <NaverTravelPackageCta href={naverTravelPackageUrl} context="hotel" />}
   </article>
 </BaseLayout>

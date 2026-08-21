@@ -32,6 +32,7 @@ const naverPackageUrl = 'https://naver.me/GXFYnCfG';
       </div>
     </section>
     {showNaverPackage && <NaverTravelDisclosure />}
+    {showNaverPackage && <NaverTravelPackageCta href={naverPackageUrl} context="guide" placement="top" />}
     <AdSenseSlot placement="top" />
 
     <section class="section guide-question-section">
@@ -73,6 +74,6 @@ const naverPackageUrl = 'https://naver.me/GXFYnCfG';
       <div class="related-guide-grid">{hokkaidoAreaGuides.filter((item) => item.slug !== guide.slug).map((item) => <a href={item.path}><span>{item.eyebrow}</span><strong>{item.title}</strong></a>)}</div>
     </section>
     <AdSenseSlot placement="bottom" />
-    {showNaverPackage && <NaverTravelPackageCta href={naverPackageUrl} context="guide" />}
+    {showNaverPackage && <NaverTravelPackageCta href={naverPackageUrl} context="guide" placement="bottom" />}
   </article>
 </BaseLayout>

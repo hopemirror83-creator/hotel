@@ -1,0 +1,19 @@
+import { activeHotels as hotels } from './hotels';
+import type { Hotel } from './hotels';
+
+export type TsushimaAreaGuide = { slug: string; path: string; title: string; eyebrow: string; intro: string; purpose: string; intentQuestion: string; metaDescription: string; criteria: string[]; keywords: string[] };
+const make = (slug: string, eyebrow: string, title: string, intro: string, purpose: string, question: string, criteria: string[], keywords: string[]): TsushimaAreaGuide => ({ slug, path: `/tsushima/${slug}/`, eyebrow, title, intro, purpose, intentQuestion: question, criteria, keywords, metaDescription: `${title} 예약 전 항구 접근, 객실, 조식과 이동 조건을 비교합니다.` });
+
+export const tsushimaAreaGuides = [
+  make('tsushima-hotels', 'TSUSHIMA GUIDE', '대마도 호텔 후기 모음 이즈하라·히타카츠·항구근처·조식 비교', '대마도 숙소는 부산에서 도착하는 항구와 여행 권역을 먼저 정한 뒤 객실, 조식과 현지 이동 조건을 비교해야 합니다.', '배편과 숙소를 따로 예약할지 패키지를 이용할지 고민하는 대마도 여행자를 위한 가이드입니다.', '대마도에서는 이즈하라와 히타카츠 중 어디에 묵는 것이 편할까요?', ['도착 항구', '객실', '조식', '렌터카', '가격대'], ['대마도', 'Tsushima', '対馬', '이즈하라', '히타카츠']),
+  make('izuhara-hotels', 'IZUHARA GUIDE', '대마도 이즈하라 호텔 후기 모음 항구근처·쇼핑·조식·체크인 비교', '이즈하라는 항구와 시내 식당, 쇼핑 동선을 도보로 연결하기 쉬운지가 숙소 선택의 핵심입니다.', '이즈하라항 도착과 남부 중심 여행자를 위한 가이드입니다.', '이즈하라항 근처에서는 어느 호텔이 이동하기 편할까요?', ['항구 접근성', '도보 이동', '쇼핑', '조식', '체크인'], ['이즈하라', 'Izuhara', '厳原']),
+  make('hitakatsu-hotels', 'HITAKATSU GUIDE', '대마도 히타카츠 호텔 후기 모음 항구근처·미우다해변·렌터카 비교', '히타카츠는 항구 접근뿐 아니라 미우다해변과 북부 관광지 이동, 렌터카와 식당 조건을 함께 봐야 합니다.', '히타카츠항 도착과 북부 자연 여행자를 위한 가이드입니다.', '히타카츠에서는 항구와 해변 중 어느 위치가 편할까요?', ['항구 접근성', '미우다해변', '렌터카', '주차', '조식'], ['히타카츠', 'Hitakatsu', '比田勝', '가미쓰시마', 'Kamitsushima', '미우다'])
+] as TsushimaAreaGuide[];
+
+export const tsushimaHotels = hotels.filter((hotel) => hotel.slug.startsWith('tsushima-')).sort((a, b) => popularity(b) - popularity(a));
+export function getTsushimaAreaGuideHotels(guide: TsushimaAreaGuide, limit = 20) { return tsushimaHotels.map((hotel) => item(hotel, guide)).filter((entry) => entry.guideScore > 0).sort((a, b) => b.guideScore - a.guideScore).slice(0, limit); }
+export function getRelatedTsushimaAreaGuides(hotel: Hotel) { if (!hotel.slug.startsWith('tsushima-')) return []; const value = text(hotel).toLowerCase(); return tsushimaAreaGuides.map((guide) => ({ guide, score: guide.slug === 'tsushima-hotels' ? 1 : guide.keywords.filter((keyword) => value.includes(keyword.toLowerCase())).length })).filter((entry) => entry.score > 0).sort((a, b) => b.score - a.score).map((entry) => entry.guide); }
+function item(hotel: Hotel, guide: TsushimaAreaGuide) { const area = pick(text(hotel)); const matches = guide.slug === 'tsushima-hotels' ? 1 : guide.keywords.filter((keyword) => text(hotel).toLowerCase().includes(keyword.toLowerCase())).length; const price = hotel.averageNightlyRate ?? hotel.dailyRate; const target = `${area} 일정`; return { hotel, guideScore: matches ? matches * 10000 + popularity(hotel) : 0, reasons: [`${area} 일정에서 항구와 관광지 이동을 비교하기 좋은 후보입니다.`, hotel.reviewCount && hotel.reviewCount >= 300 ? '후기 수가 충분해 반복되는 장단점을 살펴보기 좋습니다.' : '공개 후기와 객실 조건을 함께 확인하는 편이 좋습니다.', hotel.reviewScore && hotel.reviewScore >= 8.8 ? '아고다 평점이 높은 편이어서 우선 비교 후보로 보기 좋습니다.' : '가격과 객실 조건을 함께 비교하세요.'], caution: '배편·식사·주차·체크인·취소 조건은 날짜와 객실에 따라 달라질 수 있습니다.', target, tags: [area, ...guide.criteria.slice(0, 3)], tableCells: [area, String(hotel.reviewScore ?? '확인 필요'), hotel.reviewCount ? `${hotel.reviewCount.toLocaleString('ko-KR')}건` : '후기 부족', price ? `${price.toLocaleString('ko-KR')}원~` : '가격 확인', target] }; }
+function text(hotel: Hotel) { return [hotel.hotelName, hotel.address, hotel.region, hotel.analysis?.summary, hotel.analysis?.pros?.join(' ')].filter(Boolean).join(' '); }
+function pick(value: string) { if (/히타카츠|Hitakatsu|比田勝|가미쓰시마|Kamitsushima|上対馬/i.test(value)) return '히타카츠·북부'; if (/이즈하라|Izuhara|厳原/i.test(value)) return '이즈하라·남부'; return '대마도 중부'; }
+function popularity(hotel: Hotel) { return (hotel.reviewScore || 0) * 1000 + Math.min(hotel.reviewCount || 0, 50000) / 10; }

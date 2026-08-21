@@ -121,7 +121,7 @@ export function getStaticPaths() {
 }
 
 const { hotel } = Astro.props;
-const showNaverTravelPackage = hotel.slug === 'hokkaido-400220';
+const showNaverTravelPackage = hotel.slug.startsWith('hokkaido-');
 const naverTravelPackageUrl = 'https://naver.me/GXFYnCfG';
 const localizedVersions = (multilingualHotels as Record<string, Record<string, unknown>>)[hotel.slug];
 const languageAlternates = localizedVersions ? [

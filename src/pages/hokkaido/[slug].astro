@@ -14,7 +14,7 @@ export function getStaticPaths() {
 const { guide } = Astro.props as { guide: HokkaidoAreaGuide };
 const list = getHokkaidoAreaGuideHotels(guide, guide.slug === 'hokkaido-hotel-comparison' ? 40 : 20);
 const today = new Date().toISOString().slice(0, 10);
-const showNaverPackage = guide.slug === 'hokkaido-hotel-comparison';
+const showNaverPackage = true;
 const naverPackageUrl = 'https://naver.me/GXFYnCfG';
 ---
 

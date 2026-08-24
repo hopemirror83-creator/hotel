@@ -2,7 +2,7 @@ $ErrorActionPreference = "Continue"
 
 $CredentialDir = "C:\$([char]0xB0B4)$([char]0xBB38)$([char]0xC11C)\$([char]0xC560)$([char]0xB4DC)$([char]0xBC84)$([char]0xCF54)$([char]0xB354)"
 $Credentials = @(
-  (Join-Path $CredentialDir "wooram-505501-36d087664df2.json")
+  (Join-Path $CredentialDir "site11-506305-2abd017f1ef0.json")
 )
 
 $Locations = @(
@@ -32,7 +32,7 @@ foreach ($Index in $StartIndex..$EndIndex) {
     foreach ($Location in $Locations) {
       $env:GENAI_PROVIDER = "vertex"
       $env:GOOGLE_APPLICATION_CREDENTIALS = $Credential
-      $env:GOOGLE_CLOUD_PROJECT = "wooram-505501"
+      $env:GOOGLE_CLOUD_PROJECT = "site11-506305"
       $env:GEMINI_MODEL = "gemini-2.5-flash"
       $env:VERTEX_LOCATION = $Location
       $env:GEMINI_START_INDEX = [string]$Index

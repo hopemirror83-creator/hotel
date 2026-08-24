@@ -62,6 +62,7 @@ import { naraAreaGuides } from '../data/naraAreaGuides';
 import { wakayamaAreaGuides } from '../data/wakayamaAreaGuides';
 import { sagaAreaGuides } from '../data/sagaAreaGuides';
 import { nagasakiAreaGuides } from '../data/nagasakiAreaGuides';
+import { kumamotoAreaGuides } from '../data/kumamotoAreaGuides';
 import { tsushimaAreaGuides } from '../data/tsushimaAreaGuides';
 import { multilingualHotels } from '../data/multilingualHotels';
 import { multilingualRegions } from '../data/multilingualRegions';
@@ -134,6 +135,7 @@ export const GET: APIRoute = ({ site }) => {
     ...wakayamaAreaGuides.map((guide) => guide.path),
     ...sagaAreaGuides.map((guide) => guide.path),
     ...nagasakiAreaGuides.map((guide) => guide.path),
+    ...kumamotoAreaGuides.map((guide) => guide.path),
     ...tsushimaAreaGuides.map((guide) => guide.path),
     ...gyeongbukAreaGuides.map((guide) => guide.path),
     ...gyeongnamAreaGuides.map((guide) => guide.path),

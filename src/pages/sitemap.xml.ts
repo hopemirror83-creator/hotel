@@ -59,6 +59,7 @@ import { kochiAreaGuides } from '../data/kochiAreaGuides';
 import { mieAreaGuides } from '../data/mieAreaGuides';
 import { shigaAreaGuides } from '../data/shigaAreaGuides';
 import { naraAreaGuides } from '../data/naraAreaGuides';
+import { wakayamaAreaGuides } from '../data/wakayamaAreaGuides';
 import { tsushimaAreaGuides } from '../data/tsushimaAreaGuides';
 import { multilingualHotels } from '../data/multilingualHotels';
 import { multilingualRegions } from '../data/multilingualRegions';
@@ -128,6 +129,7 @@ export const GET: APIRoute = ({ site }) => {
     ...mieAreaGuides.map((guide) => guide.path),
     ...shigaAreaGuides.map((guide) => guide.path),
     ...naraAreaGuides.map((guide) => guide.path),
+    ...wakayamaAreaGuides.map((guide) => guide.path),
     ...tsushimaAreaGuides.map((guide) => guide.path),
     ...gyeongbukAreaGuides.map((guide) => guide.path),
     ...gyeongnamAreaGuides.map((guide) => guide.path),

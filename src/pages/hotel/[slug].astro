@@ -116,6 +116,8 @@ import { getRelatedNaraAreaGuides } from '../../data/naraAreaGuides';
 import { getNaraSearchIntent } from '../../data/naraSearchIntents';
 import { getRelatedWakayamaAreaGuides } from '../../data/wakayamaAreaGuides';
 import { getWakayamaSearchIntent } from '../../data/wakayamaSearchIntents';
+import { getRelatedSagaAreaGuides } from '../../data/sagaAreaGuides';
+import { getSagaSearchIntent } from '../../data/sagaSearchIntents';
 import { getRelatedTsushimaAreaGuides } from '../../data/tsushimaAreaGuides';
 import { getTsushimaSearchIntent } from '../../data/tsushimaSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
@@ -226,6 +228,7 @@ const relatedMieAreaGuides = hotel.slug.startsWith('mie-') ? getRelatedMieAreaGu
 const relatedShigaAreaGuides = hotel.slug.startsWith('shiga-') ? getRelatedShigaAreaGuides(hotel) : [];
 const relatedNaraAreaGuides = hotel.slug.startsWith('nara-') ? getRelatedNaraAreaGuides(hotel) : [];
 const relatedWakayamaAreaGuides = hotel.slug.startsWith('wakayama-') ? getRelatedWakayamaAreaGuides(hotel) : [];
+const relatedSagaAreaGuides = hotel.slug.startsWith('saga-') ? getRelatedSagaAreaGuides(hotel) : [];
 const relatedTsushimaAreaGuides = hotel.slug.startsWith('tsushima-') ? getRelatedTsushimaAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
@@ -233,6 +236,7 @@ const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecomme
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('saga-')) return getSagaSearchIntent(hotel);
   if (hotel.slug.startsWith('tsushima-')) return getTsushimaSearchIntent(hotel);
   if (hotel.slug.startsWith('wakayama-')) return getWakayamaSearchIntent(hotel);
   if (hotel.slug.startsWith('nara-')) return getNaraSearchIntent(hotel);
@@ -523,6 +527,7 @@ function extractRegion(value = '') {
   if (/야마나시|yamanashi|가와구치코|kawaguchiko|야마나카코|yamanakako|후지요시다|fujiyoshida|고후|kofu|이사와|isawa|기요사토|kiyosato|호쿠토|hokuto/i.test(value)) return '야마나시';
   if (/시즈오카|shizuoka|하마마쓰|hamamatsu|아타미|atami|이즈|izu|이토|ito|시모다|shimoda|가와즈|kawazu|고텐바|gotemba|후지노미야|fujinomiya/i.test(value)) return '시즈오카';
   if (/기후|gifu|다카야마|takayama|히다|hida|시라카와|shirakawa|게로|gero|오쿠히다|okuhida|히라유|hirayu|신호타카|hotaka|마고메|magome|나카쓰가와|nakatsugawa/i.test(value)) return '기후';
+  if (/사가현|佐賀|사가|saga|우레시노|ureshino|다케오|takeo|가라쓰|가라츠|karatsu|이마리|imari|도스|tosu/i.test(value)) return '사가';
   if (/와카야마|wakayama|시라하마|shirahama|고야산|koyasan|구마노|kumano|가쓰우라|katsuura|구시모토|kushimoto/i.test(value)) return '와카야마';
   if (/나라현|奈良|나라역|nara|가시하라|kashihara|아스카|asuka|요시노|yoshino|이코마|ikoma|호류지|horyuji/i.test(value)) return '나라';
   if (/시가현|滋賀|오쓰|오츠|otsu|히코네|hikone|비와코|lake biwa/i.test(value)) return '시가';
@@ -1616,6 +1621,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 와카야마 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedWakayamaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedSagaAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 사가 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedSagaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
     {relatedTsushimaAreaGuides.length > 0 && (

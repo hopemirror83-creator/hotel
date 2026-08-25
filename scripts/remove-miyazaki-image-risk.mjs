@@ -1,0 +1,18 @@
+import { readFile, writeFile } from 'node:fs/promises';
+const slug = 'miyazaki-237954';
+const targetPath = 'data/target-hotels-miyazaki-v1-quality.json';
+const targets = JSON.parse(await readFile(targetPath, 'utf8')).filter((hotel) => hotel.slug !== slug);
+await writeFile(targetPath, `${JSON.stringify(targets, null, 2)}\n`);
+const slugPath = 'data/target-slugs-miyazaki-v1-quality.json';
+const slugs = JSON.parse(await readFile(slugPath, 'utf8')).filter((value) => value !== slug);
+await writeFile(slugPath, `${JSON.stringify(slugs, null, 2)}\n`);
+const collectedPath = 'data/generated/hotels.collected.json';
+const collected = JSON.parse(await readFile(collectedPath, 'utf8'));
+collected.hotels = collected.hotels.filter((hotel) => hotel.slug !== slug);
+await writeFile(collectedPath, `${JSON.stringify(collected, null, 2)}\n`);
+const generatedPath = 'src/data/generatedHotels.ts';
+const source = await readFile(generatedPath, 'utf8');
+const match = source.match(/export const generatedHotels(?:\s*:\s*any\[\])?\s*=\s*([\s\S]*);\s*$/);
+const generated = JSON.parse(match[1]).filter((hotel) => hotel.slug !== slug);
+await writeFile(generatedPath, `// @ts-nocheck\nexport const generatedHotels: any[] = ${JSON.stringify(generated, null, 2)};\n`);
+console.log({ targets: slugs.length, collected: collected.hotels.length, generated: generated.filter((hotel) => hotel.slug.startsWith('miyazaki-')).length });

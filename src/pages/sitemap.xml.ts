@@ -66,6 +66,7 @@ import { kumamotoAreaGuides } from '../data/kumamotoAreaGuides';
 import { oitaAreaGuides } from '../data/oitaAreaGuides';
 import { miyazakiAreaGuides } from '../data/miyazakiAreaGuides';
 import { kagoshimaAreaGuides } from '../data/kagoshimaAreaGuides';
+import { danangAreaGuides } from '../data/danangAreaGuides';
 import { tsushimaAreaGuides } from '../data/tsushimaAreaGuides';
 import { multilingualHotels } from '../data/multilingualHotels';
 import { multilingualRegions } from '../data/multilingualRegions';
@@ -142,6 +143,7 @@ export const GET: APIRoute = ({ site }) => {
     ...oitaAreaGuides.map((guide) => guide.path),
     ...miyazakiAreaGuides.map((guide) => guide.path),
     ...kagoshimaAreaGuides.map((guide) => guide.path),
+    ...danangAreaGuides.map((guide) => guide.path),
     ...tsushimaAreaGuides.map((guide) => guide.path),
     ...gyeongbukAreaGuides.map((guide) => guide.path),
     ...gyeongnamAreaGuides.map((guide) => guide.path),

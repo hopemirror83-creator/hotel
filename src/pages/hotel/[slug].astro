@@ -130,6 +130,8 @@ import { getRelatedKagoshimaAreaGuides } from '../../data/kagoshimaAreaGuides';
 import { getKagoshimaSearchIntent } from '../../data/kagoshimaSearchIntents';
 import { getRelatedTsushimaAreaGuides } from '../../data/tsushimaAreaGuides';
 import { getTsushimaSearchIntent } from '../../data/tsushimaSearchIntents';
+import { getRelatedDanangAreaGuides } from '../../data/danangAreaGuides';
+import { getDanangSearchIntent } from '../../data/danangSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -245,12 +247,14 @@ const relatedOitaAreaGuides = hotel.slug.startsWith('oita-') ? getRelatedOitaAre
 const relatedMiyazakiAreaGuides = hotel.slug.startsWith('miyazaki-') ? getRelatedMiyazakiAreaGuides(hotel) : [];
 const relatedKagoshimaAreaGuides = hotel.slug.startsWith('kagoshima-') ? getRelatedKagoshimaAreaGuides(hotel) : [];
 const relatedTsushimaAreaGuides = hotel.slug.startsWith('tsushima-') ? getRelatedTsushimaAreaGuides(hotel) : [];
+const relatedDanangAreaGuides = hotel.slug.startsWith('danang-') ? getRelatedDanangAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('danang-')) return getDanangSearchIntent(hotel);
   if (hotel.slug.startsWith('kagoshima-')) return getKagoshimaSearchIntent(hotel);
   if (hotel.slug.startsWith('miyazaki-')) return getMiyazakiSearchIntent(hotel);
   if (hotel.slug.startsWith('oita-')) return getOitaSearchIntent(hotel);
@@ -539,6 +543,7 @@ function addRegionScore(scores: Map<string, number>, region: string, score: numb
 }
 
 function extractRegion(value = '') {
+  if (/베트남 다낭|다낭|da nang|danang|đà nẵng|미케비치|my khe|논누억|non nuoc|선짜|son tra/i.test(value)) return '다낭';
   if (/가고시마현|鹿児島|가고시마|kagoshima|기리시마|kirishima|이부스키|ibusuki|야쿠시마|yakushima|아마미|amami|사쿠라지마|sakurajima/i.test(value)) return '가고시마';
   if (/미야자키현|宮崎|미야자키|miyazaki|아오시마|aoshima|다카치호|takachiho|노베오카|nobeoka|휴가|hyuga|니치난|nichinan|미야코노조|miyakonojo/i.test(value)) return '미야자키';
   if (/오이타현|大分|오이타|oita|벳푸|beppu|유후인|yufuin|유후|yufu|히타|hita|구주|kuju|고코노에|kokonoe/i.test(value)) return '오이타';
@@ -1673,6 +1678,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 대마도 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedTsushimaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedDanangAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 다낭 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedDanangAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

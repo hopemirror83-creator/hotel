@@ -239,6 +239,7 @@ function cityAnchor(city: string) {
       <input id="hotel-search-input" type="search" placeholder="예: 명동, 강남, 홍대, 운서역, 조식, 파라다이스" autocomplete="off" />
     </label>
     <p id="hotel-search-count" class="search-count">{totalHotels.toLocaleString('ko-KR')}개 호텔이 표시됩니다.</p>
+    <div id="hotel-search-results" class="hotel-search-results" hidden aria-live="polite"></div>
   </section>
 
   <section id="hotels" class="section">
@@ -545,6 +546,7 @@ function cityAnchor(city: string) {
   <script is:inline>
     const searchInput = document.querySelector('#hotel-search-input');
     const searchCount = document.querySelector('#hotel-search-count');
+    const searchResults = document.querySelector('#hotel-search-results');
     const hotelCards = Array.from(document.querySelectorAll('.hotel-card'));
     const regionLinks = Array.from(document.querySelectorAll('[data-region-link]'));
 
@@ -555,6 +557,7 @@ function cityAnchor(city: string) {
     function updateHotelSearch() {
       const query = normalize(searchInput?.value);
       let visibleLinkCount = 0;
+      const matches = [];
 
       hotelCards.forEach((card) => {
         const text = normalize(card.dataset.search);
@@ -566,8 +569,33 @@ function cityAnchor(city: string) {
         const text = normalize(link.dataset.search);
         const visible = !query || text.includes(query);
         link.hidden = !visible;
-        if (visible) visibleLinkCount += 1;
+        if (visible) {
+          visibleLinkCount += 1;
+          if (query) matches.push(link);
+        }
       });
+
+      if (searchResults) {
+        searchResults.replaceChildren();
+        searchResults.hidden = !query;
+        matches.slice(0, 50).forEach((link) => {
+          const result = document.createElement('a');
+          result.href = link.href;
+          result.className = 'hotel-search-result';
+          const name = document.createElement('strong');
+          name.textContent = link.querySelector('span')?.textContent || '호텔 페이지';
+          const meta = document.createElement('span');
+          meta.textContent = link.querySelector('small')?.textContent || '상세 정보 보기';
+          result.append(name, meta);
+          searchResults.append(result);
+        });
+        if (matches.length > 50) {
+          const notice = document.createElement('p');
+          notice.className = 'hotel-search-more';
+          notice.textContent = `검색 결과가 많아 상위 50개만 표시합니다. 검색어를 더 구체적으로 입력해 주세요.`;
+          searchResults.append(notice);
+        }
+      }
 
       if (searchCount) {
         searchCount.textContent = query
@@ -577,6 +605,16 @@ function cityAnchor(city: string) {
     }
 
     searchInput?.addEventListener('input', updateHotelSearch);
+    searchInput?.addEventListener('keydown', (event) => {
+      if (event.key !== 'Enter') return;
+      event.preventDefault();
+      updateHotelSearch();
+      const firstResult = searchResults?.querySelector('a');
+      if (firstResult && searchResults) {
+        searchResults.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        firstResult.focus({ preventScroll: true });
+      }
+    });
 
     const initialCity = new URLSearchParams(window.location.search).get('city');
     if (initialCity && searchInput) {

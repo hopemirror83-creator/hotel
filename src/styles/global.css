@@ -486,6 +486,66 @@ p {
   box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
 }
 
+.hotel-search-results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.hotel-search-results[hidden] {
+  display: none;
+}
+
+.hotel-search-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  min-width: 0;
+  padding: 15px 16px;
+  color: #111827;
+  background: #fff;
+  border: 1px solid #dce5f3;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.hotel-search-result:hover,
+.hotel-search-result:focus-visible {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  outline: none;
+}
+
+.hotel-search-result strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.hotel-search-result span {
+  flex-shrink: 0;
+  color: #64748b;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.hotel-search-more {
+  grid-column: 1 / -1;
+  margin: 4px 0 0;
+  color: #64748b;
+}
+
+@media (max-width: 760px) {
+  .hotel-search-results {
+    grid-template-columns: 1fr;
+  }
+
+  .hotel-search-result {
+    padding: 14px;
+  }
+}
+
 .search-count {
   margin: 0;
   color: var(--muted);

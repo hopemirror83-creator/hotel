@@ -68,6 +68,7 @@ import { miyazakiAreaGuides } from '../data/miyazakiAreaGuides';
 import { kagoshimaAreaGuides } from '../data/kagoshimaAreaGuides';
 import { danangAreaGuides } from '../data/danangAreaGuides';
 import { nhatrangAreaGuides } from '../data/nhatrangAreaGuides';
+import { phuquocAreaGuides } from '../data/phuquocAreaGuides';
 import { tsushimaAreaGuides } from '../data/tsushimaAreaGuides';
 import { multilingualHotels } from '../data/multilingualHotels';
 import { multilingualRegions } from '../data/multilingualRegions';
@@ -146,6 +147,7 @@ export const GET: APIRoute = ({ site }) => {
     ...kagoshimaAreaGuides.map((guide) => guide.path),
     ...danangAreaGuides.map((guide) => guide.path),
     ...nhatrangAreaGuides.map((guide) => guide.path),
+    ...phuquocAreaGuides.map((guide) => guide.path),
     ...tsushimaAreaGuides.map((guide) => guide.path),
     ...gyeongbukAreaGuides.map((guide) => guide.path),
     ...gyeongnamAreaGuides.map((guide) => guide.path),

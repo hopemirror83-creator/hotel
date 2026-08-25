@@ -134,6 +134,8 @@ import { getRelatedDanangAreaGuides } from '../../data/danangAreaGuides';
 import { getDanangSearchIntent } from '../../data/danangSearchIntents';
 import { getRelatedNhatrangAreaGuides } from '../../data/nhatrangAreaGuides';
 import { getNhatrangSearchIntent } from '../../data/nhatrangSearchIntents';
+import { getRelatedPhuquocAreaGuides } from '../../data/phuquocAreaGuides';
+import { getPhuquocSearchIntent } from '../../data/phuquocSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -251,12 +253,14 @@ const relatedKagoshimaAreaGuides = hotel.slug.startsWith('kagoshima-') ? getRela
 const relatedTsushimaAreaGuides = hotel.slug.startsWith('tsushima-') ? getRelatedTsushimaAreaGuides(hotel) : [];
 const relatedDanangAreaGuides = hotel.slug.startsWith('danang-') ? getRelatedDanangAreaGuides(hotel) : [];
 const relatedNhatrangAreaGuides = hotel.slug.startsWith('nhatrang-') ? getRelatedNhatrangAreaGuides(hotel) : [];
+const relatedPhuquocAreaGuides = hotel.slug.startsWith('phuquoc-') ? getRelatedPhuquocAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('phuquoc-')) return getPhuquocSearchIntent(hotel);
   if (hotel.slug.startsWith('nhatrang-')) return getNhatrangSearchIntent(hotel);
   if (hotel.slug.startsWith('danang-')) return getDanangSearchIntent(hotel);
   if (hotel.slug.startsWith('kagoshima-')) return getKagoshimaSearchIntent(hotel);
@@ -547,6 +551,7 @@ function addRegionScore(scores: Map<string, number>, region: string, score: numb
 }
 
 function extractRegion(value = '') {
+  if (/베트남 푸꾸옥|푸꾸옥|푸 쿽|phu quoc|phú quốc|즈엉동|duong dong|그랜드월드|grand world|켐비치|khem beach/i.test(value)) return '푸꾸옥';
   if (/베트남 나트랑|나트랑|냐짱|nha trang|쩐푸|tran phu|혼째|hon tre/i.test(value)) return '나트랑';
   if (/베트남 다낭|다낭|da nang|danang|đà nẵng|미케비치|my khe|논누억|non nuoc|선짜|son tra/i.test(value)) return '다낭';
   if (/가고시마현|鹿児島|가고시마|kagoshima|기리시마|kirishima|이부스키|ibusuki|야쿠시마|yakushima|아마미|amami|사쿠라지마|sakurajima/i.test(value)) return '가고시마';
@@ -1695,6 +1700,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 나트랑 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedNhatrangAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedPhuquocAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 푸꾸옥 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedPhuquocAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

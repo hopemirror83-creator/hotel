@@ -20,17 +20,27 @@ import { gyeongnamAreaGuides } from '../data/gyeongnamAreaGuides';
 import type { Hotel } from '../data/hotels';
 
 const totalHotels = hotels.length;
-const groupedHotels = buildHotelGroups(hotels);
-const popularHotelGroups = groupedHotels
-  .map((cityGroup) => ({
-    city: cityGroup.city,
-    count: cityGroup.count,
-    hotels: cityGroup.districts
-      .flatMap((districtGroup) => districtGroup.hotels)
-      .sort((a, b) => (b.reviewCount || 0) - (a.reviewCount || 0))
-      .slice(0, 20)
-  }))
-  .filter((cityGroup) => cityGroup.hotels.length > 0);
+const japanPrefixes = new Set(['osaka','tokyo','fukuoka','kyoto','sapporo','okinawa','nagoya','hiroshima','kobe','yokohama','chiba','miyagi','hakone','ishikawa','toyama','fukui','niigata','nagano','gifu','shizuoka','yamanashi','gunma','tochigi','ibaraki','saitama','fukushima','yamagata','akita','iwate','aomori','hokkaido','okayama','tottori','shimane','yamaguchi','kagawa','tokushima','ehime','kochi','mie','shiga','nara','wakayama','saga','nagasaki','kumamoto','oita','miyazaki','kagoshima','tsushima']);
+const countryOf = (hotel: Hotel) => hotel.slug.startsWith('danang-') ? '베트남' : japanPrefixes.has(hotel.slug.split('-')[0]) ? '일본' : '';
+const popularity = (hotel: Hotel) => (hotel.reviewCount || 0) * Math.max(hotel.reviewScore || 0, 1);
+const domesticHotels = hotels.filter((hotel) => !countryOf(hotel));
+const overseasHotels = hotels.filter((hotel) => countryOf(hotel));
+const popularDomesticHotels = [...domesticHotels].sort((a, b) => popularity(b) - popularity(a)).slice(0, 20);
+const popularOverseasHotels = [...overseasHotels].sort((a, b) => popularity(b) - popularity(a)).slice(0, 20);
+const domesticGuideGroups = [
+  { name: '서울', guides: seoulAreaGuides }, { name: '경기', guides: gyeonggiAreaGuides },
+  { name: '제주', guides: jejuAreaGuides }, { name: '부산', guides: busanAreaGuides },
+  { name: '인천', guides: incheonAreaGuides }, { name: '강원', guides: gangwonAreaGuides },
+  { name: '전남', guides: jeonnamAreaGuides }, { name: '전북', guides: jeonbukAreaGuides },
+  { name: '충북', guides: chungbukAreaGuides }, { name: '충남', guides: chungnamAreaGuides },
+  { name: '대구', guides: daeguAreaGuides }, { name: '대전', guides: daejeonAreaGuides },
+  { name: '울산', guides: ulsanAreaGuides }, { name: '경북', guides: gyeongbukAreaGuides },
+  { name: '경남', guides: gyeongnamAreaGuides }
+];
+const overseasCountryGroups = ['일본', '베트남'].map((country) => ({
+  country,
+  hotels: overseasHotels.filter((hotel) => countryOf(hotel) === country).sort((a, b) => popularity(b) - popularity(a)).slice(0, 100)
+})).filter((group) => group.hotels.length > 0);
 
 function buildHotelGroups(hotels: Hotel[]) {
   const cities = new Map<string, Map<string, Hotel[]>>();
@@ -242,6 +252,67 @@ function cityAnchor(city: string) {
     <div id="hotel-search-results" class="hotel-search-results" hidden aria-live="polite"></div>
   </section>
 
+  <section id="hotels" class="section home-hotel-section">
+    <div class="section-title">
+      <span>POPULAR HOTEL REVIEWS</span>
+      <h2>국내 인기 호텔 후기</h2>
+      <p>전국에서 후기 수와 평점이 충분한 대표 호텔 20개를 먼저 보여드립니다.</p>
+    </div>
+    <div class="hotel-grid home-popular-grid">
+      {popularDomesticHotels.map((hotel) => <HotelCard hotel={hotel} />)}
+    </div>
+  </section>
+
+  <section id="hotel-regions" class="section home-directory-section">
+    <div class="section-title">
+      <span>DOMESTIC GUIDE</span>
+      <h2>국내 지역별 호텔 가이드</h2>
+      <p>여행할 지역을 누르면 해당 지역의 주요 권역과 비교 페이지가 펼쳐집니다.</p>
+    </div>
+    <div class="home-directory-list">
+      {domesticGuideGroups.map((group) => (
+        <details class="home-directory-group">
+          <summary><strong>{group.name}</strong><span>{group.guides.length.toLocaleString('ko-KR')}개 가이드</span></summary>
+          <div class="home-directory-links">
+            {group.guides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}
+          </div>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <section class="section home-hotel-section">
+    <div class="section-title">
+      <span>OVERSEAS POPULAR HOTELS</span>
+      <h2>해외 인기 호텔 후기</h2>
+      <p>현재 공개된 해외 숙소 중 후기 단서가 풍부한 대표 호텔 20개입니다.</p>
+    </div>
+    <div class="hotel-grid home-popular-grid">
+      {popularOverseasHotels.map((hotel) => <HotelCard hotel={hotel} />)}
+    </div>
+  </section>
+
+  <section class="section home-directory-section">
+    <div class="section-title">
+      <span>COUNTRY INDEX</span>
+      <h2>나라별 해외 호텔 찾기</h2>
+      <p>국가를 누르면 현재 공개된 인기 호텔을 확인할 수 있습니다.</p>
+    </div>
+    <div class="home-directory-list">
+      {overseasCountryGroups.map((group) => (
+        <details class="home-directory-group">
+          <summary><strong>{group.country}</strong><span>인기 호텔 {group.hotels.length.toLocaleString('ko-KR')}개</span></summary>
+          <div class="home-country-hotels">
+            {group.hotels.map((hotel) => (
+              <a href={`/hotel/${hotel.slug}/`}><strong>{hotel.hotelName}</strong><span>{hotel.reviewScore ? `평점 ${hotel.reviewScore}` : '평점 확인'}</span></a>
+            ))}
+          </div>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  {/* Legacy regional sections are intentionally excluded from the homepage.
   <section id="hotels" class="section">
     <div class="section-title">
       <span>POPULAR HOTEL REVIEWS</span>
@@ -543,49 +614,60 @@ function cityAnchor(city: string) {
     </div>
   </section>
 
+  */}
+
   <script is:inline>
     const searchInput = document.querySelector('#hotel-search-input');
     const searchCount = document.querySelector('#hotel-search-count');
     const searchResults = document.querySelector('#hotel-search-results');
-    const hotelCards = Array.from(document.querySelectorAll('.hotel-card'));
-    const regionLinks = Array.from(document.querySelectorAll('[data-region-link]'));
+    let searchIndex;
+    let searchTimer;
 
     function normalize(value) {
       return String(value || '').toLowerCase().replace(/\s+/g, ' ').trim();
     }
 
-    function updateHotelSearch() {
+    async function loadSearchIndex() {
+      if (!searchIndex) {
+        const response = await fetch('/hotel-search.json');
+        if (!response.ok) throw new Error('호텔 검색 데이터를 불러오지 못했습니다.');
+        searchIndex = await response.json();
+      }
+      return searchIndex;
+    }
+
+    async function updateHotelSearch() {
       const query = normalize(searchInput?.value);
-      let visibleLinkCount = 0;
-      const matches = [];
-
-      hotelCards.forEach((card) => {
-        const text = normalize(card.dataset.search);
-        const visible = !query || text.includes(query);
-        card.hidden = !visible;
-      });
-
-      regionLinks.forEach((link) => {
-        const text = normalize(link.dataset.search);
-        const visible = !query || text.includes(query);
-        link.hidden = !visible;
-        if (visible) {
-          visibleLinkCount += 1;
-          if (query) matches.push(link);
+      if (!query) {
+        if (searchResults) {
+          searchResults.replaceChildren();
+          searchResults.hidden = true;
         }
-      });
+        if (searchCount) searchCount.textContent = '호텔명, 지역 또는 주소를 입력해 주세요.';
+        return;
+      }
+
+      if (searchCount) searchCount.textContent = '호텔 페이지를 검색하고 있습니다.';
+      let matches = [];
+      try {
+        const index = await loadSearchIndex();
+        matches = index.filter((hotel) => normalize(hotel.search).includes(query));
+      } catch {
+        if (searchCount) searchCount.textContent = '검색 데이터를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.';
+        return;
+      }
 
       if (searchResults) {
         searchResults.replaceChildren();
         searchResults.hidden = !query;
-        matches.slice(0, 50).forEach((link) => {
+        matches.slice(0, 50).forEach((hotel) => {
           const result = document.createElement('a');
-          result.href = link.href;
+          result.href = `/hotel/${hotel.slug}/`;
           result.className = 'hotel-search-result';
           const name = document.createElement('strong');
-          name.textContent = link.querySelector('span')?.textContent || '호텔 페이지';
+          name.textContent = hotel.name || '호텔 페이지';
           const meta = document.createElement('span');
-          meta.textContent = link.querySelector('small')?.textContent || '상세 정보 보기';
+          meta.textContent = [hotel.region, hotel.score ? `평점 ${hotel.score}` : ''].filter(Boolean).join(' · ');
           result.append(name, meta);
           searchResults.append(result);
         });
@@ -598,17 +680,19 @@ function cityAnchor(city: string) {
       }
 
       if (searchCount) {
-        searchCount.textContent = query
-          ? `${visibleLinkCount.toLocaleString('ko-KR')}개 호텔 페이지가 검색되었습니다.`
-          : `${visibleLinkCount.toLocaleString('ko-KR')}개 호텔 페이지에서 검색할 수 있습니다.`;
+        searchCount.textContent = `${matches.length.toLocaleString('ko-KR')}개 호텔 페이지가 검색되었습니다.`;
       }
     }
 
-    searchInput?.addEventListener('input', updateHotelSearch);
-    searchInput?.addEventListener('keydown', (event) => {
+    searchInput?.addEventListener('input', () => {
+      window.clearTimeout(searchTimer);
+      searchTimer = window.setTimeout(updateHotelSearch, 180);
+    });
+    searchInput?.addEventListener('keydown', async (event) => {
       if (event.key !== 'Enter') return;
       event.preventDefault();
-      updateHotelSearch();
+      window.clearTimeout(searchTimer);
+      await updateHotelSearch();
       const firstResult = searchResults?.querySelector('a');
       if (firstResult && searchResults) {
         searchResults.scrollIntoView({ behavior: 'smooth', block: 'nearest' });

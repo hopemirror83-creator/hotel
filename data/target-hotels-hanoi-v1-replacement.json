@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "hanoi-286251",
+    "hotelName": "홈타운차호텔",
+    "region": "베트남 하노이",
+    "searchName": "홈타운차호텔",
+    "naverName": "홈타운차호텔",
+    "agodaHotelId": 286251,
+    "fallbackAddress": "51 Luong Ngoc Quyen Street, Hoan Kiem District 하노이 Ha Noi",
+    "latitude": 21.034645,
+    "longitude": 105.851685,
+    "starRating": 2,
+    "reviewScore": 7.6,
+    "reviewCount": 1175,
+    "imageUrl": "http://pix2.agoda.net/hotelimages/286251/0/3fc07d4d7798edfc020ab3d9a88b369a.jpg?s=312x&ce=2",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=286251",
+    "country": "베트남",
+    "skipMapMatch": true
+  }
+]

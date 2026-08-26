@@ -138,6 +138,8 @@ import { getRelatedPhuquocAreaGuides } from '../../data/phuquocAreaGuides';
 import { getPhuquocSearchIntent } from '../../data/phuquocSearchIntents';
 import { getRelatedHochiminhAreaGuides } from '../../data/hochiminhAreaGuides';
 import { getHochiminhSearchIntent } from '../../data/hochiminhSearchIntents';
+import { getRelatedHanoiAreaGuides } from '../../data/hanoiAreaGuides';
+import { getHanoiSearchIntent } from '../../data/hanoiSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -257,12 +259,14 @@ const relatedDanangAreaGuides = hotel.slug.startsWith('danang-') ? getRelatedDan
 const relatedNhatrangAreaGuides = hotel.slug.startsWith('nhatrang-') ? getRelatedNhatrangAreaGuides(hotel) : [];
 const relatedPhuquocAreaGuides = hotel.slug.startsWith('phuquoc-') ? getRelatedPhuquocAreaGuides(hotel) : [];
 const relatedHochiminhAreaGuides = hotel.slug.startsWith('hochiminh-') ? getRelatedHochiminhAreaGuides(hotel) : [];
+const relatedHanoiAreaGuides = hotel.slug.startsWith('hanoi-') ? getRelatedHanoiAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
 function getRegionalSearchIntent(hotel: Hotel) {
   // The slug is the canonical region signal. Address fragments such as
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
+  if (hotel.slug.startsWith('hanoi-')) return getHanoiSearchIntent(hotel);
   if (hotel.slug.startsWith('hochiminh-')) return getHochiminhSearchIntent(hotel);
   if (hotel.slug.startsWith('phuquoc-')) return getPhuquocSearchIntent(hotel);
   if (hotel.slug.startsWith('nhatrang-')) return getNhatrangSearchIntent(hotel);
@@ -555,6 +559,7 @@ function addRegionScore(scores: Map<string, number>, region: string, score: numb
 }
 
 function extractRegion(value = '') {
+  if (/베트남 하노이|하노이|hanoi|ha noi|hà nội|호안끼엠|hoan kiem|서호|west lake|노이바이|noi bai/i.test(value)) return '하노이';
   if (/베트남 호치민|호치민|ho chi minh|hồ chí minh|saigon|sài gòn|사이공|벤탄|ben thanh|부이비엔|bui vien|탄손녓|tan son nhat/i.test(value)) return '호치민';
   if (/베트남 푸꾸옥|푸꾸옥|푸 쿽|phu quoc|phú quốc|즈엉동|duong dong|그랜드월드|grand world|켐비치|khem beach/i.test(value)) return '푸꾸옥';
   if (/베트남 나트랑|나트랑|냐짱|nha trang|쩐푸|tran phu|혼째|hon tre/i.test(value)) return '나트랑';
@@ -1717,6 +1722,12 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 호치민 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedHochiminhAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+    {relatedHanoiAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 하노이 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedHanoiAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

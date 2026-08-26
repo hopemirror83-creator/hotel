@@ -70,6 +70,7 @@ import { danangAreaGuides } from '../data/danangAreaGuides';
 import { nhatrangAreaGuides } from '../data/nhatrangAreaGuides';
 import { phuquocAreaGuides } from '../data/phuquocAreaGuides';
 import { hochiminhAreaGuides } from '../data/hochiminhAreaGuides';
+import { hanoiAreaGuides } from '../data/hanoiAreaGuides';
 import { tsushimaAreaGuides } from '../data/tsushimaAreaGuides';
 import { multilingualHotels } from '../data/multilingualHotels';
 import { multilingualRegions } from '../data/multilingualRegions';
@@ -150,6 +151,7 @@ export const GET: APIRoute = ({ site }) => {
     ...nhatrangAreaGuides.map((guide) => guide.path),
     ...phuquocAreaGuides.map((guide) => guide.path),
     ...hochiminhAreaGuides.map((guide) => guide.path),
+    ...hanoiAreaGuides.map((guide) => guide.path),
     ...tsushimaAreaGuides.map((guide) => guide.path),
     ...gyeongbukAreaGuides.map((guide) => guide.path),
     ...gyeongnamAreaGuides.map((guide) => guide.path),

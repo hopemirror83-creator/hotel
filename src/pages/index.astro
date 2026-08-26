@@ -271,7 +271,7 @@ function cityAnchor(city: string) {
     </div>
     <div class="home-directory-list">
       {domesticGuideGroups.map((group) => (
-        <details class="home-directory-group">
+        <details id={cityAnchor(group.name)} class="home-directory-group" data-city-directory>
           <summary><strong>{group.name}</strong><span>{group.guides.length.toLocaleString('ko-KR')}개 가이드</span></summary>
           <div class="home-directory-links">
             {group.guides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}
@@ -700,6 +700,17 @@ function cityAnchor(city: string) {
       }
     });
 
+    function openCityDirectoryFromHash() {
+      const hash = decodeURIComponent(window.location.hash.slice(1));
+      if (!hash.startsWith('city-')) return;
+      const directory = document.getElementById(hash);
+      if (!(directory instanceof HTMLDetailsElement)) return;
+      directory.open = true;
+      window.requestAnimationFrame(() => directory.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+    }
+
+    window.addEventListener('hashchange', openCityDirectoryFromHash);
+    openCityDirectoryFromHash();
     const initialCity = new URLSearchParams(window.location.search).get('city');
     if (initialCity && searchInput) {
       searchInput.value = initialCity;

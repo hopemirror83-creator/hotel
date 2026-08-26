@@ -546,6 +546,7 @@ p {
 }
 
 .home-directory-group {
+  scroll-margin-top: 104px;
   border: 1px solid #dce5f3;
   border-radius: 8px;
   background: #fff;

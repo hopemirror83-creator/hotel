@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "dalat-411826",
+    "hotelName": "마이 드림 호텔",
+    "region": "베트남 달랏",
+    "searchName": "마이 드림 호텔",
+    "naverName": "마이 드림 호텔",
+    "agodaHotelId": 411826,
+    "fallbackAddress": "213A Phan dinh Phung Street 달랏 Lam Dong",
+    "latitude": 11.947146,
+    "longitude": 108.435669,
+    "starRating": 1,
+    "reviewScore": 7.8,
+    "reviewCount": 301,
+    "imageUrl": "http://pix5.agoda.net/hotelimages/411/411826/411826_14040117070018930900.jpg?s=312x&ca=2&ce=1",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=411826",
+    "country": "베트남",
+    "skipMapMatch": true
+  }
+]

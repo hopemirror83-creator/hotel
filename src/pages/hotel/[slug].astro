@@ -142,6 +142,8 @@ import { getRelatedHanoiAreaGuides } from '../../data/hanoiAreaGuides';
 import { getHanoiSearchIntent } from '../../data/hanoiSearchIntents';
 import { getRelatedDalatAreaGuides } from '../../data/dalatAreaGuides';
 import { getDalatSearchIntent } from '../../data/dalatSearchIntents';
+import { getRelatedHoianAreaGuides } from '../../data/hoianAreaGuides';
+import { getHoianSearchIntent } from '../../data/hoianSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
@@ -263,6 +265,7 @@ const relatedPhuquocAreaGuides = hotel.slug.startsWith('phuquoc-') ? getRelatedP
 const relatedHochiminhAreaGuides = hotel.slug.startsWith('hochiminh-') ? getRelatedHochiminhAreaGuides(hotel) : [];
 const relatedHanoiAreaGuides = hotel.slug.startsWith('hanoi-') ? getRelatedHanoiAreaGuides(hotel) : [];
 const relatedDalatAreaGuides = hotel.slug.startsWith('dalat-') ? getRelatedDalatAreaGuides(hotel) : [];
+const relatedHoianAreaGuides = hotel.slug.startsWith('hoian-') ? getRelatedHoianAreaGuides(hotel) : [];
 const recommendedFor = searchIntent?.recommendedFor ?? analysis.recommendedFor;
 const notRecommendedFor = searchIntent?.notRecommendedFor ?? analysis.notRecommendedFor;
 
@@ -271,6 +274,7 @@ function getRegionalSearchIntent(hotel: Hotel) {
   // "Shincheon" can otherwise be mistaken for "Incheon" by substring checks.
   if (hotel.slug.startsWith('hanoi-')) return getHanoiSearchIntent(hotel);
   if (hotel.slug.startsWith('dalat-')) return getDalatSearchIntent(hotel);
+  if (hotel.slug.startsWith('hoian-')) return getHoianSearchIntent(hotel);
   if (hotel.slug.startsWith('hochiminh-')) return getHochiminhSearchIntent(hotel);
   if (hotel.slug.startsWith('phuquoc-')) return getPhuquocSearchIntent(hotel);
   if (hotel.slug.startsWith('nhatrang-')) return getNhatrangSearchIntent(hotel);
@@ -563,6 +567,7 @@ function addRegionScore(scores: Map<string, number>, region: string, score: numb
 }
 
 function extractRegion(value = '') {
+  if (/베트남 호이안|호이안|hoi an|hội an|안방|an bang|끄어다이|cua dai|깜탄|cam thanh/i.test(value)) return '호이안';
   if (/베트남 달랏|달랏|달라트|dalat|da lat|đà lạt|뚜옌람|tuyen lam|쑤언흐엉|xuan huong/i.test(value)) return '달랏';
   if (/베트남 하노이|하노이|hanoi|ha noi|hà nội|호안끼엠|hoan kiem|서호|west lake|노이바이|noi bai/i.test(value)) return '하노이';
   if (/베트남 호치민|호치민|ho chi minh|hồ chí minh|saigon|sài gòn|사이공|벤탄|ben thanh|부이비엔|bui vien|탄손녓|tan son nhat/i.test(value)) return '호치민';
@@ -1740,6 +1745,13 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 달랏 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedDalatAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+
+    {relatedHoianAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 호이안 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedHoianAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

@@ -18,8 +18,9 @@ const findAstroCli = () => {
 };
 
 const astroCli = findAstroCli();
+const maxOldSpaceSize = process.env.ASTRO_MAX_OLD_SPACE_SIZE || '6144';
 
-const child = spawn(process.execPath, [astroCli, ...args], {
+const child = spawn(process.execPath, ['--max-old-space-size=' + maxOldSpaceSize, astroCli, ...args], {
   stdio: 'inherit',
   env: {
     ...process.env,

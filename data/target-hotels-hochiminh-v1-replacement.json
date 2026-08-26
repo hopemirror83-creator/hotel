@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "hochiminh-407407",
+    "hotelName": "시그니처 부티크 호텔",
+    "region": "베트남 호치민",
+    "searchName": "시그니처 부티크 호텔",
+    "naverName": "시그니처 부티크 호텔",
+    "agodaHotelId": 407407,
+    "fallbackAddress": "80/1 Nguyen Trai Street, Ward 3 호치민 Ho Chi Minh",
+    "latitude": 10.758163,
+    "longitude": 106.680054,
+    "starRating": 3,
+    "reviewScore": 8,
+    "reviewCount": 1470,
+    "imageUrl": "http://pix5.agoda.net/hotelimages/407407/-1/cd483ef06229b3f36f10c51a07c0fe42.jpg?s=312x&ca=18&ce=1",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=407407",
+    "country": "베트남",
+    "skipMapMatch": true
+  }
+]

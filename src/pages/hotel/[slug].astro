@@ -144,6 +144,8 @@ import { getRelatedDalatAreaGuides } from '../../data/dalatAreaGuides';
 import { getDalatSearchIntent } from '../../data/dalatSearchIntents';
 import { getRelatedMuineAreaGuides } from '../../data/muineAreaGuides';
 import { getMuineSearchIntent } from '../../data/muineSearchIntents';
+import { getRelatedSapaAreaGuides } from '../../data/sapaAreaGuides';
+import { getSapaSearchIntent } from '../../data/sapaSearchIntents';
 import { getRelatedVungtauAreaGuides } from '../../data/vungtauAreaGuides';
 import { getVungtauSearchIntent } from '../../data/vungtauSearchIntents';
 import { getRelatedHueAreaGuides } from '../../data/hueAreaGuides';
@@ -272,6 +274,7 @@ const relatedHochiminhAreaGuides = hotel.slug.startsWith('hochiminh-') ? getRela
 const relatedHanoiAreaGuides = hotel.slug.startsWith('hanoi-') ? getRelatedHanoiAreaGuides(hotel) : [];
 const relatedDalatAreaGuides = hotel.slug.startsWith('dalat-') ? getRelatedDalatAreaGuides(hotel) : [];
 const relatedMuineAreaGuides = hotel.slug.startsWith('muine-') ? getRelatedMuineAreaGuides(hotel) : [];
+const relatedSapaAreaGuides = hotel.slug.startsWith('sapa-') ? getRelatedSapaAreaGuides(hotel) : [];
 const relatedVungtauAreaGuides = hotel.slug.startsWith('vungtau-') ? getRelatedVungtauAreaGuides(hotel) : [];
 const relatedHueAreaGuides = hotel.slug.startsWith('hue-') ? getRelatedHueAreaGuides(hotel) : [];
 const relatedHoianAreaGuides = hotel.slug.startsWith('hoian-') ? getRelatedHoianAreaGuides(hotel) : [];
@@ -284,6 +287,7 @@ function getRegionalSearchIntent(hotel: Hotel) {
   if (hotel.slug.startsWith('hanoi-')) return getHanoiSearchIntent(hotel);
   if (hotel.slug.startsWith('dalat-')) return getDalatSearchIntent(hotel);
   if (hotel.slug.startsWith('muine-')) return getMuineSearchIntent(hotel);
+  if (hotel.slug.startsWith('sapa-')) return getSapaSearchIntent(hotel);
   if (hotel.slug.startsWith('vungtau-')) return getVungtauSearchIntent(hotel);
   if (hotel.slug.startsWith('hue-')) return getHueSearchIntent(hotel);
   if (hotel.slug.startsWith('hoian-')) return getHoianSearchIntent(hotel);
@@ -579,6 +583,7 @@ function addRegionScore(scores: Map<string, number>, region: string, score: numb
 }
 
 function extractRegion(value = '') {
+  if (/베트남 사파|사파|sa pa|sapa|라오까이|lao cai|lào cai|판시판|fansipan|깟깟|cat cat/i.test(value)) return '사파';
   if (/베트남 붕따우|붕따우|붕타우|vung tau|vũng tàu|롱하이|long hai|호짬|ho tram/i.test(value)) return '붕따우';
   if (/베트남 무이네|무이네|mui ne|mũi né|판티엣|phan thiet|phan thiết|함띠엔|ham tien/i.test(value)) return '무이네';
   if (/베트남 후에|후에|hue|huế|향강|perfume river|푸바이|phu bai/i.test(value)) return '후에';
@@ -1788,6 +1793,13 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 붕따우 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedVungtauAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+
+    {relatedSapaAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 사파 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedSapaAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

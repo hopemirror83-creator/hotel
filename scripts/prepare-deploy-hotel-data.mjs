@@ -25,9 +25,11 @@ if (chunks.length !== manifest.total) {
   throw new Error(`Hotel data count mismatch: expected ${manifest.total}, received ${chunks.length}`);
 }
 
+const imports = manifest.files.map((entry, index) => `import chunk${index} from '../../deploy-data/generated-hotels/${entry.filename}';`).join('\n');
+const spreads = manifest.files.map((_, index) => `...chunk${index}`).join(',');
 await writeFile(
   outputPath,
-  `// @ts-nocheck\nexport const generatedHotels: any[] = ${JSON.stringify(chunks, null, 2)};\n`,
+  `// @ts-nocheck\n${imports}\nexport const generatedHotels: any[] = [${spreads}];\n`,
   'utf8',
 );
 console.log(`Reconstructed generatedHotels.ts with ${chunks.length} hotels.`);

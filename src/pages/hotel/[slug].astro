@@ -148,6 +148,8 @@ import { getRelatedSapaAreaGuides } from '../../data/sapaAreaGuides';
 import { getSapaSearchIntent } from '../../data/sapaSearchIntents';
 import { getRelatedHalongAreaGuides } from '../../data/halongAreaGuides';
 import { getHalongSearchIntent } from '../../data/halongSearchIntents';
+import { getRelatedNinhbinhAreaGuides } from '../../data/ninhbinhAreaGuides';
+import { getNinhbinhSearchIntent } from '../../data/ninhbinhSearchIntents';
 import { getRelatedVungtauAreaGuides } from '../../data/vungtauAreaGuides';
 import { getVungtauSearchIntent } from '../../data/vungtauSearchIntents';
 import { getRelatedHueAreaGuides } from '../../data/hueAreaGuides';
@@ -159,7 +161,8 @@ import dynamicHotelPrefixes from '../../../data/dynamic-hotel-prefixes.json';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
 export function getStaticPaths() {
-  const dynamicPrefixes = dynamicHotelPrefixes.map((prefix) => `${prefix}-`);
+  const exportPrefixes = String(process.env.DYNAMIC_RENDER_PREFIXES || '').split(',').map((prefix) => prefix.trim()).filter(Boolean);
+  const dynamicPrefixes = dynamicHotelPrefixes.filter((prefix) => !exportPrefixes.includes(prefix)).map((prefix) => `${prefix}-`);
   return hotels.filter((hotel) => !dynamicPrefixes.some((prefix) => hotel.slug.startsWith(prefix))).map((hotel) => ({
     params: { slug: hotel.slug },
     props: { hotel }
@@ -280,6 +283,7 @@ const relatedDalatAreaGuides = hotel.slug.startsWith('dalat-') ? getRelatedDalat
 const relatedMuineAreaGuides = hotel.slug.startsWith('muine-') ? getRelatedMuineAreaGuides(hotel) : [];
 const relatedSapaAreaGuides = hotel.slug.startsWith('sapa-') ? getRelatedSapaAreaGuides(hotel) : [];
 const relatedHalongAreaGuides = hotel.slug.startsWith('halong-') ? getRelatedHalongAreaGuides(hotel) : [];
+const relatedNinhbinhAreaGuides = hotel.slug.startsWith('ninhbinh-') ? getRelatedNinhbinhAreaGuides(hotel) : [];
 const relatedVungtauAreaGuides = hotel.slug.startsWith('vungtau-') ? getRelatedVungtauAreaGuides(hotel) : [];
 const relatedHueAreaGuides = hotel.slug.startsWith('hue-') ? getRelatedHueAreaGuides(hotel) : [];
 const relatedHoianAreaGuides = hotel.slug.startsWith('hoian-') ? getRelatedHoianAreaGuides(hotel) : [];
@@ -294,6 +298,7 @@ function getRegionalSearchIntent(hotel: Hotel) {
   if (hotel.slug.startsWith('muine-')) return getMuineSearchIntent(hotel);
   if (hotel.slug.startsWith('sapa-')) return getSapaSearchIntent(hotel);
   if (hotel.slug.startsWith('halong-')) return getHalongSearchIntent(hotel);
+  if (hotel.slug.startsWith('ninhbinh-')) return getNinhbinhSearchIntent(hotel);
   if (hotel.slug.startsWith('vungtau-')) return getVungtauSearchIntent(hotel);
   if (hotel.slug.startsWith('hue-')) return getHueSearchIntent(hotel);
   if (hotel.slug.startsWith('hoian-')) return getHoianSearchIntent(hotel);
@@ -1814,6 +1819,13 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 하롱베이 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedHalongAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+
+    {relatedNinhbinhAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 닌빈 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedNinhbinhAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

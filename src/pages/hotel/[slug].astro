@@ -153,10 +153,12 @@ import { getHueSearchIntent } from '../../data/hueSearchIntents';
 import { getRelatedHoianAreaGuides } from '../../data/hoianAreaGuides';
 import { getHoianSearchIntent } from '../../data/hoianSearchIntents';
 import { multilingualHotels } from '../../data/multilingualHotels';
+import dynamicHotelPrefixes from '../../../data/dynamic-hotel-prefixes.json';
 import type { Hotel, HotelAnalysis } from '../../data/hotels';
 
 export function getStaticPaths() {
-  return hotels.map((hotel) => ({
+  const dynamicPrefixes = dynamicHotelPrefixes.map((prefix) => `${prefix}-`);
+  return hotels.filter((hotel) => !dynamicPrefixes.some((prefix) => hotel.slug.startsWith(prefix))).map((hotel) => ({
     params: { slug: hotel.slug },
     props: { hotel }
   }));

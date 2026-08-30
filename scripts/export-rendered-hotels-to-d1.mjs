@@ -3,10 +3,16 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const root = process.cwd();
-const distHotelDir = path.join(root, 'dist', 'hotel');
+const distRoot = process.env.RENDERED_HOTEL_DIST_DIR
+  ? path.resolve(process.env.RENDERED_HOTEL_DIST_DIR)
+  : path.join(root, 'dist');
+const distHotelDir = path.join(distRoot, 'hotel');
 const prefixPath = path.join(root, 'data', 'dynamic-hotel-prefixes.json');
 const outputPath = path.join(root, 'data', 'generated', 'rendered-hotel-pages.sql');
-const prefixes = JSON.parse(await readFile(prefixPath, 'utf8'));
+const configuredPrefixes = JSON.parse(await readFile(prefixPath, 'utf8'));
+const prefixes = String(process.env.DYNAMIC_EXPORT_PREFIXES || '').trim()
+  ? String(process.env.DYNAMIC_EXPORT_PREFIXES).split(',').map((value) => value.trim()).filter(Boolean)
+  : configuredPrefixes;
 const prefixMatchers = prefixes.map((prefix) => `${prefix}-`);
 const entries = await readdir(distHotelDir, { withFileTypes: true });
 const pages = [];

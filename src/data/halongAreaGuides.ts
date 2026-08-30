@@ -1,0 +1,24 @@
+import { activeHotels as hotels } from './hotels';
+import type { Hotel } from './hotels';
+
+export type HalongAreaGuide = { slug:string; path:string; title:string; eyebrow:string; intro:string; purpose:string; intentQuestion:string; metaDescription:string; criteria:string[]; keywords:string[] };
+const make=(slug:string,eyebrow:string,title:string,intro:string,purpose:string,intentQuestion:string,criteria:string[],keywords:string[]):HalongAreaGuide=>({slug,path:`/halong/${slug}/`,title,eyebrow,intro,purpose,intentQuestion,criteria,keywords,metaDescription:`${title} 예약 전 위치, 조식, 선착장과 객실 조건을 비교합니다.`});
+
+export const halongAreaGuides=[
+  make('bai-chay-hotels','BAI CHAY','하롱베이 바이짜이 호텔 후기 모음 해변·썬월드·조식 비교','바이짜이 숙소는 해변과 썬월드, 야시장 이동 거리와 조식·주변 식당을 함께 확인해야 합니다.','하롱베이 육상 관광과 해변 접근을 중시하는 여행자를 위한 가이드입니다.','바이짜이에서는 어느 호텔이 관광 동선에 편할까요?',['바이짜이','해변','썬월드','조식'],['Bai Chay','Bãi Cháy','바이짜이','Sun World','썬월드']),
+  make('tuan-chau-hotels','TUAN CHAU','뚜언쩌우 호텔 후기 모음 크루즈선착장·픽업·조식 비교','뚜언쩌우 숙소는 크루즈 선착장과 집결지, 하노이 셔틀·호텔 픽업 조건을 확인해야 합니다.','하롱베이 크루즈 전후 숙박을 계획하는 여행자를 위한 가이드입니다.','뚜언쩌우 선착장 이용에는 어느 호텔이 편할까요?',['뚜언쩌우','선착장','픽업','셔틀'],['Tuan Chau','Tuần Châu','뚜언쩌우']),
+  make('hon-gai-hotels','HON GAI','하롱베이 혼가이 호텔 후기 모음 시내·시장·주차·베이뷰 비교','혼가이 숙소는 시내 식당과 시장 접근, 바이짜이 이동과 주차·베이뷰 조건을 함께 비교해야 합니다.','현지 시내 생활권과 하롱베이 전망을 원하는 여행자를 위한 가이드입니다.','혼가이에서는 어느 호텔이 시내 일정에 맞을까요?',['혼가이','시내','시장','베이뷰'],['Hon Gai','Hòn Gai','혼가이']),
+  make('halong-cruises','HALONG CRUISE','하롱베이 크루즈 후기 모음 선실·식사·승선장소·일정 비교','하롱베이 크루즈는 선실과 포함 식사, 승선 항구, 하노이 셔틀과 관광 일정을 함께 확인해야 합니다.','1박 이상 하롱베이 크루즈를 비교하는 여행자를 위한 가이드입니다.','하롱베이 크루즈는 무엇부터 비교해야 할까요?',['크루즈','선실','식사','승선장소'],['Cruise','크루즈','Sails','Junk','Boat']),
+  make('van-don-hotels','VAN DON','반돈·꽌란 호텔 후기 모음 공항·해변·픽업·조식 비교','반돈과 꽌란 숙소는 공항·항구 이동, 섬 픽업과 해변 접근성, 조식 조건을 확인해야 합니다.','반돈공항과 꽝닌 섬 여행을 계획하는 여행자를 위한 가이드입니다.','반돈·꽌란에서는 어느 숙소가 이동에 편할까요?',['반돈','꽌란','공항','해변'],['Van Don','Vân Đồn','반돈','Quan Lan','꽌란']),
+  make('halong-family-hotels','FAMILY HOTELS','하롱베이 가족 호텔 후기 모음 객실·수영장·조식·이동 비교','가족 숙소는 침대 구성과 수영장, 조식, 해변·선착장 이동 및 추가 인원 요금을 확인해야 합니다.','아이·부모님 동반 하롱베이 여행자를 위한 가이드입니다.','하롱베이 가족여행에는 어느 호텔이 맞을까요?',['가족여행','객실','수영장','조식'],['Family','패밀리','Suite','스위트','Resort','리조트']),
+  make('halong-bay-view-hotels','BAY VIEW','하롱베이 베이뷰 호텔 후기 모음 객실전망·발코니·위치 비교','베이뷰 숙소는 객실 방향과 발코니, 건물 가림 여부와 해변·시내 이동 조건을 함께 비교해야 합니다.','하롱베이 전망을 중시하는 여행자를 위한 가이드입니다.','하롱베이 전망을 기대할 수 있는 호텔은 어디일까요?',['베이뷰','객실전망','발코니','위치'],['Bay View','Ocean View','Sea View','베이뷰','오션뷰','씨뷰']),
+  make('halong-hotel-comparison','HALONG COMPARISON','하롱베이 호텔 비교 후기 모음 바이짜이·뚜언쩌우·혼가이·크루즈','하롱베이는 바이짜이와 혼가이, 뚜언쩌우, 크루즈 숙박에 따라 이동과 예약 조건이 크게 달라집니다.','하롱베이 주요 숙박 유형과 권역을 일정에 맞춰 비교하는 페이지입니다.','하롱베이 숙소는 어느 지역과 유형부터 비교해야 할까요?',['숙박 권역','평점','후기 수','가격대'],['하롱','Halong','Ha Long','Bai Chay','Tuan Chau','Hon Gai','Cruise']),
+] as HalongAreaGuide[];
+
+export const halongHotels=hotels.filter(h=>h.slug.startsWith('halong-')).sort((a,b)=>popularity(b)-popularity(a));
+export function getHalongAreaGuideHotels(guide:HalongAreaGuide,limit=20){return halongHotels.map(h=>item(h,guide)).filter(x=>x.guideScore>0).sort((a,b)=>b.guideScore-a.guideScore).slice(0,limit)}
+export function getRelatedHalongAreaGuides(hotel:Hotel){if(!hotel.slug.startsWith('halong-'))return[];const value=text(hotel).toLowerCase();return halongAreaGuides.map(guide=>({guide,score:guide.slug==='halong-hotel-comparison'?1:guide.keywords.filter(k=>value.includes(k.toLowerCase())).length})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,4).map(x=>x.guide)}
+function item(hotel:Hotel,guide:HalongAreaGuide){const area=pickArea(text(hotel));const match=guide.slug==='halong-hotel-comparison'?1:guide.keywords.filter(k=>text(hotel).toLowerCase().includes(k.toLowerCase())).length;const price=hotel.averageNightlyRate??hotel.dailyRate;const target=`${area} 일정`;return{hotel,guideScore:match?match*10000+popularity(hotel):0,reasons:[`${area} 일정에서 위치와 이동 동선을 비교하기 좋은 후보입니다.`,hotel.reviewCount&&hotel.reviewCount>=1000?'후기 수가 충분해 반복되는 장단점을 확인하기 좋습니다.':'공개 후기와 객실 조건을 함께 확인하세요.',hotel.reviewScore&&hotel.reviewScore>=8.8?'아고다 평점이 높은 편입니다.':'가격과 객실 조건을 함께 비교하세요.'],caution:'조식·베이뷰·선착장·셔틀·취소 조건은 날짜와 객실 상품에 따라 달라질 수 있습니다.',target,tags:[area,...guide.criteria.slice(0,3)],tableCells:[area,String(hotel.reviewScore??'확인 필요'),hotel.reviewCount?`${hotel.reviewCount.toLocaleString('ko-KR')}건`:'후기 부족',price?`${price.toLocaleString('ko-KR')}원~`:'가격 확인',target]}}
+function text(h:Hotel){return[h.hotelName,h.address,h.region,h.analysis?.summary,h.analysis?.pros?.join(' ')].filter(Boolean).join(' ')}
+function pickArea(v:string){if(/Cruise|크루즈|Sails|Junk/i.test(v))return'하롱베이 크루즈';if(/Tuan Chau|Tuần Châu|뚜언쩌우/i.test(v))return'뚜언쩌우';if(/Van Don|Vân Đồn|반돈|Quan Lan|꽌란/i.test(v))return'반돈·꽌란';if(/Hon Gai|Hòn Gai|혼가이/i.test(v))return'혼가이';return'바이짜이'}
+function popularity(h:Hotel){return(h.reviewScore||0)*1000+Math.min(h.reviewCount||0,50000)/10}

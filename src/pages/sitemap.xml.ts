@@ -81,6 +81,7 @@ import { canthoAreaGuides } from '../data/canthoAreaGuides';
 import { quynhonAreaGuides } from '../data/quynhonAreaGuides';
 import { centralhighlandsAreaGuides } from '../data/centralhighlandsAreaGuides';
 import { northernloopAreaGuides } from '../data/northernloopAreaGuides';
+import { quangbinhAreaGuides } from '../data/quangbinhAreaGuides';
 import { vungtauAreaGuides } from '../data/vungtauAreaGuides';
 import { hueAreaGuides } from '../data/hueAreaGuides';
 import { hoianAreaGuides } from '../data/hoianAreaGuides';
@@ -175,6 +176,7 @@ export const GET: APIRoute = ({ site }) => {
     ...quynhonAreaGuides.map((guide) => guide.path),
     ...centralhighlandsAreaGuides.map((guide) => guide.path),
     ...northernloopAreaGuides.map((guide) => guide.path),
+    ...quangbinhAreaGuides.map((guide) => guide.path),
     ...vungtauAreaGuides.map((guide) => guide.path),
     ...hueAreaGuides.map((guide) => guide.path),
     ...hoianAreaGuides.map((guide) => guide.path),

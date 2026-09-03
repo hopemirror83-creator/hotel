@@ -172,6 +172,8 @@ import { getRelatedQuangngaiAreaGuides } from '../../data/quangngaiAreaGuides';
 import { getQuangngaiSearchIntent } from '../../data/quangngaiSearchIntents';
 import { getRelatedQuangnamAreaGuides } from '../../data/quangnamAreaGuides';
 import { getQuangnamSearchIntent } from '../../data/quangnamSearchIntents';
+import { getRelatedBacninhAreaGuides } from '../../data/bacninhAreaGuides';
+import { getBacninhSearchIntent } from '../../data/bacninhSearchIntents';
 import { getRelatedVungtauAreaGuides } from '../../data/vungtauAreaGuides';
 import { getVungtauSearchIntent } from '../../data/vungtauSearchIntents';
 import { getRelatedHueAreaGuides } from '../../data/hueAreaGuides';
@@ -321,6 +323,7 @@ const relatedThanhhoaAreaGuides = hotel.slug.startsWith('thanhhoa-') ? getRelate
 const relatedQuangtriAreaGuides = hotel.slug.startsWith('quangtri-') ? getRelatedQuangtriAreaGuides(hotel) : [];
 const relatedQuangngaiAreaGuides = hotel.slug.startsWith('quangngai-') ? getRelatedQuangngaiAreaGuides(hotel) : [];
 const relatedQuangnamAreaGuides = hotel.slug.startsWith('quangnam-') ? getRelatedQuangnamAreaGuides(hotel) : [];
+const relatedBacninhAreaGuides = hotel.slug.startsWith('bacninh-') ? getRelatedBacninhAreaGuides(hotel) : [];
 const relatedVungtauAreaGuides = hotel.slug.startsWith('vungtau-') ? getRelatedVungtauAreaGuides(hotel) : [];
 const relatedHueAreaGuides = hotel.slug.startsWith('hue-') ? getRelatedHueAreaGuides(hotel) : [];
 const relatedHoianAreaGuides = hotel.slug.startsWith('hoian-') ? getRelatedHoianAreaGuides(hotel) : [];
@@ -347,6 +350,7 @@ function getRegionalSearchIntent(hotel: Hotel) {
   if (hotel.slug.startsWith('quangtri-')) return getQuangtriSearchIntent(hotel);
   if (hotel.slug.startsWith('quangngai-')) return getQuangngaiSearchIntent(hotel);
   if (hotel.slug.startsWith('quangnam-')) return getQuangnamSearchIntent(hotel);
+  if (hotel.slug.startsWith('bacninh-')) return getBacninhSearchIntent(hotel);
   if (hotel.slug.startsWith('vungtau-')) return getVungtauSearchIntent(hotel);
   if (hotel.slug.startsWith('hue-')) return getHueSearchIntent(hotel);
   if (hotel.slug.startsWith('hoian-')) return getHoianSearchIntent(hotel);
@@ -1951,6 +1955,13 @@ function hasKoreanBatchim(value = '') {
       <section class="section related-guide-section">
         <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 꽝남·땀끼·추라이 호텔 가이드</h2></div>
         <div class="related-guide-grid">{relatedQuangnamAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
+      </section>
+    )}
+
+    {relatedBacninhAreaGuides.length > 0 && (
+      <section class="section related-guide-section">
+        <div class="section-title"><span>RELATED GUIDE</span><h2>이 호텔과 함께 비교할 박닌·뜨선·산업단지 호텔 가이드</h2></div>
+        <div class="related-guide-grid">{relatedBacninhAreaGuides.map((guide) => <a href={guide.path}><span>{guide.eyebrow}</span><strong>{guide.title}</strong></a>)}</div>
       </section>
     )}
 

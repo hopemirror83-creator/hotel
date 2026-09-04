@@ -293,7 +293,8 @@ async function generateAnalysesWithRetry(hotels, attempts = 3, credentialIndex =
     } catch (error) {
       if (attempt === attempts) throw error;
       console.warn(`Retrying ${hotels.map((hotel) => hotel.hotelName).join(', ')} after generation error: ${error.message}`);
-      await sleep(900 * attempt);
+      const rateLimited = /(?:\b429\b|RESOURCE_EXHAUSTED)/i.test(String(error?.message || error));
+      await sleep(rateLimited ? 30000 * attempt : 900 * attempt);
     }
   }
 }

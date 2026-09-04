@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "laichau-300929",
+    "hotelName": "무옹 탄 라이 차우 호텔",
+    "region": "베트남 라이쩌우",
+    "searchName": "무옹 탄 라이 차우 호텔",
+    "naverName": "무옹 탄 라이 차우 호텔",
+    "agodaHotelId": 300929,
+    "fallbackAddress": "113 L Duẩn 라이 차우 Lai Chau",
+    "latitude": 22.397545,
+    "longitude": 103.471779,
+    "starRating": 3,
+    "reviewScore": 8.7,
+    "reviewCount": 215,
+    "imageUrl": "http://pix2.agoda.net/hotelimages/300/300929/300929_14120317120023765186.jpg?s=312x&ca=3&ce=1",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=300929",
+    "country": "베트남",
+    "skipMapMatch": true
+  },
+  {
+    "slug": "laichau-60691133",
+    "hotelName": "Nam Anh Hotel Lai Châu",
+    "region": "베트남 라이쩌우",
+    "searchName": "Nam Anh Hotel Lai Châu",
+    "naverName": "Nam Anh Hotel Lai Châu",
+    "agodaHotelId": 60691133,
+    "fallbackAddress": "No. 98, Hoang Dieu, Tan Phong, Lai Chau City, Lai Chau, Vietnam 라이 차우 Lai Chau",
+    "latitude": 22.384552,
+    "longitude": 103.47051,
+    "starRating": 2,
+    "reviewScore": 9.3,
+    "reviewCount": 20,
+    "imageUrl": "http://pix2.agoda.net/hotelimages/60691133/-1/96e40f04c195dbf68b531cce5b5f0c46.jpg?s=312x&ce=0",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=60691133",
+    "country": "베트남",
+    "skipMapMatch": true
+  }
+]

@@ -23,7 +23,7 @@ const totalHotels = hotels.length;
 const japanPrefixes = new Set(['osaka','tokyo','fukuoka','kyoto','sapporo','okinawa','nagoya','hiroshima','kobe','yokohama','chiba','miyagi','hakone','ishikawa','toyama','fukui','niigata','nagano','gifu','shizuoka','yamanashi','gunma','tochigi','ibaraki','saitama','fukushima','yamagata','akita','iwate','aomori','hokkaido','okayama','tottori','shimane','yamaguchi','kagawa','tokushima','ehime','kochi','mie','shiga','nara','wakayama','saga','nagasaki','kumamoto','oita','miyazaki','kagoshima','tsushima']);
 const countryOf = (hotel: Hotel) => hotel.slug.startsWith('yenbai-') || hotel.slug.startsWith('sonla-') || hotel.slug.startsWith('hoabinh-') || hotel.slug.startsWith('danang-') || hotel.slug.startsWith('nhatrang-') || hotel.slug.startsWith('phuquoc-') || hotel.slug.startsWith('hochiminh-') || hotel.slug.startsWith('hanoi-') || hotel.slug.startsWith('dalat-') || hotel.slug.startsWith('hoian-') || hotel.slug.startsWith('hue-') || hotel.slug.startsWith('muine-') || hotel.slug.startsWith('vungtau-') || hotel.slug.startsWith('sapa-') || hotel.slug.startsWith('halong-') || hotel.slug.startsWith('ninhbinh-') || hotel.slug.startsWith('haiphong-') || hotel.slug.startsWith('cantho-') || hotel.slug.startsWith('quynhon-') || hotel.slug.startsWith('centralhighlands-') || hotel.slug.startsWith('northernloop-') || hotel.slug.startsWith('quangbinh-') || hotel.slug.startsWith('nghean-') || hotel.slug.startsWith('thanhhoa-') || hotel.slug.startsWith('quangtri-') || hotel.slug.startsWith('quangngai-') || hotel.slug.startsWith('quangnam-') || hotel.slug.startsWith('bacninh-') || hotel.slug.startsWith('haiduong-') || hotel.slug.startsWith('bacgiang-') || hotel.slug.startsWith('vinhphuc-') || hotel.slug.startsWith('phutho-') ? '베트남' : japanPrefixes.has(hotel.slug.split('-')[0]) ? '일본' : '';
 const popularity = (hotel: Hotel) => (hotel.reviewCount || 0) * Math.max(hotel.reviewScore || 0, 1);
-const isOverseasHotel = (hotel: Hotel) => Boolean(countryOf(hotel)) || hotel.slug.startsWith('dienbien-');
+const isOverseasHotel = (hotel: Hotel) => Boolean(countryOf(hotel)) || hotel.slug.startsWith('dienbien-') || hotel.slug.startsWith('laichau-');
 const domesticHotels = hotels.filter((hotel) => !isOverseasHotel(hotel));
 const overseasHotels = hotels.filter(isOverseasHotel);
 const popularDomesticHotels = [...domesticHotels].sort((a, b) => popularity(b) - popularity(a)).slice(0, 20);
@@ -40,7 +40,7 @@ const domesticGuideGroups = [
 ];
 const overseasCountryGroups = ['일본', '베트남'].map((country) => ({
   country,
-  hotels: overseasHotels.filter((hotel) => countryOf(hotel) === country || (country === '베트남' && hotel.slug.startsWith('dienbien-'))).sort((a, b) => popularity(b) - popularity(a)).slice(0, 100)
+  hotels: overseasHotels.filter((hotel) => countryOf(hotel) === country || (country === '베트남' && (hotel.slug.startsWith('dienbien-') || hotel.slug.startsWith('laichau-')))).sort((a, b) => popularity(b) - popularity(a)).slice(0, 100)
 })).filter((group) => group.hotels.length > 0);
 
 function buildHotelGroups(hotels: Hotel[]) {

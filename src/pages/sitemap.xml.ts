@@ -104,6 +104,7 @@ import { hungyenAreaGuides } from '../data/hungyenAreaGuides';
 import { namdinhAreaGuides } from '../data/namdinhAreaGuides';
 import { thaibinhAreaGuides } from '../data/thaibinhAreaGuides';
 import { hanamAreaGuides } from '../data/hanamAreaGuides';
+import { binhduongAreaGuides } from '../data/binhduongAreaGuides';
 import { vungtauAreaGuides } from '../data/vungtauAreaGuides';
 import { hueAreaGuides } from '../data/hueAreaGuides';
 import { hoianAreaGuides } from '../data/hoianAreaGuides';
@@ -221,6 +222,7 @@ export const GET: APIRoute = ({ site }) => {
     ...namdinhAreaGuides.map((guide) => guide.path),
     ...thaibinhAreaGuides.map((guide) => guide.path),
     ...hanamAreaGuides.map((guide) => guide.path),
+    ...binhduongAreaGuides.map((guide) => guide.path),
     ...vungtauAreaGuides.map((guide) => guide.path),
     ...hueAreaGuides.map((guide) => guide.path),
     ...hoianAreaGuides.map((guide) => guide.path),
@@ -240,4 +242,6 @@ export const GET: APIRoute = ({ site }) => {
     headers: { 'Content-Type': 'application/xml; charset=utf-8' }
   });
 };
+
+
 

@@ -101,6 +101,7 @@ import { tuyenquangAreaGuides } from '../data/tuyenquangAreaGuides';
 import { thainguyenAreaGuides } from '../data/thainguyenAreaGuides';
 import { langsonAreaGuides } from '../data/langsonAreaGuides';
 import { hungyenAreaGuides } from '../data/hungyenAreaGuides';
+import { namdinhAreaGuides } from '../data/namdinhAreaGuides';
 import { vungtauAreaGuides } from '../data/vungtauAreaGuides';
 import { hueAreaGuides } from '../data/hueAreaGuides';
 import { hoianAreaGuides } from '../data/hoianAreaGuides';
@@ -215,6 +216,7 @@ export const GET: APIRoute = ({ site }) => {
     ...thainguyenAreaGuides.map((guide) => guide.path),
     ...langsonAreaGuides.map((guide) => guide.path),
     ...hungyenAreaGuides.map((guide) => guide.path),
+    ...namdinhAreaGuides.map((guide) => guide.path),
     ...vungtauAreaGuides.map((guide) => guide.path),
     ...hueAreaGuides.map((guide) => guide.path),
     ...hoianAreaGuides.map((guide) => guide.path),

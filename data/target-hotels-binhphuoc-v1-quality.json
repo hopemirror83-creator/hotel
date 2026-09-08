@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "binhphuoc-48728667",
+    "hotelName": "카크 산 탄 한 호텔",
+    "region": "베트남 빈프억",
+    "searchName": "카크 산 탄 한 호텔",
+    "naverName": "카크 산 탄 한 호텔",
+    "agodaHotelId": 48728667,
+    "fallbackAddress": "179 Nguyen Tat Thanh Street, Quarter 05, Long Phuoc Ward, Phuoc Long Town, Binh Phuoc Province, Vietnam 푸옥 롱 (빈프억) Binh Phuoc",
+    "latitude": 11.811775,
+    "longitude": 106.95183,
+    "starRating": 3,
+    "reviewScore": 7.7,
+    "reviewCount": 67,
+    "imageUrl": "http://pix5.agoda.net/hotelimages/48728667/0/5a2e4215ad33aca7e70426741c69a989.jpg?s=312x&ce=0",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=48728667",
+    "country": "베트남",
+    "skipMapMatch": true
+  },
+  {
+    "slug": "binhphuoc-59439521",
+    "hotelName": "Nhà Nghỉ Bảo Ngọc",
+    "region": "베트남 빈프억",
+    "searchName": "Nhà Nghỉ Bảo Ngọc",
+    "naverName": "Nhà Nghỉ Bảo Ngọc",
+    "agodaHotelId": 59439521,
+    "fallbackAddress": "329 Lê Quý Đôn, Tân Xuân, Đồng Xoài, Bình Phước 동쏘아이 Binh Phuoc",
+    "latitude": 11.529487,
+    "longitude": 106.89928,
+    "starRating": 5,
+    "reviewScore": 9,
+    "reviewCount": 15,
+    "imageUrl": "http://pix1.agoda.net/hotelimages/59439521/0/1c0271555498f378fc64f11413cdca78.jpg?s=312x&ce=0",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=59439521",
+    "country": "베트남",
+    "skipMapMatch": true
+  }
+]

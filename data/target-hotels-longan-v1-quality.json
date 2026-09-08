@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "longan-22884607",
+    "hotelName": "푸탕 그랜드 호텔",
+    "region": "베트남 롱안",
+    "searchName": "푸탕 그랜드 호텔",
+    "naverName": "푸탕 그랜드 호텔",
+    "agodaHotelId": 22884607,
+    "fallbackAddress": "Tan Do Industrial Park, Duc Hoa Ha Ward, Duc Hoa District, Long An Province. 벤룩 Long An",
+    "latitude": 10.79918,
+    "longitude": 106.49086,
+    "starRating": 3,
+    "reviewScore": 9,
+    "reviewCount": 109,
+    "imageUrl": "http://pix2.agoda.net/hotelimages/22884607/-1/b80109c9b7294c87263a1fa565dfb14f.jpg?s=312x&ca=18&ce=1",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=22884607",
+    "country": "베트남",
+    "skipMapMatch": true
+  },
+  {
+    "slug": "longan-74740935",
+    "hotelName": "Le Palmier Long An Boutique Resort",
+    "region": "베트남 롱안",
+    "searchName": "Le Palmier Long An Boutique Resort",
+    "naverName": "Le Palmier Long An Boutique Resort",
+    "agodaHotelId": 74740935,
+    "fallbackAddress": "Thuan Bac Hamlet, Can Giuoc, Long An 853000 껀주억 현 Long An",
+    "latitude": 10.578126,
+    "longitude": 106.631763,
+    "starRating": 3,
+    "reviewScore": 9.6,
+    "reviewCount": 32,
+    "imageUrl": "http://pix5.agoda.net/hotelimages/74740935/0/fbbddd02f0fffab14d6934c0bac94a93.jpg?s=312x&ce=3",
+    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=74740935",
+    "country": "베트남",
+    "skipMapMatch": true
+  }
+]

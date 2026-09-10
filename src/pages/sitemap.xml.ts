@@ -110,6 +110,7 @@ import { tayninhAreaGuides } from '../data/tayninhAreaGuides';
 import { longanAreaGuides } from '../data/longanAreaGuides';
 import { binhphuocAreaGuides } from '../data/binhphuocAreaGuides';
 import { dongthapAreaGuides } from '../data/dongthapAreaGuides';
+import { angiangAreaGuides } from '../data/angiangAreaGuides';
 import { vungtauAreaGuides } from '../data/vungtauAreaGuides';
 import { hueAreaGuides } from '../data/hueAreaGuides';
 import { hoianAreaGuides } from '../data/hoianAreaGuides';
@@ -233,6 +234,7 @@ export const GET: APIRoute = ({ site }) => {
     ...longanAreaGuides.map((guide) => guide.path),
     ...binhphuocAreaGuides.map((guide) => guide.path),
     ...dongthapAreaGuides.map((guide) => guide.path),
+    ...angiangAreaGuides.map((guide) => guide.path),
     ...vungtauAreaGuides.map((guide) => guide.path),
     ...hueAreaGuides.map((guide) => guide.path),
     ...hoianAreaGuides.map((guide) => guide.path),

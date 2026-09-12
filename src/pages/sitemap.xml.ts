@@ -119,6 +119,7 @@ import { soctrangAreaGuides } from '../data/soctrangAreaGuides';
 import { phuketAreaGuides } from '../data/phuketAreaGuides';
 import { krabiAreaGuides } from '../data/krabiAreaGuides';
 import { khaolakAreaGuides } from '../data/khaolakAreaGuides';
+import { samuiAreaGuides } from '../data/samuiAreaGuides';
 import { vungtauAreaGuides } from '../data/vungtauAreaGuides';
 import { hueAreaGuides } from '../data/hueAreaGuides';
 import { hoianAreaGuides } from '../data/hoianAreaGuides';
@@ -251,6 +252,7 @@ export const GET: APIRoute = ({ site }) => {
     ...phuketAreaGuides.map((guide) => guide.path),
     ...krabiAreaGuides.map((guide) => guide.path),
     ...khaolakAreaGuides.map((guide) => guide.path),
+    ...samuiAreaGuides.map((guide) => guide.path),
     ...vungtauAreaGuides.map((guide) => guide.path),
     ...hueAreaGuides.map((guide) => guide.path),
     ...hoianAreaGuides.map((guide) => guide.path),

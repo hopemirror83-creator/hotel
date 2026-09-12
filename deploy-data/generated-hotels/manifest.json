@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-12T14:00:10.434Z",
-  "total": 21102,
+  "generatedAt": "2026-09-12T14:19:51.983Z",
+  "total": 21120,
   "chunkSize": 500,
   "files": [
     {
@@ -173,7 +173,7 @@
     },
     {
       "filename": "hotels-043.json",
-      "count": 102
+      "count": 120
     }
   ]
 }

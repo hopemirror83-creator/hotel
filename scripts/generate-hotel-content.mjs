@@ -365,7 +365,8 @@ ${JSON.stringify(sourceItems, null, 2)}
       {"heading": "이런 분들 추천해요", "paragraphs": ["문단1", "문단2", "문단3"]}
     ]
   }
-}`;
+}
+${process.env.GEMINI_EXTRA_INSTRUCTIONS || ''}`;
 }
 
 function normalizeAnalysis(value) {

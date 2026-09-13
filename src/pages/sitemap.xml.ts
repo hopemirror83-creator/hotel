@@ -121,6 +121,7 @@ import { krabiAreaGuides } from '../data/krabiAreaGuides';
 import { khaolakAreaGuides } from '../data/khaolakAreaGuides';
 import { samuiAreaGuides } from '../data/samuiAreaGuides';
 import { bangkokAreaGuides } from '../data/bangkokAreaGuides';
+import { pattayaAreaGuides } from '../data/pattayaAreaGuides';
 import { vungtauAreaGuides } from '../data/vungtauAreaGuides';
 import { hueAreaGuides } from '../data/hueAreaGuides';
 import { hoianAreaGuides } from '../data/hoianAreaGuides';
@@ -255,6 +256,7 @@ export const GET: APIRoute = ({ site }) => {
     ...khaolakAreaGuides.map((guide) => guide.path),
     ...samuiAreaGuides.map((guide) => guide.path),
     ...bangkokAreaGuides.map((guide) => guide.path),
+    ...pattayaAreaGuides.map((guide) => guide.path),
     ...vungtauAreaGuides.map((guide) => guide.path),
     ...hueAreaGuides.map((guide) => guide.path),
     ...hoianAreaGuides.map((guide) => guide.path),

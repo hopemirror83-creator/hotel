@@ -123,6 +123,7 @@ import { samuiAreaGuides } from '../data/samuiAreaGuides';
 import { bangkokAreaGuides } from '../data/bangkokAreaGuides';
 import { pattayaAreaGuides } from '../data/pattayaAreaGuides';
 import { chiangmaiAreaGuides } from '../data/chiangmaiAreaGuides';
+import { huahinAreaGuides } from '../data/huahinAreaGuides';
 import { vungtauAreaGuides } from '../data/vungtauAreaGuides';
 import { hueAreaGuides } from '../data/hueAreaGuides';
 import { hoianAreaGuides } from '../data/hoianAreaGuides';
@@ -259,6 +260,7 @@ export const GET: APIRoute = ({ site }) => {
     ...bangkokAreaGuides.map((guide) => guide.path),
     ...pattayaAreaGuides.map((guide) => guide.path),
     ...chiangmaiAreaGuides.map((guide) => guide.path),
+    ...huahinAreaGuides.map((guide) => guide.path),
     ...vungtauAreaGuides.map((guide) => guide.path),
     ...hueAreaGuides.map((guide) => guide.path),
     ...hoianAreaGuides.map((guide) => guide.path),

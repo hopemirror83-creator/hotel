@@ -1,6 +1,7 @@
 .env
 .dev.vars
 dist/
+dist-dynamic-*/
 node_modules/
 .wrangler/
 .astro/

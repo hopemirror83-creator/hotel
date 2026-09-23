@@ -1,5 +1,23 @@
 const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-const REMOVED_SLUGS = new Set(['chungbuk-21880638']);
+const REMOVED_SLUGS = new Set([
+  'chungbuk-21880638',
+  'incheon-1032044',
+  'incheon-10576683',
+  'incheon-1624158',
+  'incheon-1636517',
+  'incheon-2090114',
+  'incheon-22990365',
+  'incheon-23093128',
+  'incheon-2325348',
+  'incheon-26058310',
+  'incheon-305614',
+  'incheon-35535580',
+  'incheon-400646',
+  'incheon-529252',
+  'incheon-567942',
+  'incheon-626079',
+  'incheon-689954',
+]);
 
 export async function onRequestGet(context) {
   const slug = String(context.params.slug || '').toLowerCase();

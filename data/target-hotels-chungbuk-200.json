@@ -2453,21 +2453,6 @@
     "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=10578485"
   },
   {
-    "slug": "chungbuk-21880638",
-    "hotelName": "진천 호텔 시티",
-    "region": "충북",
-    "searchName": "진천 호텔 시티",
-    "naverName": "진천 호텔 시티",
-    "agodaHotelId": 21880638,
-    "fallbackAddress": "1278-39, Jingwang-ro, Gwanghyewon-myeon, Jincheon-gun, Chungcheongbuk-do 수원",
-    "latitude": 36.966858,
-    "longitude": 127.437195,
-    "reviewScore": 8.3,
-    "reviewCount": 27,
-    "imageUrl": "",
-    "landingUrl": "https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=21880638"
-  },
-  {
     "slug": "chungbuk-10580107",
     "hotelName": "진천 오즈의마법사 무인텔",
     "region": "충북",

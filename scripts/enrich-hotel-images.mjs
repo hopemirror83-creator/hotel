@@ -490,7 +490,11 @@ function toPublicImage(hotel, plan, candidate, source) {
 }
 
 async function findNaverFallback(hotel, plan, usedUrls) {
-  if (process.env.DISABLE_NAVER_IMAGE_FALLBACK === '1') return null;
+  // Naver image search does not guarantee that a result belongs to the exact
+  // property. Keep this fallback disabled unless a future verified-place
+  // implementation supplies and validates a Naver place ID.
+  if (process.env.ENABLE_VERIFIED_NAVER_IMAGE_FALLBACK !== '1') return null;
+  if (!hotel.naverPlaceId) return null;
   if (!naverClientId || !naverClientSecret) return null;
   for (const term of plan.naverTerms) {
     const query = `${hotel.hotelName} ${term}`;
@@ -498,7 +502,11 @@ async function findNaverFallback(hotel, plan, usedUrls) {
       console.warn(error.message);
       return [];
     });
-    const picked = candidates.find((item) => isUsableNaverImage(item) && !usedUrls.has(item.link));
+    const picked = candidates.find((item) => (
+      isUsableNaverImage(item)
+      && isVerifiedNaverPlaceImage(item, hotel.naverPlaceId)
+      && !usedUrls.has(item.link)
+    ));
     if (picked) {
       await sleep(naverDelayMs);
       return {
@@ -549,6 +557,12 @@ function isUsableNaverImage(item) {
   if (blockedPersonalImageText.some((keyword) => candidateText.includes(keyword))) return false;
   if (isBlockedNewsSource(url, item?.title)) return false;
   return true;
+}
+
+function isVerifiedNaverPlaceImage(item, placeId) {
+  const id = String(placeId || '').trim();
+  if (!id) return false;
+  return `${item?.link || ''} ${item?.thumbnail || ''}`.includes(id);
 }
 
 function isBlockedNewsSource(url, title = '') {

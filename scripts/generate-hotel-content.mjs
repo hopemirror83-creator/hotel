@@ -317,6 +317,10 @@ function buildPrompt(hotel) {
 - 아고다 후기 원문이나 네이버 검색 결과 문장을 그대로 노출하지 않습니다.
 - 검색 결과 제목/요약 문장을 복사하거나 비슷하게 재작성하지 않습니다.
 - 제공된 호텔 링크와 API 데이터, 검색 신호를 근거로 분석하되, 최종 문장은 새로 작성합니다.
+- breakfastIncludedInRate와 wifiIncludedInRate는 검색 당시 특정 예약 요금제의 포함 여부일 뿐, 호텔의 조식 운영 여부나 Wi-Fi 제공 여부가 아닙니다.
+- 위 두 값이 false 또는 unknown이어도 "조식 미제공", "조식 없음", "무료 Wi-Fi 미제공", "Wi-Fi 없음"으로 서술하지 않습니다.
+- 조식 운영, Wi-Fi, 주차 등 핵심 시설은 공식 정보나 관련성이 확인된 공개 후기에서 명확히 확인되지 않으면 "예약 플랜 또는 숙소에 최신 조건을 확인하세요"라고 중립적으로 씁니다.
+- 정보가 없다는 사실을 서비스가 없다는 의미로 해석하지 않습니다.
 - 광고문처럼 과장하지 말고, 예약 전에 확인할 실용 정보 중심으로 씁니다.
 - 호텔명, 위치, 체크인, 짐보관, 조식, 방크기, 공항 접근성 등 호텔별 고유 판단 요소가 드러나야 합니다.
 - 블로그 후기글은 모바일에서 읽기 쉽게 한 문단을 45~90자 정도로 짧게 씁니다.
@@ -336,8 +340,8 @@ ${JSON.stringify({
   dailyRate: hotel.dailyRate,
   crossedOutRate: hotel.crossedOutRate,
   discountPercentage: hotel.discountPercentage,
-  includeBreakfast: hotel.includeBreakfast,
-  freeWifi: hotel.freeWifi,
+  breakfastIncludedInRate: hotel.breakfastIncludedInRate ?? 'unknown',
+  wifiIncludedInRate: hotel.wifiIncludedInRate ?? 'unknown',
   searchResultCount: hotel.searchResultCount
 }, null, 2)}
 
@@ -370,7 +374,7 @@ ${process.env.GEMINI_EXTRA_INSTRUCTIONS || ''}`;
 }
 
 function normalizeAnalysis(value) {
-  return {
+  return neutralizeUnsupportedFacilityClaims({
     summary: string(value.summary),
     pros: stringArray(value.pros),
     cons: stringArray(value.cons),
@@ -380,7 +384,35 @@ function normalizeAnalysis(value) {
     seoTitle: string(value.seo_title || value.seoTitle),
     metaDescription: string(value.meta_description || value.metaDescription),
     blogReview: normalizeBlogReview(value.blog_review || value.blogReview)
-  };
+  });
+}
+
+function neutralizeUnsupportedFacilityClaims(value, key = '') {
+  if (typeof value === 'string') {
+    const negative = '(?:미제공|제공되지|제공하지|지원하지|미포함|포함되지|없(?:습니다|음|다)?|이용할 수 없|불가)';
+    const wifiTerm = '(?:무료\\s*)?(?:와이파이|Wi[- ]?Fi)';
+    const breakfastTerm = '(?:조식|아침\\s*식사|breakfast)';
+    const wifi = new RegExp(`(?:${wifiTerm}.{0,40}${negative}|${negative}.{0,40}${wifiTerm})`, 'i').test(value);
+    const breakfast = new RegExp(`(?:${breakfastTerm}.{0,40}${negative}|${negative}.{0,40}${breakfastTerm})`, 'i').test(value);
+    if (!wifi && !breakfast) return value;
+    if (key === 'question') {
+      if (wifi && breakfast) return '조식 조건과 Wi-Fi 이용 조건은 어떻게 확인하나요?';
+      if (breakfast) return '조식 운영 및 객실 요금 포함 여부는 어떻게 확인하나요?';
+      return 'Wi-Fi 제공 범위와 이용 조건은 어떻게 확인하나요?';
+    }
+    if (wifi && breakfast) return '조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요.';
+    if (breakfast) return '조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요.';
+    return 'Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요.';
+  }
+  if (Array.isArray(value)) {
+    const next = value.map((item) => neutralizeUnsupportedFacilityClaims(item, key));
+    return [...new Set(next.map((item) => JSON.stringify(item)))].map((item) => JSON.parse(item));
+  }
+  if (!value || typeof value !== 'object') return value;
+  return Object.fromEntries(Object.entries(value).map(([childKey, child]) => [
+    childKey,
+    neutralizeUnsupportedFacilityClaims(child, childKey)
+  ]));
 }
 
 function checkQuality(hotel, analysis) {

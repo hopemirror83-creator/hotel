@@ -287,7 +287,7 @@ function buildIntentChips(hotel: Hotel, areaType: JejuAreaType) {
   if (areaType === 'hamdeok') chips.add('함덕');
   if (areaType === 'seongsan') chips.add('성산');
   if (areaType === 'hyeopjae') chips.add('협재');
-  if (hotel.includeBreakfast || hasAny(hotel, ['조식', '뷔페'])) chips.add('조식');
+  if (hotel.breakfastIncludedInRate === true || hasAny(hotel, ['조식', '뷔페'])) chips.add('조식');
   if (hasAny(hotel, ['오션', '바다', '해안', '뷰'])) chips.add('오션뷰');
   if ((hotel.reviewCount || 0) >= 1000) chips.add('후기많음');
   return [...chips].slice(0, 5);

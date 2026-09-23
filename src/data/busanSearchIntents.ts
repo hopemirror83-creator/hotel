@@ -262,7 +262,7 @@ function buildIntentChips(hotel: Hotel, areaType: BusanAreaType) {
   if (areaType === 'gijang') chips.add('기장');
   if (areaType === 'songdo') chips.add('송도');
   chips.add('부산여행');
-  if (hotel.includeBreakfast || hasAny(hotel, ['조식', '뷔페'])) chips.add('조식');
+  if (hotel.breakfastIncludedInRate === true || hasAny(hotel, ['조식', '뷔페'])) chips.add('조식');
   if (hasAny(hotel, ['오션', '바다', '해변', '광안대교'])) chips.add('오션뷰');
   if ((hotel.reviewCount || 0) >= 1000) chips.add('후기많음');
   return [...chips].slice(0, 5);

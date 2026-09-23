@@ -296,8 +296,8 @@ function buildHotelRecord(target, agoda, naverSearch, mapMatch) {
     discountPercentage: agoda?.discountPercentage,
     imageUrl: agoda?.imageUrl || target.imageUrl || '',
     landingUrl: agoda?.landingUrl || target.landingUrl || buildPartnerLandingUrl(fallbackHotelId),
-    includeBreakfast: Boolean(agoda?.includeBreakfast),
-    freeWifi: Boolean(agoda?.freeWifi),
+    breakfastIncludedInRate: agoda?.breakfastIncludedInRate ?? 'unknown',
+    wifiIncludedInRate: agoda?.wifiIncludedInRate ?? 'unknown',
     lastUpdated: new Date().toISOString(),
     searchResultCount,
     sourceSignals: naverSearch,
@@ -477,8 +477,8 @@ function normalizeAgodaHotel(item, candidateCount) {
     discountPercentage: integer(pick(item, ['discountPercentage', 'discount_percentage', 'DiscountPercentage'])),
     imageUrl: pick(item, ['imageURL', 'imageUrl', 'image_url', 'ImageURL', 'thumbnailUrl']),
     landingUrl: pick(item, ['landingURL', 'landingUrl', 'landing_url', 'LandingURL', 'url']),
-    includeBreakfast: Boolean(pick(item, ['includeBreakfast', 'include_breakfast', 'breakfastIncluded'])),
-    freeWifi: Boolean(pick(item, ['freeWifi', 'free_wifi', 'FreeWifi', 'wifiIncluded'])),
+    breakfastIncludedInRate: triState(pick(item, ['includeBreakfast', 'include_breakfast', 'breakfastIncluded'])),
+    wifiIncludedInRate: triState(pick(item, ['freeWifi', 'free_wifi', 'FreeWifi', 'wifiIncluded'])),
     address: pick(item, ['address', 'Address', 'addressLine']),
     latitude: number(pick(item, ['latitude', 'lat', 'Latitude'])),
     longitude: number(pick(item, ['longitude', 'lng', 'lon', 'Longitude'])),
@@ -491,6 +491,12 @@ function pick(item, names) {
     if (item?.[name] !== undefined && item[name] !== null && item[name] !== '') return item[name];
   }
   return undefined;
+}
+
+function triState(value) {
+  if (value === true || value === 1 || String(value).toLowerCase() === 'true') return true;
+  if (value === false || value === 0 || String(value).toLowerCase() === 'false') return false;
+  return 'unknown';
 }
 
 function number(value) {

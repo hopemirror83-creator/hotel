@@ -11,8 +11,8 @@ export const manualHotels: Hotel[] = [
     starRating: 5,
     imageUrl: 'https://pix8.agoda.net/hotelImages/686/686517/686517_16101713030047810423.jpg?ca=6&ce=1&s=1024x768',
     landingUrl: 'https://www.agoda.com/ko-kr/partners/partnersearch.aspx?pcs=1&cid=1927566&hid=686517',
-    includeBreakfast: false,
-    freeWifi: true,
+    breakfastIncludedInRate: 'unknown',
+    wifiIncludedInRate: true,
     lastUpdated: '2026-07-04T00:00:00.000Z',
     searchResultCount: 30,
     referenceLinks: [

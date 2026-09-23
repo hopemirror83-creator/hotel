@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-23",
+  "scannedHotels": 21217,
+  "legacyFieldsRemoved": 25634,
+  "wifiClaimsNeutralized": 15484,
+  "breakfastClaimsNeutralized": 29568,
+  "unverifiedHeroImagesRemoved": 3609,
+  "unverifiedSectionImagesRemoved": 32726,
+  "hotelsWithNoVerifiedImageAfterCleanup": 5042,
+  "policy": {
+    "missingApiValues": "unknown",
+    "rateInclusionIsNotPropertyOperation": true,
+    "unsupportedNegativeFacilityClaims": "neutralize",
+    "allowedImages": "Agoda image URL containing the matching hotel ID",
+    "naverFallback": "disabled until Naver place ID can be validated"
+  }
+}

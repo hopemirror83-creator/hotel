@@ -55,8 +55,8 @@ export interface Hotel {
   discountPercentage?: number;
   imageUrl: string;
   landingUrl?: string;
-  includeBreakfast?: boolean;
-  freeWifi?: boolean;
+  breakfastIncludedInRate?: boolean | 'unknown';
+  wifiIncludedInRate?: boolean | 'unknown';
   lastUpdated?: string;
   searchResultCount?: number;
   referenceLinks?: ReferenceLink[];
@@ -78,8 +78,8 @@ export const hotels: Hotel[] = [
     region: '인천 영종도',
     address: '인천 중구 공항문화로 일대',
     imageUrl: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
-    includeBreakfast: false,
-    freeWifi: true,
+    breakfastIncludedInRate: 'unknown',
+    wifiIncludedInRate: true,
     searchResultCount: 0,
     analysis: {
       summary: '아고다와 네이버 신호 수집 전입니다. 이 페이지는 위치, 객실, 조식, 체크인, 짐보관 정보를 분석해 예약 전 판단용 요약으로 채워질 예정입니다.',
@@ -98,8 +98,8 @@ export const hotels: Hotel[] = [
     region: '인천 영종도',
     address: '인천 중구 영종해안남로 일대',
     imageUrl: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80',
-    includeBreakfast: false,
-    freeWifi: true,
+    breakfastIncludedInRate: 'unknown',
+    wifiIncludedInRate: true,
     searchResultCount: 0,
     analysis: {
       summary: '후기 분석 데이터 수집 전입니다. 공항 접근성, 부대시설, 조식, 객실 크기 관련 신호를 모아 예약 전 체크포인트로 정리할 예정입니다.',
@@ -118,8 +118,8 @@ export const hotels: Hotel[] = [
     region: '인천 영종도',
     address: '인천 중구 영종해안남로 일대',
     imageUrl: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80',
-    includeBreakfast: false,
-    freeWifi: true,
+    breakfastIncludedInRate: 'unknown',
+    wifiIncludedInRate: true,
     searchResultCount: 0,
     analysis: {
       summary: '후기 분석 데이터 수집 전입니다. 바다 전망, 조식, 객실 분위기, 주변 이동 편의성을 중심으로 신호를 수집할 예정입니다.',
@@ -138,8 +138,8 @@ export const hotels: Hotel[] = [
     region: '인천 영종도',
     address: '인천 중구 영종해안남로 일대',
     imageUrl: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80',
-    includeBreakfast: false,
-    freeWifi: true,
+    breakfastIncludedInRate: 'unknown',
+    wifiIncludedInRate: true,
     searchResultCount: 0,
     analysis: {
       summary: '후기 분석 데이터 수집 전입니다. 공항 접근성, 셔틀, 객실 컨디션, 체크인 편의성을 중심으로 예약 전 정보를 정리할 예정입니다.',
@@ -158,8 +158,8 @@ export const hotels: Hotel[] = [
     region: '인천 영종도',
     address: '인천 중구 운서동 일대',
     imageUrl: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80',
-    includeBreakfast: false,
-    freeWifi: true,
+    breakfastIncludedInRate: 'unknown',
+    wifiIncludedInRate: true,
     searchResultCount: 0,
     analysis: {
       summary: '후기 분석 데이터 수집 전입니다. 운서역 접근성, 공항 이동, 객실 크기, 짐보관 가능 여부를 중심으로 확인할 예정입니다.',

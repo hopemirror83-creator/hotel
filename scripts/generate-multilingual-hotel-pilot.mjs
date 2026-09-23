@@ -73,8 +73,8 @@ function buildPrompt(hotel, language, languageMeta) {
     reviewScore: hotel.reviewScore,
     reviewCount: hotel.reviewCount,
     averageNightlyRate: hotel.averageNightlyRate || hotel.dailyRate,
-    includeBreakfast: hotel.includeBreakfast,
-    freeWifi: hotel.freeWifi,
+    breakfastIncludedInRate: hotel.breakfastIncludedInRate ?? 'unknown',
+    wifiIncludedInRate: hotel.wifiIncludedInRate ?? 'unknown',
     summary: hotel.analysis?.summary,
     pros: hotel.analysis?.pros,
     cons: hotel.analysis?.cons,
@@ -95,6 +95,8 @@ Editorial rules:
 - Do not copy Agoda review text or Korean search snippets.
 - Balance strengths and cautions. Avoid "best", "perfect", "must-book", or other sales language.
 - Do not invent exact walking times, airport transfer times, shuttle service, breakfast price, check-in time, room size, or facilities that are absent from the source.
+- breakfastIncludedInRate and wifiIncludedInRate describe a searched booking rate, not whether the property operates breakfast or provides Wi-Fi. Never turn false or unknown into a claim that the service is unavailable.
+- Without an official property source, use neutral confirmation language for breakfast operation, Wi-Fi and parking conditions.
 - If a detail is uncertain, tell readers to confirm it on Agoda or with the hotel.
 - Focus on ${regionConfig.focus} only where supported.
 - Preserve the six-section editorial flow, but use idiomatic headings in the target language.

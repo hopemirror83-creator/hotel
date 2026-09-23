@@ -15,7 +15,7 @@ export const multilingualHotels = {
         "Complimentary luggage storage and guest parking options"
       ],
       "cons": [
-        "Breakfast is typically not included in standard room rates",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "The property is older, and some areas show signs of age",
         "The surrounding commercial neighborhood can remain busy late into the evening"
       ],
@@ -70,7 +70,7 @@ export const multilingualHotels = {
         {
           "heading": "Important Details to Keep in Mind",
           "paragraphs": [
-            "Standard bookings typically do not include breakfast, so guests should plan to pay an extra fee or explore the numerous local bakeries and cafes nearby. It is also wise to check the current shuttle bus timetable with the front desk to plan your daily outings efficiently.",
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
             "Standard check-in begins at 3:00 PM, but if you arrive early, you can safely leave your bags with the front desk. Because the surrounding area is a lively commercial hub, light sleepers may want to request a room on a higher floor to minimize urban noise."
           ]
         },
@@ -101,7 +101,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and what are the options?",
-          "answer": "Breakfast is typically not included in the standard room rate and may require an additional fee. Guests can choose to add breakfast to their booking or explore the wide variety of local restaurants and cafes in the surrounding Euljiro and Myeongdong neighborhoods."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -251,7 +251,7 @@ export const multilingualHotels = {
       "cons": [
         "Limited on-site parking that requires an additional daily fee.",
         "No fitness center, swimming pool, or extensive wellness facilities on the property.",
-        "Standard room rates do not include breakfast, requiring an extra fee or dining off-site."
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
       ],
       "recommendedFor": [
         "First-time visitors to Seoul who want to be steps away from Myeongdong's shopping and street food.",
@@ -335,7 +335,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and what are the dining options?",
-          "answer": "Breakfast is typically not included in the standard room rate and requires an additional fee to dine at the on-site BST Restaurant. Alternatively, the surrounding Myeongdong area features a wide variety of local cafes and restaurants within short walking distance."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -718,7 +718,7 @@ export const multilingualHotels = {
       ],
       "cons": [
         "Standard rooms can feel quite compact for travelers with large suitcases",
-        "Breakfast is not included in the standard room rate and requires an extra fee",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Potential for city street noise at night due to the central, bustling location"
       ],
       "recommendedFor": [
@@ -773,7 +773,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "It is worth noting that standard room categories are designed to be compact and efficient. If you are traveling with multiple large suitcases or prefer extra breathing room, reviewing the upgraded room types on Agoda prior to booking is highly recommended. Some rooms also offer views of the iconic Namsan Seoul Tower, which can be requested during the booking process.",
-            "While breakfast is available on-site, it is generally not included in the base room rate, so be sure to check your booking conditions. For those on a tight schedule, the hotel offers a convenient 'To-Go' breakfast option, though the surrounding neighborhood is also packed with local bakeries and traditional breakfast spots."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -803,7 +803,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included, and what options are available?",
-          "answer": "Breakfast is typically not included in the standard room rate and requires an additional fee. The hotel provides a practical 'To-Go' breakfast option for busy travelers, but you can also explore the numerous cafes and local eateries right outside the hotel doors."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -889,7 +889,7 @@ export const multilingualHotels = {
           "heading": "知っておきたい注意点とコツ",
           "paragraphs": [
             "スタンダードクラスの客室は比較的コンパクトな設計になっているため、スーツケースを複数広げたい場合や、3名以上のグループ・家族旅行の際は、ワンランク上の広い客室タイプを検討することをおすすめします。客室によっては南山タワーが見えるビューもありますので、事前に確認しておくと良いでしょう。",
-            "朝食は基本プランに含まれていないことが多いため、有料で追加するか、周辺の豊富なローカル食堂やカフェを利用するのも手です。また、繁華街の中心にあるため、低層階や道路に面した客室では夜間の賑やかさが気になる場合もあります。静かな環境を好む方は、高層階や内側の客室をリクエストしてみるのも一案です。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -951,7 +951,7 @@ export const multilingualHotels = {
         "Convenient luggage storage service for hassle-free pre-check-in and post-checkout exploring."
       ],
       "cons": [
-        "Breakfast is not included in the standard room rate and requires an additional fee.",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Rooms run on the smaller side, which is typical for high-density downtown Seoul hotels.",
         "Potential for street noise at night due to the bustling surrounding neighborhood."
       ],
@@ -1007,7 +1007,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "Because this is a high-density downtown hotel, room sizes are relatively compact. If you are traveling with multiple large suitcases, you may need to budget your space carefully, so it is wise to check specific room dimensions on Agoda before finalizing your booking.",
-            "Additionally, breakfast is typically not included in the standard room rate. Since Myeongdong is packed with excellent local bakeries, cafes, and traditional breakfast spots, many guests recommend exploring the neighborhood for your morning meals instead of purchasing the hotel breakfast."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -1037,7 +1037,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and what are the dining options?",
-          "answer": "Breakfast is generally not included in the base room rate and must be purchased separately if desired. However, because the hotel is surrounded by countless cafes and local eateries in Myeongdong, finding diverse breakfast options nearby is incredibly easy."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -1122,7 +1122,7 @@ export const multilingualHotels = {
         {
           "heading": "快適に過ごすためのヒントと注意点",
           "paragraphs": [
-            "朝食は客室料金に含まれていないプランが多いため、朝食付きを希望する場合は現地での追加購入が必要です。ただし、ホテルの周囲には朝から営業している人気の食堂やカフェが多数あるため、外食を楽しむのもおすすめの選択肢です。",
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
             "都心に位置するホテルの特性上、客室のサイズはややコンパクトに設計されています。荷物を広げるスペースを広く確保したい方は、予約前に客室の面積や詳細をAgoda等で確認することをおすすめします。また、繁華街に近いため夜間の騒音が気になる場合は、高層階や内側の客室をリクエストしてみるのも一つの方法です。"
           ]
         },
@@ -1153,7 +1153,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食サービスは提供されていますか？",
-          "answer": "朝食は客室料金に含まれていないため、利用する場合は現地での追加購入が必要です。ホテルの周辺には朝から営業している韓国料理店やカフェが多数あるため、明洞の街で朝食を探すのも楽しみの一つです。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -1271,7 +1271,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included, and what are the dining options?",
-          "answer": "Breakfast is not included in the standard room rate but can be added for an additional fee at the third-floor restaurant. Because the hotel is surrounded by a vast array of local cafes and restaurants, many guests choose to dine out."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -1356,7 +1356,7 @@ export const multilingualHotels = {
         {
           "heading": "予約前に知っておきたい注意点とコツ",
           "paragraphs": [
-            "朝食は基本プランに含まれていないことが多く、有料での提供となります。口コミでは内容に対してやや物足りないという声もあるため、ホテルの周辺にある豊富な飲食店やカフェで韓国ならではの朝食を開拓するのもおすすめです。",
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
             "また、近隣にある「ナイントゥリー バイ パルナス ソウル 明洞 2」と名前が似ているため、予約時やタクシーでの移動時に間違えないよう注意が必要です。客室の広さは標準的なビジネスホテルクラスですので、ゆったりとした空間を希望する場合は事前に客室タイプをよく確認してください。"
           ]
         },
@@ -1654,7 +1654,7 @@ export const multilingualHotels = {
       ],
       "cons": [
         "Guest rooms are designed with urban efficiency and may feel compact for travelers with large suitcases.",
-        "Standard bookings do not include breakfast, requiring an additional fee.",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "The lively downtown location means light sleepers might notice some street noise."
       ],
       "recommendedFor": [
@@ -1709,7 +1709,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "Because the hotel is designed with Japanese urban efficiency in mind, guest rooms are relatively compact. If you are traveling with multiple large suitcases, you may want to review the room dimensions on Agoda and consider upgrading to a larger room category to ensure comfortable movement.",
-            "It is also worth noting that breakfast is typically not included in the standard room rate, so you should budget for an extra fee if you plan to dine on-site. Additionally, because the hotel sits in a lively pedestrian zone, light sleepers may want to request a higher floor or bring earplugs to minimize potential street noise."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -1739,7 +1739,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and what are the dining options?",
-          "answer": "Breakfast is generally not included in the base room rate and requires an additional fee. It is served buffet-style in the hotel's restaurant, though guests can also explore numerous cafes and local eateries right outside the building."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -1825,7 +1825,7 @@ export const multilingualHotels = {
           "heading": "滞在時の注意点とヒント",
           "paragraphs": [
             "快適な滞在のためにいくつか留意しておきたい点があります。客室の設計はスペースを有効活用した機能的な造りになっているため、スーツケースを複数広げるには少し手狭に感じられる場合があります。広さを重視される方は、事前に客室タイプごとの平米数をAgoda等で確認しておくことをおすすめします。",
-            "また、朝食は基本プランに含まれていないことが多いため、朝食付きプランを選ぶか、現地で追加料金を支払う必要があります。周辺には朝から営業している地元の食堂やカフェも多いため、旅のスタイルに合わせて選択すると良いでしょう。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -1855,7 +1855,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食は提供されていますか？料金は含まれていますか？",
-          "answer": "館内のビュッフェレストランにて朝食が提供されています。ただし、標準の宿泊プランには朝食料金が含まれていないことが多いため、予約時に朝食付きプランを選択するか、現地での追加支払いが必要です。詳しい料金やメニューは予約サイト等でご確認ください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -1888,7 +1888,7 @@ export const multilingualHotels = {
       ],
       "cons": [
         "Compact room layouts that may feel tight with large luggage",
-        "No on-site breakfast service, requiring guests to dine out",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Potential evening street noise due to the lively surrounding neighborhood"
       ],
       "recommendedFor": [
@@ -1943,7 +1943,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "Some guests note that standard rooms can feel somewhat compact, particularly when traveling with multiple large suitcases. If you require extra floor space to unpack comfortably, it is highly recommended to look into upgraded room categories, such as the Corner Double, which public reviews suggest offer a bit more breathing room.",
-            "It is also worth noting that breakfast is not provided on-site. However, the surrounding streets are filled with bakeries, convenience stores, and local eateries, so finding a morning meal is rarely an issue. Additionally, if you plan to drive, be sure to verify the vehicle size restrictions and potential fees for the mechanical parking system on Agoda before arrival."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -1973,7 +1973,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Does the hotel serve breakfast on-site?",
-          "answer": "No, breakfast is not offered at this property. However, the surrounding Yeoksam neighborhood is filled with cafes, local restaurants, and convenience stores where you can easily find breakfast options."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -2005,7 +2005,7 @@ export const multilingualHotels = {
       ],
       "cons": [
         "客室がややコンパクトな設計のため、広さを重視する方には物足りなく感じられる場合がある",
-        "朝食サービスが基本プランに含まれていないため、朝食は周辺の飲食店やコンビニを利用する必要がある",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "繁華街に位置しているため、夜間に周囲の騒音が気になることがある"
       ],
       "recommendedFor": [
@@ -2060,7 +2060,7 @@ export const multilingualHotels = {
           "heading": "滞在時の注意点と役立つヒント",
           "paragraphs": [
             "一部の宿泊客からは「客室が少しコンパクトに感じられる」という意見が寄せられています。もし荷物が多い場合や、よりゆったりと過ごしたい場合は、少し広めの「コーナーダブルルーム」などの客室タイプを検討することをおすすめします。",
-            "また、朝食は基本プランに含まれていないため、朝食付きを希望する場合は周辺のカフェや食堂、コンビニなどを活用する必要があります。繁華街の路地に位置しているため、夜間の騒音が気になる場合は高層階の客室をリクエストしてみるのも一つの方法です。なお、駐車場は機械式のため、車種制限や利用料金については事前にAgoda等で確認することをお勧めします。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -2352,7 +2352,7 @@ export const multilingualHotels = {
       "title": "Dormy Inn Seoul Gangnam Review: Japanese-Style Onsen Baths and Business Travel Convenience in Seoul",
       "seoTitle": "Dormy Inn Seoul Gangnam: Onsen Baths & Business Stay Guide",
       "metaDescription": "Planning a trip to Gangnam? Read our localized review of Dormy Inn Seoul Gangnam, featuring Japanese-style public baths, late-night ramen, and business travel tips.",
-      "summary": "Dormy Inn Seoul Gangnam is a popular three-star hotel known for bringing a Japanese-style hot spring experience to the heart of Seoul. Guests frequently highlight the relaxing public baths, complimentary late-night noodles, and high-quality breakfast buffet.",
+      "summary": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
       "pros": [
         "Relaxing Japanese-style public bath and sauna facilities",
         "Complimentary late-night soy sauce ramen service",
@@ -2375,7 +2375,7 @@ export const multilingualHotels = {
       "checkPoints": [
         "Standard check-in is at 15:00 and check-out is at 11:00; contact the hotel or check Agoda for early or late options.",
         "The property is situated on a slope between Sinnonhyeon and Eonju stations, which may be challenging with heavy luggage.",
-        "Breakfast is not included in standard base rates and requires an additional fee.",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "On-site parking is mechanical, incurs a daily fee, and may not accommodate larger vehicles."
       ],
       "intro": [
@@ -2445,7 +2445,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included, and what kind of food is served?",
-          "answer": "Breakfast is typically not included in the base room rate and must be purchased separately. The hotel is well-known for its high-quality breakfast buffet served at the on-site restaurant, featuring a variety of Japanese home-style dishes alongside other options."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -2491,7 +2491,7 @@ export const multilingualHotels = {
       ],
       "checkPoints": [
         "チェックインは15:00、チェックアウトは11:00（アーリー・レイトは要確認）",
-        "朝食は基本プランに含まれない場合、別途追加料金が必要です",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "客室タイプによって広さが異なるため、予約時に詳細を確認することをおすすめします",
         "フロントでの荷物預かりサービスはチェックアウト後も利用可能です"
       ],
@@ -2562,7 +2562,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食の内容や追加料金について教えてください。",
-          "answer": "朝食は和洋折衷の家庭的なバイキングスタイルで提供されており、クオリティの高さが口コミでも評判です。基本プランに含まれていない場合は別途追加料金が必要となりますので、料金や提供時間の詳細は予約時にAgodaのプラン内容をご確認いただくか、フロントにてお尋ねください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -2596,7 +2596,7 @@ export const multilingualHotels = {
       ],
       "cons": [
         "Standard rooms are compact (around 20 to 23 square meters), typical of Seoul business hotels",
-        "Breakfast is not included in the standard room rate and requires an additional fee",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "On-site parking is subject to daily charges rather than being complimentary"
       ],
       "recommendedFor": [
@@ -2651,7 +2651,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "Standard rooms measure around 20 to 23 square meters, which is typical for business hotels in Seoul but may feel compact if you are traveling with multiple large suitcases. If space is a priority, you may want to look into upgraded room categories on Agoda.",
-            "Keep in mind that breakfast is not included in the standard room rate and incurs an extra charge of around 30,000 KRW. Additionally, parking is paid rather than free, so those planning to rent a car should factor this extra cost into their travel budget."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -2713,7 +2713,7 @@ export const multilingualHotels = {
       ],
       "cons": [
         "ソウルの一般的なビジネスホテルと同等で、客室はややコンパクト",
-        "朝食は基本プランに含まれず、別途追加料金が必要",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "駐車場が有料（マイカーやレンタカー利用時は注意が必要）"
       ],
       "recommendedFor": [
@@ -2754,7 +2754,7 @@ export const multilingualHotels = {
           "heading": "滞在を快適にする主なメリット",
           "paragraphs": [
             "クチコミで特に高く評価されているのが、スタッフの迅速かつ丁寧な対応です。チェックイン前後の荷物預かりサービスもスムーズで、限られた滞在時間を有効に活用できます。また、ロビーには自動チェックイン機が設置されており、混雑時でもスマートに手続きを終えられます。",
-            "全客室で無料の高速Wi-Fiが利用できるため、ビジネスでのリモートワークや、翌日の観光ルートの検索もストレスがありません。新羅ブランドの信頼感に裏打ちされた、清潔で機能的な客室管理も大きな強みです。"
+            "Wi-Fiの提供範囲と利用条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -2767,7 +2767,7 @@ export const multilingualHotels = {
         {
           "heading": "予約前に知っておきたい注意点とコツ",
           "paragraphs": [
-            "チェックインは15:00、チェックアウトは12:00となっています。朝食は基本プランに含まれていないことが多いため、ホテルでの朝食を希望する場合は、朝食付きプランを予約するか、現地で追加料金を支払う必要があります。最新の料金やプラン内容はAgodaなどで事前にご確認ください。",
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
             "客室の広さはソウルの一般的なビジネスホテル基準（スタンダードで約20〜23㎡）のため、大きなスーツケースを複数広げるにはやや手狭に感じられる場合があります。また、駐車場は有料での運営となっているため、レンタカー等を利用予定の方は事前に駐車条件を確認しておくと安心です。"
           ]
         },
@@ -2798,7 +2798,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食の提供はありますか？料金はいくらですか？",
-          "answer": "ホテル内のレストランで、新鮮なメニューを取り揃えた朝食ビュッフェが提供されています。朝食は有料（1名あたり約3万ウォン）となっており、プランに含まれていない場合は現地での支払いが必要です。正確な最新料金はAgodaのプラン詳細をご確認ください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -2831,7 +2831,7 @@ export const multilingualHotels = {
         "Modern, well-maintained rooms with an on-site dining option, 'Floating' restaurant"
       ],
       "cons": [
-        "Breakfast is typically not included in the standard room rate and must be purchased separately",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "On-site parking spaces can be tight and limited for those driving",
         "Some guests have noted that the in-room TV volume levels are set quite low"
       ],
@@ -2887,7 +2887,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "If you plan to drive or rent a car during your stay, keep in mind that public reviews occasionally mention that the underground parking garage can feel tight and limited. It is highly recommended to contact the hotel in advance to confirm parking availability and any applicable terms.",
-            "Breakfast is generally not included in the standard room rates. However, guests planning to dine at the hotel can often secure a discounted rate of approximately 23,000 KRW by reserving it a day in advance. Additionally, some guests have noted that the in-room TV volume is capped relatively low, which might be worth noting if you enjoy watching television in your room."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -2917,7 +2917,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and how can I book it?",
-          "answer": "Breakfast is typically not included in the standard room rate and must be purchased separately. You can often receive a discounted rate of around 23,000 KRW by booking breakfast with the front desk the day before, or you can look for room packages on Agoda that already include breakfast."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -3004,7 +3004,7 @@ export const multilingualHotels = {
           "heading": "事前に確認しておきたい注意点",
           "paragraphs": [
             "一部の口コミでは、地下駐車場のスペースがやや狭く、混雑時には駐車に苦労する場合があるとの指摘があります。お車での訪問を予定している方は、事前に駐車場の空き状況や利用条件をホテルに確認しておくことをおすすめします。",
-            "また、朝食は基本的に宿泊プランに含まれていないため、現地または事前予約での購入が必要です。前日までに予約することで割引価格（約23,000ウォン）が適用される場合があるため、朝食付きを希望する方は予約時に詳細をご確認ください。その他、客室のテレビ音量に関する細かな指摘もあるため、気になる点があればフロントへ相談してみると良いでしょう。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -3034,7 +3034,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食の提供スタイルや料金、予約方法について教えてください。",
-          "answer": "朝食は客室料金に含まれていないプランが多く、別途購入が必要です。前日までに予約することで、割引価格（約23,000ウォン）で利用できるシステムが用意されています。最新のメニュー内容や正確な料金、提供時間については、宿泊予約時にAgodaのプラン詳細にてご確認ください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -3318,7 +3318,7 @@ export const multilingualHotels = {
       ],
       "checkPoints": [
         "Check-in is from 15:00, and check-out is by 12:00",
-        "Breakfast is a paid buffet option and is typically not included in standard base rates",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "On-site parking is available but incurs an additional daily fee",
         "Luggage storage is available; please confirm specific terms directly with the front desk"
       ],
@@ -3389,7 +3389,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and what does it offer?",
-          "answer": "Breakfast is typically offered as a paid buffet and is not included in the standard base room rates. Guests frequently praise the quality and variety of the buffet, but you should confirm whether your specific Agoda booking option includes breakfast or if it must be purchased separately."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -3436,7 +3436,7 @@ export const multilingualHotels = {
       "checkPoints": [
         "立地：駅三駅（ヨクサム駅）近く、江南の主要エリアへのアクセスが良好",
         "チェックイン：15:00 / チェックアウト：12:00（変更の可能性あり、要確認）",
-        "朝食：有料の朝食ビュッフェを提供（宿泊プランに含まれていない場合は別途料金）",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "駐車場：有料での利用が可能（料金や空き状況は事前にホテルへ確認を推奨）"
       ],
       "intro": [
@@ -3506,7 +3506,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食ビュッフェの内容や料金について教えてください。",
-          "answer": "ホテル内では有料の朝食ビュッフェが提供されており、クオリティの高さについて好意的な意見が多く見られます。朝食付きプランでない場合は別途料金が発生しますので、最新の料金やメニュー内容はアゴダの予約ページ等でご確認ください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -3625,7 +3625,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included, and what options are available?",
-          "answer": "Breakfast is not included in the standard room rate and requires an additional fee of 7,000 KRW. Depending on the day of the week, the meal may be served as a buffet or as a pre-packaged lunchbox, so guests should confirm the current dining format upon arrival."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -4011,7 +4011,7 @@ export const multilingualHotels = {
         "Warm and helpful front desk staff"
       ],
       "cons": [
-        "Standard bookings do not include breakfast",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Luggage storage may have evening time restrictions",
         "Compact room sizes and typical hostel soundproofing limits"
       ],
@@ -4247,7 +4247,7 @@ export const multilingualHotels = {
         "Convenient luggage storage service for hassle-free sightseeing before and after check-in"
       ],
       "cons": [
-        "No on-site breakfast service, requiring guests to dine out",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Compact room layouts typical of mid-range urban Seoul hotels",
         "Potential for street noise due to its proximity to busy nightlife areas"
       ],
@@ -4261,7 +4261,7 @@ export const multilingualHotels = {
         "Visitors whose itineraries are primarily focused on the Gangnam district"
       ],
       "checkPoints": [
-        "The hotel does not serve breakfast, so guests should plan to explore nearby cafes and convenience stores.",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Conveniently situated between Sinchon Station and Sogang University Station, offering excellent subway connectivity.",
         "Luggage storage is available, allowing you to explore the city easily before check-in or after check-out.",
         "Rooms are compact and typical of a 3-star city hotel; travelers with large suitcases may want to verify room dimensions on Agoda."
@@ -4302,7 +4302,7 @@ export const multilingualHotels = {
         {
           "heading": "Important details to keep in mind before booking",
           "paragraphs": [
-            "Prospective guests should note that the hotel does not provide an on-site breakfast service. However, the surrounding neighborhood is packed with local bakeries, brunch spots, and 24-hour convenience stores, offering plenty of morning dining options just steps from the entrance.",
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
             "As is common with 3-star urban hotels in Seoul, room sizes are relatively compact. If you are traveling with multiple large suitcases, you may want to review the room layouts on Agoda beforehand. Additionally, because the hotel is close to lively nightlife districts, light sleepers might want to pack earplugs just in case of weekend street noise."
           ]
         },
@@ -4333,7 +4333,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Does the hotel offer breakfast options?",
-          "answer": "No, the hotel does not have an on-site breakfast service. Fortunately, the surrounding Sinchon and Hongdae areas are filled with numerous cafes, bakeries, and convenience stores where you can easily find breakfast."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -4364,7 +4364,7 @@ export const multilingualHotels = {
         "チェックイン前後の荷物預かりサービスが利用可能で移動がスムーズ"
       ],
       "cons": [
-        "朝食の提供がないため、朝食は周辺の飲食店やコンビニで済ませる必要がある",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "都市型の3つ星ホテルのため、客室がややコンパクトに感じられる場合がある",
         "賑やかな繁華街に近いため、音に非常に敏感な方は留意が必要"
       ],
@@ -4378,7 +4378,7 @@ export const multilingualHotels = {
         "夜間は完全に静まり返った静寂な環境で眠りたい方"
       ],
       "checkPoints": [
-        "朝食サービスは提供されていないため、周辺のカフェや食堂での食事プランを事前に考えておくと安心です。",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "新村駅と西江大駅の間に位置しており、地下鉄を利用したソウル市内観光へのアクセスが非常に便利です。",
         "チェックイン前およびチェックアウト後の荷物預かりサービスに対応しており、身軽に観光を楽しめます。",
         "客室の広さは都市型の3つ星ホテル基準のため、大きなスーツケースを複数広げる場合は事前にAgoda等で客室詳細を確認することをおすすめします。"
@@ -4450,7 +4450,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食サービスはありますか？周辺で食事はできますか？",
-          "answer": "ホテル内での朝食提供はありません。周辺には朝から営業している飲食店やカフェ、コンビニが多数ありますので、外での食事をお楽しみください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -4483,7 +4483,7 @@ export const multilingualHotels = {
         "Clean, modern rooms with practical features like bedside outlets"
       ],
       "cons": [
-        "Breakfast is not included in the standard room rate",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Some guests note that room soundproofing could be improved",
         "Limited on-site facilities beyond the main restaurant"
       ],
@@ -4538,7 +4538,7 @@ export const multilingualHotels = {
         {
           "heading": "Tips and considerations",
           "paragraphs": [
-            "If you plan to arrive before the standard 3:00 PM check-in time, you can utilize the hotel's luggage storage service, though some guests note the lobby area can get busy during peak hours. Additionally, because breakfast is not included in the standard rate, you should confirm the current pricing and options upon arrival.",
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
             "For those sensitive to noise, some reviews suggest requesting a room on a higher floor or away from the main street, as soundproofing can occasionally vary. If you require parking, be sure to contact the hotel ahead of time to secure a spot, as spaces may be limited."
           ]
         },
@@ -4569,7 +4569,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast available on-site, and what does it include?",
-          "answer": "Yes, breakfast is served at the first-floor restaurant, Justina, though it is not included in the standard room rate. Guests can expect a simple but satisfying selection, but you should confirm current pricing and menu details directly with the hotel or on Agoda."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -4656,7 +4656,7 @@ export const multilingualHotels = {
           "heading": "知っておきたい注意点とコツ",
           "paragraphs": [
             "一部の宿泊客からは、客室間の防音について「隣の部屋や廊下の音が少し響くことがある」との指摘があります。音に敏感な方は、予約時に高層階やエレベーターから離れた客室をリクエストすることを検討するとよいでしょう。",
-            "荷物預かりサービスは利用可能ですが、混雑するシーズンにはフロント周辺が一時的に乱雑になることがあるようです。また、朝食は宿泊プランに含まれていないことが多いため、利用を希望する場合は事前にAgodaなどの予約サイトで条件を確認するか、現地での追加支払いを想定しておきましょう。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -4719,7 +4719,7 @@ export const multilingualHotels = {
         "Convenient complimentary post-checkout luggage storage service"
       ],
       "cons": [
-        "Breakfast is not included in the standard rate and requires an extra fee",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Guest rooms can feel somewhat compact, typical of central Seoul properties",
         "On-site parking requires an additional nightly fee of 10,000 KRW"
       ],
@@ -4805,7 +4805,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate at L7 Hongdae?",
-          "answer": "Breakfast is typically offered for an additional fee and is not included in standard room rates. Guests can check specific room packages on Agoda to see if breakfast-inclusive options are available for their dates."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -5191,7 +5191,7 @@ export const multilingualHotels = {
         "Generous room layouts that offer significantly more space than standard Seoul hotels"
       ],
       "cons": [
-        "Breakfast is typically not included in the standard room rate",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Potential street noise due to the bustling university district location",
         "Fewer full-service hotel amenities compared to traditional luxury properties"
       ],
@@ -5246,7 +5246,7 @@ export const multilingualHotels = {
         {
           "heading": "Tips and considerations",
           "paragraphs": [
-            "Prospective guests should note that breakfast is generally not included in the base room rate. While some booking packages may offer it, it is highly recommended to verify the current breakfast options and pricing on Agoda or directly with the property before your stay. Alternatively, the surrounding neighborhood is filled with excellent cafes and bakeries.",
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
             "Because the residence is situated in a lively university district, some street noise can occasionally filter into lower-floor rooms. If you are a sensitive sleeper, consider requesting a room on a higher floor or one facing away from the main street. Additionally, keep in mind that this is a serviced residence, so traditional room service is limited."
           ]
         },
@@ -5277,7 +5277,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast provided at the residence?",
-          "answer": "Breakfast is typically not included in the standard room rate at Sinchon Ever8. Guests can check if breakfast add-ons are available during booking on Agoda, or explore the numerous cafes and local breakfast spots nearby."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -5308,7 +5308,7 @@ export const multilingualHotels = {
         "チェックイン前後の荷物預かりサービスに対応"
       ],
       "cons": [
-        "基本プランに朝食が含まれていない（事前確認が必要）",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "繁華街に近いため、夜間の騒音が気になる場合がある",
         "一般的なホテルに比べ、館内共用施設やアメニティが限定的"
       ],
@@ -5363,7 +5363,7 @@ export const multilingualHotels = {
         {
           "heading": "予約前に知っておきたい注意点とコツ",
           "paragraphs": [
-            "基本プランには朝食が含まれていないことが多いため、朝食付きを希望する場合は予約時にプラン内容をよく確認するか、現地での追加方法を問い合わせる必要があります。周辺には朝から営業しているカフェや食堂も多いため、外食を前提にするのもおすすめです。",
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
             "繁華街に近い立地ゆえに、低層階や道路に面した客室では夜間の騒音が気になるという声も一部で見られます。静かな環境を好む方は、予約時に高層階や静かな客室をリクエストしてみることをおすすめします。"
           ]
         },
@@ -5394,7 +5394,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食サービスはありますか？また、周辺で朝食は取れますか？",
-          "answer": "基本プランには朝食が含まれていないことが多いため、予約時に確認が必要です。レジデンスの周辺には朝から営業している飲食店やカフェが豊富にあるため、ローカルフードを楽しむのもおすすめです。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -5429,7 +5429,7 @@ export const multilingualHotels = {
       "cons": [
         "Potential for street noise due to the lively surrounding nightlife district",
         "Standard rooms may feel compact for travelers with large luggage",
-        "Breakfast is not included in the standard room rate and requires an extra fee"
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
       ],
       "recommendedFor": [
         "Travelers prioritizing easy access to the AREX airport railroad and local subways",
@@ -5579,7 +5579,7 @@ export const multilingualHotels = {
           "heading": "ホテルの設備と館内の特徴",
           "paragraphs": [
             "館内はモダンで落ち着いたインテリアで統一されており、シンプルながらも快適に過ごせる空間が整っています。全室で無料Wi-Fiが利用可能で、旅先での情報収集やSNSの更新もスムーズに行えます。",
-            "朝食は基本プランには含まれていませんが、追加料金を支払うことでビュッフェまたはコンチネンタルスタイルの朝食を利用できます。また、フロントデスクのスタッフによる丁寧なサポートも、慣れない土地を訪れる旅行者にとって安心感を与えてくれます。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -5901,7 +5901,7 @@ export const multilingualHotels = {
       ],
       "cons": [
         "Premium room rates and additional charges for major attractions like Cimer and Wonderbox",
-        "Breakfast is typically not included in standard rates and incurs an extra fee",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Popular amenities and public areas can become crowded during weekends and peak holiday seasons"
       ],
       "recommendedFor": [
@@ -5986,7 +5986,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and what are the dining options?",
-          "answer": "Breakfast is typically not included in basic room rates and may require an additional charge. The resort offers premium dining venues like On The Plate, and guests are advised to check their specific Agoda booking terms for breakfast inclusions."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -6017,7 +6017,7 @@ export const multilingualHotels = {
         "仁川国際空港からのアクセスが良く、無料シャトルバスも運行されている"
       ],
       "cons": [
-        "朝食が基本プランに含まれていない場合があり、追加料金が必要になる",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "5つ星リゾートのため宿泊費が高めで、週末や繁忙期は混雑しやすい",
         "シメール（スパ）やワンダーボックス（遊園地）などの一部施設は別料金となる"
       ],
@@ -6073,7 +6073,7 @@ export const multilingualHotels = {
         {
           "heading": "予約・滞在時の注意点とコツ",
           "paragraphs": [
-            "パラダイスシティを予約する際は、朝食がプランに含まれているかどうかを事前に確認することをお勧めします。朝食は基本プランに含まれていないことが多く、現地で追加する場合は別途費用が発生します。また、人気の「シメール」や「ワンダーボックス」などの一部施設は、宿泊プランによっては別料金となる場合があるため、事前に利用特典付きのプランをAgodaなどでよく比較することが大切です。",
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
             "週末や韓国の祝日、夏休みなどの繁忙期には、チェックイン手続きや各施設の利用時に混雑が発生し、待ち時間が生じることがあります。また、荷物預かりについては無料の保管スペースのほか、有料のロッカーが設置されている場合もあるため、利用方法や料金の最新情報は事前にホテルやAgodaのプラン詳細で確認しておくと安心です。"
           ]
         },
@@ -6104,7 +6104,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食は宿泊料金に含まれていますか？どのようなレストランがありますか？",
-          "answer": "朝食はプランによって含まれていない場合があり、その場合は追加料金が必要となります。館内には「オン・ザ・プレート」などの人気レストランがありますが、プランごとの朝食の有無や料金の詳細は、Agodaでの予約時に各プランの条件をご確認ください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -6139,7 +6139,7 @@ export const multilingualHotels = {
       "cons": [
         "Shared reception desk with the Howard Johnson Hotel can cause check-in confusion",
         "Airport shuttle service requires an additional fee rather than being complimentary",
-        "Breakfast is not included in the standard rate and may not align with early flights"
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
       ],
       "recommendedFor": [
         "Transit travelers with early morning departures or late-night arrivals",
@@ -6223,7 +6223,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included, and is it suitable for early departures?",
-          "answer": "Breakfast is not included in the standard room rate and requires an additional fee. Because breakfast hours may not accommodate very early flights, travelers should verify the service times upon arrival."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -6289,7 +6289,7 @@ export const multilingualHotels = {
           "heading": "ホテルの構造と館内設備の特徴",
           "paragraphs": [
             "このホテルは「ハワードジョンソンホテル」と同じ建物内にあり、フロントレセプションを共有しているというユニークな特徴を持っています。チェックイン手続きは3階の共同フロントで行うため、初めて訪れる際は少し戸惑うかもしれませんが、案内表示に従えばスムーズに手続きが可能です。",
-            "客室タイプはスタンダードからファミリー向けのスイートまで幅広く用意されており、シンプルで清潔感のあるインテリアが特徴です。館内にはレストランもあり、有料で食事を提供していますが、朝食は宿泊プランに含まれていないことが多いため、予約時の条件確認が推奨されます。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -6310,7 +6310,7 @@ export const multilingualHotels = {
           "heading": "滞在前に知っておきたい注意点とコツ",
           "paragraphs": [
             "最も注意したいのは、3階のフロントがハワードジョンソンホテルと共通になっている点です。到着時に混乱しないよう、あらかじめ頭に入れておくとスムーズです。また、空港シャトルバスは有料での運行となるため、料金や運行スケジュールは事前にフロントやAgodaの最新情報で確認することをお勧めします。",
-            "朝食は別料金となっており、早朝に出発する場合は提供時間に間に合わない可能性があります。また、荷物預かりサービスの詳細については公式に明記されていない部分もあるため、必要な場合は事前にホテルへ確認するか、チェックイン時に直接相談するのが確実です。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -6340,7 +6340,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食は提供されていますか？また、早朝出発でも利用できますか？",
-          "answer": "朝食は館内レストランにて別料金（有料）で提供されています。ただし、早朝のフライトに合わせて出発する場合は、朝食の提供開始時間に間に合わない可能性があるため、事前に提供時間を確認するか、周辺のコンビニ等の利用もご検討ください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -6429,7 +6429,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "Because the hotel is situated in the immediate airport vicinity, dining options directly outside the property are somewhat limited. Guests recommend utilizing the on-site convenience store or dining facilities, or checking the airport terminal for more extensive meal options.",
-            "Some reviews mention that the entry-level Superior rooms can feel cozy, so travelers with extensive luggage may want to explore larger room categories on Agoda. Additionally, because breakfast is typically not included in the base rate, it is wise to verify your booking details or plan to purchase it separately."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -6459,7 +6459,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate?",
-          "answer": "Breakfast is generally not included in the standard room rate and requires an additional charge. You can check Agoda for room packages that bundle breakfast or purchase it directly at the hotel."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -6545,7 +6545,7 @@ export const multilingualHotels = {
         {
           "heading": "滞在時の注意点とコツ",
           "paragraphs": [
-            "朝食は基本的に宿泊プランに含まれていないことが多いため、朝食を希望される場合は予約時に含まれているプランを選ぶか、現地での追加確認が必要です。また、サウナなどの一部有料施設は、チェックイン時にフロントで事前決済を済ませておくとスムーズに利用できます。",
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
             "空港のすぐ近くに位置しているため、一部のクチコミでは飛行機の離着陸音がかすかに聞こえるという指摘もあります。音に非常に敏感な方は、耳栓を用意するなどの対策を検討すると安心です。また、シャトルバスの運行時間は変更される場合があるため、最新の時刻表を事前に確認することをお勧めします。"
           ]
         },
@@ -6576,7 +6576,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食の提供スタイルや、プランに含まれているかを確認する方法は？",
-          "answer": "朝食はビュッフェ形式などで提供されていますが、標準の宿泊料金には含まれていない場合があります。予約時に「朝食付き」と明記されているプランを選択するか、チェックイン時にフロントで追加料金を支払って利用できるかをご確認ください。最新の料金やメニューはAgodaのプラン詳細で確認できます。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -6609,7 +6609,7 @@ export const multilingualHotels = {
         "Convenient 12:00 PM checkout time for a relaxed morning"
       ],
       "cons": [
-        "Breakfast is typically not included in the standard room rate",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "On-site recreational and dining facilities are relatively basic",
         "Limited direct transit connections to broader Yeongjong Island attractions"
       ],
@@ -6664,7 +6664,7 @@ export const multilingualHotels = {
         {
           "heading": "Tips and considerations",
           "paragraphs": [
-            "Because breakfast is generally not included in the base room rate, guests planning to eat on-site should look for packages that bundle breakfast or inquire about guest discounts at check-in. The morning buffet operates from 6:30 AM to 10:30 AM, making it viable even for relatively early departures.",
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
             "Since luggage storage policies and shuttle timetables can occasionally change, it is highly recommended to confirm these details directly with the hotel or via Agoda before your trip. For dining and entertainment outside the hotel, the nearby Paradise City complex is easily accessible for a wider variety of options."
           ]
         },
@@ -6695,7 +6695,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast available at the hotel?",
-          "answer": "Yes, an on-site breakfast buffet is served daily from 6:30 AM to 10:30 AM. Since it is typically not included in standard room rates, guests can purchase it separately or look for inclusive booking packages."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -6781,7 +6781,7 @@ export const multilingualHotels = {
         {
           "heading": "事前に知っておきたい注意点とコツ",
           "paragraphs": [
-            "朝食はプランに含まれていない場合が多いため、予約時に朝食付きプランを選択するか、現地で追加料金を支払う必要があります。朝食の提供時間や最新の料金設定については、事前にAgodaなどの予約サイトで詳細を確認しておくことをおすすめします。",
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
             "また、荷物預かりサービスについては、利用条件や対応可能な時間帯が変更になる場合があるため、チェックイン前やチェックアウト後に荷物を預ける予定がある方は、事前にホテルへ直接問い合わせておくと安心です。周辺には複合リゾート「パラダイスシティ」があり、食事や買い物の選択肢として活用できます。"
           ]
         },
@@ -6812,7 +6812,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食の提供時間や内容について教えてください。",
-          "answer": "朝食ビュッフェは午前6:30から10:30まで提供されています。プランに含まれていない場合は別途料金が必要となりますので、予約時に朝食付きプランを選択するか、現地のフロントにて割引適用の有無と合わせてご確認ください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -6845,7 +6845,7 @@ export const multilingualHotels = {
         "Reliable luggage storage services to facilitate hassle-free travel before check-in or after check-out."
       ],
       "cons": [
-        "Breakfast is not included in the standard rate and has received mixed feedback from past guests.",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "The airport shuttle requires advance reservations and can experience high demand during peak hours.",
         "Room features and layouts can vary significantly between the hotel and residence wings."
       ],
@@ -6901,7 +6901,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "While the complimentary airport shuttle is a significant benefit, guests should note that seats are limited and require advance reservation. It is highly recommended to contact the hotel or check booking details on Agoda to secure your shuttle slot early, particularly during peak morning travel hours. If the shuttle is fully booked, the AREX train from Unseo Station remains a highly reliable backup.",
-            "Breakfast is typically not included in the standard room rate and requires an additional fee. Since guest reviews regarding the breakfast selection are somewhat mixed, you may want to compare the on-site dining options with the local cafes and eateries near Unseo Station before deciding. Additionally, keep in mind the standard check-in time of 15:00 and check-out at 12:00 when planning your arrival."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -6931,7 +6931,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate?",
-          "answer": "Breakfast is generally not included in the standard rate and is subject to an additional charge. Because guest opinions on the breakfast buffet vary, you may want to check current pricing on Agoda or explore local dining options near Unseo Station."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -8081,7 +8081,7 @@ export const multilingualHotels = {
         {
           "heading": "Tips and considerations",
           "paragraphs": [
-            "Guests should note that breakfast is typically not included in the standard room rate and carries an additional charge of 28,000 KRW per adult. If you plan to dine on-site, it is worth checking if there are package deals available at the time of booking, or you can opt to explore the numerous cafes nearby.",
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
             "For in-room entertainment, some guests note that the televisions do not directly support streaming services like Netflix or YouTube. If you enjoy watching your own content, consider bringing a personal casting device. Additionally, those traveling by car must remember to register their vehicle at the front desk to avoid parking fees."
           ]
         },
@@ -8112,7 +8112,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and what are the dining options?",
-          "answer": "Breakfast is generally not included in the base room rate and is available for an extra charge of 28,000 KRW per adult. The buffet features a popular live noodle station along with a variety of Western and Asian dishes, though guests can also explore nearby local bakeries and cafes."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -8198,7 +8198,7 @@ export const multilingualHotels = {
         {
           "heading": "知っておきたい注意点とコツ",
           "paragraphs": [
-            "快適な滞在のために、いくつか事前に把握しておきたいポイントがあります。まず、朝食は基本プランに含まれていないことが多いため、利用の際は追加料金（大人28,000ウォン）が必要となります。朝食付きプランをあらかじめ予約しておくのも賢い選択です。",
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
             "また、客室のテレビは一般的なチャンネルの視聴が可能ですが、NetflixやYouTubeなどの動画配信（OTT）サービスに直接対応していません。ご自身の端末からミラーリングする機器を持参するなど、必要に応じて準備しておくと便利です。お車を利用される場合は、フロントでの車両登録を忘れないようにしてください。"
           ]
         },
@@ -8229,7 +8229,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食ビュッフェの内容や料金について教えてください。",
-          "answer": "朝食は大人28,000ウォンで提供されており、温かいフォーや多様なメニューが好評を得ています。朝食付きプランでない場合は現地での追加支払いが必要となるため、予約時にプラン内容をよくご確認ください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -8395,7 +8395,7 @@ export const multilingualHotels = {
       "checkPoints": [
         "チェックインは15時開始ですが、週末や繁忙期は混雑が予想されるため、時間に余裕を持った行動が推奨されます。",
         "釜山駅との荷物配送サービス（ジムキャリー）の利用条件や料金は、事前にアゴダやホテルでご確認ください。",
-        "朝食はプランに含まれていない場合が多いため、予約時に朝食付きプランかどうかを必ず確認することをおすすめします。",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "お部屋の広さを重視する場合は、デラックスルームよりもワンランク上のプレミアルーム以上を検討すると安心です。"
       ],
       "intro": [
@@ -8421,7 +8421,7 @@ export const multilingualHotels = {
           "heading": "このホテルならではの主なメリット",
           "paragraphs": [
             "このホテルの際立ったメリットは、やはり「移動と買い物のストレスのなさ」にあります。西面駅直結に加え、釜山駅とホテルの間で荷物を配送してくれる「ジムキャリー（Zimcarry）」サービスを利用すれば、チェックイン前やチェックアウト後も身軽に観光を楽しめます。",
-            "また、クチコミで特に評価が高いのが朝食ビュッフェです。バラエティ豊かなメニューとクオリティの高さは、一日の始まりを贅沢な気分にしてくれます。朝食を重視する旅行者にとって、このビュッフェは外せないポイントと言えるでしょう。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -8465,7 +8465,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食ビュッフェの評判や、予約時の注意点はありますか？",
-          "answer": "朝食ビュッフェはメニューが豊富で美味しいと宿泊客から非常に高い評価を得ています。朝食が宿泊料金に含まれていないプランも多いため、お得に楽しみたい場合は、予約時に「朝食付き」と明記されたプランを選択することをおすすめします。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -8734,7 +8734,7 @@ export const multilingualHotels = {
         "Modern rooftop pool and contactless self check-in/out kiosks"
       ],
       "cons": [
-        "Breakfast is not included in the standard rate and requires an extra fee",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Rates can rise significantly with high crowds during peak summer seasons",
         "Some standard rooms feature city views rather than ocean views"
       ],
@@ -8789,7 +8789,7 @@ export const multilingualHotels = {
         {
           "heading": "Tips and considerations",
           "paragraphs": [
-            "When booking, it is important to note that breakfast is typically not included in the standard room rate. Some guests note that purchasing the breakfast voucher at the front desk or checking for package deals on Agoda can secure a discounted rate in the 20,000 KRW range.",
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
             "Additionally, room views vary significantly between ocean and town views, with ocean-facing rooms generally commanding a premium. Because Haeundae is a premier holiday destination, rates can rise and crowds can increase during peak summer months and weekends, making early booking highly advisable."
           ]
         },
@@ -8820,7 +8820,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included, and what are the dining options?",
-          "answer": "Breakfast is generally not included in the base room rate and requires an additional fee, though discounted rates are often available for staying guests. The on-site buffet serves a variety of Korean and Western dishes from 07:00 to 10:00, but you should confirm current pricing and booking options on Agoda."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -8906,7 +8906,7 @@ export const multilingualHotels = {
         {
           "heading": "予約前に確認しておきたい注意点",
           "paragraphs": [
-            "朝食は宿泊プランにデフォルトで含まれていないことが多いため、利用を希望する場合は朝食付きプランを選ぶか、現地で別途支払う必要があります。また、客室からの眺望は「オーシャンビュー」と「タウンビュー（街側）」に分かれているため、予約時に必ず選択内容と追加料金を確認してください。",
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
             "週末や韓国の連休、夏のピークシーズンには宿泊料金が上昇しやすく、館内やプールが混雑する可能性があります。少しでもお得に、かつ希望の客室を確保するためには、早期予約特典や旅行サイトのプロモーションを賢く活用するのがポイントです。"
           ]
         },
@@ -8970,7 +8970,7 @@ export const multilingualHotels = {
         "Attentive, professional service and convenient luggage storage options"
       ],
       "cons": [
-        "High additional cost for breakfast if not included in the room rate",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Potential for long queues during peak check-in hours",
         "Some entry-level deluxe rooms may feel compact for a luxury property"
       ],
@@ -9056,7 +9056,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included, and is it worth the extra cost?",
-          "answer": "Breakfast is generally not included in the standard room rate and costs 65,000 KRW per adult. While reviews praise the extensive buffet selection, budget-conscious travelers can easily find local bakeries and traditional Korean restaurants nearby."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -9207,7 +9207,7 @@ export const multilingualHotels = {
       ],
       "cons": [
         "Compact room layouts typical of urban business hotels",
-        "Breakfast is not included in the standard room rate",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Surrounding station area can be busy and noisy during peak hours"
       ],
       "recommendedFor": [
@@ -9261,7 +9261,7 @@ export const multilingualHotels = {
         {
           "heading": "Tips and considerations",
           "paragraphs": [
-            "Guests should note that breakfast is typically not included in the baseline room rate and incurs an extra charge of about 22,000 KRW per adult. If you prefer a lighter or more flexible morning meal, you may want to explore the numerous cafes and bakeries inside the adjacent station.",
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
             "Because the rooms are relatively compact, travelers with multiple large suitcases should review the room layouts carefully before booking. Additionally, because the station district is a major transportation hub, the surrounding streets can be quite busy, though in-room noise is generally well-managed."
           ]
         },
@@ -9292,7 +9292,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included, and what are the dining options?",
-          "answer": "Breakfast is generally not included in the standard room rate and is available for an additional fee of approximately 22,000 KRW per adult. Guests can enjoy a buffet-style meal on-site, or explore the diverse dining and cafe options located inside Busan Station."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -9324,7 +9324,7 @@ export const multilingualHotels = {
       ],
       "cons": [
         "一般的なビジネスホテルと同等のコンパクトな客室スペース",
-        "朝食は基本プランに含まれず追加料金が必要な場合がある点",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "駅周辺の賑やかな環境による騒音の可能性"
       ],
       "recommendedFor": [
@@ -9358,7 +9358,7 @@ export const multilingualHotels = {
           "heading": "ホテルの構成と特徴",
           "paragraphs": [
             "本格的な4つ星ホテルとして、館内は清潔感があり機能的な設計が施されています。客室は一般的なビジネスホテルと同等のコンパクトな造りですが、無駄のないレイアウトで快適に過ごせるよう配慮されています。",
-            "高層階の客室からは、釜山の活気ある街並みや夜景を見渡すことができ、都会的な景色を楽しみたいゲストに喜ばれています。なお、朝食はビュッフェ形式で提供されていますが、基本プランに含まれていないことが多いため、事前の確認をおすすめします。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -9409,7 +9409,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食は提供されていますか？また料金はいくらですか？",
-          "answer": "館内レストランにてビュッフェスタイルの朝食が提供されています。料金は1名あたり約22,000ウォン程度ですが、宿泊プランに含まれていない場合は現地での追加支払いが必要となります。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -9442,7 +9442,7 @@ export const multilingualHotels = {
         "Convenient access to the Jungmun Tourist Complex and southern sightseeing spots"
       ],
       "cons": [
-        "Breakfast is typically not included in the standard room rate",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Some rooms near the pool area may experience ambient noise",
         "Public transit access is limited, making a rental car highly recommended"
       ],
@@ -9498,7 +9498,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "Standard check-in begins at 3:00 PM, and check-out is by 11:00 AM. Since the front desk can get busy during peak seasons, arriving with some flexibility in your schedule is recommended. Luggage storage is available for guests who wish to explore the area before check-in or after check-out.",
-            "Some guests note that breakfast is typically not included in the standard room rate, so it is wise to verify your booking details on Agoda or plan for local dining options. Additionally, because public transportation in this part of Seogwipo is limited, renting a car is highly recommended; the hotel provides ample parking for guests."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -9528,7 +9528,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and what are the dining options?",
-          "answer": "Breakfast is generally not included in the base room rate and requires an additional fee. Guests can enjoy a buffet at the hotel's panoramic restaurant, or choose to explore local cafes and restaurants in the nearby Jungmun area."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -9615,7 +9615,7 @@ export const multilingualHotels = {
           "heading": "快適に過ごすためのアドバイスと注意点",
           "paragraphs": [
             "チェックインは15:00からですが、週末や観光シーズンなどの混雑期には手続きに時間がかかることがあります。時間に余裕を持って到着することをおすすめします。また、5つ星ホテルですので荷物預かりサービスも利用可能ですが、詳細は事前に確認しておくとスムーズです。",
-            "朝食は基本の宿泊料金に含まれていないプランが多いため、予約時に朝食付きにするか、あるいは周辺のローカル食堂を利用するかを事前に決めておくと良いでしょう。また、公共交通機関での移動はやや制限されるため、広い駐車場を活かしてレンタカーを利用するのが最も便利です。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -9679,7 +9679,7 @@ export const multilingualHotels = {
       ],
       "cons": [
         "Located roughly an hour's drive from Jeju International Airport",
-        "Breakfast is not included in standard rates and incurs an additional fee",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "On-site amenities and pools can experience high traffic during peak holiday seasons"
       ],
       "recommendedFor": [
@@ -9734,7 +9734,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "Because the resort is located approximately an hour's drive from Jeju International Airport, renting a car is highly recommended for seamless travel. Navigating to and from the property, as well as exploring nearby dining options, is significantly easier with your own vehicle.",
-            "It is also worth noting that breakfast is not typically included in the standard room rate. Guests can purchase breakfast separately, with options served at 'Sumora' in the hotel wing or 'Idy' in the resort wing, both of which receive positive feedback for quality."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -9764,7 +9764,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included, and where is it served?",
-          "answer": "Breakfast is generally not included in the base room rate and requires an additional fee. Guests can enjoy the morning buffet at 'Sumora' in the hotel wing or 'Idy' in the resort wing, both of which are highly rated for their selection."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -9851,7 +9851,7 @@ export const multilingualHotels = {
           "heading": "事前に知っておきたい注意点とコツ",
           "paragraphs": [
             "済州国際空港からは車で約1時間ほどの距離にあります。公共交通機関での移動よりも、レンタカーを借りてアクセスする方が、周辺観光を含めて圧倒的にスムーズでおすすめです。",
-            "朝食は宿泊プランに含まれていない場合、追加料金が必要となります。ホテル棟の「Sumora（ソモラ）」やリゾート棟の「Idy（イディ）」で提供される朝食はクオリティが高いと評判ですが、予算やプラン内容を事前にご確認ください。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -9881,7 +9881,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食はどこで食べられますか？また、事前予約は必要ですか？",
-          "answer": "朝食はホテル棟の「Sumora」またはリゾート棟の「Idy」で提供されています。朝食付きプランでない場合は追加料金が発生しますので、詳細はチェックイン時にフロントで確認するか、事前に朝食付きプランでの予約をご検討ください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -9970,7 +9970,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "Because of the hotel's massive scale, the lobby and check-in areas can become quite busy during peak seasons and standard check-in hours. Guests may want to inquire about mobile check-in options or consider booking a club-level room to utilize the quieter lounge check-in.",
-            "It is worth noting that standard room rates often do not include breakfast, and dining on-site can be relatively expensive. Travelers on a budget might want to explore the casual dining options within the Dream Tower complex or the local restaurants in the surrounding neighborhood."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -10000,7 +10000,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the standard room rate?",
-          "answer": "Breakfast is typically not included in the base room rate and requires an additional charge. Guests can choose to book a breakfast-inclusive package on Agoda or pay for the Grand Kitchen buffet or Club Lounge access directly at the property."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -10031,7 +10031,7 @@ export const multilingualHotels = {
         "バラエティ豊かでクオリティが高いと評判の朝食ビュッフェ"
       ],
       "cons": [
-        "基本プランに朝食が含まれない場合があり、追加費用がかかる点",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "客室数が多いため、混雑期にはチェックイン等で待ち時間が発生しやすい点",
         "市街地に位置するため、大自然に囲まれたリゾート感は控えめな点"
       ],
@@ -10047,7 +10047,7 @@ export const multilingualHotels = {
       "checkPoints": [
         "チェックインは15:00、チェックアウトは11:00（アーリーチェックインの可否は要確認）",
         "空港・ホテル間の無料シャトルバスの運行状況や最新の時刻表",
-        "朝食が含まれていないプランの場合の「グランドキッチン」や「クラブランジ」の利用料金",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "プールやクラブラウンジなどの各施設の営業時間と利用条件"
       ],
       "intro": [
@@ -10087,7 +10087,7 @@ export const multilingualHotels = {
           "heading": "快適に過ごすためのヒントと注意点",
           "paragraphs": [
             "チェックインは15:00、チェックアウトは11:00となっていますが、客室数が多いため、週末や観光シーズンなどの混雑期にはフロントが混み合うことがあります。スムーズな手続きのために、オンラインでの事前チェックインや、クラブラウンジ対象プランの利用を検討するのもおすすめです。",
-            "朝食がプランに含まれていない場合は追加料金が発生するため、予約時にプラン内容をよく確認しておきましょう。また、ホテル内のレストランはやや高めの価格設定となっているため、ドリームタワー内のフードコートや、周辺のローカル食堂を上手に組み合わせることで、旅の予算を賢くコントロールできます。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -10116,7 +10116,7 @@ export const multilingualHotels = {
         },
         {
           "category": "Breakfast",
-          "question": "朝食ビュッフェの評価や、プランに含まれていない場合の利用について教えてください。",
+          "question": "朝食の営業と宿泊プランへの含有条件はどこで確認できますか？",
           "answer": "館内の「グランドキッチン」で提供される朝食ビュッフェは、メニューの豊富さと質の高さで多くの宿泊客から好評を得ています。朝食非対応のプランで予約した場合は、現地で追加料金を支払うことで利用可能ですが、事前に朝食付きプランで予約した方がお得な場合もあります。"
         },
         {
@@ -10205,7 +10205,7 @@ export const multilingualHotels = {
         {
           "heading": "Tips and considerations",
           "paragraphs": [
-            "Some guests note that breakfast is often not included in standard room rates, so it is wise to verify your booking terms on Agoda or directly with the hotel to avoid unexpected morning charges. The Aria buffet can also get quite busy during peak morning hours, so dining early is recommended.",
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
             "If you are renting a car to explore Jeju, keep in mind that parking spaces closest to the main entrance can fill up quickly during weekends and high-season holidays. Additionally, because the resort is split between the Main Building and the Hill Suite wing, confirming your room's location beforehand will help you plan your daily routes."
           ]
         },
@@ -10283,7 +10283,7 @@ export const multilingualHotels = {
       "checkPoints": [
         "チェックインは15:00、チェックアウトは11:00。事前の登録システムを利用するとスムーズです。",
         "チェックアウト後も荷物預かりサービスを利用でき、出発までホテルの付帯施設を堪能できます。",
-        "朝食は本館1階「アリア」で提供。キッズステーションもあり家族連れに人気ですが、プランに含まれない場合は追加料金が必要です。",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "本館とヒルスイート棟で利用できる施設や雰囲気が異なるため、予約時に客室タイプをよくご確認ください。"
       ],
       "intro": [
@@ -10322,7 +10322,7 @@ export const multilingualHotels = {
         {
           "heading": "事前に確認しておきたい注意点とコツ",
           "paragraphs": [
-            "快適な滞在のために、朝食の有無を予約時に確認しておくことをおすすめします。朝食ビュッフェは評価が高い一方で、宿泊プランに含まれていない場合は現地で追加料金が発生します。また、時間帯によっては混雑することもあるため、少し時間をずらして利用するなどの工夫が効果的です。",
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
             "駐車場は十分に確保されていますが、週末や観光シーズンなどの混雑期には、ホテル建物に近いエリアが満車になることがあります。また、本館とヒルスイート棟は建物が分かれているため、事前にご自身の予約客室がどちらの棟にあるかを確認し、館内マップで移動動線を把握しておくとスムーズです。"
           ]
         },
@@ -10353,7 +10353,7 @@ export const multilingualHotels = {
         {
           "category": "朝食ビュッフェ",
           "question": "朝食ビュッフェ「アリア」の特徴や利用時の注意点は何ですか？",
-          "answer": "本館1階の「アリア」では、キッズステーションを含む多彩なメニューが提供され、クチコミでも好評です。朝食が宿泊プランに含まれていない場合は追加料金が必要となります。また、時間帯によっては混雑する場合があるため、余裕を持った利用をおすすめします。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "客室・アメニティ",
@@ -10386,7 +10386,7 @@ export const multilingualHotels = {
         "Year-round indoor and outdoor heated swimming pools"
       ],
       "cons": [
-        "Daily breakfast is typically not included in the standard room rate",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Free airport shuttle service is limited to only two departures per day",
         "The sprawling layout of the resort can require significant walking between buildings"
       ],
@@ -10441,7 +10441,7 @@ export const multilingualHotels = {
         {
           "heading": "Tips and considerations",
           "paragraphs": [
-            "Guests planning their dining should be aware that breakfast is typically not included in the standard room rate. The buffet is hosted at the 'Cozy' restaurant in Building B, and while convenient, some reviews suggest checking current pricing and booking options on Agoda beforehand to see if breakfast-inclusive packages are available.",
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
             "Transportation is another key consideration. While the resort offers a complimentary shuttle service to and from Jeju International Airport, it only runs twice a day. Because of this limited schedule, renting a car is highly recommended for flexibility, and ample parking is available on-site for guests."
           ]
         },
@@ -10472,7 +10472,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and where is it served?",
-          "answer": "Breakfast is generally not included in the standard rate and must be purchased separately. It is served buffet-style at the 'Cozy' restaurant located in Building B; guests can check Agoda for room packages that may include breakfast."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -10558,7 +10558,7 @@ export const multilingualHotels = {
         {
           "heading": "滞在時の注意点とヒント",
           "paragraphs": [
-            "宿泊を検討するにあたり、朝食は基本的に宿泊プランに含まれていない場合が多いため注意が必要です。朝食ビュッフェはB棟の「コジー」で有料（大人4万ウォン台）にて提供されていますが、料金や最新の営業状況については事前にAgodaなどでプラン内容を確認することをおすすめします。",
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
             "また、済州国際空港からの無料シャトルバスは1日2便のみと運行本数が限られています。公共交通機関やシャトルバスを利用する場合は事前に時刻表をしっかり確認し、スケジュールが合わない場合はレンタカーの利用やタクシーの手配を検討するのが現実的です。"
           ]
         },
@@ -10589,7 +10589,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食の提供スタイルや料金について教えてください。",
-          "answer": "朝食はB棟にあるレストラン「コジー」にて、ビュッフェ形式で提供されています。基本の宿泊料金には含まれていないことが多いため、有料での追加となります（大人1名あたり4万ウォン台）。最新の料金やプラン内容は予約時にご確認ください。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -10637,7 +10637,7 @@ export const multilingualHotels = {
       ],
       "checkPoints": [
         "Standard check-in begins at 3:00 PM, and check-out is by 11:00 AM.",
-        "Breakfast is typically not included in the base room rate, so confirm your booking details on Agoda.",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Review pool regulations in advance, including operating hours and swim diaper requirements for the kids' pool.",
         "Consider utilizing the valet service if you have heavy luggage, as the main parking lot is slightly detached from the entrance."
       ],
@@ -10708,7 +10708,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and what is it like?",
-          "answer": "Breakfast is typically not included in the standard room rate and requires an additional fee, which can be confirmed during booking. The buffet is hosted at 'Confetti' and is highly praised for its extensive selection and beautiful ocean views, though early arrival is recommended to avoid peak-hour wait times."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -10741,7 +10741,7 @@ export const multilingualHotels = {
       "cons": [
         "朝食ビュッフェは人気が高いため、時間帯によっては混雑や待ち時間が発生することがある",
         "一部のスタンダード客室は、他の5つ星ホテルと比較するとやや手狭に感じられる場合がある",
-        "基本プランには朝食が含まれていないことが多く、追加料金が必要となる"
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
       ],
       "recommendedFor": [
         "美しいプールやオーシャンビューを楽しみながら贅沢なホカンスを満喫したいカップルや夫婦",
@@ -10754,7 +10754,7 @@ export const multilingualHotels = {
       ],
       "checkPoints": [
         "チェックインは15:00、チェックアウトは11:00となっており、前後の観光スケジュールを事前に計画しておくのがおすすめです。",
-        "朝食は基本料金に含まれていないプランが多いため、予約時に朝食付きプランを選択するか、現地での追加料金を確認してください。",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "インフィニティプールやキッズプールの営業時間、およびお子様の防水おむつ着用などの利用規定を事前に確認しておくとスムーズです。",
         "駐車場がホテルの入り口から少し離れた場所にあるため、荷物が多い場合はロビー前で先に荷物を降ろすか、バレーパーキングの利用を検討すると便利です。"
       ],
@@ -10873,7 +10873,7 @@ export const multilingualHotels = {
       ],
       "checkPoints": [
         "Standard check-in is at 3:00 PM and check-out is at 11:00 AM, but verify peak season adjustments directly with the hotel.",
-        "Breakfast is typically not included in the standard room rate; confirm pricing and reservation options for the La Seine buffet on Agoda.",
+        "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel.",
         "Inquire with the hotel or check Agoda regarding current luggage storage services and any available airport transfer options.",
         "Review the diverse room configurations, including ocean-view, garden-view, and traditional Korean Ondol (heated floor) rooms, to find the best fit."
       ],
@@ -10914,7 +10914,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "Standard check-in begins at 3:00 PM and check-out is at 11:00 AM, though these times may vary during peak summer seasons or special holiday periods. It is highly recommended to confirm these details, along with luggage storage options, on Agoda prior to your arrival.",
-            "Because breakfast is generally not included in the base room rate, booking a package that includes the La Seine buffet can often be more cost-effective. Additionally, while the resort offers spacious parking facilities, guests note that parking areas can become quite busy during peak vacation months."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -10944,7 +10944,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included, and what does the buffet offer?",
-          "answer": "Breakfast is usually not included in the standard room rate and requires an additional fee. The resort's highly rated 'La Seine' buffet features a wide range of fresh local and international dishes, including specialized options for infants."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -11031,7 +11031,7 @@ export const multilingualHotels = {
           "heading": "予約前に知っておきたい注意点と賢い利用法",
           "paragraphs": [
             "一般的なチェックインは15時、チェックアウトは11時となっていますが、シーズンや予約プランによって異なる場合があるため、事前に最新情報を確認することをお勧めします。また、空港からのアクセス手段やシャトルバスの有無、駐車場の混雑状況なども事前に把握しておくと安心です。",
-            "朝食は宿泊プランに含まれていないケースが多いため、人気のビュッフェを利用したい場合は、朝食付きプランでの予約や事前予約の有無をあらかじめ確認しておくと、現地での追加出費や混雑を避けることができます。"
+            "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
           ]
         },
         {
@@ -11061,7 +11061,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "朝食ビュッフェ「ラ・セーヌ」は予約が必要ですか？子供向けのメニューはありますか？",
-          "answer": "朝食は客室料金に含まれていないプランが多いため、利用をご希望の場合は朝食付きプランでの予約が便利です。ビュッフェでは新鮮な料理のほか、赤ちゃん用の離乳食サービスも提供されており、ファミリー層に好評です。"
+          "answer": "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。"
         },
         {
           "category": "Room and luggage",
@@ -11150,7 +11150,7 @@ export const multilingualHotels = {
           "heading": "Tips and considerations",
           "paragraphs": [
             "Public reviews commonly mention that standard rooms are somewhat compact. If you are traveling with multiple large suitcases, space might feel a bit tight, so you may want to consider upgrading to a larger room category. Additionally, because of the hotel's proximity to the airport, some guests note that occasional aircraft noise can be heard, though it rarely disrupts sleep.",
-            "It is also worth noting that breakfast is generally not included in the base room rate. If you wish to dine at the 22nd-floor restaurant, expect to pay an extra fee of around 30,000 KRW per adult. To ensure you get the best value, we recommend checking Agoda to see if breakfast-inclusive packages are available at the time of booking."
+            "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
           ]
         },
         {
@@ -11180,7 +11180,7 @@ export const multilingualHotels = {
         {
           "category": "Breakfast",
           "question": "Is breakfast included in the room rate, and where is it served?",
-          "answer": "Breakfast is typically not included in standard rates and requires an additional charge of approximately 30,000 KRW per adult. It is served at C`cafe, located on the 22nd floor, which offers scenic views of the city and ocean."
+          "answer": "Breakfast operation and rate-inclusion conditions can vary, so confirm the latest details on the booking page or with the hotel."
         },
         {
           "category": "Room and luggage",
@@ -11211,7 +11211,7 @@ export const multilingualHotels = {
         "4つ星ホテルならではの清潔な施設と安定したサービス品質"
       ],
       "cons": [
-        "朝食が別料金（プランに含まれていない場合、追加費用が必要）",
+        "朝食の営業状況と宿泊プランへの含有条件は、予約画面またはホテルへ最新情報をご確認ください。",
         "客室がややコンパクトで、大きな荷物が多いと狭く感じられる場合がある",
         "空港に近いため、一部の客室で飛行機の離発着音が気になることがある"
       ],
@@ -11315,4 +11315,4 @@ export const multilingualHotels = {
       "generatedAt": "2026-08-06T12:57:26.598Z"
     }
   }
-} as const;
+};

@@ -1,0 +1,2047 @@
+{
+  "scanned": 600,
+  "quarantined": [
+    {
+      "slug": "incheon-1032044",
+      "hotelName": "호텔 카카오",
+      "address": "서울특별시 영등포구 경인로108길 15 (((체크인 시간 17:00 (오후 5시) 입니다)))"
+    },
+    {
+      "slug": "incheon-10576683",
+      "hotelName": "대부도(영흥도) 영흥도관광펜션",
+      "address": "경기도 안산시 단원구 구봉길 168"
+    },
+    {
+      "slug": "incheon-1624158",
+      "hotelName": "코자자 모텔",
+      "address": "서울특별시 동작구 사당로30길 5"
+    },
+    {
+      "slug": "incheon-1636517",
+      "hotelName": "호텔 다이아몬드",
+      "address": "서울특별시 강북구 삼양로 500-18"
+    },
+    {
+      "slug": "incheon-2090114",
+      "hotelName": "나인 호텔",
+      "address": "서울특별시 종로구 인사동길 49"
+    },
+    {
+      "slug": "incheon-22990365",
+      "hotelName": "St. 179 호텔",
+      "address": "충청남도 천안시 서북구 차돌들길 11-14"
+    },
+    {
+      "slug": "incheon-23093128",
+      "hotelName": "굿타임 호텔",
+      "address": "서울특별시 서대문구 신촌로 145 굿타임호텔"
+    },
+    {
+      "slug": "incheon-2325348",
+      "hotelName": "허브 게스트하우스",
+      "address": "서울특별시 종로구 사직로8길 42"
+    },
+    {
+      "slug": "incheon-26058310",
+      "hotelName": "마리나 펜션",
+      "address": "경기도 안산시 단원구 참살이해안길 23"
+    },
+    {
+      "slug": "incheon-305614",
+      "hotelName": "에어포트 게스트하우스",
+      "address": "서울특별시 강서구 방화대로33길 22"
+    },
+    {
+      "slug": "incheon-35535580",
+      "hotelName": "달빛스테이",
+      "address": "서울특별시 종로구 혜화로 31 부원빌딩 2층"
+    },
+    {
+      "slug": "incheon-400646",
+      "hotelName": "프라임 게스트하우스",
+      "address": "서울특별시 강남구 테헤란로5길 25"
+    },
+    {
+      "slug": "incheon-529252",
+      "hotelName": "굿스테이 호텔아이",
+      "address": "강원특별자치도 동해시 한섬로 133-9"
+    },
+    {
+      "slug": "incheon-567942",
+      "hotelName": "센트럴 프라자 호텔",
+      "address": "경기도 수원시 팔달구 인계로108번길 39-21"
+    },
+    {
+      "slug": "incheon-626079",
+      "hotelName": "아마레 호텔",
+      "address": "서울특별시 종로구 수표로22길 7 아마레호텔"
+    },
+    {
+      "slug": "incheon-689954",
+      "hotelName": "H 호텔",
+      "address": "서울특별시 마포구 신촌로 152"
+    }
+  ],
+  "referenceLinksRemoved": 1136,
+  "hotelsWithReferenceLinksRemoved": 373,
+  "facilityClaimsNeutralized": {
+    "breakfast": 1679,
+    "wifi": 739,
+    "parking": 344
+  },
+  "thinPages": [],
+  "missingVerifiedHero": [
+    {
+      "slug": "incheon-10572909",
+      "hotelName": "강화도 썬하우스펜션",
+      "address": "인천광역시 강화군 내가면 해안서로 1024-2 썬하우스"
+    },
+    {
+      "slug": "incheon-10573043",
+      "hotelName": "인천(부평) 이상한스테이 부평점",
+      "address": "인천광역시 부평구 경원대로1367번길 10-7"
+    },
+    {
+      "slug": "incheon-10573094",
+      "hotelName": "강화도 힐링11번가펜션",
+      "address": "인천광역시 강화군 화도면 해안남로2449번길 11 힐링11번가펜션"
+    },
+    {
+      "slug": "incheon-10573131",
+      "hotelName": "을왕리 바이드302펜션",
+      "address": "인천광역시 영종구 용유서로302번길 11"
+    },
+    {
+      "slug": "incheon-10573242",
+      "hotelName": "인천(간석동) 노블레스",
+      "address": "인천광역시 남동구 경인로644번길 113"
+    },
+    {
+      "slug": "incheon-10573271",
+      "hotelName": "강화도 테라스펜션",
+      "address": "인천광역시 강화군 양도면 건평로155번길 115 강화테라스"
+    },
+    {
+      "slug": "incheon-10573291",
+      "hotelName": "인천(구월동) TWOSOME(2S)",
+      "address": "40, Yesul-ro 204beon-gil, Namdong-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10573320",
+      "hotelName": "강화도 마니올펜션",
+      "address": "인천광역시 강화군 내가면 해안서로 1178-17 마니올펜션"
+    },
+    {
+      "slug": "incheon-10573322",
+      "hotelName": "강화도 노을이머무는곳펜션",
+      "address": "인천광역시 강화군 내가면 해안서로 1178-7"
+    },
+    {
+      "slug": "incheon-10573465",
+      "hotelName": "강화도 더노을펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1221-10 더노을펜션"
+    },
+    {
+      "slug": "incheon-10573613",
+      "hotelName": "인천(동암) 린",
+      "address": "13, Dongam-Gwangjang-ro 12beon-gil, Bupyeong-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10573719",
+      "hotelName": "강화도 놀토독채펜션",
+      "address": "인천광역시 강화군 강화읍 국화길 133 놀토펜션,도자기체험"
+    },
+    {
+      "slug": "incheon-10573753",
+      "hotelName": "강화도 마음속에그린집펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1346-5 마음속에그린집"
+    },
+    {
+      "slug": "incheon-10573754",
+      "hotelName": "강화도 요정들의선물펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1348"
+    },
+    {
+      "slug": "incheon-10573800",
+      "hotelName": "대부도(선재도) 갤러리스파펜션",
+      "address": "38-47, Seonjae-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10573810",
+      "hotelName": "대부도(영흥도) 힐하우스펜션",
+      "address": "인천광역시 옹진군 영흥면 영흥로 612-3"
+    },
+    {
+      "slug": "incheon-10574023",
+      "hotelName": "강화도 밀물때횟집민박",
+      "address": "1472, Haeannam-ro, Hwado-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10574058",
+      "hotelName": "강화도 파도민박",
+      "address": "인천광역시 강화군 화도면 해안남로 1486-1"
+    },
+    {
+      "slug": "incheon-10574064",
+      "hotelName": "강화도 솔밭펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1486"
+    },
+    {
+      "slug": "incheon-10574114",
+      "hotelName": "인천(연수) 세븐 무인호텔",
+      "address": "인천광역시 연수구 먼우금로222번길 14"
+    },
+    {
+      "slug": "incheon-10574515",
+      "hotelName": "대부도(영흥도) 바다뜰펜션",
+      "address": "인천광역시 옹진군 영흥면 영흥서로 513 바다뜰펜션"
+    },
+    {
+      "slug": "incheon-10574526",
+      "hotelName": "대부도(선재도) 오션빌펜션",
+      "address": "인천광역시 옹진군 영흥면 선재로34번길 179"
+    },
+    {
+      "slug": "incheon-10574528",
+      "hotelName": "인천(간석동) 버스",
+      "address": "인천광역시 남동구 석촌로46번길 50"
+    },
+    {
+      "slug": "incheon-10574552",
+      "hotelName": "인천(신포) 위드",
+      "address": "인천광역시 제물포구 인중로174번길 17"
+    },
+    {
+      "slug": "incheon-10574608",
+      "hotelName": "을왕리 별자리펜션",
+      "address": "인천광역시 영종구 선녀바위로55번길 18 별자리펜션"
+    },
+    {
+      "slug": "incheon-10574668",
+      "hotelName": "강화도 어나더153애견펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1669-12 1669-12"
+    },
+    {
+      "slug": "incheon-10574724",
+      "hotelName": "대부도(영흥도) 세라핌펜션",
+      "address": "139-11, Yeongheungseo-ro 16beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10574830",
+      "hotelName": "을왕리 바다풍경펜션",
+      "address": "인천광역시 영종구 선녀바위로55번길 2 을왕리 바다풍경펜션"
+    },
+    {
+      "slug": "incheon-10574839",
+      "hotelName": "인천(월미도) 그랜드 스위트 호텔",
+      "address": "인천광역시 제물포구 월미로248번길 2"
+    },
+    {
+      "slug": "incheon-10575070",
+      "hotelName": "강화도 지중해펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2747-1"
+    },
+    {
+      "slug": "incheon-10575151",
+      "hotelName": "인천(연수) 초콜릿",
+      "address": "21, Yongdam-ro 117beon-gil, Yeonsu-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10575305",
+      "hotelName": "강화도 펜션썸",
+      "address": "인천광역시 강화군 화도면 해안남로 2131 펜션썸"
+    },
+    {
+      "slug": "incheon-10575338",
+      "hotelName": "강화도 메종스텔라펜션",
+      "address": "인천광역시 강화군 길상면 마니산로217번길 21-10"
+    },
+    {
+      "slug": "incheon-10575379",
+      "hotelName": "인천(소래포구) 루루",
+      "address": "인천광역시 남동구 소래역로30번길 22"
+    },
+    {
+      "slug": "incheon-10575404",
+      "hotelName": "강화도 골드뷰펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2280"
+    },
+    {
+      "slug": "incheon-10575709",
+      "hotelName": "강화도 자연청람펜션",
+      "address": "인천광역시 강화군 화도면 동녘말길 238-7 자연청람펜션"
+    },
+    {
+      "slug": "incheon-10575753",
+      "hotelName": "대부도(영흥도) 골드펜션",
+      "address": "250-4, Yeongheungnam-ro 9beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10575812",
+      "hotelName": "강화도 도우제펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2559-16"
+    },
+    {
+      "slug": "incheon-10575813",
+      "hotelName": "강화도 플로망스풀빌라",
+      "address": "인천광역시 강화군 화도면 해안남로 2487-17 플로망스풀빌라"
+    },
+    {
+      "slug": "incheon-10575821",
+      "hotelName": "대부도(영흥도) 오블리크198풀빌라펜션",
+      "address": "인천광역시 옹진군 영흥면 영흥로251번길 25-56 오블리크198"
+    },
+    {
+      "slug": "incheon-10575998",
+      "hotelName": "을왕리 왕산예림펜션",
+      "address": "인천광역시 영종구 용유서로479번길 27-1 인천광역시 중구용유서로479번길27-1"
+    },
+    {
+      "slug": "incheon-10576003",
+      "hotelName": "대부도(선재도) 마작펜션",
+      "address": "인천광역시 옹진군 영흥면 선재로306번길 27-129"
+    },
+    {
+      "slug": "incheon-10576023",
+      "hotelName": "영흥도 측도 펜션3",
+      "address": "인천광역시 옹진군 영흥면 영흥북로 258"
+    },
+    {
+      "slug": "incheon-10576076",
+      "hotelName": "강화도 동막골바다펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1476-16"
+    },
+    {
+      "slug": "incheon-10576197",
+      "hotelName": "인천(석남동) 갤러리",
+      "address": "인천광역시 서해구 옻우물로 29"
+    },
+    {
+      "slug": "incheon-10576498",
+      "hotelName": "인천(선재도) 마리나",
+      "address": "311, Seonjae-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10576548",
+      "hotelName": "대부도(선재도) 바닷가펜션",
+      "address": "인천광역시 옹진군 영흥면 선재로306번길 31-101"
+    },
+    {
+      "slug": "incheon-10576671",
+      "hotelName": "인천(동암) 리치",
+      "address": "33, Dongam-Gwangjang-ro 8beon-gil, Bupyeong-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10576682",
+      "hotelName": "대부도(영흥도) 썬펜션",
+      "address": "33-13, Yeongheung-ro 156beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10576886",
+      "hotelName": "을왕리 오션스카이펜션",
+      "address": "인천광역시 영종구 선녀바위로 35"
+    },
+    {
+      "slug": "incheon-10576983",
+      "hotelName": "강화도 아라뜰펜션데이지",
+      "address": "인천광역시 강화군 양도면 강화남로1002번길 36-30"
+    },
+    {
+      "slug": "incheon-10576987",
+      "hotelName": "강화도 아라뜰펜션1호",
+      "address": "인천광역시 강화군 양도면 강화남로1002번길 36-30"
+    },
+    {
+      "slug": "incheon-10577118",
+      "hotelName": "대부도(영흥도) 꼼마펜션",
+      "address": "380, Yeongheungnam-ro 9beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10577290",
+      "hotelName": "강화도 해오름빛펜션",
+      "address": "인천광역시 강화군 화도면 해안남로1184번길 1"
+    },
+    {
+      "slug": "incheon-10577506",
+      "hotelName": "강화도 꽃향기바다내음펜션",
+      "address": "인천광역시 강화군 화도면 해안남로1691번길 43-29"
+    },
+    {
+      "slug": "incheon-10577589",
+      "hotelName": "강화도 농부의아침펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1874"
+    },
+    {
+      "slug": "incheon-10577619",
+      "hotelName": "강화도 쑥쑥펜션",
+      "address": "인천광역시 강화군 송해면 장정양오길 451-10"
+    },
+    {
+      "slug": "incheon-10577641",
+      "hotelName": "강화도 은빛비치는들펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1237-10"
+    },
+    {
+      "slug": "incheon-10577755",
+      "hotelName": "인천(검단) 브리즈호텔",
+      "address": "인천광역시 검단구 완정로117번길 47 호텔 브리즈"
+    },
+    {
+      "slug": "incheon-10577786",
+      "hotelName": "강화도 예뜰펜션",
+      "address": "인천광역시 강화군 내가면 황청포구로 471-1"
+    },
+    {
+      "slug": "incheon-10577787",
+      "hotelName": "대부도(영흥도) 꿈의궁전펜션",
+      "address": "475-11, Yeongheungseo-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10577815",
+      "hotelName": "강화도 숲속의아침펜션",
+      "address": "48, Manisan-ro 613beon-gil, Hwado-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10577850",
+      "hotelName": "강화도 동그라미펜션(월풀스파)",
+      "address": "2421-177, Haeannam-ro, Hwado-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10577873",
+      "hotelName": "대부도(선재도) 종이학펜션",
+      "address": "인천광역시 옹진군 영흥면 선재로186번길 78"
+    },
+    {
+      "slug": "incheon-10578121",
+      "hotelName": "인천(송도) ING",
+      "address": "51, Neungheodae-ro 104beon-gil, Yeonsu-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10578245",
+      "hotelName": "영종도 블루오션펜션",
+      "address": "인천광역시 영종구 영종진광장로 52 3층"
+    },
+    {
+      "slug": "incheon-10578248",
+      "hotelName": "대부도(영흥도) 모닥불독채펜션",
+      "address": "54, Seonjae-ro 265beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10578437",
+      "hotelName": "대부도(선재도) 드무리마레블루펜션",
+      "address": "27-109, Seonjae-ro 306beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10578571",
+      "hotelName": "인천(소래포구) 호텔 더 그레이",
+      "address": "인천광역시 남동구 장도로 64 6층"
+    },
+    {
+      "slug": "incheon-10578810",
+      "hotelName": "강화도 은가비펜션",
+      "address": "인천광역시 강화군 양도면 해안서로 590-13"
+    },
+    {
+      "slug": "incheon-10578880",
+      "hotelName": "강화도 파인트리펜션",
+      "address": "인천광역시 강화군 화도면 해안남로2246번길 21"
+    },
+    {
+      "slug": "incheon-10578916",
+      "hotelName": "대부도(영흥도) 페어리랜드펜션",
+      "address": "63-107, Yeongheung-ro 525beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10579179",
+      "hotelName": "강화도 로맨틱큐브펜션",
+      "address": "인천광역시 강화군 길상면 해안남로 664-11 로맨틱큐브"
+    },
+    {
+      "slug": "incheon-10579387",
+      "hotelName": "강화도 바닷가에산장펜션",
+      "address": "1020, Haeanseo-ro, Naega-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10579546",
+      "hotelName": "강화도 베가펜션",
+      "address": "인천광역시 강화군 내가면 고비고개로 884 베가펜션"
+    },
+    {
+      "slug": "incheon-10579598",
+      "hotelName": "대부도(영흥도) 미스터와이",
+      "address": "인천광역시 옹진군 영흥면 영흥남로9번길 221-73 미스터와이 풀빌라"
+    },
+    {
+      "slug": "incheon-10579651",
+      "hotelName": "석모도 스텔라펜션",
+      "address": "인천광역시 강화군 삼산면 삼산남로 762-15 스텔라펜션"
+    },
+    {
+      "slug": "incheon-10579805",
+      "hotelName": "영종도 씨사이드카라반캠핑장",
+      "address": "인천광역시 영종구 영종해안남로 1403 영종씨사이드카라반"
+    },
+    {
+      "slug": "incheon-10579864",
+      "hotelName": "강화도 해와달펜션",
+      "address": "인천광역시 강화군 화도면 해안남로1998번길 8-29"
+    },
+    {
+      "slug": "incheon-10579896",
+      "hotelName": "인천(구월동) 느낌호텔",
+      "address": "인천광역시 남동구 선수촌공원로23번길 10-11"
+    },
+    {
+      "slug": "incheon-10579997",
+      "hotelName": "옹진(신도) 은혜펜션",
+      "address": "842, Sindo-ro, Bukdo-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10580040",
+      "hotelName": "석모도 박정아펜션",
+      "address": "인천광역시 강화군 삼산면 어류정길212번길 86-6"
+    },
+    {
+      "slug": "incheon-10580049",
+      "hotelName": "강화도 레이첼펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2266-14"
+    },
+    {
+      "slug": "incheon-10580272",
+      "hotelName": "강화도 바오밥펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2297-12"
+    },
+    {
+      "slug": "incheon-10580318",
+      "hotelName": "강화도 웨스트포인트펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2293"
+    },
+    {
+      "slug": "incheon-10580362",
+      "hotelName": "강화도 루치아펜션",
+      "address": "인천광역시 강화군 화도면 동녘말길 184"
+    },
+    {
+      "slug": "incheon-10580414",
+      "hotelName": "인천(선재도) 라메르",
+      "address": "95, Seonjae-ro 186beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10580526",
+      "hotelName": "인천(동암) 료칸 호텔 고추잠자리",
+      "address": "12, Dongamgwangjang-ro 4beon-gil, Bupyeong-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10580592",
+      "hotelName": "인천(강화도) 자유공간",
+      "address": "169, Jungang-ro, Seonwon-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10580610",
+      "hotelName": "인천(부평) CF",
+      "address": "인천광역시 부평구 광장로4번길 58"
+    },
+    {
+      "slug": "incheon-10580674",
+      "hotelName": "인천(간석동) 어썸",
+      "address": "인천광역시 남동구 석촌로46번길 31 어썸호텔"
+    },
+    {
+      "slug": "incheon-10580763",
+      "hotelName": "인천(을왕리) 델로스",
+      "address": "인천광역시 영종구 용유서로 365"
+    },
+    {
+      "slug": "incheon-10580815",
+      "hotelName": "인천(연안부두) 시드니",
+      "address": "10, Yeonanbudu-ro 43beon-gil, Jung-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10581012",
+      "hotelName": "인천(동인천) ING",
+      "address": "인천광역시 제물포구 개항로 53-9 ing모텔"
+    },
+    {
+      "slug": "incheon-10581013",
+      "hotelName": "인천(영흥도) 피렌체",
+      "address": "인천광역시 옹진군 영흥면 영흥남로9번길 102-23"
+    },
+    {
+      "slug": "incheon-10581091",
+      "hotelName": "인천(석남동) TWOSOME(2S)",
+      "address": "2, Otumul-ro 14beon-gil, Seo-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10581097",
+      "hotelName": "인천(소래포구) 스테이25",
+      "address": "인천광역시 남동구 앵고개로948번길 54"
+    },
+    {
+      "slug": "incheon-10581171",
+      "hotelName": "인천(검단) 데이앤나잇(DAY&NIGHT)",
+      "address": "인천광역시 검단구 완정로117번길 39"
+    },
+    {
+      "slug": "incheon-10581347",
+      "hotelName": "인천(송도) AI호텔",
+      "address": "인천광역시 연수구 대암로8번길 8"
+    },
+    {
+      "slug": "incheon-10581406",
+      "hotelName": "인천(송도) 바다가 보이는 집",
+      "address": "인천광역시 연수구 능허대로104번길 69"
+    },
+    {
+      "slug": "incheon-10581474",
+      "hotelName": "인천(용현동) S",
+      "address": "인천광역시 미추홀구 아암대로 73"
+    },
+    {
+      "slug": "incheon-10581569",
+      "hotelName": "인천(동암) 호텔민트",
+      "address": "인천광역시 부평구 동암광장로4번길 7"
+    },
+    {
+      "slug": "incheon-10582237",
+      "hotelName": "강화도 헬기하우스펜션",
+      "address": "인천광역시 강화군 송해면 전망대로423번길 208-2"
+    },
+    {
+      "slug": "incheon-10582286",
+      "hotelName": "대부도(영흥도) 이몽기가펜션",
+      "address": "120, Yeongheung-ro 757beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10582477",
+      "hotelName": "강화도 글로리아펜션",
+      "address": "인천광역시 강화군 내가면 고비고개로771번길 33-9"
+    },
+    {
+      "slug": "incheon-10582496",
+      "hotelName": "을왕리 큐하우스펜션",
+      "address": "인천광역시 영종구 용유서로302번길 36"
+    },
+    {
+      "slug": "incheon-10582567",
+      "hotelName": "강화도 하늘아래펜션(루지에서 7분거리)",
+      "address": "441, Haeannam-ro, Gilsang-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10582707",
+      "hotelName": "인천(동암) 두루와",
+      "address": "인천광역시 부평구 열우물로38번길 7"
+    },
+    {
+      "slug": "incheon-10582859",
+      "hotelName": "인천(주안) 홀인원",
+      "address": "인천광역시 미추홀구 석바위로114번길 16"
+    },
+    {
+      "slug": "incheon-10582864",
+      "hotelName": "인천(주안) 호텔마음",
+      "address": "인천광역시 미추홀구 주안중로50번길 13-14"
+    },
+    {
+      "slug": "incheon-10582871",
+      "hotelName": "인천(송도) 프렌즈",
+      "address": "31, Daeam-ro, Yeonsu-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10582880",
+      "hotelName": "인천(석남동) ACE",
+      "address": "인천광역시 서해구 옻우물로 13 에이스 모텔"
+    },
+    {
+      "slug": "incheon-10582903",
+      "hotelName": "인천(송도) 리치",
+      "address": "124, Neungheodae-ro, Yeonsu-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10583176",
+      "hotelName": "을왕리 비치펜션",
+      "address": "인천광역시 영종구 선녀바위로55번길 10-15"
+    },
+    {
+      "slug": "incheon-10583300",
+      "hotelName": "대부도(선재도) 옐로우스파펜션",
+      "address": "인천광역시 옹진군 영흥면 선재로306번길 27-111"
+    },
+    {
+      "slug": "incheon-10583557",
+      "hotelName": "석모도 해비치펜션",
+      "address": "인천광역시 강화군 삼산면 삼산남로 752-7 인천광역시 강화군 삼산면 매음리627-127"
+    },
+    {
+      "slug": "incheon-10583558",
+      "hotelName": "석모도(섬) 언덕위에하얀집펜션",
+      "address": "760, Samsannam-ro, Samsan-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10583644",
+      "hotelName": "인천(부평) 시에스타 호텔",
+      "address": "인천광역시 부평구 원길로 7-9"
+    },
+    {
+      "slug": "incheon-10583672",
+      "hotelName": "강화도 샤르망펜션",
+      "address": "인천광역시 강화군 양도면 강화남로769번길 85"
+    },
+    {
+      "slug": "incheon-10583710",
+      "hotelName": "강화도 더스테이하우스펜션",
+      "address": "인천광역시 강화군 내가면 고비고개로743번길 94-9"
+    },
+    {
+      "slug": "incheon-10583730",
+      "hotelName": "인천(부평) 버니1",
+      "address": "17-6, Gyeongwon-daero 1417beon-gil, Bupyeong-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10583765",
+      "hotelName": "인천(연안부두) 애플",
+      "address": "10, Yeonanbudu-ro 11beon-gil, Jung-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10583817",
+      "hotelName": "강화도 해비치펜션",
+      "address": "인천광역시 강화군 화도면 해안남로2246번길 8"
+    },
+    {
+      "slug": "incheon-10583859",
+      "hotelName": "강화도 휴엘펜션",
+      "address": "인천광역시 강화군 선원면 선원사지로 113"
+    },
+    {
+      "slug": "incheon-10583888",
+      "hotelName": "을왕리 푸른솔 펜션",
+      "address": "인천광역시 영종구 왕산로57번길 12-7"
+    },
+    {
+      "slug": "incheon-10584059",
+      "hotelName": "강화도 바다소리펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2727"
+    },
+    {
+      "slug": "incheon-10584072",
+      "hotelName": "강화도 강화펜션밴드",
+      "address": "인천광역시 강화군 양도면 중앙로814번길 27"
+    },
+    {
+      "slug": "incheon-10584261",
+      "hotelName": "강화도 콘체르트애견동반펜션",
+      "address": "2166-53, Haeannam-ro, Hwado-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10584449",
+      "hotelName": "을왕리 온앤온펜션",
+      "address": "인천광역시 영종구 용유서로302번길 22 온앤온펜션"
+    },
+    {
+      "slug": "incheon-10584543",
+      "hotelName": "인천(용현동) 호텔 나무",
+      "address": "인천광역시 미추홀구 낙섬서로49번길 30-4"
+    },
+    {
+      "slug": "incheon-10584587",
+      "hotelName": "강화도 마리하우스펜션",
+      "address": "인천광역시 강화군 화도면 마니산로584번길 90"
+    },
+    {
+      "slug": "incheon-10584606",
+      "hotelName": "인천(을왕리) 홀리랜드",
+      "address": "인천광역시 영종구 을왕로58번길 9-9 B동"
+    },
+    {
+      "slug": "incheon-10584725",
+      "hotelName": "인천(선재도) 더 끌림",
+      "address": "24, Seonjae-ro 186beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10584799",
+      "hotelName": "인천(부평) 자바",
+      "address": "인천광역시 부평구 대정로82번길 22 호텔자바"
+    },
+    {
+      "slug": "incheon-10584903",
+      "hotelName": "대부도(선재도) 판타지펜션",
+      "address": "38-42, Seonjae-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10584926",
+      "hotelName": "강화도 수에뇨펜션",
+      "address": "인천광역시 강화군 화도면 해안남로2246번길 15 수에뇨 펜션"
+    },
+    {
+      "slug": "incheon-10584965",
+      "hotelName": "대부도(영흥도) 에버그린펜션",
+      "address": "139-20, Yeongheungseo-ro 16beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10585025",
+      "hotelName": "강화도 아뜰리에펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2740-1"
+    },
+    {
+      "slug": "incheon-10585142",
+      "hotelName": "인천(부평) 쁠랑",
+      "address": "인천광역시 부평구 대정로90번길 30"
+    },
+    {
+      "slug": "incheon-10585167",
+      "hotelName": "인천(경인교대) 멜로디",
+      "address": "32, Gyesancheonseo-ro, Gyeyang-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10585224",
+      "hotelName": "대부도(선재도) 그린시아펜션",
+      "address": "38-35, Seonjae-ro Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10585423",
+      "hotelName": "을왕리 제이든29펜션",
+      "address": "인천광역시 영종구 용유서로302번길 18 제이든29 펜션"
+    },
+    {
+      "slug": "incheon-10585489",
+      "hotelName": "강화도 나눔펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2297-21 나눔펜션"
+    },
+    {
+      "slug": "incheon-10585548",
+      "hotelName": "인천(연안부두) 포유",
+      "address": "13, Yeonanbudu-ro 43beon-gil, Jung-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10585588",
+      "hotelName": "인천(석남동) 루미 호텔",
+      "address": "인천광역시 서해구 길주로63번길 3 석남역 6번출구 - 도보 5분 루미호텔"
+    },
+    {
+      "slug": "incheon-10585834",
+      "hotelName": "인천(강화도) N모텔",
+      "address": "13-21, Haeannam-ro, Gilsang-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10585837",
+      "hotelName": "대부도(영흥도) 그랑블루펜션",
+      "address": "인천광역시 옹진군 영흥면 영흥서로 465-4"
+    },
+    {
+      "slug": "incheon-10585944",
+      "hotelName": "강화도 그랑블루펜션",
+      "address": "인천광역시 강화군 길상면 해안남로 521"
+    },
+    {
+      "slug": "incheon-10586314",
+      "hotelName": "대부도(선재도) 풍경펜션",
+      "address": "인천광역시 옹진군 영흥면 선재로306번길 31-113"
+    },
+    {
+      "slug": "incheon-10586364",
+      "hotelName": "강화도 예플로펜션",
+      "address": "인천광역시 강화군 길상면 해란길 177-25 예플로"
+    },
+    {
+      "slug": "incheon-10586550",
+      "hotelName": "대부도(영흥도) 아름다운펜션",
+      "address": "인천광역시 옹진군 영흥면 영흥서로 465-2 아름다운펜션"
+    },
+    {
+      "slug": "incheon-10586605",
+      "hotelName": "인천(부평) 애플그린",
+      "address": "인천광역시 부평구 경원대로1367번길 26"
+    },
+    {
+      "slug": "incheon-10586720",
+      "hotelName": "대부도(영흥도) 안스갤러리펜션",
+      "address": "321-41, Yeongheungbuk-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10586872",
+      "hotelName": "강화도 로맨틱큐브펜션",
+      "address": "인천광역시 강화군 길상면 해안남로 664-11 로맨틱큐브"
+    },
+    {
+      "slug": "incheon-10586910",
+      "hotelName": "강화도 천사의아침펜션",
+      "address": "인천광역시 강화군 화도면 해안남로1502번길 21-29"
+    },
+    {
+      "slug": "incheon-10586916",
+      "hotelName": "강화도 늘푸른호숫가펜션",
+      "address": "인천광역시 강화군 양도면 정문길 44-45"
+    },
+    {
+      "slug": "incheon-10586919",
+      "hotelName": "대부도(영흥도) 전망좋은통나무집펜션",
+      "address": "702, Yeongheung-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10586925",
+      "hotelName": "옹진(장봉도) 휴앤뷰펜션",
+      "address": "인천광역시 옹진군 북도면 장봉로605번길 71-19 휴앤뷰펜션"
+    },
+    {
+      "slug": "incheon-10587075",
+      "hotelName": "강화도 마니산밸리펜션",
+      "address": "인천광역시 강화군 화도면 마니산로613번길 52-18"
+    },
+    {
+      "slug": "incheon-10587089",
+      "hotelName": "대부도(선재도) 블루라떼풀빌라펜션",
+      "address": "54, Seonjae-ro 317beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10587091",
+      "hotelName": "인천(월미도) 세피앙",
+      "address": "인천광역시 제물포구 월미로 241 인천광역시 중구 월미로241"
+    },
+    {
+      "slug": "incheon-10587097",
+      "hotelName": "인천(부평) 동경",
+      "address": "인천광역시 부평구 부평문화로116번길 18"
+    },
+    {
+      "slug": "incheon-10587209",
+      "hotelName": "인천(주안) 토마토호텔",
+      "address": "인천광역시 미추홀구 주안서로54번길 8"
+    },
+    {
+      "slug": "incheon-10587249",
+      "hotelName": "대부도(영흥도) 바다지기펜션",
+      "address": "698, Yeongheung-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10587299",
+      "hotelName": "을왕리 대명펜션",
+      "address": "인천광역시 영종구 용유서로302번길 14-2 을왕비취타운2동"
+    },
+    {
+      "slug": "incheon-10587307",
+      "hotelName": "을왕리 엔소이펜션",
+      "address": "인천광역시 영종구 용유서로274번길 30-1 엔소이펜션"
+    },
+    {
+      "slug": "incheon-10587678",
+      "hotelName": "인천 부평(청천동) 샘",
+      "address": "인천광역시 부평구 마장로468번길 6"
+    },
+    {
+      "slug": "incheon-10587770",
+      "hotelName": "강화도 갈매기의꿈펜션",
+      "address": "인천광역시 강화군 길상면 해안남로 527 갈매기의꿈펜션"
+    },
+    {
+      "slug": "incheon-10588066",
+      "hotelName": "인천 장락재 한옥스테이",
+      "address": "16-4, Manisan-ro 606beon-gil, Hwado-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10588287",
+      "hotelName": "인천(강화) 엠스(MS)",
+      "address": "인천광역시 강화군 불은면 덕진로 308"
+    },
+    {
+      "slug": "incheon-10588363",
+      "hotelName": "인천 위너스 호텔",
+      "address": "인천광역시 영종구 왕산로 40"
+    },
+    {
+      "slug": "incheon-10588547",
+      "hotelName": "인천(선재도) 마이하트 무인텔",
+      "address": "76, Seonjae-ro 226beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10588853",
+      "hotelName": "인천(부평) 세븐",
+      "address": "인천광역시 부평구 대정로82번길 18 호텔 라운지세븐"
+    },
+    {
+      "slug": "incheon-10588987",
+      "hotelName": "강화도 나무와나무펜션",
+      "address": "인천광역시 강화군 강화읍 연미정길36번길 28 나무와나무펜션"
+    },
+    {
+      "slug": "incheon-10588991",
+      "hotelName": "강화도 소고펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2850-1"
+    },
+    {
+      "slug": "incheon-10589038",
+      "hotelName": "대부도(영흥도) W에덴펜션",
+      "address": "인천광역시 옹진군 영흥면 영흥북로 352-32"
+    },
+    {
+      "slug": "incheon-10589176",
+      "hotelName": "대부도(선재도) 선재465펜션",
+      "address": "인천광역시 옹진군 영흥면 선재로170번길 56-29"
+    },
+    {
+      "slug": "incheon-10589208",
+      "hotelName": "강화도 늘푸른펜션",
+      "address": "인천광역시 강화군 화도면 해안남로2220번길 24"
+    },
+    {
+      "slug": "incheon-10589215",
+      "hotelName": "대부도(영흥도) 솔마루민박펜션",
+      "address": "658-44, Yeongheung-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10589253",
+      "hotelName": "석모도(섬) 바닷가하얀집펜션",
+      "address": "7-11, Eoryujeong-gil 212beon-gil, Samsan-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10589415",
+      "hotelName": "인천(송도) 소풍",
+      "address": "7, Ingwon-ro, Yeonsu-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10589588",
+      "hotelName": "강화도 노을바다 펜션",
+      "address": "인천광역시 강화군 내가면 해안서로 1178-20"
+    },
+    {
+      "slug": "incheon-10589609",
+      "hotelName": "강화도 이삭펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1288-36"
+    },
+    {
+      "slug": "incheon-10589628",
+      "hotelName": "대부도(선재도) 향기나는펜션(목섬앞)",
+      "address": "38-28, Seonjae-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10589748",
+      "hotelName": "강화도 물빛인쇄소펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1708"
+    },
+    {
+      "slug": "incheon-10589806",
+      "hotelName": "인천(서구) 아티초크",
+      "address": "13-10, Tagok-ro 51beon-gil, Seo-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10589826",
+      "hotelName": "대부도(영흥도) 풍차펜션민박",
+      "address": "인천광역시 옹진군 영흥면 영흥서로16번길 139-18"
+    },
+    {
+      "slug": "incheon-10589838",
+      "hotelName": "강화도 바닷가스파펜션",
+      "address": "인천광역시 강화군 양도면 해안서로 661"
+    },
+    {
+      "slug": "incheon-10589916",
+      "hotelName": "대부도(영흥도) 화가의마을펜션",
+      "address": "인천광역시 옹진군 영흥면 영흥로757번길 171"
+    },
+    {
+      "slug": "incheon-10589982",
+      "hotelName": "인천(석남동) 요기",
+      "address": "인천광역시 서해구 옻우물로 26"
+    },
+    {
+      "slug": "incheon-10590057",
+      "hotelName": "강화도 데일리펜션",
+      "address": "인천광역시 강화군 화도면 해안남로1691번길 43-6"
+    },
+    {
+      "slug": "incheon-10590142",
+      "hotelName": "인천(월미도) 호텔월미여관",
+      "address": "인천광역시 제물포구 월미로 247-21"
+    },
+    {
+      "slug": "incheon-10590239",
+      "hotelName": "을왕리 리움펜션",
+      "address": "인천광역시 영종구 용유서로450번길 35 1층,2층"
+    },
+    {
+      "slug": "incheon-10590301",
+      "hotelName": "강화도 초록별펜션",
+      "address": "인천광역시 강화군 화도면 해안남로1691번길 43-5 초록별펜션"
+    },
+    {
+      "slug": "incheon-10590311",
+      "hotelName": "강화도 노을칸타타펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2166-49"
+    },
+    {
+      "slug": "incheon-10590377",
+      "hotelName": "인천(부평) 르블랑 호텔",
+      "address": "인천광역시 부평구 경원대로1377번길 9-2 르블랑호텔"
+    },
+    {
+      "slug": "incheon-10590536",
+      "hotelName": "인천(경인교대) 호텔여행",
+      "address": "인천광역시 계양구 계산천동로23번길 3 ON HOTEL"
+    },
+    {
+      "slug": "incheon-10590555",
+      "hotelName": "인천(부평) 호텔 휴",
+      "address": "인천광역시 부평구 시장로20번길 20"
+    },
+    {
+      "slug": "incheon-10590650",
+      "hotelName": "인천(석남동) 리츠",
+      "address": "인천광역시 서해구 칠천왕로7번길 19"
+    },
+    {
+      "slug": "incheon-10590747",
+      "hotelName": "인천(경인교대) ILLUA 일루아 호텔",
+      "address": "3-1, Gyesan-dong-ro 23beon-gil, Gyeyang-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10590996",
+      "hotelName": "인천(주안) Luxury 짝",
+      "address": "56, Gyeongwon-daero 851beon-gil, Nam-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10591040",
+      "hotelName": "강화도 좋아요스파펜션",
+      "address": "인천광역시 강화군 길상면 해안남로 789-23"
+    },
+    {
+      "slug": "incheon-10591186",
+      "hotelName": "인천(주안) 프로포즈",
+      "address": "45-1, Juanjung-ro, Michuhol-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-10591218",
+      "hotelName": "인천(동암) 필",
+      "address": "인천광역시 부평구 백범로442번길 17-2"
+    },
+    {
+      "slug": "incheon-10591267",
+      "hotelName": "인천(숭의동) 썸",
+      "address": "인천광역시 미추홀구 독배로498번길 20"
+    },
+    {
+      "slug": "incheon-13302641",
+      "hotelName": "인천(소래포구) M",
+      "address": "24, Aenggogae-ro 934beon-gil, Namdong-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-13302692",
+      "hotelName": "인천(강화도) 탑모텔",
+      "address": "인천광역시 강화군 송해면 강화대로 792"
+    },
+    {
+      "slug": "incheon-13302785",
+      "hotelName": "인천(경인교대) 호텔 네오",
+      "address": "11-1, Gyesancheondong-ro, Gyeyang-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-13302805",
+      "hotelName": "인천(연안부두) 레피다호텔",
+      "address": "11-9, Yeonanbudu-ro 21beon-gil, Jung-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-13302845",
+      "hotelName": "인천(강화도) 로마",
+      "address": "77-14, Haeannam-ro, Gilsang-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-13302849",
+      "hotelName": "인천(강화도) 블루",
+      "address": "인천광역시 강화군 길상면 해안남로 521"
+    },
+    {
+      "slug": "incheon-13302889",
+      "hotelName": "인천(부평) STAY 위드",
+      "address": "인천광역시 부평구 평천로287번길 11 스테이 위드"
+    },
+    {
+      "slug": "incheon-13302908",
+      "hotelName": "인천(을왕리) 캐슬",
+      "address": "인천광역시 영종구 을왕로58번길 10-9 캐슬파크"
+    },
+    {
+      "slug": "incheon-13302909",
+      "hotelName": "인천(석남동) 알프스",
+      "address": "인천광역시 서해구 가정로261번길 15"
+    },
+    {
+      "slug": "incheon-13302916",
+      "hotelName": "인천(석남동) 뉴캐슬",
+      "address": "인천광역시 서해구 길주로 71"
+    },
+    {
+      "slug": "incheon-13302922",
+      "hotelName": "인천 부평(청천동) 필",
+      "address": "인천광역시 부평구 청중로 75"
+    },
+    {
+      "slug": "incheon-13302923",
+      "hotelName": "인천(간석동) 주얼리",
+      "address": "21, Namdong-daero 921beon-gil, Namdong-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-13302924",
+      "hotelName": "인천(을왕리) 영지호스텔",
+      "address": "인천광역시 영종구 용유서로 319"
+    },
+    {
+      "slug": "incheon-13576184",
+      "hotelName": "인천(경인교대) 테마25",
+      "address": "6, Gyesan-ro 103beon-gil, Gyeyang-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-13576201",
+      "hotelName": "인천(을왕리) 해변",
+      "address": "5, Eurwang-ro 13beon-gil, Jung-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-13626158",
+      "hotelName": "강화도 태양의해변펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2782-26"
+    },
+    {
+      "slug": "incheon-14083332",
+      "hotelName": "인천 부평(청천동) 리치",
+      "address": "인천광역시 부평구 평천로142번길 31-2 1층 리치모텔"
+    },
+    {
+      "slug": "incheon-14085102",
+      "hotelName": "인천(송도) 삼미",
+      "address": "인천광역시 연수구 능허대로167번길 6"
+    },
+    {
+      "slug": "incheon-14085179",
+      "hotelName": "인천(간석동) 맘모스",
+      "address": "55, Yongcheon-ro 153beon-gil, Namdong-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-14085329",
+      "hotelName": "인천(월미도) 호텔 루비",
+      "address": "인천광역시 제물포구 월미로248번길 1"
+    },
+    {
+      "slug": "incheon-14085429",
+      "hotelName": "인천(용현동) 크라운",
+      "address": "인천광역시 미추홀구 토금남로3번길 10"
+    },
+    {
+      "slug": "incheon-14085449",
+      "hotelName": "인천(강화도) 스위스랜드",
+      "address": "50, Borigogae-ro, Gilsang-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-14085490",
+      "hotelName": "인천(석남동) The 쉼",
+      "address": "인천광역시 서해구 길주로75번길 16-1"
+    },
+    {
+      "slug": "incheon-14085549",
+      "hotelName": "인천(주안) 호텔 레인보우",
+      "address": "인천광역시 미추홀구 경인로349번길 37 호텔레인보우"
+    },
+    {
+      "slug": "incheon-15730296",
+      "hotelName": "Inaver Hotel",
+      "address": "5 Wolmi-ro 243beon-gil 인천"
+    },
+    {
+      "slug": "incheon-15747074",
+      "hotelName": "Wolmido Ruby Hotel",
+      "address": "인천광역시 제물포구 월미로248번길 1"
+    },
+    {
+      "slug": "incheon-15783097",
+      "hotelName": "Winners Tourist Hotel",
+      "address": "Eurwang-dong, 891 인천"
+    },
+    {
+      "slug": "incheon-16254367",
+      "hotelName": "인천(송도) YAM 인천송도점",
+      "address": "인천광역시 연수구 능허대로191번길 58"
+    },
+    {
+      "slug": "incheon-16254583",
+      "hotelName": "인천(간석동) 넘버25 인천간석점",
+      "address": "15, Baekbeom-ro 359beon-gil, Namdong-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-16305096",
+      "hotelName": "인천 목섬펜션(덕적도)",
+      "address": "인천광역시 옹진군 덕적면 덕적북로224번길 154-7 정자"
+    },
+    {
+      "slug": "incheon-16371470",
+      "hotelName": "강화도 바닷가숲속펜션",
+      "address": "인천광역시 강화군 불은면 해안동로466번길 8-13"
+    },
+    {
+      "slug": "incheon-16371486",
+      "hotelName": "대부도(영흥도) 서나무집펜션",
+      "address": "363, Yeongheungbuk-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-16371491",
+      "hotelName": "대부도(영흥도) 아침해변펜션",
+      "address": "365, Yeongheungbuk-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-16508309",
+      "hotelName": "강화도 바닷가뜨락펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2266-9 바닷가뜨락펜션"
+    },
+    {
+      "slug": "incheon-16513537",
+      "hotelName": "강화도 민들레펜션",
+      "address": "인천광역시 강화군 송해면 장정양오길409번길 80"
+    },
+    {
+      "slug": "incheon-16570113",
+      "hotelName": "대부도(영흥도) 해마루펜션",
+      "address": "31-104, Seonjae-ro 306beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-16800930",
+      "hotelName": "강화(석모도) 보문장",
+      "address": "7, Samsannam-ro 828beon-gil, Samsan-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-16809527",
+      "hotelName": "대부도(선재도) 빠체스파펜션",
+      "address": "38-21, Seonjae-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-16919335",
+      "hotelName": "강화도 석가헌펜션",
+      "address": "인천광역시 강화군 길상면 해안남로 820 석가헌"
+    },
+    {
+      "slug": "incheon-18163649",
+      "hotelName": "옹진(신도) 하늘가펜션",
+      "address": "인천광역시 옹진군 북도면 신도로 274-19 1층"
+    },
+    {
+      "slug": "incheon-18229843",
+      "hotelName": "대부도(영흥도) 벼리유펜션",
+      "address": "93-64, Yeongheungnam-ro 9beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-18468889",
+      "hotelName": "인천(강화도) 힐하우스",
+      "address": "인천광역시 강화군 화도면 해안남로 1374-57 힐하우스펜션"
+    },
+    {
+      "slug": "incheon-18468969",
+      "hotelName": "대부도(선재도) 돌고래펜션",
+      "address": "54, Seonjae-ro 226beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-18469078",
+      "hotelName": "인천(용현동) 정원호텔",
+      "address": "인천광역시 미추홀구 아암대로107번길 10"
+    },
+    {
+      "slug": "incheon-18469300",
+      "hotelName": "강화도 별빛가람펜션",
+      "address": "인천광역시 강화군 화도면 동녘말길 145"
+    },
+    {
+      "slug": "incheon-18469495",
+      "hotelName": "강화도 꿈길속에펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1374-5"
+    },
+    {
+      "slug": "incheon-18469644",
+      "hotelName": "대부도(선재도) 조은펜션",
+      "address": "인천광역시 옹진군 영흥면 선재로306번길 31-100 조은펜션"
+    },
+    {
+      "slug": "incheon-18469689",
+      "hotelName": "영종도 씨사이드펜션",
+      "address": "인천광역시 영종구 영종진광장로 64 3층 펜션"
+    },
+    {
+      "slug": "incheon-18469700",
+      "hotelName": "강화도 휴노을펜션",
+      "address": "인천광역시 강화군 화도면 해안남로2478번길 23-8"
+    },
+    {
+      "slug": "incheon-18469724",
+      "hotelName": "강화도 휴젠리조트펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1476"
+    },
+    {
+      "slug": "incheon-18469744",
+      "hotelName": "인천(강화도) 에쿠스",
+      "address": "2862, Haeannam-ro, Hwado-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-18469756",
+      "hotelName": "강화도 네르하펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2829"
+    },
+    {
+      "slug": "incheon-18469769",
+      "hotelName": "인천(부평) 스카이",
+      "address": "16, Bupyeongmunhwa-ro 106beon-gil, Bupyeong-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-18469887",
+      "hotelName": "석모도 심플하우스 오션뷰펜션",
+      "address": "250-26, Samsandong-ro, Samsan-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-18469926",
+      "hotelName": "인천(강화) 카리브",
+      "address": "인천광역시 강화군 화도면 해안남로 1275 카리브 호텔"
+    },
+    {
+      "slug": "incheon-18528121",
+      "hotelName": "강화도 산타루치아펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2739-10"
+    },
+    {
+      "slug": "incheon-18528323",
+      "hotelName": "대부도(영흥도) 25시펜션",
+      "address": "29, Yeongheung-ro 757beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-18528332",
+      "hotelName": "대부도(영흥도) 어르니펜션",
+      "address": "인천광역시 옹진군 영흥면 영흥로757번길 52"
+    },
+    {
+      "slug": "incheon-18528355",
+      "hotelName": "강화도 힐링하우스펜션",
+      "address": "인천광역시 강화군 불은면 해안동로 313-15 강화힐링하우스펜션"
+    },
+    {
+      "slug": "incheon-18528424",
+      "hotelName": "대부도(영흥도) 스테이트하우스",
+      "address": "612, Yeongheung-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-18528496",
+      "hotelName": "대부도(영흥도) 영화펜션",
+      "address": "476, Yeongheungnam-ro 9beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-18528536",
+      "hotelName": "인천(강화도) 캘리포니아",
+      "address": "851, Jungang-ro, Yangdo-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-18528644",
+      "hotelName": "을왕리 안악민박펜션",
+      "address": "인천광역시 영종구 을왕로40번길 4 72-5,"
+    },
+    {
+      "slug": "incheon-18528722",
+      "hotelName": "인천(서구) 가우디",
+      "address": "인천광역시 서해구 탁옥로 41 246-12"
+    },
+    {
+      "slug": "incheon-18528817",
+      "hotelName": "인천(주안) 브랜드",
+      "address": "인천광역시 미추홀구 주안서로54번길 7"
+    },
+    {
+      "slug": "incheon-18533276",
+      "hotelName": "을왕리 제이에스하우스펜션",
+      "address": "인천광역시 영종구 용유서로128번길 25"
+    },
+    {
+      "slug": "incheon-18850705",
+      "hotelName": "석모도 항포펜션",
+      "address": "인천광역시 강화군 삼산면 삼산서로310번길 20-6 항포펜션"
+    },
+    {
+      "slug": "incheon-19196283",
+      "hotelName": "인천(용현동) 호텔 빈",
+      "address": "인천광역시 미추홀구 용오로 10"
+    },
+    {
+      "slug": "incheon-19924018",
+      "hotelName": "대부도(영흥도) 마리노펜션",
+      "address": "인천광역시 옹진군 영흥면 영흥로757번길 30-39"
+    },
+    {
+      "slug": "incheon-19936397",
+      "hotelName": "강화도 펜션 메종드라메르",
+      "address": "인천광역시 강화군 화도면 해안남로 1399"
+    },
+    {
+      "slug": "incheon-21610320",
+      "hotelName": "인천(경인교대) NINE(9)",
+      "address": "14, Gyesancheondong-ro, Gyeyang-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-22237212",
+      "hotelName": "대부도(영흥도) 우노팰리스펜션(별관)",
+      "address": "614-2, Yeongheung-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-22639851",
+      "hotelName": "인천(석남동) 스위치",
+      "address": "인천광역시 서해구 옻우물로 16 스위치 모텔"
+    },
+    {
+      "slug": "incheon-22672428",
+      "hotelName": "강화도(석모도) 하늘나루펜션",
+      "address": "46, Samsanbuk-ro, Samsan-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-22890460",
+      "hotelName": "무의도 빨간지붕펜션",
+      "address": "488, Daemuui-ro, Jung-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-23135394",
+      "hotelName": "강화도 별빛속으로펜션",
+      "address": "인천광역시 강화군 양도면 강화남로1002번길 162"
+    },
+    {
+      "slug": "incheon-23858139",
+      "hotelName": "인천(주안) 브라운도트 인천주안역점",
+      "address": "인천광역시 미추홀구 주안중로43번길 10 2030모텔"
+    },
+    {
+      "slug": "incheon-24012104",
+      "hotelName": "인천(부평) 레이크",
+      "address": "인천광역시 부평구 경원대로1367번길 26-10"
+    },
+    {
+      "slug": "incheon-24126543",
+      "hotelName": "을왕리 한라펜션",
+      "address": "인천광역시 영종구 용유로380번길 10"
+    },
+    {
+      "slug": "incheon-24126618",
+      "hotelName": "인천 브라운도트 호텔 소래포구점",
+      "address": "인천광역시 남동구 소래역로 28 조은프라자 8층"
+    },
+    {
+      "slug": "incheon-24250858",
+      "hotelName": "을왕리 아령펜션",
+      "address": "98-2, Daemuui-ro, Jung-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-24259819",
+      "hotelName": "강화도 굿모닝펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2225"
+    },
+    {
+      "slug": "incheon-24516893",
+      "hotelName": "옹진 365아일랜드펜션(덕적도 서포리)",
+      "address": "166-22, Deokjeoknam-ro 606beon-gil, Deokjeok-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-25036809",
+      "hotelName": "대부도(영흥도) 펜션704",
+      "address": "인천광역시 옹진군 영흥면 영흥로 704 펜션704"
+    },
+    {
+      "slug": "incheon-25064249",
+      "hotelName": "대부도(선재도) 라벤더데이펜션",
+      "address": "38-37, Seonjae-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-25686998",
+      "hotelName": "대부도(영흥도) 스테이독펜션 (스테이독1호점)",
+      "address": "264, Seonjae-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-25894452",
+      "hotelName": "인천(서구) 브라운도트 인천서구청점",
+      "address": "7, Tagok-ro 33beon-gil, Seo-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-26047564",
+      "hotelName": "을왕리 에버뷰펜션",
+      "address": "인천광역시 영종구 용유서로348번길 16"
+    },
+    {
+      "slug": "incheon-26053682",
+      "hotelName": "대부도(영흥도) 미음펜션",
+      "address": "14, Yeongheungbuk-ro 456beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-26083042",
+      "hotelName": "을왕리 롱비치하우스펜션",
+      "address": "인천광역시 영종구 용유서로302번길 14-4"
+    },
+    {
+      "slug": "incheon-28016580",
+      "hotelName": "강화도 터펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2297-26"
+    },
+    {
+      "slug": "incheon-28108919",
+      "hotelName": "인천(을왕리) 라인모텔",
+      "address": "인천광역시 영종구 을왕로58번길 9-4"
+    },
+    {
+      "slug": "incheon-28259991",
+      "hotelName": "인천(주안) 호텔 여기어때 주안점",
+      "address": "인천광역시 미추홀구 미추홀대로722번길 40 1층"
+    },
+    {
+      "slug": "incheon-28630709",
+      "hotelName": "인천 H Avenue 소래포구점",
+      "address": "인천광역시 남동구 소래역로46번길 28 8층 에이치에비뉴 소래포구점"
+    },
+    {
+      "slug": "incheon-28731087",
+      "hotelName": "인천(선재도) 짝 무인텔",
+      "address": "72, Seonjae-ro 186beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-28918365",
+      "hotelName": "대부도(선재도) 위드유펜션",
+      "address": "27-107, Seonjae-ro 306beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-29850516",
+      "hotelName": "골드스타 호텔",
+      "address": "인천광역시 옹진군 덕적면 덕적남로606번안길 22 골드스타호텔"
+    },
+    {
+      "slug": "incheon-30667268",
+      "hotelName": "강화도 아붕펜션",
+      "address": "인천광역시 강화군 화도면 해안남로2449번길 36 아붕펜션"
+    },
+    {
+      "slug": "incheon-30845067",
+      "hotelName": "을왕리 반하다펜션",
+      "address": "인천광역시 영종구 용유서로 518 반하다펜션(세븐일레븐옆길)"
+    },
+    {
+      "slug": "incheon-30990092",
+      "hotelName": "인천(동인천) 굿데이",
+      "address": "인천광역시 제물포구 우현로67번길 35-4"
+    },
+    {
+      "slug": "incheon-30990112",
+      "hotelName": "을왕리 서해캠핑장",
+      "address": "인천광역시 영종구 용유서로423번길 41"
+    },
+    {
+      "slug": "incheon-30990414",
+      "hotelName": "대부도(영흥도) 시골마루방펜션",
+      "address": "44-12, Yeongheungbuk-ro 343beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-30990500",
+      "hotelName": "인천(석남동) 뱅크",
+      "address": "250, Yeomgok-ro, Seo-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-30990623",
+      "hotelName": "인천 섬사랑펜션(덕적도)",
+      "address": "3, Deokjeongnam-ro 606beonan-gil, Deokjeok-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-30990762",
+      "hotelName": "인천(무의도) 해둥실펜션",
+      "address": "인천광역시 영종구 큰무리로 36 해둥실펜션"
+    },
+    {
+      "slug": "incheon-30990772",
+      "hotelName": "강화도 카우스&카우스톨펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2421-209 카우스톨펜션"
+    },
+    {
+      "slug": "incheon-30991572",
+      "hotelName": "대부도(영흥도) 십리포비치펜션",
+      "address": "420-12, Yeongheungbuk-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-30992209",
+      "hotelName": "강화도 에떼르모 스파펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2421-202"
+    },
+    {
+      "slug": "incheon-3125724",
+      "hotelName": "굿데이 에어텔",
+      "address": "인천광역시 영종구 공항로424번길 72 IBC 디오빌 1011호"
+    },
+    {
+      "slug": "incheon-31366174",
+      "hotelName": "인천(소래포구) 호텔 U",
+      "address": "인천광역시 남동구 장도로 53"
+    },
+    {
+      "slug": "incheon-31525647",
+      "hotelName": "대부도(선재도) 더그루펜션",
+      "address": "인천광역시 옹진군 영흥면 선재로306번길 27-103"
+    },
+    {
+      "slug": "incheon-32197577",
+      "hotelName": "인천(용현동) S-1",
+      "address": "인천광역시 미추홀구 인주대로123번길 9 S1모텔"
+    },
+    {
+      "slug": "incheon-32197608",
+      "hotelName": "대부도(영흥도) 포시즌펜션",
+      "address": "420-15, Yeongheungbuk-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-32207919",
+      "hotelName": "옹진 풀사이드펜션",
+      "address": "인천광역시 옹진군 북도면 시도로86번길 291-49"
+    },
+    {
+      "slug": "incheon-32285656",
+      "hotelName": "강화도 동막여관펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1154"
+    },
+    {
+      "slug": "incheon-32319706",
+      "hotelName": "인천(부평) 호텔 센트로 스테이",
+      "address": "인천광역시 부평구 부평문화로105번길 13 센트로스테이"
+    },
+    {
+      "slug": "incheon-32342271",
+      "hotelName": "강화도 어시장바로앞펜션",
+      "address": "인천광역시 강화군 화도면 해안남로2845번길 7"
+    },
+    {
+      "slug": "incheon-32589949",
+      "hotelName": "강화도 877스테이펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2272-12 877스테이"
+    },
+    {
+      "slug": "incheon-32888459",
+      "hotelName": "인천(부평) 알프스",
+      "address": "인천광역시 부평구 경원대로1367번길 10-3"
+    },
+    {
+      "slug": "incheon-33457549",
+      "hotelName": "인천(부평) 갤러리아 호텔",
+      "address": "인천광역시 부평구 대정로90번길 24"
+    },
+    {
+      "slug": "incheon-33984370",
+      "hotelName": "대부도(영흥도) 도자기펜션",
+      "address": "147, Yeongheung-ro 757beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-34411866",
+      "hotelName": "대부도(영흥도) 토브투펜션",
+      "address": "101-9, Yeongheungseo-ro 380beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-34412049",
+      "hotelName": "대부도(영흥도) 아르카노호텔풀빌라",
+      "address": "117-20, Seonjae-ro, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-34588475",
+      "hotelName": "옹진(백령도) 루시아",
+      "address": "인천광역시 옹진군 백령면 백령로 461-18 461-14 1동"
+    },
+    {
+      "slug": "incheon-35038494",
+      "hotelName": "을왕리 어느멋진날에2펜션",
+      "address": "인천광역시 영종구 늘목로22번길 57-3 1층"
+    },
+    {
+      "slug": "incheon-35038711",
+      "hotelName": "을왕리 신화스위트리펜션",
+      "address": "인천광역시 영종구 왕산로 70"
+    },
+    {
+      "slug": "incheon-35043870",
+      "hotelName": "Koin Guesthouse Incheon airport",
+      "address": "인천광역시 영종구 화랑목로100번길 31 코인게스트하우스"
+    },
+    {
+      "slug": "incheon-35196261",
+      "hotelName": "인천(주안) H Avenue 인천주안역점",
+      "address": "인천광역시 미추홀구 미추홀대로722번길 30 HOTEL H AVENUE"
+    },
+    {
+      "slug": "incheon-35372250",
+      "hotelName": "옹진(백령도) 힐링",
+      "address": "인천광역시 옹진군 백령면 백령로 473"
+    },
+    {
+      "slug": "incheon-35416396",
+      "hotelName": "강화도 여름향기펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 2139"
+    },
+    {
+      "slug": "incheon-35425409",
+      "hotelName": "인천(작전동) 넘버25 인천작전점",
+      "address": "인천광역시 계양구 계양문화로53번길 8"
+    },
+    {
+      "slug": "incheon-35764979",
+      "hotelName": "인천(경인교대) 온호텔",
+      "address": "인천광역시 계양구 계산천동로23번길 3 ON HOTEL"
+    },
+    {
+      "slug": "incheon-35920576",
+      "hotelName": "대부도(영흥도) 세븐블라쎄르풀빌라",
+      "address": "221-83, Yeongheungnam-ro 9beon-gil, Yeongheung-myeon, Ongjin-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-35921053",
+      "hotelName": "을왕리 힛포펜션",
+      "address": "인천광역시 영종구 선녀바위로55번길 6"
+    },
+    {
+      "slug": "incheon-36781342",
+      "hotelName": "인천(주안) 유성장",
+      "address": "인천광역시 미추홀구 길파로 5-7"
+    },
+    {
+      "slug": "incheon-36787114",
+      "hotelName": "인천(주안) AM",
+      "address": "인천광역시 미추홀구 경인로425번길 21 AM모텔"
+    },
+    {
+      "slug": "incheon-36787414",
+      "hotelName": "인천(검단) 더 모텔 인천검단점",
+      "address": "494-1, Geomdan-ro, Seo-gu, Incheon 인천"
+    },
+    {
+      "slug": "incheon-36830623",
+      "hotelName": "강화도 로만티카펜션",
+      "address": "1986, Haeannam-ro, Hwado-myeon, Ganghwa-gun, Incheon 인천"
+    },
+    {
+      "slug": "incheon-36888706",
+      "hotelName": "인천(작전동) 드라마",
+      "address": "인천광역시 계양구 효서로229번길 18"
+    },
+    {
+      "slug": "incheon-6345833",
+      "hotelName": "아트파라디소, 파라다이스시티",
+      "address": "인천광역시 영종구 영종해안남로321번길 186 아트파라디소"
+    }
+  ],
+  "samples": [
+    {
+      "slug": "incheon-1000833",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-1000833",
+      "kind": "wifi",
+      "value": "무료 와이파이도 전 객실에서 이용 가능합니다."
+    },
+    {
+      "slug": "incheon-1000833",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-1000883",
+      "kind": "reference",
+      "removed": [
+        "순천 숙박 퇴근 후 여행 순천대 근처 하얏트모텔 후기",
+        "[순천] 순천 여행에서 머무르시기 좋은 숙소 하얏트 모텔 후기",
+        "하얏트 모텔 소감 인천... 경험한 편안하고 완벽했던 숙박 후기",
+        "하얏트모텔 경상북도 모텔 다녀왔더니 와.. 이게 이렇게 좋네",
+        "내집같이 편안했던 목천 하얏트 모텔 후기!"
+      ]
+    },
+    {
+      "slug": "incheon-1000883",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-1000883",
+      "kind": "wifi",
+      "value": "무료 와이파이 제공 여부 및 유료 이용 시 비용 확인"
+    },
+    {
+      "slug": "incheon-1000883",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-1000883",
+      "kind": "breakfast",
+      "value": "인천 계양구 내 다른 모텔들과 비교했을 때, 하얏트 모텔은 조식과 무료 와이파이가 불포함된 점이 특징입니다."
+    },
+    {
+      "slug": "incheon-1000883",
+      "kind": "wifi",
+      "value": "숙소 예약 전, 무료 와이파이 제공 여부와 유료 이용 시 비용을 반드시 확인해야 합니다."
+    },
+    {
+      "slug": "incheon-1000883",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-1000883",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-1032040",
+      "kind": "reference",
+      "removed": [
+        "인천서구호텔 가성비 숙소 석남역 여백호텔 혼자 호캉스 후기...",
+        "인천서구호텔 석남도숙소 인천감성호텔, 여백호텔",
+        "[인천] 석남역 힐링하기 좋은 여백호텔 내돈내산 솔직후기"
+      ]
+    },
+    {
+      "slug": "incheon-1032040",
+      "kind": "breakfast",
+      "value": "조식이 포함되어 있지 않아 별도로 해결해야 합니다."
+    },
+    {
+      "slug": "incheon-1032040",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-1032040",
+      "kind": "wifi",
+      "value": "객실에 무료 와이파이, 게이밍 PC, 넷플릭스 등 편의시설이 있는지 확인하세요."
+    },
+    {
+      "slug": "incheon-1032040",
+      "kind": "wifi",
+      "value": "객실은 대체로 깔끔하게 관리되며, 무료 와이파이 이용이 가능하여 편리합니다."
+    },
+    {
+      "slug": "incheon-1032040",
+      "kind": "breakfast",
+      "value": "여백호텔은 무료 조식을 제공하며 감성적인 인테리어를 강조하는 반면, 더라임호텔은 가성비와 실용성에 중점을 둡니다."
+    },
+    {
+      "slug": "incheon-1032040",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-104137",
+      "kind": "breakfast",
+      "value": "조식이 기본 포함이 아니며, 스낵바 형태입니다"
+    },
+    {
+      "slug": "incheon-104137",
+      "kind": "breakfast",
+      "value": "조식 포함 여부 및 스낵바 이용 시간"
+    },
+    {
+      "slug": "incheon-104137",
+      "kind": "wifi",
+      "value": "객실은 대체로 깔끔하게 관리되며, 무료 와이파이가 제공되어 편리하게 인터넷을 이용할 수 있습니다."
+    },
+    {
+      "slug": "incheon-104137",
+      "kind": "breakfast",
+      "value": "조식은 기본 포함이 아니므로, 스낵바 이용이나 주변 식당을 고려해야 합니다."
+    },
+    {
+      "slug": "incheon-1051636",
+      "kind": "breakfast",
+      "value": "조식 포함 여부 및 식사 계획"
+    },
+    {
+      "slug": "incheon-1051636",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-1051636",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-10555532",
+      "kind": "reference",
+      "removed": [
+        "인천공항 근처 호텔 추천 골든튤립인천공항 무료 셔틀버스",
+        "인천공항 근처 호텔 운서역 골든튤립 호텔 후기 내돈내산...",
+        "인천공항호텔 운서역 골든튤립 호텔 1박 후기",
+        "인천공항 호텔 추천 운서역 근처 숙소 골든튤립",
+        "인천공항 근처 운서역 호텔 골든튤립, 무료셔틀, 조식 이용후기"
+      ]
+    },
+    {
+      "slug": "incheon-10555532",
+      "kind": "wifi",
+      "value": "인천 남동구에 위치한 골든 호텔 인천은 2성급 숙소로, 하루 약 5만 원대의 합리적인 가격과 무료 Wi-Fi를 제공합니다."
+    },
+    {
+      "slug": "incheon-10555532",
+      "kind": "wifi",
+      "value": "무료 Wi-Fi 제공"
+    },
+    {
+      "slug": "incheon-10555532",
+      "kind": "breakfast",
+      "value": "조식 불포함 (별도 구매 필요)"
+    },
+    {
+      "slug": "incheon-10555532",
+      "kind": "breakfast",
+      "value": "조식은 기본 요금에 포함되어 있지 않으니 외부 식사를 계획하세요."
+    },
+    {
+      "slug": "incheon-10555532",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-10555532",
+      "kind": "wifi",
+      "value": "객실 내 무료 Wi-Fi를 제공하여 편리하게 인터넷을 이용할 수 있습니다."
+    },
+    {
+      "slug": "incheon-10555532",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-10555532",
+      "kind": "wifi",
+      "value": "무료 Wi-Fi가 제공되어 업무나 개인적인 용도로 인터넷을 자유롭게 사용할 수 있습니다."
+    },
+    {
+      "slug": "incheon-10555532",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-10555532",
+      "kind": "wifi",
+      "value": "무료 Wi-Fi와 합리적인 가격을 최우선으로 고려하는 실속형 여행객에게 특히 권장합니다."
+    },
+    {
+      "slug": "incheon-10566221",
+      "kind": "reference",
+      "removed": [
+        "후기 - 아크로 캡슐 호텔 난바 도톤보리(Acro Capsule...",
+        "삿포로 호텔 추천 캡슐호텔 삿포로 온천있는 가든캐빈 1인 숙소",
+        "인천공항 캡슐호텔 1터미널 다락휴 예약 가격 위치 싱글룸 후기"
+      ]
+    },
+    {
+      "slug": "incheon-10566221",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-10566221",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "incheon-10572909",
+      "kind": "reference",
+      "removed": [
+        "충남 태안 안면도 펜션 추천 가성비 좋은곳 썬하우스 펜션 후기",
+        "썬하우스펜션\" 갯벌체험 무료 대여와 바베큐 후기",
+        "태안 안면도 밧개해수욕장 앞 썬하우스 펜션 후기",
+        "태안 안면도 1박 여행, 썬하우스 펜션에서 숙박 및 불멍 후기"
+      ]
+    }
+  ]
+}

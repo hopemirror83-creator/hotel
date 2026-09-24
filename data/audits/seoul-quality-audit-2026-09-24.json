@@ -1,0 +1,1336 @@
+{
+  "scanned": 1000,
+  "quarantined": [
+    {
+      "slug": "seoul-1619377",
+      "hotelName": "광명 JS 부티크 호텔 ",
+      "address": "경기도 광명시 오리로854번길 16-18"
+    },
+    {
+      "slug": "seoul-2100602",
+      "hotelName": "호텔 드 씨엘",
+      "address": "부산광역시 해운대구 해운대해변로298번길 29"
+    },
+    {
+      "slug": "seoul-2234023",
+      "hotelName": "대영 호텔",
+      "address": "경상남도 창원시 진해구 충장로82번길 15"
+    },
+    {
+      "slug": "seoul-248561",
+      "hotelName": "미조 게스트하우스",
+      "address": "경상남도 남해군 삼동면 동부대로793번길 11-6"
+    },
+    {
+      "slug": "seoul-2615262",
+      "hotelName": "CS 프리미어 호텔",
+      "address": "경기도 안양시 만안구 경수대로 1180"
+    },
+    {
+      "slug": "seoul-31249339",
+      "hotelName": "어반이스트 호텔",
+      "address": "경기도 고양시 덕양구 고양대로 1725 어반이스트 호텔"
+    },
+    {
+      "slug": "seoul-344200",
+      "hotelName": "센트럴 관광 호텔",
+      "address": "경기도 안양시 동안구 흥안대로 513"
+    },
+    {
+      "slug": "seoul-400581",
+      "hotelName": "이 레지던스",
+      "address": "부산광역시 수영구 민락수변로 49 101동 1309호"
+    },
+    {
+      "slug": "seoul-4123789",
+      "hotelName": "글램 호텔",
+      "address": "인천광역시 남동구 선수촌공원로23번길 19 더글램호텔"
+    },
+    {
+      "slug": "seoul-885795",
+      "hotelName": "보보스 모텔",
+      "address": "인천광역시 부평구 부평대로17번길 23"
+    },
+    {
+      "slug": "seoul-394418",
+      "hotelName": "클릭 호텔",
+      "address": "부산광역시 연제구 과정로191번길 59"
+    },
+    {
+      "slug": "seoul-43373",
+      "hotelName": "영동 호텔",
+      "address": "경기도 수원시 팔달구 화서문로71번길 20"
+    },
+    {
+      "slug": "seoul-6775314",
+      "hotelName": "K2 모텔",
+      "address": "경기도 동두천시 평화로 2914-16"
+    },
+    {
+      "slug": "seoul-36902913",
+      "hotelName": "사월호텔",
+      "address": "경상북도 경산시 경산로40길 3-6 브라운도트호텔 경산 옥산점"
+    },
+    {
+      "slug": "seoul-24010208",
+      "hotelName": "플렉스 레지던스",
+      "address": "인천광역시 영종구 영종대로196번길 19"
+    },
+    {
+      "slug": "seoul-6716763",
+      "hotelName": "램파트호텔",
+      "address": "경기도 광명시 범안로 986"
+    },
+    {
+      "slug": "seoul-336541",
+      "hotelName": "루쏘 호텔",
+      "address": "전남광주통합특별시 목포시 장미로 107 루쏘호텔"
+    },
+    {
+      "slug": "seoul-1061737",
+      "hotelName": "호텔 윈저",
+      "address": "경기도 용인시 수지구 포은대로 479"
+    },
+    {
+      "slug": "seoul-295082",
+      "hotelName": "CS 호텔",
+      "address": "경기도 안양시 만안구 경수대로 1180"
+    }
+  ],
+  "referenceLinksRemoved": 1397,
+  "hotelsWithReferenceLinksRemoved": 485,
+  "facilityClaimsNeutralized": {
+    "breakfast": 2804,
+    "wifi": 1257,
+    "parking": 940
+  },
+  "thinPages": [
+    {
+      "slug": "seoul-14652666",
+      "hotelName": "참 호텔",
+      "address": "서울특별시 서대문구 이화여대3길 33",
+      "bodyLength": 637
+    }
+  ],
+  "missingVerifiedHero": [
+    {
+      "slug": "seoul-10572804",
+      "hotelName": "성북(종암) 마레",
+      "address": "서울특별시 성북구 종암로24길 10"
+    },
+    {
+      "slug": "seoul-10573132",
+      "hotelName": "수유 연 스테이",
+      "address": "서울특별시 강북구 도봉로73길 11 연 스테이호텔"
+    },
+    {
+      "slug": "seoul-10573685",
+      "hotelName": "영등포 호텔 갤럭시",
+      "address": "서울특별시 영등포구 영등포로46길 13-1 호텔 갤럭시 투어"
+    },
+    {
+      "slug": "seoul-10573920",
+      "hotelName": "노원 모모 호텔",
+      "address": "서울특별시 노원구 노해로75길 14-13 모모호텔"
+    },
+    {
+      "slug": "seoul-10573930",
+      "hotelName": "창동 위르 호텔(Werrr HOTEL)",
+      "address": "서울특별시 도봉구 마들로11길 35 위르호텔"
+    },
+    {
+      "slug": "seoul-10574631",
+      "hotelName": "목동 메종",
+      "address": "184, Omok-ro, Yangcheon-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10574690",
+      "hotelName": "천호 HOTEL H",
+      "address": "서울특별시 강동구 구천면로24길 19"
+    },
+    {
+      "slug": "seoul-10575924",
+      "hotelName": "용산 호텔 후암",
+      "address": "서울특별시 용산구 두텁바위로 85-5"
+    },
+    {
+      "slug": "seoul-10576293",
+      "hotelName": "신촌 렉시",
+      "address": "서울특별시 서대문구 연세로2가길 14"
+    },
+    {
+      "slug": "seoul-10576420",
+      "hotelName": "성신여대역 우디(WOODY)",
+      "address": "33, Dongsomun-ro 20na-gil, Seongbuk-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10576890",
+      "hotelName": "화곡 칼튼호텔",
+      "address": "서울특별시 강서구 화곡로 354-10 칼튼호텔"
+    },
+    {
+      "slug": "seoul-10578382",
+      "hotelName": "천호 M",
+      "address": "서울특별시 강동구 진황도로23길 12"
+    },
+    {
+      "slug": "seoul-10578606",
+      "hotelName": "면목 리츠",
+      "address": "서울특별시 중랑구 동일로 567"
+    },
+    {
+      "slug": "seoul-10578667",
+      "hotelName": "장안 JW",
+      "address": "서울특별시 동대문구 한천로14길 58"
+    },
+    {
+      "slug": "seoul-10579343",
+      "hotelName": "연신내 쏠",
+      "address": "서울특별시 은평구 연서로 220-1"
+    },
+    {
+      "slug": "seoul-10579416",
+      "hotelName": "화곡 테르모",
+      "address": "서울특별시 강서구 강서로5가길 17 테르모 호텔"
+    },
+    {
+      "slug": "seoul-10579586",
+      "hotelName": "금천(시흥동) 영빈",
+      "address": "서울특별시 금천구 시흥대로61길 38"
+    },
+    {
+      "slug": "seoul-10580022",
+      "hotelName": "서울대입구 린",
+      "address": "서울특별시 관악구 남부순환로220길 34"
+    },
+    {
+      "slug": "seoul-10580543",
+      "hotelName": "수유 H Hotel",
+      "address": "8, Opaesan-ro 79-gil, Gangbuk-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10580729",
+      "hotelName": "천호 펠리스",
+      "address": "서울특별시 강동구 올림픽로70길 50-10"
+    },
+    {
+      "slug": "seoul-10580994",
+      "hotelName": "노량진 닉스",
+      "address": "서울특별시 동작구 노량진로 94"
+    },
+    {
+      "slug": "seoul-10581017",
+      "hotelName": "미아 톰지",
+      "address": "서울특별시 강북구 도봉로49길 7"
+    },
+    {
+      "slug": "seoul-10581249",
+      "hotelName": "신림 허니",
+      "address": "서울특별시 관악구 신림로64길 35 허니모텔"
+    },
+    {
+      "slug": "seoul-10582220",
+      "hotelName": "양재 호텔 신트라",
+      "address": "서울특별시 서초구 서운로1길 6"
+    },
+    {
+      "slug": "seoul-10582671",
+      "hotelName": "사당 메트로21",
+      "address": "서울특별시 관악구 승방2길 7"
+    },
+    {
+      "slug": "seoul-10582734",
+      "hotelName": "도봉 M",
+      "address": "서울특별시 도봉구 도봉로 777"
+    },
+    {
+      "slug": "seoul-10583218",
+      "hotelName": "노원 세피아",
+      "address": "서울특별시 노원구 노해로75길 20-17 세피아호텔"
+    },
+    {
+      "slug": "seoul-10583487",
+      "hotelName": "화곡(강서구청) 샤르망",
+      "address": "5, Hwagok-ro 50-gil, Gangseo-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10583834",
+      "hotelName": "불광 아늑 료칸 호텔",
+      "address": "서울특별시 은평구 통일로65길 10-4"
+    },
+    {
+      "slug": "seoul-10584167",
+      "hotelName": "금호 별장",
+      "address": "서울특별시 성동구 무수막길 3-1 별장여관"
+    },
+    {
+      "slug": "seoul-10584656",
+      "hotelName": "화곡 아브르",
+      "address": "서울특별시 강서구 까치산로 83"
+    },
+    {
+      "slug": "seoul-10584901",
+      "hotelName": "화곡 CL HOTEL",
+      "address": "136, Gangseo-ro 5na-gil, Gangseo-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10585348",
+      "hotelName": "골드리버 호텔",
+      "address": "서울특별시 금천구 서부샛길 584"
+    },
+    {
+      "slug": "seoul-10585572",
+      "hotelName": "면목 597",
+      "address": "서울특별시 중랑구 동일로 597 정원장모텔"
+    },
+    {
+      "slug": "seoul-10585936",
+      "hotelName": "불광 M&A",
+      "address": "서울특별시 은평구 통일로65길 10-6"
+    },
+    {
+      "slug": "seoul-10587876",
+      "hotelName": "수유 뉴캐슬",
+      "address": "서울특별시 강북구 노해로8길 1"
+    },
+    {
+      "slug": "seoul-10587882",
+      "hotelName": "중랑 발리",
+      "address": "서울특별시 중랑구 망우로25길 10 발리모텔"
+    },
+    {
+      "slug": "seoul-10587983",
+      "hotelName": "신림 타워",
+      "address": "43, Nambusunhwan-ro 181-gil, Gwanak-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10588570",
+      "hotelName": "녹번 아트",
+      "address": "22, Seooreung-ro, Eunpyeong-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10588604",
+      "hotelName": "상봉 테마",
+      "address": "서울특별시 중랑구 망우로 278"
+    },
+    {
+      "slug": "seoul-10588667",
+      "hotelName": "건대 루나게스트하우스",
+      "address": "서울특별시 광진구 동일로 170-10 1, 2층"
+    },
+    {
+      "slug": "seoul-10588985",
+      "hotelName": "신림 나이스타임",
+      "address": "서울특별시 관악구 신림로64길 28 나이스 타임 호텔"
+    },
+    {
+      "slug": "seoul-10589199",
+      "hotelName": "신사 짝",
+      "address": "서울특별시 강남구 강남대로 622"
+    },
+    {
+      "slug": "seoul-10589417",
+      "hotelName": "오류 쎄비앙",
+      "address": "서울특별시 구로구 경인로22길 37 쎄비앙"
+    },
+    {
+      "slug": "seoul-10589639",
+      "hotelName": "성북(종암) 딘",
+      "address": "서울특별시 성북구 종암로24길 14"
+    },
+    {
+      "slug": "seoul-10589871",
+      "hotelName": "노원 아늑 호텔",
+      "address": "서울특별시 노원구 노해로75길 14-7"
+    },
+    {
+      "slug": "seoul-10590092",
+      "hotelName": "가산 자기야",
+      "address": "서울특별시 금천구 디지털로 208-12"
+    },
+    {
+      "slug": "seoul-10590551",
+      "hotelName": "서울대입구 휠",
+      "address": "16, Nambusunhwan-ro 220-gil, Gwanak-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10590579",
+      "hotelName": "태릉(공릉동) M",
+      "address": "서울특별시 노원구 화랑로 413"
+    },
+    {
+      "slug": "seoul-10590583",
+      "hotelName": "서울대입구 바이올린.H",
+      "address": "31, Nambusunhwan-ro 220-gil, Gwanak-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10590741",
+      "hotelName": "청량리 동아모텔",
+      "address": "서울특별시 동대문구 홍릉로 16 청량리 동아모텔"
+    },
+    {
+      "slug": "seoul-10590863",
+      "hotelName": "여의도 라다",
+      "address": "서울특별시 영등포구 여의대방로67길 18"
+    },
+    {
+      "slug": "seoul-10590994",
+      "hotelName": "상봉 줌(ZOOM)",
+      "address": "서울특별시 중랑구 봉우재로33길 69"
+    },
+    {
+      "slug": "seoul-10591183",
+      "hotelName": "미아 담스",
+      "address": "서울특별시 강북구 도봉로 32"
+    },
+    {
+      "slug": "seoul-10591292",
+      "hotelName": "도봉(방학동) 세화",
+      "address": "서울특별시 도봉구 방학로6길 17"
+    },
+    {
+      "slug": "seoul-12032818",
+      "hotelName": "홍대 씨유 하우스",
+      "address": "서울특별시 마포구 월드컵북로6길 81-12"
+    },
+    {
+      "slug": "seoul-13302650",
+      "hotelName": "면목 새롬",
+      "address": "7, Bongwoojae-ro, Jungnang-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-14085330",
+      "hotelName": "구로(고척) 샘",
+      "address": "서울특별시 구로구 고척로 235 2층"
+    },
+    {
+      "slug": "seoul-14652998",
+      "hotelName": "홍대 치즈 게스트하우스",
+      "address": "서울특별시 서대문구 신촌로3가길 33 1층"
+    },
+    {
+      "slug": "seoul-1530275",
+      "hotelName": "해피가든 게스트하우스 - 외국인 전용",
+      "address": "50-10, Toegye-ro 20-gil, Jung-gu 서울"
+    },
+    {
+      "slug": "seoul-15814009",
+      "hotelName": "Khan Residence",
+      "address": "서울특별시 강남구 테헤란로88길 10"
+    },
+    {
+      "slug": "seoul-1596096",
+      "hotelName": "코리 게스트하우스",
+      "address": "서울특별시 동대문구 답십리로23나길 18"
+    },
+    {
+      "slug": "seoul-16727920",
+      "hotelName": "삼성 라엠 (LaM)",
+      "address": "23, Bongeunsa-ro 113-gil, Gangnam-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-1678041",
+      "hotelName": "에이블 게스트하우스 홍대 2호점",
+      "address": "7-8, Wausan-ro 29ma-gil, Mapo-gu 서울"
+    },
+    {
+      "slug": "seoul-16805972",
+      "hotelName": "바투 스테이 - 외국인 전용",
+      "address": "67-5, Yeonnam-ro 1-gil, Mapo-gu 서울"
+    },
+    {
+      "slug": "seoul-1718706",
+      "hotelName": "북촌애",
+      "address": "서울특별시 종로구 계동6길 7"
+    },
+    {
+      "slug": "seoul-17201771",
+      "hotelName": "Orange Motel Seoul",
+      "address": "Tongil-ro, Seodaemun-gu 479-6 서울"
+    },
+    {
+      "slug": "seoul-1725000",
+      "hotelName": "서울 스테이션 조이 하우스",
+      "address": "202, Mallijae-ro, Yongsan-gu 서울"
+    },
+    {
+      "slug": "seoul-18169189",
+      "hotelName": "화곡 러브레터",
+      "address": "서울특별시 강서구 공항대로46길 60"
+    },
+    {
+      "slug": "seoul-18468964",
+      "hotelName": "화곡 앨리스 넥스트 도어",
+      "address": "서울특별시 강서구 강서로7길 124"
+    },
+    {
+      "slug": "seoul-18469493",
+      "hotelName": "왕십리(한양대) 태양 모텔",
+      "address": "13, Majo-ro 19-gil, Seongdong-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-18469806",
+      "hotelName": "왕십리 THE STAY(더 스테이)",
+      "address": "서울특별시 성동구 왕십리로20길 9 더스테이 모텔"
+    },
+    {
+      "slug": "seoul-18528089",
+      "hotelName": "당산 G",
+      "address": "서울특별시 영등포구 양평로 52-1"
+    },
+    {
+      "slug": "seoul-18859568",
+      "hotelName": "Hwagok EG Hotel",
+      "address": "327, Hwagok-ro 서울"
+    },
+    {
+      "slug": "seoul-19963857",
+      "hotelName": "와우 모텔",
+      "address": "서울특별시 송파구 오금로11길 7-10"
+    },
+    {
+      "slug": "seoul-2093916",
+      "hotelName": "누리 하우스",
+      "address": "#1414 or #313, 23, Saemunan-ro 3-gil, Jongno-gu 서울"
+    },
+    {
+      "slug": "seoul-21727556",
+      "hotelName": "노원 호텔 리버",
+      "address": "서울특별시 노원구 노해로75길 14-21"
+    },
+    {
+      "slug": "seoul-21790427",
+      "hotelName": "Jinho's Guest House",
+      "address": "서울특별시 용산구 두텁바위로1나길 14-6"
+    },
+    {
+      "slug": "seoul-2303385",
+      "hotelName": "엠티티 게스트하우스",
+      "address": "서울특별시 강남구 테헤란로22길 63-5"
+    },
+    {
+      "slug": "seoul-23794738",
+      "hotelName": "북촌 학민재 한옥스테이",
+      "address": "28-2, Bukchon-ro 11ga-gil, Jongno-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-2415927",
+      "hotelName": "서촌 게스트하우스",
+      "address": "서울특별시 종로구 사직로9가길 5-7"
+    },
+    {
+      "slug": "seoul-2492541",
+      "hotelName": "그김가네 게스트하우스",
+      "address": "서울특별시 종로구 백석동1길 13"
+    },
+    {
+      "slug": "seoul-25036815",
+      "hotelName": "잠실(가락) 캘리포니아 호텔",
+      "address": "11, Songpa-daero 28-gil, Songpa-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-2517651",
+      "hotelName": "영빈호텔",
+      "address": "서울특별시 중구 퇴계로56길 18"
+    },
+    {
+      "slug": "seoul-2622964",
+      "hotelName": "서울 앤 게스트하우스 동대문",
+      "address": "서울특별시 종로구 종로66가길 21"
+    },
+    {
+      "slug": "seoul-29537244",
+      "hotelName": "영등포 남영",
+      "address": "서울특별시 영등포구 당산로50길 9-1"
+    },
+    {
+      "slug": "seoul-30126827",
+      "hotelName": "럭스 & 스위트 룸",
+      "address": "4F, 53, Wausan-ro 35-gil, Mapo-gu 서울"
+    },
+    {
+      "slug": "seoul-30703808",
+      "hotelName": "sinchon Stn 2 min 외국인전용 Ellen House",
+      "address": "47, Baekbeom-ro 1-gil, Mapo-gu 서울"
+    },
+    {
+      "slug": "seoul-3128218",
+      "hotelName": "패밀리 하우스 홍대",
+      "address": "90, World Cup buk-ro 4-gil, Mapo-gu 서울"
+    },
+    {
+      "slug": "seoul-3129498",
+      "hotelName": "청계 하우스",
+      "address": "서울특별시 종로구 청계천로 189-1"
+    },
+    {
+      "slug": "seoul-3130705",
+      "hotelName": "드림하우스",
+      "address": "서울특별시 서대문구 통일로 327 1호 1층, 2층"
+    },
+    {
+      "slug": "seoul-3134723",
+      "hotelName": "루디아 공예 게스트하우스",
+      "address": "서울특별시 종로구 사직로9가길 25-6"
+    },
+    {
+      "slug": "seoul-32173660",
+      "hotelName": "Hongik Univ Station Wave Family Suite #3",
+      "address": "#41, 48-24, Wausan-ro 29-gil, Mapo-gu, 서울"
+    },
+    {
+      "slug": "seoul-32345812",
+      "hotelName": "삼청동 코리아 게스트하우스",
+      "address": "서울특별시 종로구 삼청로4길 12-1"
+    },
+    {
+      "slug": "seoul-33029644",
+      "hotelName": "Cosmos Hongdae Modern",
+      "address": "#201, 179-5 Donggyo-ro, Mapo-gu 서울"
+    },
+    {
+      "slug": "seoul-33029681",
+      "hotelName": "Cosmos Hongdae Urban",
+      "address": "#101, 1FL, 179-5 Donggyo-ro, Mapo-gu 서울"
+    },
+    {
+      "slug": "seoul-34054261",
+      "hotelName": "굿 스테이 이태원",
+      "address": "서울특별시 용산구 이태원로14길 52"
+    },
+    {
+      "slug": "seoul-34201298",
+      "hotelName": "Newly renovated hidden gem #2",
+      "address": "4, Sinheung-ro 5-gil, Yongsan-gu 서울"
+    },
+    {
+      "slug": "seoul-34408645",
+      "hotelName": "화곡 시네마",
+      "address": "서울특별시 강서구 우장산로16길 7"
+    },
+    {
+      "slug": "seoul-34463934",
+      "hotelName": "스위트스테이",
+      "address": "서울특별시 용산구 후암로 75 2층"
+    },
+    {
+      "slug": "seoul-34527500",
+      "hotelName": "Luxury Hanok Warm Nest Retreat",
+      "address": "1, Changdeokgung 7-gil, Jongno-gu 서울"
+    },
+    {
+      "slug": "seoul-34529507",
+      "hotelName": "Luxury Hanok Maison Sunlit",
+      "address": "19-4 Jahamun-ro 1na-gil, Jongno-gu 서울"
+    },
+    {
+      "slug": "seoul-34544350",
+      "hotelName": "Luxury Hanok Blissful House",
+      "address": "13-1 Jahamun-ro 14-gil, Jongno-gu 서울"
+    },
+    {
+      "slug": "seoul-34546550",
+      "hotelName": "Luxury Hanok Stay Sunshine",
+      "address": "31-18 Samil-daero 32-gil, Jongno-gu 서울"
+    },
+    {
+      "slug": "seoul-34553557",
+      "hotelName": "Luxury Hanok Bliss Cottage",
+      "address": "#1, 31-16 Samil-daero 32-gil, Jongno-gu 서울"
+    },
+    {
+      "slug": "seoul-34555520",
+      "hotelName": "Luxury Hanok Heritage Courtyard",
+      "address": "3-6, Bukchon-ro 7-gil, Jongno-gu 서울"
+    },
+    {
+      "slug": "seoul-34558564",
+      "hotelName": "Luxury Hanok The Bukchon Noble",
+      "address": "150-4 Changdeokgung-gil, Jongno-gu 서울"
+    },
+    {
+      "slug": "seoul-35698790",
+      "hotelName": "신림 HERTZ(헤르츠)",
+      "address": "서울특별시 관악구 남부순환로 1593-11 헤르츠호텔"
+    },
+    {
+      "slug": "seoul-35931343",
+      "hotelName": "Sophie House foreigners women only",
+      "address": "61-10, Yeonnam-ro, Mapo-gu 서울"
+    },
+    {
+      "slug": "seoul-36644550",
+      "hotelName": "K'STAY Sinchon",
+      "address": "서울특별시 서대문구 연세로4길 12 5층, 6층"
+    },
+    {
+      "slug": "seoul-5198314",
+      "hotelName": "Naksan Balcony",
+      "address": "14, Changsin 12-gil, Jongno-gu, Seoul,South Korea 서울"
+    },
+    {
+      "slug": "seoul-5874954",
+      "hotelName": "테이크 원 게스트하우스",
+      "address": "서울특별시 마포구 월드컵북로4길 90"
+    },
+    {
+      "slug": "seoul-6368854",
+      "hotelName": "홍대 조 쓰리룸 하우스",
+      "address": "15, Sinchon-ro 3ga-gil, Seodaemun-gu 서울"
+    },
+    {
+      "slug": "seoul-6686358",
+      "hotelName": "Chaehyodang Hanok Stay",
+      "address": "11-30, Jingwan-gil, Eunpyeong-gu 서울"
+    },
+    {
+      "slug": "seoul-7463033",
+      "hotelName": "삼성 코엑스몰 A",
+      "address": "14th floor, 10, Teheran-ro 88-gil, Gangnam-gu 서울"
+    },
+    {
+      "slug": "seoul-8111224",
+      "hotelName": "스프링 라이트",
+      "address": "서울특별시 용산구 한강대로80길 16"
+    },
+    {
+      "slug": "seoul-820791",
+      "hotelName": "대하모텔",
+      "address": "서울특별시 광진구 아차산로 583"
+    },
+    {
+      "slug": "seoul-820927",
+      "hotelName": "라이크유 게스트하우스",
+      "address": "서울특별시 마포구 와우산로35길 53"
+    },
+    {
+      "slug": "seoul-9084171",
+      "hotelName": "H 하우스 연남",
+      "address": "62, World Cup buk-ro 8-gil, Mapo-gu 서울"
+    },
+    {
+      "slug": "seoul-9851432",
+      "hotelName": "트레블하우스 투룸",
+      "address": "#104 18-9, Cheongpa-ro 93-gil, Yongsan-gu 서울"
+    },
+    {
+      "slug": "seoul-10586008",
+      "hotelName": "사당 넘버25 사당역점",
+      "address": "서울특별시 관악구 승방2길 13"
+    },
+    {
+      "slug": "seoul-5686278",
+      "hotelName": "금강모텔",
+      "address": "서울특별시 용산구 만리재로36길 16-1"
+    },
+    {
+      "slug": "seoul-10575182",
+      "hotelName": "영등포 CF",
+      "address": "서울특별시 영등포구 영중로10길 41"
+    },
+    {
+      "slug": "seoul-10576349",
+      "hotelName": "신촌 Hotel Ludi (루디)",
+      "address": "30, Sogang-ro 20-gil, Mapo-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10573399",
+      "hotelName": "답십리 쌍마",
+      "address": "서울특별시 동대문구 전농로 12"
+    },
+    {
+      "slug": "seoul-10584969",
+      "hotelName": "왕십리 부르네",
+      "address": "서울특별시 성동구 왕십리로22길 17-1"
+    },
+    {
+      "slug": "seoul-10579730",
+      "hotelName": "잠실 자자호텔",
+      "address": "서울특별시 송파구 오금로11길 47"
+    },
+    {
+      "slug": "seoul-10575046",
+      "hotelName": "신사 애인(무인)호텔",
+      "address": "2, Apgujeong-ro 2-gil, Gangnam-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-13302872",
+      "hotelName": "용산 스카이 호텔",
+      "address": "서울특별시 용산구 한강대로7길 9-5 스카이호텔"
+    },
+    {
+      "slug": "seoul-35928582",
+      "hotelName": "잠실 아이다",
+      "address": "서울특별시 송파구 올림픽로34길 3-6"
+    },
+    {
+      "slug": "seoul-16347978",
+      "hotelName": "건대(구의) 위시앤스테이",
+      "address": "594, Gwangnaru-ro, Gwangjin-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10581322",
+      "hotelName": "신천 플러스",
+      "address": "5-25, Olympic-ro 12-gil, Songpa-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10586182",
+      "hotelName": "영등포 코코",
+      "address": "서울특별시 영등포구 영신로38길 22"
+    },
+    {
+      "slug": "seoul-10586495",
+      "hotelName": "천호 히트",
+      "address": "서울특별시 강동구 구천면로24길 28"
+    },
+    {
+      "slug": "seoul-10581041",
+      "hotelName": "상봉 메이",
+      "address": "서울특별시 중랑구 망우로52길 28"
+    },
+    {
+      "slug": "seoul-10577663",
+      "hotelName": "장안 호텔 A366",
+      "address": "서울특별시 동대문구 장한로26가길 46 호텔 A366"
+    },
+    {
+      "slug": "seoul-14085545",
+      "hotelName": "회기 Q",
+      "address": "서울특별시 동대문구 회기로31길 9"
+    },
+    {
+      "slug": "seoul-18528283",
+      "hotelName": "미아사거리역 K(케이)",
+      "address": "서울특별시 강북구 월계로 43 2층~3층"
+    },
+    {
+      "slug": "seoul-10582902",
+      "hotelName": "영등포 The Moon 호텔",
+      "address": "서울특별시 영등포구 영중로8길 13"
+    },
+    {
+      "slug": "seoul-10590889",
+      "hotelName": "당산 Hotel K",
+      "address": "49, Yangpyeong-ro, Yeongdeungpo-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-19912064",
+      "hotelName": "신촌 호텔 서강스테이",
+      "address": "서울특별시 마포구 서강로18길 13"
+    },
+    {
+      "slug": "seoul-10589390",
+      "hotelName": "화곡 팰리스",
+      "address": "서울특별시 강서구 화곡로42나길 31"
+    },
+    {
+      "slug": "seoul-26957006",
+      "hotelName": "와이로드 135",
+      "address": "서울특별시 영등포구 영등포로13길 5"
+    },
+    {
+      "slug": "seoul-13302735",
+      "hotelName": "약수(신당) 세화",
+      "address": "66, Dasan-ro, Jung-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-16263536",
+      "hotelName": "이태원 성지",
+      "address": "서울특별시 용산구 회나무로 45-1"
+    },
+    {
+      "slug": "seoul-10575638",
+      "hotelName": "아차산역 코지",
+      "address": "서울특별시 광진구 용마산로 24"
+    },
+    {
+      "slug": "seoul-30308584",
+      "hotelName": "가산 썸모텔",
+      "address": "서울특별시 금천구 벚꽃로40길 11 썸모텔"
+    },
+    {
+      "slug": "seoul-10587530",
+      "hotelName": "왕십리 미르",
+      "address": "서울특별시 성동구 왕십리로20길 28-1"
+    },
+    {
+      "slug": "seoul-10584040",
+      "hotelName": "신촌 모모",
+      "address": "서울특별시 서대문구 연세로2길 48 신촌 이젠"
+    },
+    {
+      "slug": "seoul-10582663",
+      "hotelName": "아차산역 월(月) 호텔",
+      "address": "4, Cheonho-daero 138-gil, Gwangjin-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10583034",
+      "hotelName": "신촌 성도",
+      "address": "서울특별시 마포구 서강로18길 29 신촌 성도"
+    },
+    {
+      "slug": "seoul-18468992",
+      "hotelName": "화곡 쟈스민",
+      "address": "서울특별시 강서구 초록마을로3길 49"
+    },
+    {
+      "slug": "seoul-10588143",
+      "hotelName": "천호 밀레오",
+      "address": "서울특별시 강동구 구천면로24길 20-10"
+    },
+    {
+      "slug": "seoul-10580458",
+      "hotelName": "방배 M",
+      "address": "서울특별시 서초구 방배로 200"
+    },
+    {
+      "slug": "seoul-10586654",
+      "hotelName": "신촌 캠퍼스",
+      "address": "서울특별시 서대문구 연세로2나길 3"
+    },
+    {
+      "slug": "seoul-21727562",
+      "hotelName": "종로 Z무인텔",
+      "address": "서울특별시 중구 남대문로9길 8"
+    },
+    {
+      "slug": "seoul-10576040",
+      "hotelName": "영등포 썬모텔",
+      "address": "서울특별시 영등포구 도림로 273-1"
+    },
+    {
+      "slug": "seoul-14085244",
+      "hotelName": "미아사거리역 대원",
+      "address": "45, Dobong-ro, Gangbuk-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10583853",
+      "hotelName": "종로(3가) 피카소",
+      "address": "서울특별시 종로구 수표로22길 11"
+    },
+    {
+      "slug": "seoul-10574622",
+      "hotelName": "중곡 라마",
+      "address": "서울특별시 광진구 면목로 183-1"
+    },
+    {
+      "slug": "seoul-10587879",
+      "hotelName": "독산 대호모텔",
+      "address": "서울특별시 금천구 가산로3길 10"
+    },
+    {
+      "slug": "seoul-10581379",
+      "hotelName": "수유 오투",
+      "address": "서울특별시 강북구 도봉로83길 15"
+    },
+    {
+      "slug": "seoul-17202554",
+      "hotelName": "Hapjeong Namgyung Hotel",
+      "address": "7 Yanghwa-ro 1-gil 서울"
+    },
+    {
+      "slug": "seoul-10581067",
+      "hotelName": "노원 에이플러스 무인텔",
+      "address": "20-21, Nohae-ro 75-gil, Nowon-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10581219",
+      "hotelName": "신촌 슈미에르호텔",
+      "address": "23, Yonsei-ro 2-gil, Seodaemun-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-14085212",
+      "hotelName": "노원(공릉동) QT",
+      "address": "서울특별시 노원구 동일로 1035"
+    },
+    {
+      "slug": "seoul-11996991",
+      "hotelName": "신당 A (에이)",
+      "address": "30, Toegye-ro 76-gil, Jung-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-13576219",
+      "hotelName": "신당 M",
+      "address": "22, Dasan-ro 35-gil, Jung-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10583756",
+      "hotelName": "신림 르네상스",
+      "address": "서울특별시 관악구 신림로64길 12"
+    },
+    {
+      "slug": "seoul-10573120",
+      "hotelName": "상봉 M",
+      "address": "11, Sangbong-ro 28-gil, Jungnang-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10581986",
+      "hotelName": "연신내 K",
+      "address": "서울특별시 은평구 연서로28길 9"
+    },
+    {
+      "slug": "seoul-10583767",
+      "hotelName": "회기 발리",
+      "address": "서울특별시 동대문구 이문로 13"
+    },
+    {
+      "slug": "seoul-10579322",
+      "hotelName": "독산 휴",
+      "address": "서울특별시 금천구 독산로 327"
+    },
+    {
+      "slug": "seoul-34114176",
+      "hotelName": "커플 모텔",
+      "address": "서울특별시 강서구 화곡로42길 16"
+    },
+    {
+      "slug": "seoul-13302891",
+      "hotelName": "대방(대방역) 로체",
+      "address": "10, Yeouidaebang-ro 55-gil, Yeongdeungpo-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-13302882",
+      "hotelName": "수유 포시즌 호텔",
+      "address": "서울특별시 강북구 오패산로77길 46"
+    },
+    {
+      "slug": "seoul-10584488",
+      "hotelName": "도봉(방학역) 럭스",
+      "address": "739, Dobong-ro, Dobong-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-18469408",
+      "hotelName": "오류 세븐",
+      "address": "33, Gyeongin-ro 22-gil, Guro-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-10589509",
+      "hotelName": "수유(우이동) 하이스텔",
+      "address": "655, Samyang-ro, Gangbuk-gu, Seoul 서울"
+    },
+    {
+      "slug": "seoul-14085161",
+      "hotelName": "대림 캐슬론",
+      "address": "서울특별시 영등포구 대림로 84"
+    },
+    {
+      "slug": "seoul-35425933",
+      "hotelName": "구로(개봉)로얄",
+      "address": "서울특별시 구로구 개봉로23가길 2 2~4층"
+    },
+    {
+      "slug": "seoul-25455813",
+      "hotelName": "신대방 민모텔",
+      "address": "서울특별시 영등포구 대방천로 244-1"
+    },
+    {
+      "slug": "seoul-10574785",
+      "hotelName": "신림 스테이 모먼트",
+      "address": "서울특별시 관악구 신림동1길 19-5"
+    },
+    {
+      "slug": "seoul-14719948",
+      "hotelName": "구로(가리봉) 남양장",
+      "address": "서울특별시 구로구 디지털로19길 28"
+    },
+    {
+      "slug": "seoul-14085455",
+      "hotelName": "건대 은성",
+      "address": "서울특별시 광진구 자양번영로 31"
+    },
+    {
+      "slug": "seoul-10581564",
+      "hotelName": "성북(종암동) 아이비",
+      "address": "서울특별시 성북구 종암로28길 60 대우장"
+    },
+    {
+      "slug": "seoul-10584023",
+      "hotelName": "연신내 레드",
+      "address": "서울특별시 은평구 연서로 220-2"
+    },
+    {
+      "slug": "seoul-36445138",
+      "hotelName": "화곡 제일여관",
+      "address": "서울특별시 강서구 화곡로 186-42 제일여관"
+    },
+    {
+      "slug": "seoul-10589678",
+      "hotelName": "신촌 호텔 라운지(Lounge)",
+      "address": "서울특별시 서대문구 연세로2길 15-3"
+    },
+    {
+      "slug": "seoul-6345625",
+      "hotelName": "Hongdae Mainstreet Two Room House",
+      "address": "27-7, Hongik-ro 2-gil, Mapo-gu 서울"
+    },
+    {
+      "slug": "seoul-10587481",
+      "hotelName": "화곡 K2",
+      "address": "서울특별시 강서구 곰달래로 56 케이투모텔"
+    },
+    {
+      "slug": "seoul-6342111",
+      "hotelName": "SJ Tailored Service Apartment near Seoul Station",
+      "address": "B-#1207, 27, Chilpae-ro, Jung-gu 서울"
+    },
+    {
+      "slug": "seoul-34522827",
+      "hotelName": "Luxury Hanok Whispering Garden",
+      "address": "57-6 Jahamun-ro, Jongno-gu 서울"
+    },
+    {
+      "slug": "seoul-10583758",
+      "hotelName": "신림 뉴스타",
+      "address": "서울특별시 관악구 신림로 353-7"
+    },
+    {
+      "slug": "seoul-10574984",
+      "hotelName": "중랑(면목) 더 자바",
+      "address": "서울특별시 중랑구 중랑천로 54 면목 더 자바"
+    },
+    {
+      "slug": "seoul-34546515",
+      "hotelName": "Luxury Hanok Scent of moonlight stay",
+      "address": "42-1, Jahamun-ro 1-gil, Jongno-gu 서울"
+    },
+    {
+      "slug": "seoul-34544388",
+      "hotelName": "Luxury Hanok Pine Residence",
+      "address": "10-4 Gyedong 4-gil, Jongno-gu 서울"
+    },
+    {
+      "slug": "seoul-13302892",
+      "hotelName": "금천 호텔 트리플8",
+      "address": "서울특별시 금천구 시흥대로56길 15"
+    },
+    {
+      "slug": "seoul-1567589",
+      "hotelName": "Comfortable as your home - JS1",
+      "address": "#201, 439-3, Jeungsan-ro, Eunpyeong-gu 서울"
+    },
+    {
+      "slug": "seoul-34544351",
+      "hotelName": "Luxury Hanok Stay Elegance",
+      "address": "17-8 Jahamun-ro 5ga-gil, Jongno-gu 서울"
+    }
+  ],
+  "samples": [
+    {
+      "slug": "seoul-10175375",
+      "kind": "reference",
+      "removed": [
+        "솔직후기 블루레인라운지까지 완벽했던 혜화호캉스 글루호텔",
+        "통창 뷰 좋은 글루호텔 디럭스 더블 2성급 혼캉스 후기"
+      ]
+    },
+    {
+      "slug": "seoul-10175375",
+      "kind": "wifi",
+      "value": "무료 와이파이 및 턴테이블 라운지 이용 가능"
+    },
+    {
+      "slug": "seoul-10175375",
+      "kind": "parking",
+      "value": "유료 주차이며 사전 예약이 필요함"
+    },
+    {
+      "slug": "seoul-10175375",
+      "kind": "breakfast",
+      "value": "조식이 기본 포함이 아닌 유료 옵션"
+    },
+    {
+      "slug": "seoul-10175375",
+      "kind": "parking",
+      "value": "주차는 1박당 2만원 유료, 사전 예약 필수"
+    },
+    {
+      "slug": "seoul-10175375",
+      "kind": "breakfast",
+      "value": "조식은 1인 13,000원 유료, 블루레인 라운지 이용"
+    },
+    {
+      "slug": "seoul-10175375",
+      "kind": "wifi",
+      "value": "무료 와이파이와 함께 객실 내 미니 냉장고, 전기포트 등 기본적인 편의시설이 잘 갖춰져 있습니다."
+    },
+    {
+      "slug": "seoul-10175375",
+      "kind": "parking",
+      "value": "주차는 1박당 2만원의 유료이며 사전 예약이 필수입니다."
+    },
+    {
+      "slug": "seoul-10175375",
+      "kind": "breakfast",
+      "value": "조식은 1인 13,000원으로 유료이며, 블루레인 라운지에서 이용 가능합니다."
+    },
+    {
+      "slug": "seoul-10301888",
+      "kind": "reference",
+      "removed": [
+        "[경희대/회기역 맛집] 페북에서 유명한 사시미 정식이 있는...",
+        "구리 호텔 찾기 - 경기도 구리 호텔 특가 및 최신 요금을..."
+      ]
+    },
+    {
+      "slug": "seoul-10301888",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "seoul-10301888",
+      "kind": "wifi",
+      "value": "무료 와이파이 미지원에 대비한 개인 데이터 환경 점검"
+    },
+    {
+      "slug": "seoul-10301888",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "seoul-10301888",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "seoul-1030370",
+      "kind": "reference",
+      "removed": [
+        "숙소 K게스트하우스 동대문프리미엄점 트윈룸 내부 조식 후기",
+        "서울 K-게스트하우스 동대문 프리미엄 2 이용안내 및 상세후기",
+        "K-게스트하우스 동대문 프리미엄 2 객실보기 및 투숙리뷰",
+        "서울 동대문 K 게스트하우스에 호텔 매트리스로 주문 제작..."
+      ]
+    },
+    {
+      "slug": "seoul-1030370",
+      "kind": "breakfast",
+      "value": "간단한 무료 조식 제공"
+    },
+    {
+      "slug": "seoul-1030370",
+      "kind": "wifi",
+      "value": "무료 와이파이 제공 여부 확인 필요 (API 정보 불일치)"
+    },
+    {
+      "slug": "seoul-1030370",
+      "kind": "parking",
+      "value": "차량 이동과 무료 주차가 최우선인 여행자"
+    },
+    {
+      "slug": "seoul-1030370",
+      "kind": "breakfast",
+      "value": "간단한 무료 조식(시리얼, 토스트 등) 제공 여부 및 시간 확인"
+    },
+    {
+      "slug": "seoul-1030370",
+      "kind": "wifi",
+      "value": "객실 내 무료 와이파이 제공 여부 사전 문의"
+    },
+    {
+      "slug": "seoul-1030370",
+      "kind": "breakfast",
+      "value": "3층에 위치한 리셉션은 체크인/아웃 업무 외에도 짐 보관소와 간단한 조식당 역할을 겸하며, 직원들은 방문객들에게 따뜻하고 세심한 배려를 제공합니다."
+    },
+    {
+      "slug": "seoul-1030370",
+      "kind": "breakfast",
+      "value": "또한, 간단하지만 무료로 제공되는 조식은 여행 경비를 절약하는 데 도움이 됩니다."
+    },
+    {
+      "slug": "seoul-1030370",
+      "kind": "wifi",
+      "value": "API 정보상 무료 와이파이 제공 여부가 불분명하나, 실제 후기에서는 넷플릭스 이용 등이 언급되어 공용 공간 또는 객실 내 와이파이 이용 가능성이 높습니다."
+    },
+    {
+      "slug": "seoul-1030370",
+      "kind": "breakfast",
+      "value": "조식은 시리얼, 토스트, 주스 등 간단한 구성으로 제공됩니다."
+    },
+    {
+      "slug": "seoul-1030425",
+      "kind": "wifi",
+      "value": "무료 와이파이 제공"
+    },
+    {
+      "slug": "seoul-1030425",
+      "kind": "breakfast",
+      "value": "조식이 기본 요금에 불포함 (별도 비용)"
+    },
+    {
+      "slug": "seoul-1030425",
+      "kind": "wifi",
+      "value": "객실은 대체로 아담한 크기이지만, 무료 와이파이 등 필요한 편의시설은 잘 갖추고 있습니다."
+    },
+    {
+      "slug": "seoul-1030425",
+      "kind": "breakfast",
+      "value": "조식은 기본 숙박 요금에 포함되어 있지 않으며, 별도로 이용할 경우 추가 비용이 발생할 수 있습니다."
+    },
+    {
+      "slug": "seoul-10561634",
+      "kind": "reference",
+      "removed": [
+        "의 아파트먼트 (41m², 침실 2개, 프라이빗 욕실 1개) 할인가 확인",
+        "하우스 (41m², 침실 1개, 프라이빗 욕실 1개) 특가 링크 안내",
+        "서울 호텔 신촌의 빌라 (39m², 침실 2개, 프라이빗 욕실 1개)...",
+        "서울 호텔 홍대의 빌라 (39m², 침실 2개, 프라이빗 욕실 1개)...",
+        "온나의 빌라 (120m², 침실 2개, 프라이빗 욕실 1개) 할인 예약..."
+      ]
+    },
+    {
+      "slug": "seoul-10561634",
+      "kind": "wifi",
+      "value": "무료 와이파이 제공 여부를 반드시 확인하세요."
+    },
+    {
+      "slug": "seoul-10561634",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "seoul-10561634",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "seoul-10561634",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "seoul-10561634",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "seoul-10561634",
+      "kind": "breakfast",
+      "value": "조식이 포함되어 있지 않습니다."
+    },
+    {
+      "slug": "seoul-10571351",
+      "kind": "breakfast",
+      "value": "신길역과 영등포역 접근성이 뛰어나 서울 시내 이동이 편리하며, 무료 조식과 짐 보관 서비스 등 실용적인 편의를 제공합니다."
+    },
+    {
+      "slug": "seoul-10571351",
+      "kind": "breakfast",
+      "value": "무료로 제공되는 조식의 높은 만족도"
+    },
+    {
+      "slug": "seoul-10571351",
+      "kind": "parking",
+      "value": "주차 공간이 유료이며 사전 예약이 필요할 수 있어 차량 이용 시 확인 필수"
+    },
+    {
+      "slug": "seoul-10571351",
+      "kind": "breakfast",
+      "value": "조식: 무료로 제공되는 조식은 가성비가 좋다는 평이 많으니 이용을 고려해 보세요."
+    },
+    {
+      "slug": "seoul-10571351",
+      "kind": "parking",
+      "value": "주차: 유료 주차이며, 사전 예약이 필요할 수 있으니 차량 이용 시 호텔에 문의하세요."
+    }
+  ]
+}

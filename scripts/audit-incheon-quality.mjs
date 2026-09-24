@@ -1,14 +1,27 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const apply = process.argv.includes('--apply');
+const regionPrefix = process.env.QUALITY_REGION_PREFIX || 'incheon';
+const auditDate = process.env.QUALITY_AUDIT_DATE || new Date().toISOString().slice(0, 10);
+const regionConfig = {
+  incheon: {
+    address: /(인천|Incheon)/i,
+    locations: ['강화도', '강화', '영종도', '영종', '을왕리', '송도', '부평', '주안', '구월동', '간석동', '소래포구', '연안부두', '월미도', '운서', '검단', '계양', '청라', '옹진', '선재도', '영흥도']
+  },
+  seoul: {
+    address: /(서울|Seoul)/i,
+    locations: ['강남', '명동', '홍대', '홍익대', '종로', '인사동', '동대문', '잠실', '여의도', '영등포', '용산', '이태원', '마포', '신촌', '서초', '구로', '금천', '관악', '송파', '광진', '성동', '성북', '강북', '도봉', '노원', '중랑', '은평', '서대문', '양천', '강서', '동작', '청량리', '서울역', '김포공항']
+  }
+}[regionPrefix];
+if (!regionConfig) throw new Error(`Unsupported region prefix: ${regionPrefix}`);
 const sourcePath = 'src/data/generatedHotels.ts';
 const source = await readFile(sourcePath, 'utf8');
 const match = source.match(/export const generatedHotels(?:\s*:\s*any\[\])?\s*=\s*([\s\S]*);\s*$/);
 if (!match) throw new Error('Could not parse generatedHotels.ts');
 
 const hotels = JSON.parse(match[1]);
-const incheon = hotels.filter((hotel) => String(hotel.slug || '').startsWith('incheon-'));
-const outOfRegion = incheon.filter((hotel) => !/(인천|Incheon)/i.test(String(hotel.address || '')));
+const incheon = hotels.filter((hotel) => String(hotel.slug || '').startsWith(`${regionPrefix}-`));
+const outOfRegion = incheon.filter((hotel) => !regionConfig.address.test(String(hotel.address || '')));
 const outOfRegionSlugs = new Set(outOfRegion.map((hotel) => hotel.slug));
 const report = {
   scanned: incheon.length,
@@ -25,6 +38,7 @@ for (const hotel of incheon) {
   if (outOfRegionSlugs.has(hotel.slug)) continue;
   sanitizeReferenceLinks(hotel);
   sanitizeFacilityClaims(hotel);
+  applySafeFallbackSummary(hotel);
   const bodyLength = (hotel.analysis?.blogReview?.sections || [])
     .flatMap((section) => section.paragraphs || [])
     .reduce((sum, paragraph) => sum + String(paragraph || '').length, 0);
@@ -35,17 +49,17 @@ for (const hotel of incheon) {
 const nextHotels = hotels.filter((hotel) => !outOfRegionSlugs.has(hotel.slug));
 await mkdir('data/audits', { recursive: true });
 await writeFile(
-  'data/audits/incheon-quality-audit-2026-09-23.json',
+  `data/audits/${regionPrefix}-quality-audit-${auditDate}.json`,
   `${JSON.stringify(report, null, 2)}\n`,
   'utf8'
 );
 await writeFile(
-  'data/audits/incheon-quarantine-slugs-2026-09-23.json',
+  `data/audits/${regionPrefix}-quarantine-slugs-${auditDate}.json`,
   `${JSON.stringify([...outOfRegionSlugs], null, 2)}\n`,
   'utf8'
 );
 await writeFile(
-  'data/audits/incheon-missing-image-slugs-2026-09-23.json',
+  `data/audits/${regionPrefix}-missing-image-slugs-${auditDate}.json`,
   `${JSON.stringify(report.missingVerifiedHero.map((hotel) => hotel.slug), null, 2)}\n`,
   'utf8'
 );
@@ -96,6 +110,7 @@ function isRelevantReference(hotel, link) {
     distinctive.length === 1 && tokenHits.length === 1
   );
   if (!nameMatch) return false;
+  if (exactName) return true;
 
   // 동명 숙소 오염을 막기 위해 이름이나 주소에 지역 단서가 있으면 제목에도 하나는 요구한다.
   if (locationTokens.length && !locationTokens.some((token) => title.includes(token))) return false;
@@ -108,6 +123,7 @@ function getDistinctiveNameTokens(value) {
     '강화도', '영종도', '을왕리', '송도', '부평', '주안', '구월동', '간석동', '소래포구',
     '점', '더', 'the', 'hotel', 'resort', 'pension', 'guesthouse'
   ]);
+  for (const location of regionConfig.locations) ignored.add(normalize(location));
   return [...new Set(String(value || '')
     .toLowerCase()
     .replace(/[()（）]/g, ' ')
@@ -116,13 +132,19 @@ function getDistinctiveNameTokens(value) {
     .filter((token) => token.length >= 2 && !ignored.has(token)))];
 }
 
+function applySafeFallbackSummary(hotel) {
+  const summary = String(hotel.analysis?.summary || '');
+  if (!/^(?:조식 운영 여부|Wi-Fi 제공 범위|주차 가능 여부)/.test(summary) && !/에 등록된 숙소입니다\./.test(summary)) return;
+  const location = String(hotel.address || '').replace(/\s+/g, ' ').trim();
+  const reviewLine = Number(hotel.reviewCount) > 0
+    ? `아고다에 공개된 ${Number(hotel.reviewCount).toLocaleString('ko-KR')}개 후기와 ${Number(hotel.reviewScore || 0).toFixed(1)}점 평점은 참고 자료로 확인할 수 있습니다.`
+    : '현재 확인되는 공개 후기 정보는 많지 않습니다.';
+  hotel.analysis.summary = `${hotel.hotelName}의 등록 주소는 ${location || regionPrefix}입니다. ${reviewLine} 조식·Wi-Fi·주차 등 현재 이용 조건은 예약 화면이나 숙소의 최신 안내를 확인하세요.`;
+}
+
 function getLocationTokens(hotel) {
   const source = `${hotel.hotelName || ''} ${hotel.address || ''}`;
-  const candidates = [
-    '강화도', '강화', '영종도', '영종', '을왕리', '송도', '부평', '주안', '구월동', '간석동',
-    '소래포구', '연안부두', '월미도', '운서', '검단', '계양', '청라', '옹진', '선재도', '영흥도'
-  ];
-  return candidates.filter((token) => source.includes(token)).map(normalize);
+  return regionConfig.locations.filter((token) => source.includes(token)).map(normalize);
 }
 
 function sanitizeFacilityClaims(hotel) {
@@ -147,6 +169,7 @@ function neutralizeFacilityText(hotel, value, key) {
 
 function facilityClaimKind(value) {
   const text = String(value || '');
+  if (/예약 화면 또는 숙소의 최신 안내를 확인하세요/.test(text)) return '';
   const assertion = /(무료|제공|운영|포함|불포함|미포함|가능|불가|없(?:음|습니다|다)?|협소|만차|유료|요금)/i;
   if (!assertion.test(text)) return '';
   if (/(조식|아침\s*식사|breakfast)/i.test(text)) return 'breakfast';

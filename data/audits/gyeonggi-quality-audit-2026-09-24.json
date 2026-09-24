@@ -1,0 +1,3770 @@
+{
+  "scanned": 1200,
+  "quarantined": [
+    {
+      "slug": "gyeonggi-10247448",
+      "hotelName": "에이치 에비뉴 호텔",
+      "address": "서울특별시 마포구 신촌로 152"
+    },
+    {
+      "slug": "gyeonggi-1030867",
+      "hotelName": "호텔 럭스",
+      "address": "서울특별시 노원구 노해로75길 14-3"
+    },
+    {
+      "slug": "gyeonggi-11031875",
+      "hotelName": "문 호텔",
+      "address": "서울특별시 중구 남대문로1길 26-19 1~3층"
+    },
+    {
+      "slug": "gyeonggi-12033695",
+      "hotelName": "호텔 하우스",
+      "address": "서울특별시 중구 남대문로9길 6"
+    },
+    {
+      "slug": "gyeonggi-2526448",
+      "hotelName": "호텔 리즈",
+      "address": "서울특별시 종로구 수표로22길 16 호텔팝 리즈프리미어"
+    },
+    {
+      "slug": "gyeonggi-256674",
+      "hotelName": "코리아 관광호텔",
+      "address": "서울특별시 종로구 삼일대로15길 6 4층"
+    },
+    {
+      "slug": "gyeonggi-2639334",
+      "hotelName": "레스트 호텔",
+      "address": "서울특별시 종로구 종로17길 48 1~5층"
+    },
+    {
+      "slug": "gyeonggi-267352",
+      "hotelName": "상상호텔",
+      "address": "서울특별시 중구 남대문로 9"
+    },
+    {
+      "slug": "gyeonggi-26931602",
+      "hotelName": "비아 호텔",
+      "address": "서울특별시 종로구 삼일대로17길 50 2층"
+    },
+    {
+      "slug": "gyeonggi-26980987",
+      "hotelName": "골든플래닛호텔",
+      "address": "인천광역시 제물포구 서해대로417번길 1 1층"
+    },
+    {
+      "slug": "gyeonggi-27836595",
+      "hotelName": "화천 스카이밸리 펜션",
+      "address": "강원특별자치도 화천군 사내면 포화로 64"
+    },
+    {
+      "slug": "gyeonggi-28197463",
+      "hotelName": "해돋이펜션",
+      "address": "인천광역시 강화군 화도면 해안남로 1374-9"
+    },
+    {
+      "slug": "gyeonggi-291253",
+      "hotelName": "라인호텔",
+      "address": "서울특별시 중구 명동3길 36"
+    },
+    {
+      "slug": "gyeonggi-297518",
+      "hotelName": "어반 부티크 호텔",
+      "address": "서울특별시 종로구 돈화문로11나길 53 어반스테이 부티크 익선"
+    },
+    {
+      "slug": "gyeonggi-31070456",
+      "hotelName": "25 호텔",
+      "address": "서울특별시 중구 을지로44길 17-7 넘버25호텔 동대문점"
+    },
+    {
+      "slug": "gyeonggi-31435230",
+      "hotelName": "26호텔",
+      "address": "서울특별시 중구 세종대로16길 26"
+    },
+    {
+      "slug": "gyeonggi-32784686",
+      "hotelName": "에스알 호텔",
+      "address": "서울특별시 동작구 동작대로1길 15"
+    },
+    {
+      "slug": "gyeonggi-32982334",
+      "hotelName": "라트리",
+      "address": "서울특별시 영등포구 영등포로3길 16 2층"
+    },
+    {
+      "slug": "gyeonggi-33751918",
+      "hotelName": "에이원 호텔",
+      "address": "서울특별시 용산구 이태원로20길 2-8 에이원 호텔"
+    },
+    {
+      "slug": "gyeonggi-34154718",
+      "hotelName": "365 스테이",
+      "address": "인천광역시 영종구 영종대로196번길 15-30 2F~10F 영종365스테이"
+    },
+    {
+      "slug": "gyeonggi-3463708",
+      "hotelName": "오월 호텔",
+      "address": "서울특별시 강남구 언주로85길 27 오월호텔"
+    },
+    {
+      "slug": "gyeonggi-3653470",
+      "hotelName": "호텔 렉시",
+      "address": "서울특별시 강남구 테헤란로16길 11"
+    },
+    {
+      "slug": "gyeonggi-36819536",
+      "hotelName": "3S 호텔 소래점",
+      "address": "인천광역시 남동구 소래역로 26-16 3S 호텔 소래포구점"
+    },
+    {
+      "slug": "gyeonggi-400902",
+      "hotelName": "호텔 루이스",
+      "address": "서울특별시 서대문구 연세로2나길 6 브라운도트 호텔 BronwnDot Hotel"
+    },
+    {
+      "slug": "gyeonggi-406965",
+      "hotelName": "호텔 조이",
+      "address": "서울특별시 용산구 청파로85가길 10-4"
+    },
+    {
+      "slug": "gyeonggi-4145758",
+      "hotelName": "호텔 더 메이",
+      "address": "서울특별시 종로구 수표로26길 10 호텔 더 메이"
+    },
+    {
+      "slug": "gyeonggi-48417",
+      "hotelName": "래빗 리조트 (SHA Plus+)",
+      "address": "318/84 Moo 12, Soi Dongtan Police Station, Jomtien, Nongprue, Banglamung 파타야 Chon Buri"
+    },
+    {
+      "slug": "gyeonggi-572330",
+      "hotelName": "호텔 리치",
+      "address": "서울특별시 강북구 삼양로 500-18"
+    },
+    {
+      "slug": "gyeonggi-6358948",
+      "hotelName": "웨스턴베이 마리나 호텔",
+      "address": "서울특별시 강남구 언주로97길 7"
+    },
+    {
+      "slug": "gyeonggi-6548065",
+      "hotelName": "지오호텔",
+      "address": "서울특별시 종로구 삼봉로 81"
+    },
+    {
+      "slug": "gyeonggi-666025",
+      "hotelName": "인계동 넘버원",
+      "address": "서울특별시 중구 을지로44길 17-7 넘버25호텔 동대문점"
+    },
+    {
+      "slug": "gyeonggi-6953947",
+      "hotelName": "나인 부티크 호텔",
+      "address": "서울특별시 동대문구 왕산로 28"
+    },
+    {
+      "slug": "gyeonggi-6953967",
+      "hotelName": "마리 호텔",
+      "address": "서울특별시 강남구 언주로87길 10"
+    },
+    {
+      "slug": "gyeonggi-7360616",
+      "hotelName": "호텔갤러리",
+      "address": "경상남도 통영시 도남로 257-27"
+    },
+    {
+      "slug": "gyeonggi-781403",
+      "hotelName": "호텔 피카소",
+      "address": "서울특별시 강북구 도봉로 355-8"
+    },
+    {
+      "slug": "gyeonggi-807091",
+      "hotelName": "호텔 스퀘어",
+      "address": "서울특별시 종로구 청계천로 279"
+    },
+    {
+      "slug": "gyeonggi-8262505",
+      "hotelName": "그레이스 하우스",
+      "address": "서울특별시 서대문구 홍제내길 48"
+    },
+    {
+      "slug": "gyeonggi-916119",
+      "hotelName": "썸 모텔",
+      "address": "서울특별시 금천구 벚꽃로40길 11 썸모텔"
+    },
+    {
+      "slug": "gyeonggi-926681",
+      "hotelName": "더 스테이 호텔",
+      "address": "서울특별시 중구 명동8가길 31 4층 더스테이호텔"
+    },
+    {
+      "slug": "gyeonggi-995818",
+      "hotelName": "호텔 K",
+      "address": "서울특별시 종로구 삼일대로 388-7 부티크k호텔"
+    },
+    {
+      "slug": "gyeonggi-31214580",
+      "hotelName": "호텔 노블레스",
+      "address": "서울특별시 강남구 테헤란로25길 6-13"
+    },
+    {
+      "slug": "gyeonggi-21125570",
+      "hotelName": "플래티 펜션",
+      "address": "강원특별자치도 홍천군 서면 명성길 1-5"
+    },
+    {
+      "slug": "gyeonggi-6865315",
+      "hotelName": "팔레스 호텔",
+      "address": "인천광역시 연수구 대암로 19 팔레스호텔"
+    },
+    {
+      "slug": "gyeonggi-10589755",
+      "hotelName": "부천 필름 37.2",
+      "address": "인천광역시 계양구 계양문화로29번길 3"
+    }
+  ],
+  "referenceLinksRemoved": 2316,
+  "hotelsWithReferenceLinksRemoved": 768,
+  "facilityClaimsNeutralized": {
+    "breakfast": 3274,
+    "wifi": 1413,
+    "parking": 806
+  },
+  "thinPages": [],
+  "missingVerifiedHero": [
+    {
+      "slug": "gyeonggi-10572802",
+      "hotelName": "평택 오월숲",
+      "address": "경기도 평택시 자유로14번길 10"
+    },
+    {
+      "slug": "gyeonggi-10572922",
+      "hotelName": "수원시청역 라메르",
+      "address": "경기도 수원시 권선구 경수대로384번길 59 라메르호텔"
+    },
+    {
+      "slug": "gyeonggi-10573018",
+      "hotelName": "월곶 pier 106",
+      "address": "경기도 시흥시 월곶중앙로30번안길 10-6 피어106"
+    },
+    {
+      "slug": "gyeonggi-10573028",
+      "hotelName": "가평 블루비펜션",
+      "address": "경기도 가평군 청평면 큰갈월로 75-6 1동"
+    },
+    {
+      "slug": "gyeonggi-10573051",
+      "hotelName": "안산 호텔 버스",
+      "address": "경기도 안산시 단원구 선부광장1로 14"
+    },
+    {
+      "slug": "gyeonggi-10573059",
+      "hotelName": "남양주 나인 호텔 (HOTEL 9)",
+      "address": "경기도 남양주시 진접읍 해밀예당1로 50-50"
+    },
+    {
+      "slug": "gyeonggi-10573171",
+      "hotelName": "수원 호매실 로얄프라임 호텔",
+      "address": "경기도 수원시 권선구 금곡로197번길 17-10"
+    },
+    {
+      "slug": "gyeonggi-10573178",
+      "hotelName": "수원 호매실 로얄프라임 호텔",
+      "address": "경기도 수원시 권선구 금곡로197번길 17-10"
+    },
+    {
+      "slug": "gyeonggi-10573201",
+      "hotelName": "안산 3S BOUTIQUE HOTEL (무인텔)",
+      "address": "11, Seoam-ro 2-gil, Sangnok-gu, Ansan-si, Gyeonggi-do 안산"
+    },
+    {
+      "slug": "gyeonggi-10573226",
+      "hotelName": "산본 CC",
+      "address": "경기도 군포시 광정로 80"
+    },
+    {
+      "slug": "gyeonggi-10573326",
+      "hotelName": "양평 호텔도반펜션",
+      "address": "경기도 양평군 강상면 백병길 117"
+    },
+    {
+      "slug": "gyeonggi-10573361",
+      "hotelName": "대부도 M 무인텔",
+      "address": "경기도 안산시 단원구 대부황금로 1188 M모텔"
+    },
+    {
+      "slug": "gyeonggi-10573366",
+      "hotelName": "안양 루",
+      "address": "1188, Gyeongsu-daero, Manan-gu, Anyang-si, Gyeonggi-do 안양"
+    },
+    {
+      "slug": "gyeonggi-10573403",
+      "hotelName": "고양(주교) 발리",
+      "address": "경기도 고양시 덕양구 원당로59번길 12"
+    },
+    {
+      "slug": "gyeonggi-10573434",
+      "hotelName": "광명(철산) 세인트",
+      "address": "경기도 광명시 오리로854번길 12 세인트빌딩 5층 세인트모텔"
+    },
+    {
+      "slug": "gyeonggi-10573531",
+      "hotelName": "포천 햇살마루실우풀빌라",
+      "address": "경기도 포천시 일동면 운악청계로1480번길 125 125"
+    },
+    {
+      "slug": "gyeonggi-10573617",
+      "hotelName": "수원 호매실 스타호텔",
+      "address": "경기도 수원시 권선구 금곡로197번길 13"
+    },
+    {
+      "slug": "gyeonggi-10573618",
+      "hotelName": "분당(서현) 뷰",
+      "address": "경기도 성남시 분당구 분당로53번길 13 산호트윈스2호 5층"
+    },
+    {
+      "slug": "gyeonggi-10573865",
+      "hotelName": "가평 모닝힐펜션",
+      "address": "경기도 가평군 청평면 큰갈월로1번길 14 우측언덕"
+    },
+    {
+      "slug": "gyeonggi-10573883",
+      "hotelName": "가평 청호펜션",
+      "address": "경기도 가평군 청평면 양진길 14"
+    },
+    {
+      "slug": "gyeonggi-10574059",
+      "hotelName": "가평 에스앤비스파펜션 (계곡인접)",
+      "address": "1476-30, Gahwa-ro, Buk-myeon, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-10574209",
+      "hotelName": "화성(보통) 글로아",
+      "address": "경기도 화성시 효행구 정남면 세자로303번길 15-46 글로아호텔"
+    },
+    {
+      "slug": "gyeonggi-10574322",
+      "hotelName": "포천 그린힐펜션",
+      "address": "16, Yeowoogogae-ro 234beon-gil, Yeongbuk-myeon, Pocheon-si, Gyeonggi-do 포천"
+    },
+    {
+      "slug": "gyeonggi-10574355",
+      "hotelName": "양평 해피스토리펜션",
+      "address": "경기도 양평군 청운면 갈운장수마을길 16-14"
+    },
+    {
+      "slug": "gyeonggi-10574383",
+      "hotelName": "구리 미즈",
+      "address": "경기도 구리시 체육관로 162-18"
+    },
+    {
+      "slug": "gyeonggi-10574427",
+      "hotelName": "양평 시계꽃펜션",
+      "address": "경기도 양평군 서종면 화서1로 11"
+    },
+    {
+      "slug": "gyeonggi-10574557",
+      "hotelName": "가평(청평) 젠 하이더웨이 청평점",
+      "address": "1656, Bukhangang-ro Cheongpyeong-myeon, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-10574616",
+      "hotelName": "수원시청역 딘",
+      "address": "경기도 수원시 권선구 권선로699번길 19"
+    },
+    {
+      "slug": "gyeonggi-10574619",
+      "hotelName": "양평 아들바위펜션",
+      "address": "경기도 양평군 청운면 신론새터길 101"
+    },
+    {
+      "slug": "gyeonggi-10574645",
+      "hotelName": "청평 리오",
+      "address": "경기도 가평군 청평면 북한강로 1851"
+    },
+    {
+      "slug": "gyeonggi-10574652",
+      "hotelName": "부천 부띠끄돈키호텔(원종점)",
+      "address": "19, Wonjong-ro 65beon-gil, Bucheon-si, Gyeonggi-do 부천"
+    },
+    {
+      "slug": "gyeonggi-10574760",
+      "hotelName": "포천 샤인힐펜션",
+      "address": "경기도 포천시 화현면 봉화로 315-106"
+    },
+    {
+      "slug": "gyeonggi-10574768",
+      "hotelName": "부천 호텔 리자드",
+      "address": "경기도 부천시 원미구 부일로 465-2"
+    },
+    {
+      "slug": "gyeonggi-10574880",
+      "hotelName": "부천(역곡) 쥬쥬",
+      "address": "경기도 부천시 원미구 역곡로1번길 20"
+    },
+    {
+      "slug": "gyeonggi-10574913",
+      "hotelName": "용인(수지) 172st",
+      "address": "경기도 용인시 수지구 풍덕천로172번길 19-15"
+    },
+    {
+      "slug": "gyeonggi-10574923",
+      "hotelName": "대부도 썬온비펜션",
+      "address": "경기도 안산시 단원구 소득길 15-33 썬온비"
+    },
+    {
+      "slug": "gyeonggi-10574947",
+      "hotelName": "포천 헤이미쉬펜션",
+      "address": "경기도 포천시 신북면 아트밸리로 175-5 헤이미쉬"
+    },
+    {
+      "slug": "gyeonggi-10574955",
+      "hotelName": "연천 스텔라토 풀빌라 & 카라반풀램핑",
+      "address": "203-1, Seonsa-ro, Jeongok-eup, Yeoncheon-gun, Gyeonggi-do 연천"
+    },
+    {
+      "slug": "gyeonggi-10575114",
+      "hotelName": "양평 벨뷰펜션",
+      "address": "경기도 양평군 용문면 학골길 21"
+    },
+    {
+      "slug": "gyeonggi-10575137",
+      "hotelName": "포천 더스테이하루",
+      "address": "경기도 포천시 영중면 물안2길 36-1 더스테이하루"
+    },
+    {
+      "slug": "gyeonggi-10575142",
+      "hotelName": "양평 이볼하우스풀빌라펜션",
+      "address": "884-11, Jungmisan-ro, Seojong-myeon, Yangpyeong-gun, Gyeonggi-do 양평"
+    },
+    {
+      "slug": "gyeonggi-10575155",
+      "hotelName": "대부도 더해비치 수영장 바베큐 펜션",
+      "address": "15-47, Sodeuk-gil, Danwon-gu, Ansan-si, Gyeonggi-do 안산"
+    },
+    {
+      "slug": "gyeonggi-10575177",
+      "hotelName": "수원역 영일모텔",
+      "address": "경기도 수원시 팔달구 향교로3번길 54"
+    },
+    {
+      "slug": "gyeonggi-10575220",
+      "hotelName": "양주 갤러리 호텔",
+      "address": "경기도 고양시 덕양구 읍내로6번길 1-19 갤러리모텔"
+    },
+    {
+      "slug": "gyeonggi-10575246",
+      "hotelName": "가평 테라스풀빌라",
+      "address": "경기도 가평군 가평읍 태봉두밀로 421-51"
+    },
+    {
+      "slug": "gyeonggi-10575257",
+      "hotelName": "안양 SJ boutique HOTEL",
+      "address": "경기도 안양시 만안구 만안로 218"
+    },
+    {
+      "slug": "gyeonggi-10575297",
+      "hotelName": "용인 에버리움펜션",
+      "address": "경기도 용인시 처인구 포곡읍 곡현로 354-1"
+    },
+    {
+      "slug": "gyeonggi-10575310",
+      "hotelName": "가평 카라펜션",
+      "address": "경기도 가평군 가평읍 태봉두밀로 269-101 카라펜션"
+    },
+    {
+      "slug": "gyeonggi-10575550",
+      "hotelName": "수원(연무동) 코지",
+      "address": "경기도 수원시 장안구 창훈로80번길 22-3"
+    },
+    {
+      "slug": "gyeonggi-10575564",
+      "hotelName": "남양주 다바크 무인텔",
+      "address": "104, Machi-ro, Namyangju-si, Gyeonggi-do 남양주"
+    },
+    {
+      "slug": "gyeonggi-10575565",
+      "hotelName": "가평 박하사탕펜션",
+      "address": "경기도 가평군 가평읍 호반로 2387 제1동 1~4층"
+    },
+    {
+      "slug": "gyeonggi-10575584",
+      "hotelName": "김포 그레이 호텔",
+      "address": "경기도 김포시 김포한강9로75번길 24 6층, 7층"
+    },
+    {
+      "slug": "gyeonggi-10575653",
+      "hotelName": "양평 J 호텔",
+      "address": "경기도 양평군 옥천면 남한강변길 241"
+    },
+    {
+      "slug": "gyeonggi-10575765",
+      "hotelName": "포천(이동면) 로얄파크",
+      "address": "경기도 포천시 이동면 화동로 2440"
+    },
+    {
+      "slug": "gyeonggi-10575901",
+      "hotelName": "양평 펜션ABC풀빌라",
+      "address": "경기도 양평군 서종면 황순원로 532-12"
+    },
+    {
+      "slug": "gyeonggi-10575921",
+      "hotelName": "화성(제부도) 펜션제부비치콘도",
+      "address": "경기도 화성시 만세구 서신면 해안길 266-5"
+    },
+    {
+      "slug": "gyeonggi-10575944",
+      "hotelName": "가평 레드펜션",
+      "address": "269-113, Taebongdumil-ro, Gapyeong-eup, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-10575980",
+      "hotelName": "시흥 작은쉼터캠핑장&카라반",
+      "address": "경기도 시흥시 죽율로 25"
+    },
+    {
+      "slug": "gyeonggi-10575997",
+      "hotelName": "가평 JJ풀빌라&사우나펜션(핀란드사우나완비)",
+      "address": "27-1, Homyeongni-gil, Cheongpyeong-myeon, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-10576096",
+      "hotelName": "군포 비바체",
+      "address": "경기도 군포시 군포역2길 28"
+    },
+    {
+      "slug": "gyeonggi-10576280",
+      "hotelName": "양평 징검다리펜션",
+      "address": "경기도 양평군 서종면 황순원로 224-16"
+    },
+    {
+      "slug": "gyeonggi-10576296",
+      "hotelName": "양주 보림",
+      "address": "3, Gaenari 5-gil, Nam-myeon, Yangju-si, Gyeonggi-do 파주"
+    },
+    {
+      "slug": "gyeonggi-10576434",
+      "hotelName": "고양(주교) 트라움",
+      "address": "경기도 고양시 덕양구 고양시청로 31"
+    },
+    {
+      "slug": "gyeonggi-10576446",
+      "hotelName": "동수원(인계동) 갤러리",
+      "address": "31, Gyeongsu-daero 565beon-gil, Paldal-gu, Suwon-si, Gyeonggi-do 수원"
+    },
+    {
+      "slug": "gyeonggi-10576452",
+      "hotelName": "부천 오라",
+      "address": "경기도 부천시 원미구 부일로496번길 31"
+    },
+    {
+      "slug": "gyeonggi-10576526",
+      "hotelName": "성남 모란 가자",
+      "address": "경기도 성남시 중원구 산성대로 128 가자모텔"
+    },
+    {
+      "slug": "gyeonggi-10576551",
+      "hotelName": "안성 펜션뜰안채",
+      "address": "경기도 안성시 죽산면 용설로 315-10"
+    },
+    {
+      "slug": "gyeonggi-10576575",
+      "hotelName": "안산 호텔 도스",
+      "address": "경기도 안산시 상록구 용신로 318 호텔도스"
+    },
+    {
+      "slug": "gyeonggi-10576590",
+      "hotelName": "포천 여행스케치펜션",
+      "address": "경기도 포천시 영북면 산정호수로 892"
+    },
+    {
+      "slug": "gyeonggi-10576735",
+      "hotelName": "가평 힐앤폴풀빌라",
+      "address": "경기도 가평군 가평읍 태봉두밀로 522-151"
+    },
+    {
+      "slug": "gyeonggi-10576757",
+      "hotelName": "안산(상록수) 초콜릿",
+      "address": "34, Seokho-ro 3an-gil, Sangnok-gu, Ansan-si, Gyeonggi-do 안산"
+    },
+    {
+      "slug": "gyeonggi-10576779",
+      "hotelName": "양평 천년초한옥펜션",
+      "address": "경기도 양평군 서종면 서차남3길 34-10"
+    },
+    {
+      "slug": "gyeonggi-10576802",
+      "hotelName": "양평 더 뷰",
+      "address": "경기도 양평군 강하면 강남로 345"
+    },
+    {
+      "slug": "gyeonggi-10576843",
+      "hotelName": "수원(인계동) 퍼스트 M",
+      "address": "경기도 수원시 팔달구 중부대로128번길 35"
+    },
+    {
+      "slug": "gyeonggi-10576978",
+      "hotelName": "파주 W1호텔",
+      "address": "경기도 파주시 탄현면 성동로 36-34 W1 호텔"
+    },
+    {
+      "slug": "gyeonggi-10577027",
+      "hotelName": "안산 자자",
+      "address": "경기도 안산시 단원구 선부광장로 37 진주프라자"
+    },
+    {
+      "slug": "gyeonggi-10577056",
+      "hotelName": "구리 THE STAY(더스테이) 여기",
+      "address": "경기도 구리시 체육관로172번길 34-5"
+    },
+    {
+      "slug": "gyeonggi-10577067",
+      "hotelName": "양평 풀빌라리안하우스",
+      "address": "경기도 양평군 옥천면 장알재길 23-9 리안하우스"
+    },
+    {
+      "slug": "gyeonggi-10577086",
+      "hotelName": "가평 이오네스크펜션",
+      "address": "경기도 가평군 상면 수목원로 379"
+    },
+    {
+      "slug": "gyeonggi-10577141",
+      "hotelName": "용인 운학펜션",
+      "address": "경기도 용인시 처인구 동부로 388"
+    },
+    {
+      "slug": "gyeonggi-10577161",
+      "hotelName": "광명 나인",
+      "address": "경기도 광명시 오리로984번길 39 나인모텔"
+    },
+    {
+      "slug": "gyeonggi-10577185",
+      "hotelName": "가평 라비채펜션",
+      "address": "경기도 가평군 상면 수목원로 394 라비채"
+    },
+    {
+      "slug": "gyeonggi-10577187",
+      "hotelName": "양평 다브펜션",
+      "address": "경기도 양평군 서종면 화서로 1460-56 다브펜션"
+    },
+    {
+      "slug": "gyeonggi-10577248",
+      "hotelName": "성남 미투호텔",
+      "address": "경기도 성남시 수정구 수정로136번길 4"
+    },
+    {
+      "slug": "gyeonggi-10577277",
+      "hotelName": "화성(제부도) 바다뜰이야기펜션",
+      "address": "96-19, Haean-gil, Seosin-myeon, Hwaseong-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-10577409",
+      "hotelName": "포천 깊이울 모텔",
+      "address": "경기도 포천시 신북면 포천로1967번길 4-16"
+    },
+    {
+      "slug": "gyeonggi-10577424",
+      "hotelName": "포천 산정호수장발장펜션",
+      "address": "경기도 포천시 영북면 여우고개로242번길 42"
+    },
+    {
+      "slug": "gyeonggi-10577458",
+      "hotelName": "가평 더스틸펜션",
+      "address": "경기도 가평군 상면 청우산2길 42-11"
+    },
+    {
+      "slug": "gyeonggi-10577463",
+      "hotelName": "양평 소나무집펜션",
+      "address": "경기도 양평군 용문면 중원산로453번길 8"
+    },
+    {
+      "slug": "gyeonggi-10577536",
+      "hotelName": "송탄 알로 호텔",
+      "address": "경기도 평택시 송탄로 431"
+    },
+    {
+      "slug": "gyeonggi-10577542",
+      "hotelName": "화성 미드멜리",
+      "address": "경기도 화성시 만세구 팔탄면 버들로1597번길 4-4"
+    },
+    {
+      "slug": "gyeonggi-10577580",
+      "hotelName": "파주 마루 호텔",
+      "address": "경기도 파주시 탄현면 필승로 448"
+    },
+    {
+      "slug": "gyeonggi-10577587",
+      "hotelName": "구리 홍콩",
+      "address": "경기도 구리시 안골로57번길 45"
+    },
+    {
+      "slug": "gyeonggi-10577647",
+      "hotelName": "양평 무드리펜션",
+      "address": "경기도 양평군 서종면 내수입길 44-10"
+    },
+    {
+      "slug": "gyeonggi-10577675",
+      "hotelName": "월곶 선샤인",
+      "address": "경기도 시흥시 월곶중앙로14번길 46"
+    },
+    {
+      "slug": "gyeonggi-10577720",
+      "hotelName": "가평 리버하우스펜션",
+      "address": "경기도 가평군 청평면 대성강변길 34"
+    },
+    {
+      "slug": "gyeonggi-10577731",
+      "hotelName": "부천 인생호텔",
+      "address": "경기도 부천시 원미구 부천로2번길 47"
+    },
+    {
+      "slug": "gyeonggi-10577777",
+      "hotelName": "대부도 바닷가힐링캠프펜션",
+      "address": "경기도 안산시 단원구 아랫동심길 46"
+    },
+    {
+      "slug": "gyeonggi-10577857",
+      "hotelName": "파주 통일동산펜션",
+      "address": "경기도 파주시 탄현면 필승로 487-27"
+    },
+    {
+      "slug": "gyeonggi-10577871",
+      "hotelName": "수원시청역 아이스크림",
+      "address": "49, Gyeongsu-daero 384beon-gil, Gwonseon-gu, Suwon-si, Gyeonggi-do 수원"
+    },
+    {
+      "slug": "gyeonggi-10577911",
+      "hotelName": "가평 에스에스 리조트",
+      "address": "경기도 가평군 가평읍 북한강변로 494 에스에스리조트"
+    },
+    {
+      "slug": "gyeonggi-10577912",
+      "hotelName": "산본 꿈의궁전",
+      "address": "경기도 군포시 번영로 497"
+    },
+    {
+      "slug": "gyeonggi-10577927",
+      "hotelName": "의정부 씨-라인(C-LINE)",
+      "address": "경기도 의정부시 신흥로232번길 5-24 씨라인호텔"
+    },
+    {
+      "slug": "gyeonggi-10578094",
+      "hotelName": "안산 윈",
+      "address": "경기도 안산시 단원구 광덕2로 50-15"
+    },
+    {
+      "slug": "gyeonggi-10578107",
+      "hotelName": "남양주 호텔 하비비 무인",
+      "address": "경기도 포천시 소흘읍 민락로 636-17"
+    },
+    {
+      "slug": "gyeonggi-10578185",
+      "hotelName": "안산 메이트",
+      "address": "경기도 안산시 상록구 석호로3안길 52"
+    },
+    {
+      "slug": "gyeonggi-10578287",
+      "hotelName": "파주 뜰안채펜션",
+      "address": "경기도 파주시 법원읍 만월로 516-5"
+    },
+    {
+      "slug": "gyeonggi-10578309",
+      "hotelName": "일산(중산) 아방가르드",
+      "address": "경기도 고양시 일산동구 약산길 5-22"
+    },
+    {
+      "slug": "gyeonggi-10578384",
+      "hotelName": "포천 하늘짚펜션",
+      "address": "경기도 포천시 일동면 화동로857번길 5-40"
+    },
+    {
+      "slug": "gyeonggi-10578417",
+      "hotelName": "파주 모리CAFE펜션",
+      "address": "경기도 파주시 탄현면 헤이리마을길 38-86"
+    },
+    {
+      "slug": "gyeonggi-10578425",
+      "hotelName": "안산(중앙동) 마리",
+      "address": "경기도 안산시 단원구 고잔1길 66"
+    },
+    {
+      "slug": "gyeonggi-10578479",
+      "hotelName": "용인 신갈 라고",
+      "address": "경기도 용인시 기흥구 신정로237번길 5-5"
+    },
+    {
+      "slug": "gyeonggi-10578526",
+      "hotelName": "양평 랏지하우스 애견동반펜션",
+      "address": "32-8, Nomun-gil, Seojong-myeon, Yangpyeong-gun, Gyeonggi-do 양평"
+    },
+    {
+      "slug": "gyeonggi-10578576",
+      "hotelName": "분당 노블레스",
+      "address": "경기도 성남시 분당구 황새울로335번길 6 노블레스호텔"
+    },
+    {
+      "slug": "gyeonggi-10578673",
+      "hotelName": "가평 별을보다펜션",
+      "address": "경기도 가평군 청평면 호명리길 57-80"
+    },
+    {
+      "slug": "gyeonggi-10578688",
+      "hotelName": "안산 호텔 727",
+      "address": "경기도 안산시 단원구 광덕2로 58-14"
+    },
+    {
+      "slug": "gyeonggi-10578705",
+      "hotelName": "포천 FOR YOU(포유) 호텔",
+      "address": "경기도 포천시 소흘읍 민락로 604"
+    },
+    {
+      "slug": "gyeonggi-10578814",
+      "hotelName": "파주 테라펜션A",
+      "address": "경기도 파주시 탄현면 웅지로110번길 68-1"
+    },
+    {
+      "slug": "gyeonggi-10578831",
+      "hotelName": "양평 보석상자펜션",
+      "address": "경기도 양평군 서종면 소유곡길 5-9"
+    },
+    {
+      "slug": "gyeonggi-10578858",
+      "hotelName": "양평 프라미스펜션",
+      "address": "경기도 양평군 옥천면 중미산로 1178-10"
+    },
+    {
+      "slug": "gyeonggi-10578908",
+      "hotelName": "양평 자작나무숲펜션",
+      "address": "경기도 양평군 서종면 도장계곡길 62-5"
+    },
+    {
+      "slug": "gyeonggi-10578920",
+      "hotelName": "가평 로망펜션",
+      "address": "경기도 가평군 상면 수목원로 410 로망펜션"
+    },
+    {
+      "slug": "gyeonggi-10578928",
+      "hotelName": "성남 Design XYM 신흥역점",
+      "address": "6-5, Sanseong-daero 269beon-gil, Sujeong-gu, Seongnam-si, Gyeonggi-do 성남"
+    },
+    {
+      "slug": "gyeonggi-10578992",
+      "hotelName": "양평 레몬그라스펜션",
+      "address": "경기도 양평군 단월면 명성길 230"
+    },
+    {
+      "slug": "gyeonggi-10578993",
+      "hotelName": "화성 여울터펜션",
+      "address": "경기도 화성시 만세구 송산면 어섬길259번길 6-9"
+    },
+    {
+      "slug": "gyeonggi-10579006",
+      "hotelName": "용인(수지) 벨라지오호텔",
+      "address": "경기도 용인시 수지구 신수로 629 벨라지오호텔"
+    },
+    {
+      "slug": "gyeonggi-10579012",
+      "hotelName": "가평 눈깔사탕펜션",
+      "address": "경기도 가평군 북면 제령아랫말길 67-26"
+    },
+    {
+      "slug": "gyeonggi-10579021",
+      "hotelName": "평택(고덕) 호텔 JC",
+      "address": "경기도 평택시 고덕면 청원로 661-13 661-15,2층"
+    },
+    {
+      "slug": "gyeonggi-10579041",
+      "hotelName": "금정 BAND(밴드)",
+      "address": "경기도 군포시 군포로 647"
+    },
+    {
+      "slug": "gyeonggi-10579043",
+      "hotelName": "양평 도로시밸리 독채펜션",
+      "address": "경기도 양평군 단월면 명성길 304"
+    },
+    {
+      "slug": "gyeonggi-10579046",
+      "hotelName": "용인 양지 호텔카사",
+      "address": "경기도 용인시 처인구 양지읍 남평로 73-1"
+    },
+    {
+      "slug": "gyeonggi-10579080",
+      "hotelName": "남양주 강변비치",
+      "address": "경기도 남양주시 와부읍 경강로 650 강변비치파크"
+    },
+    {
+      "slug": "gyeonggi-10579145",
+      "hotelName": "부천 호텔 헤이부천",
+      "address": "12, Sosa-ro 247beon-gil, Bucheon-si, Gyeonggi-do 부천"
+    },
+    {
+      "slug": "gyeonggi-10579174",
+      "hotelName": "여주 미드미펜션",
+      "address": "경기도 여주시 금사면 금품2로 761-30 미드미펜션"
+    },
+    {
+      "slug": "gyeonggi-10579201",
+      "hotelName": "성남 가을",
+      "address": "7, Nongol-ro 7beon-gil, Sujeong-gu, Seongnam-si, Gyeonggi-do 성남"
+    },
+    {
+      "slug": "gyeonggi-10579282",
+      "hotelName": "가평 파인휴펜션",
+      "address": "경기도 가평군 가평읍 태봉두밀로 83-1"
+    },
+    {
+      "slug": "gyeonggi-10579297",
+      "hotelName": "남양주 호텔 정원에서",
+      "address": "경기도 남양주시 와부읍 수레로 692 호텔정원에서"
+    },
+    {
+      "slug": "gyeonggi-10579302",
+      "hotelName": "남양주 마이텔",
+      "address": "경기도 남양주시 별내면 청학로 104"
+    },
+    {
+      "slug": "gyeonggi-10579506",
+      "hotelName": "의왕 컬리넌",
+      "address": "경기도 의왕시 갈미안로 15 호텔컬리넌 의왕"
+    },
+    {
+      "slug": "gyeonggi-10579607",
+      "hotelName": "양평 현대무인텔",
+      "address": "경기도 양평군 강하면 전의6길 8"
+    },
+    {
+      "slug": "gyeonggi-10579655",
+      "hotelName": "양평 에델바이스펜션",
+      "address": "경기도 양평군 용문면 용문산로192번길 10-9 에델바이스 펜션"
+    },
+    {
+      "slug": "gyeonggi-10579659",
+      "hotelName": "양평 호텔 하루",
+      "address": "경기도 양평군 강하면 강남로 283"
+    },
+    {
+      "slug": "gyeonggi-10579680",
+      "hotelName": "수원 영통 발리호텔",
+      "address": "경기도 수원시 영통구 반달로35번길 17"
+    },
+    {
+      "slug": "gyeonggi-10579689",
+      "hotelName": "양평 마운틴밸리펜션",
+      "address": "경기도 양평군 용문면 수득골길 96-10"
+    },
+    {
+      "slug": "gyeonggi-10579886",
+      "hotelName": "가평 숲속의공주펜션",
+      "address": "79-6, Bokjangpo-gil, Gapyeong-eup, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-10579888",
+      "hotelName": "부천(역곡) 더 쉼 모텔",
+      "address": "경기도 부천시 원미구 역곡로1번길 12 1층"
+    },
+    {
+      "slug": "gyeonggi-10579891",
+      "hotelName": "안성(공도터미널) 성지",
+      "address": "86, Gongdo-ro, Gongdo-eup, Anseong-si, Gyeonggi-do 안성"
+    },
+    {
+      "slug": "gyeonggi-10579898",
+      "hotelName": "의왕 럭셔리",
+      "address": "경기도 의왕시 철도박물관로 81 5층 럭셔리모텔"
+    },
+    {
+      "slug": "gyeonggi-10579903",
+      "hotelName": "광명 웰니스",
+      "address": "경기도 광명시 오리로914번길 1-12"
+    },
+    {
+      "slug": "gyeonggi-10579959",
+      "hotelName": "가평 새연카라반글램핑캠핑펜션(1호점)",
+      "address": "86, Unakcheonggye-ro 333beon-gil, Jojong-myeon, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-10579963",
+      "hotelName": "수원 탄",
+      "address": "경기도 수원시 장안구 화산로233번길 8"
+    },
+    {
+      "slug": "gyeonggi-10580203",
+      "hotelName": "가평 실로암펜션(단체)",
+      "address": "경기도 가평군 청평면 모꼬지로 90"
+    },
+    {
+      "slug": "gyeonggi-10580209",
+      "hotelName": "가평 그하루 애견펜션",
+      "address": "경기도 가평군 북면 화악산로 943-12 그하루"
+    },
+    {
+      "slug": "gyeonggi-10580306",
+      "hotelName": "고양(화정) 프라자",
+      "address": "경기도 고양시 덕양구 화정로 53-1"
+    },
+    {
+      "slug": "gyeonggi-10580309",
+      "hotelName": "의왕 IMT",
+      "address": "경기도 의왕시 갈미안로 9"
+    },
+    {
+      "slug": "gyeonggi-10580377",
+      "hotelName": "안성 쇼",
+      "address": "경기도 안성시 삼죽면 서동대로 6226-10 쇼모텔"
+    },
+    {
+      "slug": "gyeonggi-10580464",
+      "hotelName": "안산 HIP",
+      "address": "경기도 안산시 상록구 용신로 360"
+    },
+    {
+      "slug": "gyeonggi-10580557",
+      "hotelName": "안양 The One(더원)",
+      "address": "56-8, Jangnae-ro 119beon-gil, Manan-gu, Anyang-si, Gyeonggi-do 안양"
+    },
+    {
+      "slug": "gyeonggi-10580632",
+      "hotelName": "안양 라인",
+      "address": "경기도 안양시 만안구 만안로 107"
+    },
+    {
+      "slug": "gyeonggi-10580683",
+      "hotelName": "가평 자라섬 게스트하우스",
+      "address": "경기도 가평군 가평읍 오리나무길 51 자라섬게스트하우스"
+    },
+    {
+      "slug": "gyeonggi-10580753",
+      "hotelName": "산본 타워 무인텔",
+      "address": "4-17, Sanbon-ro 323beon-gil, Gunpo-si, Gyeonggi-do 군포"
+    },
+    {
+      "slug": "gyeonggi-10580917",
+      "hotelName": "수원역 자볼레",
+      "address": "경기도 수원시 팔달구 갓매산로56번길 6 자볼레 호텔"
+    },
+    {
+      "slug": "gyeonggi-10580934",
+      "hotelName": "여주 발리",
+      "address": "경기도 여주시 세종로79번길 18-5"
+    },
+    {
+      "slug": "gyeonggi-10580977",
+      "hotelName": "양평 COZY",
+      "address": "경기도 양평군 서종면 북한강로 995"
+    },
+    {
+      "slug": "gyeonggi-10581021",
+      "hotelName": "포천(송우리) 썸",
+      "address": "경기도 포천시 소흘읍 송우로30번길 2-25 썸모텔"
+    },
+    {
+      "slug": "gyeonggi-10581065",
+      "hotelName": "포천 숲속의궁전",
+      "address": "경기도 포천시 내촌면 금강로 2119-18"
+    },
+    {
+      "slug": "gyeonggi-10581076",
+      "hotelName": "송탄 퍼슨",
+      "address": "경기도 평택시 서정로 259-1"
+    },
+    {
+      "slug": "gyeonggi-10581153",
+      "hotelName": "파주 봉일천 에이스호텔",
+      "address": "경기도 파주시 조리읍 통일로 170"
+    },
+    {
+      "slug": "gyeonggi-10581156",
+      "hotelName": "파주 금촌 테마",
+      "address": "272, Jungang-ro, Paju-si, Gyeonggi-do 파주"
+    },
+    {
+      "slug": "gyeonggi-10581177",
+      "hotelName": "대부도 뷰",
+      "address": "경기도 안산시 단원구 대부황금로 95-8"
+    },
+    {
+      "slug": "gyeonggi-10581206",
+      "hotelName": "포천(송우리) 하비비",
+      "address": "경기도 포천시 소흘읍 솔모루로58번길 14-1 호텔하비비"
+    },
+    {
+      "slug": "gyeonggi-10581222",
+      "hotelName": "성남 하이눈",
+      "address": "경기도 성남시 수정구 성남대로1226번길 3"
+    },
+    {
+      "slug": "gyeonggi-10581266",
+      "hotelName": "포천(신북) 필",
+      "address": "경기도 포천시 신북면 포천로 2400 필모텔"
+    },
+    {
+      "slug": "gyeonggi-10581268",
+      "hotelName": "포천(일동) 킹덤",
+      "address": "경기도 포천시 일동면 성장로 481-38"
+    },
+    {
+      "slug": "gyeonggi-10581299",
+      "hotelName": "파주 IMT",
+      "address": "경기도 파주시 탄현면 성동로 34"
+    },
+    {
+      "slug": "gyeonggi-10581374",
+      "hotelName": "일산(대화) 아마다",
+      "address": "경기도 고양시 일산서구 중앙로 1575 그린코아빌딩 7층"
+    },
+    {
+      "slug": "gyeonggi-10581390",
+      "hotelName": "양평 지오",
+      "address": "경기도 양평군 강상면 강남로899번길 9"
+    },
+    {
+      "slug": "gyeonggi-10581424",
+      "hotelName": "여주 리버뷰 모텔",
+      "address": "경기도 여주시 강변유원지길 78-37"
+    },
+    {
+      "slug": "gyeonggi-10581435",
+      "hotelName": "파주 자바",
+      "address": "경기도 파주시 파주읍 연풍리 294-4"
+    },
+    {
+      "slug": "gyeonggi-10581513",
+      "hotelName": "부천(송내) 요기",
+      "address": "경기도 부천시 원미구 부일로233번길 21"
+    },
+    {
+      "slug": "gyeonggi-10581610",
+      "hotelName": "용인 한옥펜션수진당",
+      "address": "경기도 용인시 처인구 이동읍 한덕로7번길 3-7"
+    },
+    {
+      "slug": "gyeonggi-10581627",
+      "hotelName": "파주 시실리 무인텔",
+      "address": "경기도 파주시 광탄면 보광로 569"
+    },
+    {
+      "slug": "gyeonggi-10581636",
+      "hotelName": "산본 호텔 인 카페",
+      "address": "경기도 군포시 번영로 515 9층 호텔인카페 산본역점"
+    },
+    {
+      "slug": "gyeonggi-10581981",
+      "hotelName": "화성(제부도) 디앤와이관광펜션",
+      "address": "경기도 화성시 만세구 서신면 해안길 114"
+    },
+    {
+      "slug": "gyeonggi-10582160",
+      "hotelName": "포천 푸른마을펜션",
+      "address": "경기도 포천시 이동면 새낭로 619-46"
+    },
+    {
+      "slug": "gyeonggi-10582165",
+      "hotelName": "남양주 펜션121",
+      "address": "경기도 남양주시 조안면 북한강로855번길 115"
+    },
+    {
+      "slug": "gyeonggi-10582206",
+      "hotelName": "가평 끄라비펜션 (계곡인근)",
+      "address": "13, Jomurakgol-gil, Buk-myeon, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-10582209",
+      "hotelName": "용인 IMT",
+      "address": "경기도 용인시 수지구 풍덕천로190번길 13"
+    },
+    {
+      "slug": "gyeonggi-10582396",
+      "hotelName": "오산 루빈 호텔",
+      "address": "경기도 오산시 경기대로658번길 25 루빈 호텔"
+    },
+    {
+      "slug": "gyeonggi-10582398",
+      "hotelName": "시흥 HOTEL LIV LIFE(리브라이프)",
+      "address": "25, Jungang-Sangga 1-gil, Siheung-si, Gyeonggi-do 시흥"
+    },
+    {
+      "slug": "gyeonggi-10582461",
+      "hotelName": "월곶 BOUTIQUE HOTEL 마리",
+      "address": "경기도 시흥시 월곶중앙로70번안길 32"
+    },
+    {
+      "slug": "gyeonggi-10582463",
+      "hotelName": "포천 별빛하늘펜션",
+      "address": "경기도 포천시 영북면 산정호수로 886-7"
+    },
+    {
+      "slug": "gyeonggi-10582636",
+      "hotelName": "안산 호텔 더 료칸",
+      "address": "경기도 안산시 단원구 부부로 62 아늑료칸호텔 안산역"
+    },
+    {
+      "slug": "gyeonggi-10582656",
+      "hotelName": "용인 양지 샹그리아",
+      "address": "경기도 용인시 처인구 양지읍 양지로148번길 11"
+    },
+    {
+      "slug": "gyeonggi-10582740",
+      "hotelName": "안산 카카우",
+      "address": "경기도 안산시 상록구 영화6길 8 카카우 호텔"
+    },
+    {
+      "slug": "gyeonggi-10582768",
+      "hotelName": "가평 용수그린랜드글램핑",
+      "address": "경기도 가평군 조종면 운악청계로491번길 87 용수유원지"
+    },
+    {
+      "slug": "gyeonggi-10582778",
+      "hotelName": "포천 조이토마토펜션",
+      "address": "경기도 포천시 일동면 운악청계로1480번길 90-114 조이토마토"
+    },
+    {
+      "slug": "gyeonggi-10582784",
+      "hotelName": "양평 뉴욕",
+      "address": "경기도 양평군 강상면 강남로 929"
+    },
+    {
+      "slug": "gyeonggi-10582898",
+      "hotelName": "부천(송내) 알프스",
+      "address": "56, Buil-ro 199beon-gil, Bucheon-si, Gyeonggi-do 부천"
+    },
+    {
+      "slug": "gyeonggi-10582905",
+      "hotelName": "분당 밀",
+      "address": "경기도 성남시 분당구 만세길 17"
+    },
+    {
+      "slug": "gyeonggi-10582968",
+      "hotelName": "김포 드라이브인 비대면 호텔루이",
+      "address": "40-9, Daemyeonghang 1-ro, Daegot-myeon, Gimpo-si, Gyeonggi-do 김포"
+    },
+    {
+      "slug": "gyeonggi-10582995",
+      "hotelName": "양평 리버레전드풀빌라",
+      "address": "경기도 양평군 서종면 길곡2길 52-32 리버레전드펜션"
+    },
+    {
+      "slug": "gyeonggi-10583173",
+      "hotelName": "용인 에이펜션",
+      "address": "경기도 용인시 처인구 양지읍 남평로 168-10 나동"
+    },
+    {
+      "slug": "gyeonggi-10583192",
+      "hotelName": "용인 자유 드라이브인 무인텔",
+      "address": "경기도 용인시 처인구 이동읍 화산로 15-1"
+    },
+    {
+      "slug": "gyeonggi-10583213",
+      "hotelName": "광명(철산) VALT HOTEL",
+      "address": "경기도 광명시 철산로30번길 20 5층 발트호텔"
+    },
+    {
+      "slug": "gyeonggi-10583252",
+      "hotelName": "가평 고멧263펜션",
+      "address": "경기도 가평군 가평읍 용추로 227-98"
+    },
+    {
+      "slug": "gyeonggi-10583273",
+      "hotelName": "양평 팰리스리조트",
+      "address": "82-12, Toechon-gil, Yongmun-myeon, Yangpyeong-gun, Gyeonggi-do 양평"
+    },
+    {
+      "slug": "gyeonggi-10583389",
+      "hotelName": "파주 W2호텔",
+      "address": "경기도 파주시 탄현면 성동로 36-26 W2 호텔"
+    },
+    {
+      "slug": "gyeonggi-10583472",
+      "hotelName": "김포 리버",
+      "address": "47-1, Junggu-ro, Gimpo-si, Gyeonggi-do 김포"
+    },
+    {
+      "slug": "gyeonggi-10583479",
+      "hotelName": "곤지암 YAJA 곤지암점",
+      "address": "481, Gyeongchung-daero, Gonjiam-eup, Gwangju-si, Gyeonggi-do 광주"
+    },
+    {
+      "slug": "gyeonggi-10583547",
+      "hotelName": "화성(제부도) 바다래펜션",
+      "address": "61-16, Salgoji-gil 86beon-gil, Seosin-myeon, Hwaseong-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-10583603",
+      "hotelName": "남양주 레이크(lake) 드라이브인 무인텔",
+      "address": "72, Palhyeon-ro, Onam-eup, Namyangju-si, Gyeonggi-do 남양주"
+    },
+    {
+      "slug": "gyeonggi-10583606",
+      "hotelName": "포천 솔향기펜션",
+      "address": "경기도 포천시 영북면 우물목1길 23-20"
+    },
+    {
+      "slug": "gyeonggi-10583651",
+      "hotelName": "수원(팔달문) 허브",
+      "address": "8, Jeongjo-ro 810beon-gil, Paldal-gu, Suwon-si, Gyeonggi-do 수원"
+    },
+    {
+      "slug": "gyeonggi-10583676",
+      "hotelName": "양평 루시올펜션",
+      "address": "경기도 양평군 서종면 화서로 854-50"
+    },
+    {
+      "slug": "gyeonggi-10583721",
+      "hotelName": "남양주 발렌타인",
+      "address": "경기도 남양주시 별내면 순화궁로 992-28"
+    },
+    {
+      "slug": "gyeonggi-10583828",
+      "hotelName": "가평 핀란드캠핑성펜션&글램핑",
+      "address": "102, Mulgol-gil, Sang-myeon, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-10583870",
+      "hotelName": "이천 카누",
+      "address": "경기도 이천시 신둔면 경충대로3041번길 12 호텔카누"
+    },
+    {
+      "slug": "gyeonggi-10583903",
+      "hotelName": "포천 별헤는호수펜션(계곡,호수)",
+      "address": "경기도 포천시 일동면 운악청계로1480번길 46"
+    },
+    {
+      "slug": "gyeonggi-10583922",
+      "hotelName": "포천 늘푸른펜션",
+      "address": "경기도 포천시 신북면 탑신로 1397"
+    },
+    {
+      "slug": "gyeonggi-10583992",
+      "hotelName": "가평 설악스카이호텔",
+      "address": "경기도 가평군 설악면 유명로 1746-10"
+    },
+    {
+      "slug": "gyeonggi-10584201",
+      "hotelName": "가평 풀빌라 더웰니스스파&풀빌라",
+      "address": "경기도 가평군 북면 꽃넘이길 35-1 웰니스풀빌라"
+    },
+    {
+      "slug": "gyeonggi-10584226",
+      "hotelName": "포천 더샵펜션",
+      "address": "경기도 포천시 영중면 물안2길 39"
+    },
+    {
+      "slug": "gyeonggi-10584307",
+      "hotelName": "용인 양지 발리",
+      "address": "경기도 용인시 처인구 양지읍 남평로 51-5"
+    },
+    {
+      "slug": "gyeonggi-10584383",
+      "hotelName": "안산 블루 9",
+      "address": "10, Seokho-ro 3-gil, Sangnok-gu, Ansan-si, Gyeonggi-do 안산"
+    },
+    {
+      "slug": "gyeonggi-10584423",
+      "hotelName": "포천(일동) 하이트",
+      "address": "경기도 포천시 일동면 성장로 499"
+    },
+    {
+      "slug": "gyeonggi-10584484",
+      "hotelName": "동두천 더 퍼스트 호텔 (구. 꿈에그린)",
+      "address": "788, Samyoksa-ro, Dongducheon-si, Gyeonggi-do 동두천"
+    },
+    {
+      "slug": "gyeonggi-10584529",
+      "hotelName": "파주 원프레임펜션",
+      "address": "경기도 파주시 파평면 장승배기로198번길 83-15"
+    },
+    {
+      "slug": "gyeonggi-10584645",
+      "hotelName": "포천(일동) 쉴",
+      "address": "경기도 포천시 일동면 화동로 950"
+    },
+    {
+      "slug": "gyeonggi-10584694",
+      "hotelName": "여주 세븐 (Seven 7)",
+      "address": "48-10, Junae-ro, Yeoju-si, Gyeonggi-do 여주시"
+    },
+    {
+      "slug": "gyeonggi-10584882",
+      "hotelName": "용인 에버그린펜션",
+      "address": "경기도 용인시 처인구 포곡읍 영문로29번길 126 에버그린"
+    },
+    {
+      "slug": "gyeonggi-10584951",
+      "hotelName": "대부도 아테네펜션",
+      "address": "경기도 안산시 단원구 지수물1길 84"
+    },
+    {
+      "slug": "gyeonggi-10585031",
+      "hotelName": "청평 지중해",
+      "address": "경기도 가평군 청평면 북한강로 2091"
+    },
+    {
+      "slug": "gyeonggi-10585033",
+      "hotelName": "안양 라노비아",
+      "address": "경기도 안양시 만안구 안양로304번길 21 ."
+    },
+    {
+      "slug": "gyeonggi-10585047",
+      "hotelName": "가평 구름계곡펜션",
+      "address": "경기도 가평군 북면 제령아랫말길 71"
+    },
+    {
+      "slug": "gyeonggi-10585051",
+      "hotelName": "안산 누누",
+      "address": "경기도 안산시 상록구 성호로6길 22-13"
+    },
+    {
+      "slug": "gyeonggi-10585138",
+      "hotelName": "포천 달빛애견글램핑장",
+      "address": "경기도 포천시 일동면 사기막길 67-6"
+    },
+    {
+      "slug": "gyeonggi-10585282",
+      "hotelName": "이천 호텔 베네 이천터미널점",
+      "address": "48, Eojaeyeon-ro 10beon-gil, Icheon-si, Gyeonggi-do 이천"
+    },
+    {
+      "slug": "gyeonggi-10585323",
+      "hotelName": "가평 부에노스풀빌라펜션",
+      "address": "경기도 가평군 상면 청군로 753-95"
+    },
+    {
+      "slug": "gyeonggi-10585527",
+      "hotelName": "안산(중앙동) 라임",
+      "address": "경기도 안산시 단원구 고잔2길 73"
+    },
+    {
+      "slug": "gyeonggi-10585556",
+      "hotelName": "수원(인계동) Hotel Jun",
+      "address": "43-9, Gwongwang-ro 196beon-gil, Paldal-gu, Suwon-si, Gyeonggi-do 수원"
+    },
+    {
+      "slug": "gyeonggi-10585590",
+      "hotelName": "안산 나무",
+      "address": "87, Seonbugwangjang-ro, Danwon-gu, Ansan-si, Gyeonggi-do 안산"
+    },
+    {
+      "slug": "gyeonggi-10585620",
+      "hotelName": "파주 에로스",
+      "address": "경기도 파주시 탄현면 성동로 7-17 파주 에로스"
+    },
+    {
+      "slug": "gyeonggi-10585627",
+      "hotelName": "금정 ZOOM 줌",
+      "address": "경기도 군포시 번영로 613 줌모텔"
+    },
+    {
+      "slug": "gyeonggi-10585789",
+      "hotelName": "가평 아이린키즈풀빌라",
+      "address": "경기도 가평군 상면 축령로45번길 114-22 아이린"
+    },
+    {
+      "slug": "gyeonggi-10585817",
+      "hotelName": "성남 모란 Hotel 3151",
+      "address": "경기도 성남시 중원구 산성대로 126"
+    },
+    {
+      "slug": "gyeonggi-10585857",
+      "hotelName": "부천 호텔 나른",
+      "address": "경기도 부천시 원미구 원미로13번길 33"
+    },
+    {
+      "slug": "gyeonggi-10585859",
+      "hotelName": "용인 나인 무인텔",
+      "address": "경기도 용인시 처인구 원삼면 좌찬로 142 나인무인텔"
+    },
+    {
+      "slug": "gyeonggi-10585866",
+      "hotelName": "양평 삼촌네펜션",
+      "address": "경기도 양평군 서종면 서능로 146-12"
+    },
+    {
+      "slug": "gyeonggi-10585874",
+      "hotelName": "오산 제노",
+      "address": "경기도 오산시 대원로38번길 15"
+    },
+    {
+      "slug": "gyeonggi-10585884",
+      "hotelName": "화성 리츠 호텔",
+      "address": "경기도 화성시 만세구 남양읍 역골로 15-17"
+    },
+    {
+      "slug": "gyeonggi-10585888",
+      "hotelName": "이천 장호원 짬 무인텔",
+      "address": "경기도 이천시 장호원읍 경충대로 153"
+    },
+    {
+      "slug": "gyeonggi-10585911",
+      "hotelName": "의정부 스타루비",
+      "address": "경기도 의정부시 태평로118번길 16 호텔스타루비"
+    },
+    {
+      "slug": "gyeonggi-10585951",
+      "hotelName": "안산 호텔 그랜드",
+      "address": "경기도 안산시 상록구 충정공길 11 그랜드호텔"
+    },
+    {
+      "slug": "gyeonggi-10585979",
+      "hotelName": "가평 드림밸리펜션",
+      "address": "경기도 남양주시 수동면 지둔로 122-4"
+    },
+    {
+      "slug": "gyeonggi-10586056",
+      "hotelName": "청평 강변파크",
+      "address": "경기도 가평군 가평읍 북한강변로 360-69"
+    },
+    {
+      "slug": "gyeonggi-10586092",
+      "hotelName": "시흥 티아라",
+      "address": "경기도 시흥시 옥구상가4길 16-3"
+    },
+    {
+      "slug": "gyeonggi-10586169",
+      "hotelName": "가평 해나키즈풀빌라",
+      "address": "경기도 가평군 가평읍 당목가일길 482-29"
+    },
+    {
+      "slug": "gyeonggi-10586179",
+      "hotelName": "양평 풀빌라마노아",
+      "address": "경기도 양평군 서종면 중미산로 884-13"
+    },
+    {
+      "slug": "gyeonggi-10586222",
+      "hotelName": "수원(세류역) 오라고",
+      "address": "경기도 수원시 권선구 경수대로199번길 24-5"
+    },
+    {
+      "slug": "gyeonggi-10586243",
+      "hotelName": "포천 호텔 꼬뮨(베어스타운점) 드라이브인 무인텔",
+      "address": "2650, Geumgang-ro, Naechon-myeon, Pocheon-si, Gyeonggi-do 포천"
+    },
+    {
+      "slug": "gyeonggi-10586252",
+      "hotelName": "가평 시크릿문펜션",
+      "address": "경기도 가평군 가평읍 태봉두밀로 269-50"
+    },
+    {
+      "slug": "gyeonggi-10586257",
+      "hotelName": "남양주 해미르펜션",
+      "address": "경기도 남양주시 수동면 축령산로 272-7"
+    },
+    {
+      "slug": "gyeonggi-10586316",
+      "hotelName": "남양주 더드림핑",
+      "address": "경기도 남양주시 화도읍 북한강로 1630-18 더드림핑"
+    },
+    {
+      "slug": "gyeonggi-10586420",
+      "hotelName": "포천 코지11펜션",
+      "address": "경기도 포천시 신북면 깊이울로 190-1 코지11펜션"
+    },
+    {
+      "slug": "gyeonggi-10586426",
+      "hotelName": "남양주 시즌파이브펜션",
+      "address": "경기도 남양주시 오남읍 팔현로207번길 103"
+    },
+    {
+      "slug": "gyeonggi-10586621",
+      "hotelName": "가평 휴아일랜드 스파 펜션",
+      "address": "경기도 가평군 가평읍 태봉두밀로 269-96"
+    },
+    {
+      "slug": "gyeonggi-10586768",
+      "hotelName": "가평 아비엥또키즈풀빌라",
+      "address": "경기도 가평군 청평면 호명리길 58-3"
+    },
+    {
+      "slug": "gyeonggi-10586815",
+      "hotelName": "양평 미끄라트펜션 (비발디파크)",
+      "address": "193, Myeongseong-gil, Danwol-myeon, Yangpyeong-gun, Gyeonggi-do 양평"
+    },
+    {
+      "slug": "gyeonggi-10586852",
+      "hotelName": "안산 AJU HOTEL(아주호텔)",
+      "address": "40, Sangnoksu-ro, Sangnok-gu, Ansan-si, Gyeonggi-do 안산"
+    },
+    {
+      "slug": "gyeonggi-10586933",
+      "hotelName": "대부도 펜션더헤이븐",
+      "address": "경기도 안산시 단원구 소득길 47"
+    },
+    {
+      "slug": "gyeonggi-10587067",
+      "hotelName": "안성 모차",
+      "address": "경기도 안성시 양성면 어진로 961 안동 이동저수지 앞에 위치합니다., 안동 이동저수지 앞에 위치합니다."
+    },
+    {
+      "slug": "gyeonggi-10587199",
+      "hotelName": "동두천 테마",
+      "address": "64, Jihaeng-ro, Dongducheon-si, Gyeonggi-do 동두천"
+    },
+    {
+      "slug": "gyeonggi-10587200",
+      "hotelName": "시흥 월드 호텔",
+      "address": "경기도 시흥시 평안상가5길 7-3"
+    },
+    {
+      "slug": "gyeonggi-10587329",
+      "hotelName": "가평 라플로르펜션",
+      "address": "경기도 가평군 청평면 호반로 753-23"
+    },
+    {
+      "slug": "gyeonggi-10587515",
+      "hotelName": "안성 U-STAY(유스테이) 드라이브인 무인텔",
+      "address": "31, Garwol-gil, Wongok-myeon, Anseong-si, Gyeonggi-do 안성"
+    },
+    {
+      "slug": "gyeonggi-10587584",
+      "hotelName": "남양주 골드 호텔",
+      "address": "경기도 남양주시 별내면 청학로92번길 133"
+    },
+    {
+      "slug": "gyeonggi-10587608",
+      "hotelName": "포천 호텔 꼬뮨 광릉수목원점(드라이브인 무인텔)",
+      "address": "670, Gwangneungsumogwon-ro, Soheul-eup, Pocheon-si, Gyeonggi-do 포천"
+    },
+    {
+      "slug": "gyeonggi-10587837",
+      "hotelName": "안성 프로방스펜션",
+      "address": "경기도 안성시 죽산면 용설호수길 134"
+    },
+    {
+      "slug": "gyeonggi-10587842",
+      "hotelName": "양평 여운펜션",
+      "address": "경기도 양평군 용문면 벌터골길 14"
+    },
+    {
+      "slug": "gyeonggi-10587847",
+      "hotelName": "용인 88 호텔",
+      "address": "경기도 용인시 수지구 풍덕천로190번길 14"
+    },
+    {
+      "slug": "gyeonggi-10587927",
+      "hotelName": "산본 YAJA 산본역점",
+      "address": "경기도 군포시 번영로 515 8F"
+    },
+    {
+      "slug": "gyeonggi-10588071",
+      "hotelName": "포천 팔레스",
+      "address": "경기도 포천시 포천로 1671"
+    },
+    {
+      "slug": "gyeonggi-10588075",
+      "hotelName": "이천 오월드 무인텔",
+      "address": "경기도 이천시 부발읍 경충대로1687번길 17"
+    },
+    {
+      "slug": "gyeonggi-10588102",
+      "hotelName": "의정부 프렌즈율 의정부점",
+      "address": "18, Houk-ro 1346beon-gil, Uijeongbu-si, Gyeonggi-do 의정부"
+    },
+    {
+      "slug": "gyeonggi-10588210",
+      "hotelName": "포천(이동면) 백운",
+      "address": "경기도 포천시 이동면 화동로 2318-68"
+    },
+    {
+      "slug": "gyeonggi-10588304",
+      "hotelName": "가평 모닝필하우스펜션",
+      "address": "경기도 가평군 상면 청우산2길 42-20"
+    },
+    {
+      "slug": "gyeonggi-10588348",
+      "hotelName": "포천 호수가아름다운집펜션",
+      "address": "경기도 포천시 영중면 물안길 177-26"
+    },
+    {
+      "slug": "gyeonggi-10588408",
+      "hotelName": "양평 라팡드포레펜션",
+      "address": "경기도 양평군 단월면 분지울1길 48 라팡드포레"
+    },
+    {
+      "slug": "gyeonggi-10588467",
+      "hotelName": "광주 k401펜션",
+      "address": "58-4, Gungtteul-gil, Docheok-myeon, Gwangju-si, Gyeonggi-do 광주"
+    },
+    {
+      "slug": "gyeonggi-10588482",
+      "hotelName": "가평 서락나인펜션",
+      "address": "61-5, Jeonwigol-gil, Seorak-myeon, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-10588529",
+      "hotelName": "양평 그린하우스펜션",
+      "address": "경기도 양평군 청운면 작은둔뱅이골길 71"
+    },
+    {
+      "slug": "gyeonggi-10588584",
+      "hotelName": "가평 륀느펜션",
+      "address": "경기도 가평군 북면 꽃넘이길 87-47"
+    },
+    {
+      "slug": "gyeonggi-10588649",
+      "hotelName": "금정 큐브",
+      "address": "경기도 군포시 번영로 599-1 모텔큐브"
+    },
+    {
+      "slug": "gyeonggi-10588679",
+      "hotelName": "고양(주교) 라움",
+      "address": "경기도 고양시 덕양구 원당로69번길 7"
+    },
+    {
+      "slug": "gyeonggi-10588687",
+      "hotelName": "안성 W",
+      "address": "경기도 안성시 죽산면 죽양대로 139"
+    },
+    {
+      "slug": "gyeonggi-10588820",
+      "hotelName": "이천 씨네 호텔",
+      "address": "경기도 이천시 영창로 196 이천 씨네 호텔"
+    },
+    {
+      "slug": "gyeonggi-10588995",
+      "hotelName": "부천(상동) N",
+      "address": "경기도 부천시 원미구 길주로77번길 55-15"
+    },
+    {
+      "slug": "gyeonggi-10589118",
+      "hotelName": "양평 레터스펜션",
+      "address": "경기도 양평군 단월면 분지울1길 46 레터스펜션"
+    },
+    {
+      "slug": "gyeonggi-10589141",
+      "hotelName": "가평 리치하우스펜션",
+      "address": "경기도 가평군 북면 도대리 492-8"
+    },
+    {
+      "slug": "gyeonggi-10589168",
+      "hotelName": "양평 오피러스펜션",
+      "address": "경기도 양평군 옥천면 돗내미길 55"
+    },
+    {
+      "slug": "gyeonggi-10589333",
+      "hotelName": "포천 화적연펜션",
+      "address": "경기도 포천시 영북면 북원로255번길 9-41"
+    },
+    {
+      "slug": "gyeonggi-10589450",
+      "hotelName": "의정부 쉘",
+      "address": "경기도 의정부시 호국로1346번길 24"
+    },
+    {
+      "slug": "gyeonggi-10589635",
+      "hotelName": "분당(서현) 소풍",
+      "address": "경기도 성남시 분당구 분당로53번길 14"
+    },
+    {
+      "slug": "gyeonggi-10589680",
+      "hotelName": "안산 고잔동 힐하우스",
+      "address": "경기도 안산시 단원구 광덕2로 155-8"
+    },
+    {
+      "slug": "gyeonggi-10589703",
+      "hotelName": "양평 푸른정원펜션",
+      "address": "경기도 양평군 지평면 어은길 102-3"
+    },
+    {
+      "slug": "gyeonggi-10589728",
+      "hotelName": "안양 포지타노",
+      "address": "경기도 안양시 만안구 문예로52번길 11"
+    },
+    {
+      "slug": "gyeonggi-10589876",
+      "hotelName": "양평 엔젤식물원펜션",
+      "address": "경기도 양평군 청운면 갈운큰골길 56-6"
+    },
+    {
+      "slug": "gyeonggi-10589908",
+      "hotelName": "용인 별바라기펜션",
+      "address": "경기도 용인시 처인구 이동읍 안터로45번길 24-15"
+    },
+    {
+      "slug": "gyeonggi-10589957",
+      "hotelName": "남양주 굿모닝펜션",
+      "address": "경기도 남양주시 수동면 지둔로445번안길 17"
+    },
+    {
+      "slug": "gyeonggi-10590095",
+      "hotelName": "분당 서현 어썸",
+      "address": "경기도 성남시 분당구 분당로53번길 21"
+    },
+    {
+      "slug": "gyeonggi-10590128",
+      "hotelName": "동두천 세인트",
+      "address": "경기도 동두천시 평화로 2342 경기도 동두천시 (평화로2342)생연동 365-1"
+    },
+    {
+      "slug": "gyeonggi-10590217",
+      "hotelName": "가평 블루엘독채풀빌라",
+      "address": "경기도 가평군 설악면 미사리로 324-98"
+    },
+    {
+      "slug": "gyeonggi-10590238",
+      "hotelName": "성남 박스인 호텔",
+      "address": "경기도 성남시 수정구 탄리로74번길 7 박스인호텔"
+    },
+    {
+      "slug": "gyeonggi-10590246",
+      "hotelName": "양평 우노하우스풀빌라",
+      "address": "경기도 양평군 청운면 신론새터길 36"
+    },
+    {
+      "slug": "gyeonggi-10590334",
+      "hotelName": "연천 비경펜션",
+      "address": "경기도 연천군 미산면 숭의전로 498"
+    },
+    {
+      "slug": "gyeonggi-10590456",
+      "hotelName": "포천 드림 드라이브인 무인텔",
+      "address": "경기도 포천시 소흘읍 광릉수목원로 724-20"
+    },
+    {
+      "slug": "gyeonggi-10590507",
+      "hotelName": "가평 오이코스펜션(단체)",
+      "address": "경기도 가평군 청평면 고재길 270 오이코스펜션"
+    },
+    {
+      "slug": "gyeonggi-10590508",
+      "hotelName": "가평 로빈나펜션",
+      "address": "경기도 가평군 북면 용수목길 8-9"
+    },
+    {
+      "slug": "gyeonggi-10590577",
+      "hotelName": "김포 하비비 드라이브인무인텔",
+      "address": "40-7, Daemyeonghang 1-ro, Daegot-myeon, Gimpo-si, Gyeonggi-do 김포"
+    },
+    {
+      "slug": "gyeonggi-10590629",
+      "hotelName": "의정부 프라하",
+      "address": "경기도 의정부시 시민로122번길 61"
+    },
+    {
+      "slug": "gyeonggi-10590657",
+      "hotelName": "안산 피노키오",
+      "address": "경기도 안산시 상록구 광덕산2로 18"
+    },
+    {
+      "slug": "gyeonggi-10590754",
+      "hotelName": "가평 두바이애견풀빌라",
+      "address": "경기도 가평군 상면 샘골길 3-26"
+    },
+    {
+      "slug": "gyeonggi-10590905",
+      "hotelName": "광주(삼동역) 소풍",
+      "address": "514, Sunam-ro, Gwangju-si, Gyeonggi-do 성남"
+    },
+    {
+      "slug": "gyeonggi-10590916",
+      "hotelName": "안산 와(WA)",
+      "address": "907, Jungang-daero, Danwon-gu, Ansan-si, Gyeonggi-do 안산"
+    },
+    {
+      "slug": "gyeonggi-10590972",
+      "hotelName": "가평 용추별천지펜션",
+      "address": "경기도 가평군 가평읍 용추로 508-36 별천지"
+    },
+    {
+      "slug": "gyeonggi-10591034",
+      "hotelName": "안성 숲속빌리지펜션",
+      "address": "경기도 안성시 죽산면 용설로 232-70"
+    },
+    {
+      "slug": "gyeonggi-10591087",
+      "hotelName": "의정부 썸",
+      "address": "경기도 의정부시 평화로439번길 9-1"
+    },
+    {
+      "slug": "gyeonggi-10591193",
+      "hotelName": "오산 세븐",
+      "address": "경기도 오산시 경기대로 343"
+    },
+    {
+      "slug": "gyeonggi-10591220",
+      "hotelName": "파주 하이무인텔",
+      "address": "경기도 파주시 탄현면 필승로 487-21 필승로 487-19~21"
+    },
+    {
+      "slug": "gyeonggi-10591238",
+      "hotelName": "파주 반지 무인텔",
+      "address": "487-31, Pilseung-ro, Tanhyeon-myeon, Paju-si, Gyeonggi-do 파주"
+    },
+    {
+      "slug": "gyeonggi-11302864",
+      "hotelName": "포천 이뉴풀빌라",
+      "address": "1070, Tapsin-ro, Sinbuk-myeon, Pocheon-si, Gyeonggi-do 포천"
+    },
+    {
+      "slug": "gyeonggi-11302867",
+      "hotelName": "포천 풀문풀빌라",
+      "address": "132, Ganjadong-gil, Sinbuk-myeon, Pocheon-si, Gyeonggi-do 포천"
+    },
+    {
+      "slug": "gyeonggi-11302883",
+      "hotelName": "양주 아트시티펜션 (장흥유원지)",
+      "address": "33, Gwonyul-ro 309beon-gil, Jangheung-myeon, Yangju-si, Gyeonggi-do 양주시"
+    },
+    {
+      "slug": "gyeonggi-11302917",
+      "hotelName": "화성(제부도) 좋은이웃펜션",
+      "address": "40, Haean-gil 178beon-gil, Seosin-myeon, Hwaseong-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-11996919",
+      "hotelName": "동탄 루나",
+      "address": "경기도 화성시 동탄구 동탄중심상가1길 31 광장타워7층~9층"
+    },
+    {
+      "slug": "gyeonggi-11996924",
+      "hotelName": "안산 호텔 月(월)",
+      "address": "85, Seonbugwangjang-ro, Danwon-gu, Ansan-si, Gyeonggi-do 안산"
+    },
+    {
+      "slug": "gyeonggi-11996937",
+      "hotelName": "양평 다이애나궁",
+      "address": "경기도 양평군 강상면 강남로 847"
+    },
+    {
+      "slug": "gyeonggi-11996980",
+      "hotelName": "안산(월피동) 카카오",
+      "address": "경기도 안산시 상록구 광덕산안길 24"
+    },
+    {
+      "slug": "gyeonggi-11996996",
+      "hotelName": "포천 센트럴 호텔",
+      "address": "경기도 포천시 신북면 호국로 2447"
+    },
+    {
+      "slug": "gyeonggi-11997000",
+      "hotelName": "병점 시네마",
+      "address": "경기도 화성시 병점구 효행로 1068 4층(병점동, 리더스프라자 4층)"
+    },
+    {
+      "slug": "gyeonggi-11997002",
+      "hotelName": "성남 초이스",
+      "address": "경기도 성남시 중원구 산성대로 118"
+    },
+    {
+      "slug": "gyeonggi-11997019",
+      "hotelName": "일산(대화) 수필",
+      "address": "경기도 고양시 일산서구 중앙로 1568 하성프라자 8층 수필호텔"
+    },
+    {
+      "slug": "gyeonggi-13302538",
+      "hotelName": "안산 나인",
+      "address": "경기도 안산시 상록구 예술광장1로 22"
+    },
+    {
+      "slug": "gyeonggi-13302541",
+      "hotelName": "시흥 맥스",
+      "address": "경기도 시흥시 서촌상가4길 6 은광프라자(서촌상가5길 4)"
+    },
+    {
+      "slug": "gyeonggi-13302553",
+      "hotelName": "양평 호텔 문",
+      "address": "경기도 양평군 서종면 북한강로 970 A동, B동"
+    },
+    {
+      "slug": "gyeonggi-13302630",
+      "hotelName": "화성 칼튼",
+      "address": "경기도 화성시 효행구 봉담읍 삼천병마로 1063-4"
+    },
+    {
+      "slug": "gyeonggi-13302632",
+      "hotelName": "가평 THE MOTEL(더모텔)",
+      "address": "경기도 가평군 가평읍 보납로 73"
+    },
+    {
+      "slug": "gyeonggi-13302644",
+      "hotelName": "남양주 썬 호텔",
+      "address": "경기도 남양주시 화도읍 북한강로 1651 썬호텔"
+    },
+    {
+      "slug": "gyeonggi-13302656",
+      "hotelName": "안산(월피동) 나인",
+      "address": "경기도 안산시 상록구 예술광장1로 22"
+    },
+    {
+      "slug": "gyeonggi-13302662",
+      "hotelName": "안산 랙스",
+      "address": "경기도 안산시 단원구 광덕3로 135-14"
+    },
+    {
+      "slug": "gyeonggi-13302672",
+      "hotelName": "양주 마운틴",
+      "address": "경기도 양주시 장흥면 권율로309번길 434-9 스톤마운틴 펜션"
+    },
+    {
+      "slug": "gyeonggi-13302676",
+      "hotelName": "여주 에이스 호텔",
+      "address": "경기도 여주시 신륵사길 13-2"
+    },
+    {
+      "slug": "gyeonggi-13302683",
+      "hotelName": "남양주 리버 (RIVER)",
+      "address": "648, Gyeonggang-ro, Wabu-eup, Namyangju-si, Gyeonggi-do 남양주"
+    },
+    {
+      "slug": "gyeonggi-13302688",
+      "hotelName": "화성 리치",
+      "address": "경기도 화성시 효행구 봉담읍 와우안길 82"
+    },
+    {
+      "slug": "gyeonggi-13302727",
+      "hotelName": "성남 해바라기",
+      "address": "경기도 성남시 중원구 산성대로 148"
+    },
+    {
+      "slug": "gyeonggi-13302767",
+      "hotelName": "용인 자자",
+      "address": "경기도 용인시 처인구 백옥대로 1135-1 2층"
+    },
+    {
+      "slug": "gyeonggi-13302782",
+      "hotelName": "수원(인계동) HOTEL JJ",
+      "address": "경기도 수원시 팔달구 권광로175번길 25 호텔제이제이"
+    },
+    {
+      "slug": "gyeonggi-13302841",
+      "hotelName": "성남 모란 블랙빔",
+      "address": "경기도 성남시 중원구 성남대로1148번길 25-1 블랙빔호텔"
+    },
+    {
+      "slug": "gyeonggi-13302844",
+      "hotelName": "평택 코코무인텔",
+      "address": "경기도 평택시 오성면 당거2길 9"
+    },
+    {
+      "slug": "gyeonggi-13302868",
+      "hotelName": "이천 델루나 무인텔",
+      "address": "경기도 이천시 백사면 이여로 404-28 1~4동 2층"
+    },
+    {
+      "slug": "gyeonggi-13302877",
+      "hotelName": "구리 그 날 (that day)",
+      "address": "96-2, Angol-ro, Guri-si, Gyeonggi-do 구리"
+    },
+    {
+      "slug": "gyeonggi-13302901",
+      "hotelName": "안산 5월",
+      "address": "84, Hwajeong-ro, Danwon-gu, Ansan-si, Gyeonggi-do 안산"
+    },
+    {
+      "slug": "gyeonggi-13302969",
+      "hotelName": "평택 브라운도트 평택역점",
+      "address": "경기도 평택시 평택로28번길 13"
+    },
+    {
+      "slug": "gyeonggi-13626129",
+      "hotelName": "포천 비욘더블루 풀빌라",
+      "address": "경기도 포천시 소흘읍 죽엽산로298번길 70-91"
+    },
+    {
+      "slug": "gyeonggi-13626143",
+      "hotelName": "가평 프라도펜션",
+      "address": "경기도 가평군 북면 화악산로207번길 5-33 프라도스파펜션"
+    },
+    {
+      "slug": "gyeonggi-13626148",
+      "hotelName": "가평 테라피스파펜션",
+      "address": "경기도 가평군 북면 꽃넘이길 87-11"
+    },
+    {
+      "slug": "gyeonggi-14083251",
+      "hotelName": "용인 스튜디오 9",
+      "address": "경기도 용인시 처인구 금령로106번길 6"
+    },
+    {
+      "slug": "gyeonggi-14083259",
+      "hotelName": "용인 메트로21",
+      "address": "경기도 용인시 수지구 풍덕천로190번길 10"
+    },
+    {
+      "slug": "gyeonggi-14083266",
+      "hotelName": "용인 벨리노 S",
+      "address": "경기도 용인시 기흥구 용구대로 2361 벨리노에스호텔"
+    },
+    {
+      "slug": "gyeonggi-14083281",
+      "hotelName": "부천(역곡) 리치",
+      "address": "경기도 부천시 원미구 역곡로1번길 24"
+    },
+    {
+      "slug": "gyeonggi-14083327",
+      "hotelName": "양평 호텔 벤",
+      "address": "424, Gangnam-ro, Gangha-myeon, Yangpyeong-gun, Gyeonggi-do 양평"
+    },
+    {
+      "slug": "gyeonggi-14085107",
+      "hotelName": "대부도 꿈의궁전",
+      "address": "경기도 안산시 단원구 당뒤길 9 꿈의궁전"
+    },
+    {
+      "slug": "gyeonggi-14085209",
+      "hotelName": "평택 호텔 이너피스",
+      "address": "경기도 평택시 평택5로 86 호텔이너피스"
+    },
+    {
+      "slug": "gyeonggi-14085266",
+      "hotelName": "안산 애플",
+      "address": "384, Yongsin-ro, Sangnok-gu, Ansan-si, Gyeonggi-do 안산"
+    },
+    {
+      "slug": "gyeonggi-14085272",
+      "hotelName": "부천(역곡) J",
+      "address": "14, Gyeongin-ro 497beon-gil, Bucheon-si, Gyeonggi-do 부천"
+    },
+    {
+      "slug": "gyeonggi-14085295",
+      "hotelName": "시흥 비앤비",
+      "address": "경기도 시흥시 중심상가1길 19-6"
+    },
+    {
+      "slug": "gyeonggi-14085313",
+      "hotelName": "평택(평택항) 블루힐모텔",
+      "address": "11, Gwongwan-gil, Hyeondeok-myeon, Pyeongtaek-si, Gyeonggi-do 평택"
+    },
+    {
+      "slug": "gyeonggi-14085392",
+      "hotelName": "동두천 제일모텔",
+      "address": "경기도 동두천시 동광로53번길 47 제일모텔"
+    },
+    {
+      "slug": "gyeonggi-14085495",
+      "hotelName": "안성 프라자호텔",
+      "address": "경기도 안성시 중앙로399번길 10 3, 4층"
+    },
+    {
+      "slug": "gyeonggi-14085503",
+      "hotelName": "양주 필",
+      "address": "경기도 양주시 장흥면 가마골로 281-1"
+    },
+    {
+      "slug": "gyeonggi-14085534",
+      "hotelName": "시흥 드라마",
+      "address": "경기도 시흥시 평안상가5길 7-7"
+    },
+    {
+      "slug": "gyeonggi-14087935",
+      "hotelName": "포천 더봄호텔",
+      "address": "경기도 포천시 내촌면 금강로 2713"
+    },
+    {
+      "slug": "gyeonggi-14439184",
+      "hotelName": "화성 발리",
+      "address": "경기도 화성시 만세구 우정읍 고온리안길102번길 26"
+    },
+    {
+      "slug": "gyeonggi-14652662",
+      "hotelName": "클럽 이너 호텔 앤 리조트",
+      "address": "382, Bukhangangbyeon-ro, Gapyeong-eup 가평 Gyeonggi"
+    },
+    {
+      "slug": "gyeonggi-14909313",
+      "hotelName": "안산 호텔 잠",
+      "address": "경기도 안산시 단원구 화정로 92"
+    },
+    {
+      "slug": "gyeonggi-16361184",
+      "hotelName": "일산(탄현) 미카사 호텔",
+      "address": "경기도 고양시 일산서구 일현로41번길 12-10"
+    },
+    {
+      "slug": "gyeonggi-16508303",
+      "hotelName": "동두천 그림책동화마을품카라반",
+      "address": "경기도 동두천시 삼육사로 1366"
+    },
+    {
+      "slug": "gyeonggi-16513525",
+      "hotelName": "대부도 은하수펜션",
+      "address": "경기도 안산시 단원구 잘푸리길 97-1 은하수펜션"
+    },
+    {
+      "slug": "gyeonggi-16528606",
+      "hotelName": "파주 휴스테이펜션",
+      "address": "경기도 파주시 법원읍 사임당로770번길 15-18"
+    },
+    {
+      "slug": "gyeonggi-16653677",
+      "hotelName": "포천 우리글램핑앤카라반",
+      "address": "6280, Geumgang-ro, Idong-myeon, Pocheon-si, Gyeonggi-do 포천"
+    },
+    {
+      "slug": "gyeonggi-16653679",
+      "hotelName": "양주 라떼 드라이브인호텔",
+      "address": "경기도 양주시 화합로1745번길 85-7"
+    },
+    {
+      "slug": "gyeonggi-16682851",
+      "hotelName": "안산(월피동) O2(오투)",
+      "address": "경기도 안산시 상록구 시낭로2길 1"
+    },
+    {
+      "slug": "gyeonggi-16796083",
+      "hotelName": "남양주 W호텔 호평점",
+      "address": "3, Neureul 2-ro 14beon-gil, Namyangju-si, Gyeonggi-do 서울"
+    },
+    {
+      "slug": "gyeonggi-16809872",
+      "hotelName": "가평 티라펜션",
+      "address": "경기도 가평군 북면 가화로 1834 티라펜션"
+    },
+    {
+      "slug": "gyeonggi-16919341",
+      "hotelName": "가평 세라비풀빌라",
+      "address": "경기도 가평군 가평읍 북한강변로 326-159"
+    },
+    {
+      "slug": "gyeonggi-17011227",
+      "hotelName": "포천 문밸리펜션",
+      "address": "경기도 포천시 이동면 금강로 6299 6299-2"
+    },
+    {
+      "slug": "gyeonggi-17220440",
+      "hotelName": "고양(주교) 뉴힐튼",
+      "address": "경기도 고양시 덕양구 원당로 79-1"
+    },
+    {
+      "slug": "gyeonggi-17640910",
+      "hotelName": "수원 망포역 더 호텔",
+      "address": "18, Yeongtong-ro 112beon-gil, Yeongtong-gu, Suwon-si, Gyeonggi-do 수원"
+    },
+    {
+      "slug": "gyeonggi-18068038",
+      "hotelName": "광명(철산) 칸쿤",
+      "address": "경기도 광명시 철산로30번길 22 서울빌딩3층"
+    },
+    {
+      "slug": "gyeonggi-18163026",
+      "hotelName": "광주 곤지암쉼371펜션",
+      "address": "20-13, Dokgogae-gil 302beon-gil, Docheok-myeon, Gwangju-si, Gyeonggi-do 광주"
+    },
+    {
+      "slug": "gyeonggi-18163029",
+      "hotelName": "포천 산정호수가족글램핑",
+      "address": "경기도 포천시 영북면 산정호수로411번길 13"
+    },
+    {
+      "slug": "gyeonggi-18202718",
+      "hotelName": "양평 드라이브인 호텔 히든포레",
+      "address": "111-9, Bachiul-gil, Seojong-myeon, Yangpyeong-gun, Gyeonggi-do 양평"
+    },
+    {
+      "slug": "gyeonggi-18465779",
+      "hotelName": "고양(토당) 로얄",
+      "address": "경기도 고양시 덕양구 토당로 86"
+    },
+    {
+      "slug": "gyeonggi-18468746",
+      "hotelName": "용인 양지 스테이 호텔 원삼점",
+      "address": "367, Nampyeong-ro, Yangji-myeon, Cheoin-gu, Yongin-si, Gyeonggi-do 이천"
+    },
+    {
+      "slug": "gyeonggi-18468942",
+      "hotelName": "안산 스테이코지해븐",
+      "address": "경기도 안산시 단원구 고잔1길 54 한일빌딩 4층"
+    },
+    {
+      "slug": "gyeonggi-18468968",
+      "hotelName": "화성(향남) 드라마",
+      "address": "경기도 화성시 만세구 향남읍 발안양감로 195 701,801호"
+    },
+    {
+      "slug": "gyeonggi-18469254",
+      "hotelName": "가평 숲속의정원글램핑",
+      "address": "경기도 가평군 북면 가화로 988-50"
+    },
+    {
+      "slug": "gyeonggi-18469349",
+      "hotelName": "성남 호텔 더휴(THE HU)",
+      "address": "경기도 성남시 수정구 산성대로269번길 6-15 1층"
+    },
+    {
+      "slug": "gyeonggi-18469399",
+      "hotelName": "남양주 나인스톤 호텔",
+      "address": "경기도 남양주시 화도읍 경춘로 2483-1"
+    },
+    {
+      "slug": "gyeonggi-18469417",
+      "hotelName": "가평 오하브글램핑",
+      "address": "경기도 가평군 북면 꽃넘이길 43"
+    },
+    {
+      "slug": "gyeonggi-18469418",
+      "hotelName": "남양주 진우네펜션",
+      "address": "경기도 남양주시 오남읍 팔현로175번길 142-7"
+    },
+    {
+      "slug": "gyeonggi-18469468",
+      "hotelName": "가평 솔로몬펜션",
+      "address": "경기도 가평군 청평면 호명리길 42"
+    },
+    {
+      "slug": "gyeonggi-18469569",
+      "hotelName": "포천 더세븐글램핑카라반",
+      "address": "경기도 포천시 이동면 화동로 2496-22"
+    },
+    {
+      "slug": "gyeonggi-18469574",
+      "hotelName": "부천(송내) 마루",
+      "address": "21, Buil-ro 199beon-gil, Bucheon-si, Gyeonggi-do 부천"
+    },
+    {
+      "slug": "gyeonggi-18469663",
+      "hotelName": "연천 조각가박시동미술관펜션",
+      "address": "경기도 연천군 백학면 백왕로225번길 240-1 조각가박시동미술관"
+    },
+    {
+      "slug": "gyeonggi-18469842",
+      "hotelName": "연천 궁전",
+      "address": "경기도 연천군 전곡읍 은전로86번길 83-10"
+    },
+    {
+      "slug": "gyeonggi-18469899",
+      "hotelName": "시흥 팜",
+      "address": "경기도 시흥시 옥구상가4길 24-6"
+    },
+    {
+      "slug": "gyeonggi-18528231",
+      "hotelName": "성남 저스트스테이호텔 남한산성점",
+      "address": "경기도 성남시 수정구 산성대로475번길 6-2"
+    },
+    {
+      "slug": "gyeonggi-18528342",
+      "hotelName": "양평 소르 호텔",
+      "address": "경기도 양평군 강하면 강남로 375 소르호텔"
+    },
+    {
+      "slug": "gyeonggi-18528427",
+      "hotelName": "광주(퇴촌) 제이파크",
+      "address": "경기도 광주시 퇴촌면 산수로 1258"
+    },
+    {
+      "slug": "gyeonggi-18528485",
+      "hotelName": "송탄 벨라",
+      "address": "경기도 평택시 특구로 48"
+    },
+    {
+      "slug": "gyeonggi-18528538",
+      "hotelName": "가평 환타지콜라보리조트",
+      "address": "경기도 가평군 가평읍 석봉로3번길 157-5"
+    },
+    {
+      "slug": "gyeonggi-18528674",
+      "hotelName": "제부도 인터파크",
+      "address": "경기도 화성시 만세구 서신면 해안길442번길 38-7"
+    },
+    {
+      "slug": "gyeonggi-18863803",
+      "hotelName": "가평 축령산히든밸리펜션",
+      "address": "경기도 가평군 상면 축령로 306"
+    },
+    {
+      "slug": "gyeonggi-18905751",
+      "hotelName": "가평 어반힐스풀빌라",
+      "address": "경기도 가평군 상면 수목원로 424-43 어반힐스 펜션"
+    },
+    {
+      "slug": "gyeonggi-18905764",
+      "hotelName": "용인 초콜릿",
+      "address": "1493-3, Jungbu-daero, Cheoin-gu, Yongin-si, Gyeonggi-do 용인"
+    },
+    {
+      "slug": "gyeonggi-18928826",
+      "hotelName": "이천 캠프 무인텔",
+      "address": "경기도 이천시 대월면 대평로 600"
+    },
+    {
+      "slug": "gyeonggi-18988139",
+      "hotelName": "포천 더히로플레이그라운드펜션&글램핑",
+      "address": "경기도 포천시 화현면 봉화로 201-65"
+    },
+    {
+      "slug": "gyeonggi-18988172",
+      "hotelName": "월곶 브라운도트 월곶역점",
+      "address": "30, Wolgotjungang-ro 70beonan-gil, Siheung-si, Gyeonggi-do 시흥"
+    },
+    {
+      "slug": "gyeonggi-19074668",
+      "hotelName": "의정부 케일라호텔 별관A동",
+      "address": "경기도 의정부시 범골로157번길 7-8 케일라호텔 별관"
+    },
+    {
+      "slug": "gyeonggi-19932368",
+      "hotelName": "남양주 힐사이드",
+      "address": "경기도 남양주시 와부읍 덕소로 252"
+    },
+    {
+      "slug": "gyeonggi-19969303",
+      "hotelName": "구리 스튜디오 9",
+      "address": "14-6, Angol-ro 57beon-gil, Guri-si, Gyeonggi-do 구리"
+    },
+    {
+      "slug": "gyeonggi-19969305",
+      "hotelName": "성남 앙띠브",
+      "address": "경기도 성남시 수정구 논골로7번길 4"
+    },
+    {
+      "slug": "gyeonggi-20308657",
+      "hotelName": "안양 식스(Six)",
+      "address": "60, Surisan-ro, Manan-gu, Anyang-si, Gyeonggi-do 안양"
+    },
+    {
+      "slug": "gyeonggi-21696468",
+      "hotelName": "수원(정자동) 아이비",
+      "address": "경기도 수원시 장안구 파장로 71-18"
+    },
+    {
+      "slug": "gyeonggi-22000606",
+      "hotelName": "안양 그랜드젬",
+      "address": "경기도 안양시 만안구 안양로 461-1 그랜드젬 모텔"
+    },
+    {
+      "slug": "gyeonggi-22138541",
+      "hotelName": "여주 오렌지 무인텔",
+      "address": "경기도 여주시 가남읍 경충대로 1465-28"
+    },
+    {
+      "slug": "gyeonggi-22148905",
+      "hotelName": "광주 꽃담하우스펜션",
+      "address": "20-19, Dokgogae-gil 302beon-gil, Docheok-myeon, Gwangju-si, Gyeonggi-do 광주"
+    },
+    {
+      "slug": "gyeonggi-22213287",
+      "hotelName": "가평 올덴카라반&펜션",
+      "address": "경기도 가평군 청평면 고재길 262-64 올덴 카라반&펜션"
+    },
+    {
+      "slug": "gyeonggi-22310066",
+      "hotelName": "가평 청평리버뷰펜션",
+      "address": "경기도 가평군 청평면 북한강로 2169"
+    },
+    {
+      "slug": "gyeonggi-22401433",
+      "hotelName": "수원역 라리아 수원",
+      "address": "경기도 수원시 팔달구 매산로 17-7"
+    },
+    {
+      "slug": "gyeonggi-22753327",
+      "hotelName": "청평 J모텔",
+      "address": "경기도 가평군 청평면 경춘로 764"
+    },
+    {
+      "slug": "gyeonggi-22998546",
+      "hotelName": "수원(북수동) 호텔 달(Dal)",
+      "address": "경기도 수원시 팔달구 화서문로75번길 20"
+    },
+    {
+      "slug": "gyeonggi-23011569",
+      "hotelName": "분당(야탑역) 브리즈 호텔",
+      "address": "경기도 성남시 분당구 성남대로916번길 13"
+    },
+    {
+      "slug": "gyeonggi-23144583",
+      "hotelName": "포천 라고비스타펜션",
+      "address": "경기도 포천시 일동면 운악청계로1480번길 44"
+    },
+    {
+      "slug": "gyeonggi-23666176",
+      "hotelName": "김포 웨스트9 호텔",
+      "address": "경기도 김포시 김포한강9로75번길 64"
+    },
+    {
+      "slug": "gyeonggi-23749527",
+      "hotelName": "용인 신갈 호텔 숲",
+      "address": "경기도 용인시 기흥구 신정로237번길 5-6 호텔 숲"
+    },
+    {
+      "slug": "gyeonggi-24936707",
+      "hotelName": "용인 풀하우스펜션",
+      "address": "경기도 용인시 처인구 원삼면 두창호수로 98 1층"
+    },
+    {
+      "slug": "gyeonggi-25005408",
+      "hotelName": "이천 하이모텔",
+      "address": "경기도 이천시 부발읍 경충대로 2106 4층"
+    },
+    {
+      "slug": "gyeonggi-25013679",
+      "hotelName": "부천(원종동) 젠",
+      "address": "경기도 부천시 오정구 소사로776번길 58"
+    },
+    {
+      "slug": "gyeonggi-25067124",
+      "hotelName": "가평 오세르키즈&패밀리풀빌라",
+      "address": "경기도 가평군 북면 백둔로 458-31"
+    },
+    {
+      "slug": "gyeonggi-25197902",
+      "hotelName": "광주 곤지암펜션길벗",
+      "address": "208, Docheogwit-ro Docheok-myeon, Gwangju-si, Gyeonggi-do 광주"
+    },
+    {
+      "slug": "gyeonggi-25455840",
+      "hotelName": "남양주 바바호(BABAHO) 호텔",
+      "address": "경기도 남양주시 별내면 청학로 61"
+    },
+    {
+      "slug": "gyeonggi-25545940",
+      "hotelName": "안양 범계 HOTEL BOX",
+      "address": "경기도 안양시 동안구 평촌대로 223 호텔 박스 3층"
+    },
+    {
+      "slug": "gyeonggi-25561293",
+      "hotelName": "의정부 느낌표",
+      "address": "경기도 의정부시 시민로122번길 9-24 호텔느낌표"
+    },
+    {
+      "slug": "gyeonggi-25894134",
+      "hotelName": "광주 샾테라스펜션 (곤지암리조트, 화담숲 차량 5분)",
+      "address": "328-8, Dokgogae-gil, Docheok-myeon, Gwangju-si, Gyeonggi-do 광주"
+    },
+    {
+      "slug": "gyeonggi-25894149",
+      "hotelName": "양평 에피소드706펜션",
+      "address": "경기도 양평군 용문면 학골길 197"
+    },
+    {
+      "slug": "gyeonggi-25894486",
+      "hotelName": "가평 달빛정원계곡독채펜션",
+      "address": "경기도 가평군 상면 임초밤안골로 263"
+    },
+    {
+      "slug": "gyeonggi-25894500",
+      "hotelName": "가평 로렌시아키즈풀빌라펜션",
+      "address": "경기도 가평군 북면 백둔로467번길 65-27"
+    },
+    {
+      "slug": "gyeonggi-25924105",
+      "hotelName": "파주 오페라한옥펜션",
+      "address": "경기도 파주시 파주읍 잠방골길 178-14 파주오페라한옥펜션"
+    },
+    {
+      "slug": "gyeonggi-25927946",
+      "hotelName": "송탄 호텔 BOX",
+      "address": "경기도 평택시 서정로 243-1"
+    },
+    {
+      "slug": "gyeonggi-26044021",
+      "hotelName": "용인 호텔 스테이 용인터미널점",
+      "address": "경기도 용인시 처인구 금령로 142-1 호텔 스테이"
+    },
+    {
+      "slug": "gyeonggi-26083032",
+      "hotelName": "남양주 마음농장위드스테이펜션",
+      "address": "534, Bukhangang-ro Joan-myeon, Namyangju-si, Gyeonggi-do 남양주"
+    },
+    {
+      "slug": "gyeonggi-26866375",
+      "hotelName": "이천 향그린",
+      "address": "경기도 이천시 애련정로103번길 53-21 향그린모텔"
+    },
+    {
+      "slug": "gyeonggi-26900590",
+      "hotelName": "가평 루타46풀빌라펜션",
+      "address": "경기도 가평군 청평면 호반로 753-37"
+    },
+    {
+      "slug": "gyeonggi-26900598",
+      "hotelName": "여주 한가로이펜션",
+      "address": "경기도 여주시 신륵1길 47"
+    },
+    {
+      "slug": "gyeonggi-26900600",
+      "hotelName": "여주 올에이풀빌라",
+      "address": "경기도 여주시 강천면 가정긴골길 128-6"
+    },
+    {
+      "slug": "gyeonggi-26900602",
+      "hotelName": "대부도 씨유블루펜션",
+      "address": "경기도 안산시 단원구 대호5길 21 1층"
+    },
+    {
+      "slug": "gyeonggi-26900614",
+      "hotelName": "오산 드림",
+      "address": "경기도 오산시 오산로198번길 11-1"
+    },
+    {
+      "slug": "gyeonggi-27741377",
+      "hotelName": "부천(중동) 노블레스",
+      "address": "경기도 부천시 원미구 조마루로297번길 13"
+    },
+    {
+      "slug": "gyeonggi-27760528",
+      "hotelName": "가평 아이와키즈풀빌라",
+      "address": "경기도 가평군 청평면 호명리길 27-2 아이와키즈풀빌라"
+    },
+    {
+      "slug": "gyeonggi-28033542",
+      "hotelName": "화성(제부도) 제부JJ펜션",
+      "address": "경기도 화성시 만세구 서신면 해안길178번길 98"
+    },
+    {
+      "slug": "gyeonggi-28160203",
+      "hotelName": "광주 꽃담빌펜션",
+      "address": "20-15, Dokgogae-gil 302beon-gil, Docheok-myeon, Gwangju-si, Gyeonggi-do 광주"
+    },
+    {
+      "slug": "gyeonggi-28181077",
+      "hotelName": "이천 IMT",
+      "address": "경기도 이천시 중리천로97번길 47"
+    },
+    {
+      "slug": "gyeonggi-28194224",
+      "hotelName": "화성(제부도) 수에뇨펜션",
+      "address": "377, Haean-gil, Seosin-myeon, Hwaseong-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-28199281",
+      "hotelName": "양평 다가섬펜션(비발디파크 인근 5분거리)",
+      "address": "175, Myeongseong-gil, Danwol-myeon, Yangpyeong-gun, Gyeonggi-do 양평"
+    },
+    {
+      "slug": "gyeonggi-28259990",
+      "hotelName": "부천(원종동) 리베라호텔",
+      "address": "경기도 부천시 오정구 소사로748번길 21"
+    },
+    {
+      "slug": "gyeonggi-28344003",
+      "hotelName": "양주 장흥수목원펜션",
+      "address": "경기도 양주시 장흥면 권율로309번길 167-26"
+    },
+    {
+      "slug": "gyeonggi-28696113",
+      "hotelName": "성남(모란) bunker 1148",
+      "address": "29-1, Seongnam-daero 1148beon-gil, Jungwon-gu, Seongnam-si, Gyeonggi-do 성남"
+    },
+    {
+      "slug": "gyeonggi-28933701",
+      "hotelName": "병점 호텔 강남스타일",
+      "address": "경기도 화성시 병점구 떡전골로 96-4 미라클플라자 8층"
+    },
+    {
+      "slug": "gyeonggi-29537145",
+      "hotelName": "포천 키즈몽풀빌라",
+      "address": "146, Unakcheonggye-ro 1480beon-gil, Ildong-myeon, Pocheon-si, Gyeonggi-do 포천"
+    },
+    {
+      "slug": "gyeonggi-30371672",
+      "hotelName": "평택 넘버25 평택역점",
+      "address": "경기도 평택시 평택로88번길 33 넘버25호텔 평택역점"
+    },
+    {
+      "slug": "gyeonggi-30584597",
+      "hotelName": "광주(퇴촌면) 더 쉼 무인텔",
+      "address": "경기도 광주시 퇴촌면 산수로 1266"
+    },
+    {
+      "slug": "gyeonggi-30659332",
+      "hotelName": "양평 아도니스",
+      "address": "경기도 양평군 강하면 산수로 3111 양평아도니스펜션"
+    },
+    {
+      "slug": "gyeonggi-30659658",
+      "hotelName": "포천 호랑이캠핑&글램핑 산정호수점",
+      "address": "경기도 포천시 영북면 새낭로 919"
+    },
+    {
+      "slug": "gyeonggi-30793676",
+      "hotelName": "가평 베라노펜션",
+      "address": "경기도 가평군 설악면 자잠로 344"
+    },
+    {
+      "slug": "gyeonggi-30949577",
+      "hotelName": "평택 엘리시아호텔",
+      "address": "경기도 평택시 포승읍 여술1길 31"
+    },
+    {
+      "slug": "gyeonggi-30951357",
+      "hotelName": "가평 남이섬리베라펜션",
+      "address": "경기도 가평군 가평읍 북한강변로 1088-13"
+    },
+    {
+      "slug": "gyeonggi-30990066",
+      "hotelName": "남양주 플라워펜션",
+      "address": "경기도 남양주시 오남읍 진건오남로708번길 106-36"
+    },
+    {
+      "slug": "gyeonggi-30990132",
+      "hotelName": "광주 남한강모텔",
+      "address": "1594, Sansu-ro, Namjong-myeon, Gwangju-si, Gyeonggi-do 광주"
+    },
+    {
+      "slug": "gyeonggi-30990638",
+      "hotelName": "광주 펜션&남한산성아트홀펜션",
+      "address": "186, Namhansanseong-ro, Namhansanseong-myeon, Gwangju-si, Gyeonggi-do 광주"
+    },
+    {
+      "slug": "gyeonggi-30990758",
+      "hotelName": "포천 더존카라반글램핑",
+      "address": "경기도 포천시 이동면 화동로2076번길 125"
+    },
+    {
+      "slug": "gyeonggi-30990989",
+      "hotelName": "이천 라움호텔",
+      "address": "경기도 이천시 부발읍 경충대로2285번길 23 라움호텔"
+    },
+    {
+      "slug": "gyeonggi-30991663",
+      "hotelName": "가평 아이리스키즈풀빌라",
+      "address": "경기도 가평군 가평읍 태봉두밀로 224"
+    },
+    {
+      "slug": "gyeonggi-30992199",
+      "hotelName": "수원(영화동) 제이",
+      "address": "경기도 수원시 장안구 팔달로259번길 10"
+    },
+    {
+      "slug": "gyeonggi-30992234",
+      "hotelName": "가평 뚜르키즈풀빌라",
+      "address": "경기도 가평군 북면 백둔로 510-16"
+    },
+    {
+      "slug": "gyeonggi-30992759",
+      "hotelName": "가평 실내수영장 온수무료펜션",
+      "address": "경기도 가평군 가평읍 복장포길 46-148 가평실내수영장온수무료펜션"
+    },
+    {
+      "slug": "gyeonggi-30993348",
+      "hotelName": "대부도 동그라미펜션",
+      "address": "경기도 안산시 단원구 비룰길 61-12"
+    },
+    {
+      "slug": "gyeonggi-30993692",
+      "hotelName": "화성 월문 허니비1",
+      "address": "경기도 화성시 만세구 팔탄면 버들로1597번길 11"
+    },
+    {
+      "slug": "gyeonggi-31129772",
+      "hotelName": "양주 힐링쉼터펜션",
+      "address": "경기도 양주시 백석읍 권율로 976-31"
+    },
+    {
+      "slug": "gyeonggi-3129625",
+      "hotelName": "이끌림 클래식 호텔",
+      "address": "경기도 평택시 포승읍 평택항로184번길 3-13"
+    },
+    {
+      "slug": "gyeonggi-31371835",
+      "hotelName": "일산(백석) 호텔 알렌",
+      "address": "경기도 고양시 일산동구 장백로 68"
+    },
+    {
+      "slug": "gyeonggi-31445252",
+      "hotelName": "가평 청평캠프게이트카라반",
+      "address": "1025-26, Hoban-ro, Cheongpyeong-myeon, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-32342323",
+      "hotelName": "양주 스타호텔",
+      "address": "경기도 양주시 장흥면 가마골로 70-37"
+    },
+    {
+      "slug": "gyeonggi-32709507",
+      "hotelName": "연천 플랫하우스펜션(5사단-25사단 5분거리펜션)",
+      "address": "57-24, Auraji-gil, Cheongsan-myeon, Yeoncheon-gun, Gyeonggi-do 연천"
+    },
+    {
+      "slug": "gyeonggi-32764625",
+      "hotelName": "가평 별똥별글램핑&카라반",
+      "address": "경기도 가평군 설악면 유명산길 124-12"
+    },
+    {
+      "slug": "gyeonggi-32804042",
+      "hotelName": "가평(남이섬) 블리스풀빌라",
+      "address": "경기도 가평군 가평읍 북한강변로 1007-82 가평 블리스 펜션"
+    },
+    {
+      "slug": "gyeonggi-32806121",
+      "hotelName": "평택 더 온",
+      "address": "경기도 평택시 평택로76번길 14"
+    },
+    {
+      "slug": "gyeonggi-32850378",
+      "hotelName": "포천 에이스 드라이브인 무인텔",
+      "address": "724-6, Gwangneungsumogwon-ro, Soheul-eup, Pocheon-si, Gyeonggi-do 포천"
+    },
+    {
+      "slug": "gyeonggi-33060761",
+      "hotelName": "남양주 제이브라운 호텔 다산점",
+      "address": "7-34, Dasanjungang-ro 123beon-gil, Namyangju-si, Gyeonggi-do 남양주"
+    },
+    {
+      "slug": "gyeonggi-33064988",
+      "hotelName": "안양 아담 (A.Dam)",
+      "address": "경기도 안양시 만안구 만안로77번길 7 아담호텔"
+    },
+    {
+      "slug": "gyeonggi-33156207",
+      "hotelName": "남양주 스토리 호텔&드라이빙텔",
+      "address": "1407, Bukhangang-ro, Hwado-eup, Namyangju-si, Gyeonggi-do 한다리"
+    },
+    {
+      "slug": "gyeonggi-33184418",
+      "hotelName": "안성 관광호텔 H",
+      "address": "경기도 안성시 죽산면 죽주로 268-2 호텔에이치(호텔H)"
+    },
+    {
+      "slug": "gyeonggi-33457417",
+      "hotelName": "평택 더 비전",
+      "address": "경기도 평택시 평택5로96번길 12 (비전동)"
+    },
+    {
+      "slug": "gyeonggi-33458608",
+      "hotelName": "포천 드라이브인 호텔꼬뮨더힐링",
+      "address": "682, Gwangneungsumogwon-ro, Soheul-eup, Pocheon-si, Gyeonggi-do 포천"
+    },
+    {
+      "slug": "gyeonggi-34212299",
+      "hotelName": "화성(제부도) 마리아민박펜션",
+      "address": "175, Jebumal-gil, Seosin-myeon, Hwaseong-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-34219305",
+      "hotelName": "가평 지안W펜션",
+      "address": "35, Yumyeongsan-gil, Seorak-myeon, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-34227461",
+      "hotelName": "가평 루체른글램핑",
+      "address": "경기도 가평군 조종면 운악청계로333번길 19"
+    },
+    {
+      "slug": "gyeonggi-34229314",
+      "hotelName": "산본 드림팰리스 호텔",
+      "address": "경기도 군포시 산본로323번길 10-6"
+    },
+    {
+      "slug": "gyeonggi-34409403",
+      "hotelName": "안성 G7 BOUTIQUE HOTEL",
+      "address": "경기도 안성시 대덕면 서동대로 4790"
+    },
+    {
+      "slug": "gyeonggi-34411256",
+      "hotelName": "의정부 궁",
+      "address": "경기도 의정부시 평화로439번길 19"
+    },
+    {
+      "slug": "gyeonggi-34413447",
+      "hotelName": "성남 갤럭시",
+      "address": "6-3, Sanseong-daero 283beon-gil, Sujeong-gu, Seongnam-si, Gyeonggi-do 성남"
+    },
+    {
+      "slug": "gyeonggi-34519332",
+      "hotelName": "포천 산정호수케이블카펜션",
+      "address": "경기도 포천시 영북면 산정호수로 722-41"
+    },
+    {
+      "slug": "gyeonggi-34602123",
+      "hotelName": "가평 디온풀빌라펜션",
+      "address": "경기도 가평군 가평읍 호반로 1515-29 디온 풀빌라"
+    },
+    {
+      "slug": "gyeonggi-34602297",
+      "hotelName": "광주 퇴촌 W",
+      "address": "경기도 광주시 퇴촌면 도수길 61 더블유모텔"
+    },
+    {
+      "slug": "gyeonggi-34716093",
+      "hotelName": "가평 쁘띠프랑스 리조트",
+      "address": "경기도 가평군 청평면 호반로 774"
+    },
+    {
+      "slug": "gyeonggi-35038616",
+      "hotelName": "가평 리틀포레스트캠핑글램핑",
+      "address": "경기도 가평군 상면 임초밤안골로 230"
+    },
+    {
+      "slug": "gyeonggi-35195904",
+      "hotelName": "제부도 워터월드펜션",
+      "address": "경기도 화성시 만세구 서신면 제부말길 46-4 워터월드펜션"
+    },
+    {
+      "slug": "gyeonggi-35296932",
+      "hotelName": "이천 파라다이스 무인텔",
+      "address": "경기도 이천시 마장면 서이천로578번길 2-38"
+    },
+    {
+      "slug": "gyeonggi-35372244",
+      "hotelName": "포천 놀멍애견펜션",
+      "address": "경기도 포천시 화현면 봉화로 173-23 놀멍애견펜션"
+    },
+    {
+      "slug": "gyeonggi-35540368",
+      "hotelName": "부천(상동) 팔레스",
+      "address": "경기도 부천시 원미구 길주로77번길 21"
+    },
+    {
+      "slug": "gyeonggi-35707151",
+      "hotelName": "부천(원종동) 원스테이",
+      "address": "경기도 부천시 오정구 원종로65번길 8"
+    },
+    {
+      "slug": "gyeonggi-36444802",
+      "hotelName": "양주 데이즈온 드라이브인 호텔",
+      "address": "경기도 양주시 백석읍 기산로 508-6"
+    },
+    {
+      "slug": "gyeonggi-36778970",
+      "hotelName": "양주 J(제이)",
+      "address": "경기도 양주시 장흥면 권율로309번길 317-165"
+    },
+    {
+      "slug": "gyeonggi-36786915",
+      "hotelName": "가평 하하호호펜션(남이섬)",
+      "address": "37, Gyeongbanan-ro, Gapyeong-eup, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-36786984",
+      "hotelName": "포천 더클래식카라반앤글램핑",
+      "address": "경기도 포천시 이동면 금강로 5549 1층"
+    },
+    {
+      "slug": "gyeonggi-36834157",
+      "hotelName": "가평 262키즈풀빌라",
+      "address": "경기도 가평군 가평읍 염창길 50"
+    },
+    {
+      "slug": "gyeonggi-36834747",
+      "hotelName": "하남 리버파크 호텔",
+      "address": "경기도 하남시 미사강변중앙로 160 미사 리버파크 8층,9층"
+    },
+    {
+      "slug": "gyeonggi-36912055",
+      "hotelName": "양평 에코이글루글램핑(열대식물원)",
+      "address": "28, Sambaekgol-gil, Cheongun-myeon, Yangpyeong-gun, Gyeonggi-do 양평"
+    },
+    {
+      "slug": "gyeonggi-36918770",
+      "hotelName": "병점 시티",
+      "address": "경기도 화성시 병점구 경기대로 1036 2,3층(진안동)"
+    },
+    {
+      "slug": "gyeonggi-6392893",
+      "hotelName": "용인 아스트로호텔",
+      "address": "경기도 용인시 수지구 포은대로 479"
+    },
+    {
+      "slug": "gyeonggi-6712207",
+      "hotelName": "게스트하우스 DMZ 스테이",
+      "address": "경기도 파주시 문산읍 사목로 223"
+    },
+    {
+      "slug": "gyeonggi-83291637",
+      "hotelName": "An house with a beautiful sunset",
+      "address": "경기도 안산시 단원구 시화호수로841번길 6-17 중앙하이츠마레. 11층 1146호 안산"
+    },
+    {
+      "slug": "gyeonggi-83508256",
+      "hotelName": "경기도 양평군 강남로714-14 미니조식무료서비스",
+      "address": "경기 양평군 강상면 강남로 714-14 양평"
+    },
+    {
+      "slug": "gyeonggi-14085344",
+      "hotelName": "수원(인계동) 뉴엠",
+      "address": "경기도 수원시 팔달구 효원로219번길 46-6"
+    },
+    {
+      "slug": "gyeonggi-10572955",
+      "hotelName": "수원(시청역) 엑스아이(Xi)",
+      "address": "32, Gwanggwang-ro 175beon-gil, Paldal-gu, Suwon-si, Gyeonggi-do 수원"
+    },
+    {
+      "slug": "gyeonggi-18469502",
+      "hotelName": "성남 인투",
+      "address": "경기도 성남시 중원구 산성대로 176-5"
+    },
+    {
+      "slug": "gyeonggi-10580648",
+      "hotelName": "가평 리버랜드",
+      "address": "경기도 가평군 설악면 유명로 2312"
+    },
+    {
+      "slug": "gyeonggi-10589924",
+      "hotelName": "평촌 호텔 에비뉴 186",
+      "address": "경기도 안양시 동안구 관평로186번길 27"
+    },
+    {
+      "slug": "gyeonggi-10573397",
+      "hotelName": "부천(중동) HOTEL CT",
+      "address": "12, Seokcheon-ro 178beon-gil, Bucheon-si, Gyeonggi-do 부천"
+    },
+    {
+      "slug": "gyeonggi-25064427",
+      "hotelName": "부천(중동) 로잔",
+      "address": "경기도 부천시 원미구 석천로170번길 15"
+    },
+    {
+      "slug": "gyeonggi-10589319",
+      "hotelName": "인덕원 월 (月)",
+      "address": "89, Indeogwon-ro 30beon-gil, Dongan-gu, Anyang-si, Gyeonggi-do 안양"
+    },
+    {
+      "slug": "gyeonggi-10590363",
+      "hotelName": "하남 바로호텔",
+      "address": "경기도 하남시 대청로22번길 9-5"
+    },
+    {
+      "slug": "gyeonggi-10580260",
+      "hotelName": "월곶 크루즈",
+      "address": "경기도 시흥시 월곶중앙로70번안길 20"
+    },
+    {
+      "slug": "gyeonggi-10581898",
+      "hotelName": "남양주 넘버25 남양주별내점",
+      "address": "경기도 남양주시 별내면 청학로92번길 137"
+    },
+    {
+      "slug": "gyeonggi-34130370",
+      "hotelName": "이천 뷰",
+      "address": "경기도 이천시 영창로 188 3층"
+    },
+    {
+      "slug": "gyeonggi-10577175",
+      "hotelName": "수원(인계동) 제노",
+      "address": "경기도 수원시 팔달구 인계로108번길 39-16 1층~6층"
+    },
+    {
+      "slug": "gyeonggi-10581150",
+      "hotelName": "성남 까사 호텔",
+      "address": "경기도 성남시 중원구 제일로74번길 7 호텔 까사"
+    },
+    {
+      "slug": "gyeonggi-34227447",
+      "hotelName": "가평 스테이고재325리버뷰리조트 (서울 인근, 친자연)",
+      "address": "325, Gojae-gil, Cheongpyeong-myeon, Gapyeong-gun, Gyeonggi-do 가평"
+    },
+    {
+      "slug": "gyeonggi-13302796",
+      "hotelName": "파주 초원장",
+      "address": "27-1, Munhyang-ro 68beon-gil, Munsan-eup, Paju-si, Gyeonggi-do 파주"
+    },
+    {
+      "slug": "gyeonggi-10586398",
+      "hotelName": "대부도 트래블지펜션",
+      "address": "경기도 안산시 단원구 구봉타운길 61 트래블지"
+    },
+    {
+      "slug": "gyeonggi-17526134",
+      "hotelName": "광명 저스트스테이호텔 광명소하점",
+      "address": "경기도 광명시 오리로 357 저스트스테이호텔"
+    },
+    {
+      "slug": "gyeonggi-10580877",
+      "hotelName": "광주 곤지암 윌 무인텔",
+      "address": "경기도 광주시 초월읍 산이길 8"
+    },
+    {
+      "slug": "gyeonggi-10573200",
+      "hotelName": "포천 비버리힐펜션",
+      "address": "경기도 포천시 이동면 새낭로 607 (8사단 신병교육대 5분거리)"
+    },
+    {
+      "slug": "gyeonggi-10578608",
+      "hotelName": "양주 아리오",
+      "address": "경기도 양주시 장흥면 호국로 623-94"
+    },
+    {
+      "slug": "gyeonggi-10586274",
+      "hotelName": "김포 퀸 호텔",
+      "address": "경기도 고양시 일산동구 정발산로 39 대양빌딩 8층"
+    },
+    {
+      "slug": "gyeonggi-10587047",
+      "hotelName": "청평 파라다이스",
+      "address": "경기도 가평군 청평면 북한강로 2167"
+    },
+    {
+      "slug": "gyeonggi-10573143",
+      "hotelName": "양평 9월",
+      "address": "경기도 양평군 양평읍 양평장터길 11"
+    },
+    {
+      "slug": "gyeonggi-13302568",
+      "hotelName": "금정 테마",
+      "address": "경기도 군포시 군포로707번길 4"
+    },
+    {
+      "slug": "gyeonggi-10583909",
+      "hotelName": "고양(주교) 호텔첼시",
+      "address": "경기도 고양시 덕양구 고양대로 1325"
+    },
+    {
+      "slug": "gyeonggi-10574740",
+      "hotelName": "연천 한탄강",
+      "address": "185-6, Seonsa-ro, Jeongok-eup, Yeoncheon-gun, Gyeonggi-do 연천"
+    },
+    {
+      "slug": "gyeonggi-10579320",
+      "hotelName": "양평 NOT A HOTEL(나더호텔)",
+      "address": "144, Geumgok-gil, Yongmun-myeon, Yangpyeong-gun, Gyeonggi-do 양평"
+    },
+    {
+      "slug": "gyeonggi-10581058",
+      "hotelName": "평택 칸 무인텔",
+      "address": "경기도 평택시 포승읍 직산동길 14"
+    },
+    {
+      "slug": "gyeonggi-10576754",
+      "hotelName": "가평 청평사계절펜션",
+      "address": "경기도 가평군 청평면 마지기길 34"
+    },
+    {
+      "slug": "gyeonggi-10583229",
+      "hotelName": "시흥 포유",
+      "address": "경기도 시흥시 비둘기공원4길 21"
+    },
+    {
+      "slug": "gyeonggi-10590848",
+      "hotelName": "광명(철산) 블랑",
+      "address": "경기도 광명시 디지털로 17 4층"
+    },
+    {
+      "slug": "gyeonggi-10580927",
+      "hotelName": "안성(공도) 갤러리",
+      "address": "경기도 안성시 공도읍 상마정길 2"
+    },
+    {
+      "slug": "gyeonggi-10585058",
+      "hotelName": "남양주 달",
+      "address": "경기도 남양주시 화도읍 경춘로2180번길 23"
+    },
+    {
+      "slug": "gyeonggi-14085498",
+      "hotelName": "제부도 힐",
+      "address": "경기도 화성시 만세구 서신면 해안길 288-6"
+    },
+    {
+      "slug": "gyeonggi-10586591",
+      "hotelName": "금정 호텔 초콜릿",
+      "address": "경기도 군포시 군포로741번길 7"
+    },
+    {
+      "slug": "gyeonggi-10575281",
+      "hotelName": "양주 케이플러스 호텔",
+      "address": "경기도 양주시 고원2길 22 케이플러스호텔"
+    },
+    {
+      "slug": "gyeonggi-18962304",
+      "hotelName": "여주 남강호텔",
+      "address": "7, Gangbyeonbuk-ro, Yeoju-si, Gyeonggi-do 여주시"
+    },
+    {
+      "slug": "gyeonggi-10587746",
+      "hotelName": "성남 오페라",
+      "address": "경기도 성남시 수정구 산성대로269번길 10"
+    },
+    {
+      "slug": "gyeonggi-10574733",
+      "hotelName": "시흥 더 에스",
+      "address": "경기도 시흥시 옥구상가4길 16-5"
+    },
+    {
+      "slug": "gyeonggi-10575737",
+      "hotelName": "수원역 디자인호텔 칸",
+      "address": "경기도 수원시 팔달구 갓매산로71번길 24"
+    },
+    {
+      "slug": "gyeonggi-18469962",
+      "hotelName": "부천(상동) 아늑 호텔 앤 스파",
+      "address": "경기도 부천시 원미구 길주로121번길 18-11"
+    },
+    {
+      "slug": "gyeonggi-10581192",
+      "hotelName": "제부도(궁평항) 필무인텔",
+      "address": "890-8, Jebu-ro, Seosin-myeon, Hwaseong-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-10589695",
+      "hotelName": "가평 크라시",
+      "address": "경기도 가평군 가평읍 석봉로3번길 10"
+    },
+    {
+      "slug": "gyeonggi-10581551",
+      "hotelName": "동두천 하이브",
+      "address": "경기도 동두천시 강변로 862-1"
+    },
+    {
+      "slug": "gyeonggi-10588902",
+      "hotelName": "가평 멀리가는향기펜션",
+      "address": "경기도 가평군 가평읍 태봉두밀로 440"
+    },
+    {
+      "slug": "gyeonggi-10583413",
+      "hotelName": "청평 파인호텔",
+      "address": "경기도 가평군 청평면 청평역로 38-19 청평 파인호텔"
+    },
+    {
+      "slug": "gyeonggi-10577878",
+      "hotelName": "인덕원 TUUS",
+      "address": "경기도 안양시 동안구 인덕원로30번길 49"
+    },
+    {
+      "slug": "gyeonggi-10581046",
+      "hotelName": "수원역 프로방스 22st",
+      "address": "경기도 수원시 팔달구 향교로3번길 20"
+    },
+    {
+      "slug": "gyeonggi-21914639",
+      "hotelName": "안산(중앙동) 블루호텔",
+      "address": "48, Gojan 1-gil, Danwon-gu, Ansan-si, Gyeonggi-do 안산"
+    },
+    {
+      "slug": "gyeonggi-10588730",
+      "hotelName": "의정부 필",
+      "address": "경기도 의정부시 신흥로222번길 5-28 필모텔"
+    },
+    {
+      "slug": "gyeonggi-34659680",
+      "hotelName": "포천 브라운도트 포천송우점",
+      "address": "경기도 포천시 소흘읍 송우로30번길 2-23"
+    },
+    {
+      "slug": "gyeonggi-36919178",
+      "hotelName": "대부도 호텔오투비",
+      "address": "경기도 안산시 단원구 돈지섬길 93"
+    },
+    {
+      "slug": "gyeonggi-10589378",
+      "hotelName": "산본 짬(ZZAM)",
+      "address": "경기도 군포시 산본로323번길 10-26 다복빌딩 5층"
+    },
+    {
+      "slug": "gyeonggi-10576627",
+      "hotelName": "성남 HOTEL 오일 莊",
+      "address": "29, Seongnam-daero 1148beon-gil, Jungwon-gu, Seongnam-si, Gyeonggi-do 성남"
+    },
+    {
+      "slug": "gyeonggi-10587624",
+      "hotelName": "성남 더플레이",
+      "address": "경기도 성남시 수정구 산성대로 599"
+    },
+    {
+      "slug": "gyeonggi-10590593",
+      "hotelName": "김포 벨루치 드라이브인 무인텔",
+      "address": "27, Geumpo-ro 1915beon-gil, Haseong-myeon, Gimpo-si, Gyeonggi-do 김포"
+    },
+    {
+      "slug": "gyeonggi-10577047",
+      "hotelName": "구리 BOX",
+      "address": "51, Angol-ro 57beon-gil, Guri-si, Gyeonggi-do 구리"
+    },
+    {
+      "slug": "gyeonggi-10573175",
+      "hotelName": "안양 버팔로",
+      "address": "경기도 안양시 동안구 관악대로356번길 11-10"
+    },
+    {
+      "slug": "gyeonggi-10573563",
+      "hotelName": "부천(역곡) 썸",
+      "address": "경기도 부천시 소사구 부광로7번길 15"
+    },
+    {
+      "slug": "gyeonggi-11997001",
+      "hotelName": "가평(청평) M 모텔",
+      "address": "경기도 가평군 청평면 경춘로 662"
+    },
+    {
+      "slug": "gyeonggi-10580892",
+      "hotelName": "제부도(궁평항) 씨사이드",
+      "address": "97, Sumungae-gil, Seosin-myeon, Hwaseong-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-14085520",
+      "hotelName": "연천 씨엘",
+      "address": "경기도 연천군 전곡읍 선사로 185"
+    },
+    {
+      "slug": "gyeonggi-13302584",
+      "hotelName": "평택 짝",
+      "address": "경기도 평택시 자유로8번길 16-1"
+    },
+    {
+      "slug": "gyeonggi-10583331",
+      "hotelName": "고양(토당) 휴",
+      "address": "경기도 고양시 덕양구 토당로 90-17"
+    },
+    {
+      "slug": "gyeonggi-10581884",
+      "hotelName": "가평 모블리펜션",
+      "address": "경기도 가평군 상면 수목원로 355-20 모블리펜션"
+    },
+    {
+      "slug": "gyeonggi-10573309",
+      "hotelName": "안양 퀸",
+      "address": "경기도 안양시 동안구 관악대로356번길 11-6"
+    },
+    {
+      "slug": "gyeonggi-10587124",
+      "hotelName": "안성 힐하우스",
+      "address": "경기도 안성시 공도읍 마정강변길 58"
+    },
+    {
+      "slug": "gyeonggi-10576067",
+      "hotelName": "안성(공도) 리베라",
+      "address": "경기도 안성시 공도읍 구문길 27-8"
+    },
+    {
+      "slug": "gyeonggi-10579255",
+      "hotelName": "제부도 스위트호텔",
+      "address": "7, Jebu-ro 237beon-gil, Seosin-myeon, Hwaseong-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-30992210",
+      "hotelName": "이천 월드클래식",
+      "address": "경기도 이천시 장호원읍 장감로87번길 3"
+    },
+    {
+      "slug": "gyeonggi-10583795",
+      "hotelName": "수원 행궁동 르노",
+      "address": "경기도 수원시 팔달구 정조로788번길 11-3"
+    },
+    {
+      "slug": "gyeonggi-10590203",
+      "hotelName": "파주 봉일천 S",
+      "address": "경기도 파주시 조리읍 통일로 310 유성장모텔"
+    },
+    {
+      "slug": "gyeonggi-14085435",
+      "hotelName": "광주 곤지암 M",
+      "address": "경기도 광주시 곤지암읍 곤지암로50번길 14 곤지암 엠모텔"
+    },
+    {
+      "slug": "gyeonggi-10589418",
+      "hotelName": "오산 호텔 누리",
+      "address": "경기도 오산시 오산로190번길 6 유성빌딩"
+    },
+    {
+      "slug": "gyeonggi-10590935",
+      "hotelName": "연천 미라클",
+      "address": "경기도 연천군 군남면 군중로 134 연천미라클타운"
+    },
+    {
+      "slug": "gyeonggi-34411035",
+      "hotelName": "안양 라온",
+      "address": "경기도 안양시 만안구 장내로149번길 33 . 3,4층"
+    },
+    {
+      "slug": "gyeonggi-18469919",
+      "hotelName": "광명 블루",
+      "address": "1, Ori-ro 942beon-gil, Gwangmyeong-si, Gyeonggi-do 서울"
+    },
+    {
+      "slug": "gyeonggi-10589393",
+      "hotelName": "포천(일동) 썸",
+      "address": "경기도 포천시 일동면 화동로1063번길 7-1"
+    },
+    {
+      "slug": "gyeonggi-20098802",
+      "hotelName": "안산 건건동 오투(O2)",
+      "address": "경기도 안산시 상록구 건지미길 15-24"
+    },
+    {
+      "slug": "gyeonggi-30817844",
+      "hotelName": "화성 힐사이드 foryou 무인텔",
+      "address": "428-4, Oncheon-ro, Paltan-myeon, Hwaseong-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-28033313",
+      "hotelName": "부천(역곡) Q",
+      "address": "경기도 부천시 원미구 역곡로2번길 13"
+    },
+    {
+      "slug": "gyeonggi-20308666",
+      "hotelName": "오산 오투",
+      "address": "경기도 오산시 경기대로636번길 2"
+    },
+    {
+      "slug": "gyeonggi-10580646",
+      "hotelName": "파주 호텔 CC",
+      "address": "경기도 파주시 탄현면 엘씨디로241번길 39-45 호텔CC"
+    },
+    {
+      "slug": "gyeonggi-10581313",
+      "hotelName": "의정부 엘리",
+      "address": "경기도 의정부시 신흥로222번길 27"
+    },
+    {
+      "slug": "gyeonggi-10574883",
+      "hotelName": "연천 왕의자택펜션",
+      "address": "경기도 연천군 전곡읍 선사로 171"
+    },
+    {
+      "slug": "gyeonggi-10582703",
+      "hotelName": "여주 하늘이 열리는 드라이브인 무인텔",
+      "address": "경기도 여주시 가남읍 은봉길 7"
+    },
+    {
+      "slug": "gyeonggi-14083405",
+      "hotelName": "용인 카멜레온",
+      "address": "경기도 용인시 처인구 금령로107번길 9"
+    },
+    {
+      "slug": "gyeonggi-10580444",
+      "hotelName": "대부도 청춘펜션",
+      "address": "경기도 안산시 단원구 고랫부리길 92"
+    },
+    {
+      "slug": "gyeonggi-11997012",
+      "hotelName": "광주(남종면) 르네상스",
+      "address": "경기도 광주시 남종면 산수로 1600"
+    },
+    {
+      "slug": "gyeonggi-10580399",
+      "hotelName": "남양주 크림",
+      "address": "경기도 남양주시 별내면 순화궁로 976-4"
+    },
+    {
+      "slug": "gyeonggi-10576582",
+      "hotelName": "양평 베아트리체펜션",
+      "address": "318-32, Hwajeon-ro, Yongmun-myeon, Yangpyeong-gun, Gyeonggi-do 양평"
+    },
+    {
+      "slug": "gyeonggi-10574737",
+      "hotelName": "화성(제부도) 작은섬펜션",
+      "address": "57, Haean-gil 178beon-gil, Seosin-myeon, Hwaseong-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-10577163",
+      "hotelName": "여주 인 모텔",
+      "address": "경기도 여주시 우암로 39 여주인모텔"
+    },
+    {
+      "slug": "gyeonggi-17615192",
+      "hotelName": "가평 남이섬하늘사랑펜션",
+      "address": "경기도 가평군 가평읍 북한강변로 1101-11 남이섬하늘사랑펜션"
+    },
+    {
+      "slug": "gyeonggi-10586926",
+      "hotelName": "화성(제부도) 솔잎펜션",
+      "address": "46, Haean-gil 442beon-gil, Seosin-myeon, Hwaseong-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-10588322",
+      "hotelName": "월곶 플러스",
+      "address": "경기도 시흥시 월곶중앙로70번안길 35-1 월곶 중앙로 70번안길 35-1"
+    },
+    {
+      "slug": "gyeonggi-17254358",
+      "hotelName": "안성 캐슬",
+      "address": "63, Doraji-gil, Yangseong-myeon, Anseong-si, Gyeonggi-do 안성"
+    },
+    {
+      "slug": "gyeonggi-10578603",
+      "hotelName": "양평 올레 Drive-in",
+      "address": "300, Gangnam-ro, Gangha-myeon, Yangpyeong-gun, Gyeonggi-do 양평"
+    },
+    {
+      "slug": "gyeonggi-6686673",
+      "hotelName": "럭셔리 호텔",
+      "address": "231, Gyeonggi-daero 오산"
+    },
+    {
+      "slug": "gyeonggi-10584842",
+      "hotelName": "포천 로하스펜션",
+      "address": "경기도 포천시 화현면 봉화로 157-36 로하스 펜션"
+    },
+    {
+      "slug": "gyeonggi-28361581",
+      "hotelName": "평택 라면먹고갈래",
+      "address": "경기도 평택시 안중읍 안청로 262-15"
+    },
+    {
+      "slug": "gyeonggi-10584400",
+      "hotelName": "안산(수암동) G7",
+      "address": "경기도 안산시 상록구 원당골길 7 G7호텔"
+    },
+    {
+      "slug": "gyeonggi-10585132",
+      "hotelName": "용인(기흥) 파인 무인텔",
+      "address": "29-41, Samsung 2-ro 96beon-gil, Giheung-gu, Yongin-si, Gyeonggi-do 화성"
+    },
+    {
+      "slug": "gyeonggi-10589175",
+      "hotelName": "안산 붐",
+      "address": "경기도 안산시 상록구 석호로3안길 56 붐모텔"
+    },
+    {
+      "slug": "gyeonggi-10588230",
+      "hotelName": "양평 리베",
+      "address": "경기도 양평군 옥천면 남한강변길 262 266-4"
+    },
+    {
+      "slug": "gyeonggi-35485774",
+      "hotelName": "연천 아침하늘",
+      "address": "경기도 연천군 전곡읍 선사로 183"
+    },
+    {
+      "slug": "gyeonggi-10579504",
+      "hotelName": "남양주 블루문",
+      "address": "경기도 남양주시 별내면 청학로 108"
+    },
+    {
+      "slug": "gyeonggi-10584707",
+      "hotelName": "포천 더드림 호텔",
+      "address": "경기도 포천시 중앙로110번길 24"
+    },
+    {
+      "slug": "gyeonggi-28187111",
+      "hotelName": "부천(역곡) 닉스",
+      "address": "경기도 부천시 원미구 역곡로2번길 9"
+    },
+    {
+      "slug": "gyeonggi-35942721",
+      "hotelName": "고양(토당) 꿈의 궁전",
+      "address": "79, Todang-ro, Deogyang-gu, Goyang-si, Gyeonggi-do 서울"
+    },
+    {
+      "slug": "gyeonggi-10574570",
+      "hotelName": "수원 영통 나와 나타샤와 흰당나귀",
+      "address": "경기도 수원시 영통구 청명남로34번길 18 성우테마21 1층"
+    },
+    {
+      "slug": "gyeonggi-10572925",
+      "hotelName": "포천 미시간",
+      "address": "경기도 포천시 중앙로 102-14 1층 미시간모텔"
+    },
+    {
+      "slug": "gyeonggi-10584381",
+      "hotelName": "파주 W&J펜션",
+      "address": "경기도 파주시 파평면 장승배기로268번길 117-1 w&J펜션"
+    },
+    {
+      "slug": "gyeonggi-25064132",
+      "hotelName": "남양주 칼리토 호텔",
+      "address": "977, Gyeongchun-ro, Namyangju-si, Gyeonggi-do 남양주"
+    },
+    {
+      "slug": "gyeonggi-10588260",
+      "hotelName": "가평 모데르노펜션",
+      "address": "경기도 가평군 상면 수목원로 286 모데르노펜션"
+    },
+    {
+      "slug": "gyeonggi-18528302",
+      "hotelName": "화성(제부도) 오브레펜션",
+      "address": "경기도 화성시 만세구 서신면 해안길 391"
+    },
+    {
+      "slug": "gyeonggi-10581267",
+      "hotelName": "부천 오렌지",
+      "address": "경기도 부천시 원미구 신흥로22번길 44"
+    }
+  ],
+  "samples": [
+    {
+      "slug": "gyeonggi-10235832",
+      "kind": "breakfast",
+      "value": "조식 제공 여부와 방식이 명확하지 않아 확인이 필요합니다."
+    },
+    {
+      "slug": "gyeonggi-10235832",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 현장 결제 시 비용을 문의하는 것이 좋습니다."
+    },
+    {
+      "slug": "gyeonggi-10235832",
+      "kind": "parking",
+      "value": "총 60대 이상 주차 가능한 넓은 전용 주차장을 보유하고 있어 차량 이용객에게 매우 편리합니다."
+    },
+    {
+      "slug": "gyeonggi-10235832",
+      "kind": "parking",
+      "value": "저녁 시간에도 주차 걱정 없이 방문할 수 있습니다."
+    },
+    {
+      "slug": "gyeonggi-10235832",
+      "kind": "parking",
+      "value": "주차 스트레스 없이 편안하게 입출차할 수 있어 여행의 피로를 덜어줍니다."
+    },
+    {
+      "slug": "gyeonggi-10235832",
+      "kind": "breakfast",
+      "value": "조식은 기본 요금에 포함되어 있지 않으며, 제공 여부나 방식이 변동될 수 있습니다."
+    },
+    {
+      "slug": "gyeonggi-10563494",
+      "kind": "breakfast",
+      "value": "조식은 별도 요금이며, 현장 결제 시 가격이 다를 수 있으니 사전 예약 여부를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10563494",
+      "kind": "breakfast",
+      "value": "1층 디오니소스 레스토랑에서 제공되는 조식은 규모는 크지 않지만, 신선하고 맛있는 음식들로 구성되어 투숙객들의 만족도가 매우 높습니다."
+    },
+    {
+      "slug": "gyeonggi-10563494",
+      "kind": "parking",
+      "value": "체크인 시간대에 방문해도 주차 걱정 없이 여유롭게 주차할 수 있습니다."
+    },
+    {
+      "slug": "gyeonggi-10563494",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10572802",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10572802",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10572802",
+      "kind": "parking",
+      "value": "주차 공간이 다소 협소할 수 있지만, 전기차 완속 충전기가 설치되어 있어 유용합니다."
+    },
+    {
+      "slug": "gyeonggi-10572922",
+      "kind": "reference",
+      "removed": [
+        "수원웨딩홀 추천｜WI컨벤션 수원예식장·라메르아이 뷔페 후기",
+        "수원웨딩홀 WI컨벤션 뷔페 이용후기(i홀 홀투어, 주차, 라메르...",
+        "수원 결혼식, WI컨벤션 I홀, 라메르아이 뷔페 하객 후기..."
+      ]
+    },
+    {
+      "slug": "gyeonggi-10572922",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10572922",
+      "kind": "parking",
+      "value": "주차 시설 이용 가능 여부와 요금을 확인하는 것이 좋습니다."
+    },
+    {
+      "slug": "gyeonggi-10572922",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10572922",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10572922",
+      "kind": "breakfast",
+      "value": "특히 조식이나 와이파이 등의 부가 서비스가 필요하다면, 해당 서비스가 포함된 다른 숙소를 고려하거나 추가 비용을 감수할 준비가 필요합니다."
+    },
+    {
+      "slug": "gyeonggi-10572922",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10572922",
+      "kind": "breakfast",
+      "value": "조식이 포함되어 있지 않으니, 아침 식사는 주변 식당을 이용하거나 미리 준비해야 합니다."
+    },
+    {
+      "slug": "gyeonggi-10573018",
+      "kind": "reference",
+      "removed": [
+        "@",
+        "@",
+        "@",
+        "@"
+      ]
+    },
+    {
+      "slug": "gyeonggi-10573018",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10573018",
+      "kind": "breakfast",
+      "value": "조식과 무료 와이파이 제공 여부를 다시 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10573018",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10573018",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10573018",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10573028",
+      "kind": "reference",
+      "removed": [
+        "청평 맛집, 가평 고기 맛집 아리축산[가평군 청평]"
+      ]
+    },
+    {
+      "slug": "gyeonggi-10573028",
+      "kind": "wifi",
+      "value": "무료 와이파이 제공 여부를 숙소에 직접 문의해야 합니다."
+    },
+    {
+      "slug": "gyeonggi-10573028",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10573028",
+      "kind": "breakfast",
+      "value": "다른 펜션들이 조식이나 와이파이 등 편의시설을 명확히 제공하는 경우가 많습니다."
+    },
+    {
+      "slug": "gyeonggi-10573028",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10573051",
+      "kind": "reference",
+      "removed": [
+        "경기도 안산 호텔 호캉스 추천 엠블던호텔 조식 1박 솔직 후기"
+      ]
+    },
+    {
+      "slug": "gyeonggi-10573051",
+      "kind": "wifi",
+      "value": "무료 와이파이 미지원"
+    },
+    {
+      "slug": "gyeonggi-10573051",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10573051",
+      "kind": "wifi",
+      "value": "무료 와이파이 지원 여부를 사전에 확인하는 것이 좋습니다."
+    },
+    {
+      "slug": "gyeonggi-10573051",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10573051",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeonggi-10573059",
+      "kind": "reference",
+      "removed": [
+        "HOTEL West 9(웨스트나인 호텔)김포점(feat. 출장)이용 후기",
+        "양평 Drive in hotel 9/ 드라이브 인 호텔나인 내돈내산 후기",
+        "후쿠오카 나인호텔 텐진 (9HOTEL TENJIN) (더블룸, 사우나...",
+        "숙소 추천, 아기랑 다다미 룸 나인호텔 하카타 9hotel hakata"
+      ]
+    },
+    {
+      "slug": "gyeonggi-10573059",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    }
+  ]
+}

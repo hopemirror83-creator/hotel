@@ -11,6 +11,10 @@ const regionConfig = {
   seoul: {
     address: /(서울|Seoul)/i,
     locations: ['강남', '명동', '홍대', '홍익대', '종로', '인사동', '동대문', '잠실', '여의도', '영등포', '용산', '이태원', '마포', '신촌', '서초', '구로', '금천', '관악', '송파', '광진', '성동', '성북', '강북', '도봉', '노원', '중랑', '은평', '서대문', '양천', '강서', '동작', '청량리', '서울역', '김포공항']
+  },
+  gyeonggi: {
+    address: /(경기|Gyeonggi|수원|용인|고양|성남|화성|평택|안산|안양|부천|남양주|파주|의정부|광주|하남|광명|군포|시흥|김포|이천|구리|양주|오산|의왕|포천|여주|동두천|과천|가평|양평|연천)/i,
+    locations: ['수원', '용인', '고양', '일산', '성남', '분당', '판교', '화성', '동탄', '평택', '안산', '대부도', '안양', '부천', '남양주', '파주', '의정부', '광주', '하남', '광명', '군포', '시흥', '김포', '이천', '구리', '양주', '오산', '의왕', '포천', '여주', '동두천', '과천', '가평', '양평', '연천', '에버랜드', '킨텍스', '광교']
   }
 }[regionPrefix];
 if (!regionConfig) throw new Error(`Unsupported region prefix: ${regionPrefix}`);
@@ -110,7 +114,7 @@ function isRelevantReference(hotel, link) {
     distinctive.length === 1 && tokenHits.length === 1
   );
   if (!nameMatch) return false;
-  if (exactName) return true;
+  if (exactName && distinctive.length >= 2) return true;
 
   // 동명 숙소 오염을 막기 위해 이름이나 주소에 지역 단서가 있으면 제목에도 하나는 요구한다.
   if (locationTokens.length && !locationTokens.some((token) => title.includes(token))) return false;

@@ -1,0 +1,1896 @@
+{
+  "scanned": 800,
+  "quarantined": [
+    {
+      "slug": "gangwon-10150814",
+      "hotelName": "명작 호텔",
+      "address": "경기도 수원시 팔달구 매산로 57"
+    },
+    {
+      "slug": "gangwon-1043981",
+      "hotelName": "팜파스 리조트",
+      "address": "서울특별시 중구 장충단로 60"
+    },
+    {
+      "slug": "gangwon-12274520",
+      "hotelName": "구름에 달가듯이 펜션",
+      "address": "경기도 양평군 강상면 독배길 34"
+    },
+    {
+      "slug": "gangwon-16507705",
+      "hotelName": "더앤리조트",
+      "address": "서울특별시 용산구 한강대로 366"
+    },
+    {
+      "slug": "gangwon-25717476",
+      "hotelName": "더 호텔 비즈니스",
+      "address": "서울특별시 종로구 우정국로 46"
+    },
+    {
+      "slug": "gangwon-2677125",
+      "hotelName": "메이플 관광호텔",
+      "address": "서울특별시 종로구 율곡로 179"
+    },
+    {
+      "slug": "gangwon-26848645",
+      "hotelName": "M 모텔",
+      "address": "서울특별시 중구 다산로35길 22 M 모텔"
+    },
+    {
+      "slug": "gangwon-27753968",
+      "hotelName": "토마토펜션",
+      "address": "경기도 가평군 설악면 유명로 769"
+    },
+    {
+      "slug": "gangwon-30160325",
+      "hotelName": "오션 힐",
+      "address": "전남광주통합특별시 여수시 돌산읍 강남해안로 81"
+    },
+    {
+      "slug": "gangwon-32679962",
+      "hotelName": "블루마운틴",
+      "address": "서울특별시 강서구 마곡중앙6로 42 1층 110호"
+    },
+    {
+      "slug": "gangwon-34026240",
+      "hotelName": "스테이 휴",
+      "address": "경기도 양평군 강상면 송학길84번길 21 2층"
+    },
+    {
+      "slug": "gangwon-3465458",
+      "hotelName": "위너스 호텔",
+      "address": "경기도 파주시 지목로 57 호텔 반디"
+    },
+    {
+      "slug": "gangwon-35453222",
+      "hotelName": "스테이용화",
+      "address": "충청남도 아산시 시민로180번길 71-1 스테이그린 관광농원 바베큐앤 캠프"
+    },
+    {
+      "slug": "gangwon-35773827",
+      "hotelName": "솔향기 펜션",
+      "address": "경기도 가평군 조종면 연인산로 45-104"
+    },
+    {
+      "slug": "gangwon-3585856",
+      "hotelName": "AM 호텔",
+      "address": "경기도 시흥시 호현로10번길 17-1"
+    },
+    {
+      "slug": "gangwon-35944041",
+      "hotelName": "션샤인",
+      "address": "서울특별시 중구 명동8가길 27"
+    },
+    {
+      "slug": "gangwon-4168079",
+      "hotelName": "호텔 큐브",
+      "address": "서울특별시 용산구 한강대로71길 24"
+    },
+    {
+      "slug": "gangwon-4914610",
+      "hotelName": "에이스 모텔",
+      "address": "서울특별시 관악구 신림동1길 19-8"
+    },
+    {
+      "slug": "gangwon-542392",
+      "hotelName": "호텔 코지",
+      "address": "서울특별시 중구 남대문시장길 61"
+    },
+    {
+      "slug": "gangwon-58916007",
+      "hotelName": "러블리 펜션",
+      "address": "인천광역시 강화군 선원면 선원사지로191번길 53"
+    },
+    {
+      "slug": "gangwon-58916051",
+      "hotelName": "들국화펜션",
+      "address": "인천광역시 강화군 길상면 해안남로 845-7"
+    },
+    {
+      "slug": "gangwon-58916054",
+      "hotelName": "힐하우스",
+      "address": "서울특별시 중구 소공로3길 42"
+    },
+    {
+      "slug": "gangwon-59424754",
+      "hotelName": "Beach Town Pension",
+      "address": "인천광역시 영종구 용유서로302번길 14-6 아소프로아"
+    },
+    {
+      "slug": "gangwon-59425673",
+      "hotelName": "Red Pension",
+      "address": "경기도 안산시 단원구 구봉길 150"
+    },
+    {
+      "slug": "gangwon-59425957",
+      "hotelName": "The Sol Pension",
+      "address": "경상남도 밀양시 상동면 도곡1길 159-31"
+    },
+    {
+      "slug": "gangwon-59426403",
+      "hotelName": "Sea Fragrance Pension",
+      "address": "전남광주통합특별시 함평군 함평읍 주포한옥길 93 바다향기펜션"
+    },
+    {
+      "slug": "gangwon-59428496",
+      "hotelName": "The Story Pension",
+      "address": "충청남도 보령시 고잠2길 8-9"
+    },
+    {
+      "slug": "gangwon-611372",
+      "hotelName": "에델바이스 펜션",
+      "address": "경기도 가평군 설악면 다락재로 310"
+    },
+    {
+      "slug": "gangwon-64728659",
+      "hotelName": "Little Forest Pension",
+      "address": "경상남도 거제시 덕포2길 47-2"
+    },
+    {
+      "slug": "gangwon-6639175",
+      "hotelName": "호텔 라움",
+      "address": "서울특별시 중구 세종대로4길 21 라움169호텔 (RAUM169)"
+    },
+    {
+      "slug": "gangwon-7405476",
+      "hotelName": "이엘 호텔",
+      "address": "충청남도 천안시 서북구 성정공원3길 21 5층 이엘 호텔"
+    },
+    {
+      "slug": "gangwon-78972132",
+      "hotelName": "갤러리 펜션",
+      "address": "경기도 양평군 서종면 황순원로 405"
+    },
+    {
+      "slug": "gangwon-10574932",
+      "hotelName": "호텔 문",
+      "address": "서울특별시 중구 남대문로1길 26-19 1~3층"
+    },
+    {
+      "slug": "gangwon-33576655",
+      "hotelName": "메이트 호텔",
+      "address": "서울특별시 중구 을지로 280-2"
+    },
+    {
+      "slug": "gangwon-32659193",
+      "hotelName": "SH 게스트하우스",
+      "address": "서울특별시 마포구 양화로 175 408호"
+    }
+  ],
+  "referenceLinksRemoved": 900,
+  "hotelsWithReferenceLinksRemoved": 382,
+  "facilityClaimsNeutralized": {
+    "breakfast": 2168,
+    "wifi": 827,
+    "parking": 525
+  },
+  "thinPages": [],
+  "missingVerifiedHero": [
+    {
+      "slug": "gangwon-10573214",
+      "hotelName": "고성 재일펜션",
+      "address": "강원특별자치도 고성군 현내면 금강산로 112-8"
+    },
+    {
+      "slug": "gangwon-10575248",
+      "hotelName": "고성 한우리펜션",
+      "address": "강원특별자치도 고성군 죽왕면 삼포민박촌1길 2-1 한우리펜션민박"
+    },
+    {
+      "slug": "gangwon-10576107",
+      "hotelName": "고성 산타후스펜션",
+      "address": "강원특별자치도 고성군 죽왕면 가진해변길 28 2층"
+    },
+    {
+      "slug": "gangwon-10576262",
+      "hotelName": "고성 누볼라풀빌라",
+      "address": "강원특별자치도 고성군 간성읍 고성해변길 126 누볼라풀빌라"
+    },
+    {
+      "slug": "gangwon-10576830",
+      "hotelName": "고성 서영 게스트하우스",
+      "address": "35, Banam-gil, Geojin-eup, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-10577555",
+      "hotelName": "강릉 경포대 호텔주노 강원 후기 모음 오션뷰 주차 체크인 가성비",
+      "address": "강원특별자치도 강릉시 창해로 441"
+    },
+    {
+      "slug": "gangwon-10578776",
+      "hotelName": "고성 보노보노펜션",
+      "address": "강원특별자치도 고성군 죽왕면 자작도선사길 74"
+    },
+    {
+      "slug": "gangwon-10578893",
+      "hotelName": "동해 샤인 강원 후기 모음 위치 체크인 주차 조식",
+      "address": "강원특별자치도 동해시 동해항2길 8 샤인모텔(미도장)"
+    },
+    {
+      "slug": "gangwon-10579349",
+      "hotelName": "영월 에코빌리지유스호스텔 강원 후기 모음 위치 체크인 주차 조식",
+      "address": "강원특별자치도 영월군 영월읍 동강로 716 영월에코빌리지"
+    },
+    {
+      "slug": "gangwon-10579938",
+      "hotelName": "고성 해당화펜션(명파,마차진해변인근 )",
+      "address": "799-3, Geumgangsan-ro, Hyeonnae-myeon, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-10586294",
+      "hotelName": "고성 통일비치펜션",
+      "address": "강원특별자치도 고성군 죽왕면 삼포민박촌길 3 통일비치펜션"
+    },
+    {
+      "slug": "gangwon-10586759",
+      "hotelName": "고성 왕곡휴펜션",
+      "address": "강원특별자치도 고성군 죽왕면 송지호로 338"
+    },
+    {
+      "slug": "gangwon-10587046",
+      "hotelName": "고성 모하비펜션",
+      "address": "강원특별자치도 고성군 죽왕면 공현진해변길 95-3"
+    },
+    {
+      "slug": "gangwon-10589612",
+      "hotelName": "횡성 알프스 대영 골프 빌리지",
+      "address": "강원특별자치도 횡성군 우천면 하대리 284-53"
+    },
+    {
+      "slug": "gangwon-10589783",
+      "hotelName": "동해 베리식스 강원 후기 모음 위치 체크인 주차 조식",
+      "address": "강원특별자치도 동해시 한섬로 126-1"
+    },
+    {
+      "slug": "gangwon-10589950",
+      "hotelName": "고성 오리엔트펜션",
+      "address": "강원특별자치도 고성군 죽왕면 삼포민박촌2길 27"
+    },
+    {
+      "slug": "gangwon-13302897",
+      "hotelName": "동해 로얄모텔 강원 후기 모음 위치 체크인 주차 조식",
+      "address": "강원특별자치도 동해시 부곡1길 7"
+    },
+    {
+      "slug": "gangwon-14085308",
+      "hotelName": "정선 랜드호텔 강원 후기 모음 위치 체크인 주차 조식",
+      "address": "강원특별자치도 정선군 사북읍 사북1길 48-8"
+    },
+    {
+      "slug": "gangwon-14451578",
+      "hotelName": "속초 와이2스테이호텔(Y2STAY) 강원 후기 모음 오션뷰 주차 체크인 가성비",
+      "address": "3887, Donghae-daero, Sokcho-si, Gangwon-do 속초"
+    },
+    {
+      "slug": "gangwon-16310200",
+      "hotelName": "고성 훈민박펜션",
+      "address": "강원특별자치도 고성군 죽왕면 심층수길 45 원룸식훈민박"
+    },
+    {
+      "slug": "gangwon-16361199",
+      "hotelName": "고성 큰섬펜션",
+      "address": "강원특별자치도 고성군 죽왕면 심층수길 45-1"
+    },
+    {
+      "slug": "gangwon-16535770",
+      "hotelName": "고성 썬힐하우스펜션",
+      "address": "8-1, Oho 3-gil, Jugwang-myeon, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-17985369",
+      "hotelName": "고성 선인장",
+      "address": "강원특별자치도 고성군 거진읍 거탄진로 164"
+    },
+    {
+      "slug": "gangwon-18469187",
+      "hotelName": "평창 정강원 관광농원",
+      "address": "강원특별자치도 평창군 용평면 금당계곡로 2010-13"
+    },
+    {
+      "slug": "gangwon-18469323",
+      "hotelName": "고성 옵바위",
+      "address": "강원특별자치도 고성군 죽왕면 공현진해변길 111 옵바위모텔"
+    },
+    {
+      "slug": "gangwon-18469330",
+      "hotelName": "고성 삼포모닝빌펜션",
+      "address": "강원특별자치도 고성군 죽왕면 삼포민박촌1길 14-5"
+    },
+    {
+      "slug": "gangwon-18469780",
+      "hotelName": "고성 아라솔펜션",
+      "address": "강원특별자치도 고성군 죽왕면 문암항1길 27"
+    },
+    {
+      "slug": "gangwon-18528149",
+      "hotelName": "고성 더씨194펜션",
+      "address": "강원특별자치도 고성군 현내면 한나루로 194"
+    },
+    {
+      "slug": "gangwon-22753298",
+      "hotelName": "고성 삼포화이트빌펜션",
+      "address": "14-7, Sampominbakchon 1-gil, Jugwang-myeon, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-24126520",
+      "hotelName": "고성(속초) go성펜션(해변앞)",
+      "address": "66, Jajakdoseonsa-gil, Jugwang-myeon, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-25923816",
+      "hotelName": "고성 고서프게스트하우스",
+      "address": "강원특별자치도 고성군 죽왕면 오호1길 16 고서프"
+    },
+    {
+      "slug": "gangwon-25929222",
+      "hotelName": "고성 서영민박펜션",
+      "address": "35, Banam-gil, Geojin-eup, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-26900591",
+      "hotelName": "강릉 경포대 자작나무 강원 후기 모음 오션뷰 주차 체크인 가성비",
+      "address": "18, Haean-ro 535beon-gil, Gangneung-si, Gangwon-do 강릉"
+    },
+    {
+      "slug": "gangwon-26931433",
+      "hotelName": "고성 샤인하우스펜션",
+      "address": "강원특별자치도 고성군 죽왕면 가진해변길 85 2층"
+    },
+    {
+      "slug": "gangwon-30120805",
+      "hotelName": "고성(속초) 나무와해펜션",
+      "address": "62, Gonghyeonjin-gil, Jugwang-myeon, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-30845039",
+      "hotelName": "고성 민철민박펜션",
+      "address": "강원특별자치도 고성군 죽왕면 심층수길 40-9"
+    },
+    {
+      "slug": "gangwon-30989947",
+      "hotelName": "고성 대진항민박펜션",
+      "address": "강원특별자치도 고성군 현내면 대진6길 19-1 1층"
+    },
+    {
+      "slug": "gangwon-30990101",
+      "hotelName": "고성 초대민박펜션",
+      "address": "강원특별자치도 고성군 간성읍 진부령유원지길 15-40"
+    },
+    {
+      "slug": "gangwon-31070072",
+      "hotelName": "고성(속초) 조나단펜션",
+      "address": "11-5, Jajakdoseonsa 1-gil, Jugwang-myeon, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-3142220",
+      "hotelName": "더 하우스 호스텔 속초 강원 후기 모음 오션뷰 주차 체크인 가성비",
+      "address": "5, Jungang-ro 205beon-gil 속초"
+    },
+    {
+      "slug": "gangwon-31437346",
+      "hotelName": "양양 서프쉑펜션 강원 후기 모음 가족 주차 객실 가성비",
+      "address": "강원특별자치도 양양군 손양면 선사유적로 316-74"
+    },
+    {
+      "slug": "gangwon-33847685",
+      "hotelName": "고성(속초) 선사길스테이펜션(해변앞)",
+      "address": "70, Jajakdoseonsa-gil, Jugwang-myeon, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-33847978",
+      "hotelName": "고성 자연애민박펜션",
+      "address": "강원특별자치도 고성군 간성읍 장신2길 189"
+    },
+    {
+      "slug": "gangwon-34654017",
+      "hotelName": "고성 자연애민박",
+      "address": "강원특별자치도 고성군 간성읍 장신2길 189"
+    },
+    {
+      "slug": "gangwon-35194246",
+      "hotelName": "고성 산우리펜션",
+      "address": "강원특별자치도 고성군 거진읍 건봉사로 1656"
+    },
+    {
+      "slug": "gangwon-35372229",
+      "hotelName": "강릉 경포 호텔 마레 강원 후기 모음 오션뷰 주차 체크인 가성비",
+      "address": "강원특별자치도 강릉시 창해로 443 (강문동)"
+    },
+    {
+      "slug": "gangwon-36445145",
+      "hotelName": "고성 아라캠프카라반",
+      "address": "강원특별자치도 고성군 죽왕면 동해대로 6130-2 아라캠프카라반"
+    },
+    {
+      "slug": "gangwon-36834578",
+      "hotelName": "고성 세모별펜션",
+      "address": "강원특별자치도 고성군 토성면 교암3길 18 세모별펜션"
+    },
+    {
+      "slug": "gangwon-36834999",
+      "hotelName": "고성 하올스테이펜션",
+      "address": "강원특별자치도 고성군 죽왕면 동해대로 5618-1"
+    },
+    {
+      "slug": "gangwon-37473386",
+      "hotelName": "고성 백도SEA펜션",
+      "address": "강원특별자치도 고성군 죽왕면 자작도선사길 105-2"
+    },
+    {
+      "slug": "gangwon-38422361",
+      "hotelName": "정선 코코펜션(강원랜드, 하이원)",
+      "address": "강원특별자치도 정선군 사북읍 소금강로 3576 코코펜션"
+    },
+    {
+      "slug": "gangwon-38972695",
+      "hotelName": "고성 빨강펜션",
+      "address": "강원특별자치도 고성군 거진읍 화진포길 141"
+    },
+    {
+      "slug": "gangwon-38973015",
+      "hotelName": "고성 선유담씨하우스펜션",
+      "address": "강원특별자치도 고성군 죽왕면 선유담길 5-1"
+    },
+    {
+      "slug": "gangwon-38973111",
+      "hotelName": "고성 더스토리펜션",
+      "address": "강원특별자치도 고성군 죽왕면 백도해변길 36"
+    },
+    {
+      "slug": "gangwon-38973154",
+      "hotelName": "고성 국화꽃향기애견동반펜션",
+      "address": "강원특별자치도 고성군 죽왕면 자작도선사길 118"
+    },
+    {
+      "slug": "gangwon-38973264",
+      "hotelName": "고성 더솔펜션",
+      "address": "강원특별자치도 고성군 죽왕면 문암항1길 21"
+    },
+    {
+      "slug": "gangwon-39566673",
+      "hotelName": "고성 G2002",
+      "address": "강원특별자치도 고성군 죽왕면 공현진길 8 G2002"
+    },
+    {
+      "slug": "gangwon-41277402",
+      "hotelName": "고성 쉼송지호펜션",
+      "address": "강원특별자치도 고성군 죽왕면 오호길 39 쉼송지호"
+    },
+    {
+      "slug": "gangwon-41960063",
+      "hotelName": "고성 가족소풍펜션",
+      "address": "강원특별자치도 고성군 간성읍 탑동길 494-1"
+    },
+    {
+      "slug": "gangwon-45079058",
+      "hotelName": "고성 애플빌 펜션",
+      "address": "강원특별자치도 고성군 죽왕면 삼포민박촌1길 6"
+    },
+    {
+      "slug": "gangwon-45287031",
+      "hotelName": "고성 쉼표고성",
+      "address": "강원특별자치도 고성군 현내면 초도안길 13-8 1층"
+    },
+    {
+      "slug": "gangwon-46922974",
+      "hotelName": "고성 동호펜션",
+      "address": "강원특별자치도 고성군 간성읍 동호길 145"
+    },
+    {
+      "slug": "gangwon-47227195",
+      "hotelName": "고성 자작도보스펜션",
+      "address": "강원특별자치도 고성군 죽왕면 자작도선사1길 11-1 보스펜션"
+    },
+    {
+      "slug": "gangwon-48188847",
+      "hotelName": "고성 송정마을 수목화 오토캠핑장",
+      "address": "강원특별자치도 고성군 거진읍 건봉사로 1503-1"
+    },
+    {
+      "slug": "gangwon-4924660",
+      "hotelName": "강릉 동아호텔",
+      "address": "강원특별자치도 강릉시 경강로 2080"
+    },
+    {
+      "slug": "gangwon-49997218",
+      "hotelName": "고성 백도해변민박",
+      "address": "강원특별자치도 고성군 죽왕면 백도해변길 76-7"
+    },
+    {
+      "slug": "gangwon-51611905",
+      "hotelName": "고성 조아펜션",
+      "address": "강원특별자치도 고성군 죽왕면 삼포민박촌1길 14-6"
+    },
+    {
+      "slug": "gangwon-52202800",
+      "hotelName": "고성 비클래시 키즈풀빌라 고성점(강원)",
+      "address": "강원특별자치도 고성군 토성면 사진용촌길 129"
+    },
+    {
+      "slug": "gangwon-56148076",
+      "hotelName": "고성 소똥령이야기펜션",
+      "address": "강원특별자치도 고성군 간성읍 진부령로 1211"
+    },
+    {
+      "slug": "gangwon-56148464",
+      "hotelName": "고성 비치타운펜션",
+      "address": "강원특별자치도 고성군 죽왕면 삼포민박촌1길 14-8"
+    },
+    {
+      "slug": "gangwon-56148473",
+      "hotelName": "고성 송정마을 수목화 펜션",
+      "address": "강원특별자치도 고성군 거진읍 건봉사로 1504"
+    },
+    {
+      "slug": "gangwon-56148477",
+      "hotelName": "고성 바다향기펜션",
+      "address": "강원특별자치도 고성군 죽왕면 백도해변길 28 바다향기펜션"
+    },
+    {
+      "slug": "gangwon-56148495",
+      "hotelName": "고성 자작도하우스펜션",
+      "address": "강원특별자치도 고성군 죽왕면 자작도선사길 94 자작도하우스"
+    },
+    {
+      "slug": "gangwon-56148720",
+      "hotelName": "고성 보니블루 애견펜션",
+      "address": "강원특별자치도 고성군 죽왕면 자작도선사길 130-24 보니블루펜션"
+    },
+    {
+      "slug": "gangwon-58842468",
+      "hotelName": "고성 편백하우스",
+      "address": "강원특별자치도 고성군 간성읍 진부령로 1149 편백하우스"
+    },
+    {
+      "slug": "gangwon-58902669",
+      "hotelName": "고성 설희펜션",
+      "address": "7 Sampominbakchon-gil, Jugwang-myeon, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-5908942",
+      "hotelName": "HK 리조트",
+      "address": "강원특별자치도 속초시 설악산로836번길 1-10"
+    },
+    {
+      "slug": "gangwon-59424431",
+      "hotelName": "Baekdo Beach B&B",
+      "address": "강원특별자치도 고성군 죽왕면 자작도선사길 88"
+    },
+    {
+      "slug": "gangwon-59425876",
+      "hotelName": "Jajakdo Boss Pension",
+      "address": "11-1, Jajakdoseonsa 1-gil, Jugwang-myeon 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-59425966",
+      "hotelName": "Bonnie Blue Dog Pension",
+      "address": "130-24, Jajakdoseonsa-gil, Jugwang-myeon 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-59426376",
+      "hotelName": "house with a waterfall",
+      "address": "94, Sottongnyeongmaeul-gil, Ganseong-eup 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-59426740",
+      "hotelName": "Chrysanthemum Flower Scent Pet Friendly Pension",
+      "address": "118, Jajakdoseonsa-gil, Jugwang-myeon 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-59427508",
+      "hotelName": "Wanggokhu Pension",
+      "address": "342, Songjiho-ro, Jugwang-myeon 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-59430301",
+      "hotelName": "Sampo Morningville Pension",
+      "address": "14-5, Sampominbakchon 1-gil, Jugwang-myeon 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-59430488",
+      "hotelName": "Santa Hus Pension",
+      "address": "28, Gajinhaebyeon-gil, Jugwang-myeon 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-59430754",
+      "hotelName": "Goseong Whiteville Pension",
+      "address": "14-7, Sampominbakchon 1-gil, Jugwang-myeon 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-59430897",
+      "hotelName": "Goseong Songjeong Village Wooden Flower Pension",
+      "address": "1504, Geonbongsa-ro, Geojin-eup 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-59430898",
+      "hotelName": "Songjeong Village Tree Flower Auto Camping Site",
+      "address": "1503-1, Geonbongsa-ro, Geojin-eup 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-60807295",
+      "hotelName": "고성 삼포해오름펜션",
+      "address": "강원특별자치도 고성군 죽왕면 삼포민박촌1길 10 해오름펜션"
+    },
+    {
+      "slug": "gangwon-61214550",
+      "hotelName": "Pinevill Pension Goseong",
+      "address": "239, Sampo-ri, Jukwang-myeon, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-61214604",
+      "hotelName": "Gangwon-do Suseongjang",
+      "address": "262-15, Shinan-ri, Ganseong-eup, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-61792061",
+      "hotelName": "고성 앤하우스",
+      "address": "강원특별자치도 고성군 죽왕면 자작도선사1길 18 앤하우스"
+    },
+    {
+      "slug": "gangwon-64041436",
+      "hotelName": "고성 제뉴어리펜션",
+      "address": "강원특별자치도 고성군 현내면 대진항길 21 제뉴어리펜션"
+    },
+    {
+      "slug": "gangwon-64840180",
+      "hotelName": "고성 더샵펜션",
+      "address": "강원특별자치도 고성군 죽왕면 동해대로 5825"
+    },
+    {
+      "slug": "gangwon-64956924",
+      "hotelName": "고성 코코앤루루",
+      "address": "강원특별자치도 고성군 죽왕면 자작도선사길 99 강원특별자치도 고성군 죽왕면 문암진리 460-13"
+    },
+    {
+      "slug": "gangwon-65138166",
+      "hotelName": "고성(속초) 리틀포레스트펜션",
+      "address": "158-1 Jajakdoseonsa-gil, Jugwang-myeon, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-68549231",
+      "hotelName": "고성 스테이디",
+      "address": "강원특별자치도 고성군 죽왕면 가향길 20-2 스테이디"
+    },
+    {
+      "slug": "gangwon-68588329",
+      "hotelName": "고성 라코스타펜션",
+      "address": "강원특별자치도 고성군 현내면 초도리 219-4"
+    },
+    {
+      "slug": "gangwon-73055858",
+      "hotelName": "ChunCheon Secret Road Pension",
+      "address": "249Bongmyeong-gil, Dongsan-myeon, Chuncheon-si 강원도"
+    },
+    {
+      "slug": "gangwon-76560983",
+      "hotelName": "고성(속초) 탑벨리 가든 펜션",
+      "address": "399-33 Otap-gil, Ganseong-eup, Goseong-gun, Gangwon-do 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-77024666",
+      "hotelName": "Goseong Geumgangsan Condo",
+      "address": "239 Machajin-ri, Hyeonnae-myeon, Goseong-gun, Gangwon State, 24702, South Korea 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-77032334",
+      "hotelName": "Goseong Sea&Star Pension",
+      "address": "강원특별자치도 고성군 죽왕면 가향길 5"
+    },
+    {
+      "slug": "gangwon-77221750",
+      "hotelName": "고성 탑글램핑",
+      "address": "강원특별자치도 고성군 간성읍 오탑길 379 탑글램핑"
+    },
+    {
+      "slug": "gangwon-77423577",
+      "hotelName": "Goseong Sampo Morningville Pension",
+      "address": "215-9 Sampo-ri, Jukwang-myeon, Gosung-gun, Gangwon-do Special Self-Governing Province 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-78070412",
+      "hotelName": "고성 샵초도",
+      "address": "강원특별자치도 고성군 현내면 금강산로 112-5 1층"
+    },
+    {
+      "slug": "gangwon-78292720",
+      "hotelName": "고성 트리플카라반&캠핑",
+      "address": "강원특별자치도 고성군 죽왕면 선유담길 5-2"
+    },
+    {
+      "slug": "gangwon-78292725",
+      "hotelName": "고성 소똥령가는길",
+      "address": "강원특별자치도 고성군 간성읍 진부령로 1212-24"
+    },
+    {
+      "slug": "gangwon-78431763",
+      "hotelName": "Goseong Shine House Pension",
+      "address": "75-3 Gajin-ri, Jugwang-myeon, Goseong-gun, Gangwon State, 24744, South Korea 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-78432064",
+      "hotelName": "Goseong Maris Pension",
+      "address": "Jugwang-myeon, Jjanggogae-gil, 13, Goseong-gun, Gangwon State, 24744, South Korea 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-84527442",
+      "hotelName": "명파아트호텔",
+      "address": "강원특별자치도 고성군 현내면 명파4길 43"
+    },
+    {
+      "slug": "gangwon-84681743",
+      "hotelName": "Gosung Boki House",
+      "address": "110 Jajakdoseonsa-gil, Jugwang-myeon, Goseong-gun, Gangwon-do, Republic of Korea 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-85245439",
+      "hotelName": "Gosung Lavender Camping & Caravan",
+      "address": "54 Kkonnaemaru-gil, Ganseong-eup, Goseong-gun, Gangwon-do, Republic of Korea 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-85245828",
+      "hotelName": "Gosung Whiteville Pension",
+      "address": "14-7 Sampominbakchon 1-gil, Jugwang-myeon, Goseong-gun, Gangwon-do, Republic of Korea 고성 (강원도)"
+    },
+    {
+      "slug": "gangwon-18468905",
+      "hotelName": "원주 WONJU STAY HOTEL",
+      "address": "174-1, Seowon-daero, Wonju-si, Gangwon-do 원주"
+    },
+    {
+      "slug": "gangwon-13302696",
+      "hotelName": "강릉 경포대 인터파크",
+      "address": "21, Changhae-ro, Gangneung-si, Gangwon-do 강릉"
+    },
+    {
+      "slug": "gangwon-30991909",
+      "hotelName": "태백 J1무인텔",
+      "address": "201, Hwangji-ro, Taebaek-si, Gangwon-do 태백"
+    },
+    {
+      "slug": "gangwon-10587256",
+      "hotelName": "동해 호텔스토리 - 동해역점",
+      "address": "강원특별자치도 동해시 동해항3길 7"
+    },
+    {
+      "slug": "gangwon-30989839",
+      "hotelName": "양양 설악온천장",
+      "address": "강원특별자치도 양양군 서면 대청봉길 58-12 설악온천장"
+    },
+    {
+      "slug": "gangwon-13302860",
+      "hotelName": "동해 호텔이스트",
+      "address": "강원특별자치도 동해시 동해대로 5031-1 호텔이스트"
+    },
+    {
+      "slug": "gangwon-10585910",
+      "hotelName": "강릉 J블럭 모텔",
+      "address": "강원특별자치도 강릉시 옥천로61번길 10"
+    },
+    {
+      "slug": "gangwon-24287167",
+      "hotelName": "삼척 비치힐풀빌라",
+      "address": "강원특별자치도 삼척시 삼척로 4246-29"
+    },
+    {
+      "slug": "gangwon-10587965",
+      "hotelName": "동해 킹",
+      "address": "강원특별자치도 동해시 동굴로 131-6"
+    },
+    {
+      "slug": "gangwon-16528717",
+      "hotelName": "속초갯배오션스파 & 월풀스파",
+      "address": "314, Cheongchohoban-ro, Sokcho-si, Gangwon-do 속초"
+    },
+    {
+      "slug": "gangwon-17044367",
+      "hotelName": "철원 학마루펜션",
+      "address": "강원특별자치도 철원군 동송읍 학마을길 4"
+    },
+    {
+      "slug": "gangwon-28081796",
+      "hotelName": "원주 호텔 델루나",
+      "address": "강원특별자치도 원주시 치악로 1590"
+    },
+    {
+      "slug": "gangwon-10574503",
+      "hotelName": "동해 청원",
+      "address": "강원특별자치도 동해시 부곡복개로 16-3"
+    },
+    {
+      "slug": "gangwon-23127698",
+      "hotelName": "강릉 경포대 포시즌 비치 호텔",
+      "address": "강원특별자치도 강릉시 해안로 615"
+    },
+    {
+      "slug": "gangwon-10577207",
+      "hotelName": "속초 두바퀴모텔",
+      "address": "강원특별자치도 속초시 동해대로 3995"
+    },
+    {
+      "slug": "gangwon-16334696",
+      "hotelName": "평창 가자(무인텔)",
+      "address": "강원특별자치도 평창군 용평면 경강로 1709 가자무인텔"
+    },
+    {
+      "slug": "gangwon-10584035",
+      "hotelName": "동해 호텔,바다(Hotel, Bada)",
+      "address": "강원특별자치도 동해시 일출로 201 동해시 어달동 195-9"
+    },
+    {
+      "slug": "gangwon-10579247",
+      "hotelName": "홍천 달꿈호텔",
+      "address": "93, Gongjaksan-ro, Hongcheon-eup, Hongcheon-gun, Gangwon-do 홍천"
+    },
+    {
+      "slug": "gangwon-36874321",
+      "hotelName": "강릉 투데이경포펜션",
+      "address": "강원특별자치도 강릉시 하남길 343"
+    },
+    {
+      "slug": "gangwon-18469089",
+      "hotelName": "춘천 남이섬2020스파펜션&풀빌라",
+      "address": "강원특별자치도 춘천시 남산면 서천길 51"
+    },
+    {
+      "slug": "gangwon-10575554",
+      "hotelName": "평창 대관령모던빌펜션",
+      "address": "강원특별자치도 평창군 대관령면 용산리 256-13"
+    },
+    {
+      "slug": "gangwon-14085310",
+      "hotelName": "정선 스카이호텔",
+      "address": "강원특별자치도 정선군 사북읍 사북1길 39"
+    },
+    {
+      "slug": "gangwon-33984088",
+      "hotelName": "양양 낭만가도(후진)",
+      "address": "강원특별자치도 양양군 강현면 동해대로 3290"
+    },
+    {
+      "slug": "gangwon-14453605",
+      "hotelName": "삼척 이스트오션펜션",
+      "address": "강원특별자치도 삼척시 삼척로 4246-24"
+    },
+    {
+      "slug": "gangwon-10588643",
+      "hotelName": "강릉 경포대 오션",
+      "address": "강원특별자치도 강릉시 해안로406번길 13-7"
+    },
+    {
+      "slug": "gangwon-10589219",
+      "hotelName": "횡성 숲속의사랑별펜션",
+      "address": "강원특별자치도 횡성군 둔내면 고원로425번길 35-19"
+    },
+    {
+      "slug": "gangwon-10577134",
+      "hotelName": "횡성 호텔타임",
+      "address": "강원특별자치도 횡성군 횡성읍 앞들서로 5"
+    },
+    {
+      "slug": "gangwon-33847689",
+      "hotelName": "강릉 스테이휴펜션",
+      "address": "강원특별자치도 강릉시 주문진읍 해안로 1889"
+    },
+    {
+      "slug": "gangwon-10589999",
+      "hotelName": "양양 트윈비치펜션",
+      "address": "강원특별자치도 양양군 손양면 선사유적로 268"
+    },
+    {
+      "slug": "gangwon-27802008",
+      "hotelName": "강릉 아카펠라 게스트하우스",
+      "address": "강원특별자치도 강릉시 동부시장3길 7"
+    },
+    {
+      "slug": "gangwon-10581961",
+      "hotelName": "원주 마리 호텔",
+      "address": "강원특별자치도 원주시 서원대로 158-1 마리호텔"
+    },
+    {
+      "slug": "gangwon-10587408",
+      "hotelName": "강릉 시드니",
+      "address": "강원특별자치도 강릉시 강릉대로 84"
+    },
+    {
+      "slug": "gangwon-10586656",
+      "hotelName": "강릉 K",
+      "address": "강원특별자치도 강릉시 옥천로71번길 3"
+    },
+    {
+      "slug": "gangwon-13302963",
+      "hotelName": "속초 두호텔",
+      "address": "강원특별자치도 속초시 엑스포로 139"
+    },
+    {
+      "slug": "gangwon-10587620",
+      "hotelName": "원주 H",
+      "address": "강원특별자치도 원주시 치악로 1599-2"
+    },
+    {
+      "slug": "gangwon-10581958",
+      "hotelName": "원주 호텔 바른",
+      "address": "강원특별자치도 원주시 장미공원길 76 호텔바른"
+    },
+    {
+      "slug": "gangwon-14085309",
+      "hotelName": "정선 스마트호텔",
+      "address": "강원특별자치도 정선군 사북읍 사북1길 42-4"
+    },
+    {
+      "slug": "gangwon-10575048",
+      "hotelName": "강릉 더원펜션",
+      "address": "강원특별자치도 강릉시 주문진읍 해안로 1933-1 더원펜션&더클래식펜션"
+    },
+    {
+      "slug": "gangwon-16254575",
+      "hotelName": "춘천 코리아",
+      "address": "강원특별자치도 춘천시 춘천로170번길 14"
+    },
+    {
+      "slug": "gangwon-18469476",
+      "hotelName": "춘천 경성여관",
+      "address": "강원특별자치도 춘천시 춘천로186번길 12-1"
+    },
+    {
+      "slug": "gangwon-31037894",
+      "hotelName": "춘천 호텔22",
+      "address": "강원특별자치도 춘천시 남춘로5번길 14-6"
+    },
+    {
+      "slug": "gangwon-10572764",
+      "hotelName": "동해 부영모텔",
+      "address": "1, Bugok 1-gil, Donghae-si, Gangwon-do 동해"
+    },
+    {
+      "slug": "gangwon-10588813",
+      "hotelName": "원주 G",
+      "address": "강원특별자치도 원주시 장미공원길 67-4"
+    },
+    {
+      "slug": "gangwon-10584055",
+      "hotelName": "삼척 놀자펜션",
+      "address": "강원특별자치도 삼척시 근덕면 삼척로 2104"
+    },
+    {
+      "slug": "gangwon-10577734",
+      "hotelName": "평창 두남재700펜션",
+      "address": "강원특별자치도 평창군 대관령면 돌뱅이길 47"
+    },
+    {
+      "slug": "gangwon-28303565",
+      "hotelName": "횡성 뉴월드모텔",
+      "address": "강원특별자치도 횡성군 둔내면 두원길 15-9"
+    },
+    {
+      "slug": "gangwon-27994066",
+      "hotelName": "양양 나인스테이(nine)펜션",
+      "address": "강원특별자치도 양양군 강현면 동해대로 3451-7"
+    },
+    {
+      "slug": "gangwon-32850392",
+      "hotelName": "양양 낙산무인텔&펜션",
+      "address": "24-23, Jucheong 1-gil, Ganghyeon-myeon, Yangyang-gun, Gangwon-do 양양"
+    },
+    {
+      "slug": "gangwon-10574094",
+      "hotelName": "속초 웨이브",
+      "address": "강원특별자치도 속초시 엑스포로 15"
+    },
+    {
+      "slug": "gangwon-30990121",
+      "hotelName": "횡성 티파니모텔",
+      "address": "강원특별자치도 횡성군 둔내면 고원남로 141"
+    },
+    {
+      "slug": "gangwon-10581351",
+      "hotelName": "원주 호텔 V",
+      "address": "강원특별자치도 원주시 장미공원길 47-4"
+    },
+    {
+      "slug": "gangwon-10575948",
+      "hotelName": "평창 HOTEL 266",
+      "address": "강원특별자치도 평창군 봉평면 태기로 266"
+    },
+    {
+      "slug": "gangwon-10580159",
+      "hotelName": "강릉 미술시간풀빌라&스파",
+      "address": "강원특별자치도 강릉시 사천면 해안로 904-18"
+    },
+    {
+      "slug": "gangwon-25064157",
+      "hotelName": "고성 하비치펜션",
+      "address": "강원특별자치도 고성군 토성면 교암길 8"
+    },
+    {
+      "slug": "gangwon-10586703",
+      "hotelName": "양양 솔바다펜션",
+      "address": "강원특별자치도 양양군 손양면 선사유적로 316-38 솔바다펜션"
+    },
+    {
+      "slug": "gangwon-10587264",
+      "hotelName": "속초 등대비치호텔",
+      "address": "강원특별자치도 속초시 영랑해안4길 7 등대비치 레지던스 호텔"
+    },
+    {
+      "slug": "gangwon-31069522",
+      "hotelName": "강릉 까사드마르펜션",
+      "address": "강원특별자치도 강릉시 경포로463번안길 9 까사드마르 경포"
+    },
+    {
+      "slug": "gangwon-10577862",
+      "hotelName": "강릉 경포대 경포힐",
+      "address": "강원특별자치도 강릉시 경포로 489-7"
+    },
+    {
+      "slug": "gangwon-10588171",
+      "hotelName": "강릉 스테이바다펜션",
+      "address": "강원특별자치도 강릉시 해안로 659-1 스테이바다"
+    },
+    {
+      "slug": "gangwon-10573510",
+      "hotelName": "동해 유브(UVE)",
+      "address": "123-5, Donggul-ro, Donghae-si, Gangwon-do 동해"
+    },
+    {
+      "slug": "gangwon-34219313",
+      "hotelName": "삼척 노마드펜션(장호항, 해상케이블카)",
+      "address": "2058, Samcheok-ro, Geundeok-myeon, Samcheok-si, Gangwon-do 삼척"
+    },
+    {
+      "slug": "gangwon-10579721",
+      "hotelName": "강릉 호텔 아리아 강릉경포점",
+      "address": "541, Haean-ro, Gangneung-si, Gangwon-do 강릉"
+    },
+    {
+      "slug": "gangwon-10576153",
+      "hotelName": "양양 자다펜션",
+      "address": "강원특별자치도 양양군 현남면 인구길 28-27"
+    },
+    {
+      "slug": "gangwon-10574942",
+      "hotelName": "강릉 S202 스파펜션",
+      "address": "강원특별자치도 강릉시 해안로 637 S202펜션"
+    },
+    {
+      "slug": "gangwon-23707398",
+      "hotelName": "양양 호텔 당근",
+      "address": "강원특별자치도 양양군 강현면 동해대로 3573"
+    },
+    {
+      "slug": "gangwon-18468937",
+      "hotelName": "춘천 하얀허브펜션",
+      "address": "강원특별자치도 춘천시 남산면 갯골길 112-14"
+    },
+    {
+      "slug": "gangwon-10577320",
+      "hotelName": "속초 파도소리펜션",
+      "address": "강원특별자치도 속초시 청호해안길 41"
+    },
+    {
+      "slug": "gangwon-10581650",
+      "hotelName": "춘천(강촌) 불나비 무인텔",
+      "address": "246, Gangchon-ro, Namsan-myeon, Chuncheon-si, Gangwon-do 춘천"
+    },
+    {
+      "slug": "gangwon-34306176",
+      "hotelName": "강릉 주문진M9펜션",
+      "address": "강원특별자치도 강릉시 주문진읍 해안로 1921"
+    },
+    {
+      "slug": "gangwon-10574053",
+      "hotelName": "양구 주목나무펜션",
+      "address": "강원특별자치도 양구군 양구읍 비봉로74번길 14-7"
+    },
+    {
+      "slug": "gangwon-10590518",
+      "hotelName": "강릉 금성 모텔",
+      "address": "9-1, Okga-ro 58beon-gil, Gangneung-si, Gangwon-do 강릉"
+    },
+    {
+      "slug": "gangwon-30991673",
+      "hotelName": "양양 낙산스테이펜션",
+      "address": "강원특별자치도 양양군 강현면 주청2길 28"
+    },
+    {
+      "slug": "gangwon-10576171",
+      "hotelName": "강릉 포뷰펜션",
+      "address": "356, Haean-ro, Gangneung-si, Gangwon-do 강릉"
+    },
+    {
+      "slug": "gangwon-10583944",
+      "hotelName": "양구 현대모텔",
+      "address": "강원특별자치도 양구군 양구읍 관공서로 15-1 3층 안내실"
+    },
+    {
+      "slug": "gangwon-30990478",
+      "hotelName": "삼척 위너스",
+      "address": "강원특별자치도 삼척시 원덕읍 임원항구로 15-79"
+    },
+    {
+      "slug": "gangwon-10583446",
+      "hotelName": "삼척 두바이펜션",
+      "address": "강원특별자치도 삼척시 삼척로 4246-20"
+    },
+    {
+      "slug": "gangwon-10585672",
+      "hotelName": "원주 A 모텔",
+      "address": "강원특별자치도 원주시 장미공원길 48"
+    },
+    {
+      "slug": "gangwon-19846061",
+      "hotelName": "치악산호텔",
+      "address": "강원특별자치도 원주시 행구로 487-2 더블유제이호텔풀하우스"
+    },
+    {
+      "slug": "gangwon-10590162",
+      "hotelName": "속초 몰디브",
+      "address": "강원특별자치도 속초시 청호로1길 27"
+    },
+    {
+      "slug": "gangwon-10585547",
+      "hotelName": "원주 드라마",
+      "address": "강원특별자치도 원주시 행구로 434"
+    },
+    {
+      "slug": "gangwon-10590560",
+      "hotelName": "원주 더호텔",
+      "address": "강원특별자치도 원주시 봉화로 32"
+    },
+    {
+      "slug": "gangwon-10580140",
+      "hotelName": "영월 영월무인텔(1대1 Drive-In)",
+      "address": "82-10, Taehwasan-ro, Yeongwol-eup, Yeongwol-gun, Gangwon-do 영월"
+    },
+    {
+      "slug": "gangwon-18468863",
+      "hotelName": "원주 코코호텔",
+      "address": "강원특별자치도 원주시 장미공원길 9"
+    },
+    {
+      "slug": "gangwon-10590161",
+      "hotelName": "강릉 S",
+      "address": "강원특별자치도 강릉시 강릉대로 265-4"
+    },
+    {
+      "slug": "gangwon-10586412",
+      "hotelName": "동해 추암펜션",
+      "address": "강원특별자치도 동해시 추암택지길 45 지금,느긋"
+    },
+    {
+      "slug": "gangwon-10581836",
+      "hotelName": "원주 카카오",
+      "address": "강원특별자치도 원주시 감영길 53-1"
+    },
+    {
+      "slug": "gangwon-10589231",
+      "hotelName": "춘천 HOTEL 몽",
+      "address": "21, Chuncheon-ro 68beon-gil, Chuncheon-si, Gangwon-do 춘천"
+    },
+    {
+      "slug": "gangwon-36445416",
+      "hotelName": "태백 Sol(솔)",
+      "address": "강원특별자치도 태백시 먹거리길 17"
+    },
+    {
+      "slug": "gangwon-10590069",
+      "hotelName": "고성(속초) 모닝뷰펜션",
+      "address": "강원특별자치도 고성군 토성면 사진용촌1길 19"
+    },
+    {
+      "slug": "gangwon-10588524",
+      "hotelName": "양양 모닝비치펜션 (죽도해변)",
+      "address": "7, Dongsankeun-gil, Hyeonnam-myeon, Yangyang-gun, Gangwon-do 양양"
+    },
+    {
+      "slug": "gangwon-10581047",
+      "hotelName": "평창 휘닉스",
+      "address": "강원특별자치도 평창군 봉평면 태기로 174"
+    },
+    {
+      "slug": "gangwon-10580015",
+      "hotelName": "원주 리츠칼튼",
+      "address": "강원특별자치도 원주시 장미공원길 85 리츠칼튼"
+    },
+    {
+      "slug": "gangwon-18469240",
+      "hotelName": "동해 등대오름길펜션",
+      "address": "강원특별자치도 동해시 일출로 97"
+    },
+    {
+      "slug": "gangwon-18469684",
+      "hotelName": "강릉 넘버25 강릉경포점",
+      "address": "545, Haean-ro, Gangneung-si, Gangwon-do 강릉"
+    },
+    {
+      "slug": "gangwon-35372217",
+      "hotelName": "강릉 스테이수안오션뷰펜션",
+      "address": "강원특별자치도 강릉시 주문진읍 해안로 1941"
+    },
+    {
+      "slug": "gangwon-10574778",
+      "hotelName": "인제 킹스톤",
+      "address": "강원특별자치도 인제군 북면 원통로 197"
+    },
+    {
+      "slug": "gangwon-18469763",
+      "hotelName": "양양 낙산 페블비치",
+      "address": "강원특별자치도 양양군 강현면 일출로 43-11 페블비치 2층"
+    },
+    {
+      "slug": "gangwon-18468948",
+      "hotelName": "삼척 예그리나펜션",
+      "address": "강원특별자치도 삼척시 삼척로 4246-5 삼척 예그리나펜션"
+    },
+    {
+      "slug": "gangwon-35153990",
+      "hotelName": "춘천 JS모텔",
+      "address": "강원특별자치도 춘천시 아침길 16-1"
+    },
+    {
+      "slug": "gangwon-33056719",
+      "hotelName": "동해 동해바다펜션",
+      "address": "강원특별자치도 동해시 일출로 462 2~3층"
+    },
+    {
+      "slug": "gangwon-10578976",
+      "hotelName": "강릉 경포솔향기펜션",
+      "address": "강원특별자치도 강릉시 경포로371번길 63-4"
+    },
+    {
+      "slug": "gangwon-10580722",
+      "hotelName": "홍천 알프스",
+      "address": "강원특별자치도 홍천군 홍천읍 홍천로 281 알프스모텔"
+    },
+    {
+      "slug": "gangwon-35196923",
+      "hotelName": "양양 낭만가도(물치)",
+      "address": "강원특별자치도 양양군 강현면 물치3길 4-49"
+    },
+    {
+      "slug": "gangwon-10577436",
+      "hotelName": "춘천(남이섬) 해피데이펜션(레고랜드,삼악산)",
+      "address": "62-4, Gaetgol-gil, Namsan-myeon, Chuncheon-si, Gangwon-do 춘천"
+    },
+    {
+      "slug": "gangwon-10589091",
+      "hotelName": "에이치에비뉴 강릉경포",
+      "address": "강원특별자치도 강릉시 창해로 423"
+    },
+    {
+      "slug": "gangwon-18528638",
+      "hotelName": "양양 해변산장펜션",
+      "address": "강원특별자치도 양양군 강현면 뒷나루1길 19"
+    },
+    {
+      "slug": "gangwon-34227462",
+      "hotelName": "강릉 영진을담다펜션",
+      "address": "강원특별자치도 강릉시 연곡면 영진길 85"
+    },
+    {
+      "slug": "gangwon-34410608",
+      "hotelName": "강릉 라포엠펜션",
+      "address": "강원특별자치도 강릉시 해안로 663-43 (안현동)"
+    },
+    {
+      "slug": "gangwon-13302751",
+      "hotelName": "원주 올리브",
+      "address": "강원특별자치도 원주시 화실유암길 195 올리브모텔"
+    },
+    {
+      "slug": "gangwon-10591246",
+      "hotelName": "원주 원",
+      "address": "20-7, Hyeonchung-ro, Wonju-si, Gangwon-do 원주"
+    },
+    {
+      "slug": "gangwon-10590127",
+      "hotelName": "양양 오색연가펜션",
+      "address": "강원특별자치도 양양군 서면 관대문길 23-26 오색연가"
+    },
+    {
+      "slug": "gangwon-18528313",
+      "hotelName": "원주 문막오크카운티펜션",
+      "address": "강원특별자치도 원주시 지정면 구재로 352-6"
+    },
+    {
+      "slug": "gangwon-22245503",
+      "hotelName": "양양 그린비치펜션",
+      "address": "강원특별자치도 양양군 강현면 뒷나루2길 23"
+    },
+    {
+      "slug": "gangwon-10580162",
+      "hotelName": "강릉 라벨르호텔 프리미어 강릉역점",
+      "address": "강원특별자치도 강릉시 중기2길 14"
+    },
+    {
+      "slug": "gangwon-10580681",
+      "hotelName": "원주 리베라",
+      "address": "강원특별자치도 원주시 청솔길 21"
+    },
+    {
+      "slug": "gangwon-10590925",
+      "hotelName": "강릉 아르카디아펜션",
+      "address": "강원특별자치도 강릉시 왕산면 노추산로 555"
+    },
+    {
+      "slug": "gangwon-10579228",
+      "hotelName": "평창 오대산힐링타운 금빛펜션",
+      "address": "강원특별자치도 평창군 진부면 오대산로 97 금빛펜션"
+    },
+    {
+      "slug": "gangwon-10577221",
+      "hotelName": "인제 인제호텔",
+      "address": "강원특별자치도 인제군 인제읍 비봉로 43 인제터미널 하늘내린호텔"
+    },
+    {
+      "slug": "gangwon-10585775",
+      "hotelName": "양양 핑크비치펜션",
+      "address": "강원특별자치도 양양군 현북면 하조대3길 11 핑크비치펜션"
+    },
+    {
+      "slug": "gangwon-36829505",
+      "hotelName": "인제 맑은물 리조트",
+      "address": "강원특별자치도 인제군 기린면 북리 785-1 785-2"
+    },
+    {
+      "slug": "gangwon-10583893",
+      "hotelName": "강릉 이화모텔",
+      "address": "13, Gyeonggang-ro 2103beon-gil, Gangneung-si, Gangwon-do 강릉"
+    },
+    {
+      "slug": "gangwon-28194220",
+      "hotelName": "삼척 그리다용화펜션",
+      "address": "강원특별자치도 삼척시 근덕면 삼척로 2179 그리다용화"
+    },
+    {
+      "slug": "gangwon-10578991",
+      "hotelName": "춘천(남이섬) 강촌스타밸리펜션",
+      "address": "122, Gaetgol-gil, Namsan-myeon, Chuncheon-si, Gangwon-do 춘천"
+    },
+    {
+      "slug": "gangwon-33582114",
+      "hotelName": "강릉 쏠하우스펜션",
+      "address": "강원특별자치도 강릉시 해안로 663-67"
+    },
+    {
+      "slug": "gangwon-10574216",
+      "hotelName": "원주 더핀란드펜션",
+      "address": "강원특별자치도 원주시 지정면 구재로 155"
+    },
+    {
+      "slug": "gangwon-18709175",
+      "hotelName": "영월 강빛펜션",
+      "address": "강원특별자치도 영월군 영월읍 선돌길 83-19 강빛"
+    },
+    {
+      "slug": "gangwon-10582469",
+      "hotelName": "양양 덴버하우스펜션",
+      "address": "강원특별자치도 양양군 서면 백암길 33"
+    },
+    {
+      "slug": "gangwon-10578304",
+      "hotelName": "평창 대관령엘도라도펜션",
+      "address": "강원특별자치도 평창군 대관령면 경강로 5171-9 대관령엘도라도펜션"
+    },
+    {
+      "slug": "gangwon-10585710",
+      "hotelName": "원주 명품",
+      "address": "강원특별자치도 원주시 호저면 감박산길 42-11"
+    },
+    {
+      "slug": "gangwon-10589954",
+      "hotelName": "양양 오핑펜션",
+      "address": "24-1, Dwinnaru 2-gil Ganghyeon-myeon, Yangyang-gun, Gangwon-do 양양"
+    },
+    {
+      "slug": "gangwon-18533272",
+      "hotelName": "강릉 경포대 세빈",
+      "address": "43, Gyeongpo-ro 475beon-gil, Gangneung-si, Gangwon-do 강릉"
+    },
+    {
+      "slug": "gangwon-18528546",
+      "hotelName": "홍천 까사모로풀빌라 (비발디파크 인근)",
+      "address": "209-26, Palbonggangbyeon-gil, Seo-myeon, Hongcheon-gun, Gangwon-do 홍천"
+    },
+    {
+      "slug": "gangwon-18469894",
+      "hotelName": "강릉 카루89펜션",
+      "address": "강원특별자치도 강릉시 하남길 341-1"
+    },
+    {
+      "slug": "gangwon-10577289",
+      "hotelName": "춘천(남이섬) 블라블라펜션(레고랜드인근)",
+      "address": "40-32, Noil-gil, Namsan-myeon, Chuncheon-si, Gangwon-do 춘천"
+    },
+    {
+      "slug": "gangwon-10585692",
+      "hotelName": "원주 별 무인텔",
+      "address": "강원특별자치도 원주시 지정면 보통로 569-16"
+    },
+    {
+      "slug": "gangwon-34119321",
+      "hotelName": "인제(원통) 서호",
+      "address": "10, Wontong-ro 168beon-gil, Buk-myeon, Inje-gun, Gangwon-do 인제"
+    },
+    {
+      "slug": "gangwon-10587692",
+      "hotelName": "춘천 호텔 121",
+      "address": "강원특별자치도 춘천시 금강로121번길 16 호텔121"
+    },
+    {
+      "slug": "gangwon-10576765",
+      "hotelName": "속초 해맞이",
+      "address": "강원특별자치도 속초시 영금정로 34"
+    },
+    {
+      "slug": "gangwon-10585106",
+      "hotelName": "인제 더덜하우스펜션",
+      "address": "강원특별자치도 인제군 인제읍 필례로 266"
+    },
+    {
+      "slug": "gangwon-10575382",
+      "hotelName": "삼척 지오펜션",
+      "address": "강원특별자치도 삼척시 근덕면 삼척로 2081-7"
+    },
+    {
+      "slug": "gangwon-10576666",
+      "hotelName": "홍천 오캄럭스클럽펜션&키즈풀빌라",
+      "address": "강원특별자치도 홍천군 서면 굴업솔골길 29"
+    },
+    {
+      "slug": "gangwon-16748951",
+      "hotelName": "평창 대관령하얀나무펜션",
+      "address": "강원특별자치도 평창군 대관령면 송전1길 84"
+    },
+    {
+      "slug": "gangwon-16361181",
+      "hotelName": "속초 프리미어",
+      "address": "강원특별자치도 속초시 먹거리2길 6-5"
+    },
+    {
+      "slug": "gangwon-18505748",
+      "hotelName": "인제 선녀랑백담이랑펜션",
+      "address": "강원특별자치도 인제군 북면 만해로 303 선녀랑백담이랑 펜션"
+    },
+    {
+      "slug": "gangwon-10578707",
+      "hotelName": "삼척 스텔라빌리지펜션",
+      "address": "강원특별자치도 삼척시 근덕면 용화안길 583 스텔라빌리지"
+    },
+    {
+      "slug": "gangwon-13626155",
+      "hotelName": "강릉 루루펜션",
+      "address": "강원특별자치도 강릉시 사천면 진리항구길 7 루루펜션"
+    },
+    {
+      "slug": "gangwon-10579471",
+      "hotelName": "춘천 YAJA 춘천후평점",
+      "address": "강원특별자치도 춘천시 보안길 107-1"
+    },
+    {
+      "slug": "gangwon-13302928",
+      "hotelName": "삼척 쿡(KOOK)모텔",
+      "address": "1200, Samcheok-ro, Wondeok-eup, Samcheok-si, Gangwon-do 동해"
+    },
+    {
+      "slug": "gangwon-10578373",
+      "hotelName": "원주 칸",
+      "address": "강원특별자치도 원주시 관후길 5-9"
+    },
+    {
+      "slug": "gangwon-30990146",
+      "hotelName": "속초 풀뷰스파풀빌라",
+      "address": "강원특별자치도 속초시 영랑해안길 179"
+    },
+    {
+      "slug": "gangwon-31229494",
+      "hotelName": "양양 뷰모텔",
+      "address": "강원특별자치도 양양군 현남면 동해대로 243"
+    },
+    {
+      "slug": "gangwon-13302873",
+      "hotelName": "속초 호텔자다",
+      "address": "강원특별자치도 속초시 엑스포로1길 8"
+    },
+    {
+      "slug": "gangwon-10585422",
+      "hotelName": "정선 산솔펜션",
+      "address": "강원특별자치도 정선군 남면 자뭇골길 198-1"
+    },
+    {
+      "slug": "gangwon-14653031",
+      "hotelName": "강촌 뷰티풀 펜션",
+      "address": "강원특별자치도 춘천시 남산면 강촌로 186"
+    },
+    {
+      "slug": "gangwon-25963797",
+      "hotelName": "강릉 위펜션(안목 커피거리)",
+      "address": "10-1, Changhae-ro, Gangneung-si, Gangwon-do 강릉"
+    },
+    {
+      "slug": "gangwon-18874322",
+      "hotelName": "강릉 오핑하우스펜션",
+      "address": "강원특별자치도 강릉시 연곡면 해안로 1459"
+    },
+    {
+      "slug": "gangwon-31659783",
+      "hotelName": "평창 몬티첼로펜션",
+      "address": "강원특별자치도 평창군 봉평면 흥정계곡길 414 몬티첼로펜션"
+    },
+    {
+      "slug": "gangwon-16371493",
+      "hotelName": "강릉 빅아일랜드펜션(안목해변 도보1분,카페거리)",
+      "address": "13, Changhae-ro, Gangneung-si, Gangwon-do 강릉"
+    },
+    {
+      "slug": "gangwon-10577473",
+      "hotelName": "삼척 펜션휴가",
+      "address": "강원특별자치도 삼척시 삼척로 4246-7"
+    },
+    {
+      "slug": "gangwon-10580452",
+      "hotelName": "정선 햇빛누리펜션",
+      "address": "강원특별자치도 정선군 사북읍 말고개길 92-2"
+    },
+    {
+      "slug": "gangwon-16988327",
+      "hotelName": "속초 비치호스텔",
+      "address": "강원특별자치도 속초시 해오름로 129 1층"
+    },
+    {
+      "slug": "gangwon-10575778",
+      "hotelName": "홍천 두드림펜션",
+      "address": "강원특별자치도 홍천군 북방면 구룡밭길41번길 25-13"
+    },
+    {
+      "slug": "gangwon-10585943",
+      "hotelName": "홍천 몽블랑펜션(오션월드, 골프장 인근)",
+      "address": "1073-15, Palbongsan-ro Seo-myeon, Hongcheon-gun, Gangwon-do 홍천"
+    },
+    {
+      "slug": "gangwon-10574388",
+      "hotelName": "정선 별빛나라펜션",
+      "address": "강원특별자치도 정선군 남면 자뭇골길 180-7"
+    },
+    {
+      "slug": "gangwon-10584483",
+      "hotelName": "춘천 5INN",
+      "address": "강원특별자치도 춘천시 남춘로5번길 9-3"
+    },
+    {
+      "slug": "gangwon-30991182",
+      "hotelName": "삼척 A1",
+      "address": "강원특별자치도 삼척시 도계읍 도계강변길 66-3 A1모텔"
+    },
+    {
+      "slug": "gangwon-14085305",
+      "hotelName": "원주 에펠 모텔",
+      "address": "강원특별자치도 원주시 장미공원길 25-9"
+    },
+    {
+      "slug": "gangwon-10573578",
+      "hotelName": "양양 펀서프 게스트하우스",
+      "address": "1284, Donghae-daero, Hyeonbuk-myeon, Yangyang-gun, Gangwon-do 양양"
+    },
+    {
+      "slug": "gangwon-32911472",
+      "hotelName": "영월 수주섬",
+      "address": "강원특별자치도 영월군 무릉도원면 무릉법흥로 307 수주섬힐링스테이"
+    },
+    {
+      "slug": "gangwon-18469515",
+      "hotelName": "강릉 오늘은바다애견펜션",
+      "address": "강원특별자치도 강릉시 사천면 해안로 904-11"
+    },
+    {
+      "slug": "gangwon-10589445",
+      "hotelName": "속초 K",
+      "address": "강원특별자치도 속초시 설악산로 470-7"
+    },
+    {
+      "slug": "gangwon-16255096",
+      "hotelName": "삼척 오라펜션",
+      "address": "강원특별자치도 삼척시 근덕면 삼척로 2095 4층 펜션오라"
+    },
+    {
+      "slug": "gangwon-10583289",
+      "hotelName": "양양 낙산 양양모텔",
+      "address": "강원특별자치도 양양군 강현면 주청2길 26"
+    },
+    {
+      "slug": "gangwon-10585792",
+      "hotelName": "양구 바우야생화펜션",
+      "address": "강원특별자치도 양구군 동면 바랑길140번길 114-7"
+    },
+    {
+      "slug": "gangwon-18469642",
+      "hotelName": "강릉 쇼콜라펜션",
+      "address": "강원특별자치도 강릉시 사천면 본동길 250-6 쇼콜라펜션"
+    },
+    {
+      "slug": "gangwon-10583024",
+      "hotelName": "춘천 HOTEL 라벤다",
+      "address": "강원특별자치도 춘천시 남춘로5번길 10-2"
+    },
+    {
+      "slug": "gangwon-10585773",
+      "hotelName": "강릉 경포대 Seawind (씨윈드)",
+      "address": "강원특별자치도 강릉시 해안로535번길 11 씨윈드경포"
+    },
+    {
+      "slug": "gangwon-11303024",
+      "hotelName": "삼척 카라스파펜션",
+      "address": "강원특별자치도 삼척시 삼척로 4246-38 카라스파펜션"
+    },
+    {
+      "slug": "gangwon-20098784",
+      "hotelName": "양양 프롬세븐펜션 (양리단길 인구,죽도해변 도보10초)",
+      "address": "43, Saenaru-gil, Hyeonnam-myeon, Yangyang-gun, Gangwon-do 양양"
+    },
+    {
+      "slug": "gangwon-36868105",
+      "hotelName": "춘천(남이섬) 노블풀빌라",
+      "address": "181-52, Sojugogae-ro, Nam-myeon, Chuncheon-si, Gangwon-do 춘천"
+    },
+    {
+      "slug": "gangwon-33457682",
+      "hotelName": "양양 블루테라스펜션",
+      "address": "강원특별자치도 양양군 손양면 선사유적로 316-60"
+    },
+    {
+      "slug": "gangwon-10574564",
+      "hotelName": "고성 에이스",
+      "address": "강원특별자치도 고성군 토성면 동해대로 5178 에이스모텔"
+    },
+    {
+      "slug": "gangwon-14085251",
+      "hotelName": "횡성 횡성무인텔(1대1Drive-In)",
+      "address": "100-31, Hanu-ro, Hoengseong-eup, Hoengseong-gun, Gangwon-do 횡성"
+    },
+    {
+      "slug": "gangwon-10588094",
+      "hotelName": "양구 곽골약수펜션",
+      "address": "강원특별자치도 양구군 동면 금강산로 1775-69 곽골약수펜션"
+    },
+    {
+      "slug": "gangwon-10579118",
+      "hotelName": "강릉 민트클라우드펜션 (해변인근)",
+      "address": "663-12, Haean-ro, Gangneung-si, Gangwon-do 강릉"
+    }
+  ],
+  "samples": [
+    {
+      "slug": "gangwon-10566932",
+      "kind": "breakfast",
+      "value": "조식 및 부대시설 운영 여부: 현재 조식 및 카페 등 부대시설 이용이 어렵습니다."
+    },
+    {
+      "slug": "gangwon-10566932",
+      "kind": "breakfast",
+      "value": "현재 호텔 내 조식당과 카페 등 일부 부대시설은 운영되지 않습니다."
+    },
+    {
+      "slug": "gangwon-10573214",
+      "kind": "reference",
+      "removed": [
+        "고성 모닝하버 펜션 숙박 리얼 후기",
+        "울진,봉화,영주 여행"
+      ]
+    },
+    {
+      "slug": "gangwon-10573214",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10573214",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10573214",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10573214",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10573214",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10573214",
+      "kind": "breakfast",
+      "value": "조식은 포함되어 있지 않으므로, 아침 식사는 미리 준비하거나 주변 식당을 이용해야 합니다."
+    },
+    {
+      "slug": "gangwon-10575248",
+      "kind": "reference",
+      "removed": [
+        "속초2박3일 2Day : 고성 왕곡마을 - 영랑호 리조트...",
+        "(가볼만한곳/관광지/추천맛집/카페/호텔/리조트/펜션/풀빌라)...",
+        "2019년 아이들과 함께 한 관람,체험,여행 기록(내가 이..."
+      ]
+    },
+    {
+      "slug": "gangwon-10575248",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10575248",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10575248",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10576107",
+      "kind": "breakfast",
+      "value": "조식: 조식은 포함되어 있지 않으므로, 주변 식당이나 자체 취사를 고려해야 합니다."
+    },
+    {
+      "slug": "gangwon-10576107",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10576107",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10576107",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10576262",
+      "kind": "reference",
+      "removed": [
+        "개별바베큐 펜션 감성 숙소 누볼라풀빌라 벤토 내돈내산 후기"
+      ]
+    },
+    {
+      "slug": "gangwon-10576262",
+      "kind": "breakfast",
+      "value": "넓은 객실과 잘 갖춰진 개별 바비큐 시설, 그리고 무료 조식이 특징입니다."
+    },
+    {
+      "slug": "gangwon-10576262",
+      "kind": "breakfast",
+      "value": "간단하지만 든든하게 제공되는 무료 조식 서비스"
+    },
+    {
+      "slug": "gangwon-10576262",
+      "kind": "wifi",
+      "value": "무료 와이파이 제공 여부가 불확실함"
+    },
+    {
+      "slug": "gangwon-10576262",
+      "kind": "breakfast",
+      "value": "무료 조식은 체크인 시 신청 가능하며, 오전 9시~9시 30분경 제공됩니다."
+    },
+    {
+      "slug": "gangwon-10576262",
+      "kind": "breakfast",
+      "value": "간단하지만 든든하게 제공되는 무료 조식 서비스도 좋은 평가를 받습니다."
+    },
+    {
+      "slug": "gangwon-10576262",
+      "kind": "breakfast",
+      "value": "조식은 체크인 시 신청할 수 있으며, 오전 9시에서 9시 30분 사이에 제공됩니다."
+    },
+    {
+      "slug": "gangwon-10576830",
+      "kind": "reference",
+      "removed": [
+        "게스트하우스/펜션/콘도/리조트/풀빌라/추천맛집/카페) + 고성지...",
+        "웅이아저씨 - 씽크대 배수구 냄새 와 욕실하수구냄새차단...",
+        "서영민박입니다 :)",
+        "구내식당 집단급식소 식품판매업명단 인천광역시 서구"
+      ]
+    },
+    {
+      "slug": "gangwon-10576830",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10576830",
+      "kind": "breakfast",
+      "value": "조식이 포함되어 있지 않아 식사를 외부에서 해결해야 합니다."
+    },
+    {
+      "slug": "gangwon-10576830",
+      "kind": "wifi",
+      "value": "무료 와이파이 제공 여부를 숙소에 직접 문의해야 합니다."
+    },
+    {
+      "slug": "gangwon-10576830",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10576830",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10576830",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10576830",
+      "kind": "breakfast",
+      "value": "조식은 포함되어 있지 않으니, 숙소 주변의 식당이나 편의점에서 식사를 해결할 계획을 세워야 합니다."
+    },
+    {
+      "slug": "gangwon-10577555",
+      "kind": "wifi",
+      "value": "무료 와이파이 미지원"
+    },
+    {
+      "slug": "gangwon-10577555",
+      "kind": "parking",
+      "value": "주차 없이 성수기 해변권을 이동하려는 여행자"
+    },
+    {
+      "slug": "gangwon-10577555",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10577555",
+      "kind": "parking",
+      "value": "넓은 주차 공간을 확보하고 있어 차량을 이용하는 여행객도 주차 걱정 없이 편리하게 이용할 수 있습니다."
+    },
+    {
+      "slug": "gangwon-10577555",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gangwon-10578776",
+      "kind": "breakfast",
+      "value": "조식은 객실로 배달되는 바구니 형태로 제공되니 메뉴 확인 필요"
+    },
+    {
+      "slug": "gangwon-10578776",
+      "kind": "wifi",
+      "value": "객실 내 와이파이 사용 가능 여부 및 속도"
+    },
+    {
+      "slug": "gangwon-10578776",
+      "kind": "wifi",
+      "value": "객실 내에서는 무료 와이파이를 이용할 수 있습니다."
+    }
+  ]
+}

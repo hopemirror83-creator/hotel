@@ -19,6 +19,10 @@ const regionConfig = {
   jeju: {
     address: /(제주|Jeju|서귀포|Seogwipo)/i,
     locations: ['제주시', '서귀포', '애월', '한림', '협재', '조천', '함덕', '구좌', '세화', '성산', '표선', '남원', '중문', '대정', '모슬포', '우도', '한경', '용담', '연동', '노형', '이호테우', '공항', '산방산', '섭지코지']
+  },
+  busan: {
+    address: /(부산|Busan|해운대|Haeundae)/i,
+    locations: ['해운대', '광안리', '광안', '서면', '남포동', '남포', '부산역', '기장', '송정', '송도', '센텀', '동래', '온천장', '영도', '태종대', '자갈치', '부평동', '사상', '김해공항', '강서', '을숙도', '다대포', '오륙도']
   }
 }[regionPrefix];
 if (!regionConfig) throw new Error(`Unsupported region prefix: ${regionPrefix}`);

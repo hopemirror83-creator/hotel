@@ -1,0 +1,2353 @@
+{
+  "scanned": 800,
+  "quarantined": [
+    {
+      "slug": "gyeongbuk-10624844",
+      "hotelName": "센트로 관광 호텔",
+      "address": "경기도 안양시 동안구 엘에스로47번길 10 센트로 모텔"
+    },
+    {
+      "slug": "gyeongbuk-17185055",
+      "hotelName": "베니키아 호텔 산과바다 대포항",
+      "address": "강원특별자치도 속초시 동해대로 3691"
+    },
+    {
+      "slug": "gyeongbuk-18808361",
+      "hotelName": "윈 호텔",
+      "address": "경기도 안산시 단원구 광덕2로 50-15 2층 201-205호"
+    },
+    {
+      "slug": "gyeongbuk-292388",
+      "hotelName": "발렌타인 호텔",
+      "address": "경기도 고양시 일산동구 강석로 15"
+    },
+    {
+      "slug": "gyeongbuk-29738771",
+      "hotelName": "타임호텔",
+      "address": "서울특별시 서대문구 신촌로 145 굿타임호텔"
+    },
+    {
+      "slug": "gyeongbuk-339127",
+      "hotelName": "스테이 호텔",
+      "address": "서울특별시 종로구 삼봉로 71"
+    },
+    {
+      "slug": "gyeongbuk-35038652",
+      "hotelName": "W 펜션 모텔",
+      "address": "전북특별자치도 무주군 설천면 만선로 46 W모텔"
+    },
+    {
+      "slug": "gyeongbuk-35773820",
+      "hotelName": "호텔 뷰",
+      "address": "서울특별시 중구 충무로 24 B101"
+    },
+    {
+      "slug": "gyeongbuk-35894435",
+      "hotelName": "A 모텔",
+      "address": "서울특별시 중구 퇴계로76길 30 2,3층"
+    },
+    {
+      "slug": "gyeongbuk-4410164",
+      "hotelName": "서울 상주호텔",
+      "address": "서울특별시 송파구 올림픽로8길 19"
+    },
+    {
+      "slug": "gyeongbuk-44852167",
+      "hotelName": "브라운도트호텔 대구경북대점",
+      "address": "대구광역시 북구 대구체육관로 2"
+    },
+    {
+      "slug": "gyeongbuk-45051399",
+      "hotelName": "스테이아하",
+      "address": "제주특별자치도 제주시 한림읍 옹포남2길 43"
+    },
+    {
+      "slug": "gyeongbuk-46973515",
+      "hotelName": "유온",
+      "address": "서울특별시 종로구 삼청로 65"
+    },
+    {
+      "slug": "gyeongbuk-522887",
+      "hotelName": "고려 호텔",
+      "address": "경기도 부천시 원미구 길주로 66"
+    },
+    {
+      "slug": "gyeongbuk-5781408",
+      "hotelName": "그레이 모텔",
+      "address": "서울특별시 강남구 선릉로90길 46"
+    },
+    {
+      "slug": "gyeongbuk-886100",
+      "hotelName": "한솔 모텔",
+      "address": "세종특별자치시 나성로 33-10 2층 아늑호텔 세종점"
+    },
+    {
+      "slug": "gyeongbuk-9079679",
+      "hotelName": "르 이데아 호텔",
+      "address": "부산광역시 남구 유엔평화로 35 르이데아호텔"
+    },
+    {
+      "slug": "gyeongbuk-31488691",
+      "hotelName": "마니주 펜션",
+      "address": "제주특별자치도 제주시 서해안로 248"
+    },
+    {
+      "slug": "gyeongbuk-545522",
+      "hotelName": "굿스테이 갤러리아 모텔",
+      "address": "인천광역시 부평구 대정로90번길 24"
+    },
+    {
+      "slug": "gyeongbuk-33795868",
+      "hotelName": "더 베스트",
+      "address": "서울특별시 용산구 청파로47길 58 2층"
+    },
+    {
+      "slug": "gyeongbuk-28793282",
+      "hotelName": "하루 호텔",
+      "address": "서울특별시 중구 충무로 21-19"
+    },
+    {
+      "slug": "gyeongbuk-1991708",
+      "hotelName": "센트럴 호텔",
+      "address": "경기도 안양시 동안구 흥안대로 513"
+    },
+    {
+      "slug": "gyeongbuk-545505",
+      "hotelName": "파라다이스 스파 호텔",
+      "address": "충청남도 아산시 도고면 도고온천로 164-18 도고온천 리버호텔"
+    },
+    {
+      "slug": "gyeongbuk-34154821",
+      "hotelName": "천북빌리지",
+      "address": "충청남도 보령시 천북면 사호장은로 490-8"
+    },
+    {
+      "slug": "gyeongbuk-546423",
+      "hotelName": "문화 모텔",
+      "address": "서울특별시 종로구 수표로22길 8"
+    },
+    {
+      "slug": "gyeongbuk-21125717",
+      "hotelName": "하늘바다 펜션",
+      "address": "경기도 안산시 단원구 선창길 86"
+    },
+    {
+      "slug": "gyeongbuk-32784614",
+      "hotelName": "숲속 이야기",
+      "address": "경기도 남양주시 수동면 철마산로 388"
+    },
+    {
+      "slug": "gyeongbuk-26058333",
+      "hotelName": "오슬로 펜션",
+      "address": "경기도 여주시 금사면 금품1로 360"
+    },
+    {
+      "slug": "gyeongbuk-21614561",
+      "hotelName": "정원 펜션",
+      "address": "경기도 파주시 법원읍 자운서원로 270 정원펜션"
+    },
+    {
+      "slug": "gyeongbuk-21614799",
+      "hotelName": "바다소리 펜션",
+      "address": "충청남도 태안군 안면읍 방포1길 42"
+    },
+    {
+      "slug": "gyeongbuk-21125839",
+      "hotelName": "스케이 펜션",
+      "address": "경기도 가평군 조종면 현등사길 35 스카이펜션"
+    },
+    {
+      "slug": "gyeongbuk-21614717",
+      "hotelName": "바다 향기 펜션",
+      "address": "경기도 안산시 단원구 참살이번영길 3-1 대부도 더스케치펜션 바다향기수목원점"
+    },
+    {
+      "slug": "gyeongbuk-21125691",
+      "hotelName": "소라 펜션",
+      "address": "경기도 안산시 단원구 모예길 36"
+    },
+    {
+      "slug": "gyeongbuk-871876",
+      "hotelName": "와우 하우스",
+      "address": "서울특별시 마포구 와우산로24길 35"
+    }
+  ],
+  "referenceLinksRemoved": 1142,
+  "hotelsWithReferenceLinksRemoved": 426,
+  "facilityClaimsNeutralized": {
+    "breakfast": 2474,
+    "wifi": 951,
+    "parking": 608
+  },
+  "thinPages": [
+    {
+      "slug": "gyeongbuk-30991930",
+      "hotelName": "포항 대잠동 뉴욕뉴욕 카무인텔",
+      "address": "12, Jungseom-ro, Nam-gu, Pohang-si, Gyeongsangbuk-do 포항",
+      "bodyLength": 698
+    },
+    {
+      "slug": "gyeongbuk-546302",
+      "hotelName": "유토피아 호텔 구미",
+      "address": "1046-1 Wonpyeong-dong (19-4 Songwonseo-ro 6-gil) 구미 Gyeongsangbuk",
+      "bodyLength": 693
+    }
+  ],
+  "missingVerifiedHero": [
+    {
+      "slug": "gyeongbuk-10572799",
+      "hotelName": "포항 우리들펜션",
+      "address": "경상북도 포항시 남구 호미곶면 해맞이로208번길 10"
+    },
+    {
+      "slug": "gyeongbuk-10572837",
+      "hotelName": "경주 동해안펜션",
+      "address": "경상북도 경주시 감포읍 연동길 10 동해안펜션"
+    },
+    {
+      "slug": "gyeongbuk-10573041",
+      "hotelName": "경주 보니또펜션",
+      "address": "경상북도 경주시 천북면 목실길 76"
+    },
+    {
+      "slug": "gyeongbuk-10573060",
+      "hotelName": "경주 별그린펜션 (보문단지)",
+      "address": "경상북도 경주시 북군길 107-25"
+    },
+    {
+      "slug": "gyeongbuk-10573142",
+      "hotelName": "울진 바다의왕자펜션",
+      "address": "경상북도 울진군 죽변면 울진북로 1090 바다의왕자펜션"
+    },
+    {
+      "slug": "gyeongbuk-10573602",
+      "hotelName": "경주 아드리아펜션",
+      "address": "경상북도 경주시 천군1길 13"
+    },
+    {
+      "slug": "gyeongbuk-10573819",
+      "hotelName": "경주 블루노트풀빌라",
+      "address": "경상북도 경주시 북군길 137-8 블루노트펜션"
+    },
+    {
+      "slug": "gyeongbuk-10573876",
+      "hotelName": "경주 풍뎅이 호스텔",
+      "address": "경상북도 경주시 태종로699번길 14"
+    },
+    {
+      "slug": "gyeongbuk-10573898",
+      "hotelName": "경주 해와바다펜션",
+      "address": "경상북도 경주시 감포읍 연동길 16"
+    },
+    {
+      "slug": "gyeongbuk-10573906",
+      "hotelName": "포항 뷰141펜션",
+      "address": "경상북도 포항시 남구 구룡포읍 일출로 14-1"
+    },
+    {
+      "slug": "gyeongbuk-10573998",
+      "hotelName": "경주 무드펜션",
+      "address": "경상북도 경주시 천북면 목실길 14-25"
+    },
+    {
+      "slug": "gyeongbuk-10574071",
+      "hotelName": "경주 쌤펜션",
+      "address": "경상북도 경주시 북군길 169-1"
+    },
+    {
+      "slug": "gyeongbuk-10574539",
+      "hotelName": "경주 다정다감펜션",
+      "address": "경상북도 경주시 천북면 물천안길 173"
+    },
+    {
+      "slug": "gyeongbuk-10574661",
+      "hotelName": "경주 봉쥬르펜션",
+      "address": "경상북도 경주시 북군길 166"
+    },
+    {
+      "slug": "gyeongbuk-10575058",
+      "hotelName": "울진 늘봄 부띠끄",
+      "address": "경상북도 울진군 죽변면 울진북로 1125-3 울진 늘봄 부띠끄"
+    },
+    {
+      "slug": "gyeongbuk-10575390",
+      "hotelName": "울진 엔젤 무인카",
+      "address": "2248-16, Uljinbuk-ro, Buk-myeon, Uljin-gun, Gyeongsangbuk-do 울진"
+    },
+    {
+      "slug": "gyeongbuk-10575582",
+      "hotelName": "울진 피렌체고궁펜션",
+      "address": "경상북도 울진군 죽변면 죽변중앙로 235-8"
+    },
+    {
+      "slug": "gyeongbuk-10575814",
+      "hotelName": "포항 작은행복펜션",
+      "address": "경상북도 포항시 북구 흥해읍 해안로 1727"
+    },
+    {
+      "slug": "gyeongbuk-10575939",
+      "hotelName": "울릉도 윤아농원펜션",
+      "address": "경상북도 울릉군 북면 천부3길 266-21"
+    },
+    {
+      "slug": "gyeongbuk-10576222",
+      "hotelName": "포항 영일대 BB(비비)",
+      "address": "경상북도 포항시 북구 해안로 17 BB모텔"
+    },
+    {
+      "slug": "gyeongbuk-10576284",
+      "hotelName": "포항 화진별장펜션",
+      "address": "경상북도 포항시 북구 송라면 해안로 2973-43"
+    },
+    {
+      "slug": "gyeongbuk-10576304",
+      "hotelName": "영덕 소나무 펜션",
+      "address": "경상북도 영덕군 강구면 영덕대게로 297-5"
+    },
+    {
+      "slug": "gyeongbuk-10576440",
+      "hotelName": "경주 소소담펜션",
+      "address": "경상북도 경주시 천군1길 31"
+    },
+    {
+      "slug": "gyeongbuk-10577154",
+      "hotelName": "포항 슬로우오션풀빌라",
+      "address": "경상북도 포항시 북구 송라면 동해대로3218번길 39 슬로우오션"
+    },
+    {
+      "slug": "gyeongbuk-10577236",
+      "hotelName": "경주 씨뷰풀빌라",
+      "address": "경상북도 경주시 감포읍 연동길 2"
+    },
+    {
+      "slug": "gyeongbuk-10577395",
+      "hotelName": "영덕 강구항 인투",
+      "address": "경상북도 영덕군 남정면 동해대로 4148"
+    },
+    {
+      "slug": "gyeongbuk-10578162",
+      "hotelName": "포항 보경사온천파크펜션",
+      "address": "경상북도 포항시 북구 송라면 보경로 516 보경사 온천파크"
+    },
+    {
+      "slug": "gyeongbuk-10579289",
+      "hotelName": "울진 예스",
+      "address": "경상북도 울진군 북면 부구2길 2-13"
+    },
+    {
+      "slug": "gyeongbuk-10579308",
+      "hotelName": "경주 나인",
+      "address": "경상북도 경주시 충효중앙길 83"
+    },
+    {
+      "slug": "gyeongbuk-10579579",
+      "hotelName": "청도 빛축제펜션",
+      "address": "경상북도 청도군 화양읍 삼신길 11"
+    },
+    {
+      "slug": "gyeongbuk-10579613",
+      "hotelName": "청도 프로방스펜션",
+      "address": "경상북도 청도군 화양읍 삼신길 11-1"
+    },
+    {
+      "slug": "gyeongbuk-10579677",
+      "hotelName": "경주 아미고펜션 (경주보문단지)",
+      "address": "경상북도 경주시 천북면 천북남로 516-18"
+    },
+    {
+      "slug": "gyeongbuk-10579826",
+      "hotelName": "구미 형곡동 5월 Hotel",
+      "address": "경상북도 구미시 신시로7길 19"
+    },
+    {
+      "slug": "gyeongbuk-10579880",
+      "hotelName": "구미 인동 호텔 Boom",
+      "address": "경상북도 구미시 인동중앙로5길 33-1 붐 호텔"
+    },
+    {
+      "slug": "gyeongbuk-10580054",
+      "hotelName": "경주 펜션 시크릿(경주보문단지)",
+      "address": "경상북도 경주시 천북면 목실길 14-39"
+    },
+    {
+      "slug": "gyeongbuk-10580187",
+      "hotelName": "포항 죽도시장 타히티",
+      "address": "경상북도 포항시 북구 중흥로101번길 8-4"
+    },
+    {
+      "slug": "gyeongbuk-10580395",
+      "hotelName": "울진 해맞이펜션",
+      "address": "경상북도 울진군 근남면 망양정로 945-1"
+    },
+    {
+      "slug": "gyeongbuk-10580416",
+      "hotelName": "경산 플러스 온천",
+      "address": "경상북도 경산시 남천면 경청로 967-10"
+    },
+    {
+      "slug": "gyeongbuk-10580448",
+      "hotelName": "구미 형곡동 호텔 스테이",
+      "address": "경상북도 구미시 신시로7길 9"
+    },
+    {
+      "slug": "gyeongbuk-10580502",
+      "hotelName": "경주 다이아풀빌라",
+      "address": "경상북도 경주시 천북면 목실길 27-55"
+    },
+    {
+      "slug": "gyeongbuk-10580531",
+      "hotelName": "구미 봉곡동 첼로",
+      "address": "경상북도 구미시 봉곡로12길 9-6"
+    },
+    {
+      "slug": "gyeongbuk-10580785",
+      "hotelName": "구미 원평동 펀",
+      "address": "경상북도 구미시 송원서로4길 20"
+    },
+    {
+      "slug": "gyeongbuk-10580932",
+      "hotelName": "문경 점촌 아모르 무인텔",
+      "address": "경상북도 문경시 점촌역옆길 13"
+    },
+    {
+      "slug": "gyeongbuk-10581005",
+      "hotelName": "포항 상도동 호텔 팰리스",
+      "address": "경상북도 포항시 남구 중흥로61번길 15-5"
+    },
+    {
+      "slug": "gyeongbuk-10581054",
+      "hotelName": "상주 비앤비 호텔",
+      "address": "경상북도 상주시 무양2길 16-9"
+    },
+    {
+      "slug": "gyeongbuk-10581081",
+      "hotelName": "경주 조이(JOY)",
+      "address": "경상북도 경주시 감포읍 경감로 2803"
+    },
+    {
+      "slug": "gyeongbuk-10581190",
+      "hotelName": "경산 탑모텔 경산시장점",
+      "address": "경상북도 경산시 서상길 72 1, 2층"
+    },
+    {
+      "slug": "gyeongbuk-10581220",
+      "hotelName": "경주 엔젤",
+      "address": "경상북도 경주시 화랑로 43-7"
+    },
+    {
+      "slug": "gyeongbuk-10581262",
+      "hotelName": "영천 휴",
+      "address": "경상북도 영천시 완산중앙3길 42"
+    },
+    {
+      "slug": "gyeongbuk-10581352",
+      "hotelName": "문경 이너스 호텔",
+      "address": "경상북도 문경시 문경읍 온천강변2길 46 이너스모텔"
+    },
+    {
+      "slug": "gyeongbuk-10581397",
+      "hotelName": "포항 상도동 XYM1",
+      "address": "7-5, Jungheung-ro 70beon-gil, Nam-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-10581535",
+      "hotelName": "영덕 강구항 명품",
+      "address": "경상북도 영덕군 강구면 영덕대게로 33"
+    },
+    {
+      "slug": "gyeongbuk-10581554",
+      "hotelName": "문경 E",
+      "address": "경상북도 문경시 중앙7길 40 문경 E 모텔"
+    },
+    {
+      "slug": "gyeongbuk-10581582",
+      "hotelName": "울진 고래이야기펜션",
+      "address": "경상북도 울진군 후포면 옥동길 18"
+    },
+    {
+      "slug": "gyeongbuk-10581690",
+      "hotelName": "김천 제로 무인텔",
+      "address": "130, Deokjeon-gil, Daehang-myeon, Gimcheon-si, Gyeongsangbuk-do 김천"
+    },
+    {
+      "slug": "gyeongbuk-10581704",
+      "hotelName": "구미 봉곡동 호텔 마천루",
+      "address": "경상북도 구미시 봉곡로12길 9-11"
+    },
+    {
+      "slug": "gyeongbuk-10581737",
+      "hotelName": "안동 호텔 나인",
+      "address": "경상북도 안동시 옥광1길 8-31"
+    },
+    {
+      "slug": "gyeongbuk-10581744",
+      "hotelName": "경산 소풍",
+      "address": "경상북도 경산시 장산로23길 22 소풍모텔"
+    },
+    {
+      "slug": "gyeongbuk-10581767",
+      "hotelName": "울릉 위드Ulleung",
+      "address": "219-3, Ulleungsunhwan-ro, Ulleung-eup, Ulleung-gun, Gyeongsangbuk-do 울릉군"
+    },
+    {
+      "slug": "gyeongbuk-10581777",
+      "hotelName": "김천 스테이201호텔",
+      "address": "경상북도 김천시 문화1길 39-2"
+    },
+    {
+      "slug": "gyeongbuk-10581839",
+      "hotelName": "포항 죽도동 YAJA 포항 쌍용사거리점",
+      "address": "경상북도 포항시 북구 중흥로101번길 8-5"
+    },
+    {
+      "slug": "gyeongbuk-10581865",
+      "hotelName": "김천 더 비앤비 호텔",
+      "address": "경상북도 김천시 부곡중앙2길 37-4"
+    },
+    {
+      "slug": "gyeongbuk-10581866",
+      "hotelName": "김천 베네치아",
+      "address": "경상북도 김천시 강변로 28"
+    },
+    {
+      "slug": "gyeongbuk-10581888",
+      "hotelName": "울진 후포항 호텔 후",
+      "address": "경상북도 울진군 후포면 후포4길 59"
+    },
+    {
+      "slug": "gyeongbuk-10581896",
+      "hotelName": "문경 강남",
+      "address": "경상북도 문경시 문경읍 온천2길 17"
+    },
+    {
+      "slug": "gyeongbuk-10581918",
+      "hotelName": "경주 애플",
+      "address": "경상북도 경주시 외동읍 산업로 2045"
+    },
+    {
+      "slug": "gyeongbuk-10581919",
+      "hotelName": "상주 발리",
+      "address": "경상북도 상주시 문무1길 40-9"
+    },
+    {
+      "slug": "gyeongbuk-10581920",
+      "hotelName": "문경 비앤비 호텔",
+      "address": "경상북도 문경시 중앙7길 30"
+    },
+    {
+      "slug": "gyeongbuk-10581945",
+      "hotelName": "안동 힐링 무인텔",
+      "address": "경상북도 안동시 와룡면 동악골길 205"
+    },
+    {
+      "slug": "gyeongbuk-10581967",
+      "hotelName": "울릉 동해장모텔",
+      "address": "226-7, Ulleungsunhwan-ro, Ulleung-eup, Ulleung-gun, Gyeongsangbuk-do 울릉군"
+    },
+    {
+      "slug": "gyeongbuk-10582001",
+      "hotelName": "포항 문덕 호텔여기어때 포항문덕점",
+      "address": "경상북도 포항시 남구 오천읍 문덕로37번길 4"
+    },
+    {
+      "slug": "gyeongbuk-10582262",
+      "hotelName": "경주 우리누리펜션",
+      "address": "경상북도 경주시 북군길 156-15"
+    },
+    {
+      "slug": "gyeongbuk-10582421",
+      "hotelName": "경산 SOME (썸)",
+      "address": "경상북도 경산시 중앙로18길 33"
+    },
+    {
+      "slug": "gyeongbuk-10582546",
+      "hotelName": "영덕 바다펜션",
+      "address": "경상북도 영덕군 남정면 동해대로 4156"
+    },
+    {
+      "slug": "gyeongbuk-10582949",
+      "hotelName": "포항 대잠동 YOLO (욜로)",
+      "address": "경상북도 포항시 남구 새천년대로422번길 5-10"
+    },
+    {
+      "slug": "gyeongbuk-10583228",
+      "hotelName": "포항 피노키오풀빌라",
+      "address": "경상북도 포항시 북구 청하면 해안로 2090"
+    },
+    {
+      "slug": "gyeongbuk-10583608",
+      "hotelName": "경주 벽도산황토본가펜션",
+      "address": "경상북도 경주시 두대길 73"
+    },
+    {
+      "slug": "gyeongbuk-10584063",
+      "hotelName": "울진 썬",
+      "address": "경상북도 울진군 후포면 후포삼율로 151-1"
+    },
+    {
+      "slug": "gyeongbuk-10584234",
+      "hotelName": "울진 새파랑길펜션",
+      "address": "경상북도 울진군 후포면 금음리 363"
+    },
+    {
+      "slug": "gyeongbuk-10584374",
+      "hotelName": "경주 힐마레펜션",
+      "address": "경상북도 경주시 보불로 126-80"
+    },
+    {
+      "slug": "gyeongbuk-10584426",
+      "hotelName": "안동 전통리조트 구름에",
+      "address": "경상북도 안동시 민속촌길 190"
+    },
+    {
+      "slug": "gyeongbuk-10584505",
+      "hotelName": "포항 죽도시장 Design Hotel 2NE1",
+      "address": "42, Chilseongcheon-gil, Buk-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-10584554",
+      "hotelName": "구미 옥계 수",
+      "address": "경상북도 구미시 옥계남로 39-5"
+    },
+    {
+      "slug": "gyeongbuk-10585118",
+      "hotelName": "포항 달보드레펜션",
+      "address": "경상북도 포항시 남구 장기면 동해안로 2788 달보드레"
+    },
+    {
+      "slug": "gyeongbuk-10585479",
+      "hotelName": "영덕 지금바다펜션",
+      "address": "경상북도 영덕군 남정면 원척1길 9"
+    },
+    {
+      "slug": "gyeongbuk-10585689",
+      "hotelName": "구미 원평동 온(ON)",
+      "address": "경상북도 구미시 송원서로6길 37"
+    },
+    {
+      "slug": "gyeongbuk-10586140",
+      "hotelName": "영덕 블루오션관광펜션",
+      "address": "경상북도 영덕군 남정면 동해대로 4142"
+    },
+    {
+      "slug": "gyeongbuk-10586188",
+      "hotelName": "영덕 창포곶펜션",
+      "address": "경상북도 영덕군 영덕읍 영덕대게로 909-20"
+    },
+    {
+      "slug": "gyeongbuk-10586265",
+      "hotelName": "문경 하늘펜션",
+      "address": "경상북도 문경시 산북면 김용길 278"
+    },
+    {
+      "slug": "gyeongbuk-10586816",
+      "hotelName": "김천 비앤비 호텔",
+      "address": "경상북도 김천시 부곡중앙2길 37-4"
+    },
+    {
+      "slug": "gyeongbuk-10586867",
+      "hotelName": "상주 소나무와황토집펜션",
+      "address": "경상북도 상주시 이안면 공검이안길 638"
+    },
+    {
+      "slug": "gyeongbuk-10586895",
+      "hotelName": "포항 꾸스풀빌라",
+      "address": "경상북도 포항시 남구 장기면 영암길 43 꾸스풀빌라"
+    },
+    {
+      "slug": "gyeongbuk-10587221",
+      "hotelName": "문경 온천 호텔",
+      "address": "경상북도 문경시 문경읍 온천2길 5"
+    },
+    {
+      "slug": "gyeongbuk-10587394",
+      "hotelName": "영덕 강구항 YAM 영덕강구터미널점",
+      "address": "경상북도 영덕군 강구면 동해대로 4497 강구시외버스터미널"
+    },
+    {
+      "slug": "gyeongbuk-10587596",
+      "hotelName": "포항 상도동 잉카의 작은마을",
+      "address": "경상북도 포항시 남구 중흥로61번길 8-10"
+    },
+    {
+      "slug": "gyeongbuk-10587614",
+      "hotelName": "안동 수산궁 태화점",
+      "address": "18, Daean-ro, Andong-si, Gyeongsangbuk-do 안동"
+    },
+    {
+      "slug": "gyeongbuk-10587640",
+      "hotelName": "포항 영일대 XYM",
+      "address": "경상북도 포항시 북구 해안로 127"
+    },
+    {
+      "slug": "gyeongbuk-10587676",
+      "hotelName": "경주 프리티",
+      "address": "경상북도 경주시 안강읍 비화중로2길 49"
+    },
+    {
+      "slug": "gyeongbuk-10587693",
+      "hotelName": "영덕 강구항 리아(Ria)",
+      "address": "5, Ganggudaege 2-gil, Ganggu-myeon, Yeongdeok-gun, Gyeongsangbuk-do 영덕"
+    },
+    {
+      "slug": "gyeongbuk-10588789",
+      "hotelName": "안동 꿈의궁전",
+      "address": "경상북도 안동시 퇴계로 64"
+    },
+    {
+      "slug": "gyeongbuk-10589194",
+      "hotelName": "청송 주왕산황토방갈로펜션",
+      "address": "경상북도 청송군 주왕산면 공원길 100 황토방갈로펜션"
+    },
+    {
+      "slug": "gyeongbuk-10589399",
+      "hotelName": "안동 올인",
+      "address": "경상북도 안동시 강남14길 56"
+    },
+    {
+      "slug": "gyeongbuk-10589582",
+      "hotelName": "울진 동아",
+      "address": "경상북도 울진군 죽변면 울진북로 1130"
+    },
+    {
+      "slug": "gyeongbuk-10589968",
+      "hotelName": "구미 원평동 나르본",
+      "address": "경상북도 구미시 송원서로8길 25"
+    },
+    {
+      "slug": "gyeongbuk-10590023",
+      "hotelName": "경주 청담풀빌라펜션",
+      "address": "경상북도 경주시 천북면 목실길 27-43 경주키즈풀빌라 청담펜션"
+    },
+    {
+      "slug": "gyeongbuk-10590201",
+      "hotelName": "포항 르브아펜션",
+      "address": "경상북도 포항시 남구 구룡포읍 하정로30번길 31"
+    },
+    {
+      "slug": "gyeongbuk-10590548",
+      "hotelName": "안동 시그너스358호텔",
+      "address": "경상북도 안동시 경북대로 358"
+    },
+    {
+      "slug": "gyeongbuk-10590683",
+      "hotelName": "구미 원평동 호텔 헤븐제스",
+      "address": "경상북도 구미시 송원서로6길 48"
+    },
+    {
+      "slug": "gyeongbuk-10590709",
+      "hotelName": "문경 호텔W",
+      "address": "11, Sicheong 2-gil, Mungyeong-si, Gyeongsangbuk-do 문경"
+    },
+    {
+      "slug": "gyeongbuk-10590898",
+      "hotelName": "경주 보문호수펜션",
+      "address": "경상북도 경주시 경감로 504-24 보문호수펜션"
+    },
+    {
+      "slug": "gyeongbuk-10591286",
+      "hotelName": "영주 휴 스테이 무인텔",
+      "address": "경상북도 영주시 풍기읍 소백로 2143-5 휴스테이"
+    },
+    {
+      "slug": "gyeongbuk-10591301",
+      "hotelName": "김천 호텔 이상",
+      "address": "경상북도 김천시 혁신2로 10"
+    },
+    {
+      "slug": "gyeongbuk-11302997",
+      "hotelName": "경주 쁘띠토마토펜션",
+      "address": "경상북도 경주시 북군4길 65"
+    },
+    {
+      "slug": "gyeongbuk-13302606",
+      "hotelName": "포항 죽도시장 모수",
+      "address": "12-1, Jukdo-ro 16beon-gil, Buk-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-13302716",
+      "hotelName": "문경 퀸",
+      "address": "경상북도 문경시 신흥1길 7-6"
+    },
+    {
+      "slug": "gyeongbuk-13302720",
+      "hotelName": "포항 해도동 블랙",
+      "address": "경상북도 포항시 남구 중앙로41번길 35"
+    },
+    {
+      "slug": "gyeongbuk-13302787",
+      "hotelName": "포항 대잠동 투겐하트 호텔",
+      "address": "경상북도 포항시 남구 새천년대로460번길 14-5 투겐하트 호텔"
+    },
+    {
+      "slug": "gyeongbuk-13302834",
+      "hotelName": "안동 구담정사 고택",
+      "address": "경상북도 안동시 풍천면 구담배나들길 33-12 구담정사"
+    },
+    {
+      "slug": "gyeongbuk-13302859",
+      "hotelName": "경주 금리단길 STAY",
+      "address": "3, Bukjeong-ro, Gyeongju-si, Gyeongsangbuk-do 경주"
+    },
+    {
+      "slug": "gyeongbuk-13302917",
+      "hotelName": "포항 대잠동 HOTEL VALLAS (호텔 발라스)",
+      "address": "경상북도 포항시 남구 새천년대로434번길 22 호텔 발라스"
+    },
+    {
+      "slug": "gyeongbuk-13576202",
+      "hotelName": "안동 해변",
+      "address": "경상북도 안동시 동흥3길 19"
+    },
+    {
+      "slug": "gyeongbuk-13626147",
+      "hotelName": "경주 리베르풀빌라",
+      "address": "경상북도 경주시 하동1길 45-10"
+    },
+    {
+      "slug": "gyeongbuk-14085122",
+      "hotelName": "김천 커플 무인텔",
+      "address": "2015-9, Yeongnam-daero, Gimcheon-si, Gyeongsangbuk-do 김천"
+    },
+    {
+      "slug": "gyeongbuk-14085177",
+      "hotelName": "영주 발리",
+      "address": "경상북도 영주시 중앙로45번길 7"
+    },
+    {
+      "slug": "gyeongbuk-14085242",
+      "hotelName": "안동 수 무인텔",
+      "address": "경상북도 안동시 와룡면 동악골길 207"
+    },
+    {
+      "slug": "gyeongbuk-14085291",
+      "hotelName": "경주 더나인 한옥스테이",
+      "address": "87, Chunghyoseoak-gil, Gyeongju-si, Gyeongsangbuk-do 경주"
+    },
+    {
+      "slug": "gyeongbuk-14085317",
+      "hotelName": "안동 고택 이상루",
+      "address": "경상북도 안동시 서후면 풍산태사로 3193-6"
+    },
+    {
+      "slug": "gyeongbuk-14085461",
+      "hotelName": "영주 아카데미",
+      "address": "경상북도 영주시 중앙로45번길 12"
+    },
+    {
+      "slug": "gyeongbuk-15404935",
+      "hotelName": "Dukgu Oncheon Condo",
+      "address": "921 Deokguoncheon-ro 울진"
+    },
+    {
+      "slug": "gyeongbuk-15955327",
+      "hotelName": "상주 호텔 아리아",
+      "address": "경상북도 상주시 문무1길 47 호텔아리아"
+    },
+    {
+      "slug": "gyeongbuk-16254037",
+      "hotelName": "울진 펜션점프1",
+      "address": "경상북도 울진군 근남면 진복길 91"
+    },
+    {
+      "slug": "gyeongbuk-16255036",
+      "hotelName": "문경 수피아펜션",
+      "address": "경상북도 문경시 문경읍 활공장길 123 외1필지"
+    },
+    {
+      "slug": "gyeongbuk-16347995",
+      "hotelName": "문경 시크릿 온천",
+      "address": "경상북도 문경시 문경읍 온천강변2길 66"
+    },
+    {
+      "slug": "gyeongbuk-16653689",
+      "hotelName": "안동 톰소여의모험펜션",
+      "address": "경상북도 안동시 와룡면 동악골길 83"
+    },
+    {
+      "slug": "gyeongbuk-16834027",
+      "hotelName": "Yeongju Alto Hotel",
+      "address": "10 Kkotdongsan-ro 1beon-gil 영주"
+    },
+    {
+      "slug": "gyeongbuk-16846721",
+      "hotelName": "안동 스튜디오131 호텔",
+      "address": "경상북도 안동시 서후면 풍산태사로 2483-19"
+    },
+    {
+      "slug": "gyeongbuk-18169185",
+      "hotelName": "경주 메이브리즈풀빌라",
+      "address": "경상북도 경주시 천북면 갈곡성지길 174-29"
+    },
+    {
+      "slug": "gyeongbuk-18468795",
+      "hotelName": "울진 백암 스프링스 호텔",
+      "address": "경상북도 울진군 온정면 온천로 90"
+    },
+    {
+      "slug": "gyeongbuk-18468920",
+      "hotelName": "청송 갤러리",
+      "address": "경상북도 청송군 청송읍 중앙로 451"
+    },
+    {
+      "slug": "gyeongbuk-18469017",
+      "hotelName": "안동 수곡고택",
+      "address": "경상북도 안동시 풍천면 가일길 78"
+    },
+    {
+      "slug": "gyeongbuk-18469056",
+      "hotelName": "경주 보문 한솔",
+      "address": "465-47, Bomun-ro, Gyeongju-si, Gyeongsangbuk-do 경주"
+    },
+    {
+      "slug": "gyeongbuk-18469211",
+      "hotelName": "안동 학봉종택",
+      "address": "2830-6, Pungsantaesa-ro, Seohu-myeon, Andong-si, Gyeongsangbuk-do 안동"
+    },
+    {
+      "slug": "gyeongbuk-18469730",
+      "hotelName": "경주 락희원 한옥스테이",
+      "address": "43, Poseok-ro 1050beon-gil, Gyeongju-si, Gyeongsangbuk-do 경주"
+    },
+    {
+      "slug": "gyeongbuk-18469880",
+      "hotelName": "문경 소풍",
+      "address": "경상북도 문경시 호계면 상무로 317-1"
+    },
+    {
+      "slug": "gyeongbuk-18528141",
+      "hotelName": "울진 죽변 비취",
+      "address": "경상북도 울진군 죽변면 울진북로 1105"
+    },
+    {
+      "slug": "gyeongbuk-18528250",
+      "hotelName": "청송 백운장 모텔",
+      "address": "경상북도 청송군 청송읍 금월로 244 백운장모텔"
+    },
+    {
+      "slug": "gyeongbuk-18528524",
+      "hotelName": "경주 화림정한옥펜션(첨성대)",
+      "address": "177-3, Cheomseong-ro, Gyeongju-si, Gyeongsangbuk-do 경주"
+    },
+    {
+      "slug": "gyeongbuk-18528652",
+      "hotelName": "울진 에이스",
+      "address": "경상북도 울진군 북면 부구2길 5-7 2층~5층"
+    },
+    {
+      "slug": "gyeongbuk-18863799",
+      "hotelName": "경주 해맞이펜션",
+      "address": "경상북도 경주시 감포읍 동해안로 2030"
+    },
+    {
+      "slug": "gyeongbuk-19196353",
+      "hotelName": "영천 더자라",
+      "address": "경상북도 영천시 북안면 운북로 1932"
+    },
+    {
+      "slug": "gyeongbuk-20086288",
+      "hotelName": "백암 고려 온천 호텔",
+      "address": "Koryo Hotel 10-6 Oncheon-myeon Onjeong-myeon, Uljin-gun, Gyeongsangbuk-do 울진 Gyeongsangbuk"
+    },
+    {
+      "slug": "gyeongbuk-20308625",
+      "hotelName": "경산 그랜드",
+      "address": "경상북도 경산시 경산로44길 3-11 경산그랜드모텔"
+    },
+    {
+      "slug": "gyeongbuk-21989205",
+      "hotelName": "경주 황리단길스테이펜션",
+      "address": "경상북도 경주시 포석로1068번길 15-9 1층 스테이이안"
+    },
+    {
+      "slug": "gyeongbuk-22148898",
+      "hotelName": "경주 동행스테이",
+      "address": "14, Taejong-ro 711beon-gil, Gyeongju-si, Gyeongsangbuk-do 경주"
+    },
+    {
+      "slug": "gyeongbuk-2223609",
+      "hotelName": "경주 둥지가족펜션 ",
+      "address": "경상북도 경주시 서악2길 17"
+    },
+    {
+      "slug": "gyeongbuk-22245505",
+      "hotelName": "경주 휴스피아",
+      "address": "26, Wonhwa-ro 281beon-gil, Gyeongju-si, Gyeongsangbuk-do 경주"
+    },
+    {
+      "slug": "gyeongbuk-2224860",
+      "hotelName": "시우와당",
+      "address": "경상북도 경주시 첨성로99번길 21"
+    },
+    {
+      "slug": "gyeongbuk-22667902",
+      "hotelName": "경주 머물다풀빌라",
+      "address": "경상북도 경주시 천북면 목실길 10-22"
+    },
+    {
+      "slug": "gyeongbuk-22753206",
+      "hotelName": "안동 이상루 고택",
+      "address": "경상북도 안동시 서후면 풍산태사로 3193-6"
+    },
+    {
+      "slug": "gyeongbuk-23070387",
+      "hotelName": "경주 대보",
+      "address": "경상북도 경주시 원화로 311"
+    },
+    {
+      "slug": "gyeongbuk-23144585",
+      "hotelName": "울진 더좋은",
+      "address": "경상북도 울진군 죽변면 울진북로 1078 더좋은모텔"
+    },
+    {
+      "slug": "gyeongbuk-23166906",
+      "hotelName": "영덕 은혜당 한옥스테이",
+      "address": "109-24, Sangwon-gil, Chuksan-myeon, Yeongdeok-gun, Gyeongsangbuk-do 영덕"
+    },
+    {
+      "slug": "gyeongbuk-23384892",
+      "hotelName": "경주 도토리 하우스",
+      "address": "경상북도 경주시 태종로 691-12 도토리하우스"
+    },
+    {
+      "slug": "gyeongbuk-24127352",
+      "hotelName": "구미 원평동 호텔여기어때 1호점",
+      "address": "경상북도 구미시 구미중앙로33길 26 호텔여기어때 구미1호점"
+    },
+    {
+      "slug": "gyeongbuk-2496925",
+      "hotelName": "어울림 하우스",
+      "address": "89, Jungang-ro 안동"
+    },
+    {
+      "slug": "gyeongbuk-24989955",
+      "hotelName": "김천 힐링 무인텔",
+      "address": "경상북도 김천시 지례면 거물길 45"
+    },
+    {
+      "slug": "gyeongbuk-2579350",
+      "hotelName": "나무애",
+      "address": "경상북도 경주시 포석로1068번길 25 경주시 황남동 237-3"
+    },
+    {
+      "slug": "gyeongbuk-25894124",
+      "hotelName": "울릉 K(케이)",
+      "address": "215, Ulleungsunhwan-ro, Ulleung-eup, Ulleung-gun, Gyeongsangbuk-do 울릉군"
+    },
+    {
+      "slug": "gyeongbuk-25894151",
+      "hotelName": "울릉 섬",
+      "address": "경상북도 울릉군 울릉읍 도동3길 27-1"
+    },
+    {
+      "slug": "gyeongbuk-26079688",
+      "hotelName": "안동 스위트 호텔(sweet hotel)",
+      "address": "경상북도 안동시 옥동길 97-6"
+    },
+    {
+      "slug": "gyeongbuk-26079704",
+      "hotelName": "영덕 개미똥꾸펜션",
+      "address": "경상북도 영덕군 강구면 영덕대게로 482"
+    },
+    {
+      "slug": "gyeongbuk-26083039",
+      "hotelName": "경주 쁘띠하우스더궁펜션",
+      "address": "경상북도 경주시 불국신택지5길 28"
+    },
+    {
+      "slug": "gyeongbuk-27741376",
+      "hotelName": "안동 비앤비 호텔",
+      "address": "경상북도 안동시 대안로 29 비앤비모텔"
+    },
+    {
+      "slug": "gyeongbuk-27938337",
+      "hotelName": "프레쉬힐",
+      "address": "경상북도 청도군 운문면 운문사길 129-15 1층"
+    },
+    {
+      "slug": "gyeongbuk-28714285",
+      "hotelName": "김천 카누 호텔",
+      "address": "경상북도 김천시 시민탑1길 11"
+    },
+    {
+      "slug": "gyeongbuk-28719216",
+      "hotelName": "울진 후포 백암장",
+      "address": "경상북도 울진군 후포면 후포삼율로 153 백암장식"
+    },
+    {
+      "slug": "gyeongbuk-30227314",
+      "hotelName": "울진 노란뜰펜션",
+      "address": "경상북도 울진군 근남면 망양정로 965-9"
+    },
+    {
+      "slug": "gyeongbuk-30626600",
+      "hotelName": "경주 함월장",
+      "address": "경상북도 경주시 서면 내서로 320-3 2층, 3층"
+    },
+    {
+      "slug": "gyeongbuk-30659307",
+      "hotelName": "안동 수졸당펜션",
+      "address": "경상북도 안동시 도산면 하계길 1-9"
+    },
+    {
+      "slug": "gyeongbuk-30668000",
+      "hotelName": "김천 휴 무인모텔",
+      "address": "경상북도 김천시 개령면 김선로 23-14"
+    },
+    {
+      "slug": "gyeongbuk-30954234",
+      "hotelName": "청송 송소고택펜션",
+      "address": "경상북도 청송군 파천면 송소고택길 15-2"
+    },
+    {
+      "slug": "gyeongbuk-30958371",
+      "hotelName": "울릉도 대박펜션",
+      "address": "경상북도 울릉군 울릉읍 울릉순환로 674 대박펜션"
+    },
+    {
+      "slug": "gyeongbuk-30989863",
+      "hotelName": "안동 베네치아호스텔펜션",
+      "address": "51, Yongsangbuk 1-gil, Andong-si, Gyeongsangbuk-do 안동"
+    },
+    {
+      "slug": "gyeongbuk-30989901",
+      "hotelName": "구미 원평동 로드호텔",
+      "address": "경상북도 구미시 송원서로4길 33"
+    },
+    {
+      "slug": "gyeongbuk-30989943",
+      "hotelName": "포항 빌라세비야펜션",
+      "address": "경상북도 포항시 북구 송라면 봉화길 190"
+    },
+    {
+      "slug": "gyeongbuk-30990411",
+      "hotelName": "경산 2월 호텔(하양점)",
+      "address": "경상북도 경산시 하양읍 조산천서길 3"
+    },
+    {
+      "slug": "gyeongbuk-30990579",
+      "hotelName": "포항 아이세상키즈풀빌라",
+      "address": "경상북도 포항시 남구 호미곶면 해맞이로208번길 61 아이세상풀빌라"
+    },
+    {
+      "slug": "gyeongbuk-30990854",
+      "hotelName": "구미 원평동 느낌",
+      "address": "경상북도 구미시 구미중앙로33길 22"
+    },
+    {
+      "slug": "gyeongbuk-30991650",
+      "hotelName": "포항 씨엔밤부펜션",
+      "address": "22-25, Haean-ro 2052beon-gil, Cheongha-myeon, Buk-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-30991662",
+      "hotelName": "포항 영일대 로데오",
+      "address": "경상북도 포항시 북구 해안로 73"
+    },
+    {
+      "slug": "gyeongbuk-30991930",
+      "hotelName": "포항 대잠동 뉴욕뉴욕 카무인텔",
+      "address": "12, Jungseom-ro, Nam-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-30992284",
+      "hotelName": "경주 가든 파티",
+      "address": "경상북도 경주시 태종로711번길 14"
+    },
+    {
+      "slug": "gyeongbuk-30992797",
+      "hotelName": "문경 스위트 호텔(sweet hotel)",
+      "address": "경상북도 문경시 중앙4길 40"
+    },
+    {
+      "slug": "gyeongbuk-30993378",
+      "hotelName": "영덕 해파랑펜션",
+      "address": "경상북도 영덕군 강구면 영덕대게로 425 1동, 2동, 3동, 4동"
+    },
+    {
+      "slug": "gyeongbuk-31216668",
+      "hotelName": "포항 대잠동 호텔 리제나",
+      "address": "경상북도 포항시 남구 새천년대로422번길 19 호텔 리제나"
+    },
+    {
+      "slug": "gyeongbuk-31487355",
+      "hotelName": "김천 인디언보이 무인텔",
+      "address": "257, Deokjeon-gil, Daehang-myeon, Gimcheon-si, Gyeongsangbuk-do 김천"
+    },
+    {
+      "slug": "gyeongbuk-31616224",
+      "hotelName": "영주 코코호텔",
+      "address": "경상북도 영주시 원당로79번길 9"
+    },
+    {
+      "slug": "gyeongbuk-32285666",
+      "hotelName": "포항 테스226풀빌라",
+      "address": "경상북도 포항시 북구 청하면 해안로1958번길 25-5"
+    },
+    {
+      "slug": "gyeongbuk-33056727",
+      "hotelName": "안동 도도펜션",
+      "address": "경상북도 안동시 대안로 172 2층"
+    },
+    {
+      "slug": "gyeongbuk-33155929",
+      "hotelName": "울진 굿타임",
+      "address": "경상북도 울진군 죽변면 울진북로 1084"
+    },
+    {
+      "slug": "gyeongbuk-3367487",
+      "hotelName": "르네상스 호텔 포항 ",
+      "address": "경상북도 포항시 남구 중흥로61번길 5"
+    },
+    {
+      "slug": "gyeongbuk-33984227",
+      "hotelName": "경주 별자리캠핑랜드",
+      "address": "경상북도 경주시 반구대로 3501-32"
+    },
+    {
+      "slug": "gyeongbuk-34411254",
+      "hotelName": "울릉도 명가펜션",
+      "address": "경상북도 울릉군 울릉읍 사동2길 25-37"
+    },
+    {
+      "slug": "gyeongbuk-34538005",
+      "hotelName": "울진 백암 오렌지",
+      "address": "8, Sotae-ro, Onjeong-myeon, Uljin-gun, Gyeongsangbuk-do 울진"
+    },
+    {
+      "slug": "gyeongbuk-35038451",
+      "hotelName": "예천 M무인텔",
+      "address": "경상북도 예천군 감천면 복골길 5"
+    },
+    {
+      "slug": "gyeongbuk-35307976",
+      "hotelName": "구릉연가",
+      "address": "경상북도 경주시 서악4길 44-2"
+    },
+    {
+      "slug": "gyeongbuk-35523116",
+      "hotelName": "경주 레뷰174풀빌라",
+      "address": "경상북도 경주시 보불로 174-33 레뷰174 풀빌라"
+    },
+    {
+      "slug": "gyeongbuk-35686726",
+      "hotelName": "포항 흥해 무드호텔",
+      "address": "경상북도 포항시 북구 흥해읍 성곡서로31번길 14"
+    },
+    {
+      "slug": "gyeongbuk-35928480",
+      "hotelName": "경산 브라운도트 경산옥산중산점",
+      "address": "3-6, Gyeongsan-ro 40-gil, Gyeongsan-si, Gyeongsangbuk-do 경산"
+    },
+    {
+      "slug": "gyeongbuk-36217248",
+      "hotelName": "경주 수기 하우스",
+      "address": "9-13, Wonhyo-ro 207beon-gil 경주"
+    },
+    {
+      "slug": "gyeongbuk-36478582",
+      "hotelName": "경주 솟티재펜션",
+      "address": "경상북도 경주시 불국신택지6길 32 (진현동)"
+    },
+    {
+      "slug": "gyeongbuk-36651807",
+      "hotelName": "울진 덕구숨황토민박펜션",
+      "address": "2873, Sibiryeong-ro, Buk-myeon, Uljin-gun, Gyeongsangbuk-do 울진"
+    },
+    {
+      "slug": "gyeongbuk-36825033",
+      "hotelName": "한옥인",
+      "address": "경상북도 경주시 포석로1050번길 19"
+    },
+    {
+      "slug": "gyeongbuk-36874345",
+      "hotelName": "포항 흥해 블루나비스",
+      "address": "213, Yonghan-gil, Heunghae-eup, Buk-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-36888683",
+      "hotelName": "포항 송라 ABC",
+      "address": "경상북도 포항시 북구 송라면 동해대로3378번길 3 ABC모텔"
+    },
+    {
+      "slug": "gyeongbuk-45904341",
+      "hotelName": "황리단 스테이",
+      "address": "경상북도 경주시 북정로 5-1 황리단스테이"
+    },
+    {
+      "slug": "gyeongbuk-47288937",
+      "hotelName": "영주 비앤비 호텔",
+      "address": "경상북도 영주시 꽃동산로 27"
+    },
+    {
+      "slug": "gyeongbuk-7449454",
+      "hotelName": "명성 유스 타운",
+      "address": "경상북도 경주시 불국신택지7길 13 명성유스타운"
+    },
+    {
+      "slug": "gyeongbuk-7793347",
+      "hotelName": "한옥스테이 화랑루",
+      "address": "경상북도 경주시 포석로 828-11"
+    },
+    {
+      "slug": "gyeongbuk-10589776",
+      "hotelName": "경산 블레스",
+      "address": "경상북도 경산시 중앙로19길 18"
+    },
+    {
+      "slug": "gyeongbuk-18469233",
+      "hotelName": "구미 산동 호텔 선용(Sun Yong)",
+      "address": "18, Sindang 1-ro, Sandong-eup, Gumi-si, Gyeongsangbuk-do 대구"
+    },
+    {
+      "slug": "gyeongbuk-10578476",
+      "hotelName": "영천 에코",
+      "address": "경상북도 영천시 금호읍 금호로 368"
+    },
+    {
+      "slug": "gyeongbuk-11996921",
+      "hotelName": "구미 원평동 궁",
+      "address": "경상북도 구미시 구미중앙로35길 6"
+    },
+    {
+      "slug": "gyeongbuk-10574565",
+      "hotelName": "경주 몽블랑펜션 (보문단지인근)",
+      "address": "177, Bukgun-gil, Gyeongju-si, Gyeongsangbuk-do 경주"
+    },
+    {
+      "slug": "gyeongbuk-10584774",
+      "hotelName": "안동 인(IN) 호텔",
+      "address": "165, Dongakgol-gil, Waryong-myeon, Andong-si, Gyeongsangbuk-do 안동"
+    },
+    {
+      "slug": "gyeongbuk-10581320",
+      "hotelName": "영천 라임",
+      "address": "경상북도 영천시 금호읍 금호로 496"
+    },
+    {
+      "slug": "gyeongbuk-10587012",
+      "hotelName": "경주 디아망펜션",
+      "address": "경상북도 경주시 보문마을1길 9"
+    },
+    {
+      "slug": "gyeongbuk-10582961",
+      "hotelName": "영천 디데이 호텔",
+      "address": "경상북도 영천시 최무선로 259"
+    },
+    {
+      "slug": "gyeongbuk-10576616",
+      "hotelName": "성주 하늘풍경 무인텔",
+      "address": "경상북도 성주군 성주읍 성주산업단지로 121-7 성주 하늘풍경 무인텔"
+    },
+    {
+      "slug": "gyeongbuk-30990686",
+      "hotelName": "봉화 춘양목호스텔",
+      "address": "경상북도 봉화군 춘양면 운곡1길 8-18"
+    },
+    {
+      "slug": "gyeongbuk-10580978",
+      "hotelName": "포항 죽도동 카스",
+      "address": "경상북도 포항시 북구 중흥로139번길 7"
+    },
+    {
+      "slug": "gyeongbuk-16254885",
+      "hotelName": "성주(가야산) 앤의정원펜션",
+      "address": "1426, Deogun-ro, Suryun-myeon, Seongju-gun, Gyeongsangbuk-do 성주군"
+    },
+    {
+      "slug": "gyeongbuk-10581686",
+      "hotelName": "구미 원평동 Yes(예스)",
+      "address": "경상북도 구미시 송원서로6길 53-6"
+    },
+    {
+      "slug": "gyeongbuk-31216693",
+      "hotelName": "안동 옥동 로미오",
+      "address": "경상북도 안동시 옥동3길 41-11 로미오 모텔"
+    },
+    {
+      "slug": "gyeongbuk-10576936",
+      "hotelName": "문경 올레",
+      "address": "경상북도 문경시 중앙4길 36"
+    },
+    {
+      "slug": "gyeongbuk-10583383",
+      "hotelName": "김천 자이",
+      "address": "경상북도 김천시 아랫장터3길 36"
+    },
+    {
+      "slug": "gyeongbuk-10589452",
+      "hotelName": "칠곡 왜관 텐",
+      "address": "경상북도 칠곡군 왜관읍 중앙로 63-1"
+    },
+    {
+      "slug": "gyeongbuk-16809484",
+      "hotelName": "울릉도 산새소리펜션",
+      "address": "경상북도 울릉군 북면 나리길 234"
+    },
+    {
+      "slug": "gyeongbuk-19969293",
+      "hotelName": "울진 바다향",
+      "address": "경상북도 울진군 죽변면 울진북로 1157"
+    },
+    {
+      "slug": "gyeongbuk-10582980",
+      "hotelName": "영덕 강구항 밸리",
+      "address": "경상북도 영덕군 강구면 강구대게길 17 밸리모텔.크랩밸리 대게"
+    },
+    {
+      "slug": "gyeongbuk-30916118",
+      "hotelName": "성주 소풍 무인텔",
+      "address": "경상북도 성주군 벽진면 성주로 2631 소풍카무인텔"
+    },
+    {
+      "slug": "gyeongbuk-10581735",
+      "hotelName": "김천 747 무인텔",
+      "address": "경상북도 김천시 남면 사모실길 53-11 사모실길53-11"
+    },
+    {
+      "slug": "gyeongbuk-10586507",
+      "hotelName": "포항 바다풍경 펜션",
+      "address": "경상북도 포항시 북구 송라면 해안로2672번길 43-10"
+    },
+    {
+      "slug": "gyeongbuk-10584677",
+      "hotelName": "칠곡 석적 썸",
+      "address": "경상북도 칠곡군 석적읍 북중리2길 46"
+    },
+    {
+      "slug": "gyeongbuk-10587428",
+      "hotelName": "김천 하이센스",
+      "address": "3, Samnaktaekji 2-gil, Gimcheon-si, Gyeongsangbuk-do 김천"
+    },
+    {
+      "slug": "gyeongbuk-10580026",
+      "hotelName": "경산 영남대 초콜릿",
+      "address": "18-4, Gobun-gil, Amnyang-eup, Gyeongsan-si, Gyeongsangbuk-do 대구"
+    },
+    {
+      "slug": "gyeongbuk-10589471",
+      "hotelName": "포항 상도동 꿈",
+      "address": "경상북도 포항시 남구 중섬로 56"
+    },
+    {
+      "slug": "gyeongbuk-34220943",
+      "hotelName": "성주 백운호텔",
+      "address": "경상북도 성주군 수륜면 성주가야산로 795-6 성주군수륜면 신파리489-2"
+    },
+    {
+      "slug": "gyeongbuk-10581014",
+      "hotelName": "포항 죽도동 스카이힐",
+      "address": "경상북도 포항시 북구 중흥로191번길 43"
+    },
+    {
+      "slug": "gyeongbuk-10577425",
+      "hotelName": "포항 해궁펜션",
+      "address": "경상북도 포항시 북구 흥해읍 해안로1774번길 37"
+    },
+    {
+      "slug": "gyeongbuk-10586137",
+      "hotelName": "경산 영남대 가을동화",
+      "address": "18-2, Gobun-gil, Amnyang-eup, Gyeongsan-si, Gyeongsangbuk-do 대구"
+    },
+    {
+      "slug": "gyeongbuk-10587681",
+      "hotelName": "포항 오천 비나스테이 무인텔",
+      "address": "149, Oeo-ro, Ocheon-eup, Nam-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-25064165",
+      "hotelName": "의성 벤츠 카무인텔",
+      "address": "828-42, Doan-ro, Danmil-myeon, Uiseong-gun, Gyeongsangbuk-do 대구"
+    },
+    {
+      "slug": "gyeongbuk-30990457",
+      "hotelName": "경주 선유산방펜션",
+      "address": "경상북도 경주시 북군길 35"
+    },
+    {
+      "slug": "gyeongbuk-14090032",
+      "hotelName": "영덕 뷰펜션",
+      "address": "경상북도 영덕군 남정면 동해대로 3869-3 영덕 뷰펜션"
+    },
+    {
+      "slug": "gyeongbuk-10580568",
+      "hotelName": "포항 대잠동 에비앙 드라이브인",
+      "address": "19-8, Saecheonnyeon-daero 450beon-gil, Nam-gu, Pohang, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-10589377",
+      "hotelName": "구미 원평동 K1",
+      "address": "6-7, Geumosijang-ro 7-gil, Gumi-si, Gyeongsangbuk-do 구미"
+    },
+    {
+      "slug": "gyeongbuk-34227422",
+      "hotelName": "칠곡 왜관 G",
+      "address": "경상북도 칠곡군 왜관읍 2번도로길 87"
+    },
+    {
+      "slug": "gyeongbuk-10588867",
+      "hotelName": "청도 이슬미스테이펜션",
+      "address": "경상북도 청도군 화양읍 이슬미로 189-6 이슬미스테이"
+    },
+    {
+      "slug": "gyeongbuk-25726502",
+      "hotelName": "포항 덕운펜션",
+      "address": "경상북도 포항시 남구 호미곶면 호미곶길 25-1"
+    },
+    {
+      "slug": "gyeongbuk-30991025",
+      "hotelName": "경주 아나톨리아풀빌라펜션",
+      "address": "경상북도 경주시 감포읍 동해안로 2632"
+    },
+    {
+      "slug": "gyeongbuk-10574049",
+      "hotelName": "경주 달빛여행펜션",
+      "address": "경상북도 경주시 보문마을4길 14-8"
+    },
+    {
+      "slug": "gyeongbuk-18528673",
+      "hotelName": "상주 S 무인텔",
+      "address": "경상북도 상주시 공성면 웅산로 1178"
+    },
+    {
+      "slug": "gyeongbuk-10576641",
+      "hotelName": "경주 라스텔라펜션",
+      "address": "경상북도 경주시 보문마을4길 33"
+    },
+    {
+      "slug": "gyeongbuk-10582015",
+      "hotelName": "포항 영일대 돌핀스",
+      "address": "경상북도 포항시 북구 해안로 57"
+    },
+    {
+      "slug": "gyeongbuk-10584321",
+      "hotelName": "포항 코지스위트펜션",
+      "address": "경상북도 포항시 남구 장기면 영암길 53"
+    },
+    {
+      "slug": "gyeongbuk-35416399",
+      "hotelName": "안동 펜션달안동",
+      "address": "경상북도 안동시 와룡면 동악골길 95 펜션달안동"
+    },
+    {
+      "slug": "gyeongbuk-10575020",
+      "hotelName": "포항 아쿠아베이글램핑",
+      "address": "경상북도 포항시 남구 운하로 207-21 아쿠아베이 글램핑"
+    },
+    {
+      "slug": "gyeongbuk-26043991",
+      "hotelName": "김천 TOP(탑)",
+      "address": "26-6, Samraktaekji 2-gil, Gimcheon-si, Gyeongsangbuk-do 대구"
+    },
+    {
+      "slug": "gyeongbuk-22890477",
+      "hotelName": "안동 군자마을 한옥스테이",
+      "address": "경상북도 안동시 와룡면 군자리길 21"
+    },
+    {
+      "slug": "gyeongbuk-13302746",
+      "hotelName": "경주 불국사 디데이(D-DAY) 호텔",
+      "address": "경상북도 경주시 시래둑길 17"
+    },
+    {
+      "slug": "gyeongbuk-32900571",
+      "hotelName": "구미 원평동 호텔 구미",
+      "address": "경상북도 구미시 송원서로6길 57"
+    },
+    {
+      "slug": "gyeongbuk-36780581",
+      "hotelName": "경주 한옥스테이 달리",
+      "address": "경상북도 경주시 포석로1050번길 40-1 한옥스테이달리"
+    },
+    {
+      "slug": "gyeongbuk-10587711",
+      "hotelName": "포항 죽도시장 대부",
+      "address": "207, Yanghakcheon-ro, Buk-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-26900599",
+      "hotelName": "울릉 대명 호텔",
+      "address": "46-8, Dodong-gil Ulleung-eup, Ulleung-gun, Gyeongsangbuk-do 울릉군"
+    },
+    {
+      "slug": "gyeongbuk-31284842",
+      "hotelName": "안동 킹덤",
+      "address": "경상북도 안동시 광석2길 29-15"
+    },
+    {
+      "slug": "gyeongbuk-36911069",
+      "hotelName": "경주 펜타스케이프풀빌라",
+      "address": "경상북도 경주시 감포읍 동해안로 2694 펜타스케이프풀빌라"
+    },
+    {
+      "slug": "gyeongbuk-13302854",
+      "hotelName": "구미 유아이펜션",
+      "address": "경상북도 구미시 금오산상가길 21-6 1, 2, 3층"
+    },
+    {
+      "slug": "gyeongbuk-13302566",
+      "hotelName": "경산 휴",
+      "address": "경상북도 경산시 경산로44길 3-6"
+    },
+    {
+      "slug": "gyeongbuk-30991232",
+      "hotelName": "칠곡 석적 노마드",
+      "address": "경상북도 칠곡군 석적읍 북중리2길 29"
+    },
+    {
+      "slug": "gyeongbuk-18163653",
+      "hotelName": "영덕 하얀집펜션",
+      "address": "경상북도 영덕군 남정면 동해대로 3443-6 하얀집"
+    },
+    {
+      "slug": "gyeongbuk-18468857",
+      "hotelName": "문경 새재의아침펜션",
+      "address": "경상북도 문경시 마성면 진남1길 156"
+    },
+    {
+      "slug": "gyeongbuk-10588352",
+      "hotelName": "포항 알데아풀빌라",
+      "address": "경상북도 포항시 남구 장기면 동해안로 3952-25"
+    },
+    {
+      "slug": "gyeongbuk-10587469",
+      "hotelName": "영천 강변",
+      "address": "27-5, Joyanggongwon-gil, Yeongcheon-si, Gyeongsangbuk-do 영천시"
+    },
+    {
+      "slug": "gyeongbuk-14085173",
+      "hotelName": "경산 붐(Boom) 온천",
+      "address": "967-8, Gyeongcheong-ro, Namcheon-myeon, Gyeongsan-si, Gyeongsangbuk-do 경주"
+    },
+    {
+      "slug": "gyeongbuk-18407731",
+      "hotelName": "포항 청하 앙띠브",
+      "address": "27, Cheongha-ro, Cheongha-myeon, Buk-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-36911521",
+      "hotelName": "경주 해뜨는바다펜션(구. 리얼스틸)",
+      "address": "56-11, Haseojungang-gil, Yangnam-myeon, Gyeongju-si, Gyeongsangbuk-do 경주"
+    },
+    {
+      "slug": "gyeongbuk-10580312",
+      "hotelName": "영주 부석사아래단풍길펜션",
+      "address": "경상북도 영주시 부석면 영부로 97"
+    },
+    {
+      "slug": "gyeongbuk-14085311",
+      "hotelName": "안동 카톡 무인텔",
+      "address": "경상북도 안동시 와룡면 동악골길 157"
+    },
+    {
+      "slug": "gyeongbuk-10590763",
+      "hotelName": "울진 백사장펜션",
+      "address": "경상북도 울진군 기성면 구산봉산로 411 백사장펜션"
+    },
+    {
+      "slug": "gyeongbuk-10577193",
+      "hotelName": "경주 포에버펜션",
+      "address": "경상북도 경주시 보문마을3길 39-20"
+    },
+    {
+      "slug": "gyeongbuk-25064041",
+      "hotelName": "경주 퍼즈빌풀빌라펜션",
+      "address": "경상북도 경주시 천북남로 274 1층"
+    },
+    {
+      "slug": "gyeongbuk-10581581",
+      "hotelName": "김천 E",
+      "address": "경상북도 김천시 영남대로 2031"
+    },
+    {
+      "slug": "gyeongbuk-10585355",
+      "hotelName": "영주 크리스탈",
+      "address": "경상북도 영주시 지천로108번길 6 크리스탈모텔"
+    },
+    {
+      "slug": "gyeongbuk-13302633",
+      "hotelName": "구미 옥계 젠",
+      "address": "경상북도 구미시 산호대로30길 7-10"
+    },
+    {
+      "slug": "gyeongbuk-10581671",
+      "hotelName": "포항 오천 Q 카무인텔",
+      "address": "경상북도 포항시 남구 오천읍 오어로 143"
+    },
+    {
+      "slug": "gyeongbuk-10589307",
+      "hotelName": "포항 해피투게더펜션",
+      "address": "경상북도 포항시 북구 청하면 해안로1918번길 85 해피투게더펜션"
+    },
+    {
+      "slug": "gyeongbuk-11302905",
+      "hotelName": "영덕 오션뷰펜션",
+      "address": "경상북도 영덕군 영덕읍 영덕대게로 635"
+    },
+    {
+      "slug": "gyeongbuk-10585578",
+      "hotelName": "경주 리츠",
+      "address": "경상북도 경주시 금성로259번길 2"
+    },
+    {
+      "slug": "gyeongbuk-10574949",
+      "hotelName": "포항 미르펜션",
+      "address": "경상북도 포항시 북구 흥해읍 해안로 1737"
+    },
+    {
+      "slug": "gyeongbuk-10576004",
+      "hotelName": "경주 에스엠풀빌라",
+      "address": "경상북도 경주시 천북면 목실길 27-15"
+    },
+    {
+      "slug": "gyeongbuk-10581730",
+      "hotelName": "청도 MU(뮤) 드라이브인",
+      "address": "297-29, Iseulmi-ro, Hwayang-eup, Cheongdo-gun, Gyeongsangbuk-do 경산시"
+    },
+    {
+      "slug": "gyeongbuk-30991629",
+      "hotelName": "문경 달빛에 머물다",
+      "address": "경상북도 문경시 문경읍 온천강변2길 18"
+    },
+    {
+      "slug": "gyeongbuk-10574431",
+      "hotelName": "울진 돌빛펜션",
+      "address": "경상북도 울진군 죽변면 울진북로 1125-20"
+    },
+    {
+      "slug": "gyeongbuk-36445160",
+      "hotelName": "의성 R무인텔",
+      "address": "경상북도 의성군 단밀면 도안로 828-16"
+    },
+    {
+      "slug": "gyeongbuk-23135411",
+      "hotelName": "구미 인동 경복궁",
+      "address": "경상북도 구미시 삼일로 58-17"
+    },
+    {
+      "slug": "gyeongbuk-10580197",
+      "hotelName": "청송 애플펜션",
+      "address": "경상북도 청송군 주왕산면 공원길 84-3"
+    },
+    {
+      "slug": "gyeongbuk-25064323",
+      "hotelName": "칠곡 석적 필",
+      "address": "경상북도 칠곡군 석적읍 북중리2길 31-7"
+    },
+    {
+      "slug": "gyeongbuk-10586658",
+      "hotelName": "영주 제우스",
+      "address": "경상북도 영주시 영주로176번길 3"
+    },
+    {
+      "slug": "gyeongbuk-10587401",
+      "hotelName": "경산 킹",
+      "address": "경상북도 경산시 경안로 150-1"
+    },
+    {
+      "slug": "gyeongbuk-10590449",
+      "hotelName": "경주 솔바람사이길펜션",
+      "address": "경상북도 경주시 외동읍 진현신계길 70-19"
+    },
+    {
+      "slug": "gyeongbuk-11302876",
+      "hotelName": "경주 설레임펜션",
+      "address": "경상북도 경주시 보불로 190-11"
+    },
+    {
+      "slug": "gyeongbuk-33457538",
+      "hotelName": "대구 군위 HOTEL 명품 애플",
+      "address": "1270, Chisanhyoryeong-ro, Bugye-myeon, Gunwi-gun, Gyeongsangbuk-do 칠곡"
+    },
+    {
+      "slug": "gyeongbuk-10581499",
+      "hotelName": "경산 탑투",
+      "address": "경상북도 경산시 경산로40길 3-1"
+    },
+    {
+      "slug": "gyeongbuk-34652549",
+      "hotelName": "청도 군파크호텔",
+      "address": "경상북도 청도군 화양읍 이슬미로 297-31 군파크호텔"
+    },
+    {
+      "slug": "gyeongbuk-10577565",
+      "hotelName": "경주 라비에벨펜션",
+      "address": "경상북도 경주시 북군길 156-5 라비에벨 펜션"
+    },
+    {
+      "slug": "gyeongbuk-10573988",
+      "hotelName": "경주 산푸른펜션",
+      "address": "경상북도 경주시 천북면 목실길 14-55"
+    },
+    {
+      "slug": "gyeongbuk-34129092",
+      "hotelName": "안동 금서산방 민박",
+      "address": "경상북도 안동시 옹정골길 66-14"
+    },
+    {
+      "slug": "gyeongbuk-10580503",
+      "hotelName": "칠곡 팔공산 Q 무인텔",
+      "address": "25, Palgongsan-ro 4-gil, Dongmyeong-myeon, Chilgok-gun, Gyeongsangbuk-do 칠곡"
+    },
+    {
+      "slug": "gyeongbuk-32900557",
+      "hotelName": "영천 칸 (Khan)",
+      "address": "42-2, Yeokjeon-ro, Yeongcheon-si, Gyeongsangbuk-do 영천시"
+    },
+    {
+      "slug": "gyeongbuk-30991011",
+      "hotelName": "울진 그린",
+      "address": "경상북도 울진군 북면 울진북로 2106"
+    },
+    {
+      "slug": "gyeongbuk-10581360",
+      "hotelName": "칠곡 왜관 투웰브",
+      "address": "경상북도 칠곡군 약목면 칠곡대로 1010"
+    },
+    {
+      "slug": "gyeongbuk-10581518",
+      "hotelName": "문경 문경호텔",
+      "address": "경상북도 문경시 문경읍 새재2길 32-3"
+    },
+    {
+      "slug": "gyeongbuk-11996974",
+      "hotelName": "포항 대잠동 스타",
+      "address": "경상북도 포항시 남구 중흥로57번길 24"
+    },
+    {
+      "slug": "gyeongbuk-13302648",
+      "hotelName": "영천 킹스테이33 무인호텔",
+      "address": "경상북도 영천시 금완로 6"
+    },
+    {
+      "slug": "gyeongbuk-10581800",
+      "hotelName": "포항 죽도시장 ok",
+      "address": "7, Seodong-ro 107beon-gil, Buk-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-34180908",
+      "hotelName": "경주 오렌지",
+      "address": "경상북도 경주시 충효녹지길 68-7 외 1필지(충효동) 오렌지 모텔"
+    },
+    {
+      "slug": "gyeongbuk-10572980",
+      "hotelName": "청도 엔젤펜션",
+      "address": "경상북도 청도군 운문면 운문로 1057"
+    },
+    {
+      "slug": "gyeongbuk-30990160",
+      "hotelName": "안동 칠계재펜션",
+      "address": "2685-64, Pungsantaesa-ro, Seohu-myeon, Andong-si, Gyeongsangbuk-do 안동"
+    },
+    {
+      "slug": "gyeongbuk-25924049",
+      "hotelName": "경주 캠프파이브펜션",
+      "address": "경상북도 경주시 보정로 264-97"
+    },
+    {
+      "slug": "gyeongbuk-30991626",
+      "hotelName": "경주 송림한옥펜션",
+      "address": "경상북도 경주시 정자3길 6-11"
+    },
+    {
+      "slug": "gyeongbuk-10577340",
+      "hotelName": "포항 대잠동 윌",
+      "address": "경상북도 포항시 남구 새천년대로450번길 4-1"
+    },
+    {
+      "slug": "gyeongbuk-16256166",
+      "hotelName": "경주 스테이52펜션",
+      "address": "경상북도 경주시 장골길 52"
+    },
+    {
+      "slug": "gyeongbuk-10588626",
+      "hotelName": "청도 369",
+      "address": "경상북도 청도군 청도읍 청매로 75"
+    },
+    {
+      "slug": "gyeongbuk-16310040",
+      "hotelName": "포항 풍경펜션",
+      "address": "경상북도 포항시 북구 흥해읍 해안로 1726"
+    },
+    {
+      "slug": "gyeongbuk-30989933",
+      "hotelName": "포항 해도동 비스타",
+      "address": "경상북도 포항시 남구 중앙로 13"
+    },
+    {
+      "slug": "gyeongbuk-36445080",
+      "hotelName": "경산 베네치아",
+      "address": "경상북도 경산시 경안로65길 11-3 베네치아 모텔"
+    },
+    {
+      "slug": "gyeongbuk-10584686",
+      "hotelName": "영천 썸 무인텔",
+      "address": "경상북도 영천시 오수1길 44"
+    },
+    {
+      "slug": "gyeongbuk-10586290",
+      "hotelName": "청도 프로방스큐피트펜션",
+      "address": "경상북도 청도군 화양읍 이슬미로 297-21"
+    },
+    {
+      "slug": "gyeongbuk-10577365",
+      "hotelName": "포항 바다사랑펜션",
+      "address": "경상북도 포항시 남구 구룡포읍 일출로 414 포항바다사랑펜션"
+    },
+    {
+      "slug": "gyeongbuk-16535771",
+      "hotelName": "경주 보문모든풀빌라",
+      "address": "경상북도 경주시 서낭길 122-56"
+    },
+    {
+      "slug": "gyeongbuk-10582974",
+      "hotelName": "상주 비즈니스호텔 마이홈",
+      "address": "254, Jungang-ro, Sangju-si, Gyeongsangbuk-do 상주"
+    },
+    {
+      "slug": "gyeongbuk-22753368",
+      "hotelName": "포항시 죽도시장 브레이크타임 호텔",
+      "address": "32-16, Yongdang-ro, Buk-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-10575965",
+      "hotelName": "김천 호텔 윈",
+      "address": "27, Araetjangteo-gil, Gimcheon-si, Gyeongsangbuk-do 김천"
+    },
+    {
+      "slug": "gyeongbuk-16800942",
+      "hotelName": "영덕 블루시티펜션",
+      "address": "경상북도 영덕군 남정면 동해대로 3443-9"
+    },
+    {
+      "slug": "gyeongbuk-30990669",
+      "hotelName": "포항 죽도시장 맨하탄",
+      "address": "17, Jungang-ro 308beon-gil, Buk-gu, Pohang-si, Gyeongsangbuk-do 포항"
+    },
+    {
+      "slug": "gyeongbuk-31069902",
+      "hotelName": "칠곡 석적 어반",
+      "address": "경상북도 칠곡군 석적읍 북중리2길 9-8 호텔어반"
+    },
+    {
+      "slug": "gyeongbuk-10586587",
+      "hotelName": "안동 강노을펜션(풍산,회곡)",
+      "address": "경상북도 안동시 풍산읍 풍산태사로 1796 강노을펜션"
+    },
+    {
+      "slug": "gyeongbuk-23384907",
+      "hotelName": "문경 진욱이네별장 자전거게스트하우스",
+      "address": "6, Oeeo 1-gil, Maseong-myeon, Mungyeong-si, Gyeongsangbuk-do 문경"
+    },
+    {
+      "slug": "gyeongbuk-10590280",
+      "hotelName": "경주 산내하이원펜션",
+      "address": "경상북도 경주시 산내면 대현길 414"
+    },
+    {
+      "slug": "gyeongbuk-16361196",
+      "hotelName": "경주 메종드마망펜션",
+      "address": "경상북도 경주시 도초길 150-3"
+    },
+    {
+      "slug": "gyeongbuk-30990067",
+      "hotelName": "경주 루스풀빌라",
+      "address": "경상북도 경주시 강동면 천강로 691"
+    },
+    {
+      "slug": "gyeongbuk-18469064",
+      "hotelName": "포항 청하 콜 무인텔",
+      "address": "경상북도 포항시 북구 청하면 동해대로 2534-22"
+    },
+    {
+      "slug": "gyeongbuk-22328363",
+      "hotelName": "칠곡 왜관 젠퍼스",
+      "address": "경상북도 칠곡군 기산면 주산로 1259 젠퍼스호텔"
+    },
+    {
+      "slug": "gyeongbuk-10574763",
+      "hotelName": "울진 블루아라펜션",
+      "address": "경상북도 울진군 후포면 후포삼율로 19-26"
+    },
+    {
+      "slug": "gyeongbuk-10576808",
+      "hotelName": "영덕 블루로드타운펜션 바다동",
+      "address": "경상북도 영덕군 남정면 동해대로 3443-7"
+    },
+    {
+      "slug": "gyeongbuk-10590578",
+      "hotelName": "칠곡 팔공산 예이제",
+      "address": "59, Giseong 5-gil, Dongmyeong-myeon, Chilgok-gun, Gyeongsangbuk-do 칠곡"
+    },
+    {
+      "slug": "gyeongbuk-33848858",
+      "hotelName": "영덕 일화수펜션",
+      "address": "경상북도 영덕군 강구면 영덕대게로 563"
+    },
+    {
+      "slug": "gyeongbuk-10581306",
+      "hotelName": "구미 송정동 스펀지",
+      "address": "경상북도 구미시 구미중앙로42길 5-70 1층"
+    },
+    {
+      "slug": "gyeongbuk-10585193",
+      "hotelName": "칠곡 석적 몽블랑",
+      "address": "경상북도 칠곡군 석적읍 북중리1길 34"
+    },
+    {
+      "slug": "gyeongbuk-10574341",
+      "hotelName": "경주 라온펜션",
+      "address": "경상북도 경주시 장재안길 9-9"
+    },
+    {
+      "slug": "gyeongbuk-10577169",
+      "hotelName": "경주 정다운펜션",
+      "address": "경상북도 경주시 도지3길 39-11"
+    },
+    {
+      "slug": "gyeongbuk-10577464",
+      "hotelName": "상주 굿",
+      "address": "경상북도 상주시 문무2길 42-15 굿모텔"
+    },
+    {
+      "slug": "gyeongbuk-10584990",
+      "hotelName": "포항 시크릿파크펜션",
+      "address": "경상북도 포항시 북구 흥해읍 해안로 1816-8"
+    },
+    {
+      "slug": "gyeongbuk-32261683",
+      "hotelName": "예천 미호안풀빌라",
+      "address": "586, Gangbyeon-ro, Homyeong-myeon, Yecheon-gun, Gyeongsangbuk-do 예천"
+    },
+    {
+      "slug": "gyeongbuk-34221580",
+      "hotelName": "상주 객주촌한옥펜션",
+      "address": "113, Gaengdabul-gil, Jungdong-myeon, Sangju-si, Gyeongsangbuk-do 상주"
+    },
+    {
+      "slug": "gyeongbuk-10582600",
+      "hotelName": "경주 유럽마을펜션",
+      "address": "경상북도 경주시 북군4길 9"
+    },
+    {
+      "slug": "gyeongbuk-10589306",
+      "hotelName": "경주 메리골드펜션",
+      "address": "경상북도 경주시 하동1길 45-7"
+    },
+    {
+      "slug": "gyeongbuk-18468803",
+      "hotelName": "문경 새재로펜션",
+      "address": "경상북도 문경시 문경읍 새재로 587-13"
+    },
+    {
+      "slug": "gyeongbuk-18790873",
+      "hotelName": "청도 루지펜션",
+      "address": "경상북도 청도군 화양읍 남성현로 317"
+    },
+    {
+      "slug": "gyeongbuk-10581064",
+      "hotelName": "경산 짝 무인텔",
+      "address": "경상북도 경산시 중앙로14길 37"
+    },
+    {
+      "slug": "gyeongbuk-34648659",
+      "hotelName": "경주 불국사 한옥 동오당",
+      "address": "경상북도 경주시 진티길 5-58 동오당"
+    },
+    {
+      "slug": "gyeongbuk-17022366",
+      "hotelName": "구미 봉곡동 Q9",
+      "address": "경상북도 구미시 봉곡로12길 13-15"
+    },
+    {
+      "slug": "gyeongbuk-16299484",
+      "hotelName": "경주 불국사드림하우스펜션",
+      "address": "경상북도 경주시 불국신택지1길 12"
+    },
+    {
+      "slug": "gyeongbuk-10581911",
+      "hotelName": "청도 쉼",
+      "address": "경상북도 청도군 화양읍 삼신길 21-7"
+    },
+    {
+      "slug": "gyeongbuk-10588896",
+      "hotelName": "경주 쿠키앤젤리펜션",
+      "address": "경상북도 경주시 양남면 솔숲2길 15"
+    },
+    {
+      "slug": "gyeongbuk-16727915",
+      "hotelName": "경산 하양",
+      "address": "13-10, Naksan-gil, Jillyang-eup, Gyeongsan-si, Gyeongsangbuk-do 경주"
+    },
+    {
+      "slug": "gyeongbuk-10574171",
+      "hotelName": "경주 해돋이펜션",
+      "address": "경상북도 경주시 북군길 153"
+    },
+    {
+      "slug": "gyeongbuk-18528195",
+      "hotelName": "안동 더스터닝풀빌라",
+      "address": "경상북도 안동시 예일길 22-10"
+    },
+    {
+      "slug": "gyeongbuk-25064334",
+      "hotelName": "봉화 물빛고은펜션",
+      "address": "경상북도 봉화군 소천면 소천로 1239-48 물빛고은펜션"
+    },
+    {
+      "slug": "gyeongbuk-30990483",
+      "hotelName": "경주 풍경펜션",
+      "address": "경상북도 경주시 감포읍 동해안로 2048"
+    },
+    {
+      "slug": "gyeongbuk-36642405",
+      "hotelName": "경산 헤리티지",
+      "address": "경상북도 경산시 경안로65길 5-4"
+    },
+    {
+      "slug": "gyeongbuk-10583728",
+      "hotelName": "김천 원",
+      "address": "경상북도 김천시 강변로 58"
+    },
+    {
+      "slug": "gyeongbuk-18469248",
+      "hotelName": "봉화 홍제원펜션",
+      "address": "경상북도 봉화군 춘양면 문수로 2105-45 단독"
+    },
+    {
+      "slug": "gyeongbuk-30951358",
+      "hotelName": "고령 명품 무인텔",
+      "address": "642-12, Seongam-ro, Dasan-myeon, Goryeong-gun, Gyeongsangbuk-do 대구"
+    },
+    {
+      "slug": "gyeongbuk-10578302",
+      "hotelName": "구미 원평동 쉐르빌",
+      "address": "경상북도 구미시 구미중앙로21길 5-6"
+    },
+    {
+      "slug": "gyeongbuk-25805049",
+      "hotelName": "성주 미러텔",
+      "address": "경상북도 성주군 대가면 참별로 2296"
+    },
+    {
+      "slug": "gyeongbuk-31192577",
+      "hotelName": "영주 힐링스토리펜션",
+      "address": "경상북도 영주시 풍기읍 삼가로 215"
+    }
+  ],
+  "samples": [
+    {
+      "slug": "gyeongbuk-10239986",
+      "kind": "parking",
+      "value": "무료 주차 시설 제공으로 자가용 이용객에게 편리함"
+    },
+    {
+      "slug": "gyeongbuk-10239986",
+      "kind": "wifi",
+      "value": "전 객실 무료 Wi-Fi 이용 가능"
+    },
+    {
+      "slug": "gyeongbuk-10239986",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeongbuk-10239986",
+      "kind": "parking",
+      "value": "주차: 무료 주차장을 이용할 수 있어 차량 이용객에게 편리합니다."
+    },
+    {
+      "slug": "gyeongbuk-10239986",
+      "kind": "parking",
+      "value": "무료 주차 공간을 제공하여 자가용을 이용하는 방문객들도 주차 걱정 없이 편안하게 머무를 수 있습니다."
+    },
+    {
+      "slug": "gyeongbuk-10239986",
+      "kind": "wifi",
+      "value": "무료 와이파이도 제공됩니다."
+    },
+    {
+      "slug": "gyeongbuk-10239986",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeongbuk-1030286",
+      "kind": "reference",
+      "removed": [
+        "금리단길 가성비 숙박 숙소 두바퀴게스트하우스 내돈내산 후기",
+        "기분나는 게스트하우스 도미토리 후기"
+      ]
+    },
+    {
+      "slug": "gyeongbuk-1030286",
+      "kind": "breakfast",
+      "value": "무료 조식과 편리한 짐 보관 서비스를 제공하며, 주요 관광지 접근성이 우수합니다."
+    },
+    {
+      "slug": "gyeongbuk-1030286",
+      "kind": "breakfast",
+      "value": "간단하지만 무료로 제공되는 조식"
+    },
+    {
+      "slug": "gyeongbuk-1030286",
+      "kind": "parking",
+      "value": "전용 주차 공간이 없어 주차가 불편할 수 있음"
+    },
+    {
+      "slug": "gyeongbuk-1030286",
+      "kind": "parking",
+      "value": "전용 주차장이 없으므로 주변 공영 주차장 정보를 미리 알아보는 것이 좋습니다."
+    },
+    {
+      "slug": "gyeongbuk-1030286",
+      "kind": "breakfast",
+      "value": "무료 조식은 토스트, 시리얼 등 간단한 구성으로 제공됩니다."
+    },
+    {
+      "slug": "gyeongbuk-1030286",
+      "kind": "breakfast",
+      "value": "무료 조식은 간단한 토스트, 시리얼, 우유, 커피 등으로 구성되어 아침을 든든하게 시작할 수 있도록 돕습니다."
+    },
+    {
+      "slug": "gyeongbuk-1030286",
+      "kind": "breakfast",
+      "value": "매우 저렴한 숙박비에 무료 조식까지 포함되어 있어 여행 경비를 크게 절약할 수 있습니다."
+    },
+    {
+      "slug": "gyeongbuk-1030286",
+      "kind": "breakfast",
+      "value": "대부분의 경주 게스트하우스가 제공하는 기본적인 편의시설은 갖추고 있지만, 두바퀴 게스트하우스는 무료 조식과 짐 보관 서비스가 특히 잘 알려져 있습니다."
+    },
+    {
+      "slug": "gyeongbuk-1030286",
+      "kind": "parking",
+      "value": "두바퀴 게스트하우스는 전용 주차 공간이 없습니다."
+    },
+    {
+      "slug": "gyeongbuk-1030286",
+      "kind": "parking",
+      "value": "차량을 이용하는 경우, 주변 골목이나 유료 공영 주차장을 이용해야 하므로 미리 주차 계획을 세우는 것이 중요합니다."
+    },
+    {
+      "slug": "gyeongbuk-10572799",
+      "kind": "reference",
+      "removed": [
+        "포항독채펜션 구룡포가족숙소 달빛집 독채펜션 후기",
+        "포항 독채 풀빌라 비발디나인 복층 가족 단체 펜션 후기",
+        "포항 펜션 이스케이프 풀빌라... 오션뷰 수영장 감성 숙소 후기"
+      ]
+    },
+    {
+      "slug": "gyeongbuk-10572799",
+      "kind": "breakfast",
+      "value": "조식 포함 여부와 Wi-Fi 이용 조건은 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeongbuk-10572799",
+      "kind": "wifi",
+      "value": "무료 와이파이 이용이 어려울 수 있습니다."
+    },
+    {
+      "slug": "gyeongbuk-10572799",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeongbuk-10572799",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeongbuk-10572837",
+      "kind": "parking",
+      "value": "개별 바비큐 시설 및 전용 주차 공간 제공"
+    },
+    {
+      "slug": "gyeongbuk-10572837",
+      "kind": "breakfast",
+      "value": "조식 불포함 (외부 식사 필요)"
+    },
+    {
+      "slug": "gyeongbuk-10572837",
+      "kind": "wifi",
+      "value": "무료 와이파이 제공 여부를 다시 확인하고, 필요시 개인 데이터를 준비하세요."
+    },
+    {
+      "slug": "gyeongbuk-10572837",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeongbuk-10572837",
+      "kind": "parking",
+      "value": "전용 주차 공간이 넉넉하게 마련되어 있어 자가용 이용객에게 편리함을 제공합니다."
+    },
+    {
+      "slug": "gyeongbuk-10572837",
+      "kind": "wifi",
+      "value": "Wi-Fi 제공 범위와 이용 조건은 예약 화면 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeongbuk-10572837",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeongbuk-10573041",
+      "kind": "wifi",
+      "value": "무료 와이파이 제공 여부가 불확실합니다."
+    },
+    {
+      "slug": "gyeongbuk-10573041",
+      "kind": "wifi",
+      "value": "객실 내 무료 와이파이 제공 여부를 확인하는 것이 좋습니다."
+    },
+    {
+      "slug": "gyeongbuk-10573041",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeongbuk-10573041",
+      "kind": "wifi",
+      "value": "무료 와이파이 제공 여부가 명확하지 않으므로, 인터넷 사용이 필수라면 사전에 확인하는 것이 좋습니다."
+    },
+    {
+      "slug": "gyeongbuk-10573060",
+      "kind": "reference",
+      "removed": [
+        "경주 보문단지 펜션 카프리펜션 단체 가족 여행"
+      ]
+    },
+    {
+      "slug": "gyeongbuk-10573060",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeongbuk-10573060",
+      "kind": "wifi",
+      "value": "무료 와이파이 필요 여부"
+    },
+    {
+      "slug": "gyeongbuk-10573060",
+      "kind": "breakfast",
+      "value": "다만, 대중교통 접근성이나 조식 제공 여부는 다른 호텔형 숙소와 비교 시 고려해야 할 부분입니다."
+    },
+    {
+      "slug": "gyeongbuk-10573060",
+      "kind": "breakfast",
+      "value": "조식 운영 및 객실 요금 포함 여부는 예약 플랜 또는 숙소에 최신 정보를 확인하세요."
+    },
+    {
+      "slug": "gyeongbuk-10573142",
+      "kind": "reference",
+      "removed": [
+        "울진 애견동반펜션 바다의왕자 후기 바다뷰펜션 앞 낚시 즐기기",
+        "울진 죽변 펜션 바닷가 오션뷰 바다의왕자 추천",
+        "울진펜션 바다의왕자, 가성비좋은 울진펜션"
+      ]
+    }
+  ]
+}

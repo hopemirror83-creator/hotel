@@ -1,0 +1,2901 @@
+{
+  "scanned": 965,
+  "quarantined": [],
+  "referenceLinksRemoved": 0,
+  "hotelsWithReferenceLinksRemoved": 0,
+  "facilityClaimsNeutralized": {
+    "breakfast": 11,
+    "wifi": 2,
+    "parking": 5
+  },
+  "thinPages": [],
+  "missingVerifiedHero": [
+    {
+      "slug": "gyeongnam-10573345",
+      "hotelName": "하동 화개송이펜션",
+      "address": "경상남도 하동군 화개면 쌍계로 361-10"
+    },
+    {
+      "slug": "gyeongnam-10574236",
+      "hotelName": "창원 마산 제일",
+      "address": "53-12, Yangdeoknam 9-gil, Masan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10574300",
+      "hotelName": "하동 자연애가펜션",
+      "address": "경상남도 하동군 화개면 진목길 16 자연애가펜션"
+    },
+    {
+      "slug": "gyeongnam-10574629",
+      "hotelName": "거제도 그린드시펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1782-1"
+    },
+    {
+      "slug": "gyeongnam-10575306",
+      "hotelName": "창원 상남동 M",
+      "address": "경상남도 창원시 마산합포구 해안대로 367 14층 1401호"
+    },
+    {
+      "slug": "gyeongnam-10575494",
+      "hotelName": "통영 하니스파펜션",
+      "address": "경상남도 통영시 용남면 용남해안로 230-2"
+    },
+    {
+      "slug": "gyeongnam-10575790",
+      "hotelName": "거제도 더100스파&풀빌라펜션",
+      "address": "경상남도 거제시 장목면 거제북로 2520-1"
+    },
+    {
+      "slug": "gyeongnam-10576182",
+      "hotelName": "남해 독일마을슈베린펜션",
+      "address": "경상남도 남해군 삼동면 독일로 61-43 슈베린펜션"
+    },
+    {
+      "slug": "gyeongnam-10576271",
+      "hotelName": "거제도 펜션베네치아",
+      "address": "경상남도 거제시 일운면 와현로 109-1 펜션베네치아"
+    },
+    {
+      "slug": "gyeongnam-10576282",
+      "hotelName": "거제도 블루비치펜션",
+      "address": "경상남도 거제시 일운면 와현로 109"
+    },
+    {
+      "slug": "gyeongnam-10576788",
+      "hotelName": "거제도 와우펜션",
+      "address": "경상남도 거제시 동부면 고촌길 34-1"
+    },
+    {
+      "slug": "gyeongnam-10576792",
+      "hotelName": "밀양 팡팡펜션",
+      "address": "경상남도 밀양시 단장면 표충로 829"
+    },
+    {
+      "slug": "gyeongnam-10576819",
+      "hotelName": "창원 상남동 Q",
+      "address": "8, Madimi-ro 56beon-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10576901",
+      "hotelName": "통영 다온펜션",
+      "address": "경상남도 통영시 산양읍 산양일주로 353-1 다온펜션"
+    },
+    {
+      "slug": "gyeongnam-10577223",
+      "hotelName": "창원 진해 호텔 아몬드 진해점",
+      "address": "4, Jinhui-ro 23beon-gil, Jinhae-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10577940",
+      "hotelName": "진주 호텔 다옴",
+      "address": "경상남도 진주시 대신로292번길 5"
+    },
+    {
+      "slug": "gyeongnam-10577942",
+      "hotelName": "진주 호텔 핫(HOT)",
+      "address": "경상남도 진주시 비봉로50번길 5"
+    },
+    {
+      "slug": "gyeongnam-10577954",
+      "hotelName": "통영 세안레지던스펜션",
+      "address": "경상남도 통영시 동충1길 5 세안레지던스"
+    },
+    {
+      "slug": "gyeongnam-10578242",
+      "hotelName": "거창 풍차마을펜션",
+      "address": "경상남도 거창군 북상면 덕유월성로 1928-43 풍차마을펜션"
+    },
+    {
+      "slug": "gyeongnam-10578586",
+      "hotelName": "남해 독일마을헤라클레스펜션",
+      "address": "경상남도 남해군 삼동면 독일로 64-9 독일마을 헤라클레스"
+    },
+    {
+      "slug": "gyeongnam-10578630",
+      "hotelName": "진주 브룩스호텔",
+      "address": "경상남도 진주시 순환로 567"
+    },
+    {
+      "slug": "gyeongnam-10578750",
+      "hotelName": "경남 고성오션스파 호텔",
+      "address": "경상남도 고성군 고성읍 신월로 60"
+    },
+    {
+      "slug": "gyeongnam-10579069",
+      "hotelName": "남해 사우스마린스파펜션(모상개해수욕장앞)",
+      "address": "65-110, Heungseon-ro 1505beon-gil, Changseon-myeon, Namhae-gun, Gyeongsangnam-do 남해"
+    },
+    {
+      "slug": "gyeongnam-10579235",
+      "hotelName": "밀양 호텔 JS501",
+      "address": "98, Chunhwa-ro, Bubuk-myeon, Miryang-si, Gyeongsangnam-do 밀양"
+    },
+    {
+      "slug": "gyeongnam-10579378",
+      "hotelName": "통영 거북선호텔",
+      "address": "72, Misuhaean-ro, Tongyeong-si, Gyeongsangnam-do 통영"
+    },
+    {
+      "slug": "gyeongnam-10579520",
+      "hotelName": "거제도 블루마레펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1488-13 블루마레펜션"
+    },
+    {
+      "slug": "gyeongnam-10579668",
+      "hotelName": "합천 더일리있는펜션",
+      "address": "경상남도 합천군 대병면 합천호반로 92"
+    },
+    {
+      "slug": "gyeongnam-10579718",
+      "hotelName": "진주 호텔 무로",
+      "address": "경상남도 진주시 동진로107번길 8"
+    },
+    {
+      "slug": "gyeongnam-10579815",
+      "hotelName": "진주 쉬즈(Shes)",
+      "address": "경상남도 진주시 북장대로26번길 18 쉬즈호텔"
+    },
+    {
+      "slug": "gyeongnam-10579818",
+      "hotelName": "남해 솜사탕펜션",
+      "address": "경상남도 남해군 남면 남면로 788-13"
+    },
+    {
+      "slug": "gyeongnam-10580349",
+      "hotelName": "하동 알프스동화펜션",
+      "address": "경상남도 하동군 화개면 신촌도심길 89"
+    },
+    {
+      "slug": "gyeongnam-10580634",
+      "hotelName": "남해 밀포드",
+      "address": "경상남도 남해군 창선면 동부대로 2939"
+    },
+    {
+      "slug": "gyeongnam-10580661",
+      "hotelName": "진주 브로드웨이42번가",
+      "address": "경상남도 진주시 진주대로891번길 29 브로드웨이 42번가"
+    },
+    {
+      "slug": "gyeongnam-10580670",
+      "hotelName": "양산 물금 B",
+      "address": "경상남도 양산시 물금읍 화산길 4-3"
+    },
+    {
+      "slug": "gyeongnam-10580909",
+      "hotelName": "창원 마산 화이트",
+      "address": "5, Woryeongdong 11-gil, Masanhappo-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10580923",
+      "hotelName": "거제도 학동 해뜨는 바다풍경",
+      "address": "경상남도 거제시 동부면 거제대로 935-1"
+    },
+    {
+      "slug": "gyeongnam-10580951",
+      "hotelName": "양산 남부동 짝",
+      "address": "경상남도 양산시 중앙로 113 짝모텔"
+    },
+    {
+      "slug": "gyeongnam-10581006",
+      "hotelName": "통영 더샵",
+      "address": "경상남도 통영시 광도면 죽림5로 37"
+    },
+    {
+      "slug": "gyeongnam-10581191",
+      "hotelName": "창원 상남동 아이콘(ICON) HOTEL",
+      "address": "11, Madimi-ro 27beon-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10581354",
+      "hotelName": "거제도 더끌림 스파 펜션",
+      "address": "경상남도 거제시 장목면 율천두모로 154-41"
+    },
+    {
+      "slug": "gyeongnam-10581408",
+      "hotelName": "양산 물금 369",
+      "address": "경상남도 양산시 물금읍 야리2길 15 나래플러스 4, 5, 6 층"
+    },
+    {
+      "slug": "gyeongnam-10581477",
+      "hotelName": "밀양 르네상스",
+      "address": "경상남도 밀양시 시청서1길 9-7"
+    },
+    {
+      "slug": "gyeongnam-10581483",
+      "hotelName": "통영 와우",
+      "address": "경상남도 통영시 광도면 죽림5로 37"
+    },
+    {
+      "slug": "gyeongnam-10581536",
+      "hotelName": "거제도 옥포 발리",
+      "address": "경상남도 거제시 옥포성안로2길 11"
+    },
+    {
+      "slug": "gyeongnam-10581629",
+      "hotelName": "사천 IC베스트 드라이브인 무인텔",
+      "address": "2101, Sacheon-daero, Chukdong-myeon, Sacheon-si, Gyeongsangnam-do 진주"
+    },
+    {
+      "slug": "gyeongnam-10581696",
+      "hotelName": "통영 시온 호텔",
+      "address": "경상남도 통영시 항남5길 22"
+    },
+    {
+      "slug": "gyeongnam-10581712",
+      "hotelName": "양산 덕계 더호텔 (the hotel)",
+      "address": "경상남도 양산시 덕계8길 2"
+    },
+    {
+      "slug": "gyeongnam-10581734",
+      "hotelName": "창원 진해 더그레이70",
+      "address": "5-9, Chungjang-ro 364beon-gil, Jinhae-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10581775",
+      "hotelName": "통영 v",
+      "address": "경상남도 통영시 광도면 죽림해안로 118-17 쌍봉빌딩"
+    },
+    {
+      "slug": "gyeongnam-10581809",
+      "hotelName": "거제도 고현 포엠",
+      "address": "경상남도 거제시 거제중앙로23길 12"
+    },
+    {
+      "slug": "gyeongnam-10581815",
+      "hotelName": "창원 상남동 호텔 JM",
+      "address": "7, Danjeong-ro, Seongsan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10581857",
+      "hotelName": "통영 호텔 바다향기",
+      "address": "경상남도 통영시 광도면 죽림해안로 36 바다향기호텔"
+    },
+    {
+      "slug": "gyeongnam-10581964",
+      "hotelName": "양산 물금 더 테라조",
+      "address": "경상남도 양산시 물금읍 가촌본리2길 26"
+    },
+    {
+      "slug": "gyeongnam-10581982",
+      "hotelName": "함안 HOTEL 루팡",
+      "address": "경상남도 함안군 가야읍 장터길 101 루팡 호텔"
+    },
+    {
+      "slug": "gyeongnam-10582479",
+      "hotelName": "하동 호텔 하바나",
+      "address": "경상남도 하동군 진교면 달구지길 34 호텔 하바나"
+    },
+    {
+      "slug": "gyeongnam-10582625",
+      "hotelName": "거제도 비치몽돌하우스펜션",
+      "address": "경상남도 거제시 장목면 간곡길 5-2"
+    },
+    {
+      "slug": "gyeongnam-10582698",
+      "hotelName": "남해 썸웨일즈펜션",
+      "address": "경상남도 남해군 남면 남면로1229번길 68"
+    },
+    {
+      "slug": "gyeongnam-10582736",
+      "hotelName": "남해 마카롱펜션",
+      "address": "경상남도 남해군 남면 남면로 788-10"
+    },
+    {
+      "slug": "gyeongnam-10582865",
+      "hotelName": "창녕 남지 러브홀릭",
+      "address": "경상남도 창녕군 남지읍 남지중앙1길 59-6"
+    },
+    {
+      "slug": "gyeongnam-10582883",
+      "hotelName": "양산 석산 덴바스타 호텔",
+      "address": "경상남도 양산시 동면 금오10길 43-23"
+    },
+    {
+      "slug": "gyeongnam-10582952",
+      "hotelName": "창녕 SS 무인호텔",
+      "address": "경상남도 창녕군 대지면 미산길 3-50"
+    },
+    {
+      "slug": "gyeongnam-10582996",
+      "hotelName": "창원 명서동 호텔 안단테(Andante)",
+      "address": "경상남도 창원시 의창구 창이대로85번길 12"
+    },
+    {
+      "slug": "gyeongnam-10582999",
+      "hotelName": "양산 석산 V",
+      "address": "경상남도 양산시 동면 금오10길 5-16"
+    },
+    {
+      "slug": "gyeongnam-10583078",
+      "hotelName": "남해 가나펜션",
+      "address": "경상남도 남해군 삼동면 동부대로1122번길 122"
+    },
+    {
+      "slug": "gyeongnam-10583153",
+      "hotelName": "통영 W",
+      "address": "경상남도 통영시 광도면 죽림5로 37"
+    },
+    {
+      "slug": "gyeongnam-10583242",
+      "hotelName": "하동 물꽃정원펜션",
+      "address": "경상남도 하동군 하동읍 섬진강대로 2186"
+    },
+    {
+      "slug": "gyeongnam-10583287",
+      "hotelName": "양산 더 테라조 호텔",
+      "address": "경상남도 양산시 물금읍 가촌본리2길 26"
+    },
+    {
+      "slug": "gyeongnam-10583513",
+      "hotelName": "사천 루벤스호텔",
+      "address": "경상남도 사천시 실안선창1길 54"
+    },
+    {
+      "slug": "gyeongnam-10583574",
+      "hotelName": "진주 호텔 비치",
+      "address": "경상남도 진주시 비봉로 53-1"
+    },
+    {
+      "slug": "gyeongnam-10583687",
+      "hotelName": "거제도 메이비펜션",
+      "address": "경상남도 거제시 장목면 율천대금길 88-60 메이비펜션"
+    },
+    {
+      "slug": "gyeongnam-10583862",
+      "hotelName": "통영 우리바다펜션",
+      "address": "경상남도 통영시 용남면 용남해안로 114-2"
+    },
+    {
+      "slug": "gyeongnam-10583966",
+      "hotelName": "거제도 루카스펜션",
+      "address": "경상남도 거제시 장목면 두모실길 16-21"
+    },
+    {
+      "slug": "gyeongnam-10584062",
+      "hotelName": "거제도 한솔펜션",
+      "address": "경상남도 거제시 동부면 거제대로 997"
+    },
+    {
+      "slug": "gyeongnam-10584078",
+      "hotelName": "사천 수석 M(엠)",
+      "address": "23, Yeoksa-gil, Sacheon-eup, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-10584106",
+      "hotelName": "고성 우등",
+      "address": "20, Seongnae-ro 151beon-gil, Goseong-eup, Goseong-gun, Gyeongsangnam-do 고성"
+    },
+    {
+      "slug": "gyeongnam-10584208",
+      "hotelName": "거제도 블루마린 오션뷰 펜션",
+      "address": "경상남도 거제시 장목면 시방2길 34-1"
+    },
+    {
+      "slug": "gyeongnam-10584538",
+      "hotelName": "창원 진해 용원 젠",
+      "address": "경상남도 창원시 진해구 용원서로 32-1"
+    },
+    {
+      "slug": "gyeongnam-10584661",
+      "hotelName": "거창 M 무인텔",
+      "address": "경상남도 거창군 가조면 의상봉길 45-11"
+    },
+    {
+      "slug": "gyeongnam-10584936",
+      "hotelName": "창원 마산 젠",
+      "address": "경상남도 창원시 마산회원구 양덕남9길 53 젠모텔"
+    },
+    {
+      "slug": "gyeongnam-10585364",
+      "hotelName": "남해 독일마을하이델베르크펜션",
+      "address": "경상남도 남해군 삼동면 독일로 61-45"
+    },
+    {
+      "slug": "gyeongnam-10585573",
+      "hotelName": "밀양 칸",
+      "address": "경상남도 밀양시 시청서1길 9-21"
+    },
+    {
+      "slug": "gyeongnam-10585711",
+      "hotelName": "김해 삼계 호텔 가인",
+      "address": "경상남도 김해시 삼계로55번길 15"
+    },
+    {
+      "slug": "gyeongnam-10585730",
+      "hotelName": "창원 마산 호텔 아모르",
+      "address": "경상남도 창원시 마산합포구 수산1길 3 세븐일레븐 아모르호텔"
+    },
+    {
+      "slug": "gyeongnam-10585835",
+      "hotelName": "남해 스테이132",
+      "address": "경상남도 남해군 삼동면 동부대로1122번길 132-15 스테이132"
+    },
+    {
+      "slug": "gyeongnam-10586053",
+      "hotelName": "통영 더뷰 호스텔",
+      "address": "경상남도 통영시 중앙시장4길 6-27"
+    },
+    {
+      "slug": "gyeongnam-10586211",
+      "hotelName": "하동 도래도래펜션",
+      "address": "경상남도 하동군 화개면 쌍계로 238"
+    },
+    {
+      "slug": "gyeongnam-10586284",
+      "hotelName": "남해 라별풀빌라",
+      "address": "경상남도 남해군 미조면 미송로486번길 29 2층, 3층"
+    },
+    {
+      "slug": "gyeongnam-10586653",
+      "hotelName": "거제도 해미래펜션(바람의언덕,신선대)",
+      "address": "6, Dojangpo 2-gil, Nambu-myeon, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-10586802",
+      "hotelName": "거제도 장평 투데이",
+      "address": "경상남도 거제시 장평1로9길 25 투데이호텔"
+    },
+    {
+      "slug": "gyeongnam-10586991",
+      "hotelName": "사천(삼천포) 섬 호텔",
+      "address": "50, Siranseonchang 1-gil, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-10587085",
+      "hotelName": "진주 쉬자 호텔 진주성점 - SHEJA",
+      "address": "경상남도 진주시 진주대로 1130"
+    },
+    {
+      "slug": "gyeongnam-10587148",
+      "hotelName": "김해 어방동 호텔 그라나다",
+      "address": "경상남도 김해시 김해대로2529번길 72-8 호텔그라나다"
+    },
+    {
+      "slug": "gyeongnam-10587254",
+      "hotelName": "창원 상남동 U",
+      "address": "4, Madimi-ro 43beon-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10587281",
+      "hotelName": "남해 시네마",
+      "address": "경상남도 남해군 미조면 미송로486번길 8"
+    },
+    {
+      "slug": "gyeongnam-10587381",
+      "hotelName": "진주 호텔 세븐",
+      "address": "경상남도 진주시 비봉로58번길 1 1층"
+    },
+    {
+      "slug": "gyeongnam-10587498",
+      "hotelName": "남해 모아나펜션",
+      "address": "경상남도 남해군 삼동면 동부대로1122번길 99-4"
+    },
+    {
+      "slug": "gyeongnam-10587701",
+      "hotelName": "통영 서피랑",
+      "address": "14, Gajukgorang 1-gil, Tongyeong-si, Gyeongsangnam-do 통영"
+    },
+    {
+      "slug": "gyeongnam-10587743",
+      "hotelName": "거창 엔터",
+      "address": "경상남도 거창군 거창읍 거창대로3길 10"
+    },
+    {
+      "slug": "gyeongnam-10588031",
+      "hotelName": "남해 바다가있는여행펜션",
+      "address": "경상남도 남해군 남면 남면로 838"
+    },
+    {
+      "slug": "gyeongnam-10588801",
+      "hotelName": "거제도 고현 퍼스트 호텔",
+      "address": "경상남도 거제시 거제중앙로13길 10-1"
+    },
+    {
+      "slug": "gyeongnam-10588811",
+      "hotelName": "양산 석산 버튼",
+      "address": "49-22, Geumo 10-gil, Dong-myeon, Yangsan-si, Gyeongsangnam-do 양산"
+    },
+    {
+      "slug": "gyeongnam-10588851",
+      "hotelName": "창원 팔용동 비엔나(VIENNA)",
+      "address": "경상남도 창원시 의창구 사화로10번길 18"
+    },
+    {
+      "slug": "gyeongnam-10589079",
+      "hotelName": "거제도 그린나래펜션",
+      "address": "경상남도 거제시 일운면 소동6길 41-1"
+    },
+    {
+      "slug": "gyeongnam-10589384",
+      "hotelName": "거창 자바",
+      "address": "경상남도 거창군 마리면 거안로 1052"
+    },
+    {
+      "slug": "gyeongnam-10589428",
+      "hotelName": "진주 콤마 무인텔",
+      "address": "경상남도 진주시 남강로 1217"
+    },
+    {
+      "slug": "gyeongnam-10589449",
+      "hotelName": "하동 성운각",
+      "address": "경상남도 하동군 화개면 화개로 48"
+    },
+    {
+      "slug": "gyeongnam-10589473",
+      "hotelName": "창원 마산 한옥 무비",
+      "address": "경상남도 창원시 마산합포구 합포동7길 6 무비모텔"
+    },
+    {
+      "slug": "gyeongnam-10589474",
+      "hotelName": "거제도 지세포 피닉스",
+      "address": "경상남도 거제시 일운면 지세포6길 17"
+    },
+    {
+      "slug": "gyeongnam-10589496",
+      "hotelName": "양산 석산 W",
+      "address": "경상남도 양산시 동면 금오14길 7"
+    },
+    {
+      "slug": "gyeongnam-10589604",
+      "hotelName": "창원 마산 아이브호텔(IVE HOTEL)",
+      "address": "경상남도 창원시 마산회원구 합성옛길 126 102동 6층 601호, 7층 701호"
+    },
+    {
+      "slug": "gyeongnam-10589690",
+      "hotelName": "양산 평산 르이데아",
+      "address": "경상남도 양산시 평산중앙1길 6"
+    },
+    {
+      "slug": "gyeongnam-10589780",
+      "hotelName": "사천 까샤126펜션(남해)",
+      "address": "경상남도 사천시 서포면 제비길 126"
+    },
+    {
+      "slug": "gyeongnam-10589984",
+      "hotelName": "거제도 포시즌펜션",
+      "address": "경상남도 거제시 장목면 두모실길 16-23"
+    },
+    {
+      "slug": "gyeongnam-10590154",
+      "hotelName": "남해 고니개펜션",
+      "address": "경상남도 남해군 창선면 동부대로 2589-1 고니개펜션"
+    },
+    {
+      "slug": "gyeongnam-10590175",
+      "hotelName": "남해 블루스톤펜션",
+      "address": "경상남도 남해군 삼동면 양화금로 285-7"
+    },
+    {
+      "slug": "gyeongnam-10590527",
+      "hotelName": "남해 마린피아펜션",
+      "address": "경상남도 남해군 남면 남면로 946-3"
+    },
+    {
+      "slug": "gyeongnam-10590597",
+      "hotelName": "통영 호텔 오페라",
+      "address": "경상남도 통영시 광도면 죽림5로 25-25 오페라호텔"
+    },
+    {
+      "slug": "gyeongnam-10590665",
+      "hotelName": "거제도 고현 더 엠",
+      "address": "경상남도 거제시 서문로 66-3"
+    },
+    {
+      "slug": "gyeongnam-10590673",
+      "hotelName": "사천(삼천포) 무니 호텔",
+      "address": "61, Nosangongwon-gil, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-10590737",
+      "hotelName": "창원 아모르 호텔",
+      "address": "경상남도 창원시 진해구 명제로472번길 17"
+    },
+    {
+      "slug": "gyeongnam-10590772",
+      "hotelName": "거제도 생각속의집펜션",
+      "address": "경상남도 거제시 동부면 거제남서로 2791-1"
+    },
+    {
+      "slug": "gyeongnam-10591016",
+      "hotelName": "거창 황실",
+      "address": "경상남도 거창군 거창읍 대평2길 72"
+    },
+    {
+      "slug": "gyeongnam-10591130",
+      "hotelName": "거창 천오",
+      "address": "경상남도 거창군 거창읍 거창대로3길 11"
+    },
+    {
+      "slug": "gyeongnam-10591273",
+      "hotelName": "거제도 장승포 양파",
+      "address": "경상남도 거제시 장승포로2길 16"
+    },
+    {
+      "slug": "gyeongnam-10591285",
+      "hotelName": "창원 진해 용원 호텔 더 케이(The K)",
+      "address": "경상남도 창원시 진해구 신항4로 41-16"
+    },
+    {
+      "slug": "gyeongnam-10591290",
+      "hotelName": "합천 H.C. HOTEL",
+      "address": "경상남도 합천군 율곡면 임북길 16-7"
+    },
+    {
+      "slug": "gyeongnam-13302597",
+      "hotelName": "창녕 부곡 가고파",
+      "address": "경상남도 창녕군 부곡면 온천2길 52"
+    },
+    {
+      "slug": "gyeongnam-13302895",
+      "hotelName": "김해 어방동 스위트 호텔",
+      "address": "경상남도 김해시 인제로170번길 15-20"
+    },
+    {
+      "slug": "gyeongnam-13302951",
+      "hotelName": "사천(삼천포) 호텔 3004",
+      "address": "23-11, Munseon 7-gil, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-14083294",
+      "hotelName": "밀양 Hotel 라온",
+      "address": "경상남도 밀양시 시청서2길 8"
+    },
+    {
+      "slug": "gyeongnam-14083312",
+      "hotelName": "통영 유니크 호텔 더 뷰(THE VIEW)",
+      "address": "73, Jungnim 5-ro, Gwangdo-myeon, Tongyeong-si, Gyeongsangnam-do 통영"
+    },
+    {
+      "slug": "gyeongnam-14085126",
+      "hotelName": "밀양 에비앙 카무인텔",
+      "address": "102, Chunhwa-ro, Bubuk-myeon, Miryang-si, Gyeongsangnam-do 밀양"
+    },
+    {
+      "slug": "gyeongnam-14085171",
+      "hotelName": "거제도 비커밍펜션",
+      "address": "경상남도 거제시 남부면 거제남서로 991-2 비커밍풀빌라펜션"
+    },
+    {
+      "slug": "gyeongnam-14085185",
+      "hotelName": "통영 동양",
+      "address": "경상남도 통영시 항남3길 17"
+    },
+    {
+      "slug": "gyeongnam-14085288",
+      "hotelName": "거제도 옥포 약수",
+      "address": "22, Okpodaecheop-ro 4-gil, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-14085371",
+      "hotelName": "남해 은빛아라펜션",
+      "address": "경상남도 남해군 상주면 남해대로495번길 82 은빛아라펜션"
+    },
+    {
+      "slug": "gyeongnam-14085476",
+      "hotelName": "창원 마산 바이브호텔",
+      "address": "경상남도 창원시 마산회원구 합성옛길 160"
+    },
+    {
+      "slug": "gyeongnam-14653086",
+      "hotelName": "이프 비즈니스 호텔",
+      "address": "경상남도 창원시 성산구 마디미서로 34 보보스타운 9층"
+    },
+    {
+      "slug": "gyeongnam-15375448",
+      "hotelName": "Gaeul Hotel",
+      "address": "823 Saneop-ro, Geumseong-myeon 하동"
+    },
+    {
+      "slug": "gyeongnam-15420256",
+      "hotelName": "Ocean Spa Hotel",
+      "address": "60, Sinwol-ro, Goseong-eup 고성"
+    },
+    {
+      "slug": "gyeongnam-16254040",
+      "hotelName": "하동 참좋은궁펜션",
+      "address": "경상남도 하동군 화개면 범왕길 346"
+    },
+    {
+      "slug": "gyeongnam-16254630",
+      "hotelName": "진주 필 호텔",
+      "address": "경상남도 진주시 진주대로920번길 5-4"
+    },
+    {
+      "slug": "gyeongnam-16255035",
+      "hotelName": "거제도 림바발리스펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1795-20 림바발리스 펜션"
+    },
+    {
+      "slug": "gyeongnam-16263550",
+      "hotelName": "사천(삼천포) HOTEL 소풍(PICNIC)",
+      "address": "46, Siranseonchang 1-gil, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-16276913",
+      "hotelName": "진주 HOTEL 보보(VOVO)",
+      "address": "경상남도 진주시 돗골로20번길 11 호텔보보"
+    },
+    {
+      "slug": "gyeongnam-16361203",
+      "hotelName": "남해 하늘빛바다펜션",
+      "address": "경상남도 남해군 서면 남서대로 1974-28"
+    },
+    {
+      "slug": "gyeongnam-16445608",
+      "hotelName": "고성 명품무인호텔 시그니처",
+      "address": "21-29, Songhakgobun-ro, Goseong-eup, Goseong-gun, Gyeongsangnam-do 고성"
+    },
+    {
+      "slug": "gyeongnam-16528662",
+      "hotelName": "키즈스테이호텔 인 부곡",
+      "address": "경상남도 창녕군 부곡면 온천2길 48"
+    },
+    {
+      "slug": "gyeongnam-16653678",
+      "hotelName": "남해 꿈에그린스파펜션",
+      "address": "경상남도 남해군 남면 남면로 282"
+    },
+    {
+      "slug": "gyeongnam-17216156",
+      "hotelName": "창원 북면 드웰",
+      "address": "경상남도 창원시 의창구 북면 천주로1165번길 45 dwell 드웰"
+    },
+    {
+      "slug": "gyeongnam-17615189",
+      "hotelName": "남해 바다아이풀빌라",
+      "address": "경상남도 남해군 상주면 남해대로495번나길 24-6 바다아이 펜션"
+    },
+    {
+      "slug": "gyeongnam-17986636",
+      "hotelName": "남해 독일마을하노버펜션",
+      "address": "경상남도 남해군 삼동면 독일로 61-31"
+    },
+    {
+      "slug": "gyeongnam-18469021",
+      "hotelName": "창녕 부곡 스파디움 따오기호텔",
+      "address": "경상남도 창녕군 부곡면 온천중앙로 42"
+    },
+    {
+      "slug": "gyeongnam-18469815",
+      "hotelName": "진주 남강",
+      "address": "경상남도 진주시 남강로673번길 16 골든튤립호텔 남강"
+    },
+    {
+      "slug": "gyeongnam-18469883",
+      "hotelName": "통영 앤까사펜션",
+      "address": "경상남도 통영시 산양읍 산양일주로 480"
+    },
+    {
+      "slug": "gyeongnam-18528509",
+      "hotelName": "남해 독일마을만하임펜션",
+      "address": "경상남도 남해군 삼동면 독일로 64-8"
+    },
+    {
+      "slug": "gyeongnam-18528553",
+      "hotelName": "거제도 파인비치펜션",
+      "address": "경상남도 거제시 동부면 학동6길 51-5"
+    },
+    {
+      "slug": "gyeongnam-18928831",
+      "hotelName": "창원 진해 HOTEL 더원",
+      "address": "경상남도 창원시 진해구 충장로 501 1층 안내실"
+    },
+    {
+      "slug": "gyeongnam-19004787",
+      "hotelName": "김해 부원동 보스턴호텔",
+      "address": "경상남도 김해시 가락로29번길 6"
+    },
+    {
+      "slug": "gyeongnam-19033205",
+      "hotelName": "사천 호텔 스페셜(special)",
+      "address": "경상남도 사천시 사천읍 진삼로 1477-21 호텔스페셜"
+    },
+    {
+      "slug": "gyeongnam-19607278",
+      "hotelName": "통영 씨앤뷰스파펜션",
+      "address": "경상남도 통영시 산양읍 산양일주로 1337-10"
+    },
+    {
+      "slug": "gyeongnam-19896533",
+      "hotelName": "하동 짝",
+      "address": "경상남도 하동군 진교면 달구지길 40"
+    },
+    {
+      "slug": "gyeongnam-21640417",
+      "hotelName": "거제도 베르데펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1750 베르데펜션"
+    },
+    {
+      "slug": "gyeongnam-21963066",
+      "hotelName": "창원 마산 합성동 젠",
+      "address": "경상남도 창원시 마산회원구 양덕북18길 34"
+    },
+    {
+      "slug": "gyeongnam-23041762",
+      "hotelName": "거제도 씨앤휴펜션 (몽돌해변)",
+      "address": "154-42, Yulcheondumo-ro, Jangmok-myeon, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-23763684",
+      "hotelName": "통영 카리브 콘도 호텔",
+      "address": "경상남도 통영시 도남로 257-29 카리브콘도호텔"
+    },
+    {
+      "slug": "gyeongnam-2390580",
+      "hotelName": "둥섭의다락방친구들",
+      "address": "15-10, Hangnam 2-gil 통영"
+    },
+    {
+      "slug": "gyeongnam-24118939",
+      "hotelName": "산청 지리산뷰캐슬펜션",
+      "address": "경상남도 산청군 시천면 지리산대로511번길 11-20"
+    },
+    {
+      "slug": "gyeongnam-24126518",
+      "hotelName": "거제도 인피니티라이즈",
+      "address": "경상남도 거제시 장목면 흥남길 54"
+    },
+    {
+      "slug": "gyeongnam-24325890",
+      "hotelName": "통영 바이더씨펜션",
+      "address": "경상남도 통영시 용남면 기호바깥길 7-53"
+    },
+    {
+      "slug": "gyeongnam-24343898",
+      "hotelName": "라온 on 37",
+      "address": "경상남도 통영시 남포2길 37 1층"
+    },
+    {
+      "slug": "gyeongnam-24516886",
+      "hotelName": "사천 넘버25호텔",
+      "address": "경상남도 사천시 사천읍 진삼로 1457-12"
+    },
+    {
+      "slug": "gyeongnam-24997529",
+      "hotelName": "통영 바라봄펜션",
+      "address": "경상남도 통영시 산양읍 산양일주로 486"
+    },
+    {
+      "slug": "gyeongnam-25064143",
+      "hotelName": "사천 넘버25 사천수석점",
+      "address": "1457-12, Jinsam-ro, Sacheon-eup, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-25065531",
+      "hotelName": "거제도 바닐라펜션",
+      "address": "경상남도 거제시 동부면 학동3길 9"
+    },
+    {
+      "slug": "gyeongnam-25140638",
+      "hotelName": "남해 블라썸펜션(독일마을)",
+      "address": "경상남도 남해군 삼동면 동부대로1122번길 132-23 남해블라썸"
+    },
+    {
+      "slug": "gyeongnam-25894141",
+      "hotelName": "남해 해변의왈츠펜션",
+      "address": "경상남도 남해군 이동면 남해대로 1623"
+    },
+    {
+      "slug": "gyeongnam-25907427",
+      "hotelName": "남해 바덴펜션",
+      "address": "경상남도 남해군 삼동면 동부대로 1095 바덴펜션"
+    },
+    {
+      "slug": "gyeongnam-25924159",
+      "hotelName": "거제도 아이엠펜션",
+      "address": "경상남도 거제시 장목면 율천두모로 154-43 아이엠펜션"
+    },
+    {
+      "slug": "gyeongnam-25946379",
+      "hotelName": "통영(사량도) 크레파스펜션",
+      "address": "경상남도 통영시 사량면 상도일주로 1555-1"
+    },
+    {
+      "slug": "gyeongnam-26842557",
+      "hotelName": "통영 벨라 게스트하우스",
+      "address": "경상남도 통영시 서송정1길 32-23"
+    },
+    {
+      "slug": "gyeongnam-26849543",
+      "hotelName": "거제도 웨스트포트펜션",
+      "address": "경상남도 거제시 장목면 율천두모로 134 WEST PORT"
+    },
+    {
+      "slug": "gyeongnam-26862114",
+      "hotelName": "하동 호텔 봄봄(hotel bombom)",
+      "address": "경상남도 하동군 고전면 재첩길 50"
+    },
+    {
+      "slug": "gyeongnam-26962133",
+      "hotelName": "창원 마산 합성동 이화",
+      "address": "경상남도 창원시 마산회원구 합성옛길 188-2"
+    },
+    {
+      "slug": "gyeongnam-27936957",
+      "hotelName": "남해 독일마을 헤라클레스",
+      "address": "경상남도 남해군 삼동면 독일로 64-9 독일마을 헤라클레스"
+    },
+    {
+      "slug": "gyeongnam-28521232",
+      "hotelName": "양산 물금 셉템버호텔",
+      "address": "경상남도 양산시 물금읍 범구1길 23 (범어리 2711-29번지)"
+    },
+    {
+      "slug": "gyeongnam-28680374",
+      "hotelName": "호텔 돈",
+      "address": "경상남도 창원시 성산구 용지로153번길 7"
+    },
+    {
+      "slug": "gyeongnam-28721404",
+      "hotelName": "사천(삼천포) 오성",
+      "address": "42-9, Sinhang-ro, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-28756946",
+      "hotelName": "합천 달콤한 하루",
+      "address": "경상남도 합천군 야로면 가야산로 903"
+    },
+    {
+      "slug": "gyeongnam-28774525",
+      "hotelName": "진주 YAM 진주성점",
+      "address": "경상남도 진주시 비봉로58번길 4"
+    },
+    {
+      "slug": "gyeongnam-28919064",
+      "hotelName": "거제도 리을풀빌라",
+      "address": "경상남도 거제시 동부면 거제남서로 2101"
+    },
+    {
+      "slug": "gyeongnam-29462492",
+      "hotelName": "브라운 도트 호텔 진주성점",
+      "address": "경상남도 진주시 진주대로 1136 1층-6층"
+    },
+    {
+      "slug": "gyeongnam-3012752",
+      "hotelName": "통영 동원리조트&유스호스텔",
+      "address": "경상남도 통영시 산양읍 담안길 160-21"
+    },
+    {
+      "slug": "gyeongnam-30371721",
+      "hotelName": "창원 명서동 YAJA 창원명서컨벤션센터점",
+      "address": "경상남도 창원시 의창구 창이대로107번길 14"
+    },
+    {
+      "slug": "gyeongnam-30892556",
+      "hotelName": "남해 크란츠러펜션(바닷가,스파)",
+      "address": "29, Dogil-ro, Samdong-myeon, Namhae-gun, Gyeongsangnam-do 남해"
+    },
+    {
+      "slug": "gyeongnam-30990467",
+      "hotelName": "남해 슬로우하우스펜션",
+      "address": "경상남도 남해군 남면 남서대로 560"
+    },
+    {
+      "slug": "gyeongnam-30991689",
+      "hotelName": "사천(삼천포) 시원청호텔",
+      "address": "경상남도 사천시 서향길 7-14 5층"
+    },
+    {
+      "slug": "gyeongnam-30991690",
+      "hotelName": "사천 제이",
+      "address": "경상남도 사천시 서포면 거북길 468-116 제이글램핑"
+    },
+    {
+      "slug": "gyeongnam-31040822",
+      "hotelName": "거제도 퀸모텔펜션",
+      "address": "39-2, Okpo-ro 2-gil, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-31216696",
+      "hotelName": "남해 바다펜션",
+      "address": "경상남도 남해군 서면 남서대로 1974-28"
+    },
+    {
+      "slug": "gyeongnam-31249838",
+      "hotelName": "창녕 부곡 HOTEL 화왕산 SPA",
+      "address": "경상남도 창녕군 부곡면 온천1길 3"
+    },
+    {
+      "slug": "gyeongnam-31371626",
+      "hotelName": "사천 호텔 엠버",
+      "address": "경상남도 사천시 사천읍 역사길 25 호텔 엠버"
+    },
+    {
+      "slug": "gyeongnam-31438036",
+      "hotelName": "통영 타샤의정원펜션",
+      "address": "726, Sanyangilju-ro, Sanyang-eup, Tongyeong-si, Gyeongsangnam-do 통영"
+    },
+    {
+      "slug": "gyeongnam-32308979",
+      "hotelName": "사천 팬",
+      "address": "경상남도 사천시 사천읍 역사동길 60"
+    },
+    {
+      "slug": "gyeongnam-32331251",
+      "hotelName": "거제도 옥포 진우 프레스티지 호텔",
+      "address": "경상남도 거제시 옥포대첩로6길 3 진우프레스티지 호텔"
+    },
+    {
+      "slug": "gyeongnam-32375565",
+      "hotelName": "거창 A&D (앤드)",
+      "address": "37, Oncheon-gil, Gajo-myeon, Geochang-gun, Gyeongsangnam-do 거창"
+    },
+    {
+      "slug": "gyeongnam-32900547",
+      "hotelName": "남해 시에스타펜션",
+      "address": "경상남도 남해군 창선면 서부로 1503-20 시에스타 펜션"
+    },
+    {
+      "slug": "gyeongnam-33056765",
+      "hotelName": "거제 아그네스파크",
+      "address": "5187, Geojenamseo-ro, Dundeok-myeon, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-33156171",
+      "hotelName": "거제도 까사델문도펜션",
+      "address": "경상남도 거제시 일운면 윤돌길 23 까사델문도 펜션"
+    },
+    {
+      "slug": "gyeongnam-33502372",
+      "hotelName": "남해 독일마을 요하네스펜션",
+      "address": "경상남도 남해군 삼동면 독일로 61-27 요하네스"
+    },
+    {
+      "slug": "gyeongnam-33596389",
+      "hotelName": "창원 용호동 성산호텔",
+      "address": "경상남도 창원시 성산구 용지로153번길 4-30 성산호텔"
+    },
+    {
+      "slug": "gyeongnam-33848463",
+      "hotelName": "거제도 덴바스타료칸",
+      "address": "경상남도 거제시 장승포해안로 16"
+    },
+    {
+      "slug": "gyeongnam-33983544",
+      "hotelName": "남해 오션블루펜션",
+      "address": "경상남도 남해군 상주면 남해대로495번길 14 오션블루 펜션"
+    },
+    {
+      "slug": "gyeongnam-33983884",
+      "hotelName": "거제도 사등 무인텔 쥬뗌므",
+      "address": "경상남도 거제시 사등면 사곡2길 27 무인텔 쥬뗌므"
+    },
+    {
+      "slug": "gyeongnam-33984329",
+      "hotelName": "창원 진해 에치투오(H2O)",
+      "address": "19, Chungmu-ro 58beon-gil, Jinhae-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-34129006",
+      "hotelName": "거창 더모먼트",
+      "address": "경상남도 거창군 가조면 온천길 27-33"
+    },
+    {
+      "slug": "gyeongnam-34212181",
+      "hotelName": "창원 마산 오동동 케이(K)",
+      "address": "경상남도 창원시 마산합포구 수산1길 241 케이모텔"
+    },
+    {
+      "slug": "gyeongnam-34606873",
+      "hotelName": "통영 항남동 명동장",
+      "address": "경상남도 통영시 동충3길 35"
+    },
+    {
+      "slug": "gyeongnam-35041638",
+      "hotelName": "통영 어뮤징스토리",
+      "address": "경상남도 통영시 도산면 도산일주로 2031"
+    },
+    {
+      "slug": "gyeongnam-35153836",
+      "hotelName": "남해 풀빌라윤슬",
+      "address": "경상남도 남해군 남면 남면로 797-14 윤슬풀빌라"
+    },
+    {
+      "slug": "gyeongnam-35296909",
+      "hotelName": "창녕 부곡 HOTEL DW (디더블유)",
+      "address": "27, Oncheon 2-gil, Bugok-myeon, Changnyeong-gun, Gyeongsangnam-do 창녕"
+    },
+    {
+      "slug": "gyeongnam-35723378",
+      "hotelName": "진주 알마니호텔",
+      "address": "경상남도 진주시 평거로6번길 22"
+    },
+    {
+      "slug": "gyeongnam-35723397",
+      "hotelName": "창원 의창 브라운도트 창원북면점",
+      "address": "경상남도 창원시 의창구 북면 천주로1165번길 15 브라운도트 호텔 창원북면점"
+    },
+    {
+      "slug": "gyeongnam-3584055",
+      "hotelName": "거제 통통게스트하우스",
+      "address": "경상남도 거제시 문동4길 53"
+    },
+    {
+      "slug": "gyeongnam-36445075",
+      "hotelName": "창원 중앙동 브라운도트 창원센트럴점",
+      "address": "64, Yongji-ro, Seongsan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-36445159",
+      "hotelName": "진주 썸",
+      "address": "경상남도 진주시 진주대로1147번길 8"
+    },
+    {
+      "slug": "gyeongnam-36865352",
+      "hotelName": "사천(삼천포) 호텔 레이지헤븐",
+      "address": "20-13, Donggeum 2-gil, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-6150873",
+      "hotelName": "남해 독일마을 베토벤하우스",
+      "address": "경상남도 남해군 삼동면 독일로 61-47"
+    },
+    {
+      "slug": "gyeongnam-36786755",
+      "hotelName": "창녕 부곡 온천호텔",
+      "address": "경상남도 창녕군 부곡면 온천2길 40"
+    },
+    {
+      "slug": "gyeongnam-14083257",
+      "hotelName": "함양 호텔 하얏트",
+      "address": "경상남도 함양군 함양읍 용평길 31-6"
+    },
+    {
+      "slug": "gyeongnam-30788904",
+      "hotelName": "하동 바람이불어오는곳펜션",
+      "address": "경상남도 하동군 화개면 쌍계로 561 바람이불어오는곳"
+    },
+    {
+      "slug": "gyeongnam-10584534",
+      "hotelName": "창원 진해 호텔 투하트",
+      "address": "경상남도 창원시 진해구 충장로364번길 5-5"
+    },
+    {
+      "slug": "gyeongnam-18469563",
+      "hotelName": "남해 펜션키마리스",
+      "address": "경상남도 남해군 창선면 흥선로 1671-15"
+    },
+    {
+      "slug": "gyeongnam-10585480",
+      "hotelName": "거제도 은하수펜션",
+      "address": "경상남도 거제시 동부면 거제대로 1071"
+    },
+    {
+      "slug": "gyeongnam-10580222",
+      "hotelName": "합천 모던리컴펜션",
+      "address": "경상남도 합천군 대병면 합천호반로 106 경남 합천군 대병면 상천리 459"
+    },
+    {
+      "slug": "gyeongnam-10582970",
+      "hotelName": "창원 명서동 아이엘호텔",
+      "address": "경상남도 창원시 의창구 창이대로103번길 9"
+    },
+    {
+      "slug": "gyeongnam-10590115",
+      "hotelName": "밀양 얼음골케이블카펜션",
+      "address": "경상남도 밀양시 산내면 얼음골로 223-10"
+    },
+    {
+      "slug": "gyeongnam-10574961",
+      "hotelName": "통영 까사마레펜션",
+      "address": "경상남도 통영시 산양읍 풍화일주로 204 까사마레펜션"
+    },
+    {
+      "slug": "gyeongnam-16254055",
+      "hotelName": "통영 풍경채펜션",
+      "address": "경상남도 통영시 용남면 용남해안로 139"
+    },
+    {
+      "slug": "gyeongnam-30990215",
+      "hotelName": "통영 써니펜션민박",
+      "address": "경상남도 통영시 욕지면 욕지일주로 437 써니펜션"
+    },
+    {
+      "slug": "gyeongnam-18469959",
+      "hotelName": "양산 에이치모먼트호텔 양산역점 (구. 아이엠)",
+      "address": "15, Yangsanyeok 8-gil, Yangsan-si, Gyeongsangnam-do 양산"
+    },
+    {
+      "slug": "gyeongnam-10583528",
+      "hotelName": "통영 모닝듀펜션",
+      "address": "경상남도 통영시 산양읍 산양일주로 586"
+    },
+    {
+      "slug": "gyeongnam-10578982",
+      "hotelName": "거제도 파티오펜션",
+      "address": "경상남도 거제시 장목면 흥남길 62-2"
+    },
+    {
+      "slug": "gyeongnam-10582467",
+      "hotelName": "거제도 레몬트리펜션",
+      "address": "경상남도 거제시 장목면 거제북로 2600-1"
+    },
+    {
+      "slug": "gyeongnam-10583219",
+      "hotelName": "거제도 블루힐펜션",
+      "address": "경상남도 거제시 일운면 거제대로 2022"
+    },
+    {
+      "slug": "gyeongnam-13626131",
+      "hotelName": "거제도 하와유풀빌라스파펜션",
+      "address": "1079-9, Okpodaecheop-ro, Jangmok-myeon, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-16894190",
+      "hotelName": "통영 욕지도하늘섬펜션",
+      "address": "경상남도 통영시 욕지면 욕지일주로 632-99"
+    },
+    {
+      "slug": "gyeongnam-18469526",
+      "hotelName": "진주 호텔 온도",
+      "address": "경상남도 진주시 도동천로 189"
+    },
+    {
+      "slug": "gyeongnam-10581634",
+      "hotelName": "창원 진해 용원 HOTEL VIN",
+      "address": "경상남도 창원시 진해구 신항4로 54-26 빈 호텔"
+    },
+    {
+      "slug": "gyeongnam-19090324",
+      "hotelName": "거제도 바다로스파펜션",
+      "address": "1488-4, Geoje-daero, Irun-myeon, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-25894159",
+      "hotelName": "남해 인갤러리펜션",
+      "address": "경상남도 남해군 서면 남서대로 1843-59"
+    },
+    {
+      "slug": "gyeongnam-10574433",
+      "hotelName": "남해 뤼미에르펜션",
+      "address": "974, Nammyeon-ro, Nam-myeon, Namhae-gun, Gyeongsangnam-do 남해"
+    },
+    {
+      "slug": "gyeongnam-10576395",
+      "hotelName": "창원 마산 로제 시그니처 호텔",
+      "address": "410, Haean-daero, Masanhappo-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10574334",
+      "hotelName": "통영 메이블루펜션",
+      "address": "경상남도 통영시 산양읍 풍화일주로 1609-50 메이블루펜션"
+    },
+    {
+      "slug": "gyeongnam-34409941",
+      "hotelName": "거제도 베리블라썸펜션",
+      "address": "경상남도 거제시 일운면 와현로 77-4"
+    },
+    {
+      "slug": "gyeongnam-30990451",
+      "hotelName": "사천(삼천포) 호텔 토마토",
+      "address": "27, Mokseom-gil, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-10588871",
+      "hotelName": "양산(배내골) 알펜시아펜션",
+      "address": "경상남도 양산시 원동면 장선2길 19"
+    },
+    {
+      "slug": "gyeongnam-10584520",
+      "hotelName": "거창 두바이",
+      "address": "경상남도 거창군 거창읍 중앙로 154-10"
+    },
+    {
+      "slug": "gyeongnam-10585846",
+      "hotelName": "남해 몰리노펜션",
+      "address": "경상남도 남해군 남면 빛담촌길 29-5 몰리노펜션"
+    },
+    {
+      "slug": "gyeongnam-10588299",
+      "hotelName": "하동 예그리나풀빌라",
+      "address": "경상남도 하동군 화개면 쌍계로 322"
+    },
+    {
+      "slug": "gyeongnam-10579485",
+      "hotelName": "함안 JM",
+      "address": "경상남도 함안군 가야읍 함안대로 530 JM모텔"
+    },
+    {
+      "slug": "gyeongnam-10582650",
+      "hotelName": "거제도 더테라스펜션",
+      "address": "경상남도 거제시 동부면 거제대로 912-1"
+    },
+    {
+      "slug": "gyeongnam-10582436",
+      "hotelName": "거제도 유자향기펜션",
+      "address": "경상남도 거제시 일운면 와현로 111"
+    },
+    {
+      "slug": "gyeongnam-10584655",
+      "hotelName": "통영 호텔 통영이야",
+      "address": "경상남도 통영시 동충3길 10"
+    },
+    {
+      "slug": "gyeongnam-25561098",
+      "hotelName": "하동 벨라마레펜션",
+      "address": "경상남도 하동군 금남면 경충로 427-36 벨라마레펜션"
+    },
+    {
+      "slug": "gyeongnam-36444217",
+      "hotelName": "거제 장평 투데이호텔",
+      "address": "25, Jangpyeong 1-ro 9-gil, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-16371468",
+      "hotelName": "남해 바카티오펜션",
+      "address": "경상남도 남해군 상주면 상주로68번길 14"
+    },
+    {
+      "slug": "gyeongnam-10574487",
+      "hotelName": "남해 축항펜션",
+      "address": "경상남도 남해군 서면 남서대로 1727-22"
+    },
+    {
+      "slug": "gyeongnam-10574835",
+      "hotelName": "통영 뷰",
+      "address": "경상남도 통영시 산양읍 산양일주로 1337-6"
+    },
+    {
+      "slug": "gyeongnam-10588861",
+      "hotelName": "남해 윤슬하우스 펜션",
+      "address": "경상남도 남해군 서면 남서대로 1835-25"
+    },
+    {
+      "slug": "gyeongnam-10590602",
+      "hotelName": "남해 오션뷰펜션",
+      "address": "경상남도 남해군 삼동면 양화금로 329-29 양화씨사이드펜션"
+    },
+    {
+      "slug": "gyeongnam-13302934",
+      "hotelName": "진주 성중",
+      "address": "경상남도 진주시 진주대로920번길 5-8"
+    },
+    {
+      "slug": "gyeongnam-10582993",
+      "hotelName": "거제도 장평 썸",
+      "address": "경상남도 거제시 장평로10길 6"
+    },
+    {
+      "slug": "gyeongnam-14083252",
+      "hotelName": "밀양 궁",
+      "address": "경상남도 밀양시 하남읍 시서안길 28 궁 무인텔"
+    },
+    {
+      "slug": "gyeongnam-10573445",
+      "hotelName": "거제도 천년의미소펜션",
+      "address": "경상남도 거제시 남부면 여차길 12-1"
+    },
+    {
+      "slug": "gyeongnam-30667233",
+      "hotelName": "남해 마로니에펜션",
+      "address": "경상남도 남해군 남면 남면로 1136"
+    },
+    {
+      "slug": "gyeongnam-10581080",
+      "hotelName": "통영 슬로비 게스트하우스",
+      "address": "경상남도 통영시 산양읍 풍화일주로 1609-14"
+    },
+    {
+      "slug": "gyeongnam-10586395",
+      "hotelName": "거제도 루셀로펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1861 루셀로펜션"
+    },
+    {
+      "slug": "gyeongnam-32011962",
+      "hotelName": "남해 베네치아펜션",
+      "address": "경상남도 남해군 미조면 동부대로 70-27"
+    },
+    {
+      "slug": "gyeongnam-10589701",
+      "hotelName": "사천(삼천포) 투인원",
+      "address": "29, Palpo 1-gil, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-10577240",
+      "hotelName": "거제도 앤화이트펜션",
+      "address": "경상남도 거제시 일운면 와현해변길 4 앤화이트펜션"
+    },
+    {
+      "slug": "gyeongnam-10586082",
+      "hotelName": "창원 명서동 호텔 도시여행",
+      "address": "경상남도 창원시 의창구 창이대로113번길 16 호텔도시여행"
+    },
+    {
+      "slug": "gyeongnam-10574353",
+      "hotelName": "통영 아스라이펜션",
+      "address": "경상남도 통영시 산양읍 풍화일주로 1612-7"
+    },
+    {
+      "slug": "gyeongnam-10578887",
+      "hotelName": "양산(배내골) 그림앤정원펜션",
+      "address": "25, Jangseon 3-gil, Wondong-myeon, Yangsan-si, Gyeongsangnam-do 양산"
+    },
+    {
+      "slug": "gyeongnam-10584533",
+      "hotelName": "통영 행복한바다펜션",
+      "address": "경상남도 통영시 평인일주로 832-7 행복한바다펜션"
+    },
+    {
+      "slug": "gyeongnam-25064472",
+      "hotelName": "통영 화이트비치펜션",
+      "address": "경상남도 통영시 산양읍 삼칭이해안길 226-4"
+    },
+    {
+      "slug": "gyeongnam-10580663",
+      "hotelName": "김해 어방동 에이플러스",
+      "address": "경상남도 김해시 김해대로2529번길 72-15"
+    },
+    {
+      "slug": "gyeongnam-10585605",
+      "hotelName": "사천 다이아몬드",
+      "address": "경상남도 사천시 사천읍 역사길 19"
+    },
+    {
+      "slug": "gyeongnam-19004757",
+      "hotelName": "창원 마산 스카이텔",
+      "address": "경상남도 창원시 마산합포구 월영동10길 8"
+    },
+    {
+      "slug": "gyeongnam-10584904",
+      "hotelName": "진주 라인",
+      "address": "경상남도 진주시 진주대로1147번길 7-1 라인모텔"
+    },
+    {
+      "slug": "gyeongnam-23216973",
+      "hotelName": "진주 호텔 코코(COCO)",
+      "address": "경상남도 진주시 남강로736번길 8"
+    },
+    {
+      "slug": "gyeongnam-10586125",
+      "hotelName": "거제도 베이원펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1786-2"
+    },
+    {
+      "slug": "gyeongnam-10590836",
+      "hotelName": "통영 연지펜션",
+      "address": "경상남도 통영시 산양읍 양화길 158"
+    },
+    {
+      "slug": "gyeongnam-16310266",
+      "hotelName": "거제도 아라솔펜션",
+      "address": "경상남도 거제시 일운면 윤돌길 30"
+    },
+    {
+      "slug": "gyeongnam-10587045",
+      "hotelName": "통영 네르하21펜션",
+      "address": "경상남도 통영시 도산면 도산일주로 952 네르하21펜션"
+    },
+    {
+      "slug": "gyeongnam-10583392",
+      "hotelName": "하동 화개밸리펜션",
+      "address": "경상남도 하동군 화개면 화개로 368"
+    },
+    {
+      "slug": "gyeongnam-16409521",
+      "hotelName": "거제도 하라케케펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1795-24 하라케케 펜션"
+    },
+    {
+      "slug": "gyeongnam-10575692",
+      "hotelName": "김해 부원동 뉴SKY",
+      "address": "경상남도 김해시 김해대로 2357-11"
+    },
+    {
+      "slug": "gyeongnam-10580261",
+      "hotelName": "산청 너와나펜션",
+      "address": "경상남도 산청군 단성면 성철로102번길 96-12"
+    },
+    {
+      "slug": "gyeongnam-30991577",
+      "hotelName": "남해 온리원펜션",
+      "address": "2908, Dongbu-daero, Changseon-myeon, Namhae-gun, Gyeongsangnam-do 남해"
+    },
+    {
+      "slug": "gyeongnam-10575561",
+      "hotelName": "통영 통영구가네펜션",
+      "address": "경상남도 통영시 광도면 덕포로 237 통영구가네펜션"
+    },
+    {
+      "slug": "gyeongnam-10574575",
+      "hotelName": "거제도 착한바다펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1783"
+    },
+    {
+      "slug": "gyeongnam-26930974",
+      "hotelName": "남해 돌담민박펜션",
+      "address": "79, Dongbu-daero 1030beon-gil Samdong-myeon, Namhae-gun, Gyeongsangnam-do 남해"
+    },
+    {
+      "slug": "gyeongnam-29249100",
+      "hotelName": "통영 씨앤씨펜션",
+      "address": "경상남도 통영시 산양읍 산양일주로 488 씨앤씨펜션"
+    },
+    {
+      "slug": "gyeongnam-16361186",
+      "hotelName": "산청 바람흔적펜션",
+      "address": "경상남도 산청군 시천면 지리산대로966번길 11-4 바람흔적펜션"
+    },
+    {
+      "slug": "gyeongnam-10585722",
+      "hotelName": "창원 팔용동 프랑",
+      "address": "경상남도 창원시 의창구 의창대로54번길 10 채로키빌딩4층"
+    },
+    {
+      "slug": "gyeongnam-34652865",
+      "hotelName": "남해 오시다남해풀빌라",
+      "address": "경상남도 남해군 상주면 상주로60번길 73 오시다남해"
+    },
+    {
+      "slug": "gyeongnam-10581461",
+      "hotelName": "창원 마산 넘버25 내서점",
+      "address": "210, Howon-ro, Naeseo-eup, Masanhoewon-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-13302573",
+      "hotelName": "진주 호텔 꿀밤스테이",
+      "address": "경상남도 진주시 비봉로73번길 7 프론트"
+    },
+    {
+      "slug": "gyeongnam-25697998",
+      "hotelName": "통영(사량도) 로시난테펜션",
+      "address": "64-46, Daehang-gil, Saryang-myeon, Tongyeong-si, Gyeongsangnam-do 통영"
+    },
+    {
+      "slug": "gyeongnam-18469206",
+      "hotelName": "거제도 스톤코브펜션",
+      "address": "경상남도 거제시 장목면 옥포대첩로 1147-3 스톤코브펜션"
+    },
+    {
+      "slug": "gyeongnam-18528613",
+      "hotelName": "남해 파레사애견풀빌라",
+      "address": "경상남도 남해군 창선면 동부대로 1974-37"
+    },
+    {
+      "slug": "gyeongnam-10581588",
+      "hotelName": "진주 퀸즈",
+      "address": "경상남도 진주시 남강로695번길 10"
+    },
+    {
+      "slug": "gyeongnam-25525320",
+      "hotelName": "창원 산토리니펜션",
+      "address": "경상남도 창원시 마산합포구 구산면 원전1길 162"
+    },
+    {
+      "slug": "gyeongnam-10585704",
+      "hotelName": "거제도 고현 맨하탄",
+      "address": "경상남도 거제시 거제중앙로27길 13-2"
+    },
+    {
+      "slug": "gyeongnam-10580192",
+      "hotelName": "합천 레스트풀빌라",
+      "address": "경상남도 합천군 대병면 합천호반로 90"
+    },
+    {
+      "slug": "gyeongnam-10585922",
+      "hotelName": "통영 통나무펜션다오레",
+      "address": "경상남도 통영시 산양읍 풍화일주로 486-1"
+    },
+    {
+      "slug": "gyeongnam-10587956",
+      "hotelName": "통영 코발트블루펜션",
+      "address": "경상남도 통영시 도남로 314"
+    },
+    {
+      "slug": "gyeongnam-30997452",
+      "hotelName": "양산(배내골) 배내펜션",
+      "address": "경상남도 양산시 원동면 장선2길 16"
+    },
+    {
+      "slug": "gyeongnam-10582737",
+      "hotelName": "남해 가고파펜션",
+      "address": "경상남도 남해군 삼동면 동부대로1030번길 79-10 물건리 436번지"
+    },
+    {
+      "slug": "gyeongnam-18528668",
+      "hotelName": "거제도 뜨란채펜션",
+      "address": "경상남도 거제시 동부면 수산1길 19"
+    },
+    {
+      "slug": "gyeongnam-21727559",
+      "hotelName": "남해 펜션920",
+      "address": "경상남도 남해군 남면 남면로 920"
+    },
+    {
+      "slug": "gyeongnam-26890505",
+      "hotelName": "거창 산울림펜션",
+      "address": "경상남도 거창군 북상면 계수나무길 360"
+    },
+    {
+      "slug": "gyeongnam-10585549",
+      "hotelName": "창원 마산 합성동 와(WA)",
+      "address": "경상남도 창원시 마산회원구 합성남3길 25"
+    },
+    {
+      "slug": "gyeongnam-30951135",
+      "hotelName": "사천 CG",
+      "address": "경상남도 사천시 사천읍 역사동길 76"
+    },
+    {
+      "slug": "gyeongnam-10574347",
+      "hotelName": "김해 르몽드카라반",
+      "address": "경상남도 김해시 가야테마길 161 카라반르몽드"
+    },
+    {
+      "slug": "gyeongnam-10575598",
+      "hotelName": "거제도 보물섬펜션",
+      "address": "경상남도 거제시 일운면 망치4길 24"
+    },
+    {
+      "slug": "gyeongnam-10581825",
+      "hotelName": "창원 용호동 맥스(MAX)",
+      "address": "경상남도 창원시 성산구 용지로153번길 4-21"
+    },
+    {
+      "slug": "gyeongnam-18528343",
+      "hotelName": "창원 진해 용원 호텔 투헤븐(Two Heaven)",
+      "address": "15, Yongwonseo-ro 39beon-gil, Jinhae-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10574264",
+      "hotelName": "합천 바람흔적글램핑&카라반",
+      "address": "경상남도 합천군 가회면 대기1길 15-9"
+    },
+    {
+      "slug": "gyeongnam-16347988",
+      "hotelName": "산청 지리산구름정원펜션",
+      "address": "경상남도 산청군 시천면 남대길 18-12"
+    },
+    {
+      "slug": "gyeongnam-10589341",
+      "hotelName": "함안 카카오",
+      "address": "경상남도 함안군 군북면 중암7길 96 카카오모텔"
+    },
+    {
+      "slug": "gyeongnam-10583122",
+      "hotelName": "창원 상남동 XO",
+      "address": "20, Madimi-ro, Seongsan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10587349",
+      "hotelName": "고성 햇살가득펜션",
+      "address": "767-19, Jaranman-ro, Hai-myeon, Goseong-gun, Gyeongsangnam-do 고성"
+    },
+    {
+      "slug": "gyeongnam-10583107",
+      "hotelName": "남해 씨엔블루펜션",
+      "address": "경상남도 남해군 상주면 남해대로701번길 24"
+    },
+    {
+      "slug": "gyeongnam-10574000",
+      "hotelName": "양산 석산 No",
+      "address": "9-19, Geumo 14-gil, Dong-myeon, Yangsan-si, Gyeongsangnam-do 양산"
+    },
+    {
+      "slug": "gyeongnam-10573370",
+      "hotelName": "양산(배내골) 도연밸리펜션",
+      "address": "경상남도 양산시 원동면 배내로 918"
+    },
+    {
+      "slug": "gyeongnam-10575735",
+      "hotelName": "남해 아인민박펜션",
+      "address": "경상남도 남해군 상주면 남해대로1299번길 25"
+    },
+    {
+      "slug": "gyeongnam-25561295",
+      "hotelName": "통영 제이힐펜션",
+      "address": "경상남도 통영시 용남면 연기길 219"
+    },
+    {
+      "slug": "gyeongnam-10580946",
+      "hotelName": "통영 호텔 오투",
+      "address": "경상남도 통영시 안개2길 7"
+    },
+    {
+      "slug": "gyeongnam-16518799",
+      "hotelName": "통영 마리나펜션",
+      "address": "경상남도 통영시 수륙길 5"
+    },
+    {
+      "slug": "gyeongnam-10589825",
+      "hotelName": "거제도 고현 수림",
+      "address": "경상남도 거제시 거제중앙로 1904-12"
+    },
+    {
+      "slug": "gyeongnam-21768585",
+      "hotelName": "밀양 자바",
+      "address": "경상남도 밀양시 미리벌중앙로2길 6 자바모텔"
+    },
+    {
+      "slug": "gyeongnam-25036784",
+      "hotelName": "경남 지리산 태고재 한옥스테이",
+      "address": "경상남도 함양군 지곡면 개평길 39-2"
+    },
+    {
+      "slug": "gyeongnam-10588990",
+      "hotelName": "남해 남해엔바다펜션",
+      "address": "경상남도 남해군 창선면 동부대로 2821-5"
+    },
+    {
+      "slug": "gyeongnam-30990189",
+      "hotelName": "창녕 제이린펜션",
+      "address": "경상남도 창녕군 영산면 구계로 126-14 제이린 펜션"
+    },
+    {
+      "slug": "gyeongnam-10583190",
+      "hotelName": "남해 1박2일펜션",
+      "address": "경상남도 남해군 남면 남면로1229번길 10-9"
+    },
+    {
+      "slug": "gyeongnam-30991521",
+      "hotelName": "사천 W",
+      "address": "경상남도 사천시 서포면 구포1길 190-69 W남해풀빌라"
+    },
+    {
+      "slug": "gyeongnam-10588111",
+      "hotelName": "창원 상남동 썸(SOME)",
+      "address": "14, Madimi-ro 27beon-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10576964",
+      "hotelName": "창원 마산 Young",
+      "address": "15, Woryeongdong 6-gil, Masanhappo-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10584790",
+      "hotelName": "김해 삼계 넘버25 김해삼계점",
+      "address": "경상남도 김해시 삼계로55번길 12"
+    },
+    {
+      "slug": "gyeongnam-10590218",
+      "hotelName": "사천 비토바다펜션",
+      "address": "경상남도 사천시 서포면 용궁로 32-6 비토바다펜션"
+    },
+    {
+      "slug": "gyeongnam-10590306",
+      "hotelName": "거제도 물빛하늘펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1880"
+    },
+    {
+      "slug": "gyeongnam-25923664",
+      "hotelName": "밀양 별마루펜션",
+      "address": "경상남도 밀양시 단장면 고례로 805-22"
+    },
+    {
+      "slug": "gyeongnam-10590714",
+      "hotelName": "고성 보보",
+      "address": "90, Samnak 6-gil, Maam-myeon, Goseong-gun, Gyeongsangnam-do 고성"
+    },
+    {
+      "slug": "gyeongnam-10580997",
+      "hotelName": "통영 호텔 사이존",
+      "address": "경상남도 통영시 광도면 죽림해안로 40"
+    },
+    {
+      "slug": "gyeongnam-18984255",
+      "hotelName": "거제도 옥포 CNC호텔",
+      "address": "경상남도 거제시 옥포로 170-6 씨엔씨호텔"
+    },
+    {
+      "slug": "gyeongnam-25561561",
+      "hotelName": "창원 마산 하루 무인호텔",
+      "address": "경상남도 창원시 마산합포구 현동로 36 하루무인모텔"
+    },
+    {
+      "slug": "gyeongnam-35698803",
+      "hotelName": "남해 뷰에 반하다",
+      "address": "경상남도 남해군 서면 남서대로2023번길 65"
+    },
+    {
+      "slug": "gyeongnam-10581675",
+      "hotelName": "양산 통도사 타요",
+      "address": "26-1, Naewon-ro, Habuk-myeon, Yangsan-si, Gyeongsangnam-do 양산"
+    },
+    {
+      "slug": "gyeongnam-10580432",
+      "hotelName": "진주 스카이호텔",
+      "address": "17-1, Bibong-ro 61beon-gil, Jinju-si, Gyeongsangnam-do 진주"
+    },
+    {
+      "slug": "gyeongnam-10577124",
+      "hotelName": "거제도 킨포크펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1785"
+    },
+    {
+      "slug": "gyeongnam-25120080",
+      "hotelName": "거제도 블랑블루펜션",
+      "address": "경상남도 거제시 일운면 와현해변길 24"
+    },
+    {
+      "slug": "gyeongnam-33060847",
+      "hotelName": "고성 궁전",
+      "address": "21-9, Gongdan-ro, Goseong-eup, Goseong-gun, Gyeongsangnam-do 고성"
+    },
+    {
+      "slug": "gyeongnam-33984229",
+      "hotelName": "통영 리베르떼펜션민박",
+      "address": "193-17, Cheokpo-gil, Sanyang-eup, Tongyeong-si, Gyeongsangnam-do 통영"
+    },
+    {
+      "slug": "gyeongnam-24010211",
+      "hotelName": "남해 준스테이",
+      "address": "경상남도 남해군 삼동면 봉화로118번길 27 준스테이"
+    },
+    {
+      "slug": "gyeongnam-10583340",
+      "hotelName": "진주 윈",
+      "address": "경상남도 진주시 큰들로176번길 1"
+    },
+    {
+      "slug": "gyeongnam-10577471",
+      "hotelName": "산청 둘레길펜션청솔",
+      "address": "경상남도 산청군 금서면 가재길 43"
+    },
+    {
+      "slug": "gyeongnam-10580534",
+      "hotelName": "거제도 첼레스떼펜션",
+      "address": "경상남도 거제시 동부면 고촌길 29-1 첼레스떼펜션 1층"
+    },
+    {
+      "slug": "gyeongnam-10586276",
+      "hotelName": "남해 풍경펜션",
+      "address": "경상남도 남해군 미조면 동부대로14번길 27-7"
+    },
+    {
+      "slug": "gyeongnam-16371466",
+      "hotelName": "산청 가온누리펜션",
+      "address": "경상남도 산청군 단성면 호암로701번길 155-62"
+    },
+    {
+      "slug": "gyeongnam-22339273",
+      "hotelName": "통영 욕지도관광농원카라반펜션",
+      "address": "경상남도 통영시 욕지면 욕지일주로 819-47"
+    },
+    {
+      "slug": "gyeongnam-10574207",
+      "hotelName": "거제도 비켄키즈풀빌라",
+      "address": "경상남도 거제시 장목면 율천두모로 154-49 비켄키즈풀빌라"
+    },
+    {
+      "slug": "gyeongnam-10586259",
+      "hotelName": "거제도 거제더비치펜션A동",
+      "address": "경상남도 거제시 장목면 거제북로 2738-1"
+    },
+    {
+      "slug": "gyeongnam-25064026",
+      "hotelName": "거제도 플로우풀빌라",
+      "address": "경상남도 거제시 둔덕면 술역3길 59"
+    },
+    {
+      "slug": "gyeongnam-10573498",
+      "hotelName": "창원 진해 CN",
+      "address": "경상남도 창원시 진해구 웅천중로 12 (구)) 진해구 남문동 1165)"
+    },
+    {
+      "slug": "gyeongnam-10585566",
+      "hotelName": "함안 The Moon(더문)",
+      "address": "경상남도 함안군 가야읍 함안대로 540-3 더문모텔"
+    },
+    {
+      "slug": "gyeongnam-16254259",
+      "hotelName": "남해 상주펜션",
+      "address": "경상남도 남해군 상주면 남해대로 674"
+    },
+    {
+      "slug": "gyeongnam-18169190",
+      "hotelName": "사천 비토애풀빌라펜션&글램핑",
+      "address": "경상남도 사천시 서포면 토끼로 234"
+    },
+    {
+      "slug": "gyeongnam-10573233",
+      "hotelName": "진주 에이스",
+      "address": "경상남도 진주시 큰들로180번길 11-1"
+    },
+    {
+      "slug": "gyeongnam-10589921",
+      "hotelName": "남해 더왕글램핑",
+      "address": "경상남도 남해군 설천면 설천로 224-79"
+    },
+    {
+      "slug": "gyeongnam-30991012",
+      "hotelName": "창원 마산 합성동 토파즈",
+      "address": "경상남도 창원시 마산회원구 합성남7길 47"
+    },
+    {
+      "slug": "gyeongnam-10581785",
+      "hotelName": "창원 마산 합성동 소울메이트",
+      "address": "경상남도 창원시 마산회원구 양덕북18길 16 소울메이트 호텔"
+    },
+    {
+      "slug": "gyeongnam-10590802",
+      "hotelName": "거제도 오션스테이키즈&애견펜션",
+      "address": "경상남도 거제시 거제면 거제남서로 3687-31"
+    },
+    {
+      "slug": "gyeongnam-25131784",
+      "hotelName": "양산 뮤직앤비어 게스트하우스",
+      "address": "경상남도 양산시 동면 금오11길 34-7"
+    },
+    {
+      "slug": "gyeongnam-10581681",
+      "hotelName": "창원 북면 V3 무인텔",
+      "address": "43, Cheonju-ro 1165beon-gil, Buk-myeon, Uichang-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-18528634",
+      "hotelName": "남해 갯마을펜션",
+      "address": "경상남도 남해군 이동면 남해대로 2246-1"
+    },
+    {
+      "slug": "gyeongnam-10582301",
+      "hotelName": "양산 북부동 벤츠",
+      "address": "경상남도 양산시 중앙로 178-21 양산 북부동 벤츠"
+    },
+    {
+      "slug": "gyeongnam-10582144",
+      "hotelName": "사천 The W 무인텔",
+      "address": "106-40, Baechun-gil, Chukdong-myeon, Sacheon-si, Gyeongsangnam-do 진주"
+    },
+    {
+      "slug": "gyeongnam-13302712",
+      "hotelName": "하동 가을호텔",
+      "address": "경상남도 하동군 금성면 산업로 823 가을호텔"
+    },
+    {
+      "slug": "gyeongnam-10584735",
+      "hotelName": "김해 삼계 투헤븐",
+      "address": "경상남도 김해시 삼계로55번길 9"
+    },
+    {
+      "slug": "gyeongnam-10586345",
+      "hotelName": "남해 양화황토펜션",
+      "address": "경상남도 남해군 삼동면 양화금로 329-35"
+    },
+    {
+      "slug": "gyeongnam-10585839",
+      "hotelName": "산청 U 무인텔",
+      "address": "경상남도 산청군 단성면 지리산대로2705번길 24-4"
+    },
+    {
+      "slug": "gyeongnam-10580998",
+      "hotelName": "밀양 스카이",
+      "address": "경상남도 밀양시 석정로 16-3"
+    },
+    {
+      "slug": "gyeongnam-10573503",
+      "hotelName": "창원 진해 솜",
+      "address": "경상남도 창원시 진해구 웅천중로 6-12 (구.진해구 남문동 1169)"
+    },
+    {
+      "slug": "gyeongnam-10580916",
+      "hotelName": "거제도 장평 S",
+      "address": "19, Jangpyeong-ro 10-gil, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-28337817",
+      "hotelName": "통영 항남동 퀸",
+      "address": "경상남도 통영시 통영해안로 285"
+    },
+    {
+      "slug": "gyeongnam-14085231",
+      "hotelName": "창원 진해 용원 V",
+      "address": "경상남도 창원시 진해구 용원서로31번길 9"
+    },
+    {
+      "slug": "gyeongnam-10581506",
+      "hotelName": "통영 락",
+      "address": "경상남도 통영시 광도면 죽림5로 55-27"
+    },
+    {
+      "slug": "gyeongnam-10580401",
+      "hotelName": "김해 삼계 M",
+      "address": "경상남도 김해시 삼계로55번길 16"
+    },
+    {
+      "slug": "gyeongnam-18469460",
+      "hotelName": "진주 톰지",
+      "address": "경상남도 진주시 순환로559번길 10-4"
+    },
+    {
+      "slug": "gyeongnam-10586321",
+      "hotelName": "사천 라피스",
+      "address": "경상남도 사천시 사천읍 역사길 27"
+    },
+    {
+      "slug": "gyeongnam-13302602",
+      "hotelName": "고성 자자",
+      "address": "100-21, Nampo-ro 162beon-gil, Goseong-eup, Goseong-gun, Gyeongsangnam-do 고성"
+    },
+    {
+      "slug": "gyeongnam-10590716",
+      "hotelName": "창원 마산 합성동 레인보우",
+      "address": "경상남도 창원시 마산회원구 양덕북18길 42"
+    },
+    {
+      "slug": "gyeongnam-13302853",
+      "hotelName": "통영 발렌타인",
+      "address": "경상남도 통영시 안개1길 19"
+    },
+    {
+      "slug": "gyeongnam-10580517",
+      "hotelName": "사천(삼천포) 윈 무인텔",
+      "address": "20, Beollihandeul-gil, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-10590694",
+      "hotelName": "창원 진해 용원 프리텔",
+      "address": "경상남도 창원시 진해구 용원서로39번길 13 프리텔모텔 7층"
+    },
+    {
+      "slug": "gyeongnam-10580314",
+      "hotelName": "사천(삼천포) K",
+      "address": "93-7, Sunam-gil, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-10588623",
+      "hotelName": "창원 북면 SOME(썸)",
+      "address": "경상남도 창원시 의창구 북면 천주로1165번길 53"
+    },
+    {
+      "slug": "gyeongnam-10589375",
+      "hotelName": "진주 콩",
+      "address": "29-3, Jinju-daero 891beon-gil, Jinju-si, Gyeongsangnam-do 진주"
+    },
+    {
+      "slug": "gyeongnam-10572798",
+      "hotelName": "창원 마산 소풍",
+      "address": "경상남도 창원시 마산합포구 해안대로 10"
+    },
+    {
+      "slug": "gyeongnam-25005417",
+      "hotelName": "창원 팔용동 에스",
+      "address": "경상남도 창원시 의창구 의창대로54번길 13-9"
+    },
+    {
+      "slug": "gyeongnam-31070071",
+      "hotelName": "산청 비토애럭셔리글램핑",
+      "address": "경상남도 산청군 신안면 둔철산로 575-26 비토애 럭셔리글램핑 산청점"
+    },
+    {
+      "slug": "gyeongnam-10581970",
+      "hotelName": "진주 충무공동 코지",
+      "address": "경상남도 진주시 에나로 103-7"
+    },
+    {
+      "slug": "gyeongnam-10580356",
+      "hotelName": "통영 베스트",
+      "address": "경상남도 통영시 광도면 죽림해안로 94"
+    },
+    {
+      "slug": "gyeongnam-10590695",
+      "hotelName": "양산 물금 L",
+      "address": "경상남도 양산시 물금읍 범구1길 13"
+    },
+    {
+      "slug": "gyeongnam-13302930",
+      "hotelName": "밀양 칼라엠",
+      "address": "경상남도 밀양시 미리벌중앙로2길 5-5"
+    },
+    {
+      "slug": "gyeongnam-10582017",
+      "hotelName": "양산 북부동 더밤S",
+      "address": "경상남도 양산시 북안북9길 4"
+    },
+    {
+      "slug": "gyeongnam-10587478",
+      "hotelName": "통영 미모스",
+      "address": "경상남도 통영시 항남2길 25-13 미모스모텔"
+    },
+    {
+      "slug": "gyeongnam-10573525",
+      "hotelName": "남해 상주천산해펜션",
+      "address": "경상남도 남해군 상주면 상주로 12-5"
+    },
+    {
+      "slug": "gyeongnam-10585678",
+      "hotelName": "창원 마산 합성동 통",
+      "address": "9, Hapseongnam 7-gil, Masanhoewon-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-24118915",
+      "hotelName": "창원 상남동 무무",
+      "address": "3, Madimi-ro 27beon-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10574649",
+      "hotelName": "진주 락 무인텔",
+      "address": "경상남도 진주시 큰들로180번길 3"
+    },
+    {
+      "slug": "gyeongnam-30990131",
+      "hotelName": "사천 타니아",
+      "address": "경상남도 사천시 곤명면 봉명로 277 타니아모텔"
+    },
+    {
+      "slug": "gyeongnam-30990048",
+      "hotelName": "진주 장미빛",
+      "address": "경상남도 진주시 진양호로564번길 12-7"
+    },
+    {
+      "slug": "gyeongnam-30991527",
+      "hotelName": "창원 팔용동 짝",
+      "address": "경상남도 창원시 의창구 의창대로54번길 14-7"
+    },
+    {
+      "slug": "gyeongnam-10581443",
+      "hotelName": "김해 어방동 텐",
+      "address": "경상남도 김해시 인제로170번길 9-17"
+    },
+    {
+      "slug": "gyeongnam-10582855",
+      "hotelName": "통영 크라운",
+      "address": "경상남도 통영시 정동3길 22"
+    },
+    {
+      "slug": "gyeongnam-16911506",
+      "hotelName": "진주 HOTEL 케미(CHEMI)",
+      "address": "경상남도 진주시 돗골로20번길 7"
+    },
+    {
+      "slug": "gyeongnam-36919981",
+      "hotelName": "거제도 거제치유농업동산",
+      "address": "경상남도 거제시 남부면 저구1길 29-1"
+    },
+    {
+      "slug": "gyeongnam-10587671",
+      "hotelName": "고성 오아시스",
+      "address": "63, Duho 1-gil, Maam-myeon, Goseong-gun, Gyeongsangnam-do 고성"
+    },
+    {
+      "slug": "gyeongnam-10581894",
+      "hotelName": "창원 진해 용원 뮤",
+      "address": "경상남도 창원시 진해구 용원서로39번길 11 용원프라자 2층"
+    },
+    {
+      "slug": "gyeongnam-10589402",
+      "hotelName": "창원 마산 바다뷰",
+      "address": "1398-135, Hoejin-ro, Jinjeon-myeon, Masanhappo-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-30991553",
+      "hotelName": "사천 필",
+      "address": "경상남도 사천시 사천읍 역사동길 64 필모텔"
+    },
+    {
+      "slug": "gyeongnam-27747937",
+      "hotelName": "산청 예다움 한옥스테이",
+      "address": "경상남도 산청군 단성면 지리산대로 2901-6"
+    },
+    {
+      "slug": "gyeongnam-10574026",
+      "hotelName": "통영 해오름키즈풀빌라",
+      "address": "경상남도 통영시 도산면 도산일주로 456-49 비클래시 통영점"
+    },
+    {
+      "slug": "gyeongnam-10575225",
+      "hotelName": "양산(배내골) 미루펜션",
+      "address": "841, Baenae-ro, Wondong-myeon, Yangsan-si, Gyeongsangnam-do 양산"
+    },
+    {
+      "slug": "gyeongnam-10579934",
+      "hotelName": "양산(배내골) 해피밸리펜션",
+      "address": "경상남도 양산시 원동면 배내로 824 해피밸리펜션"
+    },
+    {
+      "slug": "gyeongnam-18528603",
+      "hotelName": "통영 욕지도펜션리조트",
+      "address": "경상남도 통영시 욕지면 욕지일주로 975-82"
+    },
+    {
+      "slug": "gyeongnam-16482151",
+      "hotelName": "거제도 여차엘피라펜션",
+      "address": "경상남도 거제시 남부면 거제남서로 370"
+    },
+    {
+      "slug": "gyeongnam-10576140",
+      "hotelName": "하동 그린나래펜션",
+      "address": "경상남도 하동군 화개면 부춘길 281"
+    },
+    {
+      "slug": "gyeongnam-23307808",
+      "hotelName": "고성 드래곤스파빌리지",
+      "address": "218, Hoejin-ro, Hoehwa-myeon, Goseong-gun, Gyeongsangnam-do 고성"
+    },
+    {
+      "slug": "gyeongnam-31216722",
+      "hotelName": "산청 지리산리조트글램핑",
+      "address": "경상남도 산청군 시천면 지리산대로511번길 11-33 11-31,"
+    },
+    {
+      "slug": "gyeongnam-30990495",
+      "hotelName": "창원 마산 나인",
+      "address": "935, Gyeongnam-daero, Naeseo-eup, Masanhoewon-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10575126",
+      "hotelName": "남해 바다엔소나무펜션",
+      "address": "경상남도 남해군 남면 남서대로 484"
+    },
+    {
+      "slug": "gyeongnam-10573402",
+      "hotelName": "넘버25 김해삼계점",
+      "address": "경상남도 김해시 삼계로55번길 12"
+    },
+    {
+      "slug": "gyeongnam-30990505",
+      "hotelName": "진주 넘버25",
+      "address": "경상남도 진주시 남강로 1247"
+    },
+    {
+      "slug": "gyeongnam-10590680",
+      "hotelName": "통영 맨투맨",
+      "address": "경상남도 통영시 광도면 죽림해안로 118-31"
+    },
+    {
+      "slug": "gyeongnam-18202708",
+      "hotelName": "김해 어방동 호텔 더스테이",
+      "address": "경상남도 김해시 김해대로2529번길 72-4"
+    },
+    {
+      "slug": "gyeongnam-16254006",
+      "hotelName": "밀양 고례 풀빌라앤펜션",
+      "address": "경상남도 밀양시 단장면 고례3길 33"
+    },
+    {
+      "slug": "gyeongnam-24052781",
+      "hotelName": "통영 통리단길 게스트하우스",
+      "address": "경상남도 통영시 통영해안로 321-1 통리단길"
+    },
+    {
+      "slug": "gyeongnam-10576160",
+      "hotelName": "남해 마린K펜션",
+      "address": "경상남도 남해군 창선면 동부대로 2821-20 마린K펜션"
+    },
+    {
+      "slug": "gyeongnam-16347983",
+      "hotelName": "남해 뜨락펜션",
+      "address": "경상남도 남해군 삼동면 동부대로 1099"
+    },
+    {
+      "slug": "gyeongnam-10582677",
+      "hotelName": "창원 마산 W",
+      "address": "256, Gyobangcheonnam-gil, Masanhappo-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10585827",
+      "hotelName": "사천 해울림펜션(남해)",
+      "address": "131, Jebi-gil, Seopo-myeon, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-21873401",
+      "hotelName": "거제도 장승포 호텔 더 밤(THE BAM)",
+      "address": "152, Neungpo-ro, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-10589139",
+      "hotelName": "거제도 늘푸른펜션(망치 해수욕장)",
+      "address": "491, Bukbyeongsan-ro, Irun-myeon, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-10589994",
+      "hotelName": "남해 편백황토한옥펜션",
+      "address": "경상남도 남해군 창선면 동부대로 2655-11"
+    },
+    {
+      "slug": "gyeongnam-10579832",
+      "hotelName": "사천 SHOW",
+      "address": "경상남도 사천시 정동면 진삼로 1208-12"
+    },
+    {
+      "slug": "gyeongnam-36445170",
+      "hotelName": "사천 피닉스",
+      "address": "경상남도 사천시 사천읍 역사길 11-14"
+    },
+    {
+      "slug": "gyeongnam-10581324",
+      "hotelName": "김해 삼계 이데아",
+      "address": "경상남도 김해시 가야로 198 이데아모텔"
+    },
+    {
+      "slug": "gyeongnam-10591189",
+      "hotelName": "거제도 장승포 H",
+      "address": "156, Neungpo-ro, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-16305082",
+      "hotelName": "양산(배내골) 솔밭휴양림펜션",
+      "address": "경상남도 양산시 원동면 어실로 1485 솔밭휴양림"
+    },
+    {
+      "slug": "gyeongnam-10581733",
+      "hotelName": "합천 탑",
+      "address": "경상남도 합천군 야로면 가야산로 572-5"
+    },
+    {
+      "slug": "gyeongnam-18962296",
+      "hotelName": "창원 상남동 하이",
+      "address": "89, Sangnam-ro, Seongsan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-10586013",
+      "hotelName": "고성 구름위의산책펜션",
+      "address": "1312-35, Samsang-ro, Sangni-myeon, Goseong-gun, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-16361179",
+      "hotelName": "산청 풍경펜션",
+      "address": "경상남도 산청군 단성면 호암로 1270-6"
+    },
+    {
+      "slug": "gyeongnam-30793817",
+      "hotelName": "거제도 르솔레이풀빌라",
+      "address": "경상남도 거제시 동부면 거제대로 1085 르솔레이"
+    },
+    {
+      "slug": "gyeongnam-10576261",
+      "hotelName": "남해 캐슬",
+      "address": "경상남도 남해군 이동면 성남로 274 캐슬529"
+    },
+    {
+      "slug": "gyeongnam-34127720",
+      "hotelName": "거창 수승대콘도텔",
+      "address": "경상남도 거창군 위천면 송계로 441"
+    },
+    {
+      "slug": "gyeongnam-10573212",
+      "hotelName": "진주 베스트갤러리",
+      "address": "1121, Jinju-daero, Jinju-si, Gyeongsangnam-do 진주"
+    },
+    {
+      "slug": "gyeongnam-10587306",
+      "hotelName": "양산 통도사 W",
+      "address": "74, Tongdosa-ro, Habuk-myeon, Yangsan-si, Gyeongsangnam-do 양산"
+    },
+    {
+      "slug": "gyeongnam-32709599",
+      "hotelName": "창원 마산 하이츠",
+      "address": "경상남도 창원시 마산회원구 내서읍 함마대로 2786-1"
+    },
+    {
+      "slug": "gyeongnam-10588463",
+      "hotelName": "남해 해오름펜션",
+      "address": "경상남도 남해군 미조면 남해대로 177"
+    },
+    {
+      "slug": "gyeongnam-17526128",
+      "hotelName": "하동 화이트하우스펜션",
+      "address": "342, Beomwang-gil, Hwagae-myeon, Hadong-gun, Gyeongsangnam-do 하동"
+    },
+    {
+      "slug": "gyeongnam-18709114",
+      "hotelName": "통영 동피랑",
+      "address": "365, Tongyeonghaean-ro, Tongyeong-si, Gyeongsangnam-do 통영"
+    },
+    {
+      "slug": "gyeongnam-20891155",
+      "hotelName": "거제도 바다추억펜션",
+      "address": "경상남도 거제시 동부면 고촌길 29"
+    },
+    {
+      "slug": "gyeongnam-10575005",
+      "hotelName": "거제도 사등 케이(K) 무인텔",
+      "address": "경상남도 거제시 사등면 성포로 326 가동 1~3, 나동 지1~1층"
+    },
+    {
+      "slug": "gyeongnam-18850706",
+      "hotelName": "하동 숲속정원펜션",
+      "address": "경상남도 하동군 화개면 벽소령길 1"
+    },
+    {
+      "slug": "gyeongnam-32207938",
+      "hotelName": "사천(삼천포) 뷰 HOTEL",
+      "address": "경상남도 사천시 목섬길 30"
+    },
+    {
+      "slug": "gyeongnam-10586070",
+      "hotelName": "양산(배내골) 배내골포시즌펜션",
+      "address": "경상남도 양산시 원동면 어실로 1535 배내골포시즌"
+    },
+    {
+      "slug": "gyeongnam-10583424",
+      "hotelName": "거제도 자연뜰펜션",
+      "address": "경상남도 거제시 거제면 거제남서로 3973-13"
+    },
+    {
+      "slug": "gyeongnam-10589327",
+      "hotelName": "거제도 편백숲펜션",
+      "address": "경상남도 거제시 하청면 칠천로 910"
+    },
+    {
+      "slug": "gyeongnam-10576782",
+      "hotelName": "창녕 궁 무인텔",
+      "address": "경상남도 창녕군 대지면 미산길 3-42"
+    },
+    {
+      "slug": "gyeongnam-10584318",
+      "hotelName": "진주 CF 무인텔",
+      "address": "경상남도 진주시 순환로 528"
+    },
+    {
+      "slug": "gyeongnam-10576539",
+      "hotelName": "창원 상남동 찰리스",
+      "address": "1, Madimi-ro 64beon-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-22672430",
+      "hotelName": "통영 아토펜션",
+      "address": "경상남도 통영시 산양읍 풍화일주로 1609-66 1층"
+    },
+    {
+      "slug": "gyeongnam-28707696",
+      "hotelName": "창녕 비사벌",
+      "address": "경상남도 창녕군 창녕읍 명덕로 43"
+    },
+    {
+      "slug": "gyeongnam-21788803",
+      "hotelName": "통영 파로스펜션",
+      "address": "경상남도 통영시 산양읍 양화길 46 파로스펜션"
+    },
+    {
+      "slug": "gyeongnam-30990996",
+      "hotelName": "남해 산타모니카펜션",
+      "address": "경상남도 남해군 이동면 미국마을길 16 산타모니카"
+    },
+    {
+      "slug": "gyeongnam-31037424",
+      "hotelName": "산청 지리산스테이숲펜션",
+      "address": "경상남도 산청군 삼장면 대원사길 849"
+    },
+    {
+      "slug": "gyeongnam-33534561",
+      "hotelName": "남해 상주장호스텔펜션",
+      "address": "경상남도 남해군 상주면 남해대로697번길 22-1 2. 3층"
+    },
+    {
+      "slug": "gyeongnam-10580697",
+      "hotelName": "거창 CF",
+      "address": "경상남도 거창군 거창읍 대평4길 42"
+    },
+    {
+      "slug": "gyeongnam-10583704",
+      "hotelName": "남해 바닷가별장펜션",
+      "address": "경상남도 남해군 이동면 신전리 955"
+    },
+    {
+      "slug": "gyeongnam-18528508",
+      "hotelName": "사천 마렌626펜션",
+      "address": "6-26, Jebi-gil Seopo-myeon, Sacheon-si, Gyeongsangnam-do 사천"
+    },
+    {
+      "slug": "gyeongnam-24118705",
+      "hotelName": "창원 북면 노블레스",
+      "address": "경상남도 창원시 의창구 북면 천주로1165번길 50"
+    },
+    {
+      "slug": "gyeongnam-10574199",
+      "hotelName": "통영 아미고리조트",
+      "address": "경상남도 통영시 산양읍 논아랫개길 154 아미고리조트"
+    },
+    {
+      "slug": "gyeongnam-10574013",
+      "hotelName": "거제도 카나리아풀빌라",
+      "address": "경상남도 거제시 사등면 덕호해안길 147 카나리아풀빌라& 어부와아들 거제점"
+    },
+    {
+      "slug": "gyeongnam-10576415",
+      "hotelName": "창원 마산 스테이 공담",
+      "address": "경상남도 창원시 마산합포구 해안대로 406-1"
+    },
+    {
+      "slug": "gyeongnam-10576604",
+      "hotelName": "거제도 화이트블랙펜션(いざかや居酒屋)",
+      "address": "32-1, Hakdong 7-gil, Dongbu-myeon, Geoje-si, Gyeongsangnam-do 거제"
+    },
+    {
+      "slug": "gyeongnam-26849555",
+      "hotelName": "거제도 춘자펜션",
+      "address": "경상남도 거제시 일운면 와현1길 34"
+    },
+    {
+      "slug": "gyeongnam-18469929",
+      "hotelName": "통영 투",
+      "address": "경상남도 통영시 정동2길 46-8"
+    },
+    {
+      "slug": "gyeongnam-30993380",
+      "hotelName": "진주 샤인빌",
+      "address": "경상남도 진주시 남강로1259번길 5"
+    },
+    {
+      "slug": "gyeongnam-10580933",
+      "hotelName": "밀양 미르 무인텔",
+      "address": "경상남도 밀양시 부북면 무안로 771"
+    },
+    {
+      "slug": "gyeongnam-10578418",
+      "hotelName": "산청 지리산골짝펜션",
+      "address": "경상남도 산청군 시천면 삼신봉로780번길 54-20"
+    },
+    {
+      "slug": "gyeongnam-10585676",
+      "hotelName": "합천 거기 무인텔",
+      "address": "경상남도 합천군 야로면 가야산로 572-7"
+    },
+    {
+      "slug": "gyeongnam-27801996",
+      "hotelName": "남해 하얀펜션(은모래비치해수욕장인근)",
+      "address": "1-4, Sangju-ro 60beon-gil, Sangju-myeon, Namhae-gun, Gyeongsangnam-do 남해"
+    },
+    {
+      "slug": "gyeongnam-10587265",
+      "hotelName": "창원 상남동 첼로",
+      "address": "5, Madimi-ro 15beon-gil, Seongsan-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-36834708",
+      "hotelName": "고성 43싸이",
+      "address": "8-1, Jungang-ro 43beon-gil, Goseong-eup, Goseong-gun, Gyeongsangnam-do 고성"
+    },
+    {
+      "slug": "gyeongnam-11303084",
+      "hotelName": "거제도 별그대펜션",
+      "address": "경상남도 거제시 남부면 대포길 32"
+    },
+    {
+      "slug": "gyeongnam-10577644",
+      "hotelName": "거제도 모래숲펜션",
+      "address": "경상남도 거제시 일운면 와현2길 9 모래숲펜션"
+    },
+    {
+      "slug": "gyeongnam-28303583",
+      "hotelName": "사천 비토애글램핑시즌2",
+      "address": "경상남도 사천시 서포면 토끼로 217"
+    },
+    {
+      "slug": "gyeongnam-10581752",
+      "hotelName": "거제도 장승포 그랜드",
+      "address": "경상남도 거제시 장승포로2길 13"
+    },
+    {
+      "slug": "gyeongnam-10584758",
+      "hotelName": "김해 어방동 미인",
+      "address": "경상남도 김해시 김해대로2541번길 73"
+    },
+    {
+      "slug": "gyeongnam-18468770",
+      "hotelName": "함양 백무산장황토방펜션",
+      "address": "경상남도 함양군 마천면 백무동로 321"
+    },
+    {
+      "slug": "gyeongnam-10585509",
+      "hotelName": "창원 봉곡동 MVG",
+      "address": "경상남도 창원시 의창구 원이대로261번길 6"
+    },
+    {
+      "slug": "gyeongnam-10589651",
+      "hotelName": "통영 양지펜션",
+      "address": "경상남도 통영시 욕지면 동촌길 10-1"
+    },
+    {
+      "slug": "gyeongnam-10584833",
+      "hotelName": "함양 솔바람펜션",
+      "address": "경상남도 함양군 마천면 금계길 37"
+    },
+    {
+      "slug": "gyeongnam-18528180",
+      "hotelName": "산청 별바라기 무인텔",
+      "address": "2641, Jirisan-daero, Danseong-myeon, Sancheong-gun, Gyeongsangnam-do 창녕"
+    },
+    {
+      "slug": "gyeongnam-34520772",
+      "hotelName": "통영 당포의하루펜션",
+      "address": "경상남도 통영시 산양읍 중화큰길 7"
+    },
+    {
+      "slug": "gyeongnam-30991222",
+      "hotelName": "진주 더온",
+      "address": "경상남도 진주시 상대로 57-2"
+    },
+    {
+      "slug": "gyeongnam-34306485",
+      "hotelName": "통영(사량도) 동성해피하우스펜션",
+      "address": "경상남도 통영시 사량면 상도일주로 1553"
+    },
+    {
+      "slug": "gyeongnam-10583599",
+      "hotelName": "거제도 쏠베르펜션",
+      "address": "경상남도 거제시 동부면 가배오송길 128"
+    },
+    {
+      "slug": "gyeongnam-34602323",
+      "hotelName": "창원 마산 리츠",
+      "address": "7, Odongnam 1-gil, Masanhappo-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-31570730",
+      "hotelName": "김해 어방동 거북이",
+      "address": "경상남도 김해시 김해대로2541번길 76"
+    },
+    {
+      "slug": "gyeongnam-10580461",
+      "hotelName": "밀양 V1,V2,V3",
+      "address": "374-1, Cheontae-ro, Samnangjin-eup, Miryang-si, Gyeongsangnam-do 양산"
+    },
+    {
+      "slug": "gyeongnam-10591031",
+      "hotelName": "하동 산수애펜션",
+      "address": "경상남도 하동군 악양면 악양서로 769-9 하동산수애수영장 독채펜션"
+    },
+    {
+      "slug": "gyeongnam-30990179",
+      "hotelName": "진주 둥지",
+      "address": "경상남도 진주시 진주대로891번길 29-1"
+    },
+    {
+      "slug": "gyeongnam-10585577",
+      "hotelName": "창원 마산 창동 V1",
+      "address": "126, Namseong-ro, Masanhappo-gu, Changwon-si, Gyeongsangnam-do 창원"
+    },
+    {
+      "slug": "gyeongnam-18528441",
+      "hotelName": "산청 예원펜션",
+      "address": "경상남도 산청군 시천면 상지길 1"
+    },
+    {
+      "slug": "gyeongnam-10578353",
+      "hotelName": "통영(사량도) 돈키호테펜션",
+      "address": "경상남도 통영시 사량면 대항길 64-44"
+    },
+    {
+      "slug": "gyeongnam-10579403",
+      "hotelName": "통영 갯바위펜션",
+      "address": "경상남도 통영시 용남면 견유1길 175"
+    },
+    {
+      "slug": "gyeongnam-18469654",
+      "hotelName": "거제도 휘게펜션",
+      "address": "경상남도 거제시 사등면 가조로 1091 거제휘게펜션"
+    },
+    {
+      "slug": "gyeongnam-10581061",
+      "hotelName": "창원 명서동 호텔 잇츠",
+      "address": "경상남도 창원시 의창구 창이대로95번길 9"
+    },
+    {
+      "slug": "gyeongnam-24336423",
+      "hotelName": "산청 지리산큰나무 민박",
+      "address": "경상남도 산청군 시천면 지리산대로 473 3층 지리산큰나무"
+    },
+    {
+      "slug": "gyeongnam-30992762",
+      "hotelName": "창원 돈 호텔",
+      "address": "경상남도 창원시 성산구 용지로153번길 7 영화빌딩 8,9층"
+    },
+    {
+      "slug": "gyeongnam-10573829",
+      "hotelName": "통영 친구펜션",
+      "address": "경상남도 통영시 산양읍 척포길 139 친구펜션"
+    },
+    {
+      "slug": "gyeongnam-10582611",
+      "hotelName": "통영 파도소리펜션",
+      "address": "경상남도 통영시 수륙길 5"
+    },
+    {
+      "slug": "gyeongnam-25120095",
+      "hotelName": "거제도 씨엔문펜션",
+      "address": "경상남도 거제시 장목면 흥남길 52 씨앤문펜션"
+    },
+    {
+      "slug": "gyeongnam-10575589",
+      "hotelName": "진주 무탈호텔",
+      "address": "경상남도 진주시 솔밭로6번길 11 1층"
+    },
+    {
+      "slug": "gyeongnam-10587439",
+      "hotelName": "남해 모노펜션",
+      "address": "경상남도 남해군 남면 남면로 896"
+    },
+    {
+      "slug": "gyeongnam-10585980",
+      "hotelName": "진주 나비 무인텔",
+      "address": "경상남도 진주시 진주대로 1196-1"
+    },
+    {
+      "slug": "gyeongnam-10580650",
+      "hotelName": "거제도 해금강 파타야",
+      "address": "경상남도 거제시 남부면 해금강2길 1-1 해금강유람선 주차장변"
+    },
+    {
+      "slug": "gyeongnam-10583688",
+      "hotelName": "산청 하늘빛호수펜션",
+      "address": "경상남도 산청군 단성면 호암로 892 하늘빛호수펜션"
+    },
+    {
+      "slug": "gyeongnam-18528197",
+      "hotelName": "거제도 포브릿지펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1751 포브릿지 펜션"
+    },
+    {
+      "slug": "gyeongnam-10581757",
+      "hotelName": "함안 W",
+      "address": "경상남도 함안군 가야읍 중앙남1길 27"
+    },
+    {
+      "slug": "gyeongnam-10585067",
+      "hotelName": "거제도 거제로펜션",
+      "address": "경상남도 거제시 동부면 학동7길 24"
+    },
+    {
+      "slug": "gyeongnam-10587369",
+      "hotelName": "거제도 하나펜션",
+      "address": "경상남도 거제시 일운면 거제대로 1763-2"
+    },
+    {
+      "slug": "gyeongnam-30990775",
+      "hotelName": "산청 예다움한옥스테이펜션",
+      "address": "2901-6, Jirisan-daero, Danseong-myeon, Sancheong-gun, Gyeongsangnam-do 산청"
+    },
+    {
+      "slug": "gyeongnam-10582643",
+      "hotelName": "하동 바람이불어오는곳 게스트하우스",
+      "address": "561, Ssanggye-ro, Hwagae-myeon, Hadong-gun, Gyeongsangnam-do 하동"
+    },
+    {
+      "slug": "gyeongnam-16366865",
+      "hotelName": "남해 숙호펜션",
+      "address": "경상남도 남해군 남면 남면로 219-20"
+    },
+    {
+      "slug": "gyeongnam-30196336",
+      "hotelName": "하동 매화골향기펜션",
+      "address": "경상남도 하동군 하동읍 매화골먹점길 156-24"
+    },
+    {
+      "slug": "gyeongnam-35963114",
+      "hotelName": "강구안 게스트 하우스",
+      "address": "경상남도 통영시 동충4길 56"
+    },
+    {
+      "slug": "gyeongnam-10576069",
+      "hotelName": "남해 아미고펜션",
+      "address": "경상남도 남해군 창선면 동부대로 2765-4"
+    },
+    {
+      "slug": "gyeongnam-18163033",
+      "hotelName": "통영 바다성펜션",
+      "address": "경상남도 통영시 산양읍 달아2길 4-7"
+    },
+    {
+      "slug": "gyeongnam-16381832",
+      "hotelName": "거제도 거제몽돌펜션",
+      "address": "경상남도 거제시 장목면 대계2길 6"
+    },
+    {
+      "slug": "gyeongnam-31838090",
+      "hotelName": "창원 마산 합성동 뉴퀸",
+      "address": "경상남도 창원시 마산회원구 합성서11길 20"
+    },
+    {
+      "slug": "gyeongnam-18528797",
+      "hotelName": "창원 중앙동 더안",
+      "address": "경상남도 창원시 성산구 중앙대로61번길 4"
+    },
+    {
+      "slug": "gyeongnam-24120393",
+      "hotelName": "창원 진해 청안 홍초롱",
+      "address": "경상남도 창원시 진해구 청안로 177"
+    }
+  ],
+  "samples": [
+    {
+      "slug": "gyeongnam-19885932",
+      "kind": "breakfast",
+      "value": "조식 제공 여부와 상세 조건은 예약 플랜별로 다를 수 있으니 사전 확인이 필요합니다."
+    },
+    {
+      "slug": "gyeongnam-19885932",
+      "kind": "parking",
+      "value": "주차 공간 및 부대시설 운영 시간은 방문 전 숙소에 직접 문의하는 것이 권장됩니다."
+    },
+    {
+      "slug": "gyeongnam-19885932",
+      "kind": "breakfast",
+      "value": "조식 및 Wi-Fi 포함 여부는 예약 플랜에 따라 다르므로 최신 조건을 꼭 확인하세요."
+    },
+    {
+      "slug": "gyeongnam-2613029",
+      "kind": "breakfast",
+      "value": "조식 운영 여부 및 Wi-Fi 제공 조건은 예약 플랜 또는 숙소에 최신 조건을 확인해야 합니다."
+    },
+    {
+      "slug": "gyeongnam-2613029",
+      "kind": "breakfast",
+      "value": "조식 제공 여부나 객실 내 Wi-Fi 사용 조건은 예약 플랜 또는 숙소에 최신 조건을 확인하셔야 합니다."
+    },
+    {
+      "slug": "gyeongnam-2613029",
+      "kind": "parking",
+      "value": "주말이나 단풍철 등 성수기에는 주차 공간이 협소해 차량 이용 시 불편할 수 있다는 점을 고려해야 합니다."
+    },
+    {
+      "slug": "gyeongnam-2624908",
+      "kind": "parking",
+      "value": "지하 주차 공간이 다소 협소하여 늦은 시간 방문 시 야외 주차를 해야 할 수 있습니다."
+    },
+    {
+      "slug": "gyeongnam-2624908",
+      "kind": "breakfast",
+      "value": "무료 조식이나 무료 Wi-Fi가 기본 제공되는 플랜을 필수로 찾는 여행객 (예약 조건 확인 필요)"
+    },
+    {
+      "slug": "gyeongnam-2624908",
+      "kind": "breakfast",
+      "value": "조식 운영 여부와 Wi-Fi 서비스는 예약하시는 상품 플랜에 따라 다를 수 있으니 최신 조건을 확인하시기 바랍니다."
+    },
+    {
+      "slug": "gyeongnam-2624908",
+      "kind": "breakfast",
+      "value": "조식 운영 여부나 Wi-Fi 제공 여부는 예약하시는 상품 플랜에 따라 다를 수 있으므로 예약 전 최신 조건을 확인하는 것이 좋습니다."
+    },
+    {
+      "slug": "gyeongnam-2624908",
+      "kind": "parking",
+      "value": "지하 주차 공간이 다소 협소하다는 후기가 있으므로, 늦은 시간에 입차할 경우 야외 주차장을 이용해야 할 수 있습니다."
+    },
+    {
+      "slug": "gyeongnam-443833",
+      "kind": "breakfast",
+      "value": "조식 제공 여부 및 이용 요금은 예약 플랜이나 숙소에 최신 조건을 확인하세요."
+    },
+    {
+      "slug": "gyeongnam-443833",
+      "kind": "wifi",
+      "value": "객실 내 Wi-Fi 사용 가능 여부는 예약 시 제공되는 상세 정보를 참고하시기 바랍니다."
+    },
+    {
+      "slug": "gyeongnam-443833",
+      "kind": "breakfast",
+      "value": "다만 조식 운영 여부나 무료 와이파이 제공 여부 등은 예약 상품에 따라 다를 수 있으니 사전 확인이 필요합니다."
+    },
+    {
+      "slug": "gyeongnam-443833",
+      "kind": "parking",
+      "value": "주차 공간이나 부대시설 이용 요금 등 세부 운영 방침은 방문 시점에 맞춰 숙소 측에 직접 문의하는 것이 정확합니다."
+    },
+    {
+      "slug": "gyeongnam-652149",
+      "kind": "breakfast",
+      "value": "조식 운영 여부 및 이용 요금은 예약 플랜 또는 숙소에 최신 조건을 확인하세요."
+    },
+    {
+      "slug": "gyeongnam-652149",
+      "kind": "wifi",
+      "value": "무료 Wi-Fi 제공 여부와 객실 내 인터넷 환경은 투숙 전 확인이 필요합니다."
+    },
+    {
+      "slug": "gyeongnam-652149",
+      "kind": "breakfast",
+      "value": "다만 조식 제공 여부나 Wi-Fi 상세 조건은 예약 플랜 또는 숙소에 최신 조건을 확인해야 합니다."
+    }
+  ]
+}

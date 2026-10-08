@@ -31,6 +31,11 @@ const regionConfig = {
   gyeongbuk: {
     address: /(경북|경상북도|Gyeongbuk|Gyeongsangbuk|경주|포항|안동|구미|김천|영주|영천|상주|문경|경산|의성|청송|영양|영덕|청도|고령|성주|칠곡|예천|봉화|울진|울릉)/i,
     locations: ['경주', '포항', '안동', '구미', '김천', '영주', '영천', '상주', '문경', '경산', '의성', '청송', '영양', '영덕', '청도', '고령', '성주', '칠곡', '예천', '봉화', '울진', '울릉', '보문단지', '불국사', '황리단길', '첨성대', '호미곶', '하회마을', '주왕산', '독도']
+  },
+  gyeongnam: {
+    address: /(경남|경상남도|Gyeongnam|Gyeongsangnam|창원|김해|진주|양산|거제|통영|사천|밀양|함안|거창|창녕|고성|하동|합천|남해|함양|산청|의령)/i,
+    rejectAddress: /(서울|Seoul|부산|Busan|대구|Daegu|인천|Incheon|광주|Gwangju|대전|Daejeon|울산|Ulsan|세종|Sejong|경기|Gyeonggi|강원|Gangwon|충북|충청북도|Chungbuk|충남|충청남도|Chungnam|전북|전라북도|Jeonbuk|전남|전라남도|Jeonnam|경북|경상북도|Gyeongbuk|제주|Jeju)/i,
+    locations: ['창원', '마산', '진해', '김해', '진주', '양산', '거제', '통영', '사천', '밀양', '함안', '거창', '창녕', '고성', '하동', '합천', '남해', '함양', '산청', '의령', '해금강', '외도', '한려수도', '케이블카', '동피랑', '독일마을', '화개장터', '지리산']
   }
 }[regionPrefix];
 if (!regionConfig) throw new Error(`Unsupported region prefix: ${regionPrefix}`);
@@ -41,7 +46,10 @@ if (!match) throw new Error('Could not parse generatedHotels.ts');
 
 const hotels = JSON.parse(match[1]);
 const incheon = hotels.filter((hotel) => String(hotel.slug || '').startsWith(`${regionPrefix}-`));
-const outOfRegion = incheon.filter((hotel) => !regionConfig.address.test(String(hotel.address || '')));
+const outOfRegion = incheon.filter((hotel) => {
+  const address = String(hotel.address || '');
+  return !regionConfig.address.test(address) || regionConfig.rejectAddress?.test(address);
+});
 const outOfRegionSlugs = new Set(outOfRegion.map((hotel) => hotel.slug));
 const report = {
   scanned: incheon.length,

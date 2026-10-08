@@ -25,10 +25,6 @@ if (genAiProvider === 'vertex') {
 const collected = JSON.parse(await readFile(collectedPath, 'utf8'));
 const existingHotels = await readExistingHotels();
 const existingBySlug = new Map(existingHotels.map((hotel) => [hotel.slug, hotel]));
-const publicHotels = collected.hotels.map((hotel) => {
-  const existing = existingBySlug.get(hotel.slug);
-  return existing?.analysis?.blogReview ? existing : stripPrivateSignals(hotel);
-});
 const reports = [];
 const limit = Number(env.GEMINI_LIMIT || collected.hotels.length);
 const startIndex = Number(env.GEMINI_START_INDEX || '0');
@@ -43,9 +39,25 @@ const requestedSlugs = new Set(
     .map((value) => value.trim())
     .filter(Boolean)
 );
+const targetedMode = requestedSlugs.size > 0;
+const collectedBySlug = new Map(collected.hotels.map((hotel) => [hotel.slug, hotel]));
+const publicHotels = targetedMode
+  ? existingHotels.map((hotel) => stripPrivateSignals(hotel))
+  : collected.hotels.map((hotel) => {
+    const existing = existingBySlug.get(hotel.slug);
+    return existing?.analysis?.blogReview ? existing : stripPrivateSignals(hotel);
+  });
 let generatedCount = 0;
 
-const indexedHotels = collected.hotels.map((hotel, index) => ({ hotel, index }));
+const indexedHotels = (targetedMode ? existingHotels : collected.hotels).map((hotel, index) => {
+  const collectedHotel = collectedBySlug.get(hotel.slug);
+  return {
+    hotel: targetedMode
+      ? { ...collectedHotel, ...hotel, sourceSignals: collectedHotel?.sourceSignals || hotel.sourceSignals || [] }
+      : hotel,
+    index
+  };
+});
 const generationPool = requestedSlugs.size > 0
   ? indexedHotels.filter(({ hotel }) => requestedSlugs.has(hotel.slug))
   : indexedHotels.slice(startIndex, startIndex + limit);
@@ -314,6 +326,12 @@ function buildPrompt(hotel) {
   return `당신은 호텔 예약 전 판단을 돕는 한국어 리뷰 분석 편집자입니다.
 
 중요 원칙:
+- 직접 투숙하거나 방문한 것처럼 쓰지 않습니다. 1인칭 체험담, "내돈내산", "묵어보니", "다녀왔다" 같은 표현을 생성하지 않습니다.
+- 후기 내용은 "공개 후기에서는", "후기에서 반복적으로 확인되는 의견은", "일부 이용자는"처럼 출처 성격이 드러나게 전달합니다.
+- 위치·평점처럼 입력 데이터로 직접 확인되는 사실과 후기에서 도출한 평가를 구분합니다. 평가 문장에는 후기 근거임을 명시합니다.
+- "뛰어난", "우수한", "자랑하는", "선호도가 높다", "적합합니다"처럼 운영자가 직접 보증하는 인상을 주는 표현은 피합니다.
+- 숙소명에 포함된 단어만 보고 오션뷰·주차·조식·수영장·독채·무인 체크인 등의 제공 여부를 추정하지 않습니다.
+- 요약 첫 문장은 확인된 지역과 숙소 유형을 중립적으로 설명하고, 다음 문장은 공개 후기에서 확인되는 경향이나 정보 부족 사실을 밝힙니다.
 - 아고다 후기 원문이나 네이버 검색 결과 문장을 그대로 노출하지 않습니다.
 - 검색 결과 제목/요약 문장을 복사하거나 비슷하게 재작성하지 않습니다.
 - 제공된 호텔 링크와 API 데이터, 검색 신호를 근거로 분석하되, 최종 문장은 새로 작성합니다.
@@ -323,6 +341,9 @@ function buildPrompt(hotel) {
 - 정보가 없다는 사실을 서비스가 없다는 의미로 해석하지 않습니다.
 - 광고문처럼 과장하지 말고, 예약 전에 확인할 실용 정보 중심으로 씁니다.
 - 호텔명, 위치, 체크인, 짐보관, 조식, 방크기, 공항 접근성 등 호텔별 고유 판단 요소가 드러나야 합니다.
+- 네이버 검색 신호에서 실제로 확인되는 예약 의도를 2~4개만 선별해 제목, 소제목, 체크포인트에 자연스럽게 반영합니다.
+- 검색 신호에 없는 시설이나 장점을 SEO 키워드 목적으로 임의 추가하지 않습니다.
+- SEO 제목은 호텔명과 지역을 앞에 두고 위치·조식·주차·가족·체크인 등 확인된 핵심 의도만 사용합니다. 키워드를 길게 나열하지 않습니다.
 - 블로그 후기글은 모바일에서 읽기 쉽게 한 문단을 45~90자 정도로 짧게 씁니다.
 - 각 소제목마다 2~4개 문단을 작성합니다.
 - "경쟁 제품과 비교"는 호텔이 속한 같은 지역 또는 같은 여행 목적의 숙소 선택지와 비교합니다. 다른 도시나 공항권 숙소를 임의로 끌어와 비교하지 않습니다. 확실하지 않은 경쟁 호텔명은 단정하지 않습니다.
@@ -356,7 +377,7 @@ ${JSON.stringify(sourceItems, null, 2)}
   "recommended_for": ["2~4개"],
   "not_recommended_for": ["2~4개"],
   "check_points": ["4~6개"],
-  "seo_title": "호텔명 후기 분석｜위치·체크인·조식 예약 전 체크",
+  "seo_title": "호텔명 지역 후기｜확인된 핵심 검색 의도 2~4개",
   "meta_description": "120자 이내",
   "blog_review": {
     "intro": ["짧은 시작 문단 1", "짧은 시작 문단 2"],

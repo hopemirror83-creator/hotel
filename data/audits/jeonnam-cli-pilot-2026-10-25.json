@@ -1,0 +1,397 @@
+{
+  "reviewedAt": "2026-10-25",
+  "provider": "antigravity-cli",
+  "model": "gemini-3.8-flash-high",
+  "scope": "Five existing Jeonnam hotels only; no region-wide expansion or template changes",
+  "hotelCountBefore": 20917,
+  "hotelCountAfter": 20917,
+  "changedSlugs": [
+    "jeonnam-2159477",
+    "jeonnam-33862575",
+    "jeonnam-45131998",
+    "jeonnam-6589439",
+    "jeonnam-7199331"
+  ],
+  "checks": {
+    "identityReviewed": true,
+    "independentUrlsDeduplicated": true,
+    "officialFacilitySourceRequired": true,
+    "firstPersonForbidden": true,
+    "oldPricesExcluded": true,
+    "photosReviewed": 35
+  },
+  "hotels": [
+    {
+      "slug": "jeonnam-6589439",
+      "hotelName": "여수 베네치아 호텔 앤 스위트",
+      "addressMatched": true,
+      "bodyCharacters": 1705,
+      "sourceUrls": [
+        "https://www.yeosuvenezia.com/support.html",
+        "https://www.yeosuvenezia.com/dining_01.html",
+        "https://blog.naver.com/jd_qualia/224427599400",
+        "https://blog.naver.com/collection_zip/224424192194",
+        "https://blog.naver.com/gh20002000/224403764500",
+        "https://blog.naver.com/eodeod_zip/224374916269",
+        "https://blog.naver.com/wjseo710/224441631888"
+      ],
+      "verifiedFacilities": {
+        "breakfastOperating": true,
+        "parkingAvailable": true,
+        "wifiAvailable": "unknown"
+      },
+      "beforeHash": "521eb4e38883decc03fd6f0276e8815da93ecfe03035417ccfe30ed74b746f6d",
+      "afterHash": "f455b62dd38beb8c164498fbd965b37e4de2934770c2fdb42e978a2c04446d21",
+      "editorialFields": [
+        "cons",
+        "not_recommended_for",
+        "blog_review.intro",
+        "blog_review.sections.2.paragraphs",
+        "blog_review.sections.3.paragraphs",
+        "blog_review.sections.4.paragraphs",
+        "blog_review.sections.5.paragraphs"
+      ],
+      "imageReview": "Agoda hotel ID matched; 35 images inspected; Shilla promotional hero replaced with clean room image"
+    },
+    {
+      "slug": "jeonnam-7199331",
+      "hotelName": "여수 엑스포 유탑 마리나 호텔 & 리조트",
+      "addressMatched": true,
+      "bodyCharacters": 1716,
+      "sourceUrls": [
+        "https://www.utopmarina.com/",
+        "https://www.utopmarina.com/view/viewLink.do?page=homepage/KOR/dining/Restaurant",
+        "https://blog.naver.com/happyvoice09/224420248222",
+        "https://blog.naver.com/jjungs_0108/224419598615",
+        "https://blog.naver.com/lions_77/224405337547",
+        "https://blog.naver.com/yquf1024/224442633304",
+        "https://blog.naver.com/tiny_hoi/224378486718"
+      ],
+      "verifiedFacilities": {
+        "breakfastOperating": true,
+        "parkingAvailable": "unknown",
+        "wifiAvailable": "unknown"
+      },
+      "beforeHash": "8b1a9fe3f1a639a7ddb5ecd144c72b15abdf62952612bca700ce0c05678c759e",
+      "afterHash": "8e1f1e586f0e7b8c2daed664890178d4ad1ec6bd7ac02b1b2e41993f53fd4fc5",
+      "editorialFields": [
+        "cons",
+        "not_recommended_for",
+        "blog_review.intro",
+        "blog_review.sections.1.paragraphs",
+        "blog_review.sections.3.paragraphs",
+        "blog_review.sections.5.paragraphs"
+      ],
+      "imageReview": "Agoda hotel ID matched; 35 images inspected; Shilla promotional hero replaced with clean room image"
+    },
+    {
+      "slug": "jeonnam-33862575",
+      "hotelName": "신라스테이 여수 엑스포역",
+      "addressMatched": true,
+      "bodyCharacters": 1465,
+      "sourceUrls": [
+        "https://www.shillahotels.com/ko/shillastay/yeosu/index.do",
+        "https://www.shillahotels.com/ko/shillastay/yeosu/dining/cafe.do",
+        "https://www.shillahotels.com/ko/shillastay/yeosu/accommodation/standard.do",
+        "https://blog.naver.com/ordinaryscenes/224399097023",
+        "https://blog.naver.com/stardbsdk/224361103135",
+        "https://blog.naver.com/kxxyxjx/224441882080",
+        "https://blog.naver.com/suhwa0730/224425787216",
+        "https://blog.naver.com/snowa-/224442958832"
+      ],
+      "verifiedFacilities": {
+        "breakfastOperating": true,
+        "parkingAvailable": true,
+        "wifiAvailable": true
+      },
+      "beforeHash": "4802dea14c46a45c407ad7f477ea4ce58306a2de5883091e265ad381bd410c60",
+      "afterHash": "2ea893d221606051ed82b9a5a7936bfe1c74cfeb3dfa952d4c62b5d13948b940",
+      "editorialFields": [
+        "summary",
+        "pros",
+        "cons",
+        "not_recommended_for",
+        "check_points",
+        "blog_review.intro",
+        "blog_review.sections.0.paragraphs",
+        "blog_review.sections.2.paragraphs",
+        "blog_review.sections.3.paragraphs",
+        "blog_review.sections.4.paragraphs",
+        "blog_review.sections.5.paragraphs"
+      ],
+      "imageReview": "Agoda hotel ID matched; 35 images inspected; Shilla promotional hero replaced with clean room image"
+    },
+    {
+      "slug": "jeonnam-2159477",
+      "hotelName": "샹그리아 비치 관광 호텔",
+      "addressMatched": true,
+      "bodyCharacters": 1571,
+      "sourceUrls": [
+        "https://youth.mokpo.go.kr/tour/attraction/area?idx=81649&mode=view",
+        "https://blog.naver.com/yoonooy99/224441855510",
+        "https://blog.naver.com/by_jaynote/224415150602",
+        "https://blog.naver.com/haeden_/224385934274",
+        "https://blog.naver.com/brkim8595/224368171953",
+        "https://blog.naver.com/sunyoungsunyoung/224372321126"
+      ],
+      "verifiedFacilities": {
+        "breakfastOperating": true,
+        "parkingAvailable": true,
+        "wifiAvailable": "unknown"
+      },
+      "beforeHash": "38e46e8b00d4354e446822d61c1799995646bc81f295b79342c7e0dc7aeefd5f",
+      "afterHash": "4fc3b1e28aee060bcc0abad31909cd3073dbedda2a9a0ac0d73eb8552f88a341",
+      "editorialFields": [
+        "cons",
+        "not_recommended_for",
+        "blog_review.sections.0.paragraphs",
+        "blog_review.sections.2.paragraphs",
+        "blog_review.sections.3.paragraphs",
+        "blog_review.sections.4.paragraphs",
+        "blog_review.sections.5.paragraphs"
+      ],
+      "imageReview": "Agoda hotel ID matched; 35 images inspected; Shilla promotional hero replaced with clean room image"
+    },
+    {
+      "slug": "jeonnam-45131998",
+      "hotelName": "순천 호텔 라움",
+      "addressMatched": true,
+      "bodyCharacters": 1543,
+      "sourceUrls": [
+        "https://nol.yanolja.com/stay/domestic/1000099626",
+        "https://blog.naver.com/now-won1009/224421367908",
+        "https://blog.naver.com/rumzoo/224448503540",
+        "https://blog.naver.com/jhl4817/224436522161",
+        "https://blog.naver.com/izzyoh/224311330731",
+        "https://blog.naver.com/dyk0613/224427504593"
+      ],
+      "verifiedFacilities": {
+        "breakfastOperating": "unknown",
+        "parkingAvailable": "unknown",
+        "wifiAvailable": "unknown"
+      },
+      "beforeHash": "3ff5c2dfc0247688e71e80083ef406d7ae20bcb4949f741d9a0f327d345f1d2c",
+      "afterHash": "5eedab0aa354a304da09e717c5793d7fd22aeee3560ceb3cc51b382f6c9c59d3",
+      "editorialFields": [
+        "summary",
+        "pros",
+        "cons",
+        "recommended_for",
+        "not_recommended_for",
+        "blog_review.intro",
+        "blog_review.sections.0.paragraphs",
+        "blog_review.sections.1.paragraphs",
+        "blog_review.sections.2.paragraphs",
+        "blog_review.sections.3.paragraphs",
+        "blog_review.sections.4.paragraphs",
+        "blog_review.sections.5.paragraphs"
+      ],
+      "imageReview": "Agoda hotel ID matched; 35 images inspected; Shilla promotional hero replaced with clean room image"
+    }
+  ],
+  "evidence": {
+    "reviewedAt": "2026-10-25",
+    "hotels": [
+      {
+        "slug": "jeonnam-6589439",
+        "name": "여수 베네치아 호텔 앤 스위트",
+        "city": "여수",
+        "addressStreet": "여수시 오동도로 61-13",
+        "officialSources": [
+          {
+            "id": "V1",
+            "url": "https://www.yeosuvenezia.com/support.html",
+            "title": "베네치아 공식 오시는 길",
+            "facts": [
+              "주소는 여수시 오동도로 61-13이며 기존 DB의 도로명·건물번호와 일치한다.",
+              "공식 페이지는 투숙객 무료 주차를 안내한다. 만차·등록·추가차량 조건은 별도 확인한다.",
+              "여수엑스포역, 오동도, 아쿠아플라넷 주변 동선을 소개한다. 도보·차량 이동시간은 새로 단정하지 않는다."
+            ]
+          },
+          {
+            "id": "V2",
+            "url": "https://www.yeosuvenezia.com/dining_01.html",
+            "title": "베네치아 공식 피렌체 레스토랑",
+            "facts": [
+              "1층 피렌체 레스토랑에서 조식 뷔페를 안내한다.",
+              "토요일과 그 외 요일의 종료·입장 마감 시간이 다르므로 해당 숙박일의 최신 안내를 확인한다.",
+              "조식 운영과 객실 예약 플랜의 조식 포함 여부는 구분한다."
+            ]
+          }
+        ],
+        "acceptedReviewIndexes": [
+          1,
+          4,
+          5,
+          8,
+          10,
+          12,
+          13
+        ],
+        "reviewGuidance": "개별 검색 요약에서는 조식 메뉴와 침구, 객실 컨디션, 바다 전망 관련 의견이 보인다. 모든 객실 동일 전망이나 조식 만족도 보장으로 확대하지 않는다. 타 호텔보다 방이 크다는 비교는 객실 타입 대조가 없어 사용 금지.",
+        "verifiedFacilities": {
+          "breakfastOperating": true,
+          "parkingAvailable": true,
+          "wifiAvailable": "unknown"
+        }
+      },
+      {
+        "slug": "jeonnam-7199331",
+        "name": "여수 엑스포 유탑 마리나 호텔 & 리조트",
+        "city": "여수",
+        "addressStreet": "여수시 오동도로 61-15",
+        "officialSources": [
+          {
+            "id": "U1",
+            "url": "https://www.utopmarina.com/",
+            "title": "유탑마리나 공식 호텔 안내",
+            "facts": [
+              "공식 주소는 DB와 같은 여수시 오동도로 61-15다.",
+              "공식 객실 메뉴에 오션 디럭스 더블, 패밀리 트윈, 온돌, 펫 객실 등 구분이 있다.",
+              "인피니티 풀과 피트니스 시설을 소개한다. 무료·연중·전 객실 이용 가능으로 추정 금지."
+            ]
+          },
+          {
+            "id": "U2",
+            "url": "https://www.utopmarina.com/view/viewLink.do?page=homepage/KOR/dining/Restaurant",
+            "title": "유탑마리나 공식 더웨이븐 다이닝",
+            "facts": [
+              "공식 다이닝 페이지에 더웨이븐이 안내된다. 조식 이용 상세 시간·가격은 해당 숙박일 조건을 확인한다.",
+              "조식 운영 여부와 특정 플랜 포함 여부를 분리한다."
+            ]
+          }
+        ],
+        "acceptedReviewIndexes": [
+          0,
+          1,
+          9,
+          10,
+          12,
+          13
+        ],
+        "reviewGuidance": "주소가 함께 있는 검색 요약이 여러 건 확보됨. 한 이용자는 체크인 시 사람이 많았다고 했다. 다른 이용자는 성수기에도 주차 자리가 있었다고 했다. 두 의견을 언제나 혼잡 또는 언제나 여유로 일반화 금지. 엘리베이터 환승 불편은 한 건의 요약이므로 일부 사례로만 언급.",
+        "verifiedFacilities": {
+          "breakfastOperating": true,
+          "parkingAvailable": "unknown",
+          "wifiAvailable": "unknown"
+        }
+      },
+      {
+        "slug": "jeonnam-33862575",
+        "name": "신라스테이 여수 엑스포역",
+        "city": "여수",
+        "addressStreet": "여수시 수정3길 8",
+        "officialSources": [
+          {
+            "id": "S1",
+            "url": "https://www.shillahotels.com/ko/shillastay/yeosu/index.do",
+            "title": "신라스테이 여수 공식 호텔 안내",
+            "facts": [
+              "공식 주소는 여수시 수정3길 8로 DB 영문 주소와 일치한다.",
+              "공식 객실 메뉴에 스탠다드, 패밀리 트윈, 온돌, 디럭스, 스위트 등 구분이 있다. 전 객실 오션뷰 아님."
+            ]
+          },
+          {
+            "id": "S2",
+            "url": "https://www.shillahotels.com/ko/shillastay/yeosu/dining/cafe.do",
+            "title": "신라스테이 여수 공식 레스토랑 cafe",
+            "facts": [
+              "공식 레스토랑 안내가 확인된다. 식사 운영·이용 요금과 예약 플랜 포함 조건은 별도 확인한다.",
+              "호텔명에 엑스포역이 있어도 역 바로 앞 또는 도보 몇 분으로 추정하지 않는다."
+            ]
+          },
+          {
+            "id": "S3",
+            "url": "https://www.shillahotels.com/ko/shillastay/yeosu/accommodation/standard.do",
+            "title": "신라스테이 여수 공식 스탠다드 객실",
+            "facts": [
+              "스탠다드 전망은 도시 또는 바다로 나뉜다.",
+              "객실 이용 안내에 무료 유·무선 Wi-Fi와 투숙기간 무료 주차가 기재된다.",
+              "체크인·아웃 시간에는 계절 예외가 있으므로 숙박일 기준 최신 안내를 확인한다."
+            ]
+          }
+        ],
+        "acceptedReviewIndexes": [
+          2,
+          3,
+          4,
+          6,
+          9,
+          11
+        ],
+        "reviewGuidance": "신라스테이 타 지점 제외. 트윈룸 검색 요약에 체크인 전 짐을 맡긴 사례가 있다. 스위트 트윈 이용자와 온돌 이용자 사례가 서로 다른 타입이므로 전체 객실 조건으로 합치지 않는다. 조식 후기는 존재하지만 메뉴·시간·요금 수치의 현재 정확성은 단정 금지.",
+        "verifiedFacilities": {
+          "breakfastOperating": true,
+          "parkingAvailable": true,
+          "wifiAvailable": true
+        }
+      },
+      {
+        "slug": "jeonnam-2159477",
+        "name": "샹그리아 비치 관광 호텔",
+        "city": "목포",
+        "addressStreet": "목포시 평화로 79",
+        "officialSources": [
+          {
+            "id": "M1",
+            "url": "https://youth.mokpo.go.kr/tour/attraction/area?idx=81649&mode=view",
+            "title": "목포시 문화관광 샹그리아 비치호텔",
+            "facts": [
+              "목포시 공식 관광 페이지에 평화로 79의 샹그리아 비치호텔이 안내된다.",
+              "주차시설과 조식 제공이 안내된다. 현재 주차 대수·비용·조식 요금은 고정 수치로 쓰지 않는다.",
+              "객실에 바다 전망과 도시 전망, 온돌 등 구분이 안내된다.",
+              "공식 관광 페이지와 블로그의 체크인·아웃 시간이 달라 시간은 미확인으로 처리한다."
+            ]
+          }
+        ],
+        "acceptedReviewIndexes": [
+          0,
+          1,
+          3,
+          7,
+          9
+        ],
+        "reviewGuidance": "미타스야 료칸·폰타나비치·신안비치가 주인공인 문서 제외. 한 검색 요약은 지하 주차장이 좁게 느껴졌다고 하며 다른 요약은 방문일에 붐비지 않았다고 한다. 지하 진입·차량 크기와 방문 시점 확인 대상으로 설명하며 주차불가로 서술 금지. 평화광장과 가까운 위치, 객실 유형을 중심으로 작성.",
+        "verifiedFacilities": {
+          "breakfastOperating": true,
+          "parkingAvailable": true,
+          "wifiAvailable": "unknown"
+        }
+      },
+      {
+        "slug": "jeonnam-45131998",
+        "name": "순천 호텔 라움",
+        "city": "순천",
+        "addressStreet": "순천시 하풍동길 1-1",
+        "officialSources": [
+          {
+            "id": "R1",
+            "url": "https://nol.yanolja.com/stay/domestic/1000099626",
+            "title": "NOL 순천 호텔 라움 판매 안내",
+            "kind": "booking-platform",
+            "facts": [
+              "판매 페이지 주소가 DB와 같은 하풍동길 1-1이다. 와온길의 리조트 라움과 다른 숙소다.",
+              "순천역 도보 10분이라는 판매 안내가 있으나 개인 보행 속도·짐에 따른 차이가 있어 원고는 정확한 분 수 대신 실제 동선 확인을 권한다.",
+              "플랫폼 안내에는 투썸플레이스 음료·샌드위치 방식의 조식이 소개된다. 공식 호텔 출처가 아니므로 현재 제공 사실·자동 포함으로 단정하지 않는다."
+            ]
+          }
+        ],
+        "acceptedReviewIndexes": [
+          0,
+          2,
+          3,
+          4,
+          7,
+          9,
+          10
+        ],
+        "reviewGuidance": "호텔 라움 주소가 있는 문서, 순천역·국가정원 일정의 해당 호텔 후기만 선별했다. 와온 리조트라움 제외. 블로그 요약에는 카페 조식, 주차 타워·발렛 경험, 객실 타입 사례가 있다. 모두 후기 사례로 전달하고 모든 차량 발렛·모든 객실 동일품목·조식 기본포함으로 쓰지 않는다. 조식 운영/Wi-Fi/주차 핵심 시설은 공식 확인 부족이므로 확인 문구를 쓴다.",
+        "verifiedFacilities": {
+          "breakfastOperating": "unknown",
+          "parkingAvailable": "unknown",
+          "wifiAvailable": "unknown"
+        }
+      }
+    ]
+  }
+}

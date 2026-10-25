@@ -295,7 +295,11 @@ const languageAlternates = localizedVersions ? [
 ] : [];
 const analysis = hotel.analysis;
 const blogReview = analysis.blogReview;
-const searchIntent = getHotelSearchIntent(hotel.slug) ?? getRegionalSearchIntent(hotel);
+const regionalSearchIntent = getHotelSearchIntent(hotel.slug) ?? getRegionalSearchIntent(hotel);
+const useReviewedAnalysis = (hotel as Hotel & { useReviewedAnalysis?: boolean }).useReviewedAnalysis === true;
+const searchIntent = useReviewedAnalysis
+  ? { ...regionalSearchIntent, faqs: regionalSearchIntent?.faqs ?? [], title: analysis.seoTitle, seoTitle: analysis.seoTitle, metaDescription: analysis.metaDescription, recommendedFor: analysis.recommendedFor, notRecommendedFor: analysis.notRecommendedFor }
+  : regionalSearchIntent;
 const baseLongtailHeading = buildLongtailHeading(hotel, analysis);
 const rawLongtailHeading = searchIntent?.title ?? baseLongtailHeading;
 const longtailHeading = enrichLongtailHeading(hotel, analysis, rawLongtailHeading, searchIntent);
@@ -1202,6 +1206,7 @@ function hasKoreanBatchim(value = '') {
       <div class="analysis-box caution">
         <h2>반복적으로 언급된 단점</h2>
         <ul>{analysis.cons.map((item) => <li>{item}</li>)}</ul>
+        {useReviewedAnalysis && analysis.cons.length === 0 && <p>현재 확보한 후기 단서만으로 특정 단점을 일반화하기는 어렵습니다.</p>}
       </div>
       <div class="analysis-box">
         <h2>추천 여행자 유형</h2>
@@ -1210,6 +1215,7 @@ function hasKoreanBatchim(value = '') {
       <div class="analysis-box">
         <h2>비추천/주의 여행자 유형</h2>
         <ul>{notRecommendedFor.map((item) => <li>{item}</li>)}</ul>
+        {useReviewedAnalysis && notRecommendedFor.length === 0 && <p>예약 전 체크포인트와 본인의 일정에 맞춰 이용 조건을 확인하세요.</p>}
       </div>
     </section>
 

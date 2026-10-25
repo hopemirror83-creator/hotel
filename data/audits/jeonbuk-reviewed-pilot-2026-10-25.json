@@ -1,0 +1,1256 @@
+{
+  "reviewedAt": "2026-10-25",
+  "scope": "Five existing Jeonbuk hotels only; user-triggered Antigravity App drafts reviewed and edited by Codex. Existing layout, CTA and ad placement unchanged. Explicit per-hotel reviewed-content flag overrides generic titles/recommendations only.",
+  "hotelCountBefore": 20917,
+  "hotelCountAfter": 20917,
+  "changedSlugs": [
+    "jeonbuk-1163068",
+    "jeonbuk-25967471",
+    "jeonbuk-336327",
+    "jeonbuk-59127437",
+    "jeonbuk-895438"
+  ],
+  "checks": {
+    "imagesChecked": 31,
+    "photoSource": "Existing Agoda images; matching hotel IDs; HTTP image responses and contact-sheet visual inspection",
+    "fullBlogTextsVerified": false,
+    "hotelContacted": false
+  },
+  "hotels": [
+    {
+      "slug": "jeonbuk-59127437",
+      "hotelName": "라한호텔 전주",
+      "address": "전북특별자치도 전주시 완산구 기린대로 85 라한호텔 전주",
+      "beforeHash": "8de74eaa8505696604475fab335af53009549c920027a202aa3c4752cb916328",
+      "afterHash": "87a69778c8141ad032036abaac6c43c6540d356c344890b29852eec5c98064f0",
+      "reviewedDraftHash": "86b4180ea3abc2840d00615b1aecef2cf4c18266e40baba33c970e86f5ff62ab",
+      "bodyCharacters": 1610,
+      "imageEdits": [],
+      "facilityVerification": {
+        "breakfastOperating": true,
+        "breakfastIncludedInPlan": "unknown",
+        "wifiAvailable": "unknown",
+        "parkingAvailable": "unknown",
+        "checkedAt": "2026-10-25",
+        "sourceUrls": [
+          "https://lahanhotels.com/hub/ko/hotel/hotelIntroduce.do",
+          "https://lahanhotels.com/jeonju/ko/dining/thePlate.do"
+        ]
+      },
+      "referenceLinks": [
+        {
+          "title": "라한호텔 전주 공식 호텔·시설 안내",
+          "url": "https://lahanhotels.com/hub/ko/hotel/hotelIntroduce.do",
+          "source": "official"
+        },
+        {
+          "title": "라한호텔 전주 공식 상세 안내",
+          "url": "https://lahanhotels.com/jeonju/ko/dining/thePlate.do",
+          "source": "official"
+        },
+        {
+          "title": "전주 한옥마을 4성급 호텔 전주 라한호텔 조식 솔직후기 (사진많음, ....",
+          "url": "https://blog.naver.com/ntjdud0527/224422302428",
+          "source": "naver_blog"
+        },
+        {
+          "title": "전주 라한 호텔 위치 주차 패밀리 트윈 카페 부대시설 조식",
+          "url": "https://blog.naver.com/ujhope622/224443577942",
+          "source": "naver_blog"
+        },
+        {
+          "title": "전주여행 라한호텔 숙박 후기｜한옥마을 전망은 좋았지만 아쉬웠던....",
+          "url": "https://blog.naver.com/gushdka00/224452354746",
+          "source": "naver_blog"
+        },
+        {
+          "title": "전주 가족 숙소 | 라한호텔 패밀리트윈 시티뷰(feat. 한옥마을 도보 ....",
+          "url": "https://blog.naver.com/momebebe/224443284357",
+          "source": "naver_blog"
+        },
+        {
+          "title": "전주한옥마을 숙소 추천, 라한호텔 전주점 객실·주차 팁 후기",
+          "url": "https://blog.naver.com/nonno17/224385572638",
+          "source": "naver_blog"
+        }
+      ],
+      "evidenceTrace": [
+        {
+          "location": "summary",
+          "claim": "라한호텔 전주는 기린대로 85에 있는 한옥마을 인접 호텔입니다. 공개 후기 검색 요약에는 한옥뷰 객실에서 야경을 보거나 시티뷰 패밀리 트윈을 이용한 사례가 있습니다. 더플레이트 조식 뷔페를 운영하지만, 식사 포함 여부와 원하는 전망은 예약할 객실 조건을 따로 확인하세요.",
+          "source_ids": [
+            "IDENTITY",
+            "O1",
+            "O2",
+            "R4",
+            "R11"
+          ]
+        },
+        {
+          "location": "pros.0",
+          "claim": "공식 소개와 일부 후기 검색 요약에서 한옥마을 인접 위치와 도보 관광 사례가 확인됩니다.",
+          "source_ids": [
+            "O1",
+            "R4",
+            "R7",
+            "R13"
+          ]
+        },
+        {
+          "location": "pros.1",
+          "claim": "더플레이트 조식 뷔페와 북스토어·카페, 루프탑 수영장이 공식 안내에 소개되어 있습니다.",
+          "source_ids": [
+            "O1",
+            "O2"
+          ]
+        },
+        {
+          "location": "pros.2",
+          "claim": "한옥뷰 더블룸과 시티뷰 패밀리 트윈 등 서로 다른 객실을 이용한 사례가 있습니다.",
+          "source_ids": [
+            "R7",
+            "R11"
+          ]
+        },
+        {
+          "location": "recommended_for.0",
+          "claim": "일반 확인 권고: 한옥마을을 걸어서 둘러보는 일정에 숙소 위치를 맞추려는 분",
+          "source_ids": []
+        },
+        {
+          "location": "recommended_for.1",
+          "claim": "일반 확인 권고: 한옥뷰와 시티뷰 객실의 조건을 비교하고 싶은 분",
+          "source_ids": []
+        },
+        {
+          "location": "recommended_for.2",
+          "claim": "일반 확인 권고: 조식 뷔페나 북스토어·카페 이용을 일정에 포함하려는 분",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.0",
+          "claim": "일반 확인 권고: 예약할 객실의 한옥뷰·시티뷰 구분과 전망 확정 조건 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.1",
+          "claim": "일반 확인 권고: 더플레이트 운영 일정과 예약 플랜의 식사 포함 인원 각각 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.2",
+          "claim": "일반 확인 권고: 수영장 이용일의 운영 여부와 별도 요금·연령 조건 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.3",
+          "claim": "일반 확인 권고: 차량 등록, 이용 가능 시간과 추가 차량 주차 조건 문의",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.4",
+          "claim": "일반 확인 권고: 인터넷 연결이 필요하다면 객실 내 이용 조건 확인",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.intro.0",
+          "claim": "라한호텔 전주는 전주시 완산구 기린대로 85에 있습니다. 한옥마을을 중심으로 여행한다면 호텔에서 관광 동선을 어떻게 이어갈지 살펴볼 만한 위치입니다. 공식 소개에는 더플레이트와 북스토어·카페, 루프탑 수영장 등 시설이 안내되어 있습니다.",
+          "source_ids": [
+            "IDENTITY",
+            "O1",
+            "O2"
+          ]
+        },
+        {
+          "location": "blog_review.intro.1",
+          "claim": "공개 후기 검색 요약에는 한옥 전망을 이용한 사례와 시티뷰 객실에 머문 사례가 함께 나옵니다. 같은 호텔이어도 객실 방향에 따라 경험이 다를 수 있어, 위치와 전망, 식사 조건을 나누어 정리했습니다.",
+          "source_ids": [
+            "R4",
+            "R7",
+            "R11"
+          ]
+        },
+        {
+          "location": "blog_review.sections.0.paragraphs.0",
+          "claim": "공식 소개는 한옥마을과 인접한 입지를 안내합니다. 일부 후기 검색 요약에도 한옥마을을 걸어서 둘러봤다는 사례가 있어, 관광 중 숙소를 오가는 경로를 중요하게 보는 일정이라면 위치를 비교해볼 수 있습니다.",
+          "source_ids": [
+            "O1",
+            "R4",
+            "R7",
+            "R13"
+          ]
+        },
+        {
+          "location": "blog_review.sections.0.paragraphs.1",
+          "claim": "일반 확인 권고: 도보 관광을 계획할 때는 방문할 장소와 호텔 출입구를 지도에서 함께 확인하세요. 짐이 많거나 아이·부모님과 동행한다면 거리뿐 아니라 실제 보행 경로와 중간 휴식 계획도 고려하는 편이 좋습니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.1.paragraphs.0",
+          "claim": "공식 안내에는 북스토어·카페와 루프탑 수영장이 소개됩니다. 시설이 있다는 사실과 투숙일에 이용할 수 있는 조건은 다르므로, 수영장 운영일과 이용 대상·추가 비용은 별도로 확인해야 합니다.",
+          "source_ids": [
+            "O1"
+          ]
+        },
+        {
+          "location": "blog_review.sections.1.paragraphs.1",
+          "claim": "후기 검색 요약에는 디럭스 한옥뷰 더블룸과 시티뷰 패밀리 트윈 이용 사례가 있습니다. 이를 모든 객실의 한옥 전망이나 동일한 실내 상태로 확대하지 말고, 예약 화면의 객실명과 사진을 대조해보세요.",
+          "source_ids": [
+            "R7",
+            "R11"
+          ]
+        },
+        {
+          "location": "blog_review.sections.2.paragraphs.0",
+          "claim": "한 후기 검색 요약에는 한옥뷰 객실에서 본 야경이 기억에 남았다는 의견이 있습니다. 시티뷰 패밀리 트윈을 이용한 다른 사례도 있어, 창밖 풍경을 중요하게 생각한다면 전망 구분이 선택 기준이 됩니다.",
+          "source_ids": [
+            "R4",
+            "R11"
+          ]
+        },
+        {
+          "location": "blog_review.sections.2.paragraphs.1",
+          "claim": "공식 다이닝 안내에서 더플레이트 조식 뷔페 운영을 확인할 수 있습니다. 호텔 안에서 아침을 먹으려는 일정이라면 이용을 검토할 수 있지만, 조식을 기대했다는 후기만으로 맛이나 메뉴 만족도까지 평가할 수는 없습니다.",
+          "source_ids": [
+            "O2",
+            "R1"
+          ]
+        },
+        {
+          "location": "blog_review.sections.3.paragraphs.0",
+          "claim": "전주 숙소를 비교할 때는 한옥마을과의 거리, 객실 전망, 호텔 안에서 이용할 시설을 나누어 보세요. 이 호텔은 공식 소개에 위치와 여러 부대시설이 함께 안내되므로 실제 사용할 항목을 골라 비교하는 편이 좋습니다.",
+          "source_ids": [
+            "O1"
+          ]
+        },
+        {
+          "location": "blog_review.sections.3.paragraphs.1",
+          "claim": "일반 확인 권고: 다른 숙소가 한옥 형태인지 현대식 건물인지만으로 방음이나 편의성을 판단할 수는 없습니다. 같은 날짜와 동행 인원을 기준으로 객실 타입, 조식 포함 인원, 취소 조건까지 맞추어 예약 조건을 살펴보세요.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.4.paragraphs.0",
+          "claim": "더플레이트에서 조식을 운영한다는 것과 선택한 객실 요금에 식사가 포함되는지는 별개입니다. 공식 안내에는 요일에 따른 회차 구분과 운영 변경 가능성이 있으므로, 방문일의 이용 방법을 확인하는 편이 좋습니다.",
+          "source_ids": [
+            "O2"
+          ]
+        },
+        {
+          "location": "blog_review.sections.4.paragraphs.1",
+          "claim": "일반 확인 권고: 주차는 차량 등록과 이용 가능 시간, 추가 차량 조건을 문의하세요. 인터넷 연결이 일정에 중요하다면 객실 내 이용 조건도 확인하면 됩니다. 이번에 확보한 자료만으로 해당 서비스가 없다고 판단할 근거는 없습니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.5.paragraphs.0",
+          "claim": "한옥마을을 걸어서 둘러보면서 숙소를 오가는 경로를 중요하게 생각하는 분이 검토할 만합니다. 가족 여행이라면 패밀리 객실이라는 이름만 보지 말고 침대 구성과 기준 인원이 동행 인원에 맞는지 확인하세요.",
+          "source_ids": [
+            "O1",
+            "R11"
+          ]
+        },
+        {
+          "location": "blog_review.sections.5.paragraphs.1",
+          "claim": "객실에서 한옥 풍경을 보고 싶은 분은 전망이 명시된 타입을, 실내 시설 이용을 계획한 분은 해당 날짜의 운영 조건을 우선 살펴보세요. 모두에게 같은 경험을 기대하기보다 실제 예약할 객실과 일정에 맞추는 것이 중요합니다.",
+          "source_ids": [
+            "R4",
+            "O1"
+          ]
+        }
+      ],
+      "limitations": [
+        "공개 후기 자료는 검색 제목·검색 요약이며 원문 전체와 실제 투숙 사실은 확인하지 않았습니다. 특정 객실·건물·시기의 개인 사례를 전 객실이나 현재 운영 정책으로 일반화하지 않았습니다.",
+        "true/false/unknown은 이번 자료에서의 확인 상태입니다. unknown이나 판매처 플랜의 미포함을 호텔 서비스 미제공으로 해석하지 않습니다. 호텔에 직접 사실 확인을 요청하지 않았습니다.",
+        "조식 운영과 예약 요금의 식사 포함 여부를 구분했습니다. 현재 가격·시간·차량 조건·객실 비품은 예약처 또는 호텔에 별도로 확인해야 합니다.",
+        "편집 사항: 시티뷰 객실이 깔끔하다는 문장은 R11의 전망 경험에서 확장한 추정이라 삭제",
+        "편집 사항: 현대식 호텔이 표준화된 시설을 완비한다는 비교 및 주요 관광지 모두에 차량 이동이 필요 없다는 일반화 삭제",
+        "편집 사항: 공식 홈페이지에 주차·Wi-Fi 정보가 없다는 포괄적 단정을 이번 확보 자료의 한계와 구분",
+        "편집 사항: 조식 포함 여부 미확인을 비추천 사유로 삼지 않도록 비추천 배열을 비움"
+      ]
+    },
+    {
+      "slug": "jeonbuk-25967471",
+      "hotelName": "베스트웨스턴 플러스 전주 호텔",
+      "address": "전북특별자치도 전주시 완산구 현무1길 41",
+      "beforeHash": "2335bf019320951e31423ab96a5217d4d71c8311456b17e91ab387b0e069e566",
+      "afterHash": "752e4eb3455c44b70927ff03ed0687cc185415713b4413d960af7fd65ef8f334",
+      "reviewedDraftHash": "ca4c1448dbc5655b0b239265ec9d6381369a419fadb7019d97a2d6741e313efe",
+      "bodyCharacters": 1666,
+      "imageEdits": [
+        "Gym hero/first image replaced with existing same-hotel room photo"
+      ],
+      "facilityVerification": {
+        "breakfastOperating": "unknown",
+        "breakfastIncludedInPlan": "unknown",
+        "wifiAvailable": "unknown",
+        "parkingAvailable": "unknown",
+        "checkedAt": "2026-10-25",
+        "sourceUrls": [
+          "https://www.bwhotel.co.kr/default/mp2/mp2_sub2.php?sub=02"
+        ]
+      },
+      "referenceLinks": [
+        {
+          "title": "베스트웨스턴 플러스 전주 호텔 공식 호텔·시설 안내",
+          "url": "https://www.bwhotel.co.kr/default/mp2/mp2_sub2.php?sub=02",
+          "source": "official"
+        },
+        {
+          "title": "베스트웨스턴 플러스 전주 호텔 판매 페이지 안내",
+          "url": "https://booking.kakao.com/detail/accommodation/212053",
+          "source": "booking-platform"
+        },
+        {
+          "title": "전주 베스트웨스턴 플러스 호텔 조식 정보, 전주 한옥마을 4성급 호....",
+          "url": "https://blog.naver.com/mingzz_p/224413662719",
+          "source": "naver_blog"
+        },
+        {
+          "title": "베스트웨스턴 플러스 전주 호텔 조식 아기랑 주변 지하주차장",
+          "url": "https://blog.naver.com/tenmu_mami/224444756642",
+          "source": "naver_blog"
+        },
+        {
+          "title": "전주 혼자여행 숙소 베스트웨스턴플러스 전주, 한옥마을 도보 15분 ....",
+          "url": "https://blog.naver.com/daily_yeonyou/224437071304",
+          "source": "naver_blog"
+        }
+      ],
+      "evidenceTrace": [
+        {
+          "location": "summary",
+          "claim": "베스트웨스턴 플러스 전주 호텔은 현무1길 41에 있습니다. 공개 후기 검색 요약에는 혼자 머물며 객실 상태를 긍정적으로 본 사례와 아이 동반 숙박 사례가 있습니다. 조식·Wi-Fi·주차는 판매 페이지 안내와 호텔의 실제 이용 조건을 구분해 확인하는 편이 좋습니다.",
+          "source_ids": [
+            "IDENTITY",
+            "R12",
+            "R3",
+            "P1"
+          ]
+        },
+        {
+          "location": "pros.0",
+          "claim": "일부 후기 검색 요약에서 한옥마을 근처 숙소로 이용한 사례가 있습니다.",
+          "source_ids": [
+            "R1"
+          ]
+        },
+        {
+          "location": "pros.1",
+          "claim": "공식 체인의 전주 지점 소개에 레스토랑 등 시설이 안내되어 있습니다.",
+          "source_ids": [
+            "O1"
+          ]
+        },
+        {
+          "location": "pros.2",
+          "claim": "혼자 여행한 이용자의 객실 청결에 대한 긍정적 의견과 아이 동반 숙박 사례가 있습니다.",
+          "source_ids": [
+            "R12",
+            "R3"
+          ]
+        },
+        {
+          "location": "recommended_for.0",
+          "claim": "일반 확인 권고: 전주 도심 일정과 한옥마을 이동을 함께 검토하는 분",
+          "source_ids": []
+        },
+        {
+          "location": "recommended_for.1",
+          "claim": "일반 확인 권고: 혼자 머물 객실의 이용 사례를 참고하고 싶은 분",
+          "source_ids": []
+        },
+        {
+          "location": "recommended_for.2",
+          "claim": "일반 확인 권고: 아이 동반 여행에 맞는 객실 구성과 식사 조건을 따로 확인하려는 분",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.0",
+          "claim": "일반 확인 권고: 예약할 객실의 침대 구성과 기준·최대 인원 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.1",
+          "claim": "일반 확인 권고: 조식의 현재 운영 방식과 선택한 플랜의 식사 포함 여부 각각 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.2",
+          "claim": "일반 확인 권고: 주차장 진입 경로, 차량 등록과 추가 차량 조건 문의",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.3",
+          "claim": "일반 확인 권고: 객실 내 인터넷 이용 조건 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.4",
+          "claim": "일반 확인 권고: 방문할 관광지까지 실제 이동 경로와 취소 조건 확인",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.intro.0",
+          "claim": "베스트웨스턴 플러스 전주 호텔은 전주시 완산구 현무1길 41에 있습니다. 공식 체인 소개의 전주 지점에서 주소와 호텔 시설 안내를 확인할 수 있습니다. 다른 도시의 같은 브랜드 지점과 구분해 정보를 살펴야 합니다.",
+          "source_ids": [
+            "IDENTITY",
+            "O1"
+          ]
+        },
+        {
+          "location": "blog_review.intro.1",
+          "claim": "이번에 확보한 공개 후기 검색 요약에는 혼자 여행한 이용자의 객실 상태 평가와 아이 동반 숙박 사례가 있습니다. 다만 구체적인 후기 단서가 제한적이므로, 체인 브랜드만으로 관리 수준이나 서비스 품질을 평가하지 않았습니다.",
+          "source_ids": [
+            "R12",
+            "R3"
+          ]
+        },
+        {
+          "location": "blog_review.sections.0.paragraphs.0",
+          "claim": "일부 후기 검색 요약에서는 한옥마을 근처에 머물 숙소로 이 호텔을 이용한 사례가 나옵니다. 한옥마을 관람과 전주 도심 일정을 함께 계획한다면, 실제 방문할 장소와 현무1길의 호텔 위치를 지도에서 비교해보세요.",
+          "source_ids": [
+            "R1"
+          ]
+        },
+        {
+          "location": "blog_review.sections.0.paragraphs.1",
+          "claim": "일반 확인 권고: 도심에 있다는 이유만으로 모든 교통수단이 편리하다고 단정하기는 어렵습니다. 도착할 역이나 터미널, 짐의 양과 동행인을 기준으로 숙소까지의 경로를 확인하고 도보·차량 이동을 선택하는 편이 좋습니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.1.paragraphs.0",
+          "claim": "공식 체인의 전주 지점 소개에는 레스토랑 등 시설이 안내되어 있습니다. 판매 플랫폼에는 조식 서비스·Wi-Fi·주차 가능 항목이 있지만, 이는 판매처 표기이며 현재 호텔 운영이나 무료 이용 조건을 확정한 자료는 아닙니다.",
+          "source_ids": [
+            "O1",
+            "P1"
+          ]
+        },
+        {
+          "location": "blog_review.sections.1.paragraphs.1",
+          "claim": "후기 검색 요약에는 지하 주차 공간을 이용한 사례와 아이 동반 숙박 사례가 있습니다. 객실별 구성이나 아이용품 제공 여부까지 확인된 것은 아니므로, 동행 인원에 맞는 침대와 필요한 비품은 예약할 타입에서 따로 살펴보세요.",
+          "source_ids": [
+            "R1",
+            "R3"
+          ]
+        },
+        {
+          "location": "blog_review.sections.2.paragraphs.0",
+          "claim": "주소가 함께 기재된 한 후기 검색 요약에는 객실 상태가 기대한 정도로 깔끔했다는 개인 의견이 있습니다. 객실 청결을 살펴볼 참고 사례이지만, 이 한 건으로 모든 객실이나 향후 숙박의 상태를 보장할 수는 없습니다.",
+          "source_ids": [
+            "R12"
+          ]
+        },
+        {
+          "location": "blog_review.sections.2.paragraphs.1",
+          "claim": "한옥마을 근처에서 숙박한 사례와 혼자 또는 아이와 머문 사례가 있다는 점은 여행 형태를 비교할 단서입니다. 다만 구체적인 이동 시간과 객실별 체감은 충분히 확보되지 않아, 본인 일정과 예약할 객실을 기준으로 판단해야 합니다.",
+          "source_ids": [
+            "R1",
+            "R3",
+            "R12"
+          ]
+        },
+        {
+          "location": "blog_review.sections.3.paragraphs.0",
+          "claim": "일반 확인 권고: 전주 숙소를 비교할 때는 호텔 브랜드보다 위치와 실제 이용할 객실 조건을 먼저 보세요. 한옥마을 출입 지점, 도심의 식사 일정, 도착 교통편을 지도에 놓고 숙소를 오가는 경로를 비교하면 판단하기 좋습니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.3.paragraphs.1",
+          "claim": "일반 확인 권고: 같은 예산이라도 조식 포함 인원, 침대 구성, 취소 가능 기한에 따라 예약 조건이 달라질 수 있습니다. 다른 숙소에 시설이 부족하다거나 이 호텔의 관리가 더 일정하다고 볼 비교 자료는 이번에 확보되지 않았습니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.4.paragraphs.0",
+          "claim": "조식 서비스가 판매 페이지에 표시되어 있어도 실제 식사 방식과 운영일, 객실 요금 포함 여부는 각각 확인해야 합니다. 공식 단독 홈페이지 접속이 원활하지 않았다는 이유로 조식이 운영되지 않는다고 판단해서는 안 됩니다.",
+          "source_ids": [
+            "P1"
+          ]
+        },
+        {
+          "location": "blog_review.sections.4.paragraphs.1",
+          "claim": "일반 확인 권고: 차량 이용자는 주차장 위치와 진입 경로, 등록 방법과 비용 조건을 문의하세요. 인터넷 연결이 필요하다면 객실의 제공 범위도 확인하면 됩니다. 시설을 확인하는 과정과 호텔의 단점을 평가하는 일은 구분할 필요가 있습니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.5.paragraphs.0",
+          "claim": "혼자 전주를 방문하면서 도심과 한옥마을 일정에 맞는 숙소를 찾는 분이 검토할 수 있습니다. 객실 상태에 대한 한 이용자의 긍정적 의견을 참고하되 최근 객실 사진과 예약 조건도 함께 살펴보세요.",
+          "source_ids": [
+            "R12"
+          ]
+        },
+        {
+          "location": "blog_review.sections.5.paragraphs.1",
+          "claim": "아이 동반 가족이라면 관련 이용 사례를 참고하면서 침대 수와 인원 조건을 먼저 맞추는 편이 좋습니다. 필요한 비품이나 식사가 자동으로 제공된다고 기대하기보다, 가족에게 꼭 필요한 조건을 확인한 뒤 선택하세요.",
+          "source_ids": [
+            "R3"
+          ]
+        }
+      ],
+      "limitations": [
+        "공개 후기 자료는 검색 제목·검색 요약이며 원문 전체와 실제 투숙 사실은 확인하지 않았습니다. 특정 객실·건물·시기의 개인 사례를 전 객실이나 현재 운영 정책으로 일반화하지 않았습니다.",
+        "true/false/unknown은 이번 자료에서의 확인 상태입니다. unknown이나 판매처 플랜의 미포함을 호텔 서비스 미제공으로 해석하지 않습니다. 호텔에 직접 사실 확인을 요청하지 않았습니다.",
+        "조식 운영과 예약 요금의 식사 포함 여부를 구분했습니다. 현재 가격·시간·차량 조건·객실 비품은 예약처 또는 호텔에 별도로 확인해야 합니다.",
+        "편집 사항: 체인 브랜드이므로 시설 관리가 일정하거나 표준화된 설계를 따른다는 근거 없는 추정 삭제",
+        "편집 사항: 주소만으로 대중교통·도로망 접근성을 단정한 문장 삭제",
+        "편집 사항: 다른 숙소보다 야간 이동·식사가 유리하다는 비교와 냉난방·엘리베이터 설비 추정 삭제",
+        "편집 사항: 한옥 전망 여부를 확인하지 않고 비추천한 문장 삭제",
+        "편집 사항: 공식 검증 상 미확인이라는 내부 용어를 독자용 예약 확인 안내로 정리"
+      ]
+    },
+    {
+      "slug": "jeonbuk-1163068",
+      "hotelName": "라마다 바이 윈덤 군산",
+      "address": "전북특별자치도 군산시 대학로 400",
+      "beforeHash": "de18c2fef0ea005791752557b23f6cf667e4462e0cb910f9b69b8bf2d152a1bd",
+      "afterHash": "c3975153e9498890e880f2a7e842c0000c8cf1c528b3bf1d933d14e6518b589b",
+      "reviewedDraftHash": "15c49f7fe229cbec47dcfd090a39aee0f80496a0b66f55f539c916ca5d12a614",
+      "bodyCharacters": 1624,
+      "imageEdits": [
+        "Banquet serving photo replaced with existing same-hotel dining room photo"
+      ],
+      "facilityVerification": {
+        "breakfastOperating": true,
+        "breakfastIncludedInPlan": "unknown",
+        "wifiAvailable": "unknown",
+        "parkingAvailable": "unknown",
+        "checkedAt": "2026-10-25",
+        "sourceUrls": [
+          "https://www.ramadagunsan.com/view/index.do",
+          "https://www.ramadagunsan.com/view/viewLink.do?page=homepage/KOR/dining/lago"
+        ]
+      },
+      "referenceLinks": [
+        {
+          "title": "라마다 바이 윈덤 군산 공식 호텔·시설 안내",
+          "url": "https://www.ramadagunsan.com/view/index.do",
+          "source": "official"
+        },
+        {
+          "title": "라마다 바이 윈덤 군산 공식 상세 안내",
+          "url": "https://www.ramadagunsan.com/view/viewLink.do?page=homepage/KOR/dining/lago",
+          "source": "official"
+        },
+        {
+          "title": "군산 호텔 추천 | 라마다 바이 윈덤 군산 후기(은파호수공원 숲뷰 객....",
+          "url": "https://blog.naver.com/a1701yeji/224431639523",
+          "source": "naver_blog"
+        },
+        {
+          "title": "군산 라마다호텔 디럭스 더블 후기 조식 주차 군산 숙소 추천",
+          "url": "https://blog.naver.com/hana910125/224430426503",
+          "source": "naver_blog"
+        },
+        {
+          "title": "군산 숙소 추천 '라마다바이윈덤 군산', 근처 은파호수공원 자전거 ....",
+          "url": "https://blog.naver.com/ildandairy/224419042094",
+          "source": "naver_blog"
+        },
+        {
+          "title": "군산여행 디럭스 패밀리 트윈룸 라마다 바이 윈덤 군산",
+          "url": "https://blog.naver.com/wayt00/224295347085",
+          "source": "naver_blog"
+        }
+      ],
+      "evidenceTrace": [
+        {
+          "location": "summary",
+          "claim": "라마다 바이 윈덤 군산은 군산시 대학로 400에 있는 호텔입니다. 공식 안내에는 여러 객실 타입과 1층 Lago 조식 뷔페가 소개됩니다. 공개 후기 검색 요약에는 은파호수공원 산책과 지상 주차 공간을 이용한 사례가 있어, 객실 조건과 실제 여행 동선을 함께 살펴볼 수 있습니다.",
+          "source_ids": [
+            "IDENTITY",
+            "O1",
+            "O2",
+            "R8"
+          ]
+        },
+        {
+          "location": "pros.0",
+          "claim": "일부 후기 검색 요약에 은파호수공원 산책을 함께한 이용 사례가 있습니다.",
+          "source_ids": [
+            "R8"
+          ]
+        },
+        {
+          "location": "pros.1",
+          "claim": "공식 안내에서 1층 Lago의 조식 뷔페 운영을 확인할 수 있습니다.",
+          "source_ids": [
+            "O2"
+          ]
+        },
+        {
+          "location": "pros.2",
+          "claim": "공식 객실 메뉴에 스탠다드·패밀리 트윈·온돌 등 구성이 나뉘어 있습니다.",
+          "source_ids": [
+            "O1"
+          ]
+        },
+        {
+          "location": "recommended_for.0",
+          "claim": "일반 확인 권고: 은파호수공원 방문을 일정에 넣고 숙소 위치를 비교하는 분",
+          "source_ids": []
+        },
+        {
+          "location": "recommended_for.1",
+          "claim": "일반 확인 권고: 온돌과 침대 객실 중 동행인에게 맞는 타입을 고르려는 분",
+          "source_ids": []
+        },
+        {
+          "location": "recommended_for.2",
+          "claim": "일반 확인 권고: 숙소에서 아침 식사를 할 계획으로 조식 플랜을 비교하는 분",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.0",
+          "claim": "일반 확인 권고: Lago 조식 운영 일정과 예약 플랜의 식사 포함 인원 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.1",
+          "claim": "일반 확인 권고: 객실 타입별 침대 구성·인원·전망 조건 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.2",
+          "claim": "일반 확인 권고: 차량 등록, 주차장 위치와 이용 요금 조건 문의",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.3",
+          "claim": "일반 확인 권고: 숙박일에 적용되는 체크인·체크아웃 시간을 예약 확인서에서 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.4",
+          "claim": "일반 확인 권고: 필요한 세면도구와 객실 인터넷 이용 조건 문의",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.intro.0",
+          "claim": "라마다 바이 윈덤 군산은 군산시 대학로 400에 있습니다. 공식 홈페이지에는 스탠다드, 패밀리 트윈, 온돌 등 객실 메뉴와 다이닝 안내가 소개되어 있습니다. 전주나 다른 지역의 라마다 지점과 주소를 구분해 확인해야 합니다.",
+          "source_ids": [
+            "IDENTITY",
+            "O1"
+          ]
+        },
+        {
+          "location": "blog_review.intro.1",
+          "claim": "공개 후기 검색 요약에는 은파호수공원 산책, 지상 주차장 이용, 디럭스 더블과 패밀리 트윈 이용 사례가 나옵니다. 객실·이동·식사 조건을 나누어 살펴보되 브랜드 이름만으로 서비스 수준을 평가하지 않았습니다.",
+          "source_ids": [
+            "R8",
+            "R3",
+            "R9"
+          ]
+        },
+        {
+          "location": "blog_review.sections.0.paragraphs.0",
+          "claim": "한 후기 검색 요약에는 숙박과 함께 은파호수공원에서 자전거를 타거나 산책한 사례가 있습니다. 공원 방문을 계획한다면 대학로의 호텔 위치와 실제 출입 경로를 함께 확인해볼 수 있습니다.",
+          "source_ids": [
+            "R8"
+          ]
+        },
+        {
+          "location": "blog_review.sections.0.paragraphs.1",
+          "claim": "일반 확인 권고: 군산 여행에서 방문할 곳이 여러 곳이라면 공원 주변 일정과 다른 관광지 일정을 나누어보세요. 호텔에서 모든 장소까지 걸어갈 수 있다고 가정하지 말고, 방문 순서와 교통수단을 맞추는 편이 좋습니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.1.paragraphs.0",
+          "claim": "공식 객실 메뉴에는 스탠다드 더블·트윈, 패밀리 트윈, 디럭스와 온돌 등이 구분되어 있습니다. 객실명만으로 공간이 넓거나 전망이 같다고 볼 수는 없으므로, 예약할 타입의 상세 구성을 확인하세요.",
+          "source_ids": [
+            "O1"
+          ]
+        },
+        {
+          "location": "blog_review.sections.1.paragraphs.1",
+          "claim": "1층 Lago는 공식 다이닝 안내에서 조식 뷔페를 소개합니다. 후기 검색 요약에는 디럭스 더블과 디럭스 패밀리 트윈을 이용한 사례도 있지만, 특정 객실의 이용 경험을 다른 타입의 상태까지 확장할 수는 없습니다.",
+          "source_ids": [
+            "O2",
+            "R3",
+            "R9"
+          ]
+        },
+        {
+          "location": "blog_review.sections.2.paragraphs.0",
+          "claim": "은파호수공원 산책과 숙박을 함께한 사례는 공원 일정을 고려하는 여행자에게 참고가 됩니다. 다만 검색 제목에 숲 전망이 언급되었다는 이유만으로 객실에서 호수와 숲이 모두 보인다고 단정하지는 않았습니다.",
+          "source_ids": [
+            "R8",
+            "R2"
+          ]
+        },
+        {
+          "location": "blog_review.sections.2.paragraphs.1",
+          "claim": "다른 후기 검색 요약에는 호텔 옆 지상 주차 공간을 이용했다는 경험이 있습니다. 차량 여행의 참고 사례로 볼 수 있으나, 현재 주차 위치나 무료 적용 범위, 항상 자리가 있다는 보장은 별도로 확인해야 합니다.",
+          "source_ids": [
+            "R8"
+          ]
+        },
+        {
+          "location": "blog_review.sections.3.paragraphs.0",
+          "claim": "일반 확인 권고: 군산 숙소를 비교할 때는 은파호수공원과 다른 관광지를 어느 순서로 방문할지 먼저 정해보세요. 각 숙소에서 실제 방문지로 가는 경로를 비교하면 도보 위주인지 차량 위주인지에 따라 선택 기준을 정리하기 좋습니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.3.paragraphs.1",
+          "claim": "일반 확인 권고: 객실은 온돌·침대 구성과 동행 인원, 식사는 조식 포함 여부를 맞추어 비교하세요. 체인 호텔이라는 이유만으로 다른 숙소보다 프런트 응대나 시설 관리가 우수하다고 평가할 비교 근거는 이번 자료에 없습니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.4.paragraphs.0",
+          "claim": "공식 안내에서 조식 뷔페 운영은 확인되지만 객실 요금에 포함되는 식사 인원은 예약 플랜에서 확인해야 합니다. 이용일의 운영 시간과 현장 추가 조건도 별도로 확인하고 과거 가격을 현재 요금으로 보지 않는 편이 좋습니다.",
+          "source_ids": [
+            "O2"
+          ]
+        },
+        {
+          "location": "blog_review.sections.4.paragraphs.1",
+          "claim": "홈페이지 일반 약관과 후기 검색 요약의 체크인·아웃 시간이 달라 특정 시각을 확정하지 않았습니다. 예약 확인서의 조건을 기준으로 확인하고, 필요한 세면도구와 주차·인터넷 이용 조건은 숙소에 문의하세요. 비품 사례의 원인을 친환경 정책으로 추정하지 않았습니다.",
+          "source_ids": [
+            "O2",
+            "R2",
+            "R9"
+          ]
+        },
+        {
+          "location": "blog_review.sections.5.paragraphs.0",
+          "claim": "은파호수공원 방문을 일정에 넣으면서 숙소 위치를 비교하려는 분이 검토할 만합니다. 후기 속 산책 경험을 참고하되 본인의 이동 수단과 실제 경로에 맞는지를 확인하는 것이 먼저입니다.",
+          "source_ids": [
+            "R8"
+          ]
+        },
+        {
+          "location": "blog_review.sections.5.paragraphs.1",
+          "claim": "가족 여행에서 온돌과 패밀리 트윈을 비교하거나 숙소에서 아침을 먹을 계획인 분도 객실·식사 조건을 살펴볼 수 있습니다. 인원과 침대, 식사 포함 범위를 확인한 뒤 같은 날짜의 다른 숙소 조건과 비교해보세요.",
+          "source_ids": [
+            "O1",
+            "O2"
+          ]
+        }
+      ],
+      "limitations": [
+        "공개 후기 자료는 검색 제목·검색 요약이며 원문 전체와 실제 투숙 사실은 확인하지 않았습니다. 특정 객실·건물·시기의 개인 사례를 전 객실이나 현재 운영 정책으로 일반화하지 않았습니다.",
+        "true/false/unknown은 이번 자료에서의 확인 상태입니다. unknown이나 판매처 플랜의 미포함을 호텔 서비스 미제공으로 해석하지 않습니다. 호텔에 직접 사실 확인을 요청하지 않았습니다.",
+        "조식 운영과 예약 요금의 식사 포함 여부를 구분했습니다. 현재 가격·시간·차량 조건·객실 비품은 예약처 또는 호텔에 별도로 확인해야 합니다.",
+        "편집 사항: 공식 출처에 없는 4성급 분류는 이번 원고에서 제외",
+        "편집 사항: 호수·숲 조망 및 고요함을 객실 전체 특성으로 확대하지 않도록 수정",
+        "편집 사항: 체계적인 프런트·규격화 설비 보장, 타 숙소보다 우수하다는 비교 삭제",
+        "편집 사항: 일회용품 사례 원인을 친환경 정책으로 추정한 표현 삭제",
+        "편집 사항: 자료에 없는 구도심 관광지와의 거리로 비추천한 내용 삭제"
+      ]
+    },
+    {
+      "slug": "jeonbuk-895438",
+      "hotelName": "에이본 호텔",
+      "address": "전북특별자치도 군산시 해망로 10",
+      "beforeHash": "a3efd1098ed8af2f77078deb0c8d3e436c2c9a6c44cffeb8f6b32d305bbc322a",
+      "afterHash": "cce2c61c91eec86dca0f4e38af698aa0eae513fa7946ef7497e74e0034c4c30c",
+      "reviewedDraftHash": "e6eee1e8fa094e668ad945c6eb4dd4127b82793085d352e64bface682b47f1ef",
+      "bodyCharacters": 1624,
+      "imageEdits": [
+        "Food-serving photo replaced with existing same-hotel dining room photo"
+      ],
+      "facilityVerification": {
+        "breakfastOperating": true,
+        "breakfastIncludedInPlan": "unknown",
+        "wifiAvailable": "unknown",
+        "parkingAvailable": "unknown",
+        "checkedAt": "2026-10-25",
+        "sourceUrls": [
+          "https://www.avonhotel.co.kr/s-square",
+          "https://www.avonhotel.co.kr/contact"
+        ]
+      },
+      "referenceLinks": [
+        {
+          "title": "에이본 호텔 공식 호텔·시설 안내",
+          "url": "https://www.avonhotel.co.kr/s-square",
+          "source": "official"
+        },
+        {
+          "title": "에이본 호텔 공식 상세 안내",
+          "url": "https://www.avonhotel.co.kr/contact",
+          "source": "official"
+        },
+        {
+          "title": "군산여행 숙소2 에이본호텔 조식포함",
+          "url": "https://blog.naver.com/stella63/224435578042",
+          "source": "naver_blog"
+        },
+        {
+          "title": "[군산호텔] 군산 에이본호텔 숙박 후기｜군산 시내 호텔 객실·주차....",
+          "url": "https://blog.naver.com/slsm19/224380004901",
+          "source": "naver_blog"
+        },
+        {
+          "title": "군산 에이본호텔 디럭스 패밀리 트윈룸 숙박 후기",
+          "url": "https://blog.naver.com/du2647/224365499269",
+          "source": "naver_blog"
+        },
+        {
+          "title": "군산 에이본호텔 디럭스 온돌룸 아기랑 방문후기",
+          "url": "https://blog.naver.com/shhr1992/224359790645",
+          "source": "naver_blog"
+        },
+        {
+          "title": "군산 에이본호텔｜가족여행 숙소 슈페리어 더블룸·트윈룸부터 조....",
+          "url": "https://blog.naver.com/yjbstory/224436275990",
+          "source": "naver_blog"
+        }
+      ],
+      "evidenceTrace": [
+        {
+          "location": "summary",
+          "claim": "에이본 호텔은 군산시 해망로 10에 있으며 공식 안내에서 조식 뷔페를 소개합니다. 공개 후기 검색 요약에는 패밀리 트윈과 온돌룸 이용, 주차 공간을 이용한 경험이 있습니다. 전망과 객실 구성은 타입별로 살피고 식사·주차 조건은 숙박일 기준으로 확인하세요.",
+          "source_ids": [
+            "IDENTITY",
+            "O1",
+            "R9",
+            "R10"
+          ]
+        },
+        {
+          "location": "pros.0",
+          "claim": "한 후기 검색 요약에서 군산 시내에 있어 이동하기 편했다는 개인 의견이 있습니다.",
+          "source_ids": [
+            "R8"
+          ]
+        },
+        {
+          "location": "pros.1",
+          "claim": "공식 레스토랑 안내에서 조식 뷔페 운영을 확인할 수 있습니다.",
+          "source_ids": [
+            "O1"
+          ]
+        },
+        {
+          "location": "pros.2",
+          "claim": "디럭스 패밀리 트윈과 온돌룸을 가족과 이용한 사례가 있습니다.",
+          "source_ids": [
+            "R9",
+            "R10"
+          ]
+        },
+        {
+          "location": "cons.0",
+          "claim": "한 후기 검색 요약에 행사 시기 객실이 붐볐다는 사례가 있습니다. 상시 혼잡을 의미하는 것은 아닙니다.",
+          "source_ids": [
+            "R12"
+          ]
+        },
+        {
+          "location": "recommended_for.0",
+          "claim": "일반 확인 권고: 해망로의 호텔 위치와 실제 방문지까지 동선을 비교하려는 분",
+          "source_ids": []
+        },
+        {
+          "location": "recommended_for.1",
+          "claim": "일반 확인 권고: 패밀리 트윈과 온돌룸 등 가족용 객실 이용 사례를 참고하려는 분",
+          "source_ids": []
+        },
+        {
+          "location": "recommended_for.2",
+          "claim": "일반 확인 권고: 호텔 내 조식 뷔페 이용을 계획하는 분",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.0",
+          "claim": "일반 확인 권고: 조식 운영 일정과 예약 플랜의 식사 포함 인원 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.1",
+          "claim": "일반 확인 권고: 객실 타입의 침대 수·기준 인원과 전망 구분 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.2",
+          "claim": "일반 확인 권고: 주차장 위치, 진입 경로와 차량 등록 조건 문의",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.3",
+          "claim": "일반 확인 권고: 필요한 세면도구와 객실 인터넷 이용 조건 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.4",
+          "claim": "일반 확인 권고: 행사 기간에 방문한다면 도착 시간과 숙소 이용 동선 확인",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.intro.0",
+          "claim": "에이본 호텔은 군산시 해망로 10에 있습니다. 공식 오시는 길과 레스토랑 안내의 주소가 일치하며, 조식 뷔페 운영을 확인할 수 있습니다. 다른 장소와 혼동하지 않도록 상호와 도로명을 함께 살펴야 합니다.",
+          "source_ids": [
+            "IDENTITY",
+            "O1",
+            "O2"
+          ]
+        },
+        {
+          "location": "blog_review.intro.1",
+          "claim": "공개 후기 검색 요약에는 객실이 깔끔했다는 개인 의견과 패밀리 트윈·온돌룸 이용, 주차 경험이 나옵니다. 위치만으로 대중교통이나 야간 이동의 편리함을 단정하지 않고 객실별 사례와 예약 확인사항을 나누었습니다.",
+          "source_ids": [
+            "R8",
+            "R9",
+            "R10"
+          ]
+        },
+        {
+          "location": "blog_review.sections.0.paragraphs.0",
+          "claim": "한 후기 검색 요약에는 군산 시내에 있어 이동하기 편했다는 의견이 있습니다. 이는 해당 이용자의 동선에서 나온 평가이므로, 여행할 장소와 도착 교통편을 호텔 위치에 놓고 직접 경로를 비교하는 편이 좋습니다.",
+          "source_ids": [
+            "R8"
+          ]
+        },
+        {
+          "location": "blog_review.sections.0.paragraphs.1",
+          "claim": "일반 확인 권고: 해망로 10이라는 주소만으로 모든 관광지와 가깝거나 버스 이용이 편하다고 확정할 수는 없습니다. 방문할 식당과 관광지를 지도에 표시하고 도보·택시·차량 중 어떤 이동 방식이 맞을지 살펴보세요.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.1.paragraphs.0",
+          "claim": "후기 검색 요약에는 디럭스 패밀리 트윈과 디럭스 온돌룸을 이용한 사례가 있습니다. 가족 여행이라면 해당 객실명만 보지 말고 예약 화면에서 침대 구성과 기준·최대 인원, 추가 인원 조건을 확인하는 편이 좋습니다.",
+          "source_ids": [
+            "R9",
+            "R10"
+          ]
+        },
+        {
+          "location": "blog_review.sections.1.paragraphs.1",
+          "claim": "공식 레스토랑 안내에는 조식 뷔페가 소개됩니다. 일부 후기 검색 요약에는 주차 공간을 이용한 경험도 있으나, 시설 소개와 특정 이용자의 주차 경험을 같은 수준의 운영 정책으로 취급하지는 않았습니다.",
+          "source_ids": [
+            "O1",
+            "R10"
+          ]
+        },
+        {
+          "location": "blog_review.sections.2.paragraphs.0",
+          "claim": "디럭스 패밀리 트윈을 이용한 한 후기 검색 요약에는 객실이 넓어 가족이나 친구와 지내기 좋았다는 의견이 있습니다. 같은 호텔이어도 객실 타입에 따라 공간과 침대 구성이 달라질 수 있으므로 개별 사례로 참고하세요.",
+          "source_ids": [
+            "R9"
+          ]
+        },
+        {
+          "location": "blog_review.sections.2.paragraphs.1",
+          "claim": "다른 후기 검색 요약에는 호텔 뒤편 지상 주차 공간을 이용한 사례가 나옵니다. 차량 이용자에게 참고가 되는 내용이지만 현재 진입 위치와 등록·요금 조건은 예약할 날짜에 맞춰 확인해야 합니다.",
+          "source_ids": [
+            "R10"
+          ]
+        },
+        {
+          "location": "blog_review.sections.3.paragraphs.0",
+          "claim": "일반 확인 권고: 군산 숙소를 비교할 때는 실제 방문지와 호텔 간 이동 경로, 가족에게 필요한 객실 구성을 먼저 맞추어보세요. 이 호텔의 패밀리·온돌 이용 사례는 참고가 되지만 다른 숙소보다 객실이나 서비스가 우수하다는 근거는 아닙니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.3.paragraphs.1",
+          "claim": "전망을 중요하게 본다면 객실 사진과 전망 표기를 따로 확인하세요. 한 후기의 주차장 전망 경험만으로 모든 객실에 자연 풍경이 없다고 볼 수는 없으며, 사진 속 방과 예약할 타입이 같은지도 대조할 필요가 있습니다.",
+          "source_ids": [
+            "R7"
+          ]
+        },
+        {
+          "location": "blog_review.sections.4.paragraphs.0",
+          "claim": "조식 뷔페 운영 여부와 객실 플랜의 식사 포함 여부는 별도로 살펴야 합니다. 공식 페이지에 기간 한정 프로모션이 있어도 상시 혜택으로 생각하지 말고, 투숙일과 인원별로 적용되는 조건을 확인하세요.",
+          "source_ids": [
+            "O1"
+          ]
+        },
+        {
+          "location": "blog_review.sections.4.paragraphs.1",
+          "claim": "후기 검색 요약에는 행사 시기 객실이 붐볐다는 사례와 특정 비품을 사용하지 못했다는 사례가 있습니다. 이를 상시 혼잡이나 호텔 전체의 비품 부재로 확대하지 말고, 방문 시기와 필요한 물품을 알려 현재 조건을 문의하는 편이 좋습니다.",
+          "source_ids": [
+            "R12",
+            "R7"
+          ]
+        },
+        {
+          "location": "blog_review.sections.5.paragraphs.0",
+          "claim": "가족이나 동반자와 군산을 방문하면서 패밀리 트윈과 온돌을 비교하려는 분이 살펴볼 만합니다. 객실 공간에 대한 개인 의견을 참고하되 동행 인원과 필요한 침대 구성이 실제 예약 조건에 맞는지 확인하세요.",
+          "source_ids": [
+            "R9",
+            "R10"
+          ]
+        },
+        {
+          "location": "blog_review.sections.5.paragraphs.1",
+          "claim": "호텔 안에서 아침을 먹고 일정을 시작하려는 분은 조식 운영과 포함 플랜을 함께 검토할 수 있습니다. 차를 이용한다면 주차 조건을, 인터넷이 필요하다면 객실 내 제공 범위를 문의하고 방문지까지 동선도 따로 살펴보세요.",
+          "source_ids": [
+            "O1"
+          ]
+        }
+      ],
+      "limitations": [
+        "공개 후기 자료는 검색 제목·검색 요약이며 원문 전체와 실제 투숙 사실은 확인하지 않았습니다. 특정 객실·건물·시기의 개인 사례를 전 객실이나 현재 운영 정책으로 일반화하지 않았습니다.",
+        "true/false/unknown은 이번 자료에서의 확인 상태입니다. unknown이나 판매처 플랜의 미포함을 호텔 서비스 미제공으로 해석하지 않습니다. 호텔에 직접 사실 확인을 요청하지 않았습니다.",
+        "조식 운영과 예약 요금의 식사 포함 여부를 구분했습니다. 현재 가격·시간·차량 조건·객실 비품은 예약처 또는 호텔에 별도로 확인해야 합니다.",
+        "편집 사항: 군산 시내 간선도로·대중교통·야간 이동 편리함을 단정한 문장 삭제",
+        "편집 사항: 한 사례의 주차장 전망을 호텔 전체 비추천 사유로 확대한 내용 삭제",
+        "편집 사항: 주차 공간과 객실 청결은 공식 정보가 아닌 후기 검색 요약 사례로 명확히 구분",
+        "편집 사항: 다른 소규모 숙소보다 프런트·시설이 표준화되어 우수하다는 비교 삭제",
+        "편집 사항: 행사 시기 객실 혼잡을 로비·주차장 상시 혼잡으로 확장하지 않도록 수정"
+      ]
+    },
+    {
+      "slug": "jeonbuk-336327",
+      "hotelName": "더 스위트 호텔 남원",
+      "address": "전북특별자치도 남원시 주천면 원천로 217 교원",
+      "beforeHash": "a8d384ee764182d1285119f5ff42f5603cc95e5a438564825ae156580ec3f634",
+      "afterHash": "1abb8db7ab4554b0c95ed9cd3725244433d565b8a34a06fd7657e192eaef1099",
+      "reviewedDraftHash": "3af476c2c2562c3bfd8afcae8bd88324abeb9e580e2280c2ae330dec37529775",
+      "bodyCharacters": 1624,
+      "imageEdits": [],
+      "facilityVerification": {
+        "breakfastOperating": true,
+        "breakfastIncludedInPlan": "unknown",
+        "wifiAvailable": "unknown",
+        "parkingAvailable": "unknown",
+        "checkedAt": "2026-10-25",
+        "sourceUrls": [
+          "https://www.suites.co.kr/namwon/",
+          "https://www.suites.co.kr/Namwon/Ko/RestaurantView?hotelMenuCode=40510"
+        ]
+      },
+      "referenceLinks": [
+        {
+          "title": "더 스위트 호텔 남원 공식 호텔·시설 안내",
+          "url": "https://www.suites.co.kr/namwon/",
+          "source": "official"
+        },
+        {
+          "title": "더 스위트 호텔 남원 공식 상세 안내",
+          "url": "https://www.suites.co.kr/Namwon/Ko/RestaurantView?hotelMenuCode=40510",
+          "source": "official"
+        },
+        {
+          "title": "스위트호텔남원_라테라스 조식 및 저녁에 먹은 BBQ",
+          "url": "https://blog.naver.com/yeojinqueen/224355385931",
+          "source": "naver_blog"
+        },
+        {
+          "title": "[국내] 남원 스위트 호텔",
+          "url": "https://blog.naver.com/drdam77/224405389544",
+          "source": "naver_blog"
+        },
+        {
+          "title": "[후기] 스위트호텔 남원",
+          "url": "https://blog.naver.com/michellechoo/224289330157",
+          "source": "naver_blog"
+        },
+        {
+          "title": "남원 스위트호텔 빌라동 파인 키즈패밀리룸 남원 가족여행 숙소 후....",
+          "url": "https://blog.naver.com/hrinstory/224444454003",
+          "source": "naver_blog"
+        },
+        {
+          "title": "[남원 스위트호텔] 대가족 투숙 리얼 후기! 빌라동 파인룸 부터 불멍....",
+          "url": "https://blog.naver.com/goldhj0724/224416349462",
+          "source": "naver_blog"
+        }
+      ],
+      "evidenceTrace": [
+        {
+          "location": "summary",
+          "claim": "더 스위트 호텔 남원은 주천면 원천로 217에 있으며 공식 안내에서 호텔동과 빌라동, 가든풀을 소개합니다. 공개 후기 검색 요약에는 디럭스 트리플과 빌라동 파인을 가족과 이용한 사례가 있습니다. 라테라스 조식과 부대시설 조건은 예약할 객실·플랜과 구분해 확인하세요.",
+          "source_ids": [
+            "IDENTITY",
+            "O1",
+            "O2",
+            "R8",
+            "R11"
+          ]
+        },
+        {
+          "location": "pros.0",
+          "claim": "공식 안내에서 호텔동과 빌라동, 여러 객실 타입을 구분해 살펴볼 수 있습니다.",
+          "source_ids": [
+            "O1"
+          ]
+        },
+        {
+          "location": "pros.1",
+          "claim": "공식 레스토랑 안내에 1층 라테라스 조식 뷔페가 소개되어 있습니다.",
+          "source_ids": [
+            "O2"
+          ]
+        },
+        {
+          "location": "pros.2",
+          "claim": "객실 공간을 긍정적으로 본 개인 의견과 빌라동 파인의 가족 이용 사례가 있습니다.",
+          "source_ids": [
+            "R6",
+            "R8",
+            "R10",
+            "R11"
+          ]
+        },
+        {
+          "location": "cons.0",
+          "claim": "일부 후기 검색 요약에는 야외수영장이 기대만큼 따뜻하지 않았다는 개인 경험이 있습니다. 당시 수온과 운영 조건은 확인되지 않았습니다.",
+          "source_ids": [
+            "R5"
+          ]
+        },
+        {
+          "location": "recommended_for.0",
+          "claim": "일반 확인 권고: 호텔동과 빌라동 중 가족 구성에 맞는 객실을 비교하려는 분",
+          "source_ids": []
+        },
+        {
+          "location": "recommended_for.1",
+          "claim": "일반 확인 권고: 객실 공간과 침대 구성을 우선해 남원 숙소를 고르는 분",
+          "source_ids": []
+        },
+        {
+          "location": "recommended_for.2",
+          "claim": "일반 확인 권고: 라테라스 조식이나 가든풀 이용 조건을 확인해 일정을 짜려는 분",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.0",
+          "claim": "일반 확인 권고: 호텔동·빌라동과 객실 타입, 침대 구성 및 인원 조건 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.1",
+          "claim": "일반 확인 권고: 라테라스 조식 운영과 예약 플랜의 식사 포함 인원 각각 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.2",
+          "claim": "일반 확인 권고: 가든풀 운영일과 이용 요금·연령 조건 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.3",
+          "claim": "일반 확인 권고: 배정될 건물에서 이용할 주차 위치와 차량 조건 문의",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.4",
+          "claim": "일반 확인 권고: BBQ 이용일의 운영 여부와 예약 필요 여부 확인",
+          "source_ids": []
+        },
+        {
+          "location": "check_points.5",
+          "claim": "일반 확인 권고: 남원 도착 지점에서의 이동 수단과 객실 인터넷 조건 확인",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.intro.0",
+          "claim": "더 스위트 호텔 남원은 남원시 주천면 원천로 217에 있습니다. 공식 안내에는 호텔동과 빌라동이 구분되어 있고, 디럭스·트리플·패밀리·빌라 파인 등 객실 메뉴와 가든풀 시설이 소개됩니다.",
+          "source_ids": [
+            "IDENTITY",
+            "O1"
+          ]
+        },
+        {
+          "location": "blog_review.intro.1",
+          "claim": "공개 후기 검색 요약에는 가족과 객실을 이용한 사례, 객실 공간을 긍정적으로 본 의견, 라테라스 아침 식사와 BBQ 이용 사례가 나옵니다. 특정 객실의 공간이나 전망을 호텔 전체 조건으로 확대하지 않고 예약할 타입별로 살펴봤습니다.",
+          "source_ids": [
+            "R6",
+            "R8",
+            "R11",
+            "R3"
+          ]
+        },
+        {
+          "location": "blog_review.sections.0.paragraphs.0",
+          "claim": "공식 안내에서 호텔동과 빌라동을 나누어 볼 수 있다는 점은 가족 여행의 객실 선택에 참고가 됩니다. 후기 검색 요약에도 빌라동 파인을 부모님·아이와 함께 이용한 사례가 있어, 동행 구성에 맞춰 검토할 수 있습니다.",
+          "source_ids": [
+            "O1",
+            "R8",
+            "R10"
+          ]
+        },
+        {
+          "location": "blog_review.sections.0.paragraphs.1",
+          "claim": "일반 확인 권고: 남원 도착 후 이동할 장소와 숙소를 지도에서 함께 확인하세요. 주소만으로 자차가 반드시 필요하다거나 대중교통이 불편하다고 단정할 수는 없으므로, 도착 시간과 이용 가능한 교통편을 기준으로 경로를 살펴보는 편이 좋습니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.1.paragraphs.0",
+          "claim": "공식 객실 메뉴에는 디럭스 양실, 트리플, 패밀리와 여러 빌라동 타입이 구분됩니다. 객실에 따라 침대와 공간 구성이 다를 수 있으므로, 사진 속 타입과 예약할 객실이 같은지 먼저 대조해보세요.",
+          "source_ids": [
+            "O1"
+          ]
+        },
+        {
+          "location": "blog_review.sections.1.paragraphs.1",
+          "claim": "공식 안내에서 가든풀 시설과 1층 라테라스 조식 뷔페를 확인할 수 있습니다. 시설이 소개되어 있다는 사실을 전 객실 전용 수영장, 무료 이용, 식사 자동 포함 조건으로 받아들이지는 않아야 합니다.",
+          "source_ids": [
+            "O1",
+            "O2"
+          ]
+        },
+        {
+          "location": "blog_review.sections.2.paragraphs.0",
+          "claim": "한 후기 검색 요약에는 사진에서 예상한 것보다 객실이 넓고 깔끔하게 정리되어 있었다는 의견이 있습니다. 디럭스 트리플을 아이들과 이용한 다른 사례도 있지만, 전 객실의 면적이나 가족 정원이 같다는 뜻은 아닙니다.",
+          "source_ids": [
+            "R6",
+            "R11"
+          ]
+        },
+        {
+          "location": "blog_review.sections.2.paragraphs.1",
+          "claim": "빌라동 파인을 이용한 한 후기 검색 요약에는 방 앞에 주차해 아이와 짐을 챙기기 편했다는 경험이 나옵니다. 이는 빌라동의 특정 이용 사례로, 호텔 본관의 주차 위치나 현재 이용 정책까지 설명하는 자료는 아닙니다.",
+          "source_ids": [
+            "R10"
+          ]
+        },
+        {
+          "location": "blog_review.sections.3.paragraphs.0",
+          "claim": "남원 숙소를 비교할 때는 관광지까지 이동하는 일정과 숙소 안에서 보내는 시간을 나누어보세요. 이 호텔은 호텔동·빌라동과 가든풀 시설이 안내되므로 실제 이용할 객실·시설의 조건을 기준으로 비교할 수 있습니다.",
+          "source_ids": [
+            "O1"
+          ]
+        },
+        {
+          "location": "blog_review.sections.3.paragraphs.1",
+          "claim": "일반 확인 권고: 다른 도심 숙소보다 조용하거나 산 전망이 우수하다고 볼 비교 자료는 이번에 확보되지 않았습니다. 같은 날짜와 인원으로 객실 면적, 침대 수, 식사 포함 범위와 취소 가능 여부를 맞추어보는 편이 좋습니다.",
+          "source_ids": []
+        },
+        {
+          "location": "blog_review.sections.4.paragraphs.0",
+          "claim": "라테라스 공식 안내는 조식 뷔페의 사전 예약과 당일 추가 조건을 구분합니다. 조식 운영 여부와 선택한 객실 플랜의 식사 포함 인원을 각각 확인하고, 과거 요금을 현재 조건으로 적용하지 않는 편이 좋습니다.",
+          "source_ids": [
+            "O2"
+          ]
+        },
+        {
+          "location": "blog_review.sections.4.paragraphs.1",
+          "claim": "야외수영장이 기대만큼 따뜻하지 않았다는 후기 검색 요약도 있지만 당시 수온이나 운영 상황은 확인되지 않았습니다. 이용할 날짜의 운영 여부·조건을 확인하고, BBQ 예약과 배정 건물의 주차 위치도 따로 문의하세요.",
+          "source_ids": [
+            "R5",
+            "R3",
+            "R10"
+          ]
+        },
+        {
+          "location": "blog_review.sections.5.paragraphs.0",
+          "claim": "부모님이나 아이와 함께 머물 객실을 찾으면서 호텔동과 빌라동의 차이를 비교하고 싶은 분이 검토할 만합니다. 객실이 넓었다는 의견만으로 결정하기보다 침대·정원과 필요한 비품을 가족 구성에 맞추어보세요.",
+          "source_ids": [
+            "O1",
+            "R8",
+            "R10"
+          ]
+        },
+        {
+          "location": "blog_review.sections.5.paragraphs.1",
+          "claim": "숙소에서 조식을 먹거나 가든풀을 이용할 일정이라면 시설별 운영과 요금 조건을 확인한 뒤 계획을 세우는 편이 좋습니다. 객실 인터넷이 필요하다면 제공 범위도 문의하고 관광지로 나가는 경로를 함께 살펴보세요.",
+          "source_ids": [
+            "O1",
+            "O2"
+          ]
+        }
+      ],
+      "limitations": [
+        "공개 후기 자료는 검색 제목·검색 요약이며 원문 전체와 실제 투숙 사실은 확인하지 않았습니다. 특정 객실·건물·시기의 개인 사례를 전 객실이나 현재 운영 정책으로 일반화하지 않았습니다.",
+        "true/false/unknown은 이번 자료에서의 확인 상태입니다. unknown이나 판매처 플랜의 미포함을 호텔 서비스 미제공으로 해석하지 않습니다. 호텔에 직접 사실 확인을 요청하지 않았습니다.",
+        "조식 운영과 예약 요금의 식사 포함 여부를 구분했습니다. 현재 가격·시간·차량 조건·객실 비품은 예약처 또는 호텔에 별도로 확인해야 합니다.",
+        "편집 사항: 압도적인 입지·청정한 공기·정숙성 보장 등 확인되지 않은 홍보성 표현 삭제",
+        "편집 사항: 공식 자료보다 구체적인 독채·전용 진입로와 전 객실 지리산 전망 추정 삭제",
+        "편집 사항: 자차 없으면 불편하다는 거리·교통 추정과 비추천 내용 삭제",
+        "편집 사항: 빌라 앞 주차 경험을 호텔 본관 정책과 분리",
+        "편집 사항: 수영장 수온 사례의 원인을 계절·날씨로 추정하지 않고 당시 조건 미확인으로 처리"
+      ]
+    }
+  ]
+}

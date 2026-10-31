@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-31",
+  "scope": "Five existing Chungnam hotels; Gemini original manuscript retained by explicit user request",
+  "hotelCount": 20917,
+  "changedSlugs": [
+    "chungnam-1192803",
+    "chungnam-21600464",
+    "chungnam-41330580",
+    "chungnam-41331162",
+    "chungnam-965470"
+  ],
+  "layoutChanged": false,
+  "imagesChanged": false,
+  "adsChanged": false,
+  "paidGenerationApiCalled": false,
+  "fullReviewTextsVerified": false,
+  "hotelsContacted": false,
+  "records": [
+    {
+      "slug": "chungnam-1192803",
+      "hotelName": "신라스테이 천안아산 - 삼성 디스플레이시티",
+      "originalTextSha256": "11bd83420994a914e20a618beb8cb5a86fb1b630feec05723888a4847e694126",
+      "publishedTextSha256": "11bd83420994a914e20a618beb8cb5a86fb1b630feec05723888a4847e694126",
+      "imagesUnchanged": true,
+      "agodaLinkUnchanged": true,
+      "originalFieldsMatched": true
+    },
+    {
+      "slug": "chungnam-21600464",
+      "hotelName": "롯데 리조트 부여",
+      "originalTextSha256": "6610251e07aa54c5331c215cbf87e361dfa7c47276ba4438a2809a67e0fadff1",
+      "publishedTextSha256": "6610251e07aa54c5331c215cbf87e361dfa7c47276ba4438a2809a67e0fadff1",
+      "imagesUnchanged": true,
+      "agodaLinkUnchanged": true,
+      "originalFieldsMatched": true
+    },
+    {
+      "slug": "chungnam-965470",
+      "hotelName": "온양관광호텔",
+      "originalTextSha256": "5c9d70549c820aee7297300c4c366f1ba4d104f8f57773f3c4f3af44b079ee9a",
+      "publishedTextSha256": "5c9d70549c820aee7297300c4c366f1ba4d104f8f57773f3c4f3af44b079ee9a",
+      "imagesUnchanged": true,
+      "agodaLinkUnchanged": true,
+      "originalFieldsMatched": true
+    },
+    {
+      "slug": "chungnam-41330580",
+      "hotelName": "스플라스 리솜",
+      "originalTextSha256": "87fc12ffd1a566e97c2fd2f6dbfea01ab33db23098e8113b7859391ee07b4a4e",
+      "publishedTextSha256": "87fc12ffd1a566e97c2fd2f6dbfea01ab33db23098e8113b7859391ee07b4a4e",
+      "imagesUnchanged": true,
+      "agodaLinkUnchanged": true,
+      "originalFieldsMatched": true
+    },
+    {
+      "slug": "chungnam-41331162",
+      "hotelName": "아일랜드 리솜",
+      "originalTextSha256": "56a4a3a10cbae8189adf31f6e1a0c0acec110e5c85c750e0dfec0e9e819c831b",
+      "publishedTextSha256": "56a4a3a10cbae8189adf31f6e1a0c0acec110e5c85c750e0dfec0e9e819c831b",
+      "imagesUnchanged": true,
+      "agodaLinkUnchanged": true,
+      "originalFieldsMatched": true
+    }
+  ]
+}

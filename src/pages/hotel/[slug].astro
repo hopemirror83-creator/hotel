@@ -300,6 +300,9 @@ const useReviewedAnalysis = (hotel as Hotel & { useReviewedAnalysis?: boolean })
 const searchIntent = useReviewedAnalysis
   ? { ...regionalSearchIntent, faqs: regionalSearchIntent?.faqs ?? [], title: analysis.seoTitle, seoTitle: analysis.seoTitle, metaDescription: analysis.metaDescription, recommendedFor: analysis.recommendedFor, notRecommendedFor: analysis.notRecommendedFor }
   : regionalSearchIntent;
+const displayFaqs = (hotel as Hotel & {
+  faqOverrides?: Array<{ category: string; question: string; answer: string }>;
+}).faqOverrides ?? searchIntent?.faqs ?? [];
 const baseLongtailHeading = buildLongtailHeading(hotel, analysis);
 const rawLongtailHeading = searchIntent?.title ?? baseLongtailHeading;
 const longtailHeading = enrichLongtailHeading(hotel, analysis, rawLongtailHeading, searchIntent);
@@ -1299,7 +1302,7 @@ function hasKoreanBatchim(value = '') {
           <h2>{hotel.hotelName} 예약 전 FAQ</h2>
         </div>
         <div class="faq-list">
-          {searchIntent.faqs.map((faq) => (
+          {displayFaqs.map((faq) => (
             <article class="faq-item">
               <span>{faq.category}</span>
               <h3>{faq.question}</h3>
